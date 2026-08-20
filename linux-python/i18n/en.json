@@ -1,0 +1,222 @@
+{
+  "toolbox_name": "Linux Hardware",
+  "toolbox_categories": [
+    "IO and peripherals",
+    "Camera",
+    "Audio"
+  ],
+  "toolbox_labels": {
+    "IO and peripherals": "IO and peripherals",
+    "Camera": "Camera",
+    "Audio": "Audio"
+  },
+  "linux_gpio_init": {
+    "message0": "initialize GPIO %1 pin %2 direction %3 pull %4",
+    "tooltip": "Create a gpiozero digital pin.",
+    "args0": [
+      null,
+      null,
+      {
+        "options": [
+          [
+            "input",
+            "INPUT"
+          ],
+          [
+            "output",
+            "OUTPUT"
+          ]
+        ]
+      },
+      {
+        "options": [
+          [
+            "none",
+            "NONE"
+          ],
+          [
+            "up",
+            "UP"
+          ],
+          [
+            "down",
+            "DOWN"
+          ]
+        ]
+      }
+    ]
+  },
+  "linux_gpio_write": {
+    "message0": "set GPIO %1 to %2",
+    "tooltip": "set GPIO %1 to %2",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "linux_gpio_read": {
+    "message0": "GPIO %1 value",
+    "tooltip": "GPIO %1 value",
+    "args0": [
+      null
+    ]
+  },
+  "linux_gpio_close": {
+    "message0": "close GPIO %1",
+    "tooltip": "close GPIO %1",
+    "args0": [
+      null
+    ]
+  },
+  "linux_led_write": {
+    "message0": "set onboard LED to %1",
+    "tooltip": "set onboard LED to %1",
+    "args0": [
+      null
+    ]
+  },
+  "linux_key_pressed": {
+    "message0": "onboard key is pressed",
+    "tooltip": "onboard key is pressed"
+  },
+  "linux_pwm_init": {
+    "message0": "initialize PWM %1 pin %2 frequency %3 Hz",
+    "tooltip": "initialize PWM %1 pin %2 frequency %3 Hz",
+    "args0": [
+      null,
+      null,
+      null
+    ]
+  },
+  "linux_pwm_duty": {
+    "message0": "set PWM %1 duty cycle %2 (0-1)",
+    "tooltip": "set PWM %1 duty cycle %2 (0-1)",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "linux_pwm_close": {
+    "message0": "close PWM %1",
+    "tooltip": "close PWM %1",
+    "args0": [
+      null
+    ]
+  },
+  "linux_uart_init": {
+    "message0": "initialize serial %1 device %2 baud %3",
+    "tooltip": "initialize serial %1 device %2 baud %3",
+    "args0": [
+      null,
+      null,
+      {
+        "options": [
+          [
+            "9600",
+            "9600"
+          ],
+          [
+            "19200",
+            "19200"
+          ],
+          [
+            "38400",
+            "38400"
+          ],
+          [
+            "57600",
+            "57600"
+          ],
+          [
+            "115200",
+            "115200"
+          ]
+        ]
+      }
+    ]
+  },
+  "linux_uart_available": {
+    "message0": "serial %1 bytes available",
+    "tooltip": "serial %1 bytes available",
+    "args0": [
+      null
+    ]
+  },
+  "linux_uart_read": {
+    "message0": "serial %1 read %2 bytes",
+    "tooltip": "serial %1 read %2 bytes",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "linux_uart_write": {
+    "message0": "serial %1 write %2",
+    "tooltip": "serial %1 write %2",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "linux_uart_flush": {
+    "message0": "flush serial %1 input",
+    "tooltip": "flush serial %1 input",
+    "args0": [
+      null
+    ]
+  },
+  "linux_uart_close": {
+    "message0": "close serial %1",
+    "tooltip": "close serial %1",
+    "args0": [
+      null
+    ]
+  },
+  "linux_camera_init": {
+    "message0": "initialize camera %1 device %2 width %3 height %4",
+    "tooltip": "initialize camera %1 device %2 width %3 height %4",
+    "args0": [
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "linux_camera_opened": {
+    "message0": "camera %1 is open",
+    "tooltip": "camera %1 is open",
+    "args0": [
+      null
+    ]
+  },
+  "linux_camera_read": {
+    "message0": "camera %1 image",
+    "tooltip": "camera %1 image",
+    "args0": [
+      null
+    ]
+  },
+  "linux_camera_release": {
+    "message0": "release camera %1",
+    "tooltip": "release camera %1",
+    "args0": [
+      null
+    ]
+  },
+  "linux_audio_play": {
+    "message0": "play WAV file %1",
+    "tooltip": "play WAV file %1",
+    "args0": [
+      null
+    ]
+  },
+  "linux_audio_record": {
+    "message0": "record WAV to %1 seconds %2 sample rate %3",
+    "tooltip": "record WAV to %1 seconds %2 sample rate %3",
+    "args0": [
+      null,
+      null,
+      null
+    ]
+  }
+}

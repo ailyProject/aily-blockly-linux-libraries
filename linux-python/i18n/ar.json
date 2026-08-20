@@ -1,0 +1,222 @@
+{
+  "toolbox_name": "عتاد لينكس",
+  "toolbox_categories": [
+    "الإدخال والإخراج",
+    "الكاميرا",
+    "الصوت"
+  ],
+  "toolbox_labels": {
+    "IO and peripherals": "الإدخال والإخراج",
+    "Camera": "الكاميرا",
+    "Audio": "الصوت"
+  },
+  "linux_gpio_init": {
+    "message0": "هيئ GPIO %1 الطرف %2 الاتجاه %3 السحب %4",
+    "tooltip": "إنشاء طرف رقمي باستخدام gpiozero.",
+    "args0": [
+      null,
+      null,
+      {
+        "options": [
+          [
+            "إدخال",
+            "INPUT"
+          ],
+          [
+            "إخراج",
+            "OUTPUT"
+          ]
+        ]
+      },
+      {
+        "options": [
+          [
+            "بلا",
+            "NONE"
+          ],
+          [
+            "رفع",
+            "UP"
+          ],
+          [
+            "خفض",
+            "DOWN"
+          ]
+        ]
+      }
+    ]
+  },
+  "linux_gpio_write": {
+    "message0": "عيّن GPIO %1 إلى %2",
+    "tooltip": "عيّن GPIO %1 إلى %2",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "linux_gpio_read": {
+    "message0": "قيمة GPIO %1",
+    "tooltip": "قيمة GPIO %1",
+    "args0": [
+      null
+    ]
+  },
+  "linux_gpio_close": {
+    "message0": "أغلق GPIO %1",
+    "tooltip": "أغلق GPIO %1",
+    "args0": [
+      null
+    ]
+  },
+  "linux_led_write": {
+    "message0": "عيّن مؤشر LED المدمج إلى %1",
+    "tooltip": "عيّن مؤشر LED المدمج إلى %1",
+    "args0": [
+      null
+    ]
+  },
+  "linux_key_pressed": {
+    "message0": "المفتاح المدمج مضغوط",
+    "tooltip": "المفتاح المدمج مضغوط"
+  },
+  "linux_pwm_init": {
+    "message0": "هيئ PWM %1 الطرف %2 التردد %3 هرتز",
+    "tooltip": "هيئ PWM %1 الطرف %2 التردد %3 هرتز",
+    "args0": [
+      null,
+      null,
+      null
+    ]
+  },
+  "linux_pwm_duty": {
+    "message0": "عيّن دورة PWM %1 إلى %2 (0–1)",
+    "tooltip": "عيّن دورة PWM %1 إلى %2 (0–1)",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "linux_pwm_close": {
+    "message0": "أغلق PWM %1",
+    "tooltip": "أغلق PWM %1",
+    "args0": [
+      null
+    ]
+  },
+  "linux_uart_init": {
+    "message0": "هيئ المنفذ التسلسلي %1 الجهاز %2 السرعة %3",
+    "tooltip": "هيئ المنفذ التسلسلي %1 الجهاز %2 السرعة %3",
+    "args0": [
+      null,
+      null,
+      {
+        "options": [
+          [
+            "9600",
+            "9600"
+          ],
+          [
+            "19200",
+            "19200"
+          ],
+          [
+            "38400",
+            "38400"
+          ],
+          [
+            "57600",
+            "57600"
+          ],
+          [
+            "115200",
+            "115200"
+          ]
+        ]
+      }
+    ]
+  },
+  "linux_uart_available": {
+    "message0": "البايتات المتاحة من المنفذ %1",
+    "tooltip": "البايتات المتاحة من المنفذ %1",
+    "args0": [
+      null
+    ]
+  },
+  "linux_uart_read": {
+    "message0": "اقرأ %2 بايت من المنفذ %1",
+    "tooltip": "اقرأ %2 بايت من المنفذ %1",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "linux_uart_write": {
+    "message0": "اكتب %2 إلى المنفذ %1",
+    "tooltip": "اكتب %2 إلى المنفذ %1",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "linux_uart_flush": {
+    "message0": "امسح مخزن إدخال المنفذ %1",
+    "tooltip": "امسح مخزن إدخال المنفذ %1",
+    "args0": [
+      null
+    ]
+  },
+  "linux_uart_close": {
+    "message0": "أغلق المنفذ %1",
+    "tooltip": "أغلق المنفذ %1",
+    "args0": [
+      null
+    ]
+  },
+  "linux_camera_init": {
+    "message0": "هيئ الكاميرا %1 الجهاز %2 العرض %3 الارتفاع %4",
+    "tooltip": "هيئ الكاميرا %1 الجهاز %2 العرض %3 الارتفاع %4",
+    "args0": [
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "linux_camera_opened": {
+    "message0": "الكاميرا %1 مفتوحة",
+    "tooltip": "الكاميرا %1 مفتوحة",
+    "args0": [
+      null
+    ]
+  },
+  "linux_camera_read": {
+    "message0": "صورة الكاميرا %1",
+    "tooltip": "صورة الكاميرا %1",
+    "args0": [
+      null
+    ]
+  },
+  "linux_camera_release": {
+    "message0": "حرّر الكاميرا %1",
+    "tooltip": "حرّر الكاميرا %1",
+    "args0": [
+      null
+    ]
+  },
+  "linux_audio_play": {
+    "message0": "شغّل ملف WAV %1",
+    "tooltip": "شغّل ملف WAV %1",
+    "args0": [
+      null
+    ]
+  },
+  "linux_audio_record": {
+    "message0": "سجّل WAV إلى %1 ثوانٍ %2 معدل %3",
+    "tooltip": "سجّل WAV إلى %1 ثوانٍ %2 معدل %3",
+    "args0": [
+      null,
+      null,
+      null
+    ]
+  }
+}

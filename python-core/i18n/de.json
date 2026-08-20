@@ -1,0 +1,571 @@
+{
+  "toolbox_name": "Python-Kern",
+  "toolbox_categories": [
+    "Programm",
+    "OpenCV und Codes",
+    "Netzwerk",
+    "Dateien und System"
+  ],
+  "toolbox_labels": {
+    "Program": "Programm",
+    "OpenCV and codes": "OpenCV und Codes",
+    "Network": "Netzwerk",
+    "Files and system": "Dateien und System"
+  },
+  "python_start": {
+    "message0": "wenn das Programm startet %1 %2",
+    "tooltip": "Beim Start des Programms einmal ausführen.",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_forever": {
+    "message0": "endlos wiederholen %1 %2",
+    "tooltip": "Die enthaltenen Blöcke wiederholt ausführen.",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_sleep": {
+    "message0": "%1 Sekunden warten",
+    "tooltip": "Das Programm für die angegebene Anzahl Sekunden anhalten.",
+    "args0": [
+      null
+    ]
+  },
+  "python_print": {
+    "message0": "%1 ausgeben",
+    "tooltip": "%1 ausgeben",
+    "args0": [
+      null
+    ]
+  },
+  "python_number": {
+    "message0": "Zahl %1",
+    "tooltip": "Zahl %1",
+    "args0": [
+      null
+    ]
+  },
+  "python_text": {
+    "message0": "Textwert %1",
+    "tooltip": "Textwert %1",
+    "args0": [
+      null
+    ]
+  },
+  "python_boolean": {
+    "message0": "Boolesch %1",
+    "tooltip": "Boolesch %1",
+    "args0": [
+      {
+        "options": [
+          [
+            "wahr",
+            "TRUE"
+          ],
+          [
+            "falsch",
+            "FALSE"
+          ]
+        ]
+      }
+    ]
+  },
+  "python_tuple": {
+    "message0": "Tupel mit %1",
+    "tooltip": "Tupel mit %1",
+    "args0": [
+      null
+    ]
+  },
+  "python_list": {
+    "message0": "Liste mit %1",
+    "tooltip": "Liste mit %1",
+    "args0": [
+      null
+    ]
+  },
+  "python_set_variable": {
+    "message0": "Variable %1 auf %2 setzen",
+    "tooltip": "Variable %1 auf %2 setzen",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_get_variable": {
+    "message0": "Wert der Variablen %1",
+    "tooltip": "Wert der Variablen %1",
+    "args0": [
+      null
+    ]
+  },
+  "python_if": {
+    "message0": "wenn %1 dann %2 %3",
+    "tooltip": "wenn %1 dann %2 %3",
+    "args0": [
+      null,
+      null,
+      null
+    ]
+  },
+  "python_for_each": {
+    "message0": "für jedes %1 in %2 tue %3 %4",
+    "tooltip": "für jedes %1 in %2 tue %3 %4",
+    "args0": [
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "python_image_resize": {
+    "message0": "Bild %1 auf Breite %2, Höhe %3 skalieren",
+    "tooltip": "Bild %1 auf Breite %2, Höhe %3 skalieren",
+    "args0": [
+      null,
+      null,
+      null
+    ]
+  },
+  "python_image_convert": {
+    "message0": "Bild %1 mit %2 umwandeln",
+    "tooltip": "Bild %1 mit %2 umwandeln",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "BGR → Graustufen",
+            "COLOR_BGR2GRAY"
+          ],
+          [
+            "BGR → LAB",
+            "COLOR_BGR2LAB"
+          ],
+          [
+            "BGR → RGB",
+            "COLOR_BGR2RGB"
+          ],
+          [
+            "Graustufen → BGR",
+            "COLOR_GRAY2BGR"
+          ]
+        ]
+      }
+    ]
+  },
+  "python_image_in_range": {
+    "message0": "Bild %1 mit Untergrenze %2, Obergrenze %3 maskieren",
+    "tooltip": "Bild %1 mit Untergrenze %2, Obergrenze %3 maskieren",
+    "args0": [
+      null,
+      null,
+      null
+    ]
+  },
+  "python_image_components": {
+    "message0": "Zusammenhängende Komponenten von %1, Konnektivität %2",
+    "tooltip": "Zusammenhängende Komponenten von %1, Konnektivität %2",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "4",
+            "4"
+          ],
+          [
+            "8",
+            "8"
+          ]
+        ]
+      }
+    ]
+  },
+  "python_image_load": {
+    "message0": "Bilddatei %1 laden",
+    "tooltip": "Bilddatei %1 laden",
+    "args0": [
+      null
+    ]
+  },
+  "python_image_save": {
+    "message0": "Bild %1 in Datei %2 speichern",
+    "tooltip": "Bild %1 in Datei %2 speichern",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_draw_rectangle": {
+    "message0": "Rechteck auf %1 zeichnen: von x %2, y %3 nach x %4, y %5, Farbe %6, Stärke %7",
+    "tooltip": "Rechteck auf %1 zeichnen: von x %2, y %3 nach x %4, y %5, Farbe %6, Stärke %7",
+    "args0": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "python_draw_circle": {
+    "message0": "Kreis auf %1 zeichnen: x %2, y %3, Radius %4, Farbe %5, Stärke %6",
+    "tooltip": "Kreis auf %1 zeichnen: x %2, y %3, Radius %4, Farbe %5, Stärke %6",
+    "args0": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "python_draw_line": {
+    "message0": "Linie auf %1 zeichnen: von x %2, y %3 nach x %4, y %5, Farbe %6, Stärke %7",
+    "tooltip": "Linie auf %1 zeichnen: von x %2, y %3 nach x %4, y %5, Farbe %6, Stärke %7",
+    "args0": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "python_draw_text": {
+    "message0": "Text %1 auf %2 bei x %3, y %4 zeichnen, Skala %5, Farbe %6, Stärke %7",
+    "tooltip": "Text %1 auf %2 bei x %3, y %4 zeichnen, Skala %5, Farbe %6, Stärke %7",
+    "args0": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "python_qr_decode": {
+    "message0": "QR-Codes in %1 dekodieren",
+    "tooltip": "QR-Codes in %1 dekodieren",
+    "args0": [
+      null
+    ]
+  },
+  "python_barcode_decode": {
+    "message0": "Barcodes in %1 dekodieren",
+    "tooltip": "Barcodes in %1 dekodieren",
+    "args0": [
+      null
+    ]
+  },
+  "python_apriltag_init": {
+    "message0": "AprilTag-Detektor %1 initialisieren, Familie %2",
+    "tooltip": "AprilTag-Detektor %1 initialisieren, Familie %2",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "tag16h5",
+            "tag16h5"
+          ],
+          [
+            "tag25h7",
+            "tag25h7"
+          ],
+          [
+            "tag25h9",
+            "tag25h9"
+          ],
+          [
+            "tag36h10",
+            "tag36h10"
+          ],
+          [
+            "tag36h11",
+            "tag36h11"
+          ]
+        ]
+      }
+    ]
+  },
+  "python_apriltag_detect": {
+    "message0": "AprilTag-Detektor %1 erkennt Graubild %2",
+    "tooltip": "AprilTag-Detektor %1 erkennt Graubild %2",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_socket_init": {
+    "message0": "Socket %1 initialisieren, Familie %2, Typ %3",
+    "tooltip": "Socket %1 initialisieren, Familie %2, Typ %3",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "IPv4",
+            "AF_INET"
+          ],
+          [
+            "IPv6",
+            "AF_INET6"
+          ]
+        ]
+      },
+      {
+        "options": [
+          [
+            "TCP",
+            "SOCK_STREAM"
+          ],
+          [
+            "UDP",
+            "SOCK_DGRAM"
+          ]
+        ]
+      }
+    ]
+  },
+  "python_socket_address": {
+    "message0": "Netzwerkadresse: Host %1, Port %2",
+    "tooltip": "Netzwerkadresse: Host %1, Port %2",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_socket_connect": {
+    "message0": "Socket %1 mit %2 verbinden",
+    "tooltip": "Socket %1 mit %2 verbinden",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_socket_bind": {
+    "message0": "Socket %1 an %2 binden",
+    "tooltip": "Socket %1 an %2 binden",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_socket_listen": {
+    "message0": "Socket %1 lauschen, Backlog %2",
+    "tooltip": "Socket %1 lauschen, Backlog %2",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_socket_accept": {
+    "message0": "Socket %1 Verbindung annehmen",
+    "tooltip": "Socket %1 Verbindung annehmen",
+    "args0": [
+      null
+    ]
+  },
+  "python_socket_send": {
+    "message0": "über Socket %1 senden %2",
+    "tooltip": "über Socket %1 senden %2",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_socket_receive": {
+    "message0": "von Socket %1 %2 Bytes empfangen",
+    "tooltip": "von Socket %1 %2 Bytes empfangen",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_socket_close": {
+    "message0": "Socket %1 schließen",
+    "tooltip": "Socket %1 schließen",
+    "args0": [
+      null
+    ]
+  },
+  "python_mqtt_init": {
+    "message0": "MQTT-Client %1 initialisieren",
+    "tooltip": "MQTT-Client %1 initialisieren",
+    "args0": [
+      null
+    ]
+  },
+  "python_mqtt_connect": {
+    "message0": "MQTT %1 verbinden Host %2, Port %3, Keepalive %4",
+    "tooltip": "MQTT %1 verbinden Host %2, Port %3, Keepalive %4",
+    "args0": [
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "python_mqtt_publish": {
+    "message0": "MQTT %1 Thema %2 Nachricht %3 veröffentlichen",
+    "tooltip": "MQTT %1 Thema %2 Nachricht %3 veröffentlichen",
+    "args0": [
+      null,
+      null,
+      null
+    ]
+  },
+  "python_mqtt_subscribe": {
+    "message0": "MQTT %1 Thema %2 abonnieren",
+    "tooltip": "MQTT %1 Thema %2 abonnieren",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_mqtt_on_message": {
+    "message0": "wenn MQTT %1 eine Nachricht empfängt, setze Thema %2, Nutzlast %3 und tue %4 %5",
+    "tooltip": "wenn MQTT %1 eine Nachricht empfängt, setze Thema %2, Nutzlast %3 und tue %4 %5",
+    "args0": [
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "python_mqtt_loop": {
+    "message0": "MQTT %1 endlos schleifen",
+    "tooltip": "MQTT %1 endlos schleifen",
+    "args0": [
+      null
+    ]
+  },
+  "python_mqtt_disconnect": {
+    "message0": "MQTT %1 trennen",
+    "tooltip": "MQTT %1 trennen",
+    "args0": [
+      null
+    ]
+  },
+  "python_http_request": {
+    "message0": "HTTP %1: URL %2, Daten %3",
+    "tooltip": "HTTP %1: URL %2, Daten %3",
+    "args0": [
+      {
+        "options": [
+          [
+            "GET",
+            "GET"
+          ],
+          [
+            "POST",
+            "POST"
+          ],
+          [
+            "PUT",
+            "PUT"
+          ],
+          [
+            "DELETE",
+            "DELETE"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_http_response": {
+    "message0": "HTTP-Antwort %1 Eigenschaft %2",
+    "tooltip": "HTTP-Antwort %1 Eigenschaft %2",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "Statuscode",
+            "status_code"
+          ],
+          [
+            "text",
+            "text"
+          ],
+          [
+            "JSON",
+            "json()"
+          ]
+        ]
+      }
+    ]
+  },
+  "python_http_server": {
+    "message0": "aktuelles Verzeichnis per HTTP bereitstellen: Host %1, Port %2",
+    "tooltip": "aktuelles Verzeichnis per HTTP bereitstellen: Host %1, Port %2",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_file_read": {
+    "message0": "Textdatei %1 lesen",
+    "tooltip": "Textdatei %1 lesen",
+    "args0": [
+      null
+    ]
+  },
+  "python_file_write": {
+    "message0": "Textdatei %2 im Modus %1 mit Inhalt %3",
+    "tooltip": "Textdatei %2 im Modus %1 mit Inhalt %3",
+    "args0": [
+      {
+        "options": [
+          [
+            "schreiben",
+            "w"
+          ],
+          [
+            "anhängen",
+            "a"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_file_exists": {
+    "message0": "Pfad %1 existiert",
+    "tooltip": "Pfad %1 existiert",
+    "args0": [
+      null
+    ]
+  },
+  "python_file_list": {
+    "message0": "Verzeichnis %1 auflisten",
+    "tooltip": "Verzeichnis %1 auflisten",
+    "args0": [
+      null
+    ]
+  },
+  "python_command": {
+    "message0": "Systembefehl %1 ausführen",
+    "tooltip": "Systembefehl %1 ausführen",
+    "args0": [
+      null
+    ]
+  },
+  "python_cpu_temperature": {
+    "message0": "CPU-Temperatur °C",
+    "tooltip": "CPU-Temperatur °C"
+  }
+}

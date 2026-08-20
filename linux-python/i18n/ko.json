@@ -1,0 +1,222 @@
+{
+  "toolbox_name": "Linux 하드웨어",
+  "toolbox_categories": [
+    "IO 및 주변 장치",
+    "카메라",
+    "오디오"
+  ],
+  "toolbox_labels": {
+    "IO and peripherals": "IO 및 주변 장치",
+    "Camera": "카메라",
+    "Audio": "오디오"
+  },
+  "linux_gpio_init": {
+    "message0": "GPIO %1 초기화, 핀 %2, 방향 %3, 풀 %4",
+    "tooltip": "gpiozero로 디지털 핀을 만듭니다.",
+    "args0": [
+      null,
+      null,
+      {
+        "options": [
+          [
+            "입력",
+            "INPUT"
+          ],
+          [
+            "출력",
+            "OUTPUT"
+          ]
+        ]
+      },
+      {
+        "options": [
+          [
+            "없음",
+            "NONE"
+          ],
+          [
+            "풀업",
+            "UP"
+          ],
+          [
+            "풀다운",
+            "DOWN"
+          ]
+        ]
+      }
+    ]
+  },
+  "linux_gpio_write": {
+    "message0": "GPIO %1 을 %2 로 설정",
+    "tooltip": "GPIO %1 을 %2 로 설정",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "linux_gpio_read": {
+    "message0": "GPIO %1 값",
+    "tooltip": "GPIO %1 값",
+    "args0": [
+      null
+    ]
+  },
+  "linux_gpio_close": {
+    "message0": "GPIO %1 닫기",
+    "tooltip": "GPIO %1 닫기",
+    "args0": [
+      null
+    ]
+  },
+  "linux_led_write": {
+    "message0": "온보드 LED 를 %1 로 설정",
+    "tooltip": "온보드 LED 를 %1 로 설정",
+    "args0": [
+      null
+    ]
+  },
+  "linux_key_pressed": {
+    "message0": "온보드 키가 눌림",
+    "tooltip": "온보드 키가 눌림"
+  },
+  "linux_pwm_init": {
+    "message0": "PWM %1 초기화, 핀 %2, 주파수 %3 Hz",
+    "tooltip": "PWM %1 초기화, 핀 %2, 주파수 %3 Hz",
+    "args0": [
+      null,
+      null,
+      null
+    ]
+  },
+  "linux_pwm_duty": {
+    "message0": "PWM %1 듀티를 %2(0–1)로 설정",
+    "tooltip": "PWM %1 듀티를 %2(0–1)로 설정",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "linux_pwm_close": {
+    "message0": "PWM %1 닫기",
+    "tooltip": "PWM %1 닫기",
+    "args0": [
+      null
+    ]
+  },
+  "linux_uart_init": {
+    "message0": "시리얼 %1 초기화, 장치 %2, 보드레이트 %3",
+    "tooltip": "시리얼 %1 초기화, 장치 %2, 보드레이트 %3",
+    "args0": [
+      null,
+      null,
+      {
+        "options": [
+          [
+            "9600",
+            "9600"
+          ],
+          [
+            "19200",
+            "19200"
+          ],
+          [
+            "38400",
+            "38400"
+          ],
+          [
+            "57600",
+            "57600"
+          ],
+          [
+            "115200",
+            "115200"
+          ]
+        ]
+      }
+    ]
+  },
+  "linux_uart_available": {
+    "message0": "시리얼 %1 에서 읽을 수 있는 바이트",
+    "tooltip": "시리얼 %1 에서 읽을 수 있는 바이트",
+    "args0": [
+      null
+    ]
+  },
+  "linux_uart_read": {
+    "message0": "시리얼 %1 에서 %2 바이트 읽기",
+    "tooltip": "시리얼 %1 에서 %2 바이트 읽기",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "linux_uart_write": {
+    "message0": "시리얼 %1 에 %2 쓰기",
+    "tooltip": "시리얼 %1 에 %2 쓰기",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "linux_uart_flush": {
+    "message0": "시리얼 %1 입력 버퍼 비우기",
+    "tooltip": "시리얼 %1 입력 버퍼 비우기",
+    "args0": [
+      null
+    ]
+  },
+  "linux_uart_close": {
+    "message0": "시리얼 %1 닫기",
+    "tooltip": "시리얼 %1 닫기",
+    "args0": [
+      null
+    ]
+  },
+  "linux_camera_init": {
+    "message0": "카메라 %1 초기화, 장치 %2, 너비 %3, 높이 %4",
+    "tooltip": "카메라 %1 초기화, 장치 %2, 너비 %3, 높이 %4",
+    "args0": [
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "linux_camera_opened": {
+    "message0": "카메라 %1 이 열림",
+    "tooltip": "카메라 %1 이 열림",
+    "args0": [
+      null
+    ]
+  },
+  "linux_camera_read": {
+    "message0": "카메라 %1 이미지",
+    "tooltip": "카메라 %1 이미지",
+    "args0": [
+      null
+    ]
+  },
+  "linux_camera_release": {
+    "message0": "카메라 %1 해제",
+    "tooltip": "카메라 %1 해제",
+    "args0": [
+      null
+    ]
+  },
+  "linux_audio_play": {
+    "message0": "WAV 파일 %1 재생",
+    "tooltip": "WAV 파일 %1 재생",
+    "args0": [
+      null
+    ]
+  },
+  "linux_audio_record": {
+    "message0": "WAV 를 %1 에 녹음, 초 %2, 샘플링 %3",
+    "tooltip": "WAV 를 %1 에 녹음, 초 %2, 샘플링 %3",
+    "args0": [
+      null,
+      null,
+      null
+    ]
+  }
+}

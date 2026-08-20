@@ -1,0 +1,571 @@
+{
+  "toolbox_name": "Python 核心",
+  "toolbox_categories": [
+    "程序",
+    "OpenCV 与码识别",
+    "网络",
+    "文件与系统"
+  ],
+  "toolbox_labels": {
+    "Program": "程序",
+    "OpenCV and codes": "OpenCV 与码识别",
+    "Network": "网络",
+    "Files and system": "文件与系统"
+  },
+  "python_start": {
+    "message0": "当程序启动时 %1 %2",
+    "tooltip": "程序启动时执行一次。",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_forever": {
+    "message0": "永久循环 %1 %2",
+    "tooltip": "重复执行其中的积木。",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_sleep": {
+    "message0": "等待 %1 秒",
+    "tooltip": "暂停程序指定的秒数。",
+    "args0": [
+      null
+    ]
+  },
+  "python_print": {
+    "message0": "打印 %1",
+    "tooltip": "打印 %1",
+    "args0": [
+      null
+    ]
+  },
+  "python_number": {
+    "message0": "数值 %1",
+    "tooltip": "数值 %1",
+    "args0": [
+      null
+    ]
+  },
+  "python_text": {
+    "message0": "文本 %1",
+    "tooltip": "文本 %1",
+    "args0": [
+      null
+    ]
+  },
+  "python_boolean": {
+    "message0": "布尔值 %1",
+    "tooltip": "布尔值 %1",
+    "args0": [
+      {
+        "options": [
+          [
+            "真",
+            "TRUE"
+          ],
+          [
+            "假",
+            "FALSE"
+          ]
+        ]
+      }
+    ]
+  },
+  "python_tuple": {
+    "message0": "由项目 %1 构成元组",
+    "tooltip": "由项目 %1 构成元组",
+    "args0": [
+      null
+    ]
+  },
+  "python_list": {
+    "message0": "由项目 %1 构成列表",
+    "tooltip": "由项目 %1 构成列表",
+    "args0": [
+      null
+    ]
+  },
+  "python_set_variable": {
+    "message0": "将变量 %1 设为 %2",
+    "tooltip": "将变量 %1 设为 %2",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_get_variable": {
+    "message0": "变量 %1",
+    "tooltip": "变量 %1",
+    "args0": [
+      null
+    ]
+  },
+  "python_if": {
+    "message0": "如果 %1 则执行 %2 %3",
+    "tooltip": "如果 %1 则执行 %2 %3",
+    "args0": [
+      null,
+      null,
+      null
+    ]
+  },
+  "python_for_each": {
+    "message0": "对于 %2 中的每个 %1 执行 %3 %4",
+    "tooltip": "对于 %2 中的每个 %1 执行 %3 %4",
+    "args0": [
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "python_image_resize": {
+    "message0": "将图像 %1 调整为宽 %2、高 %3",
+    "tooltip": "将图像 %1 调整为宽 %2、高 %3",
+    "args0": [
+      null,
+      null,
+      null
+    ]
+  },
+  "python_image_convert": {
+    "message0": "使用 %2 转换图像 %1",
+    "tooltip": "使用 %2 转换图像 %1",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "BGR 转灰度",
+            "COLOR_BGR2GRAY"
+          ],
+          [
+            "BGR 转 LAB",
+            "COLOR_BGR2LAB"
+          ],
+          [
+            "BGR 转 RGB",
+            "COLOR_BGR2RGB"
+          ],
+          [
+            "灰度转 BGR",
+            "COLOR_GRAY2BGR"
+          ]
+        ]
+      }
+    ]
+  },
+  "python_image_in_range": {
+    "message0": "对图像 %1 按下限 %2、上限 %3 生成掩膜",
+    "tooltip": "对图像 %1 按下限 %2、上限 %3 生成掩膜",
+    "args0": [
+      null,
+      null,
+      null
+    ]
+  },
+  "python_image_components": {
+    "message0": "计算 %1 的连通组件，连通性 %2",
+    "tooltip": "计算 %1 的连通组件，连通性 %2",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "4",
+            "4"
+          ],
+          [
+            "8",
+            "8"
+          ]
+        ]
+      }
+    ]
+  },
+  "python_image_load": {
+    "message0": "加载图像文件 %1",
+    "tooltip": "加载图像文件 %1",
+    "args0": [
+      null
+    ]
+  },
+  "python_image_save": {
+    "message0": "将图像 %1 保存到文件 %2",
+    "tooltip": "将图像 %1 保存到文件 %2",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_draw_rectangle": {
+    "message0": "在 %1 上绘制矩形：从 x %2、y %3 到 x %4、y %5，颜色 %6，线宽 %7",
+    "tooltip": "在 %1 上绘制矩形：从 x %2、y %3 到 x %4、y %5，颜色 %6，线宽 %7",
+    "args0": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "python_draw_circle": {
+    "message0": "在 %1 上绘制圆：x %2、y %3，半径 %4，颜色 %5，线宽 %6",
+    "tooltip": "在 %1 上绘制圆：x %2、y %3，半径 %4，颜色 %5，线宽 %6",
+    "args0": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "python_draw_line": {
+    "message0": "在 %1 上绘制线段：从 x %2、y %3 到 x %4、y %5，颜色 %6，线宽 %7",
+    "tooltip": "在 %1 上绘制线段：从 x %2、y %3 到 x %4、y %5，颜色 %6，线宽 %7",
+    "args0": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "python_draw_text": {
+    "message0": "在 %2 的 x %3、y %4 处绘制文本 %1，缩放 %5，颜色 %6，线宽 %7",
+    "tooltip": "在 %2 的 x %3、y %4 处绘制文本 %1，缩放 %5，颜色 %6，线宽 %7",
+    "args0": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "python_qr_decode": {
+    "message0": "解码 %1 中的二维码",
+    "tooltip": "解码 %1 中的二维码",
+    "args0": [
+      null
+    ]
+  },
+  "python_barcode_decode": {
+    "message0": "解码 %1 中的条形码",
+    "tooltip": "解码 %1 中的条形码",
+    "args0": [
+      null
+    ]
+  },
+  "python_apriltag_init": {
+    "message0": "初始化 AprilTag 检测器 %1，标签族 %2",
+    "tooltip": "初始化 AprilTag 检测器 %1，标签族 %2",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "tag16h5",
+            "tag16h5"
+          ],
+          [
+            "tag25h7",
+            "tag25h7"
+          ],
+          [
+            "tag25h9",
+            "tag25h9"
+          ],
+          [
+            "tag36h10",
+            "tag36h10"
+          ],
+          [
+            "tag36h11",
+            "tag36h11"
+          ]
+        ]
+      }
+    ]
+  },
+  "python_apriltag_detect": {
+    "message0": "使用 AprilTag 检测器 %1 检测灰度图像 %2",
+    "tooltip": "使用 AprilTag 检测器 %1 检测灰度图像 %2",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_socket_init": {
+    "message0": "初始化套接字 %1，地址族 %2，类型 %3",
+    "tooltip": "初始化套接字 %1，地址族 %2，类型 %3",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "IPv4",
+            "AF_INET"
+          ],
+          [
+            "IPv6",
+            "AF_INET6"
+          ]
+        ]
+      },
+      {
+        "options": [
+          [
+            "TCP",
+            "SOCK_STREAM"
+          ],
+          [
+            "UDP",
+            "SOCK_DGRAM"
+          ]
+        ]
+      }
+    ]
+  },
+  "python_socket_address": {
+    "message0": "网络地址：主机 %1，端口 %2",
+    "tooltip": "网络地址：主机 %1，端口 %2",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_socket_connect": {
+    "message0": "将套接字 %1 连接到 %2",
+    "tooltip": "将套接字 %1 连接到 %2",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_socket_bind": {
+    "message0": "将套接字 %1 绑定到 %2",
+    "tooltip": "将套接字 %1 绑定到 %2",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_socket_listen": {
+    "message0": "让套接字 %1 监听，积压队列 %2",
+    "tooltip": "让套接字 %1 监听，积压队列 %2",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_socket_accept": {
+    "message0": "套接字 %1 接受连接",
+    "tooltip": "套接字 %1 接受连接",
+    "args0": [
+      null
+    ]
+  },
+  "python_socket_send": {
+    "message0": "通过套接字 %1 发送 %2",
+    "tooltip": "通过套接字 %1 发送 %2",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_socket_receive": {
+    "message0": "通过套接字 %1 接收 %2 字节",
+    "tooltip": "通过套接字 %1 接收 %2 字节",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_socket_close": {
+    "message0": "关闭套接字 %1",
+    "tooltip": "关闭套接字 %1",
+    "args0": [
+      null
+    ]
+  },
+  "python_mqtt_init": {
+    "message0": "初始化 MQTT 客户端 %1",
+    "tooltip": "初始化 MQTT 客户端 %1",
+    "args0": [
+      null
+    ]
+  },
+  "python_mqtt_connect": {
+    "message0": "MQTT %1 连接主机 %2、端口 %3，保活 %4",
+    "tooltip": "MQTT %1 连接主机 %2、端口 %3，保活 %4",
+    "args0": [
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "python_mqtt_publish": {
+    "message0": "MQTT %1 向主题 %2 发布消息 %3",
+    "tooltip": "MQTT %1 向主题 %2 发布消息 %3",
+    "args0": [
+      null,
+      null,
+      null
+    ]
+  },
+  "python_mqtt_subscribe": {
+    "message0": "MQTT %1 订阅主题 %2",
+    "tooltip": "MQTT %1 订阅主题 %2",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_mqtt_on_message": {
+    "message0": "当 MQTT %1 收到消息时将主题设为 %2、载荷设为 %3 并执行 %4 %5",
+    "tooltip": "当 MQTT %1 收到消息时将主题设为 %2、载荷设为 %3 并执行 %4 %5",
+    "args0": [
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "python_mqtt_loop": {
+    "message0": "MQTT %1 永久运行消息循环",
+    "tooltip": "MQTT %1 永久运行消息循环",
+    "args0": [
+      null
+    ]
+  },
+  "python_mqtt_disconnect": {
+    "message0": "断开 MQTT %1",
+    "tooltip": "断开 MQTT %1",
+    "args0": [
+      null
+    ]
+  },
+  "python_http_request": {
+    "message0": "HTTP %1：URL %2，数据 %3",
+    "tooltip": "HTTP %1：URL %2，数据 %3",
+    "args0": [
+      {
+        "options": [
+          [
+            "GET",
+            "GET"
+          ],
+          [
+            "POST",
+            "POST"
+          ],
+          [
+            "PUT",
+            "PUT"
+          ],
+          [
+            "DELETE",
+            "DELETE"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_http_response": {
+    "message0": "HTTP 响应 %1 的属性 %2",
+    "tooltip": "HTTP 响应 %1 的属性 %2",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "状态码",
+            "status_code"
+          ],
+          [
+            "text",
+            "text"
+          ],
+          [
+            "JSON",
+            "json()"
+          ]
+        ]
+      }
+    ]
+  },
+  "python_http_server": {
+    "message0": "通过 HTTP 提供当前目录：主机 %1，端口 %2",
+    "tooltip": "通过 HTTP 提供当前目录：主机 %1，端口 %2",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_file_read": {
+    "message0": "读取文本文件 %1",
+    "tooltip": "读取文本文件 %1",
+    "args0": [
+      null
+    ]
+  },
+  "python_file_write": {
+    "message0": "以 %1 模式处理文本文件 %2，内容 %3",
+    "tooltip": "以 %1 模式处理文本文件 %2，内容 %3",
+    "args0": [
+      {
+        "options": [
+          [
+            "写入",
+            "w"
+          ],
+          [
+            "追加",
+            "a"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_file_exists": {
+    "message0": "路径 %1 存在",
+    "tooltip": "路径 %1 存在",
+    "args0": [
+      null
+    ]
+  },
+  "python_file_list": {
+    "message0": "列出目录 %1",
+    "tooltip": "列出目录 %1",
+    "args0": [
+      null
+    ]
+  },
+  "python_command": {
+    "message0": "运行系统命令 %1",
+    "tooltip": "运行系统命令 %1",
+    "args0": [
+      null
+    ]
+  },
+  "python_cpu_temperature": {
+    "message0": "CPU 温度 °C",
+    "tooltip": "CPU 温度 °C"
+  }
+}

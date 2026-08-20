@@ -1,0 +1,571 @@
+{
+  "toolbox_name": "Python コア",
+  "toolbox_categories": [
+    "プログラム",
+    "OpenCV とコード認識",
+    "ネットワーク",
+    "ファイルとシステム"
+  ],
+  "toolbox_labels": {
+    "Program": "プログラム",
+    "OpenCV and codes": "OpenCV とコード認識",
+    "Network": "ネットワーク",
+    "Files and system": "ファイルとシステム"
+  },
+  "python_start": {
+    "message0": "プログラム開始時 %1 %2",
+    "tooltip": "プログラムの起動時に一度実行します。",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_forever": {
+    "message0": "永久ループ %1 %2",
+    "tooltip": "中のブロックを繰り返し実行します。",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_sleep": {
+    "message0": "%1 秒待つ",
+    "tooltip": "指定した秒数だけプログラムを停止します。",
+    "args0": [
+      null
+    ]
+  },
+  "python_print": {
+    "message0": "%1 を表示",
+    "tooltip": "%1 を表示",
+    "args0": [
+      null
+    ]
+  },
+  "python_number": {
+    "message0": "数値 %1",
+    "tooltip": "数値 %1",
+    "args0": [
+      null
+    ]
+  },
+  "python_text": {
+    "message0": "テキスト %1",
+    "tooltip": "テキスト %1",
+    "args0": [
+      null
+    ]
+  },
+  "python_boolean": {
+    "message0": "真偽値 %1",
+    "tooltip": "真偽値 %1",
+    "args0": [
+      {
+        "options": [
+          [
+            "真",
+            "TRUE"
+          ],
+          [
+            "偽",
+            "FALSE"
+          ]
+        ]
+      }
+    ]
+  },
+  "python_tuple": {
+    "message0": "項目 %1 のタプル",
+    "tooltip": "項目 %1 のタプル",
+    "args0": [
+      null
+    ]
+  },
+  "python_list": {
+    "message0": "項目 %1 のリスト",
+    "tooltip": "項目 %1 のリスト",
+    "args0": [
+      null
+    ]
+  },
+  "python_set_variable": {
+    "message0": "変数 %1 を %2 にする",
+    "tooltip": "変数 %1 を %2 にする",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_get_variable": {
+    "message0": "変数 %1",
+    "tooltip": "変数 %1",
+    "args0": [
+      null
+    ]
+  },
+  "python_if": {
+    "message0": "もし %1 なら %2 %3",
+    "tooltip": "もし %1 なら %2 %3",
+    "args0": [
+      null,
+      null,
+      null
+    ]
+  },
+  "python_for_each": {
+    "message0": "%2 の各 %1 について %3 %4",
+    "tooltip": "%2 の各 %1 について %3 %4",
+    "args0": [
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "python_image_resize": {
+    "message0": "画像 %1 を幅 %2、高さ %3 に変更",
+    "tooltip": "画像 %1 を幅 %2、高さ %3 に変更",
+    "args0": [
+      null,
+      null,
+      null
+    ]
+  },
+  "python_image_convert": {
+    "message0": "画像 %1 を %2 で変換",
+    "tooltip": "画像 %1 を %2 で変換",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "BGR からグレー",
+            "COLOR_BGR2GRAY"
+          ],
+          [
+            "BGR から LAB",
+            "COLOR_BGR2LAB"
+          ],
+          [
+            "BGR から RGB",
+            "COLOR_BGR2RGB"
+          ],
+          [
+            "グレーから BGR",
+            "COLOR_GRAY2BGR"
+          ]
+        ]
+      }
+    ]
+  },
+  "python_image_in_range": {
+    "message0": "画像 %1 を下限 %2、上限 %3 でマスク",
+    "tooltip": "画像 %1 を下限 %2、上限 %3 でマスク",
+    "args0": [
+      null,
+      null,
+      null
+    ]
+  },
+  "python_image_components": {
+    "message0": "%1 の連結成分、結合度 %2",
+    "tooltip": "%1 の連結成分、結合度 %2",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "4",
+            "4"
+          ],
+          [
+            "8",
+            "8"
+          ]
+        ]
+      }
+    ]
+  },
+  "python_image_load": {
+    "message0": "画像ファイル %1 を読み込む",
+    "tooltip": "画像ファイル %1 を読み込む",
+    "args0": [
+      null
+    ]
+  },
+  "python_image_save": {
+    "message0": "画像 %1 をファイル %2 に保存",
+    "tooltip": "画像 %1 をファイル %2 に保存",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_draw_rectangle": {
+    "message0": "%1 に矩形を描く：x %2、y %3 から x %4、y %5、色 %6、線幅 %7",
+    "tooltip": "%1 に矩形を描く：x %2、y %3 から x %4、y %5、色 %6、線幅 %7",
+    "args0": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "python_draw_circle": {
+    "message0": "%1 に円を描く：x %2、y %3、半径 %4、色 %5、線幅 %6",
+    "tooltip": "%1 に円を描く：x %2、y %3、半径 %4、色 %5、線幅 %6",
+    "args0": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "python_draw_line": {
+    "message0": "%1 に線を描く：x %2、y %3 から x %4、y %5、色 %6、線幅 %7",
+    "tooltip": "%1 に線を描く：x %2、y %3 から x %4、y %5、色 %6、線幅 %7",
+    "args0": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "python_draw_text": {
+    "message0": "%2 の x %3、y %4 にテキスト %1 を描く、倍率 %5、色 %6、線幅 %7",
+    "tooltip": "%2 の x %3、y %4 にテキスト %1 を描く、倍率 %5、色 %6、線幅 %7",
+    "args0": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "python_qr_decode": {
+    "message0": "%1 の QR コードを復号",
+    "tooltip": "%1 の QR コードを復号",
+    "args0": [
+      null
+    ]
+  },
+  "python_barcode_decode": {
+    "message0": "%1 のバーコードを復号",
+    "tooltip": "%1 のバーコードを復号",
+    "args0": [
+      null
+    ]
+  },
+  "python_apriltag_init": {
+    "message0": "AprilTag 検出器 %1 を初期化、ファミリー %2",
+    "tooltip": "AprilTag 検出器 %1 を初期化、ファミリー %2",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "tag16h5",
+            "tag16h5"
+          ],
+          [
+            "tag25h7",
+            "tag25h7"
+          ],
+          [
+            "tag25h9",
+            "tag25h9"
+          ],
+          [
+            "tag36h10",
+            "tag36h10"
+          ],
+          [
+            "tag36h11",
+            "tag36h11"
+          ]
+        ]
+      }
+    ]
+  },
+  "python_apriltag_detect": {
+    "message0": "AprilTag 検出器 %1 でグレー画像 %2 を検出",
+    "tooltip": "AprilTag 検出器 %1 でグレー画像 %2 を検出",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_socket_init": {
+    "message0": "ソケット %1 を初期化、ファミリー %2、種類 %3",
+    "tooltip": "ソケット %1 を初期化、ファミリー %2、種類 %3",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "IPv4",
+            "AF_INET"
+          ],
+          [
+            "IPv6",
+            "AF_INET6"
+          ]
+        ]
+      },
+      {
+        "options": [
+          [
+            "TCP",
+            "SOCK_STREAM"
+          ],
+          [
+            "UDP",
+            "SOCK_DGRAM"
+          ]
+        ]
+      }
+    ]
+  },
+  "python_socket_address": {
+    "message0": "ネットワークアドレス：ホスト %1、ポート %2",
+    "tooltip": "ネットワークアドレス：ホスト %1、ポート %2",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_socket_connect": {
+    "message0": "ソケット %1 を %2 に接続",
+    "tooltip": "ソケット %1 を %2 に接続",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_socket_bind": {
+    "message0": "ソケット %1 を %2 にバインド",
+    "tooltip": "ソケット %1 を %2 にバインド",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_socket_listen": {
+    "message0": "ソケット %1 を待ち受け、バックログ %2",
+    "tooltip": "ソケット %1 を待ち受け、バックログ %2",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_socket_accept": {
+    "message0": "ソケット %1 が接続を受け入れる",
+    "tooltip": "ソケット %1 が接続を受け入れる",
+    "args0": [
+      null
+    ]
+  },
+  "python_socket_send": {
+    "message0": "ソケット %1 で %2 を送信",
+    "tooltip": "ソケット %1 で %2 を送信",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_socket_receive": {
+    "message0": "ソケット %1 で %2 バイト受信",
+    "tooltip": "ソケット %1 で %2 バイト受信",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_socket_close": {
+    "message0": "ソケット %1 を閉じる",
+    "tooltip": "ソケット %1 を閉じる",
+    "args0": [
+      null
+    ]
+  },
+  "python_mqtt_init": {
+    "message0": "MQTT クライアント %1 を初期化",
+    "tooltip": "MQTT クライアント %1 を初期化",
+    "args0": [
+      null
+    ]
+  },
+  "python_mqtt_connect": {
+    "message0": "MQTT %1 をホスト %2、ポート %3、キープアライブ %4 で接続",
+    "tooltip": "MQTT %1 をホスト %2、ポート %3、キープアライブ %4 で接続",
+    "args0": [
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "python_mqtt_publish": {
+    "message0": "MQTT %1 がトピック %2 にメッセージ %3 を公開",
+    "tooltip": "MQTT %1 がトピック %2 にメッセージ %3 を公開",
+    "args0": [
+      null,
+      null,
+      null
+    ]
+  },
+  "python_mqtt_subscribe": {
+    "message0": "MQTT %1 がトピック %2 を購読",
+    "tooltip": "MQTT %1 がトピック %2 を購読",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_mqtt_on_message": {
+    "message0": "MQTT %1 がメッセージを受信したらトピックを %2、ペイロードを %3 にして %4 %5",
+    "tooltip": "MQTT %1 がメッセージを受信したらトピックを %2、ペイロードを %3 にして %4 %5",
+    "args0": [
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "python_mqtt_loop": {
+    "message0": "MQTT %1 を永久ループ",
+    "tooltip": "MQTT %1 を永久ループ",
+    "args0": [
+      null
+    ]
+  },
+  "python_mqtt_disconnect": {
+    "message0": "MQTT %1 を切断",
+    "tooltip": "MQTT %1 を切断",
+    "args0": [
+      null
+    ]
+  },
+  "python_http_request": {
+    "message0": "HTTP %1：URL %2、データ %3",
+    "tooltip": "HTTP %1：URL %2、データ %3",
+    "args0": [
+      {
+        "options": [
+          [
+            "GET",
+            "GET"
+          ],
+          [
+            "POST",
+            "POST"
+          ],
+          [
+            "PUT",
+            "PUT"
+          ],
+          [
+            "DELETE",
+            "DELETE"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_http_response": {
+    "message0": "HTTP 応答 %1 の属性 %2",
+    "tooltip": "HTTP 応答 %1 の属性 %2",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "ステータスコード",
+            "status_code"
+          ],
+          [
+            "text",
+            "text"
+          ],
+          [
+            "JSON",
+            "json()"
+          ]
+        ]
+      }
+    ]
+  },
+  "python_http_server": {
+    "message0": "現在のディレクトリを HTTP で公開：ホスト %1、ポート %2",
+    "tooltip": "現在のディレクトリを HTTP で公開：ホスト %1、ポート %2",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_file_read": {
+    "message0": "テキストファイル %1 を読む",
+    "tooltip": "テキストファイル %1 を読む",
+    "args0": [
+      null
+    ]
+  },
+  "python_file_write": {
+    "message0": "テキストファイル %2 を %1 モードで処理、内容 %3",
+    "tooltip": "テキストファイル %2 を %1 モードで処理、内容 %3",
+    "args0": [
+      {
+        "options": [
+          [
+            "書き込み",
+            "w"
+          ],
+          [
+            "追記",
+            "a"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_file_exists": {
+    "message0": "パス %1 は存在する",
+    "tooltip": "パス %1 は存在する",
+    "args0": [
+      null
+    ]
+  },
+  "python_file_list": {
+    "message0": "ディレクトリ %1 を一覧",
+    "tooltip": "ディレクトリ %1 を一覧",
+    "args0": [
+      null
+    ]
+  },
+  "python_command": {
+    "message0": "システムコマンド %1 を実行",
+    "tooltip": "システムコマンド %1 を実行",
+    "args0": [
+      null
+    ]
+  },
+  "python_cpu_temperature": {
+    "message0": "CPU 温度 °C",
+    "tooltip": "CPU 温度 °C"
+  }
+}

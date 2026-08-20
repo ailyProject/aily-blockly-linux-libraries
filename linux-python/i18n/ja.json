@@ -1,0 +1,222 @@
+{
+  "toolbox_name": "Linux ハードウェア",
+  "toolbox_categories": [
+    "IO と周辺機器",
+    "カメラ",
+    "音声"
+  ],
+  "toolbox_labels": {
+    "IO and peripherals": "IO と周辺機器",
+    "Camera": "カメラ",
+    "Audio": "音声"
+  },
+  "linux_gpio_init": {
+    "message0": "GPIO %1 を初期化、ピン %2、方向 %3、プル %4",
+    "tooltip": "gpiozero でデジタルピンを作成します。",
+    "args0": [
+      null,
+      null,
+      {
+        "options": [
+          [
+            "入力",
+            "INPUT"
+          ],
+          [
+            "出力",
+            "OUTPUT"
+          ]
+        ]
+      },
+      {
+        "options": [
+          [
+            "なし",
+            "NONE"
+          ],
+          [
+            "プルアップ",
+            "UP"
+          ],
+          [
+            "プルダウン",
+            "DOWN"
+          ]
+        ]
+      }
+    ]
+  },
+  "linux_gpio_write": {
+    "message0": "GPIO %1 を %2 にする",
+    "tooltip": "GPIO %1 を %2 にする",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "linux_gpio_read": {
+    "message0": "GPIO %1 の値",
+    "tooltip": "GPIO %1 の値",
+    "args0": [
+      null
+    ]
+  },
+  "linux_gpio_close": {
+    "message0": "GPIO %1 を閉じる",
+    "tooltip": "GPIO %1 を閉じる",
+    "args0": [
+      null
+    ]
+  },
+  "linux_led_write": {
+    "message0": "オンボード LED を %1 にする",
+    "tooltip": "オンボード LED を %1 にする",
+    "args0": [
+      null
+    ]
+  },
+  "linux_key_pressed": {
+    "message0": "オンボードキーが押されている",
+    "tooltip": "オンボードキーが押されている"
+  },
+  "linux_pwm_init": {
+    "message0": "PWM %1 を初期化、ピン %2、周波数 %3 Hz",
+    "tooltip": "PWM %1 を初期化、ピン %2、周波数 %3 Hz",
+    "args0": [
+      null,
+      null,
+      null
+    ]
+  },
+  "linux_pwm_duty": {
+    "message0": "PWM %1 のデューティを %2（0–1）にする",
+    "tooltip": "PWM %1 のデューティを %2（0–1）にする",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "linux_pwm_close": {
+    "message0": "PWM %1 を閉じる",
+    "tooltip": "PWM %1 を閉じる",
+    "args0": [
+      null
+    ]
+  },
+  "linux_uart_init": {
+    "message0": "シリアル %1 を初期化、デバイス %2、ボーレート %3",
+    "tooltip": "シリアル %1 を初期化、デバイス %2、ボーレート %3",
+    "args0": [
+      null,
+      null,
+      {
+        "options": [
+          [
+            "9600",
+            "9600"
+          ],
+          [
+            "19200",
+            "19200"
+          ],
+          [
+            "38400",
+            "38400"
+          ],
+          [
+            "57600",
+            "57600"
+          ],
+          [
+            "115200",
+            "115200"
+          ]
+        ]
+      }
+    ]
+  },
+  "linux_uart_available": {
+    "message0": "シリアル %1 の受信可能バイト数",
+    "tooltip": "シリアル %1 の受信可能バイト数",
+    "args0": [
+      null
+    ]
+  },
+  "linux_uart_read": {
+    "message0": "シリアル %1 から %2 バイト読む",
+    "tooltip": "シリアル %1 から %2 バイト読む",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "linux_uart_write": {
+    "message0": "シリアル %1 に %2 を書く",
+    "tooltip": "シリアル %1 に %2 を書く",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "linux_uart_flush": {
+    "message0": "シリアル %1 の入力バッファを空にする",
+    "tooltip": "シリアル %1 の入力バッファを空にする",
+    "args0": [
+      null
+    ]
+  },
+  "linux_uart_close": {
+    "message0": "シリアル %1 を閉じる",
+    "tooltip": "シリアル %1 を閉じる",
+    "args0": [
+      null
+    ]
+  },
+  "linux_camera_init": {
+    "message0": "カメラ %1 を初期化、デバイス %2、幅 %3、高さ %4",
+    "tooltip": "カメラ %1 を初期化、デバイス %2、幅 %3、高さ %4",
+    "args0": [
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "linux_camera_opened": {
+    "message0": "カメラ %1 は開いている",
+    "tooltip": "カメラ %1 は開いている",
+    "args0": [
+      null
+    ]
+  },
+  "linux_camera_read": {
+    "message0": "カメラ %1 の画像",
+    "tooltip": "カメラ %1 の画像",
+    "args0": [
+      null
+    ]
+  },
+  "linux_camera_release": {
+    "message0": "カメラ %1 を解放する",
+    "tooltip": "カメラ %1 を解放する",
+    "args0": [
+      null
+    ]
+  },
+  "linux_audio_play": {
+    "message0": "WAV ファイル %1 を再生",
+    "tooltip": "WAV ファイル %1 を再生",
+    "args0": [
+      null
+    ]
+  },
+  "linux_audio_record": {
+    "message0": "WAV を %1 に録音、秒数 %2、サンプリング %3",
+    "tooltip": "WAV を %1 に録音、秒数 %2、サンプリング %3",
+    "args0": [
+      null,
+      null,
+      null
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "name": "@aily-project/lib-linux-python",
+  "nickname": "Linux Python Hardware",
+  "nickname_zh_cn": "Linux Python 硬件",
+  "nickname_en": "Linux Python Hardware",
+  "nickname_zh_hk": "Linux Python 硬件",
+  "nickname_ja": "Linux Python ハードウェア",
+  "nickname_ko": "Linux Python 하드웨어",
+  "nickname_de": "Linux-Python-Hardware",
+  "nickname_fr": "Matériel Python Linux",
+  "nickname_es": "Hardware Python Linux",
+  "nickname_pt": "Hardware Python Linux",
+  "nickname_ru": "Оборудование Linux Python",
+  "nickname_ar": "عتاد بايثون لينكس",
+  "version": "1.0.0",
+  "description": "树莓派与核桃派 Linux 共用的硬件积木：gpiozero GPIO/LED/按键/PWM、pyserial UART、OpenCV VideoCapture、ALSA 音频。不是 CyberCAM CanMV API。",
+  "description_zh_cn": "树莓派与核桃派 Linux 共用的硬件积木：gpiozero GPIO/LED/按键/PWM、pyserial UART、OpenCV VideoCapture、ALSA 音频。不是 CyberCAM CanMV API。",
+  "description_en": "Shared Raspberry Pi and WalnutPi Linux hardware blocks: gpiozero GPIO/LED/button/PWM, pyserial UART, OpenCV VideoCapture, and ALSA audio. Not CyberCAM CanMV APIs.",
+  "description_zh_hk": "樹莓派與核桃派 Linux 共用的硬件積木：gpiozero GPIO/LED/按鍵/PWM、pyserial UART、OpenCV VideoCapture、ALSA 音訊。不是 CyberCAM CanMV API。",
+  "description_ja": "Raspberry Pi と WalnutPi Linux 共通のハードウェアブロック。gpiozero GPIO/LED/ボタン/PWM、pyserial UART、OpenCV VideoCapture、ALSA 音声。CyberCAM CanMV API ではありません。",
+  "description_ko": "Raspberry Pi와 WalnutPi Linux 공용 하드웨어 블록: gpiozero GPIO/LED/버튼/PWM, pyserial UART, OpenCV VideoCapture, ALSA 오디오. CyberCAM CanMV API가 아닙니다.",
+  "description_de": "Gemeinsame Hardware-Blöcke für Raspberry Pi und WalnutPi Linux: gpiozero GPIO/LED/Taste/PWM, pyserial UART, OpenCV VideoCapture und ALSA-Audio. Keine CyberCAM-CanMV-APIs.",
+  "description_fr": "Blocs matériels partagés Raspberry Pi et WalnutPi Linux : GPIO/LED/bouton/PWM gpiozero, UART pyserial, VideoCapture OpenCV et audio ALSA. Pas les API CanMV CyberCAM.",
+  "description_es": "Bloques de hardware compartidos de Raspberry Pi y WalnutPi Linux: GPIO/LED/botón/PWM de gpiozero, UART de pyserial, VideoCapture de OpenCV y audio ALSA. No son API CanMV de CyberCAM.",
+  "description_pt": "Blocos de hardware compartilhados do Raspberry Pi e WalnutPi Linux: GPIO/LED/botão/PWM gpiozero, UART pyserial, VideoCapture OpenCV e áudio ALSA. Não são APIs CanMV da CyberCAM.",
+  "description_ru": "Общие аппаратные блоки Raspberry Pi и WalnutPi Linux: GPIO/LED/кнопка/PWM gpiozero, UART pyserial, VideoCapture OpenCV и аудио ALSA. Это не API CanMV CyberCAM.",
+  "description_ar": "لبنات عتاد مشتركة لـ Raspberry Pi وWalnutPi Linux: GPIO/LED/زر/PWM عبر gpiozero وUART عبر pyserial وكاميرا OpenCV وصوت ALSA. ليست واجهات CanMV الخاصة بـ CyberCAM.",
+  "spec": true,
+  "compatibility": {
+    "core": [
+      "linux:python:raspberrypi",
+      "linux:python:walnutpi",
+      "linux:python:walnutpi-serial"
+    ],
+    "mode": ["python"]
+  },
+  "keywords": ["aily", "blockly", "python", "linux", "gpiozero", "pyserial", "opencv", "raspberrypi", "walnutpi"],
+  "tags": ["sensor", "communication", "system"],
+  "author": "ailyProject",
+  "license": "MIT",
+  "scripts": {
+    "build": "node scripts/build-assets.js",
+    "test": "node scripts/build-assets.js --check && node --test test/*.test.js"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}

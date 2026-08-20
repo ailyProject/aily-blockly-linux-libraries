@@ -1,0 +1,48 @@
+{
+  "name": "@aily-project/lib-python-core",
+  "nickname": "Python Core",
+  "nickname_zh_cn": "Python 核心",
+  "nickname_en": "Python Core",
+  "nickname_zh_hk": "Python 核心",
+  "nickname_ja": "Python コア",
+  "nickname_ko": "Python 코어",
+  "nickname_de": "Python-Kern",
+  "nickname_fr": "Noyau Python",
+  "nickname_es": "Núcleo Python",
+  "nickname_pt": "Núcleo Python",
+  "nickname_ru": "Ядро Python",
+  "nickname_ar": "نواة بايثون",
+  "version": "1.0.0",
+  "description": "可移植的 CPython 积木：语言原语、OpenCV、二维码/条码/AprilTag、socket/MQTT/HTTP、文件和系统命令。不包含 GPIO、相机驱动或 KPU。",
+  "description_zh_cn": "可移植的 CPython 积木：语言原语、OpenCV、二维码/条码/AprilTag、socket/MQTT/HTTP、文件和系统命令。不包含 GPIO、相机驱动或 KPU。",
+  "description_en": "Portable CPython blocks for language primitives, OpenCV, QR/barcode/AprilTag, socket/MQTT/HTTP, files, and system commands. No GPIO, camera driver, or KPU.",
+  "description_zh_hk": "可移植的 CPython 積木：語言原語、OpenCV、QR/條碼/AprilTag、socket/MQTT/HTTP、檔案和系統命令。不包含 GPIO、相機驅動或 KPU。",
+  "description_ja": "移植可能な CPython ブロック。言語プリミティブ、OpenCV、QR/バーコード/AprilTag、socket/MQTT/HTTP、ファイル、システムコマンド。GPIO、カメラドライバ、KPU は含みません。",
+  "description_ko": "이식 가능한 CPython 블록: 언어 원시 값, OpenCV, QR/바코드/AprilTag, socket/MQTT/HTTP, 파일 및 시스템 명령. GPIO, 카메라 드라이버, KPU는 포함하지 않습니다.",
+  "description_de": "Portable CPython-Blöcke für Sprachprimitive, OpenCV, QR/Barcode/AprilTag, Socket/MQTT/HTTP, Dateien und Systembefehle. Kein GPIO, Kameratreiber oder KPU.",
+  "description_fr": "Blocs CPython portables pour les primitives de langage, OpenCV, QR/code-barres/AprilTag, socket/MQTT/HTTP, fichiers et commandes système. Pas de GPIO, pilote caméra ni KPU.",
+  "description_es": "Bloques CPython portables para primitivas de lenguaje, OpenCV, QR/código de barras/AprilTag, socket/MQTT/HTTP, archivos y comandos del sistema. Sin GPIO, controlador de cámara ni KPU.",
+  "description_pt": "Blocos CPython portáteis para primitivas de linguagem, OpenCV, QR/código de barras/AprilTag, socket/MQTT/HTTP, arquivos e comandos do sistema. Sem GPIO, driver de câmera ou KPU.",
+  "description_ru": "Переносимые блоки CPython: языковые примитивы, OpenCV, QR/штрихкод/AprilTag, socket/MQTT/HTTP, файлы и системные команды. Без GPIO, драйвера камеры и KPU.",
+  "description_ar": "لبنات CPython قابلة للنقل للغة وOpenCV ورموز QR/الباركود/AprilTag وsocket/MQTT/HTTP والملفات وأوامر النظام. بلا GPIO أو مشغل كاميرا أو KPU.",
+  "spec": true,
+  "compatibility": {
+    "core": [
+      "python:k230:cybercam",
+      "linux:python:raspberrypi",
+      "linux:python:walnutpi",
+      "linux:python:walnutpi-serial"
+    ],
+    "mode": ["python"]
+  },
+  "keywords": ["aily", "blockly", "python", "opencv", "mqtt", "http", "socket", "file"],
+  "tags": ["core", "data-processing", "communication", "system"],
+  "author": "ailyProject",
+  "license": "MIT",
+  "scripts": {
+    "build": "node scripts/build-assets.js",
+    "test": "node scripts/build-assets.js --check && node --test test/*.test.js"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}

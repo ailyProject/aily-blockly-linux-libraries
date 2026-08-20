@@ -1,0 +1,571 @@
+{
+  "toolbox_name": "Python 코어",
+  "toolbox_categories": [
+    "프로그램",
+    "OpenCV 및 코드 인식",
+    "네트워크",
+    "파일 및 시스템"
+  ],
+  "toolbox_labels": {
+    "Program": "프로그램",
+    "OpenCV and codes": "OpenCV 및 코드 인식",
+    "Network": "네트워크",
+    "Files and system": "파일 및 시스템"
+  },
+  "python_start": {
+    "message0": "프로그램이 시작될 때 %1 %2",
+    "tooltip": "프로그램 시작 시 한 번 실행합니다.",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_forever": {
+    "message0": "영원히 반복 %1 %2",
+    "tooltip": "안의 블록을 반복 실행합니다.",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_sleep": {
+    "message0": "%1 초 기다리기",
+    "tooltip": "지정한 시간(초) 동안 프로그램을 일시 정지합니다.",
+    "args0": [
+      null
+    ]
+  },
+  "python_print": {
+    "message0": "%1 출력",
+    "tooltip": "%1 출력",
+    "args0": [
+      null
+    ]
+  },
+  "python_number": {
+    "message0": "숫자 %1",
+    "tooltip": "숫자 %1",
+    "args0": [
+      null
+    ]
+  },
+  "python_text": {
+    "message0": "텍스트 %1",
+    "tooltip": "텍스트 %1",
+    "args0": [
+      null
+    ]
+  },
+  "python_boolean": {
+    "message0": "불리언 %1",
+    "tooltip": "불리언 %1",
+    "args0": [
+      {
+        "options": [
+          [
+            "참",
+            "TRUE"
+          ],
+          [
+            "거짓",
+            "FALSE"
+          ]
+        ]
+      }
+    ]
+  },
+  "python_tuple": {
+    "message0": "항목 %1 로 만든 튜플",
+    "tooltip": "항목 %1 로 만든 튜플",
+    "args0": [
+      null
+    ]
+  },
+  "python_list": {
+    "message0": "항목 %1 로 만든 목록",
+    "tooltip": "항목 %1 로 만든 목록",
+    "args0": [
+      null
+    ]
+  },
+  "python_set_variable": {
+    "message0": "변수 %1 을 %2 로 설정",
+    "tooltip": "변수 %1 을 %2 로 설정",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_get_variable": {
+    "message0": "변수 %1",
+    "tooltip": "변수 %1",
+    "args0": [
+      null
+    ]
+  },
+  "python_if": {
+    "message0": "만약 %1 이면 %2 %3",
+    "tooltip": "만약 %1 이면 %2 %3",
+    "args0": [
+      null,
+      null,
+      null
+    ]
+  },
+  "python_for_each": {
+    "message0": "%2 의 각 %1 에 대해 %3 %4",
+    "tooltip": "%2 의 각 %1 에 대해 %3 %4",
+    "args0": [
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "python_image_resize": {
+    "message0": "이미지 %1 을 너비 %2, 높이 %3 으로 조정",
+    "tooltip": "이미지 %1 을 너비 %2, 높이 %3 으로 조정",
+    "args0": [
+      null,
+      null,
+      null
+    ]
+  },
+  "python_image_convert": {
+    "message0": "이미지 %1 을 %2 로 변환",
+    "tooltip": "이미지 %1 을 %2 로 변환",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "BGR에서 회색조",
+            "COLOR_BGR2GRAY"
+          ],
+          [
+            "BGR에서 LAB",
+            "COLOR_BGR2LAB"
+          ],
+          [
+            "BGR에서 RGB",
+            "COLOR_BGR2RGB"
+          ],
+          [
+            "회색조에서 BGR",
+            "COLOR_GRAY2BGR"
+          ]
+        ]
+      }
+    ]
+  },
+  "python_image_in_range": {
+    "message0": "이미지 %1 을 하한 %2, 상한 %3 으로 마스크",
+    "tooltip": "이미지 %1 을 하한 %2, 상한 %3 으로 마스크",
+    "args0": [
+      null,
+      null,
+      null
+    ]
+  },
+  "python_image_components": {
+    "message0": "%1 의 연결 요소, 연결성 %2",
+    "tooltip": "%1 의 연결 요소, 연결성 %2",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "4",
+            "4"
+          ],
+          [
+            "8",
+            "8"
+          ]
+        ]
+      }
+    ]
+  },
+  "python_image_load": {
+    "message0": "이미지 파일 %1 불러오기",
+    "tooltip": "이미지 파일 %1 불러오기",
+    "args0": [
+      null
+    ]
+  },
+  "python_image_save": {
+    "message0": "이미지 %1 을 파일 %2 에 저장",
+    "tooltip": "이미지 %1 을 파일 %2 에 저장",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_draw_rectangle": {
+    "message0": "%1 에 사각형 그리기: x %2, y %3 에서 x %4, y %5, 색 %6, 두께 %7",
+    "tooltip": "%1 에 사각형 그리기: x %2, y %3 에서 x %4, y %5, 색 %6, 두께 %7",
+    "args0": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "python_draw_circle": {
+    "message0": "%1 에 원 그리기: x %2, y %3, 반지름 %4, 색 %5, 두께 %6",
+    "tooltip": "%1 에 원 그리기: x %2, y %3, 반지름 %4, 색 %5, 두께 %6",
+    "args0": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "python_draw_line": {
+    "message0": "%1 에 선 그리기: x %2, y %3 에서 x %4, y %5, 색 %6, 두께 %7",
+    "tooltip": "%1 에 선 그리기: x %2, y %3 에서 x %4, y %5, 색 %6, 두께 %7",
+    "args0": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "python_draw_text": {
+    "message0": "%2 의 x %3, y %4 에 텍스트 %1 그리기, 배율 %5, 색 %6, 두께 %7",
+    "tooltip": "%2 의 x %3, y %4 에 텍스트 %1 그리기, 배율 %5, 색 %6, 두께 %7",
+    "args0": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "python_qr_decode": {
+    "message0": "%1 의 QR 코드 디코딩",
+    "tooltip": "%1 의 QR 코드 디코딩",
+    "args0": [
+      null
+    ]
+  },
+  "python_barcode_decode": {
+    "message0": "%1 의 바코드 디코딩",
+    "tooltip": "%1 의 바코드 디코딩",
+    "args0": [
+      null
+    ]
+  },
+  "python_apriltag_init": {
+    "message0": "AprilTag 감지기 %1 초기화, 패밀리 %2",
+    "tooltip": "AprilTag 감지기 %1 초기화, 패밀리 %2",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "tag16h5",
+            "tag16h5"
+          ],
+          [
+            "tag25h7",
+            "tag25h7"
+          ],
+          [
+            "tag25h9",
+            "tag25h9"
+          ],
+          [
+            "tag36h10",
+            "tag36h10"
+          ],
+          [
+            "tag36h11",
+            "tag36h11"
+          ]
+        ]
+      }
+    ]
+  },
+  "python_apriltag_detect": {
+    "message0": "AprilTag 감지기 %1 로 회색 이미지 %2 감지",
+    "tooltip": "AprilTag 감지기 %1 로 회색 이미지 %2 감지",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_socket_init": {
+    "message0": "소켓 %1 초기화, 패밀리 %2, 유형 %3",
+    "tooltip": "소켓 %1 초기화, 패밀리 %2, 유형 %3",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "IPv4",
+            "AF_INET"
+          ],
+          [
+            "IPv6",
+            "AF_INET6"
+          ]
+        ]
+      },
+      {
+        "options": [
+          [
+            "TCP",
+            "SOCK_STREAM"
+          ],
+          [
+            "UDP",
+            "SOCK_DGRAM"
+          ]
+        ]
+      }
+    ]
+  },
+  "python_socket_address": {
+    "message0": "네트워크 주소: 호스트 %1, 포트 %2",
+    "tooltip": "네트워크 주소: 호스트 %1, 포트 %2",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_socket_connect": {
+    "message0": "소켓 %1 을 %2 에 연결",
+    "tooltip": "소켓 %1 을 %2 에 연결",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_socket_bind": {
+    "message0": "소켓 %1 을 %2 에 바인드",
+    "tooltip": "소켓 %1 을 %2 에 바인드",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_socket_listen": {
+    "message0": "소켓 %1 대기, 백로그 %2",
+    "tooltip": "소켓 %1 대기, 백로그 %2",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_socket_accept": {
+    "message0": "소켓 %1 연결 수락",
+    "tooltip": "소켓 %1 연결 수락",
+    "args0": [
+      null
+    ]
+  },
+  "python_socket_send": {
+    "message0": "소켓 %1 로 %2 보내기",
+    "tooltip": "소켓 %1 로 %2 보내기",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_socket_receive": {
+    "message0": "소켓 %1 에서 %2 바이트 받기",
+    "tooltip": "소켓 %1 에서 %2 바이트 받기",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_socket_close": {
+    "message0": "소켓 %1 닫기",
+    "tooltip": "소켓 %1 닫기",
+    "args0": [
+      null
+    ]
+  },
+  "python_mqtt_init": {
+    "message0": "MQTT 클라이언트 %1 초기화",
+    "tooltip": "MQTT 클라이언트 %1 초기화",
+    "args0": [
+      null
+    ]
+  },
+  "python_mqtt_connect": {
+    "message0": "MQTT %1 을 호스트 %2, 포트 %3, keepalive %4 로 연결",
+    "tooltip": "MQTT %1 을 호스트 %2, 포트 %3, keepalive %4 로 연결",
+    "args0": [
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "python_mqtt_publish": {
+    "message0": "MQTT %1 이 주제 %2 에 메시지 %3 게시",
+    "tooltip": "MQTT %1 이 주제 %2 에 메시지 %3 게시",
+    "args0": [
+      null,
+      null,
+      null
+    ]
+  },
+  "python_mqtt_subscribe": {
+    "message0": "MQTT %1 이 주제 %2 구독",
+    "tooltip": "MQTT %1 이 주제 %2 구독",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_mqtt_on_message": {
+    "message0": "MQTT %1 이 메시지를 받으면 주제를 %2, 페이로드를 %3 으로 하고 %4 %5",
+    "tooltip": "MQTT %1 이 메시지를 받으면 주제를 %2, 페이로드를 %3 으로 하고 %4 %5",
+    "args0": [
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "python_mqtt_loop": {
+    "message0": "MQTT %1 영원히 루프",
+    "tooltip": "MQTT %1 영원히 루프",
+    "args0": [
+      null
+    ]
+  },
+  "python_mqtt_disconnect": {
+    "message0": "MQTT %1 연결 해제",
+    "tooltip": "MQTT %1 연결 해제",
+    "args0": [
+      null
+    ]
+  },
+  "python_http_request": {
+    "message0": "HTTP %1: URL %2, 데이터 %3",
+    "tooltip": "HTTP %1: URL %2, 데이터 %3",
+    "args0": [
+      {
+        "options": [
+          [
+            "GET",
+            "GET"
+          ],
+          [
+            "POST",
+            "POST"
+          ],
+          [
+            "PUT",
+            "PUT"
+          ],
+          [
+            "DELETE",
+            "DELETE"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_http_response": {
+    "message0": "HTTP 응답 %1 의 속성 %2",
+    "tooltip": "HTTP 응답 %1 의 속성 %2",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "상태 코드",
+            "status_code"
+          ],
+          [
+            "text",
+            "text"
+          ],
+          [
+            "JSON",
+            "json()"
+          ]
+        ]
+      }
+    ]
+  },
+  "python_http_server": {
+    "message0": "현재 디렉터리를 HTTP로 제공: 호스트 %1, 포트 %2",
+    "tooltip": "현재 디렉터리를 HTTP로 제공: 호스트 %1, 포트 %2",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_file_read": {
+    "message0": "텍스트 파일 %1 읽기",
+    "tooltip": "텍스트 파일 %1 읽기",
+    "args0": [
+      null
+    ]
+  },
+  "python_file_write": {
+    "message0": "텍스트 파일 %2 를 %1 모드로 처리, 내용 %3",
+    "tooltip": "텍스트 파일 %2 를 %1 모드로 처리, 내용 %3",
+    "args0": [
+      {
+        "options": [
+          [
+            "쓰기",
+            "w"
+          ],
+          [
+            "추가",
+            "a"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_file_exists": {
+    "message0": "경로 %1 이 존재함",
+    "tooltip": "경로 %1 이 존재함",
+    "args0": [
+      null
+    ]
+  },
+  "python_file_list": {
+    "message0": "디렉터리 %1 나열",
+    "tooltip": "디렉터리 %1 나열",
+    "args0": [
+      null
+    ]
+  },
+  "python_command": {
+    "message0": "시스템 명령 %1 실행",
+    "tooltip": "시스템 명령 %1 실행",
+    "args0": [
+      null
+    ]
+  },
+  "python_cpu_temperature": {
+    "message0": "CPU 온도 °C",
+    "tooltip": "CPU 온도 °C"
+  }
+}

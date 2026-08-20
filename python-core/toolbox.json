@@ -1,0 +1,885 @@
+{
+  "kind": "category",
+  "name": "Python",
+  "colour": "#455A64",
+  "contents": [
+    {
+      "kind": "category",
+      "name": "Program",
+      "colour": "#455A64",
+      "contents": [
+        {
+          "kind": "block",
+          "type": "python_sleep",
+          "inputs": {
+            "SECONDS": {
+              "shadow": {
+                "type": "math_number",
+                "fields": {
+                  "NUM": 1
+                }
+              }
+            }
+          }
+        },
+        {
+          "kind": "block",
+          "type": "python_print",
+          "inputs": {
+            "VALUE": {
+              "shadow": {
+                "type": "text",
+                "fields": {
+                  "TEXT": ""
+                }
+              }
+            }
+          }
+        },
+        {
+          "kind": "block",
+          "type": "python_number"
+        },
+        {
+          "kind": "block",
+          "type": "python_text"
+        },
+        {
+          "kind": "block",
+          "type": "python_boolean"
+        },
+        {
+          "kind": "block",
+          "type": "python_tuple",
+          "inputs": {
+            "ITEMS": {
+              "shadow": {
+                "type": "text",
+                "fields": {
+                  "TEXT": ""
+                }
+              }
+            }
+          }
+        },
+        {
+          "kind": "block",
+          "type": "python_list",
+          "inputs": {
+            "ITEMS": {
+              "shadow": {
+                "type": "text",
+                "fields": {
+                  "TEXT": ""
+                }
+              }
+            }
+          }
+        },
+        {
+          "kind": "block",
+          "type": "python_set_variable",
+          "inputs": {
+            "VALUE": {
+              "shadow": {
+                "type": "text",
+                "fields": {
+                  "TEXT": ""
+                }
+              }
+            }
+          }
+        },
+        {
+          "kind": "block",
+          "type": "python_get_variable"
+        },
+        {
+          "kind": "block",
+          "type": "python_if",
+          "inputs": {
+            "CONDITION": {
+              "shadow": {
+                "type": "logic_boolean",
+                "fields": {
+                  "BOOL": "TRUE"
+                }
+              }
+            }
+          }
+        },
+        {
+          "kind": "block",
+          "type": "python_for_each",
+          "inputs": {
+            "ITEMS": {
+              "shadow": {
+                "type": "text",
+                "fields": {
+                  "TEXT": ""
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "kind": "category",
+      "name": "OpenCV and codes",
+      "colour": "#1976D2",
+      "contents": [
+        {
+          "kind": "block",
+          "type": "python_image_resize",
+          "inputs": {
+            "IMAGE": {
+              "shadow": {
+                "type": "text",
+                "fields": {
+                  "TEXT": ""
+                }
+              }
+            },
+            "WIDTH": {
+              "shadow": {
+                "type": "math_number",
+                "fields": {
+                  "NUM": 640
+                }
+              }
+            },
+            "HEIGHT": {
+              "shadow": {
+                "type": "math_number",
+                "fields": {
+                  "NUM": 480
+                }
+              }
+            }
+          }
+        },
+        {
+          "kind": "block",
+          "type": "python_image_convert",
+          "inputs": {
+            "IMAGE": {
+              "shadow": {
+                "type": "text",
+                "fields": {
+                  "TEXT": ""
+                }
+              }
+            }
+          }
+        },
+        {
+          "kind": "block",
+          "type": "python_image_in_range",
+          "inputs": {
+            "IMAGE": {
+              "shadow": {
+                "type": "text",
+                "fields": {
+                  "TEXT": ""
+                }
+              }
+            },
+            "LOWER": {
+              "shadow": {
+                "type": "text",
+                "fields": {
+                  "TEXT": ""
+                }
+              }
+            },
+            "UPPER": {
+              "shadow": {
+                "type": "text",
+                "fields": {
+                  "TEXT": ""
+                }
+              }
+            }
+          }
+        },
+        {
+          "kind": "block",
+          "type": "python_image_components",
+          "inputs": {
+            "IMAGE": {
+              "shadow": {
+                "type": "text",
+                "fields": {
+                  "TEXT": ""
+                }
+              }
+            }
+          }
+        },
+        {
+          "kind": "block",
+          "type": "python_image_load",
+          "inputs": {
+            "PATH": {
+              "shadow": {
+                "type": "text",
+                "fields": {
+                  "TEXT": "/tmp/file.txt"
+                }
+              }
+            }
+          }
+        },
+        {
+          "kind": "block",
+          "type": "python_image_save",
+          "inputs": {
+            "IMAGE": {
+              "shadow": {
+                "type": "text",
+                "fields": {
+                  "TEXT": ""
+                }
+              }
+            },
+            "PATH": {
+              "shadow": {
+                "type": "text",
+                "fields": {
+                  "TEXT": "/tmp/file.txt"
+                }
+              }
+            }
+          }
+        },
+        {
+          "kind": "block",
+          "type": "python_draw_rectangle",
+          "inputs": {
+            "IMAGE": {
+              "shadow": {
+                "type": "text",
+                "fields": {
+                  "TEXT": ""
+                }
+              }
+            },
+            "X1": {
+              "shadow": {
+                "type": "math_number",
+                "fields": {
+                  "NUM": 10
+                }
+              }
+            },
+            "Y1": {
+              "shadow": {
+                "type": "math_number",
+                "fields": {
+                  "NUM": 10
+                }
+              }
+            },
+            "X2": {
+              "shadow": {
+                "type": "math_number",
+                "fields": {
+                  "NUM": 100
+                }
+              }
+            },
+            "Y2": {
+              "shadow": {
+                "type": "math_number",
+                "fields": {
+                  "NUM": 100
+                }
+              }
+            },
+            "COLOR": {
+              "shadow": {
+                "type": "text",
+                "fields": {
+                  "TEXT": ""
+                }
+              }
+            },
+            "THICKNESS": {
+              "shadow": {
+                "type": "math_number",
+                "fields": {
+                  "NUM": 2
+                }
+              }
+            }
+          }
+        },
+        {
+          "kind": "block",
+          "type": "python_draw_circle",
+          "inputs": {
+            "IMAGE": {
+              "shadow": {
+                "type": "text",
+                "fields": {
+                  "TEXT": ""
+                }
+              }
+            },
+            "X": {
+              "shadow": {
+                "type": "math_number",
+                "fields": {
+                  "NUM": 10
+                }
+              }
+            },
+            "Y": {
+              "shadow": {
+                "type": "math_number",
+                "fields": {
+                  "NUM": 30
+                }
+              }
+            },
+            "RADIUS": {
+              "shadow": {
+                "type": "math_number",
+                "fields": {
+                  "NUM": 10
+                }
+              }
+            },
+            "COLOR": {
+              "shadow": {
+                "type": "text",
+                "fields": {
+                  "TEXT": ""
+                }
+              }
+            },
+            "THICKNESS": {
+              "shadow": {
+                "type": "math_number",
+                "fields": {
+                  "NUM": 2
+                }
+              }
+            }
+          }
+        },
+        {
+          "kind": "block",
+          "type": "python_draw_line",
+          "inputs": {
+            "IMAGE": {
+              "shadow": {
+                "type": "text",
+                "fields": {
+                  "TEXT": ""
+                }
+              }
+            },
+            "X1": {
+              "shadow": {
+                "type": "math_number",
+                "fields": {
+                  "NUM": 10
+                }
+              }
+            },
+            "Y1": {
+              "shadow": {
+                "type": "math_number",
+                "fields": {
+                  "NUM": 10
+                }
+              }
+            },
+            "X2": {
+              "shadow": {
+                "type": "math_number",
+                "fields": {
+                  "NUM": 100
+                }
+              }
+            },
+            "Y2": {
+              "shadow": {
+                "type": "math_number",
+                "fields": {
+                  "NUM": 100
+                }
+              }
+            },
+            "COLOR": {
+              "shadow": {
+                "type": "text",
+                "fields": {
+                  "TEXT": ""
+                }
+              }
+            },
+            "THICKNESS": {
+              "shadow": {
+                "type": "math_number",
+                "fields": {
+                  "NUM": 2
+                }
+              }
+            }
+          }
+        },
+        {
+          "kind": "block",
+          "type": "python_draw_text",
+          "inputs": {
+            "TEXT": {
+              "shadow": {
+                "type": "text",
+                "fields": {
+                  "TEXT": "Python"
+                }
+              }
+            },
+            "IMAGE": {
+              "shadow": {
+                "type": "text",
+                "fields": {
+                  "TEXT": ""
+                }
+              }
+            },
+            "X": {
+              "shadow": {
+                "type": "math_number",
+                "fields": {
+                  "NUM": 10
+                }
+              }
+            },
+            "Y": {
+              "shadow": {
+                "type": "math_number",
+                "fields": {
+                  "NUM": 30
+                }
+              }
+            },
+            "SCALE": {
+              "shadow": {
+                "type": "math_number",
+                "fields": {
+                  "NUM": 1
+                }
+              }
+            },
+            "COLOR": {
+              "shadow": {
+                "type": "text",
+                "fields": {
+                  "TEXT": ""
+                }
+              }
+            },
+            "THICKNESS": {
+              "shadow": {
+                "type": "math_number",
+                "fields": {
+                  "NUM": 2
+                }
+              }
+            }
+          }
+        },
+        {
+          "kind": "block",
+          "type": "python_qr_decode",
+          "inputs": {
+            "IMAGE": {
+              "shadow": {
+                "type": "text",
+                "fields": {
+                  "TEXT": ""
+                }
+              }
+            }
+          }
+        },
+        {
+          "kind": "block",
+          "type": "python_barcode_decode",
+          "inputs": {
+            "IMAGE": {
+              "shadow": {
+                "type": "text",
+                "fields": {
+                  "TEXT": ""
+                }
+              }
+            }
+          }
+        },
+        {
+          "kind": "block",
+          "type": "python_apriltag_init"
+        },
+        {
+          "kind": "block",
+          "type": "python_apriltag_detect",
+          "inputs": {
+            "IMAGE": {
+              "shadow": {
+                "type": "text",
+                "fields": {
+                  "TEXT": ""
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "kind": "category",
+      "name": "Network",
+      "colour": "#0288D1",
+      "contents": [
+        {
+          "kind": "block",
+          "type": "python_socket_init"
+        },
+        {
+          "kind": "block",
+          "type": "python_socket_address",
+          "inputs": {
+            "HOST": {
+              "shadow": {
+                "type": "text",
+                "fields": {
+                  "TEXT": "localhost"
+                }
+              }
+            },
+            "PORT": {
+              "shadow": {
+                "type": "math_number",
+                "fields": {
+                  "NUM": 1883
+                }
+              }
+            }
+          }
+        },
+        {
+          "kind": "block",
+          "type": "python_socket_connect",
+          "inputs": {
+            "ADDRESS": {
+              "shadow": {
+                "type": "text",
+                "fields": {
+                  "TEXT": ""
+                }
+              }
+            }
+          }
+        },
+        {
+          "kind": "block",
+          "type": "python_socket_bind",
+          "inputs": {
+            "ADDRESS": {
+              "shadow": {
+                "type": "text",
+                "fields": {
+                  "TEXT": ""
+                }
+              }
+            }
+          }
+        },
+        {
+          "kind": "block",
+          "type": "python_socket_listen",
+          "inputs": {
+            "BACKLOG": {
+              "shadow": {
+                "type": "math_number",
+                "fields": {
+                  "NUM": 1
+                }
+              }
+            }
+          }
+        },
+        {
+          "kind": "block",
+          "type": "python_socket_accept"
+        },
+        {
+          "kind": "block",
+          "type": "python_socket_send",
+          "inputs": {
+            "DATA": {
+              "shadow": {
+                "type": "text",
+                "fields": {
+                  "TEXT": ""
+                }
+              }
+            }
+          }
+        },
+        {
+          "kind": "block",
+          "type": "python_socket_receive",
+          "inputs": {
+            "SIZE": {
+              "shadow": {
+                "type": "math_number",
+                "fields": {
+                  "NUM": 1024
+                }
+              }
+            }
+          }
+        },
+        {
+          "kind": "block",
+          "type": "python_socket_close"
+        },
+        {
+          "kind": "block",
+          "type": "python_mqtt_init"
+        },
+        {
+          "kind": "block",
+          "type": "python_mqtt_connect",
+          "inputs": {
+            "HOST": {
+              "shadow": {
+                "type": "text",
+                "fields": {
+                  "TEXT": "localhost"
+                }
+              }
+            },
+            "PORT": {
+              "shadow": {
+                "type": "math_number",
+                "fields": {
+                  "NUM": 1883
+                }
+              }
+            },
+            "KEEPALIVE": {
+              "shadow": {
+                "type": "math_number",
+                "fields": {
+                  "NUM": 60
+                }
+              }
+            }
+          }
+        },
+        {
+          "kind": "block",
+          "type": "python_mqtt_publish",
+          "inputs": {
+            "TOPIC": {
+              "shadow": {
+                "type": "text",
+                "fields": {
+                  "TEXT": "/python/data"
+                }
+              }
+            },
+            "MESSAGE": {
+              "shadow": {
+                "type": "text",
+                "fields": {
+                  "TEXT": ""
+                }
+              }
+            }
+          }
+        },
+        {
+          "kind": "block",
+          "type": "python_mqtt_subscribe",
+          "inputs": {
+            "TOPIC": {
+              "shadow": {
+                "type": "text",
+                "fields": {
+                  "TEXT": "/python/data"
+                }
+              }
+            }
+          }
+        },
+        {
+          "kind": "block",
+          "type": "python_mqtt_on_message"
+        },
+        {
+          "kind": "block",
+          "type": "python_mqtt_loop"
+        },
+        {
+          "kind": "block",
+          "type": "python_mqtt_disconnect"
+        },
+        {
+          "kind": "block",
+          "type": "python_http_request",
+          "inputs": {
+            "URL": {
+              "shadow": {
+                "type": "text",
+                "fields": {
+                  "TEXT": "https://example.com"
+                }
+              }
+            },
+            "DATA": {
+              "shadow": {
+                "type": "text",
+                "fields": {
+                  "TEXT": ""
+                }
+              }
+            }
+          }
+        },
+        {
+          "kind": "block",
+          "type": "python_http_response",
+          "inputs": {
+            "RESPONSE": {
+              "shadow": {
+                "type": "text",
+                "fields": {
+                  "TEXT": ""
+                }
+              }
+            }
+          }
+        },
+        {
+          "kind": "block",
+          "type": "python_http_server",
+          "inputs": {
+            "HOST": {
+              "shadow": {
+                "type": "text",
+                "fields": {
+                  "TEXT": "localhost"
+                }
+              }
+            },
+            "PORT": {
+              "shadow": {
+                "type": "math_number",
+                "fields": {
+                  "NUM": 1883
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "kind": "category",
+      "name": "Files and system",
+      "colour": "#EF6C00",
+      "contents": [
+        {
+          "kind": "block",
+          "type": "python_file_read",
+          "inputs": {
+            "PATH": {
+              "shadow": {
+                "type": "text",
+                "fields": {
+                  "TEXT": "/tmp/file.txt"
+                }
+              }
+            }
+          }
+        },
+        {
+          "kind": "block",
+          "type": "python_file_write",
+          "inputs": {
+            "PATH": {
+              "shadow": {
+                "type": "text",
+                "fields": {
+                  "TEXT": "/tmp/file.txt"
+                }
+              }
+            },
+            "CONTENT": {
+              "shadow": {
+                "type": "text",
+                "fields": {
+                  "TEXT": ""
+                }
+              }
+            }
+          }
+        },
+        {
+          "kind": "block",
+          "type": "python_file_exists",
+          "inputs": {
+            "PATH": {
+              "shadow": {
+                "type": "text",
+                "fields": {
+                  "TEXT": "/tmp/file.txt"
+                }
+              }
+            }
+          }
+        },
+        {
+          "kind": "block",
+          "type": "python_file_list",
+          "inputs": {
+            "PATH": {
+              "shadow": {
+                "type": "text",
+                "fields": {
+                  "TEXT": "/tmp/file.txt"
+                }
+              }
+            }
+          }
+        },
+        {
+          "kind": "block",
+          "type": "python_command",
+          "inputs": {
+            "COMMAND": {
+              "shadow": {
+                "type": "text",
+                "fields": {
+                  "TEXT": "uname -a"
+                }
+              }
+            }
+          }
+        },
+        {
+          "kind": "block",
+          "type": "python_cpu_temperature"
+        }
+      ]
+    }
+  ]
+}

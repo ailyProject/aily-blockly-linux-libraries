@@ -1,0 +1,571 @@
+{
+  "toolbox_name": "Python Core",
+  "toolbox_categories": [
+    "Program",
+    "OpenCV and codes",
+    "Network",
+    "Files and system"
+  ],
+  "toolbox_labels": {
+    "Program": "Program",
+    "OpenCV and codes": "OpenCV and codes",
+    "Network": "Network",
+    "Files and system": "Files and system"
+  },
+  "python_start": {
+    "message0": "when program starts %1 %2",
+    "tooltip": "Run once when the Python program starts.",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_forever": {
+    "message0": "forever %1 %2",
+    "tooltip": "Run these blocks repeatedly.",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_sleep": {
+    "message0": "wait %1 seconds",
+    "tooltip": "Pause the program for a number of seconds.",
+    "args0": [
+      null
+    ]
+  },
+  "python_print": {
+    "message0": "print %1",
+    "tooltip": "print %1",
+    "args0": [
+      null
+    ]
+  },
+  "python_number": {
+    "message0": "number %1",
+    "tooltip": "number %1",
+    "args0": [
+      null
+    ]
+  },
+  "python_text": {
+    "message0": "text %1",
+    "tooltip": "text %1",
+    "args0": [
+      null
+    ]
+  },
+  "python_boolean": {
+    "message0": "boolean %1",
+    "tooltip": "boolean %1",
+    "args0": [
+      {
+        "options": [
+          [
+            "true",
+            "TRUE"
+          ],
+          [
+            "false",
+            "FALSE"
+          ]
+        ]
+      }
+    ]
+  },
+  "python_tuple": {
+    "message0": "tuple containing %1",
+    "tooltip": "tuple containing %1",
+    "args0": [
+      null
+    ]
+  },
+  "python_list": {
+    "message0": "list containing %1",
+    "tooltip": "list containing %1",
+    "args0": [
+      null
+    ]
+  },
+  "python_set_variable": {
+    "message0": "set variable %1 to %2",
+    "tooltip": "set variable %1 to %2",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_get_variable": {
+    "message0": "variable %1",
+    "tooltip": "variable %1",
+    "args0": [
+      null
+    ]
+  },
+  "python_if": {
+    "message0": "if %1 do %2 %3",
+    "tooltip": "if %1 do %2 %3",
+    "args0": [
+      null,
+      null,
+      null
+    ]
+  },
+  "python_for_each": {
+    "message0": "for each %1 in %2 do %3 %4",
+    "tooltip": "for each %1 in %2 do %3 %4",
+    "args0": [
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "python_image_resize": {
+    "message0": "resize image %1 width %2 height %3",
+    "tooltip": "resize image %1 width %2 height %3",
+    "args0": [
+      null,
+      null,
+      null
+    ]
+  },
+  "python_image_convert": {
+    "message0": "convert image %1 using %2",
+    "tooltip": "convert image %1 using %2",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "BGR to gray",
+            "COLOR_BGR2GRAY"
+          ],
+          [
+            "BGR to LAB",
+            "COLOR_BGR2LAB"
+          ],
+          [
+            "BGR to RGB",
+            "COLOR_BGR2RGB"
+          ],
+          [
+            "gray to BGR",
+            "COLOR_GRAY2BGR"
+          ]
+        ]
+      }
+    ]
+  },
+  "python_image_in_range": {
+    "message0": "image %1 mask lower %2 upper %3",
+    "tooltip": "image %1 mask lower %2 upper %3",
+    "args0": [
+      null,
+      null,
+      null
+    ]
+  },
+  "python_image_components": {
+    "message0": "connected components of %1 connectivity %2",
+    "tooltip": "connected components of %1 connectivity %2",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "4",
+            "4"
+          ],
+          [
+            "8",
+            "8"
+          ]
+        ]
+      }
+    ]
+  },
+  "python_image_load": {
+    "message0": "load image file %1",
+    "tooltip": "load image file %1",
+    "args0": [
+      null
+    ]
+  },
+  "python_image_save": {
+    "message0": "save image %1 to file %2",
+    "tooltip": "save image %1 to file %2",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_draw_rectangle": {
+    "message0": "draw rectangle on %1 from x %2 y %3 to x %4 y %5 color %6 thickness %7",
+    "tooltip": "draw rectangle on %1 from x %2 y %3 to x %4 y %5 color %6 thickness %7",
+    "args0": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "python_draw_circle": {
+    "message0": "draw circle on %1 x %2 y %3 radius %4 color %5 thickness %6",
+    "tooltip": "draw circle on %1 x %2 y %3 radius %4 color %5 thickness %6",
+    "args0": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "python_draw_line": {
+    "message0": "draw line on %1 from x %2 y %3 to x %4 y %5 color %6 thickness %7",
+    "tooltip": "draw line on %1 from x %2 y %3 to x %4 y %5 color %6 thickness %7",
+    "args0": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "python_draw_text": {
+    "message0": "draw text %1 on %2 x %3 y %4 scale %5 color %6 thickness %7",
+    "tooltip": "draw text %1 on %2 x %3 y %4 scale %5 color %6 thickness %7",
+    "args0": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "python_qr_decode": {
+    "message0": "decode QR codes in %1",
+    "tooltip": "decode QR codes in %1",
+    "args0": [
+      null
+    ]
+  },
+  "python_barcode_decode": {
+    "message0": "decode barcodes in %1",
+    "tooltip": "decode barcodes in %1",
+    "args0": [
+      null
+    ]
+  },
+  "python_apriltag_init": {
+    "message0": "initialize AprilTag detector %1 family %2",
+    "tooltip": "initialize AprilTag detector %1 family %2",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "tag16h5",
+            "tag16h5"
+          ],
+          [
+            "tag25h7",
+            "tag25h7"
+          ],
+          [
+            "tag25h9",
+            "tag25h9"
+          ],
+          [
+            "tag36h10",
+            "tag36h10"
+          ],
+          [
+            "tag36h11",
+            "tag36h11"
+          ]
+        ]
+      }
+    ]
+  },
+  "python_apriltag_detect": {
+    "message0": "AprilTag detector %1 detect gray image %2",
+    "tooltip": "AprilTag detector %1 detect gray image %2",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_socket_init": {
+    "message0": "initialize socket %1 family %2 type %3",
+    "tooltip": "initialize socket %1 family %2 type %3",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "IPv4",
+            "AF_INET"
+          ],
+          [
+            "IPv6",
+            "AF_INET6"
+          ]
+        ]
+      },
+      {
+        "options": [
+          [
+            "TCP",
+            "SOCK_STREAM"
+          ],
+          [
+            "UDP",
+            "SOCK_DGRAM"
+          ]
+        ]
+      }
+    ]
+  },
+  "python_socket_address": {
+    "message0": "network address host %1 port %2",
+    "tooltip": "network address host %1 port %2",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_socket_connect": {
+    "message0": "socket %1 connect to %2",
+    "tooltip": "socket %1 connect to %2",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_socket_bind": {
+    "message0": "socket %1 bind to %2",
+    "tooltip": "socket %1 bind to %2",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_socket_listen": {
+    "message0": "socket %1 listen backlog %2",
+    "tooltip": "socket %1 listen backlog %2",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_socket_accept": {
+    "message0": "socket %1 accept connection",
+    "tooltip": "socket %1 accept connection",
+    "args0": [
+      null
+    ]
+  },
+  "python_socket_send": {
+    "message0": "socket %1 send %2",
+    "tooltip": "socket %1 send %2",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_socket_receive": {
+    "message0": "socket %1 receive %2 bytes",
+    "tooltip": "socket %1 receive %2 bytes",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_socket_close": {
+    "message0": "close socket %1",
+    "tooltip": "close socket %1",
+    "args0": [
+      null
+    ]
+  },
+  "python_mqtt_init": {
+    "message0": "initialize MQTT client %1",
+    "tooltip": "initialize MQTT client %1",
+    "args0": [
+      null
+    ]
+  },
+  "python_mqtt_connect": {
+    "message0": "MQTT %1 connect host %2 port %3 keepalive %4",
+    "tooltip": "MQTT %1 connect host %2 port %3 keepalive %4",
+    "args0": [
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "python_mqtt_publish": {
+    "message0": "MQTT %1 publish topic %2 message %3",
+    "tooltip": "MQTT %1 publish topic %2 message %3",
+    "args0": [
+      null,
+      null,
+      null
+    ]
+  },
+  "python_mqtt_subscribe": {
+    "message0": "MQTT %1 subscribe topic %2",
+    "tooltip": "MQTT %1 subscribe topic %2",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_mqtt_on_message": {
+    "message0": "when MQTT %1 receives message set topic %2 payload %3 do %4 %5",
+    "tooltip": "when MQTT %1 receives message set topic %2 payload %3 do %4 %5",
+    "args0": [
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "python_mqtt_loop": {
+    "message0": "MQTT %1 loop forever",
+    "tooltip": "MQTT %1 loop forever",
+    "args0": [
+      null
+    ]
+  },
+  "python_mqtt_disconnect": {
+    "message0": "disconnect MQTT %1",
+    "tooltip": "disconnect MQTT %1",
+    "args0": [
+      null
+    ]
+  },
+  "python_http_request": {
+    "message0": "HTTP %1 URL %2 data %3",
+    "tooltip": "HTTP %1 URL %2 data %3",
+    "args0": [
+      {
+        "options": [
+          [
+            "GET",
+            "GET"
+          ],
+          [
+            "POST",
+            "POST"
+          ],
+          [
+            "PUT",
+            "PUT"
+          ],
+          [
+            "DELETE",
+            "DELETE"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_http_response": {
+    "message0": "HTTP response %1 property %2",
+    "tooltip": "HTTP response %1 property %2",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "status code",
+            "status_code"
+          ],
+          [
+            "text",
+            "text"
+          ],
+          [
+            "JSON",
+            "json()"
+          ]
+        ]
+      }
+    ]
+  },
+  "python_http_server": {
+    "message0": "serve current directory with HTTP host %1 port %2",
+    "tooltip": "serve current directory with HTTP host %1 port %2",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_file_read": {
+    "message0": "read text file %1",
+    "tooltip": "read text file %1",
+    "args0": [
+      null
+    ]
+  },
+  "python_file_write": {
+    "message0": "%1 text file %2 content %3",
+    "tooltip": "%1 text file %2 content %3",
+    "args0": [
+      {
+        "options": [
+          [
+            "write",
+            "w"
+          ],
+          [
+            "append",
+            "a"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_file_exists": {
+    "message0": "path %1 exists",
+    "tooltip": "path %1 exists",
+    "args0": [
+      null
+    ]
+  },
+  "python_file_list": {
+    "message0": "list directory %1",
+    "tooltip": "list directory %1",
+    "args0": [
+      null
+    ]
+  },
+  "python_command": {
+    "message0": "run system command %1",
+    "tooltip": "run system command %1",
+    "args0": [
+      null
+    ]
+  },
+  "python_cpu_temperature": {
+    "message0": "CPU temperature °C",
+    "tooltip": "CPU temperature °C"
+  }
+}

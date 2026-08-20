@@ -1,0 +1,8 @@
+{
+  "name": "aily-blockly-linux-libraries",
+  "private": true,
+  "description": "Portable CPython and Linux hardware Blockly libraries for Raspberry Pi and WalnutPi.",
+  "scripts": {
+    "test": "npm test --prefix python-core && npm test --prefix linux-python"
+  }
+}

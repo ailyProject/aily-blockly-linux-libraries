@@ -1,0 +1,571 @@
+{
+  "toolbox_name": "نواة بايثون",
+  "toolbox_categories": [
+    "البرنامج",
+    "OpenCV والرموز",
+    "الشبكة",
+    "الملفات والنظام"
+  ],
+  "toolbox_labels": {
+    "Program": "البرنامج",
+    "OpenCV and codes": "OpenCV والرموز",
+    "Network": "الشبكة",
+    "Files and system": "الملفات والنظام"
+  },
+  "python_start": {
+    "message0": "عند بدء البرنامج %1 %2",
+    "tooltip": "التنفيذ مرة واحدة عند بدء البرنامج.",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_forever": {
+    "message0": "كرر إلى الأبد %1 %2",
+    "tooltip": "تنفيذ الكتل الموجودة بشكل متكرر.",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_sleep": {
+    "message0": "انتظر %1 ثانية",
+    "tooltip": "إيقاف البرنامج مؤقتًا لعدد الثواني المحدد.",
+    "args0": [
+      null
+    ]
+  },
+  "python_print": {
+    "message0": "اطبع %1",
+    "tooltip": "اطبع %1",
+    "args0": [
+      null
+    ]
+  },
+  "python_number": {
+    "message0": "عدد %1",
+    "tooltip": "عدد %1",
+    "args0": [
+      null
+    ]
+  },
+  "python_text": {
+    "message0": "نص %1",
+    "tooltip": "نص %1",
+    "args0": [
+      null
+    ]
+  },
+  "python_boolean": {
+    "message0": "منطقي %1",
+    "tooltip": "منطقي %1",
+    "args0": [
+      {
+        "options": [
+          [
+            "صحيح",
+            "TRUE"
+          ],
+          [
+            "خطأ",
+            "FALSE"
+          ]
+        ]
+      }
+    ]
+  },
+  "python_tuple": {
+    "message0": "صف يحتوي %1",
+    "tooltip": "صف يحتوي %1",
+    "args0": [
+      null
+    ]
+  },
+  "python_list": {
+    "message0": "قائمة تحتوي %1",
+    "tooltip": "قائمة تحتوي %1",
+    "args0": [
+      null
+    ]
+  },
+  "python_set_variable": {
+    "message0": "عيّن المتغير %1 إلى %2",
+    "tooltip": "عيّن المتغير %1 إلى %2",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_get_variable": {
+    "message0": "المتغير %1",
+    "tooltip": "المتغير %1",
+    "args0": [
+      null
+    ]
+  },
+  "python_if": {
+    "message0": "إذا %1 فنفّذ %2 %3",
+    "tooltip": "إذا %1 فنفّذ %2 %3",
+    "args0": [
+      null,
+      null,
+      null
+    ]
+  },
+  "python_for_each": {
+    "message0": "لكل %1 في %2 نفّذ %3 %4",
+    "tooltip": "لكل %1 في %2 نفّذ %3 %4",
+    "args0": [
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "python_image_resize": {
+    "message0": "غيّر حجم الصورة %1 عرض %2 ارتفاع %3",
+    "tooltip": "غيّر حجم الصورة %1 عرض %2 ارتفاع %3",
+    "args0": [
+      null,
+      null,
+      null
+    ]
+  },
+  "python_image_convert": {
+    "message0": "حوّل الصورة %1 باستخدام %2",
+    "tooltip": "حوّل الصورة %1 باستخدام %2",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "BGR → تدرج رمادي",
+            "COLOR_BGR2GRAY"
+          ],
+          [
+            "BGR → LAB",
+            "COLOR_BGR2LAB"
+          ],
+          [
+            "BGR → RGB",
+            "COLOR_BGR2RGB"
+          ],
+          [
+            "تدرج رمادي → BGR",
+            "COLOR_GRAY2BGR"
+          ]
+        ]
+      }
+    ]
+  },
+  "python_image_in_range": {
+    "message0": "قناع الصورة %1 الأدنى %2 الأعلى %3",
+    "tooltip": "قناع الصورة %1 الأدنى %2 الأعلى %3",
+    "args0": [
+      null,
+      null,
+      null
+    ]
+  },
+  "python_image_components": {
+    "message0": "المكونات المتصلة لـ %1 الاتصال %2",
+    "tooltip": "المكونات المتصلة لـ %1 الاتصال %2",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "4",
+            "4"
+          ],
+          [
+            "8",
+            "8"
+          ]
+        ]
+      }
+    ]
+  },
+  "python_image_load": {
+    "message0": "حمّل ملف الصورة %1",
+    "tooltip": "حمّل ملف الصورة %1",
+    "args0": [
+      null
+    ]
+  },
+  "python_image_save": {
+    "message0": "احفظ الصورة %1 في الملف %2",
+    "tooltip": "احفظ الصورة %1 في الملف %2",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_draw_rectangle": {
+    "message0": "ارسم مستطيلاً على %1 من x %2 y %3 إلى x %4 y %5 لون %6 سماكة %7",
+    "tooltip": "ارسم مستطيلاً على %1 من x %2 y %3 إلى x %4 y %5 لون %6 سماكة %7",
+    "args0": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "python_draw_circle": {
+    "message0": "ارسم دائرة على %1 x %2 y %3 نصف قطر %4 لون %5 سماكة %6",
+    "tooltip": "ارسم دائرة على %1 x %2 y %3 نصف قطر %4 لون %5 سماكة %6",
+    "args0": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "python_draw_line": {
+    "message0": "ارسم خطاً على %1 من x %2 y %3 إلى x %4 y %5 لون %6 سماكة %7",
+    "tooltip": "ارسم خطاً على %1 من x %2 y %3 إلى x %4 y %5 لون %6 سماكة %7",
+    "args0": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "python_draw_text": {
+    "message0": "ارسم النص %1 على %2 عند x %3 y %4 مقياس %5 لون %6 سماكة %7",
+    "tooltip": "ارسم النص %1 على %2 عند x %3 y %4 مقياس %5 لون %6 سماكة %7",
+    "args0": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "python_qr_decode": {
+    "message0": "فك رموز QR في %1",
+    "tooltip": "فك رموز QR في %1",
+    "args0": [
+      null
+    ]
+  },
+  "python_barcode_decode": {
+    "message0": "فك الرموز الشريطية في %1",
+    "tooltip": "فك الرموز الشريطية في %1",
+    "args0": [
+      null
+    ]
+  },
+  "python_apriltag_init": {
+    "message0": "هيئ كاشف AprilTag %1 العائلة %2",
+    "tooltip": "هيئ كاشف AprilTag %1 العائلة %2",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "tag16h5",
+            "tag16h5"
+          ],
+          [
+            "tag25h7",
+            "tag25h7"
+          ],
+          [
+            "tag25h9",
+            "tag25h9"
+          ],
+          [
+            "tag36h10",
+            "tag36h10"
+          ],
+          [
+            "tag36h11",
+            "tag36h11"
+          ]
+        ]
+      }
+    ]
+  },
+  "python_apriltag_detect": {
+    "message0": "كاشف AprilTag %1 يكتشف الصورة الرمادية %2",
+    "tooltip": "كاشف AprilTag %1 يكتشف الصورة الرمادية %2",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_socket_init": {
+    "message0": "هيئ المقبس %1 العائلة %2 النوع %3",
+    "tooltip": "هيئ المقبس %1 العائلة %2 النوع %3",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "IPv4",
+            "AF_INET"
+          ],
+          [
+            "IPv6",
+            "AF_INET6"
+          ]
+        ]
+      },
+      {
+        "options": [
+          [
+            "TCP",
+            "SOCK_STREAM"
+          ],
+          [
+            "UDP",
+            "SOCK_DGRAM"
+          ]
+        ]
+      }
+    ]
+  },
+  "python_socket_address": {
+    "message0": "عنوان الشبكة: المضيف %1 المنفذ %2",
+    "tooltip": "عنوان الشبكة: المضيف %1 المنفذ %2",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_socket_connect": {
+    "message0": "وصّل المقبس %1 إلى %2",
+    "tooltip": "وصّل المقبس %1 إلى %2",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_socket_bind": {
+    "message0": "اربط المقبس %1 بـ %2",
+    "tooltip": "اربط المقبس %1 بـ %2",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_socket_listen": {
+    "message0": "اجعل المقبس %1 يستمع الطابور %2",
+    "tooltip": "اجعل المقبس %1 يستمع الطابور %2",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_socket_accept": {
+    "message0": "المقبس %1 يقبل اتصالاً",
+    "tooltip": "المقبس %1 يقبل اتصالاً",
+    "args0": [
+      null
+    ]
+  },
+  "python_socket_send": {
+    "message0": "أرسل %2 عبر المقبس %1",
+    "tooltip": "أرسل %2 عبر المقبس %1",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_socket_receive": {
+    "message0": "استقبل %2 بايت من المقبس %1",
+    "tooltip": "استقبل %2 بايت من المقبس %1",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_socket_close": {
+    "message0": "أغلق المقبس %1",
+    "tooltip": "أغلق المقبس %1",
+    "args0": [
+      null
+    ]
+  },
+  "python_mqtt_init": {
+    "message0": "هيئ عميل MQTT %1",
+    "tooltip": "هيئ عميل MQTT %1",
+    "args0": [
+      null
+    ]
+  },
+  "python_mqtt_connect": {
+    "message0": "MQTT %1 يتصل بالمضيف %2 المنفذ %3 keepalive %4",
+    "tooltip": "MQTT %1 يتصل بالمضيف %2 المنفذ %3 keepalive %4",
+    "args0": [
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "python_mqtt_publish": {
+    "message0": "MQTT %1 ينشر الموضوع %2 الرسالة %3",
+    "tooltip": "MQTT %1 ينشر الموضوع %2 الرسالة %3",
+    "args0": [
+      null,
+      null,
+      null
+    ]
+  },
+  "python_mqtt_subscribe": {
+    "message0": "MQTT %1 يشترك في الموضوع %2",
+    "tooltip": "MQTT %1 يشترك في الموضوع %2",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_mqtt_on_message": {
+    "message0": "عندما يستقبل MQTT %1 رسالة عيّن الموضوع %2 والحمل %3 ونفّذ %4 %5",
+    "tooltip": "عندما يستقبل MQTT %1 رسالة عيّن الموضوع %2 والحمل %3 ونفّذ %4 %5",
+    "args0": [
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "python_mqtt_loop": {
+    "message0": "MQTT %1 يكرر إلى الأبد",
+    "tooltip": "MQTT %1 يكرر إلى الأبد",
+    "args0": [
+      null
+    ]
+  },
+  "python_mqtt_disconnect": {
+    "message0": "افصل MQTT %1",
+    "tooltip": "افصل MQTT %1",
+    "args0": [
+      null
+    ]
+  },
+  "python_http_request": {
+    "message0": "HTTP %1: الرابط %2 البيانات %3",
+    "tooltip": "HTTP %1: الرابط %2 البيانات %3",
+    "args0": [
+      {
+        "options": [
+          [
+            "GET",
+            "GET"
+          ],
+          [
+            "POST",
+            "POST"
+          ],
+          [
+            "PUT",
+            "PUT"
+          ],
+          [
+            "DELETE",
+            "DELETE"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_http_response": {
+    "message0": "خاصية %2 لاستجابة HTTP %1",
+    "tooltip": "خاصية %2 لاستجابة HTTP %1",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "رمز الحالة",
+            "status_code"
+          ],
+          [
+            "text",
+            "text"
+          ],
+          [
+            "JSON",
+            "json()"
+          ]
+        ]
+      }
+    ]
+  },
+  "python_http_server": {
+    "message0": "قدّم المجلد الحالي عبر HTTP: المضيف %1 المنفذ %2",
+    "tooltip": "قدّم المجلد الحالي عبر HTTP: المضيف %1 المنفذ %2",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_file_read": {
+    "message0": "اقرأ ملف النص %1",
+    "tooltip": "اقرأ ملف النص %1",
+    "args0": [
+      null
+    ]
+  },
+  "python_file_write": {
+    "message0": "عالج ملف النص %2 بالوضع %1 المحتوى %3",
+    "tooltip": "عالج ملف النص %2 بالوضع %1 المحتوى %3",
+    "args0": [
+      {
+        "options": [
+          [
+            "كتابة",
+            "w"
+          ],
+          [
+            "إلحاق",
+            "a"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_file_exists": {
+    "message0": "المسار %1 موجود",
+    "tooltip": "المسار %1 موجود",
+    "args0": [
+      null
+    ]
+  },
+  "python_file_list": {
+    "message0": "اعرض المجلد %1",
+    "tooltip": "اعرض المجلد %1",
+    "args0": [
+      null
+    ]
+  },
+  "python_command": {
+    "message0": "شغّل أمر النظام %1",
+    "tooltip": "شغّل أمر النظام %1",
+    "args0": [
+      null
+    ]
+  },
+  "python_cpu_temperature": {
+    "message0": "درجة حرارة المعالج °C",
+    "tooltip": "درجة حرارة المعالج °C"
+  }
+}

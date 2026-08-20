@@ -1,0 +1,222 @@
+{
+  "toolbox_name": "Linux 硬件",
+  "toolbox_categories": [
+    "IO 與周邊",
+    "相機",
+    "音訊"
+  ],
+  "toolbox_labels": {
+    "IO and peripherals": "IO 與周邊",
+    "Camera": "相機",
+    "Audio": "音訊"
+  },
+  "linux_gpio_init": {
+    "message0": "初始化 GPIO %1，引腳 %2，方向 %3，上下拉 %4",
+    "tooltip": "使用 gpiozero 建立數碼引腳。",
+    "args0": [
+      null,
+      null,
+      {
+        "options": [
+          [
+            "輸入",
+            "INPUT"
+          ],
+          [
+            "輸出",
+            "OUTPUT"
+          ]
+        ]
+      },
+      {
+        "options": [
+          [
+            "無",
+            "NONE"
+          ],
+          [
+            "上拉",
+            "UP"
+          ],
+          [
+            "下拉",
+            "DOWN"
+          ]
+        ]
+      }
+    ]
+  },
+  "linux_gpio_write": {
+    "message0": "將 GPIO %1 設為 %2",
+    "tooltip": "將 GPIO %1 設為 %2",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "linux_gpio_read": {
+    "message0": "GPIO %1 的值",
+    "tooltip": "GPIO %1 的值",
+    "args0": [
+      null
+    ]
+  },
+  "linux_gpio_close": {
+    "message0": "關閉 GPIO %1",
+    "tooltip": "關閉 GPIO %1",
+    "args0": [
+      null
+    ]
+  },
+  "linux_led_write": {
+    "message0": "將板載 LED 設為 %1",
+    "tooltip": "將板載 LED 設為 %1",
+    "args0": [
+      null
+    ]
+  },
+  "linux_key_pressed": {
+    "message0": "板載按鍵已按下",
+    "tooltip": "板載按鍵已按下"
+  },
+  "linux_pwm_init": {
+    "message0": "初始化 PWM %1，引腳 %2，頻率 %3 Hz",
+    "tooltip": "初始化 PWM %1，引腳 %2，頻率 %3 Hz",
+    "args0": [
+      null,
+      null,
+      null
+    ]
+  },
+  "linux_pwm_duty": {
+    "message0": "將 PWM %1 的佔空比設為 %2（0–1）",
+    "tooltip": "將 PWM %1 的佔空比設為 %2（0–1）",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "linux_pwm_close": {
+    "message0": "關閉 PWM %1",
+    "tooltip": "關閉 PWM %1",
+    "args0": [
+      null
+    ]
+  },
+  "linux_uart_init": {
+    "message0": "初始化串口 %1，裝置 %2，鮑率 %3",
+    "tooltip": "初始化串口 %1，裝置 %2，鮑率 %3",
+    "args0": [
+      null,
+      null,
+      {
+        "options": [
+          [
+            "9600",
+            "9600"
+          ],
+          [
+            "19200",
+            "19200"
+          ],
+          [
+            "38400",
+            "38400"
+          ],
+          [
+            "57600",
+            "57600"
+          ],
+          [
+            "115200",
+            "115200"
+          ]
+        ]
+      }
+    ]
+  },
+  "linux_uart_available": {
+    "message0": "串口 %1 可讀取的位元組數",
+    "tooltip": "串口 %1 可讀取的位元組數",
+    "args0": [
+      null
+    ]
+  },
+  "linux_uart_read": {
+    "message0": "從串口 %1 讀取 %2 位元組",
+    "tooltip": "從串口 %1 讀取 %2 位元組",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "linux_uart_write": {
+    "message0": "向串口 %1 寫入 %2",
+    "tooltip": "向串口 %1 寫入 %2",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "linux_uart_flush": {
+    "message0": "清空串口 %1 的輸入緩衝區",
+    "tooltip": "清空串口 %1 的輸入緩衝區",
+    "args0": [
+      null
+    ]
+  },
+  "linux_uart_close": {
+    "message0": "關閉串口 %1",
+    "tooltip": "關閉串口 %1",
+    "args0": [
+      null
+    ]
+  },
+  "linux_camera_init": {
+    "message0": "初始化相機 %1，裝置 %2，寬 %3，高 %4",
+    "tooltip": "初始化相機 %1，裝置 %2，寬 %3，高 %4",
+    "args0": [
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "linux_camera_opened": {
+    "message0": "相機 %1 已開啟",
+    "tooltip": "相機 %1 已開啟",
+    "args0": [
+      null
+    ]
+  },
+  "linux_camera_read": {
+    "message0": "相機 %1 的圖像",
+    "tooltip": "相機 %1 的圖像",
+    "args0": [
+      null
+    ]
+  },
+  "linux_camera_release": {
+    "message0": "釋放相機 %1",
+    "tooltip": "釋放相機 %1",
+    "args0": [
+      null
+    ]
+  },
+  "linux_audio_play": {
+    "message0": "播放 WAV 檔案 %1",
+    "tooltip": "播放 WAV 檔案 %1",
+    "args0": [
+      null
+    ]
+  },
+  "linux_audio_record": {
+    "message0": "錄製 WAV 至 %1，時長 %2 秒，取樣率 %3",
+    "tooltip": "錄製 WAV 至 %1，時長 %2 秒，取樣率 %3",
+    "args0": [
+      null,
+      null,
+      null
+    ]
+  }
+}

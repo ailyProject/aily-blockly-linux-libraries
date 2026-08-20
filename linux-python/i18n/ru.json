@@ -1,0 +1,222 @@
+{
+  "toolbox_name": "Оборудование Linux",
+  "toolbox_categories": [
+    "Ввод-вывод",
+    "Камера",
+    "Аудио"
+  ],
+  "toolbox_labels": {
+    "IO and peripherals": "Ввод-вывод",
+    "Camera": "Камера",
+    "Audio": "Аудио"
+  },
+  "linux_gpio_init": {
+    "message0": "инициализировать GPIO %1 пин %2 направление %3 подтяжка %4",
+    "tooltip": "Создать цифровой вывод с помощью gpiozero.",
+    "args0": [
+      null,
+      null,
+      {
+        "options": [
+          [
+            "вход",
+            "INPUT"
+          ],
+          [
+            "выход",
+            "OUTPUT"
+          ]
+        ]
+      },
+      {
+        "options": [
+          [
+            "нет",
+            "NONE"
+          ],
+          [
+            "подтяжка вверх",
+            "UP"
+          ],
+          [
+            "подтяжка вниз",
+            "DOWN"
+          ]
+        ]
+      }
+    ]
+  },
+  "linux_gpio_write": {
+    "message0": "установить GPIO %1 в %2",
+    "tooltip": "установить GPIO %1 в %2",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "linux_gpio_read": {
+    "message0": "значение GPIO %1",
+    "tooltip": "значение GPIO %1",
+    "args0": [
+      null
+    ]
+  },
+  "linux_gpio_close": {
+    "message0": "закрыть GPIO %1",
+    "tooltip": "закрыть GPIO %1",
+    "args0": [
+      null
+    ]
+  },
+  "linux_led_write": {
+    "message0": "установить встроенный светодиод в %1",
+    "tooltip": "установить встроенный светодиод в %1",
+    "args0": [
+      null
+    ]
+  },
+  "linux_key_pressed": {
+    "message0": "встроенная кнопка нажата",
+    "tooltip": "встроенная кнопка нажата"
+  },
+  "linux_pwm_init": {
+    "message0": "инициализировать PWM %1 пин %2 частота %3 Гц",
+    "tooltip": "инициализировать PWM %1 пин %2 частота %3 Гц",
+    "args0": [
+      null,
+      null,
+      null
+    ]
+  },
+  "linux_pwm_duty": {
+    "message0": "установить скважность PWM %1 в %2 (0–1)",
+    "tooltip": "установить скважность PWM %1 в %2 (0–1)",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "linux_pwm_close": {
+    "message0": "закрыть PWM %1",
+    "tooltip": "закрыть PWM %1",
+    "args0": [
+      null
+    ]
+  },
+  "linux_uart_init": {
+    "message0": "инициализировать порт %1 устройство %2 скорость %3",
+    "tooltip": "инициализировать порт %1 устройство %2 скорость %3",
+    "args0": [
+      null,
+      null,
+      {
+        "options": [
+          [
+            "9600",
+            "9600"
+          ],
+          [
+            "19200",
+            "19200"
+          ],
+          [
+            "38400",
+            "38400"
+          ],
+          [
+            "57600",
+            "57600"
+          ],
+          [
+            "115200",
+            "115200"
+          ]
+        ]
+      }
+    ]
+  },
+  "linux_uart_available": {
+    "message0": "доступные байты порта %1",
+    "tooltip": "доступные байты порта %1",
+    "args0": [
+      null
+    ]
+  },
+  "linux_uart_read": {
+    "message0": "прочитать %2 байт из порта %1",
+    "tooltip": "прочитать %2 байт из порта %1",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "linux_uart_write": {
+    "message0": "записать %2 в порт %1",
+    "tooltip": "записать %2 в порт %1",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "linux_uart_flush": {
+    "message0": "очистить входной буфер порта %1",
+    "tooltip": "очистить входной буфер порта %1",
+    "args0": [
+      null
+    ]
+  },
+  "linux_uart_close": {
+    "message0": "закрыть порт %1",
+    "tooltip": "закрыть порт %1",
+    "args0": [
+      null
+    ]
+  },
+  "linux_camera_init": {
+    "message0": "инициализировать камеру %1 устройство %2 ширина %3 высота %4",
+    "tooltip": "инициализировать камеру %1 устройство %2 ширина %3 высота %4",
+    "args0": [
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "linux_camera_opened": {
+    "message0": "камера %1 открыта",
+    "tooltip": "камера %1 открыта",
+    "args0": [
+      null
+    ]
+  },
+  "linux_camera_read": {
+    "message0": "изображение камеры %1",
+    "tooltip": "изображение камеры %1",
+    "args0": [
+      null
+    ]
+  },
+  "linux_camera_release": {
+    "message0": "освободить камеру %1",
+    "tooltip": "освободить камеру %1",
+    "args0": [
+      null
+    ]
+  },
+  "linux_audio_play": {
+    "message0": "воспроизвести WAV-файл %1",
+    "tooltip": "воспроизвести WAV-файл %1",
+    "args0": [
+      null
+    ]
+  },
+  "linux_audio_record": {
+    "message0": "записать WAV в %1 секунды %2 частота %3",
+    "tooltip": "записать WAV в %1 секунды %2 частота %3",
+    "args0": [
+      null,
+      null,
+      null
+    ]
+  }
+}

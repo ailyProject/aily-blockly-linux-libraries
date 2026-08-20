@@ -1,0 +1,222 @@
+{
+  "toolbox_name": "Hardware Linux",
+  "toolbox_categories": [
+    "E/S e periféricos",
+    "Câmera",
+    "Áudio"
+  ],
+  "toolbox_labels": {
+    "IO and peripherals": "E/S e periféricos",
+    "Camera": "Câmera",
+    "Audio": "Áudio"
+  },
+  "linux_gpio_init": {
+    "message0": "inicializar GPIO %1 pino %2 direção %3 pull %4",
+    "tooltip": "Criar um pino digital com gpiozero.",
+    "args0": [
+      null,
+      null,
+      {
+        "options": [
+          [
+            "entrada",
+            "INPUT"
+          ],
+          [
+            "saída",
+            "OUTPUT"
+          ]
+        ]
+      },
+      {
+        "options": [
+          [
+            "nenhum",
+            "NONE"
+          ],
+          [
+            "pull-up",
+            "UP"
+          ],
+          [
+            "pull-down",
+            "DOWN"
+          ]
+        ]
+      }
+    ]
+  },
+  "linux_gpio_write": {
+    "message0": "definir GPIO %1 para %2",
+    "tooltip": "definir GPIO %1 para %2",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "linux_gpio_read": {
+    "message0": "valor de GPIO %1",
+    "tooltip": "valor de GPIO %1",
+    "args0": [
+      null
+    ]
+  },
+  "linux_gpio_close": {
+    "message0": "fechar GPIO %1",
+    "tooltip": "fechar GPIO %1",
+    "args0": [
+      null
+    ]
+  },
+  "linux_led_write": {
+    "message0": "definir o LED integrado para %1",
+    "tooltip": "definir o LED integrado para %1",
+    "args0": [
+      null
+    ]
+  },
+  "linux_key_pressed": {
+    "message0": "a tecla integrada está pressionada",
+    "tooltip": "a tecla integrada está pressionada"
+  },
+  "linux_pwm_init": {
+    "message0": "inicializar PWM %1 pino %2 frequência %3 Hz",
+    "tooltip": "inicializar PWM %1 pino %2 frequência %3 Hz",
+    "args0": [
+      null,
+      null,
+      null
+    ]
+  },
+  "linux_pwm_duty": {
+    "message0": "definir o ciclo de trabalho de PWM %1 para %2 (0–1)",
+    "tooltip": "definir o ciclo de trabalho de PWM %1 para %2 (0–1)",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "linux_pwm_close": {
+    "message0": "fechar PWM %1",
+    "tooltip": "fechar PWM %1",
+    "args0": [
+      null
+    ]
+  },
+  "linux_uart_init": {
+    "message0": "inicializar serial %1 dispositivo %2 baud %3",
+    "tooltip": "inicializar serial %1 dispositivo %2 baud %3",
+    "args0": [
+      null,
+      null,
+      {
+        "options": [
+          [
+            "9600",
+            "9600"
+          ],
+          [
+            "19200",
+            "19200"
+          ],
+          [
+            "38400",
+            "38400"
+          ],
+          [
+            "57600",
+            "57600"
+          ],
+          [
+            "115200",
+            "115200"
+          ]
+        ]
+      }
+    ]
+  },
+  "linux_uart_available": {
+    "message0": "bytes disponíveis da serial %1",
+    "tooltip": "bytes disponíveis da serial %1",
+    "args0": [
+      null
+    ]
+  },
+  "linux_uart_read": {
+    "message0": "ler %2 bytes da serial %1",
+    "tooltip": "ler %2 bytes da serial %1",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "linux_uart_write": {
+    "message0": "escrever %2 na serial %1",
+    "tooltip": "escrever %2 na serial %1",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "linux_uart_flush": {
+    "message0": "limpar o buffer de entrada da serial %1",
+    "tooltip": "limpar o buffer de entrada da serial %1",
+    "args0": [
+      null
+    ]
+  },
+  "linux_uart_close": {
+    "message0": "fechar serial %1",
+    "tooltip": "fechar serial %1",
+    "args0": [
+      null
+    ]
+  },
+  "linux_camera_init": {
+    "message0": "inicializar câmera %1 dispositivo %2 largura %3 altura %4",
+    "tooltip": "inicializar câmera %1 dispositivo %2 largura %3 altura %4",
+    "args0": [
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "linux_camera_opened": {
+    "message0": "a câmera %1 está aberta",
+    "tooltip": "a câmera %1 está aberta",
+    "args0": [
+      null
+    ]
+  },
+  "linux_camera_read": {
+    "message0": "imagem da câmera %1",
+    "tooltip": "imagem da câmera %1",
+    "args0": [
+      null
+    ]
+  },
+  "linux_camera_release": {
+    "message0": "liberar câmera %1",
+    "tooltip": "liberar câmera %1",
+    "args0": [
+      null
+    ]
+  },
+  "linux_audio_play": {
+    "message0": "reproduzir arquivo WAV %1",
+    "tooltip": "reproduzir arquivo WAV %1",
+    "args0": [
+      null
+    ]
+  },
+  "linux_audio_record": {
+    "message0": "gravar WAV em %1 segundos %2 taxa %3",
+    "tooltip": "gravar WAV em %1 segundos %2 taxa %3",
+    "args0": [
+      null,
+      null,
+      null
+    ]
+  }
+}

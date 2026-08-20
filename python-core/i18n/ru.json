@@ -1,0 +1,571 @@
+{
+  "toolbox_name": "Ядро Python",
+  "toolbox_categories": [
+    "Программа",
+    "OpenCV и коды",
+    "Сеть",
+    "Файлы и система"
+  ],
+  "toolbox_labels": {
+    "Program": "Программа",
+    "OpenCV and codes": "OpenCV и коды",
+    "Network": "Сеть",
+    "Files and system": "Файлы и система"
+  },
+  "python_start": {
+    "message0": "когда программа запускается %1 %2",
+    "tooltip": "Выполнить один раз при запуске программы.",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_forever": {
+    "message0": "повторять вечно %1 %2",
+    "tooltip": "Повторно выполнять вложенные блоки.",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_sleep": {
+    "message0": "ждать %1 секунд",
+    "tooltip": "Приостановить программу на указанное число секунд.",
+    "args0": [
+      null
+    ]
+  },
+  "python_print": {
+    "message0": "напечатать %1",
+    "tooltip": "напечатать %1",
+    "args0": [
+      null
+    ]
+  },
+  "python_number": {
+    "message0": "число %1",
+    "tooltip": "число %1",
+    "args0": [
+      null
+    ]
+  },
+  "python_text": {
+    "message0": "текст %1",
+    "tooltip": "текст %1",
+    "args0": [
+      null
+    ]
+  },
+  "python_boolean": {
+    "message0": "логическое %1",
+    "tooltip": "логическое %1",
+    "args0": [
+      {
+        "options": [
+          [
+            "истина",
+            "TRUE"
+          ],
+          [
+            "ложь",
+            "FALSE"
+          ]
+        ]
+      }
+    ]
+  },
+  "python_tuple": {
+    "message0": "кортеж из %1",
+    "tooltip": "кортеж из %1",
+    "args0": [
+      null
+    ]
+  },
+  "python_list": {
+    "message0": "список из %1",
+    "tooltip": "список из %1",
+    "args0": [
+      null
+    ]
+  },
+  "python_set_variable": {
+    "message0": "задать переменную %1 как %2",
+    "tooltip": "задать переменную %1 как %2",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_get_variable": {
+    "message0": "переменная %1",
+    "tooltip": "переменная %1",
+    "args0": [
+      null
+    ]
+  },
+  "python_if": {
+    "message0": "если %1 то %2 %3",
+    "tooltip": "если %1 то %2 %3",
+    "args0": [
+      null,
+      null,
+      null
+    ]
+  },
+  "python_for_each": {
+    "message0": "для каждого %1 в %2 сделать %3 %4",
+    "tooltip": "для каждого %1 в %2 сделать %3 %4",
+    "args0": [
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "python_image_resize": {
+    "message0": "изменить размер изображения %1 ширина %2 высота %3",
+    "tooltip": "изменить размер изображения %1 ширина %2 высота %3",
+    "args0": [
+      null,
+      null,
+      null
+    ]
+  },
+  "python_image_convert": {
+    "message0": "преобразовать изображение %1 через %2",
+    "tooltip": "преобразовать изображение %1 через %2",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "BGR → оттенки серого",
+            "COLOR_BGR2GRAY"
+          ],
+          [
+            "BGR → LAB",
+            "COLOR_BGR2LAB"
+          ],
+          [
+            "BGR → RGB",
+            "COLOR_BGR2RGB"
+          ],
+          [
+            "оттенки серого → BGR",
+            "COLOR_GRAY2BGR"
+          ]
+        ]
+      }
+    ]
+  },
+  "python_image_in_range": {
+    "message0": "маска изображения %1 низ %2 верх %3",
+    "tooltip": "маска изображения %1 низ %2 верх %3",
+    "args0": [
+      null,
+      null,
+      null
+    ]
+  },
+  "python_image_components": {
+    "message0": "связные компоненты %1 связность %2",
+    "tooltip": "связные компоненты %1 связность %2",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "4",
+            "4"
+          ],
+          [
+            "8",
+            "8"
+          ]
+        ]
+      }
+    ]
+  },
+  "python_image_load": {
+    "message0": "загрузить файл изображения %1",
+    "tooltip": "загрузить файл изображения %1",
+    "args0": [
+      null
+    ]
+  },
+  "python_image_save": {
+    "message0": "сохранить изображение %1 в файл %2",
+    "tooltip": "сохранить изображение %1 в файл %2",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_draw_rectangle": {
+    "message0": "нарисовать прямоугольник на %1 от x %2 y %3 до x %4 y %5 цвет %6 толщина %7",
+    "tooltip": "нарисовать прямоугольник на %1 от x %2 y %3 до x %4 y %5 цвет %6 толщина %7",
+    "args0": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "python_draw_circle": {
+    "message0": "нарисовать круг на %1 x %2 y %3 радиус %4 цвет %5 толщина %6",
+    "tooltip": "нарисовать круг на %1 x %2 y %3 радиус %4 цвет %5 толщина %6",
+    "args0": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "python_draw_line": {
+    "message0": "нарисовать линию на %1 от x %2 y %3 до x %4 y %5 цвет %6 толщина %7",
+    "tooltip": "нарисовать линию на %1 от x %2 y %3 до x %4 y %5 цвет %6 толщина %7",
+    "args0": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "python_draw_text": {
+    "message0": "нарисовать текст %1 на %2 x %3 y %4 масштаб %5 цвет %6 толщина %7",
+    "tooltip": "нарисовать текст %1 на %2 x %3 y %4 масштаб %5 цвет %6 толщина %7",
+    "args0": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "python_qr_decode": {
+    "message0": "декодировать QR-коды в %1",
+    "tooltip": "декодировать QR-коды в %1",
+    "args0": [
+      null
+    ]
+  },
+  "python_barcode_decode": {
+    "message0": "декодировать штрихкоды в %1",
+    "tooltip": "декодировать штрихкоды в %1",
+    "args0": [
+      null
+    ]
+  },
+  "python_apriltag_init": {
+    "message0": "инициализировать детектор AprilTag %1 семейство %2",
+    "tooltip": "инициализировать детектор AprilTag %1 семейство %2",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "tag16h5",
+            "tag16h5"
+          ],
+          [
+            "tag25h7",
+            "tag25h7"
+          ],
+          [
+            "tag25h9",
+            "tag25h9"
+          ],
+          [
+            "tag36h10",
+            "tag36h10"
+          ],
+          [
+            "tag36h11",
+            "tag36h11"
+          ]
+        ]
+      }
+    ]
+  },
+  "python_apriltag_detect": {
+    "message0": "детектор AprilTag %1 обнаруживает серое изображение %2",
+    "tooltip": "детектор AprilTag %1 обнаруживает серое изображение %2",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_socket_init": {
+    "message0": "инициализировать сокет %1 семейство %2 тип %3",
+    "tooltip": "инициализировать сокет %1 семейство %2 тип %3",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "IPv4",
+            "AF_INET"
+          ],
+          [
+            "IPv6",
+            "AF_INET6"
+          ]
+        ]
+      },
+      {
+        "options": [
+          [
+            "TCP",
+            "SOCK_STREAM"
+          ],
+          [
+            "UDP",
+            "SOCK_DGRAM"
+          ]
+        ]
+      }
+    ]
+  },
+  "python_socket_address": {
+    "message0": "сетевой адрес: хост %1 порт %2",
+    "tooltip": "сетевой адрес: хост %1 порт %2",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_socket_connect": {
+    "message0": "подключить сокет %1 к %2",
+    "tooltip": "подключить сокет %1 к %2",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_socket_bind": {
+    "message0": "привязать сокет %1 к %2",
+    "tooltip": "привязать сокет %1 к %2",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_socket_listen": {
+    "message0": "слушать сокет %1 очередь %2",
+    "tooltip": "слушать сокет %1 очередь %2",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_socket_accept": {
+    "message0": "сокет %1 принимает соединение",
+    "tooltip": "сокет %1 принимает соединение",
+    "args0": [
+      null
+    ]
+  },
+  "python_socket_send": {
+    "message0": "отправить %2 через сокет %1",
+    "tooltip": "отправить %2 через сокет %1",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_socket_receive": {
+    "message0": "принять %2 байт из сокета %1",
+    "tooltip": "принять %2 байт из сокета %1",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_socket_close": {
+    "message0": "закрыть сокет %1",
+    "tooltip": "закрыть сокет %1",
+    "args0": [
+      null
+    ]
+  },
+  "python_mqtt_init": {
+    "message0": "инициализировать клиент MQTT %1",
+    "tooltip": "инициализировать клиент MQTT %1",
+    "args0": [
+      null
+    ]
+  },
+  "python_mqtt_connect": {
+    "message0": "MQTT %1 подключить хост %2 порт %3 keepalive %4",
+    "tooltip": "MQTT %1 подключить хост %2 порт %3 keepalive %4",
+    "args0": [
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "python_mqtt_publish": {
+    "message0": "MQTT %1 опубликовать тему %2 сообщение %3",
+    "tooltip": "MQTT %1 опубликовать тему %2 сообщение %3",
+    "args0": [
+      null,
+      null,
+      null
+    ]
+  },
+  "python_mqtt_subscribe": {
+    "message0": "MQTT %1 подписаться на тему %2",
+    "tooltip": "MQTT %1 подписаться на тему %2",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_mqtt_on_message": {
+    "message0": "когда MQTT %1 получит сообщение, тема %2 нагрузка %3 выполнить %4 %5",
+    "tooltip": "когда MQTT %1 получит сообщение, тема %2 нагрузка %3 выполнить %4 %5",
+    "args0": [
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "python_mqtt_loop": {
+    "message0": "MQTT %1 бесконечный цикл",
+    "tooltip": "MQTT %1 бесконечный цикл",
+    "args0": [
+      null
+    ]
+  },
+  "python_mqtt_disconnect": {
+    "message0": "отключить MQTT %1",
+    "tooltip": "отключить MQTT %1",
+    "args0": [
+      null
+    ]
+  },
+  "python_http_request": {
+    "message0": "HTTP %1: URL %2 данные %3",
+    "tooltip": "HTTP %1: URL %2 данные %3",
+    "args0": [
+      {
+        "options": [
+          [
+            "GET",
+            "GET"
+          ],
+          [
+            "POST",
+            "POST"
+          ],
+          [
+            "PUT",
+            "PUT"
+          ],
+          [
+            "DELETE",
+            "DELETE"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_http_response": {
+    "message0": "свойство %2 ответа HTTP %1",
+    "tooltip": "свойство %2 ответа HTTP %1",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "код состояния",
+            "status_code"
+          ],
+          [
+            "text",
+            "text"
+          ],
+          [
+            "JSON",
+            "json()"
+          ]
+        ]
+      }
+    ]
+  },
+  "python_http_server": {
+    "message0": "раздавать текущий каталог по HTTP: хост %1 порт %2",
+    "tooltip": "раздавать текущий каталог по HTTP: хост %1 порт %2",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_file_read": {
+    "message0": "прочитать текстовый файл %1",
+    "tooltip": "прочитать текстовый файл %1",
+    "args0": [
+      null
+    ]
+  },
+  "python_file_write": {
+    "message0": "обработать текстовый файл %2 в режиме %1 содержимое %3",
+    "tooltip": "обработать текстовый файл %2 в режиме %1 содержимое %3",
+    "args0": [
+      {
+        "options": [
+          [
+            "записать",
+            "w"
+          ],
+          [
+            "добавить",
+            "a"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_file_exists": {
+    "message0": "путь %1 существует",
+    "tooltip": "путь %1 существует",
+    "args0": [
+      null
+    ]
+  },
+  "python_file_list": {
+    "message0": "перечислить каталог %1",
+    "tooltip": "перечислить каталог %1",
+    "args0": [
+      null
+    ]
+  },
+  "python_command": {
+    "message0": "выполнить системную команду %1",
+    "tooltip": "выполнить системную команду %1",
+    "args0": [
+      null
+    ]
+  },
+  "python_cpu_temperature": {
+    "message0": "температура ЦП °C",
+    "tooltip": "температура ЦП °C"
+  }
+}

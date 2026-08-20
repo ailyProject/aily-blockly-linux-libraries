@@ -1,0 +1,226 @@
+{
+  "kind": "category",
+  "name": "Linux Hardware",
+  "colour": "#00897B",
+  "contents": [
+    {
+      "kind": "category",
+      "name": "IO and peripherals",
+      "colour": "#00897B",
+      "contents": [
+        {
+          "kind": "block",
+          "type": "linux_gpio_init"
+        },
+        {
+          "kind": "block",
+          "type": "linux_gpio_write",
+          "inputs": {
+            "VALUE": {
+              "shadow": {
+                "type": "logic_boolean",
+                "fields": {
+                  "BOOL": "TRUE"
+                }
+              }
+            }
+          }
+        },
+        {
+          "kind": "block",
+          "type": "linux_gpio_read"
+        },
+        {
+          "kind": "block",
+          "type": "linux_gpio_close"
+        },
+        {
+          "kind": "block",
+          "type": "linux_led_write",
+          "inputs": {
+            "VALUE": {
+              "shadow": {
+                "type": "logic_boolean",
+                "fields": {
+                  "BOOL": "TRUE"
+                }
+              }
+            }
+          }
+        },
+        {
+          "kind": "block",
+          "type": "linux_key_pressed"
+        },
+        {
+          "kind": "block",
+          "type": "linux_pwm_init",
+          "inputs": {
+            "FREQUENCY": {
+              "shadow": {
+                "type": "math_number",
+                "fields": {
+                  "NUM": 1000
+                }
+              }
+            }
+          }
+        },
+        {
+          "kind": "block",
+          "type": "linux_pwm_duty",
+          "inputs": {
+            "DUTY": {
+              "shadow": {
+                "type": "math_number",
+                "fields": {
+                  "NUM": 0.5
+                }
+              }
+            }
+          }
+        },
+        {
+          "kind": "block",
+          "type": "linux_pwm_close"
+        },
+        {
+          "kind": "block",
+          "type": "linux_uart_init"
+        },
+        {
+          "kind": "block",
+          "type": "linux_uart_available"
+        },
+        {
+          "kind": "block",
+          "type": "linux_uart_read",
+          "inputs": {
+            "SIZE": {
+              "shadow": {
+                "type": "math_number",
+                "fields": {
+                  "NUM": 1024
+                }
+              }
+            }
+          }
+        },
+        {
+          "kind": "block",
+          "type": "linux_uart_write",
+          "inputs": {
+            "DATA": {
+              "shadow": {
+                "type": "text",
+                "fields": {
+                  "TEXT": ""
+                }
+              }
+            }
+          }
+        },
+        {
+          "kind": "block",
+          "type": "linux_uart_flush"
+        },
+        {
+          "kind": "block",
+          "type": "linux_uart_close"
+        }
+      ]
+    },
+    {
+      "kind": "category",
+      "name": "Camera",
+      "colour": "#1976D2",
+      "contents": [
+        {
+          "kind": "block",
+          "type": "linux_camera_init",
+          "inputs": {
+            "WIDTH": {
+              "shadow": {
+                "type": "math_number",
+                "fields": {
+                  "NUM": 640
+                }
+              }
+            },
+            "HEIGHT": {
+              "shadow": {
+                "type": "math_number",
+                "fields": {
+                  "NUM": 480
+                }
+              }
+            }
+          }
+        },
+        {
+          "kind": "block",
+          "type": "linux_camera_opened"
+        },
+        {
+          "kind": "block",
+          "type": "linux_camera_read"
+        },
+        {
+          "kind": "block",
+          "type": "linux_camera_release"
+        }
+      ]
+    },
+    {
+      "kind": "category",
+      "name": "Audio",
+      "colour": "#EF6C00",
+      "contents": [
+        {
+          "kind": "block",
+          "type": "linux_audio_play",
+          "inputs": {
+            "PATH": {
+              "shadow": {
+                "type": "text",
+                "fields": {
+                  "TEXT": "/tmp/audio.wav"
+                }
+              }
+            }
+          }
+        },
+        {
+          "kind": "block",
+          "type": "linux_audio_record",
+          "inputs": {
+            "PATH": {
+              "shadow": {
+                "type": "text",
+                "fields": {
+                  "TEXT": "/tmp/audio.wav"
+                }
+              }
+            },
+            "SECONDS": {
+              "shadow": {
+                "type": "math_number",
+                "fields": {
+                  "NUM": 5
+                }
+              }
+            },
+            "RATE": {
+              "shadow": {
+                "type": "math_number",
+                "fields": {
+                  "NUM": 16000
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

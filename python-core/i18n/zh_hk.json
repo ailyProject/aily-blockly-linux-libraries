@@ -1,0 +1,571 @@
+{
+  "toolbox_name": "Python 核心",
+  "toolbox_categories": [
+    "程式",
+    "OpenCV 與碼識別",
+    "網絡",
+    "檔案與系統"
+  ],
+  "toolbox_labels": {
+    "Program": "程式",
+    "OpenCV and codes": "OpenCV 與碼識別",
+    "Network": "網絡",
+    "Files and system": "檔案與系統"
+  },
+  "python_start": {
+    "message0": "當程式啟動時 %1 %2",
+    "tooltip": "程式啟動時執行一次。",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_forever": {
+    "message0": "永久循環 %1 %2",
+    "tooltip": "重複執行其中的積木。",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_sleep": {
+    "message0": "等待 %1 秒",
+    "tooltip": "暫停程式指定的秒數。",
+    "args0": [
+      null
+    ]
+  },
+  "python_print": {
+    "message0": "列印 %1",
+    "tooltip": "列印 %1",
+    "args0": [
+      null
+    ]
+  },
+  "python_number": {
+    "message0": "數值 %1",
+    "tooltip": "數值 %1",
+    "args0": [
+      null
+    ]
+  },
+  "python_text": {
+    "message0": "文字 %1",
+    "tooltip": "文字 %1",
+    "args0": [
+      null
+    ]
+  },
+  "python_boolean": {
+    "message0": "布林值 %1",
+    "tooltip": "布林值 %1",
+    "args0": [
+      {
+        "options": [
+          [
+            "真",
+            "TRUE"
+          ],
+          [
+            "假",
+            "FALSE"
+          ]
+        ]
+      }
+    ]
+  },
+  "python_tuple": {
+    "message0": "由項目 %1 組成元組",
+    "tooltip": "由項目 %1 組成元組",
+    "args0": [
+      null
+    ]
+  },
+  "python_list": {
+    "message0": "由項目 %1 組成清單",
+    "tooltip": "由項目 %1 組成清單",
+    "args0": [
+      null
+    ]
+  },
+  "python_set_variable": {
+    "message0": "將變數 %1 設為 %2",
+    "tooltip": "將變數 %1 設為 %2",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_get_variable": {
+    "message0": "變數 %1",
+    "tooltip": "變數 %1",
+    "args0": [
+      null
+    ]
+  },
+  "python_if": {
+    "message0": "如果 %1 則執行 %2 %3",
+    "tooltip": "如果 %1 則執行 %2 %3",
+    "args0": [
+      null,
+      null,
+      null
+    ]
+  },
+  "python_for_each": {
+    "message0": "對 %2 中的每個 %1 執行 %3 %4",
+    "tooltip": "對 %2 中的每個 %1 執行 %3 %4",
+    "args0": [
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "python_image_resize": {
+    "message0": "將圖像 %1 調整為寬 %2、高 %3",
+    "tooltip": "將圖像 %1 調整為寬 %2、高 %3",
+    "args0": [
+      null,
+      null,
+      null
+    ]
+  },
+  "python_image_convert": {
+    "message0": "使用 %2 轉換圖像 %1",
+    "tooltip": "使用 %2 轉換圖像 %1",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "BGR 轉灰階",
+            "COLOR_BGR2GRAY"
+          ],
+          [
+            "BGR 轉 LAB",
+            "COLOR_BGR2LAB"
+          ],
+          [
+            "BGR 轉 RGB",
+            "COLOR_BGR2RGB"
+          ],
+          [
+            "灰階轉 BGR",
+            "COLOR_GRAY2BGR"
+          ]
+        ]
+      }
+    ]
+  },
+  "python_image_in_range": {
+    "message0": "對圖像 %1 按下限 %2、上限 %3 產生遮罩",
+    "tooltip": "對圖像 %1 按下限 %2、上限 %3 產生遮罩",
+    "args0": [
+      null,
+      null,
+      null
+    ]
+  },
+  "python_image_components": {
+    "message0": "計算 %1 的連通元件，連通性 %2",
+    "tooltip": "計算 %1 的連通元件，連通性 %2",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "4",
+            "4"
+          ],
+          [
+            "8",
+            "8"
+          ]
+        ]
+      }
+    ]
+  },
+  "python_image_load": {
+    "message0": "載入圖像檔案 %1",
+    "tooltip": "載入圖像檔案 %1",
+    "args0": [
+      null
+    ]
+  },
+  "python_image_save": {
+    "message0": "將圖像 %1 儲存至檔案 %2",
+    "tooltip": "將圖像 %1 儲存至檔案 %2",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_draw_rectangle": {
+    "message0": "在 %1 上繪製矩形：從 x %2、y %3 到 x %4、y %5，顏色 %6，線寬 %7",
+    "tooltip": "在 %1 上繪製矩形：從 x %2、y %3 到 x %4、y %5，顏色 %6，線寬 %7",
+    "args0": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "python_draw_circle": {
+    "message0": "在 %1 上繪製圓形：x %2、y %3，半徑 %4，顏色 %5，線寬 %6",
+    "tooltip": "在 %1 上繪製圓形：x %2、y %3，半徑 %4，顏色 %5，線寬 %6",
+    "args0": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "python_draw_line": {
+    "message0": "在 %1 上繪製線段：從 x %2、y %3 到 x %4、y %5，顏色 %6，線寬 %7",
+    "tooltip": "在 %1 上繪製線段：從 x %2、y %3 到 x %4、y %5，顏色 %6，線寬 %7",
+    "args0": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "python_draw_text": {
+    "message0": "在 %2 的 x %3、y %4 繪製文字 %1，縮放 %5，顏色 %6，線寬 %7",
+    "tooltip": "在 %2 的 x %3、y %4 繪製文字 %1，縮放 %5，顏色 %6，線寬 %7",
+    "args0": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "python_qr_decode": {
+    "message0": "解碼 %1 中的 QR Code",
+    "tooltip": "解碼 %1 中的 QR Code",
+    "args0": [
+      null
+    ]
+  },
+  "python_barcode_decode": {
+    "message0": "解碼 %1 中的條碼",
+    "tooltip": "解碼 %1 中的條碼",
+    "args0": [
+      null
+    ]
+  },
+  "python_apriltag_init": {
+    "message0": "初始化 AprilTag 偵測器 %1，標籤族 %2",
+    "tooltip": "初始化 AprilTag 偵測器 %1，標籤族 %2",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "tag16h5",
+            "tag16h5"
+          ],
+          [
+            "tag25h7",
+            "tag25h7"
+          ],
+          [
+            "tag25h9",
+            "tag25h9"
+          ],
+          [
+            "tag36h10",
+            "tag36h10"
+          ],
+          [
+            "tag36h11",
+            "tag36h11"
+          ]
+        ]
+      }
+    ]
+  },
+  "python_apriltag_detect": {
+    "message0": "使用 AprilTag 偵測器 %1 偵測灰階圖像 %2",
+    "tooltip": "使用 AprilTag 偵測器 %1 偵測灰階圖像 %2",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_socket_init": {
+    "message0": "初始化 Socket %1，位址族 %2，類型 %3",
+    "tooltip": "初始化 Socket %1，位址族 %2，類型 %3",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "IPv4",
+            "AF_INET"
+          ],
+          [
+            "IPv6",
+            "AF_INET6"
+          ]
+        ]
+      },
+      {
+        "options": [
+          [
+            "TCP",
+            "SOCK_STREAM"
+          ],
+          [
+            "UDP",
+            "SOCK_DGRAM"
+          ]
+        ]
+      }
+    ]
+  },
+  "python_socket_address": {
+    "message0": "網絡位址：主機 %1，連接埠 %2",
+    "tooltip": "網絡位址：主機 %1，連接埠 %2",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_socket_connect": {
+    "message0": "將 Socket %1 連線至 %2",
+    "tooltip": "將 Socket %1 連線至 %2",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_socket_bind": {
+    "message0": "將 Socket %1 綁定至 %2",
+    "tooltip": "將 Socket %1 綁定至 %2",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_socket_listen": {
+    "message0": "讓 Socket %1 監聽，等候佇列 %2",
+    "tooltip": "讓 Socket %1 監聽，等候佇列 %2",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_socket_accept": {
+    "message0": "Socket %1 接受連線",
+    "tooltip": "Socket %1 接受連線",
+    "args0": [
+      null
+    ]
+  },
+  "python_socket_send": {
+    "message0": "透過 Socket %1 傳送 %2",
+    "tooltip": "透過 Socket %1 傳送 %2",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_socket_receive": {
+    "message0": "透過 Socket %1 接收 %2 位元組",
+    "tooltip": "透過 Socket %1 接收 %2 位元組",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_socket_close": {
+    "message0": "關閉 Socket %1",
+    "tooltip": "關閉 Socket %1",
+    "args0": [
+      null
+    ]
+  },
+  "python_mqtt_init": {
+    "message0": "初始化 MQTT 用戶端 %1",
+    "tooltip": "初始化 MQTT 用戶端 %1",
+    "args0": [
+      null
+    ]
+  },
+  "python_mqtt_connect": {
+    "message0": "MQTT %1 連線主機 %2、連接埠 %3，保活 %4",
+    "tooltip": "MQTT %1 連線主機 %2、連接埠 %3，保活 %4",
+    "args0": [
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "python_mqtt_publish": {
+    "message0": "MQTT %1 向主題 %2 發佈訊息 %3",
+    "tooltip": "MQTT %1 向主題 %2 發佈訊息 %3",
+    "args0": [
+      null,
+      null,
+      null
+    ]
+  },
+  "python_mqtt_subscribe": {
+    "message0": "MQTT %1 訂閱主題 %2",
+    "tooltip": "MQTT %1 訂閱主題 %2",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_mqtt_on_message": {
+    "message0": "當 MQTT %1 收到訊息時將主題設為 %2、負載設為 %3 並執行 %4 %5",
+    "tooltip": "當 MQTT %1 收到訊息時將主題設為 %2、負載設為 %3 並執行 %4 %5",
+    "args0": [
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "python_mqtt_loop": {
+    "message0": "MQTT %1 永久執行訊息循環",
+    "tooltip": "MQTT %1 永久執行訊息循環",
+    "args0": [
+      null
+    ]
+  },
+  "python_mqtt_disconnect": {
+    "message0": "中斷 MQTT %1",
+    "tooltip": "中斷 MQTT %1",
+    "args0": [
+      null
+    ]
+  },
+  "python_http_request": {
+    "message0": "HTTP %1：URL %2，資料 %3",
+    "tooltip": "HTTP %1：URL %2，資料 %3",
+    "args0": [
+      {
+        "options": [
+          [
+            "GET",
+            "GET"
+          ],
+          [
+            "POST",
+            "POST"
+          ],
+          [
+            "PUT",
+            "PUT"
+          ],
+          [
+            "DELETE",
+            "DELETE"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_http_response": {
+    "message0": "HTTP 回應 %1 的屬性 %2",
+    "tooltip": "HTTP 回應 %1 的屬性 %2",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "狀態碼",
+            "status_code"
+          ],
+          [
+            "text",
+            "text"
+          ],
+          [
+            "JSON",
+            "json()"
+          ]
+        ]
+      }
+    ]
+  },
+  "python_http_server": {
+    "message0": "透過 HTTP 提供目前目錄：主機 %1，連接埠 %2",
+    "tooltip": "透過 HTTP 提供目前目錄：主機 %1，連接埠 %2",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_file_read": {
+    "message0": "讀取文字檔案 %1",
+    "tooltip": "讀取文字檔案 %1",
+    "args0": [
+      null
+    ]
+  },
+  "python_file_write": {
+    "message0": "以 %1 模式處理文字檔案 %2，內容 %3",
+    "tooltip": "以 %1 模式處理文字檔案 %2，內容 %3",
+    "args0": [
+      {
+        "options": [
+          [
+            "寫入",
+            "w"
+          ],
+          [
+            "附加",
+            "a"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_file_exists": {
+    "message0": "路徑 %1 存在",
+    "tooltip": "路徑 %1 存在",
+    "args0": [
+      null
+    ]
+  },
+  "python_file_list": {
+    "message0": "列出目錄 %1",
+    "tooltip": "列出目錄 %1",
+    "args0": [
+      null
+    ]
+  },
+  "python_command": {
+    "message0": "執行系統命令 %1",
+    "tooltip": "執行系統命令 %1",
+    "args0": [
+      null
+    ]
+  },
+  "python_cpu_temperature": {
+    "message0": "CPU 溫度 °C",
+    "tooltip": "CPU 溫度 °C"
+  }
+}

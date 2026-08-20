@@ -1,0 +1,447 @@
+[
+  {
+    "type": "linux_gpio_init",
+    "message0": "initialize GPIO %1 pin %2 direction %3 pull %4",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "pin"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "PIN",
+        "options": "${board.digitalPins}"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "DIRECTION",
+        "options": [
+          [
+            "input",
+            "INPUT"
+          ],
+          [
+            "output",
+            "OUTPUT"
+          ]
+        ]
+      },
+      {
+        "type": "field_dropdown",
+        "name": "PULL",
+        "options": [
+          [
+            "none",
+            "NONE"
+          ],
+          [
+            "up",
+            "UP"
+          ],
+          [
+            "down",
+            "DOWN"
+          ]
+        ]
+      }
+    ],
+    "colour": "#00897B",
+    "tooltip": "Create a gpiozero digital pin.",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "linux_gpio_write",
+    "message0": "set GPIO %1 to %2",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "pin"
+      },
+      {
+        "type": "input_value",
+        "name": "VALUE",
+        "check": "Boolean"
+      }
+    ],
+    "colour": "#00897B",
+    "tooltip": "set GPIO %1 to %2",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "linux_gpio_read",
+    "message0": "GPIO %1 value",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "pin"
+      }
+    ],
+    "colour": "#00897B",
+    "tooltip": "GPIO %1 value",
+    "icon": "settings",
+    "output": "Any"
+  },
+  {
+    "type": "linux_gpio_close",
+    "message0": "close GPIO %1",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "pin"
+      }
+    ],
+    "colour": "#00897B",
+    "tooltip": "close GPIO %1",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "linux_led_write",
+    "message0": "set onboard LED to %1",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "VALUE",
+        "check": "Boolean"
+      }
+    ],
+    "colour": "#00897B",
+    "tooltip": "set onboard LED to %1",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "linux_key_pressed",
+    "message0": "onboard key is pressed",
+    "colour": "#00897B",
+    "tooltip": "onboard key is pressed",
+    "icon": "settings",
+    "output": "Any"
+  },
+  {
+    "type": "linux_pwm_init",
+    "message0": "initialize PWM %1 pin %2 frequency %3 Hz",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "pwm"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "PIN",
+        "options": "${board.digitalPins}"
+      },
+      {
+        "type": "input_value",
+        "name": "FREQUENCY",
+        "check": "Number"
+      }
+    ],
+    "colour": "#00897B",
+    "tooltip": "initialize PWM %1 pin %2 frequency %3 Hz",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "linux_pwm_duty",
+    "message0": "set PWM %1 duty cycle %2 (0-1)",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "pwm"
+      },
+      {
+        "type": "input_value",
+        "name": "DUTY",
+        "check": "Number"
+      }
+    ],
+    "colour": "#00897B",
+    "tooltip": "set PWM %1 duty cycle %2 (0-1)",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "linux_pwm_close",
+    "message0": "close PWM %1",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "pwm"
+      }
+    ],
+    "colour": "#00897B",
+    "tooltip": "close PWM %1",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "linux_uart_init",
+    "message0": "initialize serial %1 device %2 baud %3",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "uart"
+      },
+      {
+        "type": "field_input",
+        "name": "DEVICE",
+        "text": "/dev/serial0"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "BAUD",
+        "options": [
+          [
+            "9600",
+            "9600"
+          ],
+          [
+            "19200",
+            "19200"
+          ],
+          [
+            "38400",
+            "38400"
+          ],
+          [
+            "57600",
+            "57600"
+          ],
+          [
+            "115200",
+            "115200"
+          ]
+        ]
+      }
+    ],
+    "colour": "#00897B",
+    "tooltip": "initialize serial %1 device %2 baud %3",
+    "icon": "wifi",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "linux_uart_available",
+    "message0": "serial %1 bytes available",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "uart"
+      }
+    ],
+    "colour": "#00897B",
+    "tooltip": "serial %1 bytes available",
+    "icon": "wifi",
+    "output": "Any"
+  },
+  {
+    "type": "linux_uart_read",
+    "message0": "serial %1 read %2 bytes",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "uart"
+      },
+      {
+        "type": "input_value",
+        "name": "SIZE",
+        "check": "Number"
+      }
+    ],
+    "colour": "#00897B",
+    "tooltip": "serial %1 read %2 bytes",
+    "icon": "wifi",
+    "output": "Any"
+  },
+  {
+    "type": "linux_uart_write",
+    "message0": "serial %1 write %2",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "uart"
+      },
+      {
+        "type": "input_value",
+        "name": "DATA"
+      }
+    ],
+    "colour": "#00897B",
+    "tooltip": "serial %1 write %2",
+    "icon": "wifi",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "linux_uart_flush",
+    "message0": "flush serial %1 input",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "uart"
+      }
+    ],
+    "colour": "#00897B",
+    "tooltip": "flush serial %1 input",
+    "icon": "wifi",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "linux_uart_close",
+    "message0": "close serial %1",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "uart"
+      }
+    ],
+    "colour": "#00897B",
+    "tooltip": "close serial %1",
+    "icon": "wifi",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "linux_camera_init",
+    "message0": "initialize camera %1 device %2 width %3 height %4",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "camera"
+      },
+      {
+        "type": "field_input",
+        "name": "DEVICE",
+        "text": "/dev/video0"
+      },
+      {
+        "type": "input_value",
+        "name": "WIDTH",
+        "check": "Number"
+      },
+      {
+        "type": "input_value",
+        "name": "HEIGHT",
+        "check": "Number"
+      }
+    ],
+    "colour": "#1976D2",
+    "tooltip": "initialize camera %1 device %2 width %3 height %4",
+    "icon": "camera",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "linux_camera_opened",
+    "message0": "camera %1 is open",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "camera"
+      }
+    ],
+    "colour": "#1976D2",
+    "tooltip": "camera %1 is open",
+    "icon": "camera",
+    "output": "Any"
+  },
+  {
+    "type": "linux_camera_read",
+    "message0": "camera %1 image",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "camera"
+      }
+    ],
+    "colour": "#1976D2",
+    "tooltip": "camera %1 image",
+    "icon": "camera",
+    "output": "Any"
+  },
+  {
+    "type": "linux_camera_release",
+    "message0": "release camera %1",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "camera"
+      }
+    ],
+    "colour": "#1976D2",
+    "tooltip": "release camera %1",
+    "icon": "camera",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "linux_audio_play",
+    "message0": "play WAV file %1",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "PATH",
+        "check": "String"
+      }
+    ],
+    "colour": "#EF6C00",
+    "tooltip": "play WAV file %1",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "linux_audio_record",
+    "message0": "record WAV to %1 seconds %2 sample rate %3",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "PATH",
+        "check": "String"
+      },
+      {
+        "type": "input_value",
+        "name": "SECONDS",
+        "check": "Number"
+      },
+      {
+        "type": "input_value",
+        "name": "RATE",
+        "check": "Number"
+      }
+    ],
+    "colour": "#EF6C00",
+    "tooltip": "record WAV to %1 seconds %2 sample rate %3",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  }
+]
