@@ -1,0 +1,1231 @@
+{
+  "toolbox_name": "CyberCAM Python",
+  "toolbox_categories": [
+    "Программа",
+    "Ввод-вывод",
+    "Камера и экран",
+    "OpenCV и коды",
+    "ИИ KPU",
+    "Сеть",
+    "Файлы и изображения",
+    "Аудио, IMU и система"
+  ],
+  "toolbox_labels": {
+    "Lifecycle": "Программа",
+    "IO and peripherals": "Ввод-вывод",
+    "Camera and display": "Камера и экран",
+    "OpenCV and codes": "OpenCV и коды",
+    "KPU AI": "ИИ KPU",
+    "Network": "Сеть",
+    "Files and images": "Файлы и изображения",
+    "Audio, IMU and system": "Аудио, IMU и система"
+  },
+  "cybercam_start": {
+    "message0": "При запуске CyberCAM %1 %2",
+    "tooltip": "Выполнить один раз при запуске программы CyberCAM.",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "cybercam_forever": {
+    "message0": "Повторять всегда на CyberCAM %1 %2",
+    "tooltip": "Повторно выполнять вложенные блоки.",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "cybercam_sleep": {
+    "message0": "Ждать %1 секунд",
+    "tooltip": "Приостановить программу на указанное число секунд.",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_print": {
+    "message0": "Вывести %1",
+    "tooltip": "Вывести %1",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_number": {
+    "message0": "Число %1",
+    "tooltip": "Число %1",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_text": {
+    "message0": "Текст %1",
+    "tooltip": "Текст %1",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_boolean": {
+    "message0": "Логическое значение %1",
+    "tooltip": "Логическое значение %1",
+    "args0": [
+      {
+        "options": [
+          [
+            "истина",
+            "TRUE"
+          ],
+          [
+            "ложь",
+            "FALSE"
+          ]
+        ]
+      }
+    ]
+  },
+  "cybercam_tuple": {
+    "message0": "Кортеж с элементами %1",
+    "tooltip": "Кортеж с элементами %1",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_list": {
+    "message0": "Список с элементами %1",
+    "tooltip": "Список с элементами %1",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_set_variable": {
+    "message0": "Задать переменной %1 значение %2",
+    "tooltip": "Задать переменной %1 значение %2",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "cybercam_get_variable": {
+    "message0": "Переменная %1",
+    "tooltip": "Переменная %1",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_if": {
+    "message0": "Если %1, выполнить %2 %3",
+    "tooltip": "Если %1, выполнить %2 %3",
+    "args0": [
+      null,
+      null,
+      null
+    ]
+  },
+  "cybercam_for_each": {
+    "message0": "Для каждого %1 в %2 выполнить %3 %4",
+    "tooltip": "Для каждого %1 в %2 выполнить %3 %4",
+    "args0": [
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "cybercam_gpio_init": {
+    "message0": "Инициализировать GPIO %1: вывод %2, направление %3, подтяжка %4",
+    "tooltip": "Создать объект цифрового ввода-вывода с помощью официальных модулей board и digitalio.",
+    "args0": [
+      null,
+      null,
+      {
+        "options": [
+          [
+            "вход",
+            "INPUT"
+          ],
+          [
+            "выход",
+            "OUTPUT"
+          ]
+        ]
+      },
+      {
+        "options": [
+          [
+            "нет",
+            "NONE"
+          ],
+          [
+            "подтяжка вверх",
+            "UP"
+          ],
+          [
+            "подтяжка вниз",
+            "DOWN"
+          ]
+        ]
+      }
+    ]
+  },
+  "cybercam_gpio_write": {
+    "message0": "Задать GPIO %1 значение %2",
+    "tooltip": "Задать GPIO %1 значение %2",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "cybercam_gpio_read": {
+    "message0": "Значение GPIO %1",
+    "tooltip": "Значение GPIO %1",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_gpio_deinit": {
+    "message0": "деинициализировать GPIO %1",
+    "tooltip": "деинициализировать GPIO %1",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_led_write": {
+    "message0": "Задать встроенному светодиоду значение %1",
+    "tooltip": "Задать встроенному светодиоду значение %1",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_key_pressed": {
+    "message0": "Встроенная кнопка нажата",
+    "tooltip": "Встроенная кнопка нажата"
+  },
+  "cybercam_pwm_init": {
+    "message0": "Инициализировать PWM %1: назначение %2",
+    "tooltip": "Инициализировать PWM %1: назначение %2",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "GPIO60 / PWM0",
+            "0,0"
+          ],
+          [
+            "GPIO61 / PWM1",
+            "0,1"
+          ],
+          [
+            "подсветка / PWM2",
+            "0,2"
+          ],
+          [
+            "зуммер / PWM3",
+            "1,0"
+          ],
+          [
+            "подсветка экрана / PWM5",
+            "1,2"
+          ]
+        ]
+      }
+    ]
+  },
+  "cybercam_pwm_frequency": {
+    "message0": "Задать частоту PWM %1 равной %2 Гц",
+    "tooltip": "Задать частоту PWM %1 равной %2 Гц",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "cybercam_pwm_duty": {
+    "message0": "Задать коэффициент заполнения PWM %1 равным %2 (0–1)",
+    "tooltip": "Задать коэффициент заполнения PWM %1 равным %2 (0–1)",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "cybercam_pwm_enable": {
+    "message0": "Включить PWM %1",
+    "tooltip": "Включить PWM %1",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_pwm_disable": {
+    "message0": "Выключить PWM %1",
+    "tooltip": "Выключить PWM %1",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_pwm_close": {
+    "message0": "Закрыть PWM %1",
+    "tooltip": "Закрыть PWM %1",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_uart_init": {
+    "message0": "Инициализировать UART %1: скорость %2",
+    "tooltip": "Инициализировать UART %1: скорость %2",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "9600",
+            "9600"
+          ],
+          [
+            "19200",
+            "19200"
+          ],
+          [
+            "38400",
+            "38400"
+          ],
+          [
+            "57600",
+            "57600"
+          ],
+          [
+            "115200",
+            "115200"
+          ]
+        ]
+      }
+    ]
+  },
+  "cybercam_uart_available": {
+    "message0": "Доступно байтов в UART %1",
+    "tooltip": "Доступно байтов в UART %1",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_uart_read": {
+    "message0": "Прочитать %2 байтов из UART %1",
+    "tooltip": "Прочитать %2 байтов из UART %1",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "cybercam_uart_write": {
+    "message0": "Записать %2 в UART %1",
+    "tooltip": "Записать %2 в UART %1",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "cybercam_uart_flush": {
+    "message0": "Очистить входной буфер UART %1",
+    "tooltip": "Очистить входной буфер UART %1",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_uart_close": {
+    "message0": "закрыть UART %1",
+    "tooltip": "закрыть UART %1",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_camera_init": {
+    "message0": "Инициализировать камеру %1: ширина %2, высота %3, датчик %4",
+    "tooltip": "Инициализировать камеру %1: ширина %2, высота %3, датчик %4",
+    "args0": [
+      null,
+      null,
+      null,
+      {
+        "options": [
+          [
+            "встроенный CSI2",
+            "2"
+          ],
+          [
+            "по умолчанию",
+            "0"
+          ]
+        ]
+      }
+    ]
+  },
+  "cybercam_camera_opened": {
+    "message0": "Камера %1 открыта",
+    "tooltip": "Камера %1 открыта",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_camera_read": {
+    "message0": "Изображение камеры %1",
+    "tooltip": "Изображение камеры %1",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_camera_hmirror": {
+    "message0": "Задать горизонтальное отражение камеры %1 равным %2",
+    "tooltip": "Задать горизонтальное отражение камеры %1 равным %2",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "cybercam_camera_vflip": {
+    "message0": "Задать вертикальный переворот камеры %1 равным %2",
+    "tooltip": "Задать вертикальный переворот камеры %1 равным %2",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "cybercam_camera_release": {
+    "message0": "Освободить камеру %1",
+    "tooltip": "Освободить камеру %1",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_display_init": {
+    "message0": "Инициализировать встроенный экран",
+    "tooltip": "Инициализировать встроенный экран"
+  },
+  "cybercam_display_rotation": {
+    "message0": "Задать поворот экрана %1",
+    "tooltip": "Задать поворот экрана %1",
+    "args0": [
+      {
+        "options": [
+          [
+            "0°",
+            "0"
+          ],
+          [
+            "180°",
+            "2"
+          ]
+        ]
+      }
+    ]
+  },
+  "cybercam_display_show": {
+    "message0": "Показать изображение %1 на экране",
+    "tooltip": "Показать изображение %1 на экране",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_ide_show": {
+    "message0": "Показать изображение %1 в IDE",
+    "tooltip": "Показать изображение %1 в IDE",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_lcd_direction": {
+    "message0": "Текущая ориентация экрана",
+    "tooltip": "Текущая ориентация экрана"
+  },
+  "cybercam_image_resize": {
+    "message0": "Изменить размер изображения %1: ширина %2, высота %3",
+    "tooltip": "Изменить размер изображения %1: ширина %2, высота %3",
+    "args0": [
+      null,
+      null,
+      null
+    ]
+  },
+  "cybercam_image_convert": {
+    "message0": "Преобразовать изображение %1 с помощью %2",
+    "tooltip": "Преобразовать изображение %1 с помощью %2",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "BGR → оттенки серого",
+            "COLOR_BGR2GRAY"
+          ],
+          [
+            "BGR → LAB",
+            "COLOR_BGR2LAB"
+          ],
+          [
+            "BGR → RGB",
+            "COLOR_BGR2RGB"
+          ],
+          [
+            "оттенки серого → BGR",
+            "COLOR_GRAY2BGR"
+          ]
+        ]
+      }
+    ]
+  },
+  "cybercam_image_in_range": {
+    "message0": "Создать маску изображения %1 с нижней границей %2 и верхней %3",
+    "tooltip": "Создать маску изображения %1 с нижней границей %2 и верхней %3",
+    "args0": [
+      null,
+      null,
+      null
+    ]
+  },
+  "cybercam_image_components": {
+    "message0": "Связные компоненты %1 со связностью %2",
+    "tooltip": "Связные компоненты %1 со связностью %2",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "4",
+            "4"
+          ],
+          [
+            "8",
+            "8"
+          ]
+        ]
+      }
+    ]
+  },
+  "cybercam_image_load": {
+    "message0": "Загрузить файл изображения %1",
+    "tooltip": "Загрузить файл изображения %1",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_image_save": {
+    "message0": "Сохранить изображение %1 в файл %2",
+    "tooltip": "Сохранить изображение %1 в файл %2",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "cybercam_draw_rectangle": {
+    "message0": "Нарисовать прямоугольник на %1: от x %2, y %3 до x %4, y %5, цвет %6, толщина %7",
+    "tooltip": "Нарисовать прямоугольник на %1: от x %2, y %3 до x %4, y %5, цвет %6, толщина %7",
+    "args0": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "cybercam_draw_circle": {
+    "message0": "Нарисовать окружность на %1: x %2, y %3, радиус %4, цвет %5, толщина %6",
+    "tooltip": "Нарисовать окружность на %1: x %2, y %3, радиус %4, цвет %5, толщина %6",
+    "args0": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "cybercam_draw_line": {
+    "message0": "Нарисовать линию на %1: от x %2, y %3 до x %4, y %5, цвет %6, толщина %7",
+    "tooltip": "Нарисовать линию на %1: от x %2, y %3 до x %4, y %5, цвет %6, толщина %7",
+    "args0": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "cybercam_draw_text": {
+    "message0": "Нарисовать текст %1 на %2 в x %3, y %4: масштаб %5, цвет %6, толщина %7",
+    "tooltip": "Нарисовать текст %1 на %2 в x %3, y %4: масштаб %5, цвет %6, толщина %7",
+    "args0": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "cybercam_qr_decode": {
+    "message0": "Декодировать QR-коды в %1",
+    "tooltip": "Декодировать QR-коды в %1",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_barcode_decode": {
+    "message0": "Декодировать штрихкоды в %1",
+    "tooltip": "Декодировать штрихкоды в %1",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_apriltag_init": {
+    "message0": "Инициализировать детектор AprilTag %1: семейство %2",
+    "tooltip": "Инициализировать детектор AprilTag %1: семейство %2",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "tag16h5",
+            "tag16h5"
+          ],
+          [
+            "tag25h7",
+            "tag25h7"
+          ],
+          [
+            "tag25h9",
+            "tag25h9"
+          ],
+          [
+            "tag36h10",
+            "tag36h10"
+          ],
+          [
+            "tag36h11",
+            "tag36h11"
+          ]
+        ]
+      }
+    ]
+  },
+  "cybercam_apriltag_detect": {
+    "message0": "Обнаружить метки на полутоновом изображении %2 детектором AprilTag %1",
+    "tooltip": "Обнаружить метки на полутоновом изображении %2 детектором AprilTag %1",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "cybercam_ai_init_simple": {
+    "message0": "Инициализировать ИИ %1: модель %2, путь %3, размер %4",
+    "tooltip": "Инициализировать ИИ %1: модель %2, путь %3, размер %4",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "обнаружение падения",
+            "FALL_DETECT"
+          ],
+          [
+            "обнаружение руки",
+            "HAND_DETECT"
+          ],
+          [
+            "обнаружение человека",
+            "PERSON_DETECT"
+          ],
+          [
+            "ключевые точки тела",
+            "PERSON_KEYPOINT"
+          ],
+          [
+            "обнаружение дыма",
+            "SMOKE_DETECT"
+          ],
+          [
+            "светофор",
+            "TRAFFIC_LIGHT_DETECT"
+          ],
+          [
+            "YOLO11 классификация",
+            "YOLO11_CLS"
+          ],
+          [
+            "YOLO11 обнаружение",
+            "YOLO11_DET"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "cybercam_ai_init_face": {
+    "message0": "Инициализировать детектор лиц %1: модель %2, якоря %3, размер %4",
+    "tooltip": "Инициализировать детектор лиц %1: модель %2, якоря %3, размер %4",
+    "args0": [
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "cybercam_ai_init_mask": {
+    "message0": "Инициализировать детектор масок %1: модель обнаружения %2, якоря %3, размер %4, модель маски %5",
+    "tooltip": "Инициализировать детектор масок %1: модель обнаружения %2, якоря %3, размер %4, модель маски %5",
+    "args0": [
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "cybercam_ai_init_hand_keypoint": {
+    "message0": "Инициализировать ИИ руки %1: тип %2, модель обнаружения %3, модель ключевых точек %4",
+    "tooltip": "Инициализировать ИИ руки %1: тип %2, модель обнаружения %3, модель ключевых точек %4",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "ключевые точки",
+            "HAND_KEYPOINT"
+          ],
+          [
+            "классификация жестов",
+            "HAND_KEYPOINT_CLS"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "cybercam_ai_init_ocr": {
+    "message0": "Инициализировать OCR %1: обнаружение %2, распознавание %3, словарь %4, размер обнаружения %5, ширина распознавания %6, высота %7",
+    "tooltip": "Инициализировать OCR %1: обнаружение %2, распознавание %3, словарь %4, размер обнаружения %5, ширина распознавания %6, высота %7",
+    "args0": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "cybercam_ai_init_licence": {
+    "message0": "Инициализировать ИИ номеров %1: обнаружение %2, распознавание %3, якоря %4, метки %5, размер обнаружения %6, ширина распознавания %7, высота %8",
+    "tooltip": "Инициализировать ИИ номеров %1: обнаружение %2, распознавание %3, якоря %4, метки %5, размер обнаружения %6, ширина распознавания %7, высота %8",
+    "args0": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "cybercam_ai_run": {
+    "message0": "Запустить ИИ %1 на %2",
+    "tooltip": "Запустить ИИ %1 на %2",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "cybercam_ai_run_confidence": {
+    "message0": "Запустить ИИ %1 на %2: достоверность %3",
+    "tooltip": "Запустить ИИ %1 на %2: достоверность %3",
+    "args0": [
+      null,
+      null,
+      null
+    ]
+  },
+  "cybercam_ai_run_thresholds": {
+    "message0": "Запустить ИИ %1 на %2: достоверность %3, NMS %4",
+    "tooltip": "Запустить ИИ %1 на %2: достоверность %3, NMS %4",
+    "args0": [
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "cybercam_result_length": {
+    "message0": "Длина списка результатов %1",
+    "tooltip": "Длина списка результатов %1",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_result_item": {
+    "message0": "Элемент %2 списка результатов %1",
+    "tooltip": "Элемент %2 списка результатов %1",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "cybercam_result_property": {
+    "message0": "Свойство %2 результата %1",
+    "tooltip": "Свойство %2 результата %1",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "достоверность",
+            "reliability"
+          ],
+          [
+            "x",
+            "x"
+          ],
+          [
+            "y",
+            "y"
+          ],
+          [
+            "ширина",
+            "w"
+          ],
+          [
+            "высота",
+            "h"
+          ],
+          [
+            "метка",
+            "label"
+          ],
+          [
+            "текст",
+            "text"
+          ],
+          [
+            "ключевые точки",
+            "keypoints"
+          ],
+          [
+            "углы",
+            "corners"
+          ],
+          [
+            "левый глаз",
+            "left_eye"
+          ],
+          [
+            "левый глаз x",
+            "left_eye.x"
+          ],
+          [
+            "левый глаз y",
+            "left_eye.y"
+          ],
+          [
+            "правый глаз",
+            "right_eye"
+          ],
+          [
+            "правый глаз x",
+            "right_eye.x"
+          ],
+          [
+            "правый глаз y",
+            "right_eye.y"
+          ],
+          [
+            "нос",
+            "nose"
+          ],
+          [
+            "нос x",
+            "nose.x"
+          ],
+          [
+            "нос y",
+            "nose.y"
+          ],
+          [
+            "левый угол рта",
+            "left_mouth"
+          ],
+          [
+            "левый угол рта x",
+            "left_mouth.x"
+          ],
+          [
+            "левый угол рта y",
+            "left_mouth.y"
+          ],
+          [
+            "правый угол рта",
+            "right_mouth"
+          ],
+          [
+            "правый угол рта x",
+            "right_mouth.x"
+          ],
+          [
+            "правый угол рта y",
+            "right_mouth.y"
+          ]
+        ]
+      }
+    ]
+  },
+  "cybercam_socket_init": {
+    "message0": "Инициализировать сокет %1: семейство адресов %2, тип %3",
+    "tooltip": "Инициализировать сокет %1: семейство адресов %2, тип %3",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "IPv4",
+            "AF_INET"
+          ],
+          [
+            "IPv6",
+            "AF_INET6"
+          ]
+        ]
+      },
+      {
+        "options": [
+          [
+            "TCP",
+            "SOCK_STREAM"
+          ],
+          [
+            "UDP",
+            "SOCK_DGRAM"
+          ]
+        ]
+      }
+    ]
+  },
+  "cybercam_socket_address": {
+    "message0": "Сетевой адрес: узел %1, порт %2",
+    "tooltip": "Сетевой адрес: узел %1, порт %2",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "cybercam_socket_connect": {
+    "message0": "Подключить сокет %1 к %2",
+    "tooltip": "Подключить сокет %1 к %2",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "cybercam_socket_bind": {
+    "message0": "Привязать сокет %1 к %2",
+    "tooltip": "Привязать сокет %1 к %2",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "cybercam_socket_listen": {
+    "message0": "Перевести сокет %1 в режим прослушивания: очередь %2",
+    "tooltip": "Перевести сокет %1 в режим прослушивания: очередь %2",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "cybercam_socket_accept": {
+    "message0": "Принять соединение на сокете %1",
+    "tooltip": "Принять соединение на сокете %1",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_socket_send": {
+    "message0": "Отправить %2 через сокет %1",
+    "tooltip": "Отправить %2 через сокет %1",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "cybercam_socket_receive": {
+    "message0": "Получить %2 байтов через сокет %1",
+    "tooltip": "Получить %2 байтов через сокет %1",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "cybercam_socket_close": {
+    "message0": "Закрыть сокет %1",
+    "tooltip": "Закрыть сокет %1",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_mqtt_init": {
+    "message0": "Инициализировать клиент MQTT %1",
+    "tooltip": "Инициализировать клиент MQTT %1",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_mqtt_connect": {
+    "message0": "Подключить MQTT %1 к узлу %2, порт %3: интервал поддержки %4",
+    "tooltip": "Подключить MQTT %1 к узлу %2, порт %3: интервал поддержки %4",
+    "args0": [
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "cybercam_mqtt_publish": {
+    "message0": "Опубликовать сообщение %3 в теме %2 через MQTT %1",
+    "tooltip": "Опубликовать сообщение %3 в теме %2 через MQTT %1",
+    "args0": [
+      null,
+      null,
+      null
+    ]
+  },
+  "cybercam_mqtt_subscribe": {
+    "message0": "Подписать MQTT %1 на тему %2",
+    "tooltip": "Подписать MQTT %1 на тему %2",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "cybercam_mqtt_on_message": {
+    "message0": "когда MQTT %1 получает сообщение, записать тему в %2, данные в %3 и выполнить %4 %5",
+    "tooltip": "когда MQTT %1 получает сообщение, записать тему в %2, данные в %3 и выполнить %4 %5",
+    "args0": [
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "cybercam_mqtt_loop": {
+    "message0": "Постоянно выполнять цикл сообщений MQTT %1",
+    "tooltip": "Постоянно выполнять цикл сообщений MQTT %1",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_mqtt_disconnect": {
+    "message0": "Отключить MQTT %1",
+    "tooltip": "Отключить MQTT %1",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_http_request": {
+    "message0": "HTTP %1: URL %2, данные %3",
+    "tooltip": "HTTP %1: URL %2, данные %3",
+    "args0": [
+      {
+        "options": [
+          [
+            "GET",
+            "GET"
+          ],
+          [
+            "POST",
+            "POST"
+          ],
+          [
+            "PUT",
+            "PUT"
+          ],
+          [
+            "DELETE",
+            "DELETE"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "cybercam_http_response": {
+    "message0": "Свойство %2 ответа HTTP %1",
+    "tooltip": "Свойство %2 ответа HTTP %1",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "код состояния",
+            "status_code"
+          ],
+          [
+            "текст",
+            "text"
+          ],
+          [
+            "JSON",
+            "json()"
+          ]
+        ]
+      }
+    ]
+  },
+  "cybercam_http_server": {
+    "message0": "Раздавать текущий каталог по HTTP: узел %1, порт %2",
+    "tooltip": "Раздавать текущий каталог по HTTP: узел %1, порт %2",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "cybercam_file_read": {
+    "message0": "Прочитать текстовый файл %1",
+    "tooltip": "Прочитать текстовый файл %1",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_file_write": {
+    "message0": "Обработать текстовый файл %2 в режиме %1: содержимое %3",
+    "tooltip": "Обработать текстовый файл %2 в режиме %1: содержимое %3",
+    "args0": [
+      {
+        "options": [
+          [
+            "записать",
+            "w"
+          ],
+          [
+            "добавить",
+            "a"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "cybercam_file_exists": {
+    "message0": "Путь %1 существует",
+    "tooltip": "Путь %1 существует",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_file_list": {
+    "message0": "Показать содержимое каталога %1",
+    "tooltip": "Показать содержимое каталога %1",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_command": {
+    "message0": "Выполнить системную команду %1",
+    "tooltip": "Выполнить системную команду %1",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_audio_play": {
+    "message0": "Воспроизвести файл WAV %1",
+    "tooltip": "Воспроизвести файл WAV %1",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_audio_record": {
+    "message0": "Записать WAV в %1: %2 секунд, частота дискретизации %3",
+    "tooltip": "Записать WAV в %1: %2 секунд, частота дискретизации %3",
+    "args0": [
+      null,
+      null,
+      null
+    ]
+  },
+  "cybercam_imu_init": {
+    "message0": "Инициализировать IMU QMI8658 %1: шина %2, адрес %3",
+    "tooltip": "Инициализировать IMU QMI8658 %1: шина %2, адрес %3",
+    "args0": [
+      null,
+      null,
+      null
+    ]
+  },
+  "cybercam_imu_read": {
+    "message0": "Шестиосевые значения IMU %1",
+    "tooltip": "Шестиосевые значения IMU %1",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_imu_axis": {
+    "message0": "Ось %2 IMU %1",
+    "tooltip": "Ось %2 IMU %1",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "ускорение X (g)",
+            "0"
+          ],
+          [
+            "ускорение Y (g)",
+            "1"
+          ],
+          [
+            "ускорение Z (g)",
+            "2"
+          ],
+          [
+            "гироскоп X (dps)",
+            "3"
+          ],
+          [
+            "гироскоп Y (dps)",
+            "4"
+          ],
+          [
+            "гироскоп Z (dps)",
+            "5"
+          ]
+        ]
+      }
+    ]
+  },
+  "cybercam_imu_calibrate": {
+    "message0": "Калибровать IMU %1: %2 отсчётов",
+    "tooltip": "Калибровать IMU %1: %2 отсчётов",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "cybercam_imu_close": {
+    "message0": "закрыть IMU %1",
+    "tooltip": "закрыть IMU %1",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_cpu_temperature": {
+    "message0": "Температура процессора K230 °C",
+    "tooltip": "Температура процессора K230 °C"
+  },
+  "cybercam_chip_id": {
+    "message0": "Уникальный идентификатор чипа K230",
+    "tooltip": "Уникальный идентификатор чипа K230"
+  }
+}

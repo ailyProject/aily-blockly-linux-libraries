@@ -1,0 +1,1231 @@
+{
+  "toolbox_name": "CyberCAM Python",
+  "toolbox_categories": [
+    "程式",
+    "IO 與周邊",
+    "相機與螢幕",
+    "OpenCV 與碼識別",
+    "KPU 人工智能",
+    "網絡",
+    "檔案與圖像",
+    "音訊、IMU 與系統"
+  ],
+  "toolbox_labels": {
+    "Lifecycle": "程式",
+    "IO and peripherals": "IO 與周邊",
+    "Camera and display": "相機與螢幕",
+    "OpenCV and codes": "OpenCV 與碼識別",
+    "KPU AI": "KPU 人工智能",
+    "Network": "網絡",
+    "Files and images": "檔案與圖像",
+    "Audio, IMU and system": "音訊、IMU 與系統"
+  },
+  "cybercam_start": {
+    "message0": "當 CyberCAM 啟動時 %1 %2",
+    "tooltip": "CyberCAM 程式啟動時執行一次。",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "cybercam_forever": {
+    "message0": "CyberCAM 永久循環 %1 %2",
+    "tooltip": "重複執行其中的積木。",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "cybercam_sleep": {
+    "message0": "等待 %1 秒",
+    "tooltip": "暫停程式指定的秒數。",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_print": {
+    "message0": "列印 %1",
+    "tooltip": "列印 %1",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_number": {
+    "message0": "數值 %1",
+    "tooltip": "數值 %1",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_text": {
+    "message0": "文字 %1",
+    "tooltip": "文字 %1",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_boolean": {
+    "message0": "布林值 %1",
+    "tooltip": "布林值 %1",
+    "args0": [
+      {
+        "options": [
+          [
+            "真",
+            "TRUE"
+          ],
+          [
+            "假",
+            "FALSE"
+          ]
+        ]
+      }
+    ]
+  },
+  "cybercam_tuple": {
+    "message0": "由項目 %1 組成元組",
+    "tooltip": "由項目 %1 組成元組",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_list": {
+    "message0": "由項目 %1 組成清單",
+    "tooltip": "由項目 %1 組成清單",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_set_variable": {
+    "message0": "將變數 %1 設為 %2",
+    "tooltip": "將變數 %1 設為 %2",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "cybercam_get_variable": {
+    "message0": "變數 %1",
+    "tooltip": "變數 %1",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_if": {
+    "message0": "如果 %1 則執行 %2 %3",
+    "tooltip": "如果 %1 則執行 %2 %3",
+    "args0": [
+      null,
+      null,
+      null
+    ]
+  },
+  "cybercam_for_each": {
+    "message0": "對 %2 中的每個 %1 執行 %3 %4",
+    "tooltip": "對 %2 中的每個 %1 執行 %3 %4",
+    "args0": [
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "cybercam_gpio_init": {
+    "message0": "初始化 GPIO %1，引腳 %2，方向 %3，上下拉 %4",
+    "tooltip": "使用官方 board 與 digitalio 模組建立數碼 IO 物件。",
+    "args0": [
+      null,
+      null,
+      {
+        "options": [
+          [
+            "輸入",
+            "INPUT"
+          ],
+          [
+            "輸出",
+            "OUTPUT"
+          ]
+        ]
+      },
+      {
+        "options": [
+          [
+            "無",
+            "NONE"
+          ],
+          [
+            "上拉",
+            "UP"
+          ],
+          [
+            "下拉",
+            "DOWN"
+          ]
+        ]
+      }
+    ]
+  },
+  "cybercam_gpio_write": {
+    "message0": "將 GPIO %1 設為 %2",
+    "tooltip": "將 GPIO %1 設為 %2",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "cybercam_gpio_read": {
+    "message0": "GPIO %1 的值",
+    "tooltip": "GPIO %1 的值",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_gpio_deinit": {
+    "message0": "解除初始化 GPIO %1",
+    "tooltip": "解除初始化 GPIO %1",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_led_write": {
+    "message0": "將板載 LED 設為 %1",
+    "tooltip": "將板載 LED 設為 %1",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_key_pressed": {
+    "message0": "板載按鍵已按下",
+    "tooltip": "板載按鍵已按下"
+  },
+  "cybercam_pwm_init": {
+    "message0": "初始化 PWM %1，目標 %2",
+    "tooltip": "初始化 PWM %1，目標 %2",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "GPIO60 / PWM0",
+            "0,0"
+          ],
+          [
+            "GPIO61 / PWM1",
+            "0,1"
+          ],
+          [
+            "補光燈 / PWM2",
+            "0,2"
+          ],
+          [
+            "蜂鳴器 / PWM3",
+            "1,0"
+          ],
+          [
+            "背光 / PWM5",
+            "1,2"
+          ]
+        ]
+      }
+    ]
+  },
+  "cybercam_pwm_frequency": {
+    "message0": "將 PWM %1 的頻率設為 %2 Hz",
+    "tooltip": "將 PWM %1 的頻率設為 %2 Hz",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "cybercam_pwm_duty": {
+    "message0": "將 PWM %1 的佔空比設為 %2（0–1）",
+    "tooltip": "將 PWM %1 的佔空比設為 %2（0–1）",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "cybercam_pwm_enable": {
+    "message0": "啟用 PWM %1",
+    "tooltip": "啟用 PWM %1",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_pwm_disable": {
+    "message0": "停用 PWM %1",
+    "tooltip": "停用 PWM %1",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_pwm_close": {
+    "message0": "關閉 PWM %1",
+    "tooltip": "關閉 PWM %1",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_uart_init": {
+    "message0": "初始化 UART %1，鮑率 %2",
+    "tooltip": "初始化 UART %1，鮑率 %2",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "9600",
+            "9600"
+          ],
+          [
+            "19200",
+            "19200"
+          ],
+          [
+            "38400",
+            "38400"
+          ],
+          [
+            "57600",
+            "57600"
+          ],
+          [
+            "115200",
+            "115200"
+          ]
+        ]
+      }
+    ]
+  },
+  "cybercam_uart_available": {
+    "message0": "UART %1 可讀取的位元組數",
+    "tooltip": "UART %1 可讀取的位元組數",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_uart_read": {
+    "message0": "從 UART %1 讀取 %2 位元組",
+    "tooltip": "從 UART %1 讀取 %2 位元組",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "cybercam_uart_write": {
+    "message0": "向 UART %1 寫入 %2",
+    "tooltip": "向 UART %1 寫入 %2",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "cybercam_uart_flush": {
+    "message0": "清空 UART %1 的輸入緩衝區",
+    "tooltip": "清空 UART %1 的輸入緩衝區",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_uart_close": {
+    "message0": "關閉 UART %1",
+    "tooltip": "關閉 UART %1",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_camera_init": {
+    "message0": "初始化相機 %1，寬 %2，高 %3，感測器 %4",
+    "tooltip": "初始化相機 %1，寬 %2，高 %3，感測器 %4",
+    "args0": [
+      null,
+      null,
+      null,
+      {
+        "options": [
+          [
+            "板載 CSI2",
+            "2"
+          ],
+          [
+            "預設",
+            "0"
+          ]
+        ]
+      }
+    ]
+  },
+  "cybercam_camera_opened": {
+    "message0": "相機 %1 已開啟",
+    "tooltip": "相機 %1 已開啟",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_camera_read": {
+    "message0": "相機 %1 的圖像",
+    "tooltip": "相機 %1 的圖像",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_camera_hmirror": {
+    "message0": "設定相機 %1 水平鏡像 %2",
+    "tooltip": "設定相機 %1 水平鏡像 %2",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "cybercam_camera_vflip": {
+    "message0": "設定相機 %1 垂直翻轉 %2",
+    "tooltip": "設定相機 %1 垂直翻轉 %2",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "cybercam_camera_release": {
+    "message0": "釋放相機 %1",
+    "tooltip": "釋放相機 %1",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_display_init": {
+    "message0": "初始化板載螢幕",
+    "tooltip": "初始化板載螢幕"
+  },
+  "cybercam_display_rotation": {
+    "message0": "將螢幕旋轉角度設為 %1",
+    "tooltip": "將螢幕旋轉角度設為 %1",
+    "args0": [
+      {
+        "options": [
+          [
+            "0°",
+            "0"
+          ],
+          [
+            "180°",
+            "2"
+          ]
+        ]
+      }
+    ]
+  },
+  "cybercam_display_show": {
+    "message0": "在螢幕上顯示圖像 %1",
+    "tooltip": "在螢幕上顯示圖像 %1",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_ide_show": {
+    "message0": "在 IDE 中顯示圖像 %1",
+    "tooltip": "在 IDE 中顯示圖像 %1",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_lcd_direction": {
+    "message0": "目前螢幕方向",
+    "tooltip": "目前螢幕方向"
+  },
+  "cybercam_image_resize": {
+    "message0": "將圖像 %1 調整為寬 %2、高 %3",
+    "tooltip": "將圖像 %1 調整為寬 %2、高 %3",
+    "args0": [
+      null,
+      null,
+      null
+    ]
+  },
+  "cybercam_image_convert": {
+    "message0": "使用 %2 轉換圖像 %1",
+    "tooltip": "使用 %2 轉換圖像 %1",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "BGR 轉灰階",
+            "COLOR_BGR2GRAY"
+          ],
+          [
+            "BGR 轉 LAB",
+            "COLOR_BGR2LAB"
+          ],
+          [
+            "BGR 轉 RGB",
+            "COLOR_BGR2RGB"
+          ],
+          [
+            "灰階轉 BGR",
+            "COLOR_GRAY2BGR"
+          ]
+        ]
+      }
+    ]
+  },
+  "cybercam_image_in_range": {
+    "message0": "對圖像 %1 按下限 %2、上限 %3 產生遮罩",
+    "tooltip": "對圖像 %1 按下限 %2、上限 %3 產生遮罩",
+    "args0": [
+      null,
+      null,
+      null
+    ]
+  },
+  "cybercam_image_components": {
+    "message0": "計算 %1 的連通元件，連通性 %2",
+    "tooltip": "計算 %1 的連通元件，連通性 %2",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "4",
+            "4"
+          ],
+          [
+            "8",
+            "8"
+          ]
+        ]
+      }
+    ]
+  },
+  "cybercam_image_load": {
+    "message0": "載入圖像檔案 %1",
+    "tooltip": "載入圖像檔案 %1",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_image_save": {
+    "message0": "將圖像 %1 儲存至檔案 %2",
+    "tooltip": "將圖像 %1 儲存至檔案 %2",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "cybercam_draw_rectangle": {
+    "message0": "在 %1 上繪製矩形：從 x %2、y %3 到 x %4、y %5，顏色 %6，線寬 %7",
+    "tooltip": "在 %1 上繪製矩形：從 x %2、y %3 到 x %4、y %5，顏色 %6，線寬 %7",
+    "args0": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "cybercam_draw_circle": {
+    "message0": "在 %1 上繪製圓形：x %2、y %3，半徑 %4，顏色 %5，線寬 %6",
+    "tooltip": "在 %1 上繪製圓形：x %2、y %3，半徑 %4，顏色 %5，線寬 %6",
+    "args0": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "cybercam_draw_line": {
+    "message0": "在 %1 上繪製線段：從 x %2、y %3 到 x %4、y %5，顏色 %6，線寬 %7",
+    "tooltip": "在 %1 上繪製線段：從 x %2、y %3 到 x %4、y %5，顏色 %6，線寬 %7",
+    "args0": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "cybercam_draw_text": {
+    "message0": "在 %2 的 x %3、y %4 繪製文字 %1，縮放 %5，顏色 %6，線寬 %7",
+    "tooltip": "在 %2 的 x %3、y %4 繪製文字 %1，縮放 %5，顏色 %6，線寬 %7",
+    "args0": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "cybercam_qr_decode": {
+    "message0": "解碼 %1 中的 QR Code",
+    "tooltip": "解碼 %1 中的 QR Code",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_barcode_decode": {
+    "message0": "解碼 %1 中的條碼",
+    "tooltip": "解碼 %1 中的條碼",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_apriltag_init": {
+    "message0": "初始化 AprilTag 偵測器 %1，標籤族 %2",
+    "tooltip": "初始化 AprilTag 偵測器 %1，標籤族 %2",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "tag16h5",
+            "tag16h5"
+          ],
+          [
+            "tag25h7",
+            "tag25h7"
+          ],
+          [
+            "tag25h9",
+            "tag25h9"
+          ],
+          [
+            "tag36h10",
+            "tag36h10"
+          ],
+          [
+            "tag36h11",
+            "tag36h11"
+          ]
+        ]
+      }
+    ]
+  },
+  "cybercam_apriltag_detect": {
+    "message0": "使用 AprilTag 偵測器 %1 偵測灰階圖像 %2",
+    "tooltip": "使用 AprilTag 偵測器 %1 偵測灰階圖像 %2",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "cybercam_ai_init_simple": {
+    "message0": "初始化 AI %1，模型 %2，路徑 %3，尺寸 %4",
+    "tooltip": "初始化 AI %1，模型 %2，路徑 %3，尺寸 %4",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "跌倒偵測",
+            "FALL_DETECT"
+          ],
+          [
+            "手部偵測",
+            "HAND_DETECT"
+          ],
+          [
+            "人員偵測",
+            "PERSON_DETECT"
+          ],
+          [
+            "人體關鍵點",
+            "PERSON_KEYPOINT"
+          ],
+          [
+            "煙霧偵測",
+            "SMOKE_DETECT"
+          ],
+          [
+            "交通燈偵測",
+            "TRAFFIC_LIGHT_DETECT"
+          ],
+          [
+            "YOLO11 分類",
+            "YOLO11_CLS"
+          ],
+          [
+            "YOLO11 偵測",
+            "YOLO11_DET"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "cybercam_ai_init_face": {
+    "message0": "初始化人臉偵測器 %1，模型 %2，錨點 %3，尺寸 %4",
+    "tooltip": "初始化人臉偵測器 %1，模型 %2，錨點 %3，尺寸 %4",
+    "args0": [
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "cybercam_ai_init_mask": {
+    "message0": "初始化口罩偵測器 %1，偵測模型 %2，錨點 %3，尺寸 %4，口罩模型 %5",
+    "tooltip": "初始化口罩偵測器 %1，偵測模型 %2，錨點 %3，尺寸 %4，口罩模型 %5",
+    "args0": [
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "cybercam_ai_init_hand_keypoint": {
+    "message0": "初始化手部 AI %1，類型 %2，偵測模型 %3，關鍵點模型 %4",
+    "tooltip": "初始化手部 AI %1，類型 %2，偵測模型 %3，關鍵點模型 %4",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "關鍵點",
+            "HAND_KEYPOINT"
+          ],
+          [
+            "手勢分類",
+            "HAND_KEYPOINT_CLS"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "cybercam_ai_init_ocr": {
+    "message0": "初始化 OCR %1，偵測模型 %2，辨識模型 %3，字典 %4，偵測尺寸 %5，辨識寬 %6、高 %7",
+    "tooltip": "初始化 OCR %1，偵測模型 %2，辨識模型 %3，字典 %4，偵測尺寸 %5，辨識寬 %6、高 %7",
+    "args0": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "cybercam_ai_init_licence": {
+    "message0": "初始化車牌 AI %1，偵測模型 %2，辨識模型 %3，錨點 %4，標籤 %5，偵測尺寸 %6，辨識寬 %7、高 %8",
+    "tooltip": "初始化車牌 AI %1，偵測模型 %2，辨識模型 %3，錨點 %4，標籤 %5，偵測尺寸 %6，辨識寬 %7、高 %8",
+    "args0": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "cybercam_ai_run": {
+    "message0": "用 AI %1 處理 %2",
+    "tooltip": "用 AI %1 處理 %2",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "cybercam_ai_run_confidence": {
+    "message0": "用 AI %1 處理 %2，信心度 %3",
+    "tooltip": "用 AI %1 處理 %2，信心度 %3",
+    "args0": [
+      null,
+      null,
+      null
+    ]
+  },
+  "cybercam_ai_run_thresholds": {
+    "message0": "用 AI %1 處理 %2，信心度 %3，NMS %4",
+    "tooltip": "用 AI %1 處理 %2，信心度 %3，NMS %4",
+    "args0": [
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "cybercam_result_length": {
+    "message0": "結果清單 %1 的長度",
+    "tooltip": "結果清單 %1 的長度",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_result_item": {
+    "message0": "結果清單 %1 的第 %2 項",
+    "tooltip": "結果清單 %1 的第 %2 項",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "cybercam_result_property": {
+    "message0": "結果 %1 的屬性 %2",
+    "tooltip": "結果 %1 的屬性 %2",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "信心度",
+            "reliability"
+          ],
+          [
+            "x",
+            "x"
+          ],
+          [
+            "y",
+            "y"
+          ],
+          [
+            "寬度",
+            "w"
+          ],
+          [
+            "高度",
+            "h"
+          ],
+          [
+            "標籤",
+            "label"
+          ],
+          [
+            "文字",
+            "text"
+          ],
+          [
+            "關鍵點",
+            "keypoints"
+          ],
+          [
+            "角點",
+            "corners"
+          ],
+          [
+            "左眼",
+            "left_eye"
+          ],
+          [
+            "左眼 x",
+            "left_eye.x"
+          ],
+          [
+            "左眼 y",
+            "left_eye.y"
+          ],
+          [
+            "右眼",
+            "right_eye"
+          ],
+          [
+            "右眼 x",
+            "right_eye.x"
+          ],
+          [
+            "右眼 y",
+            "right_eye.y"
+          ],
+          [
+            "鼻子",
+            "nose"
+          ],
+          [
+            "鼻子 x",
+            "nose.x"
+          ],
+          [
+            "鼻子 y",
+            "nose.y"
+          ],
+          [
+            "左嘴角",
+            "left_mouth"
+          ],
+          [
+            "左嘴角 x",
+            "left_mouth.x"
+          ],
+          [
+            "左嘴角 y",
+            "left_mouth.y"
+          ],
+          [
+            "右嘴角",
+            "right_mouth"
+          ],
+          [
+            "右嘴角 x",
+            "right_mouth.x"
+          ],
+          [
+            "右嘴角 y",
+            "right_mouth.y"
+          ]
+        ]
+      }
+    ]
+  },
+  "cybercam_socket_init": {
+    "message0": "初始化 Socket %1，位址族 %2，類型 %3",
+    "tooltip": "初始化 Socket %1，位址族 %2，類型 %3",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "IPv4",
+            "AF_INET"
+          ],
+          [
+            "IPv6",
+            "AF_INET6"
+          ]
+        ]
+      },
+      {
+        "options": [
+          [
+            "TCP",
+            "SOCK_STREAM"
+          ],
+          [
+            "UDP",
+            "SOCK_DGRAM"
+          ]
+        ]
+      }
+    ]
+  },
+  "cybercam_socket_address": {
+    "message0": "網絡位址：主機 %1，連接埠 %2",
+    "tooltip": "網絡位址：主機 %1，連接埠 %2",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "cybercam_socket_connect": {
+    "message0": "將 Socket %1 連線至 %2",
+    "tooltip": "將 Socket %1 連線至 %2",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "cybercam_socket_bind": {
+    "message0": "將 Socket %1 綁定至 %2",
+    "tooltip": "將 Socket %1 綁定至 %2",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "cybercam_socket_listen": {
+    "message0": "讓 Socket %1 監聽，等候佇列 %2",
+    "tooltip": "讓 Socket %1 監聽，等候佇列 %2",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "cybercam_socket_accept": {
+    "message0": "Socket %1 接受連線",
+    "tooltip": "Socket %1 接受連線",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_socket_send": {
+    "message0": "透過 Socket %1 傳送 %2",
+    "tooltip": "透過 Socket %1 傳送 %2",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "cybercam_socket_receive": {
+    "message0": "透過 Socket %1 接收 %2 位元組",
+    "tooltip": "透過 Socket %1 接收 %2 位元組",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "cybercam_socket_close": {
+    "message0": "關閉 Socket %1",
+    "tooltip": "關閉 Socket %1",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_mqtt_init": {
+    "message0": "初始化 MQTT 用戶端 %1",
+    "tooltip": "初始化 MQTT 用戶端 %1",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_mqtt_connect": {
+    "message0": "MQTT %1 連線主機 %2、連接埠 %3，保活 %4",
+    "tooltip": "MQTT %1 連線主機 %2、連接埠 %3，保活 %4",
+    "args0": [
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "cybercam_mqtt_publish": {
+    "message0": "MQTT %1 向主題 %2 發佈訊息 %3",
+    "tooltip": "MQTT %1 向主題 %2 發佈訊息 %3",
+    "args0": [
+      null,
+      null,
+      null
+    ]
+  },
+  "cybercam_mqtt_subscribe": {
+    "message0": "MQTT %1 訂閱主題 %2",
+    "tooltip": "MQTT %1 訂閱主題 %2",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "cybercam_mqtt_on_message": {
+    "message0": "當 MQTT %1 收到訊息，將主題存入 %2、酬載存入 %3，執行 %4 %5",
+    "tooltip": "當 MQTT %1 收到訊息，將主題存入 %2、酬載存入 %3，執行 %4 %5",
+    "args0": [
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "cybercam_mqtt_loop": {
+    "message0": "MQTT %1 永久執行訊息循環",
+    "tooltip": "MQTT %1 永久執行訊息循環",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_mqtt_disconnect": {
+    "message0": "中斷 MQTT %1",
+    "tooltip": "中斷 MQTT %1",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_http_request": {
+    "message0": "HTTP %1：URL %2，資料 %3",
+    "tooltip": "HTTP %1：URL %2，資料 %3",
+    "args0": [
+      {
+        "options": [
+          [
+            "GET",
+            "GET"
+          ],
+          [
+            "POST",
+            "POST"
+          ],
+          [
+            "PUT",
+            "PUT"
+          ],
+          [
+            "DELETE",
+            "DELETE"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "cybercam_http_response": {
+    "message0": "HTTP 回應 %1 的屬性 %2",
+    "tooltip": "HTTP 回應 %1 的屬性 %2",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "狀態碼",
+            "status_code"
+          ],
+          [
+            "文字",
+            "text"
+          ],
+          [
+            "JSON",
+            "json()"
+          ]
+        ]
+      }
+    ]
+  },
+  "cybercam_http_server": {
+    "message0": "透過 HTTP 提供目前目錄：主機 %1，連接埠 %2",
+    "tooltip": "透過 HTTP 提供目前目錄：主機 %1，連接埠 %2",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "cybercam_file_read": {
+    "message0": "讀取文字檔案 %1",
+    "tooltip": "讀取文字檔案 %1",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_file_write": {
+    "message0": "以 %1 模式處理文字檔案 %2，內容 %3",
+    "tooltip": "以 %1 模式處理文字檔案 %2，內容 %3",
+    "args0": [
+      {
+        "options": [
+          [
+            "寫入",
+            "w"
+          ],
+          [
+            "附加",
+            "a"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "cybercam_file_exists": {
+    "message0": "路徑 %1 存在",
+    "tooltip": "路徑 %1 存在",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_file_list": {
+    "message0": "列出目錄 %1",
+    "tooltip": "列出目錄 %1",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_command": {
+    "message0": "執行系統命令 %1",
+    "tooltip": "執行系統命令 %1",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_audio_play": {
+    "message0": "播放 WAV 檔案 %1",
+    "tooltip": "播放 WAV 檔案 %1",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_audio_record": {
+    "message0": "錄製 WAV 至 %1，時長 %2 秒，取樣率 %3",
+    "tooltip": "錄製 WAV 至 %1，時長 %2 秒，取樣率 %3",
+    "args0": [
+      null,
+      null,
+      null
+    ]
+  },
+  "cybercam_imu_init": {
+    "message0": "初始化 QMI8658 IMU %1，匯流排 %2，位址 %3",
+    "tooltip": "初始化 QMI8658 IMU %1，匯流排 %2，位址 %3",
+    "args0": [
+      null,
+      null,
+      null
+    ]
+  },
+  "cybercam_imu_read": {
+    "message0": "IMU %1 的六軸數值",
+    "tooltip": "IMU %1 的六軸數值",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_imu_axis": {
+    "message0": "IMU %1 的軸 %2",
+    "tooltip": "IMU %1 的軸 %2",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "加速度 X（g）",
+            "0"
+          ],
+          [
+            "加速度 Y（g）",
+            "1"
+          ],
+          [
+            "加速度 Z（g）",
+            "2"
+          ],
+          [
+            "陀螺儀 X（dps）",
+            "3"
+          ],
+          [
+            "陀螺儀 Y（dps）",
+            "4"
+          ],
+          [
+            "陀螺儀 Z（dps）",
+            "5"
+          ]
+        ]
+      }
+    ]
+  },
+  "cybercam_imu_calibrate": {
+    "message0": "校準 IMU %1，取樣數 %2",
+    "tooltip": "校準 IMU %1，取樣數 %2",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "cybercam_imu_close": {
+    "message0": "關閉 IMU %1",
+    "tooltip": "關閉 IMU %1",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_cpu_temperature": {
+    "message0": "K230 CPU 溫度 °C",
+    "tooltip": "K230 CPU 溫度 °C"
+  },
+  "cybercam_chip_id": {
+    "message0": "K230 唯一晶片 ID",
+    "tooltip": "K230 唯一晶片 ID"
+  }
+}

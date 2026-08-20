@@ -1,0 +1,2437 @@
+[
+  {
+    "type": "cybercam_start",
+    "message0": "when CyberCAM starts %1 %2",
+    "args0": [
+      {
+        "type": "input_statement",
+        "name": "DO"
+      },
+      {
+        "type": "input_dummy"
+      }
+    ],
+    "colour": "#455A64",
+    "tooltip": "Run once when the CyberCAM program starts.",
+    "icon": "settings"
+  },
+  {
+    "type": "cybercam_forever",
+    "message0": "CyberCAM forever %1 %2",
+    "args0": [
+      {
+        "type": "input_statement",
+        "name": "DO"
+      },
+      {
+        "type": "input_dummy"
+      }
+    ],
+    "colour": "#455A64",
+    "tooltip": "Run these blocks repeatedly.",
+    "icon": "settings"
+  },
+  {
+    "type": "cybercam_sleep",
+    "message0": "wait %1 seconds",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "SECONDS",
+        "check": "Number"
+      }
+    ],
+    "colour": "#455A64",
+    "tooltip": "Pause the program for a number of seconds.",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "cybercam_print",
+    "message0": "print %1",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "VALUE"
+      }
+    ],
+    "colour": "#455A64",
+    "tooltip": "print %1",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "cybercam_number",
+    "message0": "number %1",
+    "args0": [
+      {
+        "type": "field_number",
+        "name": "VALUE",
+        "value": 0
+      }
+    ],
+    "colour": "#455A64",
+    "tooltip": "number %1",
+    "icon": "settings",
+    "output": "Any"
+  },
+  {
+    "type": "cybercam_text",
+    "message0": "text %1",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "VALUE",
+        "text": ""
+      }
+    ],
+    "colour": "#455A64",
+    "tooltip": "text %1",
+    "icon": "settings",
+    "output": "Any"
+  },
+  {
+    "type": "cybercam_boolean",
+    "message0": "boolean %1",
+    "args0": [
+      {
+        "type": "field_dropdown",
+        "name": "VALUE",
+        "options": [
+          [
+            "true",
+            "TRUE"
+          ],
+          [
+            "false",
+            "FALSE"
+          ]
+        ]
+      }
+    ],
+    "colour": "#455A64",
+    "tooltip": "boolean %1",
+    "icon": "settings",
+    "output": "Any"
+  },
+  {
+    "type": "cybercam_tuple",
+    "message0": "tuple containing %1",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "ITEMS"
+      }
+    ],
+    "colour": "#455A64",
+    "tooltip": "tuple containing %1",
+    "icon": "settings",
+    "output": "Any"
+  },
+  {
+    "type": "cybercam_list",
+    "message0": "list containing %1",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "ITEMS"
+      }
+    ],
+    "colour": "#455A64",
+    "tooltip": "list containing %1",
+    "icon": "settings",
+    "output": "Any"
+  },
+  {
+    "type": "cybercam_set_variable",
+    "message0": "set variable %1 to %2",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "value"
+      },
+      {
+        "type": "input_value",
+        "name": "VALUE"
+      }
+    ],
+    "colour": "#455A64",
+    "tooltip": "set variable %1 to %2",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "cybercam_get_variable",
+    "message0": "variable %1",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "value"
+      }
+    ],
+    "colour": "#455A64",
+    "tooltip": "variable %1",
+    "icon": "settings",
+    "output": "Any"
+  },
+  {
+    "type": "cybercam_if",
+    "message0": "if %1 do %2 %3",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "CONDITION",
+        "check": "Boolean"
+      },
+      {
+        "type": "input_statement",
+        "name": "DO"
+      },
+      {
+        "type": "input_dummy"
+      }
+    ],
+    "colour": "#455A64",
+    "tooltip": "if %1 do %2 %3",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "cybercam_for_each",
+    "message0": "for each %1 in %2 do %3 %4",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "item"
+      },
+      {
+        "type": "input_value",
+        "name": "ITEMS"
+      },
+      {
+        "type": "input_statement",
+        "name": "DO"
+      },
+      {
+        "type": "input_dummy"
+      }
+    ],
+    "colour": "#455A64",
+    "tooltip": "for each %1 in %2 do %3 %4",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "cybercam_gpio_init",
+    "message0": "initialize GPIO %1 pin %2 direction %3 pull %4",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "pin"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "PIN",
+        "options": "${board.digitalPins}"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "DIRECTION",
+        "options": [
+          [
+            "input",
+            "INPUT"
+          ],
+          [
+            "output",
+            "OUTPUT"
+          ]
+        ]
+      },
+      {
+        "type": "field_dropdown",
+        "name": "PULL",
+        "options": [
+          [
+            "none",
+            "NONE"
+          ],
+          [
+            "up",
+            "UP"
+          ],
+          [
+            "down",
+            "DOWN"
+          ]
+        ]
+      }
+    ],
+    "colour": "#00897B",
+    "tooltip": "Create a digital IO object using the official board and digitalio modules.",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "cybercam_gpio_write",
+    "message0": "set GPIO %1 to %2",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "pin"
+      },
+      {
+        "type": "input_value",
+        "name": "VALUE",
+        "check": "Boolean"
+      }
+    ],
+    "colour": "#00897B",
+    "tooltip": "set GPIO %1 to %2",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "cybercam_gpio_read",
+    "message0": "GPIO %1 value",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "pin"
+      }
+    ],
+    "colour": "#00897B",
+    "tooltip": "GPIO %1 value",
+    "icon": "settings",
+    "output": "Any"
+  },
+  {
+    "type": "cybercam_gpio_deinit",
+    "message0": "deinitialize GPIO %1",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "pin"
+      }
+    ],
+    "colour": "#00897B",
+    "tooltip": "deinitialize GPIO %1",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "cybercam_led_write",
+    "message0": "set onboard LED to %1",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "VALUE",
+        "check": "Boolean"
+      }
+    ],
+    "colour": "#00897B",
+    "tooltip": "set onboard LED to %1",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "cybercam_key_pressed",
+    "message0": "onboard key is pressed",
+    "colour": "#00897B",
+    "tooltip": "onboard key is pressed",
+    "icon": "settings",
+    "output": "Any"
+  },
+  {
+    "type": "cybercam_pwm_init",
+    "message0": "initialize PWM %1 target %2",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "pwm"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "TARGET",
+        "options": [
+          [
+            "GPIO60 / PWM0",
+            "0,0"
+          ],
+          [
+            "GPIO61 / PWM1",
+            "0,1"
+          ],
+          [
+            "fill light / PWM2",
+            "0,2"
+          ],
+          [
+            "buzzer / PWM3",
+            "1,0"
+          ],
+          [
+            "backlight / PWM5",
+            "1,2"
+          ]
+        ]
+      }
+    ],
+    "colour": "#00897B",
+    "tooltip": "initialize PWM %1 target %2",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "cybercam_pwm_frequency",
+    "message0": "set PWM %1 frequency %2 Hz",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "pwm"
+      },
+      {
+        "type": "input_value",
+        "name": "FREQUENCY",
+        "check": "Number"
+      }
+    ],
+    "colour": "#00897B",
+    "tooltip": "set PWM %1 frequency %2 Hz",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "cybercam_pwm_duty",
+    "message0": "set PWM %1 duty cycle %2 (0-1)",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "pwm"
+      },
+      {
+        "type": "input_value",
+        "name": "DUTY",
+        "check": "Number"
+      }
+    ],
+    "colour": "#00897B",
+    "tooltip": "set PWM %1 duty cycle %2 (0-1)",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "cybercam_pwm_enable",
+    "message0": "enable PWM %1",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "pwm"
+      }
+    ],
+    "colour": "#00897B",
+    "tooltip": "enable PWM %1",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "cybercam_pwm_disable",
+    "message0": "disable PWM %1",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "pwm"
+      }
+    ],
+    "colour": "#00897B",
+    "tooltip": "disable PWM %1",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "cybercam_pwm_close",
+    "message0": "close PWM %1",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "pwm"
+      }
+    ],
+    "colour": "#00897B",
+    "tooltip": "close PWM %1",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "cybercam_uart_init",
+    "message0": "initialize UART %1 baud %2",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "uart"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "BAUD",
+        "options": [
+          [
+            "9600",
+            "9600"
+          ],
+          [
+            "19200",
+            "19200"
+          ],
+          [
+            "38400",
+            "38400"
+          ],
+          [
+            "57600",
+            "57600"
+          ],
+          [
+            "115200",
+            "115200"
+          ]
+        ]
+      }
+    ],
+    "colour": "#00897B",
+    "tooltip": "initialize UART %1 baud %2",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "cybercam_uart_available",
+    "message0": "UART %1 bytes available",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "uart"
+      }
+    ],
+    "colour": "#00897B",
+    "tooltip": "UART %1 bytes available",
+    "icon": "settings",
+    "output": "Any"
+  },
+  {
+    "type": "cybercam_uart_read",
+    "message0": "UART %1 read %2 bytes",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "uart"
+      },
+      {
+        "type": "input_value",
+        "name": "SIZE",
+        "check": "Number"
+      }
+    ],
+    "colour": "#00897B",
+    "tooltip": "UART %1 read %2 bytes",
+    "icon": "settings",
+    "output": "Any"
+  },
+  {
+    "type": "cybercam_uart_write",
+    "message0": "UART %1 write %2",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "uart"
+      },
+      {
+        "type": "input_value",
+        "name": "DATA"
+      }
+    ],
+    "colour": "#00897B",
+    "tooltip": "UART %1 write %2",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "cybercam_uart_flush",
+    "message0": "flush UART %1 input",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "uart"
+      }
+    ],
+    "colour": "#00897B",
+    "tooltip": "flush UART %1 input",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "cybercam_uart_close",
+    "message0": "close UART %1",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "uart"
+      }
+    ],
+    "colour": "#00897B",
+    "tooltip": "close UART %1",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "cybercam_camera_init",
+    "message0": "initialize camera %1 width %2 height %3 sensor %4",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "camera"
+      },
+      {
+        "type": "input_value",
+        "name": "WIDTH",
+        "check": "Number"
+      },
+      {
+        "type": "input_value",
+        "name": "HEIGHT",
+        "check": "Number"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "SENSOR_ID",
+        "options": [
+          [
+            "onboard CSI2",
+            "2"
+          ],
+          [
+            "default",
+            "0"
+          ]
+        ]
+      }
+    ],
+    "colour": "#1976D2",
+    "tooltip": "initialize camera %1 width %2 height %3 sensor %4",
+    "icon": "camera",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "cybercam_camera_opened",
+    "message0": "camera %1 is open",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "camera"
+      }
+    ],
+    "colour": "#1976D2",
+    "tooltip": "camera %1 is open",
+    "icon": "camera",
+    "output": "Any"
+  },
+  {
+    "type": "cybercam_camera_read",
+    "message0": "camera %1 image",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "camera"
+      }
+    ],
+    "colour": "#1976D2",
+    "tooltip": "camera %1 image",
+    "icon": "camera",
+    "output": "Any"
+  },
+  {
+    "type": "cybercam_camera_hmirror",
+    "message0": "camera %1 horizontal mirror %2",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "camera"
+      },
+      {
+        "type": "input_value",
+        "name": "ENABLED",
+        "check": "Boolean"
+      }
+    ],
+    "colour": "#1976D2",
+    "tooltip": "camera %1 horizontal mirror %2",
+    "icon": "camera",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "cybercam_camera_vflip",
+    "message0": "camera %1 vertical flip %2",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "camera"
+      },
+      {
+        "type": "input_value",
+        "name": "ENABLED",
+        "check": "Boolean"
+      }
+    ],
+    "colour": "#1976D2",
+    "tooltip": "camera %1 vertical flip %2",
+    "icon": "camera",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "cybercam_camera_release",
+    "message0": "release camera %1",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "camera"
+      }
+    ],
+    "colour": "#1976D2",
+    "tooltip": "release camera %1",
+    "icon": "camera",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "cybercam_display_init",
+    "message0": "initialize onboard display",
+    "colour": "#1976D2",
+    "tooltip": "initialize onboard display",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "cybercam_display_rotation",
+    "message0": "set display rotation %1",
+    "args0": [
+      {
+        "type": "field_dropdown",
+        "name": "ROTATION",
+        "options": [
+          [
+            "0°",
+            "0"
+          ],
+          [
+            "180°",
+            "2"
+          ]
+        ]
+      }
+    ],
+    "colour": "#1976D2",
+    "tooltip": "set display rotation %1",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "cybercam_display_show",
+    "message0": "show image %1 on display",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "IMAGE"
+      }
+    ],
+    "colour": "#1976D2",
+    "tooltip": "show image %1 on display",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "cybercam_ide_show",
+    "message0": "show image %1 in IDE",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "IMAGE"
+      }
+    ],
+    "colour": "#1976D2",
+    "tooltip": "show image %1 in IDE",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "cybercam_lcd_direction",
+    "message0": "current display direction",
+    "colour": "#1976D2",
+    "tooltip": "current display direction",
+    "icon": "settings",
+    "output": "Any"
+  },
+  {
+    "type": "cybercam_image_resize",
+    "message0": "resize image %1 width %2 height %3",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "IMAGE"
+      },
+      {
+        "type": "input_value",
+        "name": "WIDTH",
+        "check": "Number"
+      },
+      {
+        "type": "input_value",
+        "name": "HEIGHT",
+        "check": "Number"
+      }
+    ],
+    "colour": "#1976D2",
+    "tooltip": "resize image %1 width %2 height %3",
+    "icon": "settings",
+    "output": "Any"
+  },
+  {
+    "type": "cybercam_image_convert",
+    "message0": "convert image %1 using %2",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "IMAGE"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "CONVERSION",
+        "options": [
+          [
+            "BGR to gray",
+            "COLOR_BGR2GRAY"
+          ],
+          [
+            "BGR to LAB",
+            "COLOR_BGR2LAB"
+          ],
+          [
+            "BGR to RGB",
+            "COLOR_BGR2RGB"
+          ],
+          [
+            "gray to BGR",
+            "COLOR_GRAY2BGR"
+          ]
+        ]
+      }
+    ],
+    "colour": "#1976D2",
+    "tooltip": "convert image %1 using %2",
+    "icon": "settings",
+    "output": "Any"
+  },
+  {
+    "type": "cybercam_image_in_range",
+    "message0": "image %1 mask lower %2 upper %3",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "IMAGE"
+      },
+      {
+        "type": "input_value",
+        "name": "LOWER"
+      },
+      {
+        "type": "input_value",
+        "name": "UPPER"
+      }
+    ],
+    "colour": "#1976D2",
+    "tooltip": "image %1 mask lower %2 upper %3",
+    "icon": "settings",
+    "output": "Any"
+  },
+  {
+    "type": "cybercam_image_components",
+    "message0": "connected components of %1 connectivity %2",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "IMAGE"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "CONNECTIVITY",
+        "options": [
+          [
+            "4",
+            "4"
+          ],
+          [
+            "8",
+            "8"
+          ]
+        ]
+      }
+    ],
+    "colour": "#1976D2",
+    "tooltip": "connected components of %1 connectivity %2",
+    "icon": "settings",
+    "output": "Any"
+  },
+  {
+    "type": "cybercam_image_load",
+    "message0": "load image file %1",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "PATH",
+        "check": "String"
+      }
+    ],
+    "colour": "#1976D2",
+    "tooltip": "load image file %1",
+    "icon": "settings",
+    "output": "Any"
+  },
+  {
+    "type": "cybercam_image_save",
+    "message0": "save image %1 to file %2",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "IMAGE"
+      },
+      {
+        "type": "input_value",
+        "name": "PATH",
+        "check": "String"
+      }
+    ],
+    "colour": "#1976D2",
+    "tooltip": "save image %1 to file %2",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "cybercam_draw_rectangle",
+    "message0": "draw rectangle on %1 from x %2 y %3 to x %4 y %5 color %6 thickness %7",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "IMAGE"
+      },
+      {
+        "type": "input_value",
+        "name": "X1",
+        "check": "Number"
+      },
+      {
+        "type": "input_value",
+        "name": "Y1",
+        "check": "Number"
+      },
+      {
+        "type": "input_value",
+        "name": "X2",
+        "check": "Number"
+      },
+      {
+        "type": "input_value",
+        "name": "Y2",
+        "check": "Number"
+      },
+      {
+        "type": "input_value",
+        "name": "COLOR"
+      },
+      {
+        "type": "input_value",
+        "name": "THICKNESS",
+        "check": "Number"
+      }
+    ],
+    "colour": "#1976D2",
+    "tooltip": "draw rectangle on %1 from x %2 y %3 to x %4 y %5 color %6 thickness %7",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "cybercam_draw_circle",
+    "message0": "draw circle on %1 x %2 y %3 radius %4 color %5 thickness %6",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "IMAGE"
+      },
+      {
+        "type": "input_value",
+        "name": "X",
+        "check": "Number"
+      },
+      {
+        "type": "input_value",
+        "name": "Y",
+        "check": "Number"
+      },
+      {
+        "type": "input_value",
+        "name": "RADIUS",
+        "check": "Number"
+      },
+      {
+        "type": "input_value",
+        "name": "COLOR"
+      },
+      {
+        "type": "input_value",
+        "name": "THICKNESS",
+        "check": "Number"
+      }
+    ],
+    "colour": "#1976D2",
+    "tooltip": "draw circle on %1 x %2 y %3 radius %4 color %5 thickness %6",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "cybercam_draw_line",
+    "message0": "draw line on %1 from x %2 y %3 to x %4 y %5 color %6 thickness %7",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "IMAGE"
+      },
+      {
+        "type": "input_value",
+        "name": "X1",
+        "check": "Number"
+      },
+      {
+        "type": "input_value",
+        "name": "Y1",
+        "check": "Number"
+      },
+      {
+        "type": "input_value",
+        "name": "X2",
+        "check": "Number"
+      },
+      {
+        "type": "input_value",
+        "name": "Y2",
+        "check": "Number"
+      },
+      {
+        "type": "input_value",
+        "name": "COLOR"
+      },
+      {
+        "type": "input_value",
+        "name": "THICKNESS",
+        "check": "Number"
+      }
+    ],
+    "colour": "#1976D2",
+    "tooltip": "draw line on %1 from x %2 y %3 to x %4 y %5 color %6 thickness %7",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "cybercam_draw_text",
+    "message0": "draw text %1 on %2 x %3 y %4 scale %5 color %6 thickness %7",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "TEXT"
+      },
+      {
+        "type": "input_value",
+        "name": "IMAGE"
+      },
+      {
+        "type": "input_value",
+        "name": "X",
+        "check": "Number"
+      },
+      {
+        "type": "input_value",
+        "name": "Y",
+        "check": "Number"
+      },
+      {
+        "type": "input_value",
+        "name": "SCALE",
+        "check": "Number"
+      },
+      {
+        "type": "input_value",
+        "name": "COLOR"
+      },
+      {
+        "type": "input_value",
+        "name": "THICKNESS",
+        "check": "Number"
+      }
+    ],
+    "colour": "#1976D2",
+    "tooltip": "draw text %1 on %2 x %3 y %4 scale %5 color %6 thickness %7",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "cybercam_qr_decode",
+    "message0": "decode QR codes in %1",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "IMAGE"
+      }
+    ],
+    "colour": "#1976D2",
+    "tooltip": "decode QR codes in %1",
+    "icon": "settings",
+    "output": "Any"
+  },
+  {
+    "type": "cybercam_barcode_decode",
+    "message0": "decode barcodes in %1",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "IMAGE"
+      }
+    ],
+    "colour": "#1976D2",
+    "tooltip": "decode barcodes in %1",
+    "icon": "settings",
+    "output": "Any"
+  },
+  {
+    "type": "cybercam_apriltag_init",
+    "message0": "initialize AprilTag detector %1 family %2",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "tags"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "FAMILY",
+        "options": [
+          [
+            "tag16h5",
+            "tag16h5"
+          ],
+          [
+            "tag25h7",
+            "tag25h7"
+          ],
+          [
+            "tag25h9",
+            "tag25h9"
+          ],
+          [
+            "tag36h10",
+            "tag36h10"
+          ],
+          [
+            "tag36h11",
+            "tag36h11"
+          ]
+        ]
+      }
+    ],
+    "colour": "#1976D2",
+    "tooltip": "initialize AprilTag detector %1 family %2",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "cybercam_apriltag_detect",
+    "message0": "AprilTag detector %1 detect gray image %2",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "tags"
+      },
+      {
+        "type": "input_value",
+        "name": "IMAGE"
+      }
+    ],
+    "colour": "#1976D2",
+    "tooltip": "AprilTag detector %1 detect gray image %2",
+    "icon": "settings",
+    "output": "Any"
+  },
+  {
+    "type": "cybercam_ai_init_simple",
+    "message0": "initialize AI %1 model %2 path %3 size %4",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "detector"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "MODEL",
+        "options": [
+          [
+            "Fall detection",
+            "FALL_DETECT"
+          ],
+          [
+            "Hand detection",
+            "HAND_DETECT"
+          ],
+          [
+            "Person detection",
+            "PERSON_DETECT"
+          ],
+          [
+            "Person keypoints",
+            "PERSON_KEYPOINT"
+          ],
+          [
+            "Smoke detection",
+            "SMOKE_DETECT"
+          ],
+          [
+            "Traffic light",
+            "TRAFFIC_LIGHT_DETECT"
+          ],
+          [
+            "YOLO11 classification",
+            "YOLO11_CLS"
+          ],
+          [
+            "YOLO11 detection",
+            "YOLO11_DET"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "MODEL_PATH",
+        "check": "String"
+      },
+      {
+        "type": "input_value",
+        "name": "MODEL_SIZE",
+        "check": "Number"
+      }
+    ],
+    "colour": "#7B1FA2",
+    "tooltip": "initialize AI %1 model %2 path %3 size %4",
+    "icon": "robot",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "cybercam_ai_init_face",
+    "message0": "initialize face detector %1 model %2 anchors %3 size %4",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "detector"
+      },
+      {
+        "type": "input_value",
+        "name": "MODEL_PATH",
+        "check": "String"
+      },
+      {
+        "type": "input_value",
+        "name": "ANCHORS_PATH",
+        "check": "String"
+      },
+      {
+        "type": "input_value",
+        "name": "MODEL_SIZE",
+        "check": "Number"
+      }
+    ],
+    "colour": "#7B1FA2",
+    "tooltip": "initialize face detector %1 model %2 anchors %3 size %4",
+    "icon": "robot",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "cybercam_ai_init_mask",
+    "message0": "initialize mask detector %1 detection model %2 anchors %3 size %4 mask model %5",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "detector"
+      },
+      {
+        "type": "input_value",
+        "name": "DETECT_MODEL",
+        "check": "String"
+      },
+      {
+        "type": "input_value",
+        "name": "ANCHORS_PATH",
+        "check": "String"
+      },
+      {
+        "type": "input_value",
+        "name": "MODEL_SIZE",
+        "check": "Number"
+      },
+      {
+        "type": "input_value",
+        "name": "MASK_MODEL",
+        "check": "String"
+      }
+    ],
+    "colour": "#7B1FA2",
+    "tooltip": "initialize mask detector %1 detection model %2 anchors %3 size %4 mask model %5",
+    "icon": "robot",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "cybercam_ai_init_hand_keypoint",
+    "message0": "initialize hand AI %1 type %2 detection model %3 keypoint model %4",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "detector"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "MODEL",
+        "options": [
+          [
+            "keypoints",
+            "HAND_KEYPOINT"
+          ],
+          [
+            "gesture classification",
+            "HAND_KEYPOINT_CLS"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "DETECT_MODEL",
+        "check": "String"
+      },
+      {
+        "type": "input_value",
+        "name": "KEYPOINT_MODEL",
+        "check": "String"
+      }
+    ],
+    "colour": "#7B1FA2",
+    "tooltip": "initialize hand AI %1 type %2 detection model %3 keypoint model %4",
+    "icon": "robot",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "cybercam_ai_init_ocr",
+    "message0": "initialize OCR %1 detection %2 recognition %3 dictionary %4 detection size %5 recognition width %6 height %7",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "ocr"
+      },
+      {
+        "type": "input_value",
+        "name": "DETECT_MODEL",
+        "check": "String"
+      },
+      {
+        "type": "input_value",
+        "name": "RECOGNITION_MODEL",
+        "check": "String"
+      },
+      {
+        "type": "input_value",
+        "name": "DICTIONARY",
+        "check": "String"
+      },
+      {
+        "type": "input_value",
+        "name": "DETECT_SIZE",
+        "check": "Number"
+      },
+      {
+        "type": "input_value",
+        "name": "RECOGNITION_WIDTH",
+        "check": "Number"
+      },
+      {
+        "type": "input_value",
+        "name": "RECOGNITION_HEIGHT",
+        "check": "Number"
+      }
+    ],
+    "colour": "#7B1FA2",
+    "tooltip": "initialize OCR %1 detection %2 recognition %3 dictionary %4 detection size %5 recognition width %6 height %7",
+    "icon": "robot",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "cybercam_ai_init_licence",
+    "message0": "initialize license-plate AI %1 detection %2 recognition %3 anchors %4 labels %5 detection size %6 recognition width %7 height %8",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "licence"
+      },
+      {
+        "type": "input_value",
+        "name": "DETECT_MODEL",
+        "check": "String"
+      },
+      {
+        "type": "input_value",
+        "name": "RECOGNITION_MODEL",
+        "check": "String"
+      },
+      {
+        "type": "input_value",
+        "name": "ANCHORS_PATH",
+        "check": "String"
+      },
+      {
+        "type": "input_value",
+        "name": "LABELS"
+      },
+      {
+        "type": "input_value",
+        "name": "DETECT_SIZE",
+        "check": "Number"
+      },
+      {
+        "type": "input_value",
+        "name": "RECOGNITION_WIDTH",
+        "check": "Number"
+      },
+      {
+        "type": "input_value",
+        "name": "RECOGNITION_HEIGHT",
+        "check": "Number"
+      }
+    ],
+    "colour": "#7B1FA2",
+    "tooltip": "initialize license-plate AI %1 detection %2 recognition %3 anchors %4 labels %5 detection size %6 recognition width %7 height %8",
+    "icon": "robot",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "cybercam_ai_run",
+    "message0": "AI %1 run on %2",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "detector"
+      },
+      {
+        "type": "input_value",
+        "name": "IMAGE"
+      }
+    ],
+    "colour": "#7B1FA2",
+    "tooltip": "AI %1 run on %2",
+    "icon": "robot",
+    "output": "Any"
+  },
+  {
+    "type": "cybercam_ai_run_confidence",
+    "message0": "AI %1 run on %2 confidence %3",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "detector"
+      },
+      {
+        "type": "input_value",
+        "name": "IMAGE"
+      },
+      {
+        "type": "input_value",
+        "name": "CONFIDENCE",
+        "check": "Number"
+      }
+    ],
+    "colour": "#7B1FA2",
+    "tooltip": "AI %1 run on %2 confidence %3",
+    "icon": "robot",
+    "output": "Any"
+  },
+  {
+    "type": "cybercam_ai_run_thresholds",
+    "message0": "AI %1 run on %2 confidence %3 NMS %4",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "detector"
+      },
+      {
+        "type": "input_value",
+        "name": "IMAGE"
+      },
+      {
+        "type": "input_value",
+        "name": "CONFIDENCE",
+        "check": "Number"
+      },
+      {
+        "type": "input_value",
+        "name": "NMS",
+        "check": "Number"
+      }
+    ],
+    "colour": "#7B1FA2",
+    "tooltip": "AI %1 run on %2 confidence %3 NMS %4",
+    "icon": "robot",
+    "output": "Any"
+  },
+  {
+    "type": "cybercam_result_length",
+    "message0": "result list %1 length",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "RESULTS"
+      }
+    ],
+    "colour": "#7B1FA2",
+    "tooltip": "result list %1 length",
+    "icon": "settings",
+    "output": "Any"
+  },
+  {
+    "type": "cybercam_result_item",
+    "message0": "result list %1 item %2",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "RESULTS"
+      },
+      {
+        "type": "input_value",
+        "name": "INDEX",
+        "check": "Number"
+      }
+    ],
+    "colour": "#7B1FA2",
+    "tooltip": "result list %1 item %2",
+    "icon": "settings",
+    "output": "Any"
+  },
+  {
+    "type": "cybercam_result_property",
+    "message0": "result %1 property %2",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "RESULT"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "PROPERTY",
+        "options": [
+          [
+            "confidence",
+            "reliability"
+          ],
+          [
+            "x",
+            "x"
+          ],
+          [
+            "y",
+            "y"
+          ],
+          [
+            "width",
+            "w"
+          ],
+          [
+            "height",
+            "h"
+          ],
+          [
+            "label",
+            "label"
+          ],
+          [
+            "text",
+            "text"
+          ],
+          [
+            "keypoints",
+            "keypoints"
+          ],
+          [
+            "corners",
+            "corners"
+          ],
+          [
+            "left eye",
+            "left_eye"
+          ],
+          [
+            "left eye x",
+            "left_eye.x"
+          ],
+          [
+            "left eye y",
+            "left_eye.y"
+          ],
+          [
+            "right eye",
+            "right_eye"
+          ],
+          [
+            "right eye x",
+            "right_eye.x"
+          ],
+          [
+            "right eye y",
+            "right_eye.y"
+          ],
+          [
+            "nose",
+            "nose"
+          ],
+          [
+            "nose x",
+            "nose.x"
+          ],
+          [
+            "nose y",
+            "nose.y"
+          ],
+          [
+            "left mouth",
+            "left_mouth"
+          ],
+          [
+            "left mouth x",
+            "left_mouth.x"
+          ],
+          [
+            "left mouth y",
+            "left_mouth.y"
+          ],
+          [
+            "right mouth",
+            "right_mouth"
+          ],
+          [
+            "right mouth x",
+            "right_mouth.x"
+          ],
+          [
+            "right mouth y",
+            "right_mouth.y"
+          ]
+        ]
+      }
+    ],
+    "colour": "#7B1FA2",
+    "tooltip": "result %1 property %2",
+    "icon": "settings",
+    "output": "Any"
+  },
+  {
+    "type": "cybercam_socket_init",
+    "message0": "initialize socket %1 family %2 type %3",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "sock"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "FAMILY",
+        "options": [
+          [
+            "IPv4",
+            "AF_INET"
+          ],
+          [
+            "IPv6",
+            "AF_INET6"
+          ]
+        ]
+      },
+      {
+        "type": "field_dropdown",
+        "name": "TYPE",
+        "options": [
+          [
+            "TCP",
+            "SOCK_STREAM"
+          ],
+          [
+            "UDP",
+            "SOCK_DGRAM"
+          ]
+        ]
+      }
+    ],
+    "colour": "#0288D1",
+    "tooltip": "initialize socket %1 family %2 type %3",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "cybercam_socket_address",
+    "message0": "network address host %1 port %2",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "HOST",
+        "check": "String"
+      },
+      {
+        "type": "input_value",
+        "name": "PORT",
+        "check": "Number"
+      }
+    ],
+    "colour": "#0288D1",
+    "tooltip": "network address host %1 port %2",
+    "icon": "settings",
+    "output": "Any"
+  },
+  {
+    "type": "cybercam_socket_connect",
+    "message0": "socket %1 connect to %2",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "sock"
+      },
+      {
+        "type": "input_value",
+        "name": "ADDRESS"
+      }
+    ],
+    "colour": "#0288D1",
+    "tooltip": "socket %1 connect to %2",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "cybercam_socket_bind",
+    "message0": "socket %1 bind to %2",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "sock"
+      },
+      {
+        "type": "input_value",
+        "name": "ADDRESS"
+      }
+    ],
+    "colour": "#0288D1",
+    "tooltip": "socket %1 bind to %2",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "cybercam_socket_listen",
+    "message0": "socket %1 listen backlog %2",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "sock"
+      },
+      {
+        "type": "input_value",
+        "name": "BACKLOG",
+        "check": "Number"
+      }
+    ],
+    "colour": "#0288D1",
+    "tooltip": "socket %1 listen backlog %2",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "cybercam_socket_accept",
+    "message0": "socket %1 accept connection",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "sock"
+      }
+    ],
+    "colour": "#0288D1",
+    "tooltip": "socket %1 accept connection",
+    "icon": "settings",
+    "output": "Any"
+  },
+  {
+    "type": "cybercam_socket_send",
+    "message0": "socket %1 send %2",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "sock"
+      },
+      {
+        "type": "input_value",
+        "name": "DATA"
+      }
+    ],
+    "colour": "#0288D1",
+    "tooltip": "socket %1 send %2",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "cybercam_socket_receive",
+    "message0": "socket %1 receive %2 bytes",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "sock"
+      },
+      {
+        "type": "input_value",
+        "name": "SIZE",
+        "check": "Number"
+      }
+    ],
+    "colour": "#0288D1",
+    "tooltip": "socket %1 receive %2 bytes",
+    "icon": "settings",
+    "output": "Any"
+  },
+  {
+    "type": "cybercam_socket_close",
+    "message0": "close socket %1",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "sock"
+      }
+    ],
+    "colour": "#0288D1",
+    "tooltip": "close socket %1",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "cybercam_mqtt_init",
+    "message0": "initialize MQTT client %1",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "client"
+      }
+    ],
+    "colour": "#0288D1",
+    "tooltip": "initialize MQTT client %1",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "cybercam_mqtt_connect",
+    "message0": "MQTT %1 connect host %2 port %3 keepalive %4",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "client"
+      },
+      {
+        "type": "input_value",
+        "name": "HOST",
+        "check": "String"
+      },
+      {
+        "type": "input_value",
+        "name": "PORT",
+        "check": "Number"
+      },
+      {
+        "type": "input_value",
+        "name": "KEEPALIVE",
+        "check": "Number"
+      }
+    ],
+    "colour": "#0288D1",
+    "tooltip": "MQTT %1 connect host %2 port %3 keepalive %4",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "cybercam_mqtt_publish",
+    "message0": "MQTT %1 publish topic %2 message %3",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "client"
+      },
+      {
+        "type": "input_value",
+        "name": "TOPIC",
+        "check": "String"
+      },
+      {
+        "type": "input_value",
+        "name": "MESSAGE"
+      }
+    ],
+    "colour": "#0288D1",
+    "tooltip": "MQTT %1 publish topic %2 message %3",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "cybercam_mqtt_subscribe",
+    "message0": "MQTT %1 subscribe topic %2",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "client"
+      },
+      {
+        "type": "input_value",
+        "name": "TOPIC",
+        "check": "String"
+      }
+    ],
+    "colour": "#0288D1",
+    "tooltip": "MQTT %1 subscribe topic %2",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "cybercam_mqtt_on_message",
+    "message0": "when MQTT %1 receives message set topic %2 payload %3 do %4 %5",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "client"
+      },
+      {
+        "type": "field_input",
+        "name": "TOPIC_NAME",
+        "text": "topic"
+      },
+      {
+        "type": "field_input",
+        "name": "PAYLOAD_NAME",
+        "text": "payload"
+      },
+      {
+        "type": "input_statement",
+        "name": "DO"
+      },
+      {
+        "type": "input_dummy"
+      }
+    ],
+    "colour": "#0288D1",
+    "tooltip": "when MQTT %1 receives message set topic %2 payload %3 do %4 %5",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "cybercam_mqtt_loop",
+    "message0": "MQTT %1 loop forever",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "client"
+      }
+    ],
+    "colour": "#0288D1",
+    "tooltip": "MQTT %1 loop forever",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "cybercam_mqtt_disconnect",
+    "message0": "disconnect MQTT %1",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "client"
+      }
+    ],
+    "colour": "#0288D1",
+    "tooltip": "disconnect MQTT %1",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "cybercam_http_request",
+    "message0": "HTTP %1 URL %2 data %3",
+    "args0": [
+      {
+        "type": "field_dropdown",
+        "name": "METHOD",
+        "options": [
+          [
+            "GET",
+            "GET"
+          ],
+          [
+            "POST",
+            "POST"
+          ],
+          [
+            "PUT",
+            "PUT"
+          ],
+          [
+            "DELETE",
+            "DELETE"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "URL",
+        "check": "String"
+      },
+      {
+        "type": "input_value",
+        "name": "DATA"
+      }
+    ],
+    "colour": "#0288D1",
+    "tooltip": "HTTP %1 URL %2 data %3",
+    "icon": "settings",
+    "output": "Any"
+  },
+  {
+    "type": "cybercam_http_response",
+    "message0": "HTTP response %1 property %2",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "RESPONSE"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "PROPERTY",
+        "options": [
+          [
+            "status code",
+            "status_code"
+          ],
+          [
+            "text",
+            "text"
+          ],
+          [
+            "JSON",
+            "json()"
+          ]
+        ]
+      }
+    ],
+    "colour": "#0288D1",
+    "tooltip": "HTTP response %1 property %2",
+    "icon": "settings",
+    "output": "Any"
+  },
+  {
+    "type": "cybercam_http_server",
+    "message0": "serve current directory with HTTP host %1 port %2",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "HOST",
+        "check": "String"
+      },
+      {
+        "type": "input_value",
+        "name": "PORT",
+        "check": "Number"
+      }
+    ],
+    "colour": "#0288D1",
+    "tooltip": "serve current directory with HTTP host %1 port %2",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "cybercam_file_read",
+    "message0": "read text file %1",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "PATH",
+        "check": "String"
+      }
+    ],
+    "colour": "#EF6C00",
+    "tooltip": "read text file %1",
+    "icon": "settings",
+    "output": "Any"
+  },
+  {
+    "type": "cybercam_file_write",
+    "message0": "%1 text file %2 content %3",
+    "args0": [
+      {
+        "type": "field_dropdown",
+        "name": "MODE",
+        "options": [
+          [
+            "write",
+            "w"
+          ],
+          [
+            "append",
+            "a"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "PATH",
+        "check": "String"
+      },
+      {
+        "type": "input_value",
+        "name": "CONTENT"
+      }
+    ],
+    "colour": "#EF6C00",
+    "tooltip": "%1 text file %2 content %3",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "cybercam_file_exists",
+    "message0": "path %1 exists",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "PATH",
+        "check": "String"
+      }
+    ],
+    "colour": "#EF6C00",
+    "tooltip": "path %1 exists",
+    "icon": "settings",
+    "output": "Any"
+  },
+  {
+    "type": "cybercam_file_list",
+    "message0": "list directory %1",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "PATH",
+        "check": "String"
+      }
+    ],
+    "colour": "#EF6C00",
+    "tooltip": "list directory %1",
+    "icon": "settings",
+    "output": "Any"
+  },
+  {
+    "type": "cybercam_command",
+    "message0": "run system command %1",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "COMMAND",
+        "check": "String"
+      }
+    ],
+    "colour": "#EF6C00",
+    "tooltip": "run system command %1",
+    "icon": "settings",
+    "output": "Any"
+  },
+  {
+    "type": "cybercam_audio_play",
+    "message0": "play WAV file %1",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "PATH",
+        "check": "String"
+      }
+    ],
+    "colour": "#EF6C00",
+    "tooltip": "play WAV file %1",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "cybercam_audio_record",
+    "message0": "record WAV to %1 seconds %2 sample rate %3",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "PATH",
+        "check": "String"
+      },
+      {
+        "type": "input_value",
+        "name": "SECONDS",
+        "check": "Number"
+      },
+      {
+        "type": "input_value",
+        "name": "RATE",
+        "check": "Number"
+      }
+    ],
+    "colour": "#EF6C00",
+    "tooltip": "record WAV to %1 seconds %2 sample rate %3",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "cybercam_imu_init",
+    "message0": "initialize QMI8658 IMU %1 bus %2 address %3",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "imu"
+      },
+      {
+        "type": "input_value",
+        "name": "BUS",
+        "check": "Number"
+      },
+      {
+        "type": "input_value",
+        "name": "ADDRESS",
+        "check": "Number"
+      }
+    ],
+    "colour": "#EF6C00",
+    "tooltip": "initialize QMI8658 IMU %1 bus %2 address %3",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "cybercam_imu_read",
+    "message0": "IMU %1 six-axis values",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "imu"
+      }
+    ],
+    "colour": "#EF6C00",
+    "tooltip": "IMU %1 six-axis values",
+    "icon": "settings",
+    "output": "Any"
+  },
+  {
+    "type": "cybercam_imu_axis",
+    "message0": "IMU %1 axis %2",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "imu"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "AXIS",
+        "options": [
+          [
+            "acceleration X (g)",
+            "0"
+          ],
+          [
+            "acceleration Y (g)",
+            "1"
+          ],
+          [
+            "acceleration Z (g)",
+            "2"
+          ],
+          [
+            "gyro X (dps)",
+            "3"
+          ],
+          [
+            "gyro Y (dps)",
+            "4"
+          ],
+          [
+            "gyro Z (dps)",
+            "5"
+          ]
+        ]
+      }
+    ],
+    "colour": "#EF6C00",
+    "tooltip": "IMU %1 axis %2",
+    "icon": "settings",
+    "output": "Any"
+  },
+  {
+    "type": "cybercam_imu_calibrate",
+    "message0": "calibrate IMU %1 samples %2",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "imu"
+      },
+      {
+        "type": "input_value",
+        "name": "SAMPLES",
+        "check": "Number"
+      }
+    ],
+    "colour": "#EF6C00",
+    "tooltip": "calibrate IMU %1 samples %2",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "cybercam_imu_close",
+    "message0": "close IMU %1",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "imu"
+      }
+    ],
+    "colour": "#EF6C00",
+    "tooltip": "close IMU %1",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "cybercam_cpu_temperature",
+    "message0": "K230 CPU temperature °C",
+    "colour": "#EF6C00",
+    "tooltip": "K230 CPU temperature °C",
+    "icon": "settings",
+    "output": "Any"
+  },
+  {
+    "type": "cybercam_chip_id",
+    "message0": "K230 unique chip ID",
+    "colour": "#EF6C00",
+    "tooltip": "K230 unique chip ID",
+    "icon": "settings",
+    "output": "Any"
+  }
+]

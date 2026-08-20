@@ -1,0 +1,1231 @@
+{
+  "toolbox_name": "CyberCAM Python",
+  "toolbox_categories": [
+    "Programa",
+    "E/S y periféricos",
+    "Cámara y pantalla",
+    "OpenCV y códigos",
+    "IA KPU",
+    "Red",
+    "Archivos e imágenes",
+    "Audio, IMU y sistema"
+  ],
+  "toolbox_labels": {
+    "Lifecycle": "Programa",
+    "IO and peripherals": "E/S y periféricos",
+    "Camera and display": "Cámara y pantalla",
+    "OpenCV and codes": "OpenCV y códigos",
+    "KPU AI": "IA KPU",
+    "Network": "Red",
+    "Files and images": "Archivos e imágenes",
+    "Audio, IMU and system": "Audio, IMU y sistema"
+  },
+  "cybercam_start": {
+    "message0": "Al iniciar CyberCAM %1 %2",
+    "tooltip": "Ejecutar una vez al iniciar el programa CyberCAM.",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "cybercam_forever": {
+    "message0": "Repetir siempre en CyberCAM %1 %2",
+    "tooltip": "Ejecutar repetidamente los bloques contenidos.",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "cybercam_sleep": {
+    "message0": "Esperar %1 segundos",
+    "tooltip": "Pausar el programa durante el número de segundos indicado.",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_print": {
+    "message0": "Imprimir %1",
+    "tooltip": "Imprimir %1",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_number": {
+    "message0": "Número %1",
+    "tooltip": "Número %1",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_text": {
+    "message0": "Texto %1",
+    "tooltip": "Texto %1",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_boolean": {
+    "message0": "Booleano %1",
+    "tooltip": "Booleano %1",
+    "args0": [
+      {
+        "options": [
+          [
+            "verdadero",
+            "TRUE"
+          ],
+          [
+            "falso",
+            "FALSE"
+          ]
+        ]
+      }
+    ]
+  },
+  "cybercam_tuple": {
+    "message0": "Tupla que contiene %1",
+    "tooltip": "Tupla que contiene %1",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_list": {
+    "message0": "Lista que contiene %1",
+    "tooltip": "Lista que contiene %1",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_set_variable": {
+    "message0": "Establecer la variable %1 en %2",
+    "tooltip": "Establecer la variable %1 en %2",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "cybercam_get_variable": {
+    "message0": "Variable %1",
+    "tooltip": "Variable %1",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_if": {
+    "message0": "Si %1, ejecutar %2 %3",
+    "tooltip": "Si %1, ejecutar %2 %3",
+    "args0": [
+      null,
+      null,
+      null
+    ]
+  },
+  "cybercam_for_each": {
+    "message0": "Para cada %1 en %2, ejecutar %3 %4",
+    "tooltip": "Para cada %1 en %2, ejecutar %3 %4",
+    "args0": [
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "cybercam_gpio_init": {
+    "message0": "Inicializar GPIO %1: pin %2, dirección %3, resistencia %4",
+    "tooltip": "Crear un objeto de E/S digital con los módulos oficiales board y digitalio.",
+    "args0": [
+      null,
+      null,
+      {
+        "options": [
+          [
+            "entrada",
+            "INPUT"
+          ],
+          [
+            "salida",
+            "OUTPUT"
+          ]
+        ]
+      },
+      {
+        "options": [
+          [
+            "ninguno",
+            "NONE"
+          ],
+          [
+            "pull-up",
+            "UP"
+          ],
+          [
+            "pull-down",
+            "DOWN"
+          ]
+        ]
+      }
+    ]
+  },
+  "cybercam_gpio_write": {
+    "message0": "Establecer GPIO %1 en %2",
+    "tooltip": "Establecer GPIO %1 en %2",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "cybercam_gpio_read": {
+    "message0": "Valor de GPIO %1",
+    "tooltip": "Valor de GPIO %1",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_gpio_deinit": {
+    "message0": "desinicializar GPIO %1",
+    "tooltip": "desinicializar GPIO %1",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_led_write": {
+    "message0": "Establecer el LED integrado en %1",
+    "tooltip": "Establecer el LED integrado en %1",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_key_pressed": {
+    "message0": "El botón integrado está pulsado",
+    "tooltip": "El botón integrado está pulsado"
+  },
+  "cybercam_pwm_init": {
+    "message0": "Inicializar PWM %1: destino %2",
+    "tooltip": "Inicializar PWM %1: destino %2",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "GPIO60 / PWM0",
+            "0,0"
+          ],
+          [
+            "GPIO61 / PWM1",
+            "0,1"
+          ],
+          [
+            "luz de relleno / PWM2",
+            "0,2"
+          ],
+          [
+            "zumbador / PWM3",
+            "1,0"
+          ],
+          [
+            "retroiluminación / PWM5",
+            "1,2"
+          ]
+        ]
+      }
+    ]
+  },
+  "cybercam_pwm_frequency": {
+    "message0": "Establecer la frecuencia de PWM %1 en %2 Hz",
+    "tooltip": "Establecer la frecuencia de PWM %1 en %2 Hz",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "cybercam_pwm_duty": {
+    "message0": "Establecer el ciclo de trabajo de PWM %1 en %2 (0–1)",
+    "tooltip": "Establecer el ciclo de trabajo de PWM %1 en %2 (0–1)",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "cybercam_pwm_enable": {
+    "message0": "Activar PWM %1",
+    "tooltip": "Activar PWM %1",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_pwm_disable": {
+    "message0": "Desactivar PWM %1",
+    "tooltip": "Desactivar PWM %1",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_pwm_close": {
+    "message0": "Cerrar PWM %1",
+    "tooltip": "Cerrar PWM %1",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_uart_init": {
+    "message0": "Inicializar UART %1: velocidad %2",
+    "tooltip": "Inicializar UART %1: velocidad %2",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "9600",
+            "9600"
+          ],
+          [
+            "19200",
+            "19200"
+          ],
+          [
+            "38400",
+            "38400"
+          ],
+          [
+            "57600",
+            "57600"
+          ],
+          [
+            "115200",
+            "115200"
+          ]
+        ]
+      }
+    ]
+  },
+  "cybercam_uart_available": {
+    "message0": "Bytes disponibles en UART %1",
+    "tooltip": "Bytes disponibles en UART %1",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_uart_read": {
+    "message0": "Leer %2 bytes de UART %1",
+    "tooltip": "Leer %2 bytes de UART %1",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "cybercam_uart_write": {
+    "message0": "Escribir %2 en UART %1",
+    "tooltip": "Escribir %2 en UART %1",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "cybercam_uart_flush": {
+    "message0": "Vaciar el búfer de entrada de UART %1",
+    "tooltip": "Vaciar el búfer de entrada de UART %1",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_uart_close": {
+    "message0": "cerrar UART %1",
+    "tooltip": "cerrar UART %1",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_camera_init": {
+    "message0": "Inicializar la cámara %1: ancho %2, alto %3, sensor %4",
+    "tooltip": "Inicializar la cámara %1: ancho %2, alto %3, sensor %4",
+    "args0": [
+      null,
+      null,
+      null,
+      {
+        "options": [
+          [
+            "integrado CSI2",
+            "2"
+          ],
+          [
+            "predeterminado",
+            "0"
+          ]
+        ]
+      }
+    ]
+  },
+  "cybercam_camera_opened": {
+    "message0": "La cámara %1 está abierta",
+    "tooltip": "La cámara %1 está abierta",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_camera_read": {
+    "message0": "Imagen de la cámara %1",
+    "tooltip": "Imagen de la cámara %1",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_camera_hmirror": {
+    "message0": "Establecer el espejo horizontal de la cámara %1 en %2",
+    "tooltip": "Establecer el espejo horizontal de la cámara %1 en %2",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "cybercam_camera_vflip": {
+    "message0": "Establecer el volteo vertical de la cámara %1 en %2",
+    "tooltip": "Establecer el volteo vertical de la cámara %1 en %2",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "cybercam_camera_release": {
+    "message0": "Liberar la cámara %1",
+    "tooltip": "Liberar la cámara %1",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_display_init": {
+    "message0": "Inicializar la pantalla integrada",
+    "tooltip": "Inicializar la pantalla integrada"
+  },
+  "cybercam_display_rotation": {
+    "message0": "Establecer la rotación de la pantalla en %1",
+    "tooltip": "Establecer la rotación de la pantalla en %1",
+    "args0": [
+      {
+        "options": [
+          [
+            "0°",
+            "0"
+          ],
+          [
+            "180°",
+            "2"
+          ]
+        ]
+      }
+    ]
+  },
+  "cybercam_display_show": {
+    "message0": "Mostrar la imagen %1 en la pantalla",
+    "tooltip": "Mostrar la imagen %1 en la pantalla",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_ide_show": {
+    "message0": "Mostrar la imagen %1 en el IDE",
+    "tooltip": "Mostrar la imagen %1 en el IDE",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_lcd_direction": {
+    "message0": "Orientación actual de la pantalla",
+    "tooltip": "Orientación actual de la pantalla"
+  },
+  "cybercam_image_resize": {
+    "message0": "Redimensionar la imagen %1 a ancho %2 y alto %3",
+    "tooltip": "Redimensionar la imagen %1 a ancho %2 y alto %3",
+    "args0": [
+      null,
+      null,
+      null
+    ]
+  },
+  "cybercam_image_convert": {
+    "message0": "Convertir la imagen %1 con %2",
+    "tooltip": "Convertir la imagen %1 con %2",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "BGR → escala de grises",
+            "COLOR_BGR2GRAY"
+          ],
+          [
+            "BGR → LAB",
+            "COLOR_BGR2LAB"
+          ],
+          [
+            "BGR → RGB",
+            "COLOR_BGR2RGB"
+          ],
+          [
+            "escala de grises → BGR",
+            "COLOR_GRAY2BGR"
+          ]
+        ]
+      }
+    ]
+  },
+  "cybercam_image_in_range": {
+    "message0": "Crear máscara de la imagen %1 con límite inferior %2 y superior %3",
+    "tooltip": "Crear máscara de la imagen %1 con límite inferior %2 y superior %3",
+    "args0": [
+      null,
+      null,
+      null
+    ]
+  },
+  "cybercam_image_components": {
+    "message0": "Componentes conectados de %1 con conectividad %2",
+    "tooltip": "Componentes conectados de %1 con conectividad %2",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "4",
+            "4"
+          ],
+          [
+            "8",
+            "8"
+          ]
+        ]
+      }
+    ]
+  },
+  "cybercam_image_load": {
+    "message0": "Cargar el archivo de imagen %1",
+    "tooltip": "Cargar el archivo de imagen %1",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_image_save": {
+    "message0": "Guardar la imagen %1 en el archivo %2",
+    "tooltip": "Guardar la imagen %1 en el archivo %2",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "cybercam_draw_rectangle": {
+    "message0": "Dibujar un rectángulo en %1: de x %2, y %3 a x %4, y %5, color %6, grosor %7",
+    "tooltip": "Dibujar un rectángulo en %1: de x %2, y %3 a x %4, y %5, color %6, grosor %7",
+    "args0": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "cybercam_draw_circle": {
+    "message0": "Dibujar un círculo en %1: x %2, y %3, radio %4, color %5, grosor %6",
+    "tooltip": "Dibujar un círculo en %1: x %2, y %3, radio %4, color %5, grosor %6",
+    "args0": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "cybercam_draw_line": {
+    "message0": "Dibujar una línea en %1: de x %2, y %3 a x %4, y %5, color %6, grosor %7",
+    "tooltip": "Dibujar una línea en %1: de x %2, y %3 a x %4, y %5, color %6, grosor %7",
+    "args0": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "cybercam_draw_text": {
+    "message0": "Dibujar el texto %1 en %2, x %3, y %4: escala %5, color %6, grosor %7",
+    "tooltip": "Dibujar el texto %1 en %2, x %3, y %4: escala %5, color %6, grosor %7",
+    "args0": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "cybercam_qr_decode": {
+    "message0": "Decodificar códigos QR en %1",
+    "tooltip": "Decodificar códigos QR en %1",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_barcode_decode": {
+    "message0": "Decodificar códigos de barras en %1",
+    "tooltip": "Decodificar códigos de barras en %1",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_apriltag_init": {
+    "message0": "Inicializar el detector AprilTag %1: familia %2",
+    "tooltip": "Inicializar el detector AprilTag %1: familia %2",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "tag16h5",
+            "tag16h5"
+          ],
+          [
+            "tag25h7",
+            "tag25h7"
+          ],
+          [
+            "tag25h9",
+            "tag25h9"
+          ],
+          [
+            "tag36h10",
+            "tag36h10"
+          ],
+          [
+            "tag36h11",
+            "tag36h11"
+          ]
+        ]
+      }
+    ]
+  },
+  "cybercam_apriltag_detect": {
+    "message0": "Detectar la imagen en gris %2 con el detector AprilTag %1",
+    "tooltip": "Detectar la imagen en gris %2 con el detector AprilTag %1",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "cybercam_ai_init_simple": {
+    "message0": "Inicializar la IA %1: modelo %2, ruta %3, tamaño %4",
+    "tooltip": "Inicializar la IA %1: modelo %2, ruta %3, tamaño %4",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "detección de caídas",
+            "FALL_DETECT"
+          ],
+          [
+            "detección de manos",
+            "HAND_DETECT"
+          ],
+          [
+            "detección de personas",
+            "PERSON_DETECT"
+          ],
+          [
+            "puntos corporales",
+            "PERSON_KEYPOINT"
+          ],
+          [
+            "detección de humo",
+            "SMOKE_DETECT"
+          ],
+          [
+            "semáforo",
+            "TRAFFIC_LIGHT_DETECT"
+          ],
+          [
+            "YOLO11 clasificación",
+            "YOLO11_CLS"
+          ],
+          [
+            "YOLO11 detección",
+            "YOLO11_DET"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "cybercam_ai_init_face": {
+    "message0": "Inicializar el detector facial %1: modelo %2, anclas %3, tamaño %4",
+    "tooltip": "Inicializar el detector facial %1: modelo %2, anclas %3, tamaño %4",
+    "args0": [
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "cybercam_ai_init_mask": {
+    "message0": "Inicializar el detector de mascarillas %1: modelo de detección %2, anclas %3, tamaño %4, modelo de mascarilla %5",
+    "tooltip": "Inicializar el detector de mascarillas %1: modelo de detección %2, anclas %3, tamaño %4, modelo de mascarilla %5",
+    "args0": [
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "cybercam_ai_init_hand_keypoint": {
+    "message0": "Inicializar la IA de manos %1: tipo %2, modelo de detección %3, modelo de puntos clave %4",
+    "tooltip": "Inicializar la IA de manos %1: tipo %2, modelo de detección %3, modelo de puntos clave %4",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "puntos clave",
+            "HAND_KEYPOINT"
+          ],
+          [
+            "clasificación de gestos",
+            "HAND_KEYPOINT_CLS"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "cybercam_ai_init_ocr": {
+    "message0": "Inicializar OCR %1: detección %2, reconocimiento %3, diccionario %4, tamaño de detección %5, ancho de reconocimiento %6, alto %7",
+    "tooltip": "Inicializar OCR %1: detección %2, reconocimiento %3, diccionario %4, tamaño de detección %5, ancho de reconocimiento %6, alto %7",
+    "args0": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "cybercam_ai_init_licence": {
+    "message0": "Inicializar la IA de matrículas %1: detección %2, reconocimiento %3, anclas %4, etiquetas %5, tamaño de detección %6, ancho de reconocimiento %7, alto %8",
+    "tooltip": "Inicializar la IA de matrículas %1: detección %2, reconocimiento %3, anclas %4, etiquetas %5, tamaño de detección %6, ancho de reconocimiento %7, alto %8",
+    "args0": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "cybercam_ai_run": {
+    "message0": "Ejecutar la IA %1 sobre %2",
+    "tooltip": "Ejecutar la IA %1 sobre %2",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "cybercam_ai_run_confidence": {
+    "message0": "Ejecutar la IA %1 sobre %2: confianza %3",
+    "tooltip": "Ejecutar la IA %1 sobre %2: confianza %3",
+    "args0": [
+      null,
+      null,
+      null
+    ]
+  },
+  "cybercam_ai_run_thresholds": {
+    "message0": "Ejecutar la IA %1 sobre %2: confianza %3, NMS %4",
+    "tooltip": "Ejecutar la IA %1 sobre %2: confianza %3, NMS %4",
+    "args0": [
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "cybercam_result_length": {
+    "message0": "Longitud de la lista de resultados %1",
+    "tooltip": "Longitud de la lista de resultados %1",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_result_item": {
+    "message0": "Elemento %2 de la lista de resultados %1",
+    "tooltip": "Elemento %2 de la lista de resultados %1",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "cybercam_result_property": {
+    "message0": "Propiedad %2 del resultado %1",
+    "tooltip": "Propiedad %2 del resultado %1",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "confianza",
+            "reliability"
+          ],
+          [
+            "x",
+            "x"
+          ],
+          [
+            "y",
+            "y"
+          ],
+          [
+            "ancho",
+            "w"
+          ],
+          [
+            "alto",
+            "h"
+          ],
+          [
+            "etiqueta",
+            "label"
+          ],
+          [
+            "texto",
+            "text"
+          ],
+          [
+            "puntos clave",
+            "keypoints"
+          ],
+          [
+            "esquinas",
+            "corners"
+          ],
+          [
+            "ojo izquierdo",
+            "left_eye"
+          ],
+          [
+            "ojo izquierdo x",
+            "left_eye.x"
+          ],
+          [
+            "ojo izquierdo y",
+            "left_eye.y"
+          ],
+          [
+            "ojo derecho",
+            "right_eye"
+          ],
+          [
+            "ojo derecho x",
+            "right_eye.x"
+          ],
+          [
+            "ojo derecho y",
+            "right_eye.y"
+          ],
+          [
+            "nariz",
+            "nose"
+          ],
+          [
+            "nariz x",
+            "nose.x"
+          ],
+          [
+            "nariz y",
+            "nose.y"
+          ],
+          [
+            "comisura izquierda",
+            "left_mouth"
+          ],
+          [
+            "comisura izquierda x",
+            "left_mouth.x"
+          ],
+          [
+            "comisura izquierda y",
+            "left_mouth.y"
+          ],
+          [
+            "comisura derecha",
+            "right_mouth"
+          ],
+          [
+            "comisura derecha x",
+            "right_mouth.x"
+          ],
+          [
+            "comisura derecha y",
+            "right_mouth.y"
+          ]
+        ]
+      }
+    ]
+  },
+  "cybercam_socket_init": {
+    "message0": "Inicializar el socket %1: familia de direcciones %2, tipo %3",
+    "tooltip": "Inicializar el socket %1: familia de direcciones %2, tipo %3",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "IPv4",
+            "AF_INET"
+          ],
+          [
+            "IPv6",
+            "AF_INET6"
+          ]
+        ]
+      },
+      {
+        "options": [
+          [
+            "TCP",
+            "SOCK_STREAM"
+          ],
+          [
+            "UDP",
+            "SOCK_DGRAM"
+          ]
+        ]
+      }
+    ]
+  },
+  "cybercam_socket_address": {
+    "message0": "Dirección de red: host %1, puerto %2",
+    "tooltip": "Dirección de red: host %1, puerto %2",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "cybercam_socket_connect": {
+    "message0": "Conectar el socket %1 a %2",
+    "tooltip": "Conectar el socket %1 a %2",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "cybercam_socket_bind": {
+    "message0": "Vincular el socket %1 a %2",
+    "tooltip": "Vincular el socket %1 a %2",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "cybercam_socket_listen": {
+    "message0": "Poner el socket %1 a escuchar: cola %2",
+    "tooltip": "Poner el socket %1 a escuchar: cola %2",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "cybercam_socket_accept": {
+    "message0": "Aceptar una conexión en el socket %1",
+    "tooltip": "Aceptar una conexión en el socket %1",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_socket_send": {
+    "message0": "Enviar %2 mediante el socket %1",
+    "tooltip": "Enviar %2 mediante el socket %1",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "cybercam_socket_receive": {
+    "message0": "Recibir %2 bytes mediante el socket %1",
+    "tooltip": "Recibir %2 bytes mediante el socket %1",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "cybercam_socket_close": {
+    "message0": "Cerrar el socket %1",
+    "tooltip": "Cerrar el socket %1",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_mqtt_init": {
+    "message0": "Inicializar el cliente MQTT %1",
+    "tooltip": "Inicializar el cliente MQTT %1",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_mqtt_connect": {
+    "message0": "Conectar MQTT %1 al host %2, puerto %3: mantenimiento %4",
+    "tooltip": "Conectar MQTT %1 al host %2, puerto %3: mantenimiento %4",
+    "args0": [
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "cybercam_mqtt_publish": {
+    "message0": "Publicar el mensaje %3 en el tema %2 con MQTT %1",
+    "tooltip": "Publicar el mensaje %3 en el tema %2 con MQTT %1",
+    "args0": [
+      null,
+      null,
+      null
+    ]
+  },
+  "cybercam_mqtt_subscribe": {
+    "message0": "Suscribir MQTT %1 al tema %2",
+    "tooltip": "Suscribir MQTT %1 al tema %2",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "cybercam_mqtt_on_message": {
+    "message0": "cuando MQTT %1 reciba un mensaje, guardar tema %2 y carga %3 y ejecutar %4 %5",
+    "tooltip": "cuando MQTT %1 reciba un mensaje, guardar tema %2 y carga %3 y ejecutar %4 %5",
+    "args0": [
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "cybercam_mqtt_loop": {
+    "message0": "Ejecutar siempre el bucle de mensajes MQTT %1",
+    "tooltip": "Ejecutar siempre el bucle de mensajes MQTT %1",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_mqtt_disconnect": {
+    "message0": "Desconectar MQTT %1",
+    "tooltip": "Desconectar MQTT %1",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_http_request": {
+    "message0": "HTTP %1: URL %2, datos %3",
+    "tooltip": "HTTP %1: URL %2, datos %3",
+    "args0": [
+      {
+        "options": [
+          [
+            "GET",
+            "GET"
+          ],
+          [
+            "POST",
+            "POST"
+          ],
+          [
+            "PUT",
+            "PUT"
+          ],
+          [
+            "DELETE",
+            "DELETE"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "cybercam_http_response": {
+    "message0": "Propiedad %2 de la respuesta HTTP %1",
+    "tooltip": "Propiedad %2 de la respuesta HTTP %1",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "código de estado",
+            "status_code"
+          ],
+          [
+            "texto",
+            "text"
+          ],
+          [
+            "JSON",
+            "json()"
+          ]
+        ]
+      }
+    ]
+  },
+  "cybercam_http_server": {
+    "message0": "Servir el directorio actual por HTTP: host %1, puerto %2",
+    "tooltip": "Servir el directorio actual por HTTP: host %1, puerto %2",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "cybercam_file_read": {
+    "message0": "Leer el archivo de texto %1",
+    "tooltip": "Leer el archivo de texto %1",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_file_write": {
+    "message0": "Procesar el archivo de texto %2 en modo %1: contenido %3",
+    "tooltip": "Procesar el archivo de texto %2 en modo %1: contenido %3",
+    "args0": [
+      {
+        "options": [
+          [
+            "escribir",
+            "w"
+          ],
+          [
+            "añadir",
+            "a"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "cybercam_file_exists": {
+    "message0": "La ruta %1 existe",
+    "tooltip": "La ruta %1 existe",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_file_list": {
+    "message0": "Listar el directorio %1",
+    "tooltip": "Listar el directorio %1",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_command": {
+    "message0": "Ejecutar el comando del sistema %1",
+    "tooltip": "Ejecutar el comando del sistema %1",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_audio_play": {
+    "message0": "Reproducir el archivo WAV %1",
+    "tooltip": "Reproducir el archivo WAV %1",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_audio_record": {
+    "message0": "Grabar WAV en %1: %2 segundos, frecuencia de muestreo %3",
+    "tooltip": "Grabar WAV en %1: %2 segundos, frecuencia de muestreo %3",
+    "args0": [
+      null,
+      null,
+      null
+    ]
+  },
+  "cybercam_imu_init": {
+    "message0": "Inicializar la IMU QMI8658 %1: bus %2, dirección %3",
+    "tooltip": "Inicializar la IMU QMI8658 %1: bus %2, dirección %3",
+    "args0": [
+      null,
+      null,
+      null
+    ]
+  },
+  "cybercam_imu_read": {
+    "message0": "Valores de seis ejes de la IMU %1",
+    "tooltip": "Valores de seis ejes de la IMU %1",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_imu_axis": {
+    "message0": "Eje %2 de la IMU %1",
+    "tooltip": "Eje %2 de la IMU %1",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "aceleración X (g)",
+            "0"
+          ],
+          [
+            "aceleración Y (g)",
+            "1"
+          ],
+          [
+            "aceleración Z (g)",
+            "2"
+          ],
+          [
+            "giroscopio X (dps)",
+            "3"
+          ],
+          [
+            "giroscopio Y (dps)",
+            "4"
+          ],
+          [
+            "giroscopio Z (dps)",
+            "5"
+          ]
+        ]
+      }
+    ]
+  },
+  "cybercam_imu_calibrate": {
+    "message0": "Calibrar la IMU %1: %2 muestras",
+    "tooltip": "Calibrar la IMU %1: %2 muestras",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "cybercam_imu_close": {
+    "message0": "cerrar IMU %1",
+    "tooltip": "cerrar IMU %1",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_cpu_temperature": {
+    "message0": "Temperatura de la CPU K230 °C",
+    "tooltip": "Temperatura de la CPU K230 °C"
+  },
+  "cybercam_chip_id": {
+    "message0": "ID único del chip K230",
+    "tooltip": "ID único del chip K230"
+  }
+}
