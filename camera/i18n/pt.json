@@ -1,0 +1,36 @@
+{
+  "toolbox_name": "Câmera",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "linux_camera_init": {
+    "message0": "inicializar câmera %1 dispositivo %2 largura %3 altura %4",
+    "tooltip": "inicializar câmera %1 dispositivo %2 largura %3 altura %4",
+    "args0": [
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "linux_camera_opened": {
+    "message0": "a câmera %1 está aberta",
+    "tooltip": "a câmera %1 está aberta",
+    "args0": [
+      null
+    ]
+  },
+  "linux_camera_read": {
+    "message0": "imagem da câmera %1",
+    "tooltip": "imagem da câmera %1",
+    "args0": [
+      null
+    ]
+  },
+  "linux_camera_release": {
+    "message0": "liberar câmera %1",
+    "tooltip": "liberar câmera %1",
+    "args0": [
+      null
+    ]
+  }
+}

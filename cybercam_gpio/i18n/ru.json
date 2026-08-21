@@ -1,0 +1,72 @@
+{
+  "toolbox_name": "GPIO / LED / PWM",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "cybercam_gpio_init": {
+    "message0": "Инициализировать GPIO %1: вывод %2, направление %3, подтяжка %4",
+    "tooltip": "Создать объект цифрового ввода-вывода с помощью официальных модулей board и digitalio.",
+    "args0": [
+      null,
+      null,
+      { "options": [["вход", "INPUT"], ["выход", "OUTPUT"]] },
+      { "options": [["нет", "NONE"], ["подтяжка вверх", "UP"], ["подтяжка вниз", "DOWN"]] }
+    ]
+  },
+  "cybercam_gpio_write": {
+    "message0": "Задать GPIO %1 значение %2",
+    "tooltip": "Задать GPIO %1 значение %2",
+    "args0": [null, null]
+  },
+  "cybercam_gpio_read": {
+    "message0": "Значение GPIO %1",
+    "tooltip": "Значение GPIO %1",
+    "args0": [null]
+  },
+  "cybercam_gpio_deinit": {
+    "message0": "деинициализировать GPIO %1",
+    "tooltip": "деинициализировать GPIO %1",
+    "args0": [null]
+  },
+  "cybercam_led_write": {
+    "message0": "Задать встроенному светодиоду значение %1",
+    "tooltip": "Задать встроенному светодиоду значение %1",
+    "args0": [null]
+  },
+  "cybercam_key_pressed": {
+    "message0": "Встроенная кнопка нажата",
+    "tooltip": "Встроенная кнопка нажата"
+  },
+  "cybercam_pwm_init": {
+    "message0": "Инициализировать PWM %1: назначение %2",
+    "tooltip": "Инициализировать PWM %1: назначение %2",
+    "args0": [
+      null,
+      { "options": [["GPIO60 / PWM0", "0,0"], ["GPIO61 / PWM1", "0,1"], ["подсветка / PWM2", "0,2"], ["зуммер / PWM3", "1,0"], ["подсветка экрана / PWM5", "1,2"]] }
+    ]
+  },
+  "cybercam_pwm_frequency": {
+    "message0": "Задать частоту PWM %1 равной %2 Гц",
+    "tooltip": "Задать частоту PWM %1 равной %2 Гц",
+    "args0": [null, null]
+  },
+  "cybercam_pwm_duty": {
+    "message0": "Задать коэффициент заполнения PWM %1 равным %2 (0–1)",
+    "tooltip": "Задать коэффициент заполнения PWM %1 равным %2 (0–1)",
+    "args0": [null, null]
+  },
+  "cybercam_pwm_enable": {
+    "message0": "Включить PWM %1",
+    "tooltip": "Включить PWM %1",
+    "args0": [null]
+  },
+  "cybercam_pwm_disable": {
+    "message0": "Выключить PWM %1",
+    "tooltip": "Выключить PWM %1",
+    "args0": [null]
+  },
+  "cybercam_pwm_close": {
+    "message0": "Закрыть PWM %1",
+    "tooltip": "Закрыть PWM %1",
+    "args0": [null]
+  }
+}

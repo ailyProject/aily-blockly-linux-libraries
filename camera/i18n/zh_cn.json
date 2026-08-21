@@ -1,0 +1,36 @@
+{
+  "toolbox_name": "摄像头",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "linux_camera_init": {
+    "message0": "初始化摄像头 %1，设备 %2，宽 %3，高 %4",
+    "tooltip": "初始化摄像头 %1，设备 %2，宽 %3，高 %4",
+    "args0": [
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "linux_camera_opened": {
+    "message0": "摄像头 %1 已打开",
+    "tooltip": "摄像头 %1 已打开",
+    "args0": [
+      null
+    ]
+  },
+  "linux_camera_read": {
+    "message0": "摄像头 %1 的图像",
+    "tooltip": "摄像头 %1 的图像",
+    "args0": [
+      null
+    ]
+  },
+  "linux_camera_release": {
+    "message0": "释放摄像头 %1",
+    "tooltip": "释放摄像头 %1",
+    "args0": [
+      null
+    ]
+  }
+}

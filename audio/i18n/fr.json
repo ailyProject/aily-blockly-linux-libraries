@@ -1,0 +1,21 @@
+{
+  "toolbox_name": "Audio",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "linux_audio_play": {
+    "message0": "lire le fichier WAV %1",
+    "tooltip": "lire le fichier WAV %1",
+    "args0": [
+      null
+    ]
+  },
+  "linux_audio_record": {
+    "message0": "enregistrer un WAV vers %1 secondes %2 fréquence %3",
+    "tooltip": "enregistrer un WAV vers %1 secondes %2 fréquence %3",
+    "args0": [
+      null,
+      null,
+      null
+    ]
+  }
+}

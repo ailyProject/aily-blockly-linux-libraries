@@ -1,0 +1,142 @@
+{
+  "toolbox_name": "Port série",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "linux_uart_init": {
+    "message0": "initialiser le port série %1 périphérique %2 débit %3",
+    "tooltip": "initialiser le port série %1 périphérique %2 débit %3",
+    "args0": [
+      null,
+      null,
+      {
+        "options": [
+          [
+            "9600",
+            "9600"
+          ],
+          [
+            "19200",
+            "19200"
+          ],
+          [
+            "38400",
+            "38400"
+          ],
+          [
+            "57600",
+            "57600"
+          ],
+          [
+            "115200",
+            "115200"
+          ]
+        ]
+      }
+    ]
+  },
+  "linux_uart_available": {
+    "message0": "octets disponibles du port série %1",
+    "tooltip": "octets disponibles du port série %1",
+    "args0": [
+      null
+    ]
+  },
+  "linux_uart_read": {
+    "message0": "lire %2 octets du port série %1",
+    "tooltip": "lire %2 octets du port série %1",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "linux_uart_write": {
+    "message0": "écrire %2 sur le port série %1",
+    "tooltip": "écrire %2 sur le port série %1",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "linux_uart_flush": {
+    "message0": "vider le tampon d’entrée du port série %1",
+    "tooltip": "vider le tampon d’entrée du port série %1",
+    "args0": [
+      null
+    ]
+  },
+  "linux_uart_close": {
+    "message0": "fermer le port série %1",
+    "tooltip": "fermer le port série %1",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_uart_init": {
+    "message0": "Initialiser UART %1 : débit %2",
+    "tooltip": "Initialiser UART %1 : débit %2",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "9600",
+            "9600"
+          ],
+          [
+            "19200",
+            "19200"
+          ],
+          [
+            "38400",
+            "38400"
+          ],
+          [
+            "57600",
+            "57600"
+          ],
+          [
+            "115200",
+            "115200"
+          ]
+        ]
+      }
+    ]
+  },
+  "cybercam_uart_available": {
+    "message0": "Octets disponibles sur UART %1",
+    "tooltip": "Octets disponibles sur UART %1",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_uart_read": {
+    "message0": "Lire %2 octets depuis UART %1",
+    "tooltip": "Lire %2 octets depuis UART %1",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "cybercam_uart_write": {
+    "message0": "Écrire %2 sur UART %1",
+    "tooltip": "Écrire %2 sur UART %1",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "cybercam_uart_flush": {
+    "message0": "Vider le tampon d’entrée de UART %1",
+    "tooltip": "Vider le tampon d’entrée de UART %1",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_uart_close": {
+    "message0": "fermer l’UART %1",
+    "tooltip": "fermer l’UART %1",
+    "args0": [
+      null
+    ]
+  }
+}

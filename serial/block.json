@@ -1,0 +1,265 @@
+[
+  {
+    "type": "linux_uart_init",
+    "message0": "initialize serial %1 device %2 baud %3",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "uart"
+      },
+      {
+        "type": "field_input",
+        "name": "DEVICE",
+        "text": "/dev/serial0"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "BAUD",
+        "options": [
+          [
+            "9600",
+            "9600"
+          ],
+          [
+            "19200",
+            "19200"
+          ],
+          [
+            "38400",
+            "38400"
+          ],
+          [
+            "57600",
+            "57600"
+          ],
+          [
+            "115200",
+            "115200"
+          ]
+        ]
+      }
+    ],
+    "colour": "#00897B",
+    "tooltip": "initialize serial %1 device %2 baud %3",
+    "icon": "wifi",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "linux_uart_available",
+    "message0": "serial %1 bytes available",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "uart"
+      }
+    ],
+    "colour": "#00897B",
+    "tooltip": "serial %1 bytes available",
+    "icon": "wifi",
+    "output": "Any"
+  },
+  {
+    "type": "linux_uart_read",
+    "message0": "serial %1 read %2 bytes",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "uart"
+      },
+      {
+        "type": "input_value",
+        "name": "SIZE",
+        "check": "Number"
+      }
+    ],
+    "colour": "#00897B",
+    "tooltip": "serial %1 read %2 bytes",
+    "icon": "wifi",
+    "output": "Any"
+  },
+  {
+    "type": "linux_uart_write",
+    "message0": "serial %1 write %2",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "uart"
+      },
+      {
+        "type": "input_value",
+        "name": "DATA"
+      }
+    ],
+    "colour": "#00897B",
+    "tooltip": "serial %1 write %2",
+    "icon": "wifi",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "linux_uart_flush",
+    "message0": "flush serial %1 input",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "uart"
+      }
+    ],
+    "colour": "#00897B",
+    "tooltip": "flush serial %1 input",
+    "icon": "wifi",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "linux_uart_close",
+    "message0": "close serial %1",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "uart"
+      }
+    ],
+    "colour": "#00897B",
+    "tooltip": "close serial %1",
+    "icon": "wifi",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "cybercam_uart_init",
+    "message0": "initialize UART %1 baud %2",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "uart"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "BAUD",
+        "options": [
+          [
+            "9600",
+            "9600"
+          ],
+          [
+            "19200",
+            "19200"
+          ],
+          [
+            "38400",
+            "38400"
+          ],
+          [
+            "57600",
+            "57600"
+          ],
+          [
+            "115200",
+            "115200"
+          ]
+        ]
+      }
+    ],
+    "colour": "#00897B",
+    "tooltip": "initialize UART %1 baud %2",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "cybercam_uart_available",
+    "message0": "UART %1 bytes available",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "uart"
+      }
+    ],
+    "colour": "#00897B",
+    "tooltip": "UART %1 bytes available",
+    "icon": "settings",
+    "output": "Any"
+  },
+  {
+    "type": "cybercam_uart_read",
+    "message0": "UART %1 read %2 bytes",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "uart"
+      },
+      {
+        "type": "input_value",
+        "name": "SIZE",
+        "check": "Number"
+      }
+    ],
+    "colour": "#00897B",
+    "tooltip": "UART %1 read %2 bytes",
+    "icon": "settings",
+    "output": "Any"
+  },
+  {
+    "type": "cybercam_uart_write",
+    "message0": "UART %1 write %2",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "uart"
+      },
+      {
+        "type": "input_value",
+        "name": "DATA"
+      }
+    ],
+    "colour": "#00897B",
+    "tooltip": "UART %1 write %2",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "cybercam_uart_flush",
+    "message0": "flush UART %1 input",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "uart"
+      }
+    ],
+    "colour": "#00897B",
+    "tooltip": "flush UART %1 input",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "cybercam_uart_close",
+    "message0": "close UART %1",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "uart"
+      }
+    ],
+    "colour": "#00897B",
+    "tooltip": "close UART %1",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  }
+]

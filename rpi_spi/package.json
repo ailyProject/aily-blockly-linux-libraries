@@ -1,0 +1,46 @@
+{
+  "name": "@aily-project/lib-rpi-spi",
+  "nickname": "SPI",
+  "nickname_zh_cn": "SPI",
+  "nickname_en": "SPI",
+  "nickname_zh_hk": "SPI",
+  "nickname_ja": "SPI",
+  "nickname_ko": "SPI",
+  "nickname_de": "SPI",
+  "nickname_fr": "SPI",
+  "nickname_es": "SPI",
+  "nickname_pt": "SPI",
+  "nickname_ru": "SPI",
+  "nickname_ar": "SPI",
+  "version": "0.0.1",
+  "description": "使用 py-spidev 初始化、配置和收发树莓派 SPI 数据。",
+  "description_zh_cn": "使用 py-spidev 初始化、配置和收发树莓派 SPI 数据。",
+  "description_en": "Initialize, configure, and transfer Raspberry Pi SPI data through py-spidev.",
+  "spec": true,
+  "compatibility": {
+    "type": [
+      "broadcom:bcm2712:raspberrypi_5"
+    ],
+    "voltage": [
+      3.3
+    ]
+  },
+  "keywords": [
+    "aily",
+    "blockly",
+    "python",
+    "linux",
+    "spi",
+    "spidev",
+    "py-spidev"
+  ],
+  "tags": [
+    "communication",
+    "io"
+  ],
+  "author": "ailyProject",
+  "license": "MIT",
+  "homepage": "https://github.com/doceme/py-spidev",
+  "dependencies": {},
+  "devDependencies": {}
+}

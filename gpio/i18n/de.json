@@ -1,0 +1,231 @@
+{
+  "toolbox_name": "GPIO und PWM",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "linux_gpio_init": {
+    "message0": "GPIO %1 initialisieren, Pin %2, Richtung %3, Pull %4",
+    "tooltip": "Einen digitalen Pin mit gpiozero erstellen.",
+    "args0": [
+      null,
+      null,
+      {
+        "options": [
+          [
+            "Eingang",
+            "INPUT"
+          ],
+          [
+            "Ausgang",
+            "OUTPUT"
+          ]
+        ]
+      },
+      {
+        "options": [
+          [
+            "keiner",
+            "NONE"
+          ],
+          [
+            "Pull-up",
+            "UP"
+          ],
+          [
+            "Pull-down",
+            "DOWN"
+          ]
+        ]
+      }
+    ]
+  },
+  "linux_gpio_write": {
+    "message0": "GPIO %1 auf %2 setzen",
+    "tooltip": "GPIO %1 auf %2 setzen",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "linux_gpio_read": {
+    "message0": "GPIO-%1-Wert",
+    "tooltip": "GPIO-%1-Wert",
+    "args0": [
+      null
+    ]
+  },
+  "linux_gpio_close": {
+    "message0": "GPIO %1 schließen",
+    "tooltip": "GPIO %1 schließen",
+    "args0": [
+      null
+    ]
+  },
+  "linux_led_init": {
+    "message0": "LED %1 initialisieren, Pin %2, aktiver Pegel %3",
+    "tooltip": "Eine gpiozero-LED am ausgewählten Pin erstellen.",
+    "args0": [
+      null,
+      null,
+      {
+        "options": [
+          [
+            "hoch",
+            "TRUE"
+          ],
+          [
+            "niedrig",
+            "FALSE"
+          ]
+        ]
+      }
+    ]
+  },
+  "linux_led_action": {
+    "message0": "LED %1 %2",
+    "tooltip": "Eine initialisierte LED ein-, ausschalten oder umschalten.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "einschalten",
+            "ON"
+          ],
+          [
+            "ausschalten",
+            "OFF"
+          ],
+          [
+            "umschalten",
+            "TOGGLE"
+          ]
+        ]
+      }
+    ]
+  },
+  "linux_led_blink": {
+    "message0": "LED %1 blinken: ein %2 s, aus %3 s, Anzahl %4 (0 unbegrenzt)",
+    "tooltip": "Im Hintergrund blinken; bei Anzahl 0 unbegrenzt wiederholen.",
+    "args0": [
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "linux_button_init": {
+    "message0": "Taste %1 initialisieren, Pin %2, Pull %3, aktiver Pegel ohne Pull %4, Entprellzeit %5 s, Haltezeit %6 s",
+    "tooltip": "Eine gpiozero-Taste erstellen. Der aktive Pegel gilt, wenn kein Pull gewählt ist.",
+    "args0": [
+      null,
+      null,
+      {
+        "options": [
+          [
+            "Pull-up",
+            "UP"
+          ],
+          [
+            "Pull-down",
+            "DOWN"
+          ],
+          [
+            "keiner",
+            "NONE"
+          ]
+        ]
+      },
+      {
+        "options": [
+          [
+            "hoch",
+            "TRUE"
+          ],
+          [
+            "niedrig",
+            "FALSE"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "linux_button_pressed": {
+    "message0": "Taste %1 ist gedrückt",
+    "tooltip": "Ob die initialisierte Taste gerade gedrückt ist.",
+    "args0": [
+      null
+    ]
+  },
+  "linux_button_held": {
+    "message0": "Taste %1 wird gehalten",
+    "tooltip": "Ob die initialisierte Taste ihre Haltezeit erreicht hat.",
+    "args0": [
+      null
+    ]
+  },
+  "linux_button_wait": {
+    "message0": "auf Taste %1 warten: %2, Zeitlimit %3 s (0 unbegrenzt)",
+    "tooltip": "Auf Drücken oder Loslassen warten; Zeitlimit 0 wartet unbegrenzt.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "Drücken",
+            "PRESS"
+          ],
+          [
+            "Loslassen",
+            "RELEASE"
+          ]
+        ]
+      },
+      null
+    ]
+  },
+  "linux_led_write": {
+    "message0": "alte feste GPIO17-LED auf %1 setzen",
+    "tooltip": "Alter Kompatibilitätsblock, fest auf GPIO17; vorzugsweise „LED initialisieren“ verwenden.",
+    "args0": [
+      null
+    ]
+  },
+  "linux_key_pressed": {
+    "message0": "alte feste GPIO27-Taste ist gedrückt",
+    "tooltip": "Alter Kompatibilitätsblock, fest auf GPIO27; vorzugsweise „Taste initialisieren“ verwenden."
+  },
+  "linux_pwm_init": {
+    "message0": "PWM %1 initialisieren, Pin %2, Frequenz %3 Hz",
+    "tooltip": "PWM %1 initialisieren, Pin %2, Frequenz %3 Hz",
+    "args0": [
+      null,
+      null,
+      null
+    ]
+  },
+  "linux_pwm_duty": {
+    "message0": "PWM-%1-Tastverhältnis auf %2 (0–1) setzen",
+    "tooltip": "PWM-%1-Tastverhältnis auf %2 (0–1) setzen",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "linux_pwm_frequency": {
+    "message0": "PWM-%1-Frequenz auf %2 Hz setzen",
+    "tooltip": "Die Frequenz eines initialisierten PWM-Ausgangs ändern.",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "linux_pwm_close": {
+    "message0": "PWM %1 schließen",
+    "tooltip": "PWM %1 schließen",
+    "args0": [
+      null
+    ]
+  }
+}

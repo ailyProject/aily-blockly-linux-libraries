@@ -1,0 +1,40 @@
+{
+  "toolbox_name": "Picamera2",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "rpi_picamera2_init": {
+    "message0": "Picamera2 %1 initialisieren Kamera %2 Breite %3 Höhe %4 Format %5",
+    "tooltip": "Eine Raspberry-Pi-Picamera2-Kamera erstellen und konfigurieren.",
+    "args0": [null, null, null, null, null]
+  },
+  "rpi_picamera2_start": {
+    "message0": "Picamera2 %1 starten",
+    "tooltip": "Die konfigurierte Picamera2-Kamera starten.",
+    "args0": [null]
+  },
+  "rpi_picamera2_capture_array": {
+    "message0": "Picamera2 %1 als Array aufnehmen",
+    "tooltip": "Den Hauptstream als NumPy-Array aufnehmen.",
+    "args0": [null]
+  },
+  "rpi_picamera2_capture_file": {
+    "message0": "Picamera2 %1 in Datei %2 aufnehmen",
+    "tooltip": "Ein Bild aufnehmen und in einer Datei speichern.",
+    "args0": [null, null]
+  },
+  "rpi_picamera2_set_control": {
+    "message0": "Picamera2 %1 Steuerung %2 auf %3 setzen",
+    "tooltip": "Eine unterstützte Picamera2-Kamerasteuerung setzen.",
+    "args0": [null, null, null]
+  },
+  "rpi_picamera2_stop": {
+    "message0": "Picamera2 %1 stoppen",
+    "tooltip": "Die Aufnahme stoppen, ohne die Kamera zu schließen.",
+    "args0": [null]
+  },
+  "rpi_picamera2_close": {
+    "message0": "Picamera2 %1 schließen",
+    "tooltip": "Die Picamera2-Kamera sicher stoppen und schließen.",
+    "args0": [null]
+  }
+}

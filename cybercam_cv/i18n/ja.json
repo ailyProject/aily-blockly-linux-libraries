@@ -1,0 +1,395 @@
+{
+  "toolbox_name": "カメラと AI",
+  "toolbox_categories": [
+    "カメラと画面",
+    "KPU AI"
+  ],
+  "toolbox_labels": {
+    "Camera and display": "カメラと画面",
+    "KPU AI": "KPU AI"
+  },
+  "cybercam_camera_init": {
+    "message0": "カメラ %1 を初期化：幅 %2、高さ %3、センサー %4",
+    "tooltip": "カメラ %1 を初期化：幅 %2、高さ %3、センサー %4",
+    "args0": [
+      null,
+      null,
+      null,
+      {
+        "options": [
+          [
+            "オンボード CSI2",
+            "2"
+          ],
+          [
+            "CSI0",
+            "0"
+          ]
+        ]
+      }
+    ]
+  },
+  "cybercam_camera_opened": {
+    "message0": "カメラ %1 は開いている",
+    "tooltip": "カメラ %1 は開いている",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_camera_read": {
+    "message0": "カメラ %1 の画像",
+    "tooltip": "カメラ %1 の画像",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_camera_read_raw": {
+    "message0": "カメラ %1 の生読み取り結果",
+    "tooltip": "成功フラグと画像を含む camera.read() の完全な結果を返します。",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_camera_hmirror": {
+    "message0": "カメラ %1 の左右反転を %2 に設定",
+    "tooltip": "カメラ %1 の左右反転を %2 に設定",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "cybercam_camera_vflip": {
+    "message0": "カメラ %1 の上下反転を %2 に設定",
+    "tooltip": "カメラ %1 の上下反転を %2 に設定",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "cybercam_camera_release": {
+    "message0": "カメラ %1 を解放",
+    "tooltip": "カメラ %1 を解放",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_display_init": {
+    "message0": "オンボード画面を初期化",
+    "tooltip": "オンボード画面を初期化"
+  },
+  "cybercam_display_rotation": {
+    "message0": "画面の回転を %1 に設定",
+    "tooltip": "画面の回転を %1 に設定",
+    "args0": [
+      {
+        "options": [
+          [
+            "0°",
+            "0"
+          ],
+          [
+            "90°",
+            "1"
+          ],
+          [
+            "180°",
+            "2"
+          ],
+          [
+            "270°",
+            "3"
+          ]
+        ]
+      }
+    ]
+  },
+  "cybercam_display_show": {
+    "message0": "画像 %1 を画面に表示",
+    "tooltip": "画像 %1 を画面に表示",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_ide_show": {
+    "message0": "画像 %1 を IDE に表示",
+    "tooltip": "画像 %1 を IDE に表示",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_lcd_direction": {
+    "message0": "現在の画面方向",
+    "tooltip": "現在の画面方向"
+  },
+  "cybercam_ai_init_simple": {
+    "message0": "AI %1 を初期化：モデル %2、パス %3、サイズ %4",
+    "tooltip": "AI %1 を初期化：モデル %2、パス %3、サイズ %4",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "転倒検出",
+            "FALL_DETECT"
+          ],
+          [
+            "手検出",
+            "HAND_DETECT"
+          ],
+          [
+            "人物検出",
+            "PERSON_DETECT"
+          ],
+          [
+            "人物キーポイント",
+            "PERSON_KEYPOINT"
+          ],
+          [
+            "煙検出",
+            "SMOKE_DETECT"
+          ],
+          [
+            "信号機検出",
+            "TRAFFIC_LIGHT_DETECT"
+          ],
+          [
+            "YOLO11 分類",
+            "YOLO11_CLS"
+          ],
+          [
+            "YOLO11 検出",
+            "YOLO11_DET"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "cybercam_ai_init_face": {
+    "message0": "顔検出器 %1 を初期化：モデル %2、アンカー %3、サイズ %4",
+    "tooltip": "顔検出器 %1 を初期化：モデル %2、アンカー %3、サイズ %4",
+    "args0": [
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "cybercam_ai_init_mask": {
+    "message0": "マスク検出器 %1 を初期化：検出モデル %2、アンカー %3、サイズ %4、マスクモデル %5",
+    "tooltip": "マスク検出器 %1 を初期化：検出モデル %2、アンカー %3、サイズ %4、マスクモデル %5",
+    "args0": [
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "cybercam_ai_init_hand_keypoint": {
+    "message0": "手 AI %1 を初期化：種類 %2、検出モデル %3、キーポイントモデル %4",
+    "tooltip": "手 AI %1 を初期化：種類 %2、検出モデル %3、キーポイントモデル %4",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "キーポイント",
+            "HAND_KEYPOINT"
+          ],
+          [
+            "ジェスチャー分類",
+            "HAND_KEYPOINT_CLS"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "cybercam_ai_init_ocr": {
+    "message0": "OCR %1 を初期化：検出 %2、認識 %3、辞書 %4、検出サイズ %5、認識幅 %6、高さ %7",
+    "tooltip": "OCR %1 を初期化：検出 %2、認識 %3、辞書 %4、検出サイズ %5、認識幅 %6、高さ %7",
+    "args0": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "cybercam_ai_init_licence": {
+    "message0": "ナンバープレート AI %1 を初期化：検出 %2、認識 %3、アンカー %4、ラベル %5、検出サイズ %6、認識幅 %7、高さ %8",
+    "tooltip": "ナンバープレート AI %1 を初期化：検出 %2、認識 %3、アンカー %4、ラベル %5、検出サイズ %6、認識幅 %7、高さ %8",
+    "args0": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "cybercam_ai_run": {
+    "message0": "AI %1 を %2 に実行",
+    "tooltip": "AI %1 を %2 に実行",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "cybercam_ai_run_confidence": {
+    "message0": "AI %1 を %2 に実行：信頼度 %3",
+    "tooltip": "AI %1 を %2 に実行：信頼度 %3",
+    "args0": [
+      null,
+      null,
+      null
+    ]
+  },
+  "cybercam_ai_run_thresholds": {
+    "message0": "AI %1 を %2 に実行：信頼度 %3、NMS %4",
+    "tooltip": "AI %1 を %2 に実行：信頼度 %3、NMS %4",
+    "args0": [
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "cybercam_result_length": {
+    "message0": "結果リスト %1 の長さ",
+    "tooltip": "結果リスト %1 の長さ",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_result_item": {
+    "message0": "結果リスト %1 の項目 %2",
+    "tooltip": "結果リスト %1 の項目 %2",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "cybercam_result_property": {
+    "message0": "結果 %1 のプロパティ %2",
+    "tooltip": "結果 %1 のプロパティ %2",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "信頼度",
+            "reliability"
+          ],
+          [
+            "x",
+            "x"
+          ],
+          [
+            "y",
+            "y"
+          ],
+          [
+            "幅",
+            "w"
+          ],
+          [
+            "高さ",
+            "h"
+          ],
+          [
+            "ラベル",
+            "label"
+          ],
+          [
+            "テキスト",
+            "text"
+          ],
+          [
+            "マスク",
+            "mask"
+          ],
+          [
+            "上位5件",
+            "top5"
+          ],
+          [
+            "キーポイント",
+            "keypoints"
+          ],
+          [
+            "頂点",
+            "corners"
+          ],
+          [
+            "左目",
+            "left_eye"
+          ],
+          [
+            "左目 x",
+            "left_eye.x"
+          ],
+          [
+            "左目 y",
+            "left_eye.y"
+          ],
+          [
+            "右目",
+            "right_eye"
+          ],
+          [
+            "右目 x",
+            "right_eye.x"
+          ],
+          [
+            "右目 y",
+            "right_eye.y"
+          ],
+          [
+            "鼻",
+            "nose"
+          ],
+          [
+            "鼻 x",
+            "nose.x"
+          ],
+          [
+            "鼻 y",
+            "nose.y"
+          ],
+          [
+            "左口角",
+            "left_mouth"
+          ],
+          [
+            "左口角 x",
+            "left_mouth.x"
+          ],
+          [
+            "左口角 y",
+            "left_mouth.y"
+          ],
+          [
+            "右口角",
+            "right_mouth"
+          ],
+          [
+            "右口角 x",
+            "right_mouth.x"
+          ],
+          [
+            "右口角 y",
+            "right_mouth.y"
+          ]
+        ]
+      }
+    ]
+  }
+}

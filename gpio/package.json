@@ -1,0 +1,48 @@
+{
+  "name": "@aily-project/lib-gpio",
+  "nickname": "GPIO & PWM",
+  "nickname_zh_cn": "GPIO 与 PWM",
+  "nickname_en": "GPIO & PWM",
+  "nickname_zh_hk": "GPIO 與 PWM",
+  "nickname_ja": "GPIO と PWM",
+  "nickname_ko": "GPIO 및 PWM",
+  "nickname_de": "GPIO und PWM",
+  "nickname_fr": "GPIO et PWM",
+  "nickname_es": "GPIO y PWM",
+  "nickname_pt": "GPIO e PWM",
+  "nickname_ru": "GPIO и PWM",
+  "nickname_ar": "GPIO وPWM",
+  "version": "0.0.1",
+  "description": "基于 gpiozero 的 Linux GPIO、可配置 LED/按键和 PWM。",
+  "description_zh_cn": "基于 gpiozero 的 Linux GPIO、可配置 LED/按键和 PWM。",
+  "description_en": "Linux GPIO, configurable LED/button, and PWM blocks powered by gpiozero.",
+  "spec": true,
+  "compatibility": {
+    "type": [
+      "broadcom:bcm2712:raspberrypi_5",
+      "allwinner:t527:walnutpi_2b"
+    ],
+    "voltage": [
+      3.3
+    ]
+  },
+  "keywords": [
+    "aily",
+    "blockly",
+    "python",
+    "linux",
+    "gpio",
+    "gpiozero",
+    "button",
+    "led",
+    "pwm"
+  ],
+  "tags": [
+    "io",
+    "sensor"
+  ],
+  "author": "ailyProject",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {}
+}

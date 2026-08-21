@@ -1,0 +1,659 @@
+[
+  {
+    "type": "python_socket_init",
+    "message0": "initialize socket %1 family %2 type %3",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "sock"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "FAMILY",
+        "options": [
+          [
+            "IPv4",
+            "AF_INET"
+          ],
+          [
+            "IPv6",
+            "AF_INET6"
+          ]
+        ]
+      },
+      {
+        "type": "field_dropdown",
+        "name": "TYPE",
+        "options": [
+          [
+            "TCP",
+            "SOCK_STREAM"
+          ],
+          [
+            "UDP",
+            "SOCK_DGRAM"
+          ]
+        ]
+      }
+    ],
+    "colour": "#0288D1",
+    "tooltip": "initialize socket %1 family %2 type %3",
+    "icon": "wifi",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "python_socket_address",
+    "message0": "resolve host %1 port %2 family %3 type %4",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "HOST",
+        "check": "String"
+      },
+      {
+        "type": "input_value",
+        "name": "PORT",
+        "check": "Number"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "FAMILY",
+        "options": [
+          [
+            "IPv4",
+            "AF_INET"
+          ],
+          [
+            "IPv6",
+            "AF_INET6"
+          ]
+        ]
+      },
+      {
+        "type": "field_dropdown",
+        "name": "TYPE",
+        "options": [
+          [
+            "TCP",
+            "SOCK_STREAM"
+          ],
+          [
+            "UDP",
+            "SOCK_DGRAM"
+          ]
+        ]
+      }
+    ],
+    "colour": "#0288D1",
+    "tooltip": "Resolve an IPv4/IPv6 TCP or UDP address with getaddrinfo.",
+    "icon": "wifi",
+    "output": "Any"
+  },
+  {
+    "type": "python_socket_address_part",
+    "message0": "%1 of address %2",
+    "args0": [
+      {
+        "type": "field_dropdown",
+        "name": "PART",
+        "options": [
+          [
+            "host/IP",
+            "HOST"
+          ],
+          [
+            "port",
+            "PORT"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ADDRESS"
+      }
+    ],
+    "colour": "#0288D1",
+    "tooltip": "Read the host/IP or port from an IPv4 or IPv6 socket address.",
+    "icon": "wifi",
+    "output": "Any"
+  },
+  {
+    "type": "python_socket_connect",
+    "message0": "socket %1 connect to %2",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "sock"
+      },
+      {
+        "type": "input_value",
+        "name": "ADDRESS"
+      }
+    ],
+    "colour": "#0288D1",
+    "tooltip": "socket %1 connect to %2",
+    "icon": "wifi",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "python_socket_bind",
+    "message0": "socket %1 bind to %2",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "sock"
+      },
+      {
+        "type": "input_value",
+        "name": "ADDRESS"
+      }
+    ],
+    "colour": "#0288D1",
+    "tooltip": "socket %1 bind to %2",
+    "icon": "wifi",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "python_socket_listen",
+    "message0": "socket %1 listen backlog %2",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "sock"
+      },
+      {
+        "type": "input_value",
+        "name": "BACKLOG",
+        "check": "Number"
+      }
+    ],
+    "colour": "#0288D1",
+    "tooltip": "socket %1 listen backlog %2",
+    "icon": "wifi",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "python_socket_accept",
+    "message0": "socket %1 accept connection",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "sock"
+      }
+    ],
+    "colour": "#0288D1",
+    "tooltip": "socket %1 accept connection",
+    "icon": "wifi",
+    "output": "Any"
+  },
+  {
+    "type": "python_socket_accept_into",
+    "message0": "socket %1 accept into client %2 address %3",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "sock"
+      },
+      {
+        "type": "field_input",
+        "name": "CLIENT_NAME",
+        "text": "client"
+      },
+      {
+        "type": "field_input",
+        "name": "ADDRESS_NAME",
+        "text": "client_address"
+      }
+    ],
+    "colour": "#0288D1",
+    "tooltip": "Accept a TCP connection and store its connected socket and peer address.",
+    "icon": "wifi",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "python_socket_send",
+    "message0": "socket %1 reliably send %2",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "sock"
+      },
+      {
+        "type": "input_value",
+        "name": "DATA"
+      }
+    ],
+    "colour": "#0288D1",
+    "tooltip": "Send the entire TCP payload; text is UTF-8 encoded and bytes-like data is unchanged.",
+    "icon": "wifi",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "python_socket_receive",
+    "message0": "socket %1 receive %2 bytes",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "sock"
+      },
+      {
+        "type": "input_value",
+        "name": "SIZE",
+        "check": "Number"
+      }
+    ],
+    "colour": "#0288D1",
+    "tooltip": "Receive up to this many TCP bytes; b'' means the peer has closed the connection.",
+    "icon": "wifi",
+    "output": "Any"
+  },
+  {
+    "type": "python_socket_send_to",
+    "message0": "UDP socket %1 send %2 to %3",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "udp_sock"
+      },
+      {
+        "type": "input_value",
+        "name": "DATA"
+      },
+      {
+        "type": "input_value",
+        "name": "ADDRESS"
+      }
+    ],
+    "colour": "#0288D1",
+    "tooltip": "Send one UDP datagram; text is UTF-8 encoded and bytes-like data is unchanged.",
+    "icon": "wifi",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "python_socket_receive_from",
+    "message0": "UDP socket %1 receive datagram up to %2 bytes",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "udp_sock"
+      },
+      {
+        "type": "input_value",
+        "name": "SIZE",
+        "check": "Number"
+      }
+    ],
+    "colour": "#0288D1",
+    "tooltip": "Receive one UDP datagram as (data, address); a small buffer truncates the datagram.",
+    "icon": "wifi",
+    "output": "Any"
+  },
+  {
+    "type": "python_socket_receive_from_into",
+    "message0": "UDP socket %1 receive up to %2 bytes into data %3 address %4",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "udp_sock"
+      },
+      {
+        "type": "input_value",
+        "name": "SIZE",
+        "check": "Number"
+      },
+      {
+        "type": "field_input",
+        "name": "DATA_NAME",
+        "text": "data"
+      },
+      {
+        "type": "field_input",
+        "name": "ADDRESS_NAME",
+        "text": "sender_address"
+      }
+    ],
+    "colour": "#0288D1",
+    "tooltip": "Receive one UDP datagram and store its bytes and sender address separately.",
+    "icon": "wifi",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "python_socket_set_timeout",
+    "message0": "socket %1 set timeout %2 seconds",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "sock"
+      },
+      {
+        "type": "input_value",
+        "name": "SECONDS",
+        "check": "Number"
+      }
+    ],
+    "colour": "#0288D1",
+    "tooltip": "Set an operation timeout; zero selects non-blocking mode and positive values raise on timeout.",
+    "icon": "wifi",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "python_socket_set_blocking",
+    "message0": "socket %1 set %2 mode",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "sock"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "BLOCKING",
+        "options": [
+          [
+            "blocking",
+            "TRUE"
+          ],
+          [
+            "non-blocking",
+            "FALSE"
+          ]
+        ]
+      }
+    ],
+    "colour": "#0288D1",
+    "tooltip": "Switch between blocking and non-blocking operation.",
+    "icon": "wifi",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "python_socket_set_option",
+    "message0": "socket %1 option %2 %3",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "sock"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "OPTION",
+        "options": [
+          [
+            "reuse address",
+            "SO_REUSEADDR"
+          ],
+          [
+            "broadcast",
+            "SO_BROADCAST"
+          ],
+          [
+            "keep alive",
+            "SO_KEEPALIVE"
+          ],
+          [
+            "TCP no delay",
+            "TCP_NODELAY"
+          ]
+        ]
+      },
+      {
+        "type": "field_dropdown",
+        "name": "ENABLED",
+        "options": [
+          [
+            "enable",
+            "TRUE"
+          ],
+          [
+            "disable",
+            "FALSE"
+          ]
+        ]
+      }
+    ],
+    "colour": "#0288D1",
+    "tooltip": "Configure a portable boolean socket option; set reuse address before bind.",
+    "icon": "wifi",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "python_socket_ready",
+    "message0": "socket %1 ready to %2 within %3 seconds",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "sock"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "MODE",
+        "options": [
+          [
+            "read",
+            "READ"
+          ],
+          [
+            "write",
+            "WRITE"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "TIMEOUT",
+        "check": "Number"
+      }
+    ],
+    "colour": "#0288D1",
+    "tooltip": "Use select to test readiness before an operation without blocking.",
+    "icon": "wifi",
+    "output": "Boolean"
+  },
+  {
+    "type": "python_socket_endpoint",
+    "message0": "socket %1 %2 address",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "sock"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "ENDPOINT",
+        "options": [
+          [
+            "local",
+            "LOCAL"
+          ],
+          [
+            "peer",
+            "PEER"
+          ]
+        ]
+      }
+    ],
+    "colour": "#0288D1",
+    "tooltip": "Get the local address or the connected peer address.",
+    "icon": "wifi",
+    "output": "Any"
+  },
+  {
+    "type": "python_socket_encode",
+    "message0": "encode text %1 as %2 bytes",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "TEXT",
+        "check": "String"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "ENCODING",
+        "options": [
+          [
+            "UTF-8",
+            "utf-8"
+          ],
+          [
+            "ASCII",
+            "ascii"
+          ],
+          [
+            "GBK",
+            "gbk"
+          ]
+        ]
+      }
+    ],
+    "colour": "#0288D1",
+    "tooltip": "Encode text into bytes for a socket payload.",
+    "icon": "wifi",
+    "output": "Any"
+  },
+  {
+    "type": "python_socket_decode",
+    "message0": "decode bytes %1 as %2 on error %3",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "DATA"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "ENCODING",
+        "options": [
+          [
+            "UTF-8",
+            "utf-8"
+          ],
+          [
+            "ASCII",
+            "ascii"
+          ],
+          [
+            "GBK",
+            "gbk"
+          ]
+        ]
+      },
+      {
+        "type": "field_dropdown",
+        "name": "ERRORS",
+        "options": [
+          [
+            "replace",
+            "replace"
+          ],
+          [
+            "strict",
+            "strict"
+          ],
+          [
+            "ignore",
+            "ignore"
+          ]
+        ]
+      }
+    ],
+    "colour": "#0288D1",
+    "tooltip": "Decode bytes into text using the selected error policy.",
+    "icon": "wifi",
+    "output": "Any"
+  },
+  {
+    "type": "python_socket_shutdown",
+    "message0": "socket %1 shutdown %2",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "sock"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "HOW",
+        "options": [
+          [
+            "receiving",
+            "SHUT_RD"
+          ],
+          [
+            "sending",
+            "SHUT_WR"
+          ],
+          [
+            "both",
+            "SHUT_RDWR"
+          ]
+        ]
+      }
+    ],
+    "colour": "#0288D1",
+    "tooltip": "Disable receiving, sending, or both before closing a connected socket.",
+    "icon": "wifi",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "python_socket_close",
+    "message0": "close socket %1",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "sock"
+      }
+    ],
+    "colour": "#0288D1",
+    "tooltip": "close socket %1",
+    "icon": "wifi",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "python_http_server",
+    "message0": "serve current directory with HTTP host %1 port %2",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "HOST",
+        "check": "String"
+      },
+      {
+        "type": "input_value",
+        "name": "PORT",
+        "check": "Number"
+      }
+    ],
+    "colour": "#0288D1",
+    "tooltip": "serve current directory with HTTP host %1 port %2",
+    "icon": "wifi",
+    "previousStatement": null,
+    "nextStatement": null
+  }
+]

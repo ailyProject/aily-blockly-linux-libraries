@@ -1,0 +1,30 @@
+{
+  "toolbox_name": "SPI",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "rpi_spi_init": {
+    "message0": "تهيئة SPI %1 الناقل %2 الجهاز %3 النمط %4 السرعة %5 هرتز البتات %6",
+    "tooltip": "يفتح جهاز SPI باستخدام py-spidev ويضبط معاملات النقل.",
+    "args0": [null, null, null, null, null, null]
+  },
+  "rpi_spi_transfer": {
+    "message0": "SPI %1 إرسال واستقبال %2",
+    "tooltip": "ينقل قائمة بايتات باستخدام xfer2 ويعيد قائمة البايتات المستلمة.",
+    "args0": [null, null]
+  },
+  "rpi_spi_read": {
+    "message0": "SPI %1 قراءة %2 بايت",
+    "tooltip": "يقرأ بايتات من جهاز SPI ويعيدها كقائمة.",
+    "args0": [null, null]
+  },
+  "rpi_spi_write": {
+    "message0": "SPI %1 كتابة %2",
+    "tooltip": "يكتب قائمة أو مخزن بايتات باستخدام writebytes2.",
+    "args0": [null, null]
+  },
+  "rpi_spi_close": {
+    "message0": "إغلاق SPI %1",
+    "tooltip": "يغلق جهاز SPI.",
+    "args0": [null]
+  }
+}

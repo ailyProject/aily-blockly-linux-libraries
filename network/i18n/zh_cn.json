@@ -1,0 +1,387 @@
+{
+  "toolbox_name": "网络",
+  "toolbox_categories": [
+    "套接字设置",
+    "TCP 通信",
+    "UDP 通信",
+   "套接字工具",
+   "HTTP"
+  ],
+  "toolbox_labels": {
+    "Socket setup": "套接字设置",
+    "TCP communication": "TCP 通信",
+    "UDP communication": "UDP 通信",
+   "Socket utilities": "套接字工具",
+   "HTTP": "HTTP"
+  },
+  "python_socket_init": {
+    "message0": "初始化套接字 %1，地址族 %2，类型 %3",
+    "tooltip": "初始化套接字 %1，地址族 %2，类型 %3",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "IPv4",
+            "AF_INET"
+          ],
+          [
+            "IPv6",
+            "AF_INET6"
+          ]
+        ]
+      },
+      {
+        "options": [
+          [
+            "TCP",
+            "SOCK_STREAM"
+          ],
+          [
+            "UDP",
+            "SOCK_DGRAM"
+          ]
+        ]
+      }
+    ]
+  },
+  "python_socket_address": {
+    "message0": "解析主机 %1 端口 %2 地址族 %3 类型 %4",
+    "tooltip": "使用 getaddrinfo 解析 IPv4/IPv6 TCP 或 UDP 地址。",
+    "args0": [
+      null,
+      null,
+      {
+        "options": [
+          [
+            "IPv4",
+            "AF_INET"
+          ],
+          [
+            "IPv6",
+            "AF_INET6"
+          ]
+        ]
+      },
+      {
+        "options": [
+          [
+            "TCP",
+            "SOCK_STREAM"
+          ],
+          [
+            "UDP",
+            "SOCK_DGRAM"
+          ]
+        ]
+      }
+    ]
+  },
+  "python_socket_address_part": {
+    "message0": "地址 %2 的 %1",
+    "tooltip": "读取 IPv4 或 IPv6 套接字地址中的主机/IP 或端口。",
+    "args0": [
+      {
+        "options": [
+          [
+            "主机/IP",
+            "HOST"
+          ],
+          [
+            "端口",
+            "PORT"
+          ]
+        ]
+      },
+      null
+    ]
+  },
+  "python_socket_connect": {
+    "message0": "将套接字 %1 连接到 %2",
+    "tooltip": "将套接字 %1 连接到 %2",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_socket_bind": {
+    "message0": "将套接字 %1 绑定到 %2",
+    "tooltip": "将套接字 %1 绑定到 %2",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_socket_listen": {
+    "message0": "让套接字 %1 监听，积压队列 %2",
+    "tooltip": "让套接字 %1 监听，积压队列 %2",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_socket_accept": {
+    "message0": "套接字 %1 接受连接",
+    "tooltip": "套接字 %1 接受连接",
+    "args0": [
+      null
+    ]
+  },
+  "python_socket_accept_into": {
+    "message0": "套接字 %1 接受连接并存入客户端 %2 地址 %3",
+    "tooltip": "接受 TCP 连接，并保存已连接的套接字及对端地址。",
+    "args0": [
+      null,
+      null,
+      null
+    ]
+  },
+  "python_socket_send": {
+    "message0": "套接字 %1 完整发送 %2",
+    "tooltip": "发送完整的 TCP 数据；文本编码为 UTF-8，字节类数据保持不变。",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_socket_receive": {
+    "message0": "通过套接字 %1 接收 %2 字节",
+    "tooltip": "最多接收指定数量的 TCP 字节；b'' 表示对端已关闭连接。",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_socket_send_to": {
+    "message0": "UDP 套接字 %1 将 %2 发送到 %3",
+    "tooltip": "发送一个 UDP 数据报；文本编码为 UTF-8，字节类数据保持不变。",
+    "args0": [
+      null,
+      null,
+      null
+    ]
+  },
+  "python_socket_receive_from": {
+    "message0": "UDP 套接字 %1 接收最多 %2 字节的数据报",
+    "tooltip": "接收一个 UDP 数据报并返回（数据，地址）；缓冲区过小会截断数据报。",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_socket_receive_from_into": {
+    "message0": "UDP 套接字 %1 接收最多 %2 字节并存入数据 %3 地址 %4",
+    "tooltip": "接收一个 UDP 数据报，并分别保存其字节数据和发送方地址。",
+    "args0": [
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "python_socket_set_timeout": {
+    "message0": "套接字 %1 设置超时 %2 秒",
+    "tooltip": "设置操作超时；0 表示非阻塞模式，正值超时时会引发异常。",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_socket_set_blocking": {
+    "message0": "套接字 %1 设置为 %2 模式",
+    "tooltip": "在阻塞与非阻塞操作之间切换。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "阻塞",
+            "TRUE"
+          ],
+          [
+            "非阻塞",
+            "FALSE"
+          ]
+        ]
+      }
+    ]
+  },
+  "python_socket_set_option": {
+    "message0": "套接字 %1 选项 %2 %3",
+    "tooltip": "配置可移植的布尔套接字选项；请在绑定前设置地址复用。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "地址复用",
+            "SO_REUSEADDR"
+          ],
+          [
+            "广播",
+            "SO_BROADCAST"
+          ],
+          [
+            "保持活动",
+            "SO_KEEPALIVE"
+          ],
+          [
+            "TCP 无延迟",
+            "TCP_NODELAY"
+          ]
+        ]
+      },
+      {
+        "options": [
+          [
+            "启用",
+            "TRUE"
+          ],
+          [
+            "禁用",
+            "FALSE"
+          ]
+        ]
+      }
+    ]
+  },
+  "python_socket_ready": {
+    "message0": "套接字 %1 的%2操作是否在 %3 秒内就绪",
+    "tooltip": "使用 select 在操作前检测就绪状态，避免阻塞。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "读取",
+            "READ"
+          ],
+          [
+            "写入",
+            "WRITE"
+          ]
+        ]
+      },
+      null
+    ]
+  },
+  "python_socket_endpoint": {
+    "message0": "套接字 %1 的%2地址",
+    "tooltip": "获取本地地址或已连接的对端地址。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "本地",
+            "LOCAL"
+          ],
+          [
+            "对端",
+            "PEER"
+          ]
+        ]
+      }
+    ]
+  },
+  "python_socket_encode": {
+    "message0": "将文本 %1 编码为 %2 字节",
+    "tooltip": "将文本编码为套接字载荷所需的字节数据。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "UTF-8",
+            "utf-8"
+          ],
+          [
+            "ASCII",
+            "ascii"
+          ],
+          [
+            "GBK",
+            "gbk"
+          ]
+        ]
+      }
+    ]
+  },
+  "python_socket_decode": {
+    "message0": "将字节 %1 按 %2 解码，错误处理 %3",
+    "tooltip": "使用所选错误处理策略将字节数据解码为文本。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "UTF-8",
+            "utf-8"
+          ],
+          [
+            "ASCII",
+            "ascii"
+          ],
+          [
+            "GBK",
+            "gbk"
+          ]
+        ]
+      },
+      {
+        "options": [
+          [
+            "替换",
+            "replace"
+          ],
+          [
+            "严格",
+            "strict"
+          ],
+          [
+            "忽略",
+            "ignore"
+          ]
+        ]
+      }
+    ]
+  },
+  "python_socket_shutdown": {
+    "message0": "套接字 %1 关闭%2",
+    "tooltip": "在关闭已连接的套接字前停止接收、发送或收发。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "接收",
+            "SHUT_RD"
+          ],
+          [
+            "发送",
+            "SHUT_WR"
+          ],
+          [
+            "收发",
+            "SHUT_RDWR"
+          ]
+        ]
+      }
+    ]
+  },
+  "python_socket_close": {
+    "message0": "关闭套接字 %1",
+    "tooltip": "关闭套接字 %1",
+    "args0": [
+      null
+   ]
+ },
+  "python_http_server": {
+    "message0": "通过 HTTP 提供当前目录：主机 %1，端口 %2",
+    "tooltip": "通过 HTTP 提供当前目录：主机 %1，端口 %2",
+    "args0": [
+      null,
+      null
+    ]
+  }
+}

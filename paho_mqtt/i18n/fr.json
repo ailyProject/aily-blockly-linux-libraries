@@ -1,0 +1,115 @@
+{
+  "toolbox_name": "Paho MQTT",
+  "toolbox_categories": ["Client et sécurité", "Événements", "Publication et abonnement", "Boucle réseau"],
+  "toolbox_labels": {
+    "Client and security": "Client et sécurité",
+    "Events": "Événements",
+    "Publish and subscribe": "Publication et abonnement",
+    "Network loop": "Boucle réseau"
+  },
+  "python_mqtt_init": {
+    "message0": "initialiser le client MQTT %1 ID client %2 protocole %3 transport %4",
+    "tooltip": "Crée un client Paho MQTT 2.x avec l'API de rappel VERSION2. Les ID client doivent être uniques sur le courtier.",
+    "args0": [null, null, {"options": [["MQTT 3.1.1", "MQTTv311"], ["MQTT 5", "MQTTv5"]]}, {"options": [["TCP", "tcp"], ["WebSocket", "websockets"]]}]
+  },
+  "python_mqtt_set_auth": {
+    "message0": "MQTT %1 définir le nom d'utilisateur %2 le mot de passe %3",
+    "tooltip": "Configure les identifiants du courtier avant la connexion.",
+    "args0": [null, null, null]
+  },
+  "python_mqtt_set_tls": {
+    "message0": "MQTT %1 activer TLS fichier CA %2 certificat client %3 clé privée %4",
+    "tooltip": "Active TLS avec vérification avant la connexion. Laissez CA vide pour utiliser le magasin de confiance du système ; le certificat et la clé du client sont facultatifs.",
+    "args0": [null, null, null, null]
+  },
+  "python_mqtt_set_will": {
+    "message0": "MQTT %1 définir la dernière volonté sujet %2 charge utile %3 QoS %4 conserver %5",
+    "tooltip": "Définit le message de dernière volonté avant la connexion.",
+    "args0": [null, null, null, {"options": [["0", "0"], ["1", "1"], ["2", "2"]]}, {"options": [["faux", "FALSE"], ["vrai", "TRUE"]]}]
+  },
+  "python_mqtt_set_websocket_options": {
+    "message0": "MQTT %1 définir le chemin WebSocket %2",
+    "tooltip": "Définit le chemin WebSocket du courtier avant la connexion ; utilisez-le avec le transport WebSocket.",
+    "args0": [null, null]
+  },
+  "python_mqtt_set_reconnect_delay": {
+    "message0": "MQTT %1 définir le délai de reconnexion minimum %2 maximum %3 secondes",
+    "tooltip": "Configure les délais exponentiels de reconnexion automatique utilisés par la boucle en arrière-plan et la boucle permanente ; un appel manuel unique de boucle ne se reconnecte pas automatiquement.",
+    "args0": [null, null, null]
+  },
+  "python_mqtt_connect": {
+    "message0": "MQTT %1 se connecter à l'hôte %2 port %3 maintien %4 secondes",
+    "tooltip": "Démarre une connexion MQTT. Le résultat CONNACK du courtier n'est transmis qu'une fois une boucle réseau en cours d'exécution.",
+    "args0": [null, null, null, null]
+  },
+  "python_mqtt_on_connect": {
+    "message0": "quand MQTT %1 reçoit le résultat de connexion, mettre le succès dans %2 la raison dans %3 et la session présente dans %4, faire %5 %6",
+    "tooltip": "Traite les résultats de connexion de l'API de rappel VERSION2 de Paho. Abonnez-vous ici pour restaurer les abonnements après une reconnexion.",
+    "args0": [null, null, null, null, null, null]
+  },
+  "python_mqtt_on_message": {
+    "message0": "quand MQTT %1 reçoit un message, mettre le sujet dans %2 les octets de charge utile dans %3 la QoS dans %4 et la conservation dans %5, faire %6 %7",
+    "tooltip": "Traite un message entrant. La charge utile est en octets ; décodez-la explicitement si du texte est nécessaire.",
+    "args0": [null, null, null, null, null, null, null]
+  },
+  "python_mqtt_on_disconnect": {
+    "message0": "quand MQTT %1 se déconnecte, mettre la raison dans %2 et la réception du paquet MQTT DISCONNECT du serveur dans %3, faire %4 %5",
+    "tooltip": "Traite un événement de déconnexion de l'API de rappel VERSION2 de Paho et son code de raison.",
+    "args0": [null, null, null, null, null]
+  },
+  "python_mqtt_publish": {
+    "message0": "MQTT %1 publier sur le sujet %2 la charge utile %3 QoS %4 conserver %5",
+    "tooltip": "Place un message dans la file de publication. Avant un arrêt rapide, utilisez le bloc de publication avec attente si la livraison doit être terminée.",
+    "args0": [null, null, null, {"options": [["0", "0"], ["1", "1"], ["2", "2"]]}, {"options": [["faux", "FALSE"], ["vrai", "TRUE"]]}]
+  },
+  "python_mqtt_publish_wait": {
+    "message0": "MQTT %1 publier sur le sujet %2 la charge utile %3 QoS %4 conserver %5 et attendre %6 secondes",
+    "tooltip": "Attend la fin de la publication. Si le délai expire alors que le message n'est toujours pas publié, lève TimeoutError. Ne l'utilisez pas dans un rappel réseau.",
+    "args0": [null, null, null, {"options": [["0", "0"], ["1", "1"], ["2", "2"]]}, {"options": [["faux", "FALSE"], ["vrai", "TRUE"]]}, null]
+  },
+  "python_mqtt_subscribe": {
+    "message0": "MQTT %1 s'abonner au filtre %2 QoS %3",
+    "tooltip": "S'abonne à un filtre de sujets. Placez ce bloc dans le rappel de connexion pour restaurer l'abonnement après une reconnexion.",
+    "args0": [null, null, {"options": [["0", "0"], ["1", "1"], ["2", "2"]]}]
+  },
+  "python_mqtt_unsubscribe": {
+    "message0": "MQTT %1 se désabonner du filtre %2",
+    "tooltip": "Se désabonne d'un filtre de sujets.",
+    "args0": [null, null]
+  },
+  "python_mqtt_decode_payload": {
+    "message0": "décoder la charge utile MQTT %1 en %2 et en cas d'erreur %3",
+    "tooltip": "Décode en texte les octets de la charge utile MQTT avec un encodage et une stratégie d'erreur explicites.",
+    "args0": [null, {"options": [["UTF-8", "utf-8"], ["ASCII", "ascii"], ["GBK", "gbk"]]}, {"options": [["remplacer", "replace"], ["strict", "strict"], ["ignorer", "ignore"]]}]
+  },
+  "python_mqtt_is_connected": {
+    "message0": "MQTT %1 est connecté",
+    "tooltip": "Renvoie si le client Paho se considère actuellement connecté.",
+    "args0": [null]
+  },
+  "python_mqtt_loop_start": {
+    "message0": "MQTT %1 démarrer la boucle en arrière-plan",
+    "tooltip": "Démarre le thread réseau de Paho en arrière-plan. Ne le combinez pas avec la boucle permanente ni avec des appels manuels de boucle.",
+    "args0": [null]
+  },
+  "python_mqtt_loop_stop": {
+    "message0": "MQTT %1 arrêter la boucle en arrière-plan",
+    "tooltip": "Arrête le thread réseau de Paho en arrière-plan ; cela ne garantit pas à lui seul l'envoi des publications en attente.",
+    "args0": [null]
+  },
+  "python_mqtt_loop_once": {
+    "message0": "MQTT %1 traiter le réseau une fois avec délai %2 secondes",
+    "tooltip": "Traite le trafic réseau une fois. Appelez régulièrement, gardez le délai inférieur au maintien et ne mélangez pas les modes de boucle réseau.",
+    "args0": [null, null]
+  },
+  "python_mqtt_loop": {
+    "message0": "MQTT %1 exécuter la boucle indéfiniment",
+    "tooltip": "Exécute indéfiniment la boucle réseau bloquante de Paho. Les instructions suivantes ne s'exécutent normalement qu'après une déconnexion ou une erreur.",
+    "args0": [null]
+  },
+  "python_mqtt_disconnect": {
+    "message0": "déconnecter MQTT %1",
+    "tooltip": "Demande une déconnexion MQTT propre. Arrêtez la boucle en arrière-plan après la déconnexion.",
+    "args0": [null]
+  }
+}

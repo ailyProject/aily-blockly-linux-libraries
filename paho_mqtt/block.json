@@ -1,0 +1,686 @@
+[
+  {
+    "type": "python_mqtt_init",
+    "message0": "initialize MQTT client %1 client ID %2 protocol %3 transport %4",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "client"
+      },
+      {
+        "type": "input_value",
+        "name": "CLIENT_ID",
+        "check": "String"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "PROTOCOL",
+        "options": [
+          [
+            "MQTT 3.1.1",
+            "MQTTv311"
+          ],
+          [
+            "MQTT 5",
+            "MQTTv5"
+          ]
+        ]
+      },
+      {
+        "type": "field_dropdown",
+        "name": "TRANSPORT",
+        "options": [
+          [
+            "TCP",
+            "tcp"
+          ],
+          [
+            "WebSocket",
+            "websockets"
+          ]
+        ]
+      }
+    ],
+    "colour": "#7B1FA2",
+    "tooltip": "Create a Paho MQTT 2.x client with Callback API VERSION2. Client IDs should be unique on the broker.",
+    "icon": "wifi",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "python_mqtt_set_auth",
+    "message0": "MQTT %1 set username %2 password %3",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "client"
+      },
+      {
+        "type": "input_value",
+        "name": "USERNAME",
+        "check": "String"
+      },
+      {
+        "type": "input_value",
+        "name": "PASSWORD",
+        "check": "String"
+      }
+    ],
+    "colour": "#7B1FA2",
+    "tooltip": "Configure broker credentials before connecting.",
+    "icon": "wifi",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "python_mqtt_set_tls",
+    "message0": "MQTT %1 enable TLS CA file %2 client certificate %3 private key %4",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "client"
+      },
+      {
+        "type": "input_value",
+        "name": "CA_FILE",
+        "check": "String"
+      },
+      {
+        "type": "input_value",
+        "name": "CERT_FILE",
+        "check": "String"
+      },
+      {
+        "type": "input_value",
+        "name": "KEY_FILE",
+        "check": "String"
+      }
+    ],
+    "colour": "#7B1FA2",
+    "tooltip": "Enable verified TLS before connecting. Leave CA empty to use the system trust store; client certificate and key are optional.",
+    "icon": "wifi",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "python_mqtt_set_will",
+    "message0": "MQTT %1 set will topic %2 payload %3 QoS %4 retain %5",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "client"
+      },
+      {
+        "type": "input_value",
+        "name": "TOPIC",
+        "check": "String"
+      },
+      {
+        "type": "input_value",
+        "name": "PAYLOAD"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "QOS",
+        "options": [
+          [
+            "0",
+            "0"
+          ],
+          [
+            "1",
+            "1"
+          ],
+          [
+            "2",
+            "2"
+          ]
+        ]
+      },
+      {
+        "type": "field_dropdown",
+        "name": "RETAIN",
+        "options": [
+          [
+            "false",
+            "FALSE"
+          ],
+          [
+            "true",
+            "TRUE"
+          ]
+        ]
+      }
+    ],
+    "colour": "#7B1FA2",
+    "tooltip": "Set the last-will message before connecting.",
+    "icon": "wifi",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "python_mqtt_set_websocket_options",
+    "message0": "MQTT %1 set WebSocket path %2",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "client"
+      },
+      {
+        "type": "input_value",
+        "name": "PATH",
+        "check": "String"
+      }
+    ],
+    "colour": "#7B1FA2",
+    "tooltip": "Set the broker WebSocket path before connecting; use with a WebSocket client transport.",
+    "icon": "wifi",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "python_mqtt_set_reconnect_delay",
+    "message0": "MQTT %1 set reconnect delay minimum %2 maximum %3 seconds",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "client"
+      },
+      {
+        "type": "input_value",
+        "name": "MIN_DELAY",
+        "check": "Number"
+      },
+      {
+        "type": "input_value",
+        "name": "MAX_DELAY",
+        "check": "Number"
+      }
+    ],
+    "colour": "#7B1FA2",
+    "tooltip": "Configure exponential reconnect delays used by background and blocking-forever loops; manual one-shot loop calls do not reconnect automatically.",
+    "icon": "wifi",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "python_mqtt_connect",
+    "message0": "MQTT %1 connect host %2 port %3 keepalive %4 seconds",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "client"
+      },
+      {
+        "type": "input_value",
+        "name": "HOST",
+        "check": "String"
+      },
+      {
+        "type": "input_value",
+        "name": "PORT",
+        "check": "Number"
+      },
+      {
+        "type": "input_value",
+        "name": "KEEPALIVE",
+        "check": "Number"
+      }
+    ],
+    "colour": "#7B1FA2",
+    "tooltip": "Start an MQTT connection. The broker CONNACK result is delivered only after a network loop runs.",
+    "icon": "wifi",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "python_mqtt_on_connect",
+    "message0": "when MQTT %1 connection result set success %2 reason %3 session present %4 do %5 %6",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "client"
+      },
+      {
+        "type": "field_input",
+        "name": "SUCCESS_NAME",
+        "text": "connected"
+      },
+      {
+        "type": "field_input",
+        "name": "REASON_NAME",
+        "text": "reason_code"
+      },
+      {
+        "type": "field_input",
+        "name": "SESSION_PRESENT_NAME",
+        "text": "session_present"
+      },
+      {
+        "type": "input_statement",
+        "name": "DO"
+      },
+      {
+        "type": "input_dummy"
+      }
+    ],
+    "colour": "#7B1FA2",
+    "tooltip": "Handle Paho Callback API VERSION2 connection results. Subscribe here so subscriptions are restored after reconnecting.",
+    "icon": "wifi",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "python_mqtt_on_message",
+    "message0": "when MQTT %1 receives message set topic %2 payload bytes %3 QoS %4 retained %5 do %6 %7",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "client"
+      },
+      {
+        "type": "field_input",
+        "name": "TOPIC_NAME",
+        "text": "topic"
+      },
+      {
+        "type": "field_input",
+        "name": "PAYLOAD_NAME",
+        "text": "payload"
+      },
+      {
+        "type": "field_input",
+        "name": "QOS_NAME",
+        "text": "qos"
+      },
+      {
+        "type": "field_input",
+        "name": "RETAIN_NAME",
+        "text": "retained"
+      },
+      {
+        "type": "input_statement",
+        "name": "DO"
+      },
+      {
+        "type": "input_dummy"
+      }
+    ],
+    "colour": "#7B1FA2",
+    "tooltip": "Handle an incoming message. Payload is bytes; decode it explicitly when text is required.",
+    "icon": "wifi",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "python_mqtt_on_disconnect",
+    "message0": "when MQTT %1 disconnects set reason %2 server DISCONNECT packet %3 do %4 %5",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "client"
+      },
+      {
+        "type": "field_input",
+        "name": "REASON_NAME",
+        "text": "disconnect_reason"
+      },
+      {
+        "type": "field_input",
+        "name": "FROM_SERVER_NAME",
+        "text": "from_server"
+      },
+      {
+        "type": "input_statement",
+        "name": "DO"
+      },
+      {
+        "type": "input_dummy"
+      }
+    ],
+    "colour": "#7B1FA2",
+    "tooltip": "Handle a Paho Callback API VERSION2 disconnect event. The flag says whether an MQTT DISCONNECT packet came from the broker, not whether the broker merely closed the connection.",
+    "icon": "wifi",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "python_mqtt_publish",
+    "message0": "MQTT %1 publish topic %2 payload %3 QoS %4 retain %5",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "client"
+      },
+      {
+        "type": "input_value",
+        "name": "TOPIC",
+        "check": "String"
+      },
+      {
+        "type": "input_value",
+        "name": "MESSAGE"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "QOS",
+        "options": [
+          [
+            "0",
+            "0"
+          ],
+          [
+            "1",
+            "1"
+          ],
+          [
+            "2",
+            "2"
+          ]
+        ]
+      },
+      {
+        "type": "field_dropdown",
+        "name": "RETAIN",
+        "options": [
+          [
+            "false",
+            "FALSE"
+          ],
+          [
+            "true",
+            "TRUE"
+          ]
+        ]
+      }
+    ],
+    "colour": "#7B1FA2",
+    "tooltip": "Queue a message for publishing. Use the wait-for-publish block before a prompt exit when delivery must complete.",
+    "icon": "wifi",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "python_mqtt_publish_wait",
+    "message0": "MQTT %1 publish topic %2 payload %3 QoS %4 retain %5 and wait %6 seconds",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "client"
+      },
+      {
+        "type": "input_value",
+        "name": "TOPIC",
+        "check": "String"
+      },
+      {
+        "type": "input_value",
+        "name": "MESSAGE"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "QOS",
+        "options": [
+          [
+            "0",
+            "0"
+          ],
+          [
+            "1",
+            "1"
+          ],
+          [
+            "2",
+            "2"
+          ]
+        ]
+      },
+      {
+        "type": "field_dropdown",
+        "name": "RETAIN",
+        "options": [
+          [
+            "false",
+            "FALSE"
+          ],
+          [
+            "true",
+            "TRUE"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "TIMEOUT",
+        "check": "Number"
+      }
+    ],
+    "colour": "#7B1FA2",
+    "tooltip": "Publish and wait for completion; raise TimeoutError if the message is still unpublished at the timeout. Do not call this inside a network callback.",
+    "icon": "wifi",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "python_mqtt_subscribe",
+    "message0": "MQTT %1 subscribe filter %2 QoS %3",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "client"
+      },
+      {
+        "type": "input_value",
+        "name": "TOPIC",
+        "check": "String"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "QOS",
+        "options": [
+          [
+            "0",
+            "0"
+          ],
+          [
+            "1",
+            "1"
+          ],
+          [
+            "2",
+            "2"
+          ]
+        ]
+      }
+    ],
+    "colour": "#7B1FA2",
+    "tooltip": "Subscribe to a topic filter. Place this inside the connection callback to restore it after reconnecting.",
+    "icon": "wifi",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "python_mqtt_unsubscribe",
+    "message0": "MQTT %1 unsubscribe filter %2",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "client"
+      },
+      {
+        "type": "input_value",
+        "name": "TOPIC",
+        "check": "String"
+      }
+    ],
+    "colour": "#7B1FA2",
+    "tooltip": "Unsubscribe from a topic filter.",
+    "icon": "wifi",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "python_mqtt_decode_payload",
+    "message0": "decode MQTT payload %1 as %2 on error %3",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "PAYLOAD"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "ENCODING",
+        "options": [
+          [
+            "UTF-8",
+            "utf-8"
+          ],
+          [
+            "ASCII",
+            "ascii"
+          ],
+          [
+            "GBK",
+            "gbk"
+          ]
+        ]
+      },
+      {
+        "type": "field_dropdown",
+        "name": "ERRORS",
+        "options": [
+          [
+            "replace",
+            "replace"
+          ],
+          [
+            "strict",
+            "strict"
+          ],
+          [
+            "ignore",
+            "ignore"
+          ]
+        ]
+      }
+    ],
+    "colour": "#7B1FA2",
+    "tooltip": "Decode MQTT payload bytes into text with an explicit encoding and error policy.",
+    "icon": "wifi",
+    "output": "String"
+  },
+  {
+    "type": "python_mqtt_is_connected",
+    "message0": "MQTT %1 is connected",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "client"
+      }
+    ],
+    "colour": "#7B1FA2",
+    "tooltip": "Return whether the Paho client currently considers itself connected.",
+    "icon": "wifi",
+    "output": "Boolean"
+  },
+  {
+    "type": "python_mqtt_loop_start",
+    "message0": "MQTT %1 start background loop",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "client"
+      }
+    ],
+    "colour": "#7B1FA2",
+    "tooltip": "Start Paho's background network thread. Do not mix this with loop forever or manual loop calls.",
+    "icon": "wifi",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "python_mqtt_loop_stop",
+    "message0": "MQTT %1 stop background loop",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "client"
+      }
+    ],
+    "colour": "#7B1FA2",
+    "tooltip": "Stop Paho's background network thread; this does not by itself guarantee pending publications were sent.",
+    "icon": "wifi",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "python_mqtt_loop_once",
+    "message0": "MQTT %1 process network once timeout %2 seconds",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "client"
+      },
+      {
+        "type": "input_value",
+        "name": "TIMEOUT",
+        "check": "Number"
+      }
+    ],
+    "colour": "#7B1FA2",
+    "tooltip": "Process network traffic once. Call regularly and keep timeout below keepalive; do not mix network-loop modes.",
+    "icon": "wifi",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "python_mqtt_loop",
+    "message0": "MQTT %1 loop forever",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "client"
+      }
+    ],
+    "colour": "#7B1FA2",
+    "tooltip": "Run Paho's blocking network loop forever. Following statements normally run only after disconnection or an error.",
+    "icon": "wifi",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "python_mqtt_disconnect",
+    "message0": "disconnect MQTT %1",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "client"
+      }
+    ],
+    "colour": "#7B1FA2",
+    "tooltip": "Request a clean MQTT disconnection. Stop a background loop after disconnecting.",
+    "icon": "wifi",
+    "previousStatement": null,
+    "nextStatement": null
+  }
+]

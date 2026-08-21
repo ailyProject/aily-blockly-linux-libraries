@@ -1,0 +1,395 @@
+{
+  "toolbox_name": "相機與 AI",
+  "toolbox_categories": [
+    "相機與螢幕",
+    "KPU 人工智能"
+  ],
+  "toolbox_labels": {
+    "Camera and display": "相機與螢幕",
+    "KPU AI": "KPU 人工智能"
+  },
+  "cybercam_camera_init": {
+    "message0": "初始化相機 %1，寬 %2，高 %3，感測器 %4",
+    "tooltip": "初始化相機 %1，寬 %2，高 %3，感測器 %4",
+    "args0": [
+      null,
+      null,
+      null,
+      {
+        "options": [
+          [
+            "板載 CSI2",
+            "2"
+          ],
+          [
+            "CSI0",
+            "0"
+          ]
+        ]
+      }
+    ]
+  },
+  "cybercam_camera_opened": {
+    "message0": "相機 %1 已開啟",
+    "tooltip": "相機 %1 已開啟",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_camera_read": {
+    "message0": "相機 %1 的圖像",
+    "tooltip": "相機 %1 的圖像",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_camera_read_raw": {
+    "message0": "相機 %1 原始讀取結果",
+    "tooltip": "傳回完整的 camera.read() 結果，包含成功標誌與影像。",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_camera_hmirror": {
+    "message0": "設定相機 %1 水平鏡像 %2",
+    "tooltip": "設定相機 %1 水平鏡像 %2",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "cybercam_camera_vflip": {
+    "message0": "設定相機 %1 垂直翻轉 %2",
+    "tooltip": "設定相機 %1 垂直翻轉 %2",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "cybercam_camera_release": {
+    "message0": "釋放相機 %1",
+    "tooltip": "釋放相機 %1",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_display_init": {
+    "message0": "初始化板載螢幕",
+    "tooltip": "初始化板載螢幕"
+  },
+  "cybercam_display_rotation": {
+    "message0": "將螢幕旋轉角度設為 %1",
+    "tooltip": "將螢幕旋轉角度設為 %1",
+    "args0": [
+      {
+        "options": [
+          [
+            "0°",
+            "0"
+          ],
+          [
+            "90°",
+            "1"
+          ],
+          [
+            "180°",
+            "2"
+          ],
+          [
+            "270°",
+            "3"
+          ]
+        ]
+      }
+    ]
+  },
+  "cybercam_display_show": {
+    "message0": "在螢幕上顯示圖像 %1",
+    "tooltip": "在螢幕上顯示圖像 %1",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_ide_show": {
+    "message0": "在 IDE 中顯示圖像 %1",
+    "tooltip": "在 IDE 中顯示圖像 %1",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_lcd_direction": {
+    "message0": "目前螢幕方向",
+    "tooltip": "目前螢幕方向"
+  },
+  "cybercam_ai_init_simple": {
+    "message0": "初始化 AI %1，模型 %2，路徑 %3，尺寸 %4",
+    "tooltip": "初始化 AI %1，模型 %2，路徑 %3，尺寸 %4",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "跌倒偵測",
+            "FALL_DETECT"
+          ],
+          [
+            "手部偵測",
+            "HAND_DETECT"
+          ],
+          [
+            "人員偵測",
+            "PERSON_DETECT"
+          ],
+          [
+            "人體關鍵點",
+            "PERSON_KEYPOINT"
+          ],
+          [
+            "煙霧偵測",
+            "SMOKE_DETECT"
+          ],
+          [
+            "交通燈偵測",
+            "TRAFFIC_LIGHT_DETECT"
+          ],
+          [
+            "YOLO11 分類",
+            "YOLO11_CLS"
+          ],
+          [
+            "YOLO11 偵測",
+            "YOLO11_DET"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "cybercam_ai_init_face": {
+    "message0": "初始化人臉偵測器 %1，模型 %2，錨點 %3，尺寸 %4",
+    "tooltip": "初始化人臉偵測器 %1，模型 %2，錨點 %3，尺寸 %4",
+    "args0": [
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "cybercam_ai_init_mask": {
+    "message0": "初始化口罩偵測器 %1，偵測模型 %2，錨點 %3，尺寸 %4，口罩模型 %5",
+    "tooltip": "初始化口罩偵測器 %1，偵測模型 %2，錨點 %3，尺寸 %4，口罩模型 %5",
+    "args0": [
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "cybercam_ai_init_hand_keypoint": {
+    "message0": "初始化手部 AI %1，類型 %2，偵測模型 %3，關鍵點模型 %4",
+    "tooltip": "初始化手部 AI %1，類型 %2，偵測模型 %3，關鍵點模型 %4",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "關鍵點",
+            "HAND_KEYPOINT"
+          ],
+          [
+            "手勢分類",
+            "HAND_KEYPOINT_CLS"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "cybercam_ai_init_ocr": {
+    "message0": "初始化 OCR %1，偵測模型 %2，辨識模型 %3，字典 %4，偵測尺寸 %5，辨識寬 %6、高 %7",
+    "tooltip": "初始化 OCR %1，偵測模型 %2，辨識模型 %3，字典 %4，偵測尺寸 %5，辨識寬 %6、高 %7",
+    "args0": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "cybercam_ai_init_licence": {
+    "message0": "初始化車牌 AI %1，偵測模型 %2，辨識模型 %3，錨點 %4，標籤 %5，偵測尺寸 %6，辨識寬 %7、高 %8",
+    "tooltip": "初始化車牌 AI %1，偵測模型 %2，辨識模型 %3，錨點 %4，標籤 %5，偵測尺寸 %6，辨識寬 %7、高 %8",
+    "args0": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "cybercam_ai_run": {
+    "message0": "用 AI %1 處理 %2",
+    "tooltip": "用 AI %1 處理 %2",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "cybercam_ai_run_confidence": {
+    "message0": "用 AI %1 處理 %2，信心度 %3",
+    "tooltip": "用 AI %1 處理 %2，信心度 %3",
+    "args0": [
+      null,
+      null,
+      null
+    ]
+  },
+  "cybercam_ai_run_thresholds": {
+    "message0": "用 AI %1 處理 %2，信心度 %3，NMS %4",
+    "tooltip": "用 AI %1 處理 %2，信心度 %3，NMS %4",
+    "args0": [
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "cybercam_result_length": {
+    "message0": "結果清單 %1 的長度",
+    "tooltip": "結果清單 %1 的長度",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_result_item": {
+    "message0": "結果清單 %1 的第 %2 項",
+    "tooltip": "結果清單 %1 的第 %2 項",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "cybercam_result_property": {
+    "message0": "結果 %1 的屬性 %2",
+    "tooltip": "結果 %1 的屬性 %2",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "信心度",
+            "reliability"
+          ],
+          [
+            "x",
+            "x"
+          ],
+          [
+            "y",
+            "y"
+          ],
+          [
+            "寬度",
+            "w"
+          ],
+          [
+            "高度",
+            "h"
+          ],
+          [
+            "標籤",
+            "label"
+          ],
+          [
+            "文字",
+            "text"
+          ],
+          [
+            "遮罩",
+            "mask"
+          ],
+          [
+            "前 5 項",
+            "top5"
+          ],
+          [
+            "關鍵點",
+            "keypoints"
+          ],
+          [
+            "角點",
+            "corners"
+          ],
+          [
+            "左眼",
+            "left_eye"
+          ],
+          [
+            "左眼 x",
+            "left_eye.x"
+          ],
+          [
+            "左眼 y",
+            "left_eye.y"
+          ],
+          [
+            "右眼",
+            "right_eye"
+          ],
+          [
+            "右眼 x",
+            "right_eye.x"
+          ],
+          [
+            "右眼 y",
+            "right_eye.y"
+          ],
+          [
+            "鼻子",
+            "nose"
+          ],
+          [
+            "鼻子 x",
+            "nose.x"
+          ],
+          [
+            "鼻子 y",
+            "nose.y"
+          ],
+          [
+            "左嘴角",
+            "left_mouth"
+          ],
+          [
+            "左嘴角 x",
+            "left_mouth.x"
+          ],
+          [
+            "左嘴角 y",
+            "left_mouth.y"
+          ],
+          [
+            "右嘴角",
+            "right_mouth"
+          ],
+          [
+            "右嘴角 x",
+            "right_mouth.x"
+          ],
+          [
+            "右嘴角 y",
+            "right_mouth.y"
+          ]
+        ]
+      }
+    ]
+  }
+}

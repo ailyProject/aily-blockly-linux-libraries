@@ -1,0 +1,50 @@
+{
+  "toolbox_name": "I2C / SMBus",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "rpi_i2c_init": {
+    "message0": "I2C %1 버스 %2 초기화",
+    "tooltip": "smbus2를 사용하여 Linux I2C 버스를 엽니다.",
+    "args0": [null, null]
+  },
+  "rpi_i2c_read_byte_data": {
+    "message0": "I2C %1 주소 %2 레지스터 %3 바이트 읽기",
+    "tooltip": "I2C 레지스터에서 8비트 값을 읽습니다.",
+    "args0": [null, null, null]
+  },
+  "rpi_i2c_write_byte_data": {
+    "message0": "I2C %1 주소 %2 레지스터 %3 바이트 %4 쓰기",
+    "tooltip": "I2C 레지스터에 8비트 값을 씁니다.",
+    "args0": [null, null, null, null]
+  },
+  "rpi_i2c_read_word_data": {
+    "message0": "I2C %1 주소 %2 레지스터 %3 워드 읽기",
+    "tooltip": "레지스터에서 16비트 리틀 엔디언 SMBus 워드를 읽습니다.",
+    "args0": [null, null, null]
+  },
+  "rpi_i2c_write_word_data": {
+    "message0": "I2C %1 주소 %2 레지스터 %3 워드 %4 쓰기",
+    "tooltip": "레지스터에 16비트 리틀 엔디언 SMBus 워드를 씁니다.",
+    "args0": [null, null, null, null]
+  },
+  "rpi_i2c_read_i2c_block": {
+    "message0": "I2C %1 주소 %2 레지스터 %3 에서 %4 바이트 읽기",
+    "tooltip": "I2C 레지스터에서 바이트 블록을 읽습니다.",
+    "args0": [null, null, null, null]
+  },
+  "rpi_i2c_write_i2c_block": {
+    "message0": "I2C %1 주소 %2 레지스터 %3 블록 데이터 %4 쓰기",
+    "tooltip": "I2C 레지스터에 바이트 목록을 씁니다.",
+    "args0": [null, null, null, null]
+  },
+  "rpi_i2c_write_read": {
+    "message0": "I2C %1 반복 시작 주소 %2 쓰기 %3 읽기 %4 바이트",
+    "tooltip": "한 번의 반복 시작 I2C 트랜잭션에서 바이트를 쓰고 응답을 읽습니다.",
+    "args0": [null, null, null, null]
+  },
+  "rpi_i2c_close": {
+    "message0": "I2C %1 닫기",
+    "tooltip": "I2C 버스를 닫습니다.",
+    "args0": [null]
+  }
+}

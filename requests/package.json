@@ -1,0 +1,47 @@
+{
+  "name": "@aily-project/lib-requests",
+  "nickname": "Requests",
+  "nickname_zh_cn": "HTTP 请求",
+  "nickname_en": "Requests",
+  "nickname_zh_hk": "HTTP 請求",
+  "nickname_ja": "HTTP リクエスト",
+  "nickname_ko": "HTTP 요청",
+  "nickname_de": "HTTP-Anfragen",
+  "nickname_fr": "Requêtes HTTP",
+  "nickname_es": "Solicitudes HTTP",
+  "nickname_pt": "Requisições HTTP",
+  "nickname_ru": "HTTP-запросы",
+  "nickname_ar": "طلبات HTTP",
+  "version": "0.0.1",
+  "description": "面向 CyberCAM、树莓派与通用 Linux 的 Python Requests HTTP 客户端。",
+  "description_zh_cn": "面向 CyberCAM、树莓派与通用 Linux 的 Python Requests HTTP 客户端。",
+  "description_en": "Python Requests HTTP client for CyberCAM, Raspberry Pi, and general Linux.",
+  "spec": true,
+  "compatibility": {
+    "type": [
+      "canaan:k230:cybercam",
+      "broadcom:bcm2712:raspberrypi_5",
+      "allwinner:t527:walnutpi_2b"
+    ],
+    "voltage": [
+      3.3
+    ]
+  },
+  "keywords": [
+    "aily",
+    "blockly",
+    "python",
+    "requests",
+    "http",
+    "https",
+    "rest",
+    "api"
+  ],
+  "tags": [
+    "communication"
+  ],
+  "author": "ailyProject",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {}
+}

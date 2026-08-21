@@ -1,0 +1,479 @@
+{
+  "kind": "category",
+  "name": "Network",
+  "colour": "#0288D1",
+  "contents": [
+    {
+      "kind": "category",
+      "name": "Socket setup",
+      "colour": "#0288D1",
+      "contents": [
+        {
+          "kind": "block",
+          "type": "python_socket_init"
+        },
+        {
+          "kind": "block",
+          "type": "python_socket_address",
+          "inputs": {
+            "HOST": {
+              "shadow": {
+                "type": "text",
+                "fields": {
+                  "TEXT": "127.0.0.1"
+                }
+              }
+            },
+            "PORT": {
+              "shadow": {
+                "type": "math_number",
+                "fields": {
+                  "NUM": 10000
+                }
+              }
+            }
+          }
+        },
+        {
+          "kind": "block",
+          "type": "python_socket_set_timeout",
+          "inputs": {
+            "SECONDS": {
+              "shadow": {
+                "type": "math_number",
+                "fields": {
+                  "NUM": 5
+                }
+              }
+            }
+          }
+        },
+        {
+          "kind": "block",
+          "type": "python_socket_set_blocking"
+        },
+        {
+          "kind": "block",
+          "type": "python_socket_set_option"
+        },
+        {
+          "kind": "block",
+          "type": "python_socket_shutdown"
+        },
+        {
+          "kind": "block",
+          "type": "python_socket_close"
+        }
+      ]
+    },
+    {
+      "kind": "category",
+      "name": "TCP communication",
+      "colour": "#0288D1",
+      "contents": [
+        {
+          "kind": "block",
+          "type": "python_socket_connect",
+          "inputs": {
+            "ADDRESS": {
+              "shadow": {
+                "type": "python_socket_address",
+                "fields": {
+                  "FAMILY": "AF_INET",
+                  "TYPE": "SOCK_STREAM"
+                },
+                "inputs": {
+                  "HOST": {
+                    "shadow": {
+                      "type": "text",
+                      "fields": {
+                        "TEXT": "127.0.0.1"
+                      }
+                    }
+                  },
+                  "PORT": {
+                    "shadow": {
+                      "type": "math_number",
+                      "fields": {
+                        "NUM": 10000
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "kind": "block",
+          "type": "python_socket_bind",
+          "inputs": {
+            "ADDRESS": {
+              "shadow": {
+                "type": "python_socket_address",
+                "fields": {
+                  "FAMILY": "AF_INET",
+                  "TYPE": "SOCK_STREAM"
+                },
+                "inputs": {
+                  "HOST": {
+                    "shadow": {
+                      "type": "text",
+                      "fields": {
+                        "TEXT": "0.0.0.0"
+                      }
+                    }
+                  },
+                  "PORT": {
+                    "shadow": {
+                      "type": "math_number",
+                      "fields": {
+                        "NUM": 10000
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "kind": "block",
+          "type": "python_socket_listen",
+          "inputs": {
+            "BACKLOG": {
+              "shadow": {
+                "type": "math_number",
+                "fields": {
+                  "NUM": 5
+                }
+              }
+            }
+          }
+        },
+        {
+          "kind": "block",
+          "type": "python_socket_accept_into",
+          "fields": {
+            "NAME": "sock",
+            "CLIENT_NAME": "client",
+            "ADDRESS_NAME": "client_address"
+          }
+        },
+        {
+          "kind": "block",
+          "type": "python_socket_accept"
+        },
+        {
+          "kind": "block",
+          "type": "python_socket_send",
+          "inputs": {
+            "DATA": {
+              "shadow": {
+                "type": "text",
+                "fields": {
+                  "TEXT": "Hello"
+                }
+              }
+            }
+          }
+        },
+        {
+          "kind": "block",
+          "type": "python_socket_receive",
+          "inputs": {
+            "SIZE": {
+              "shadow": {
+                "type": "math_number",
+                "fields": {
+                  "NUM": 1024
+                }
+              }
+            }
+          }
+        },
+        {
+          "kind": "block",
+          "type": "python_socket_send",
+          "fields": {
+            "NAME": "client"
+          },
+          "inputs": {
+            "DATA": {
+              "shadow": {
+                "type": "text",
+                "fields": {
+                  "TEXT": "Hello"
+                }
+              }
+            }
+          }
+        },
+        {
+          "kind": "block",
+          "type": "python_socket_receive",
+          "fields": {
+            "NAME": "client"
+          },
+          "inputs": {
+            "SIZE": {
+              "shadow": {
+                "type": "math_number",
+                "fields": {
+                  "NUM": 1024
+                }
+              }
+            }
+          }
+        },
+        {
+          "kind": "block",
+          "type": "python_socket_close",
+          "fields": {
+            "NAME": "client"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "category",
+      "name": "UDP communication",
+      "colour": "#0288D1",
+      "contents": [
+        {
+          "kind": "block",
+          "type": "python_socket_init",
+          "fields": {
+            "NAME": "udp_sock",
+            "FAMILY": "AF_INET",
+            "TYPE": "SOCK_DGRAM"
+          }
+        },
+        {
+          "kind": "block",
+          "type": "python_socket_bind",
+          "fields": {
+            "NAME": "udp_sock"
+          },
+          "inputs": {
+            "ADDRESS": {
+              "shadow": {
+                "type": "python_socket_address",
+                "fields": {
+                  "FAMILY": "AF_INET",
+                  "TYPE": "SOCK_DGRAM"
+                },
+                "inputs": {
+                  "HOST": {
+                    "shadow": {
+                      "type": "text",
+                      "fields": {
+                        "TEXT": "0.0.0.0"
+                      }
+                    }
+                  },
+                  "PORT": {
+                    "shadow": {
+                      "type": "math_number",
+                      "fields": {
+                        "NUM": 10000
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "kind": "block",
+          "type": "python_socket_send_to",
+          "fields": {
+            "NAME": "udp_sock"
+          },
+          "inputs": {
+            "DATA": {
+              "shadow": {
+                "type": "text",
+                "fields": {
+                  "TEXT": "Hello"
+                }
+              }
+            },
+            "ADDRESS": {
+              "shadow": {
+                "type": "python_socket_address",
+                "fields": {
+                  "FAMILY": "AF_INET",
+                  "TYPE": "SOCK_DGRAM"
+                },
+                "inputs": {
+                  "HOST": {
+                    "shadow": {
+                      "type": "text",
+                      "fields": {
+                        "TEXT": "127.0.0.1"
+                      }
+                    }
+                  },
+                  "PORT": {
+                    "shadow": {
+                      "type": "math_number",
+                      "fields": {
+                        "NUM": 10000
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "kind": "block",
+          "type": "python_socket_receive_from_into",
+          "fields": {
+            "NAME": "udp_sock",
+            "DATA_NAME": "data",
+            "ADDRESS_NAME": "sender_address"
+          },
+          "inputs": {
+            "SIZE": {
+              "shadow": {
+                "type": "math_number",
+                "fields": {
+                  "NUM": 1024
+                }
+              }
+            }
+          }
+        },
+        {
+          "kind": "block",
+          "type": "python_socket_receive_from",
+          "fields": {
+            "NAME": "udp_sock"
+          },
+          "inputs": {
+            "SIZE": {
+              "shadow": {
+                "type": "math_number",
+                "fields": {
+                  "NUM": 1024
+                }
+              }
+            }
+          }
+        },
+        {
+          "kind": "block",
+          "type": "python_socket_close",
+          "fields": {
+            "NAME": "udp_sock"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "category",
+      "name": "Socket utilities",
+      "colour": "#0288D1",
+      "contents": [
+        {
+          "kind": "block",
+          "type": "python_socket_ready",
+          "inputs": {
+            "TIMEOUT": {
+              "shadow": {
+                "type": "math_number",
+                "fields": {
+                  "NUM": 0
+                }
+              }
+            }
+          }
+        },
+        {
+          "kind": "block",
+          "type": "python_socket_endpoint"
+        },
+        {
+          "kind": "block",
+          "type": "python_socket_address_part",
+          "inputs": {
+            "ADDRESS": {
+              "shadow": {
+                "type": "python_socket_address",
+                "inputs": {
+                  "HOST": {
+                    "shadow": {
+                      "type": "text",
+                      "fields": {
+                        "TEXT": "127.0.0.1"
+                      }
+                    }
+                  },
+                  "PORT": {
+                    "shadow": {
+                      "type": "math_number",
+                      "fields": {
+                        "NUM": 10000
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "kind": "block",
+          "type": "python_socket_encode",
+          "inputs": {
+            "TEXT": {
+              "shadow": {
+                "type": "text",
+                "fields": {
+                  "TEXT": "Hello"
+                }
+              }
+            }
+          }
+        },
+        {
+          "kind": "block",
+          "type": "python_socket_decode"
+        }
+      ]
+    },
+    {
+      "kind": "category",
+      "name": "HTTP",
+      "colour": "#0288D1",
+      "contents": [
+        {
+          "kind": "block",
+          "type": "python_http_server",
+          "inputs": {
+            "HOST": {
+              "shadow": {
+                "type": "text",
+                "fields": {
+                  "TEXT": "localhost"
+                }
+              }
+            },
+            "PORT": {
+              "shadow": {
+                "type": "math_number",
+                "fields": {
+                  "NUM": 8080
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

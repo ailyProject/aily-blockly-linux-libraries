@@ -1,0 +1,471 @@
+{
+  "kind": "category",
+  "name": "Camera & AI",
+  "colour": "#1976D2",
+  "contents": [
+    {
+      "kind": "category",
+      "name": "Camera and display",
+      "colour": "#1976D2",
+      "contents": [
+        {
+          "kind": "block",
+          "type": "cybercam_camera_init",
+          "inputs": {
+            "WIDTH": {
+              "shadow": {
+                "type": "math_number",
+                "fields": {
+                  "NUM": 640
+                }
+              }
+            },
+            "HEIGHT": {
+              "shadow": {
+                "type": "math_number",
+                "fields": {
+                  "NUM": 480
+                }
+              }
+            }
+          }
+        },
+        {
+          "kind": "block",
+          "type": "cybercam_camera_opened"
+        },
+        {
+          "kind": "block",
+          "type": "cybercam_camera_read"
+        },
+        {
+          "kind": "block",
+          "type": "cybercam_camera_read_raw"
+        },
+        {
+          "kind": "block",
+          "type": "cybercam_camera_hmirror",
+          "inputs": {
+            "ENABLED": {
+              "shadow": {
+                "type": "logic_boolean",
+                "fields": {
+                  "BOOL": "TRUE"
+                }
+              }
+            }
+          }
+        },
+        {
+          "kind": "block",
+          "type": "cybercam_camera_vflip",
+          "inputs": {
+            "ENABLED": {
+              "shadow": {
+                "type": "logic_boolean",
+                "fields": {
+                  "BOOL": "TRUE"
+                }
+              }
+            }
+          }
+        },
+        {
+          "kind": "block",
+          "type": "cybercam_camera_release"
+        },
+        {
+          "kind": "block",
+          "type": "cybercam_display_init"
+        },
+        {
+          "kind": "block",
+          "type": "cybercam_display_rotation"
+        },
+        {
+          "kind": "block",
+          "type": "cybercam_display_show",
+          "inputs": {
+            "IMAGE": {
+              "shadow": {
+                "type": "text",
+                "fields": {
+                  "TEXT": ""
+                }
+              }
+            }
+          }
+        },
+        {
+          "kind": "block",
+          "type": "cybercam_ide_show",
+          "inputs": {
+            "IMAGE": {
+              "shadow": {
+                "type": "text",
+                "fields": {
+                  "TEXT": ""
+                }
+              }
+            }
+          }
+        },
+        {
+          "kind": "block",
+          "type": "cybercam_lcd_direction"
+        }
+      ]
+    },
+    {
+      "kind": "category",
+      "name": "KPU AI",
+      "colour": "#7B1FA2",
+      "contents": [
+        {
+          "kind": "block",
+          "type": "cybercam_ai_init_simple",
+          "inputs": {
+            "MODEL_PATH": {
+              "shadow": {
+                "type": "text",
+                "fields": {
+                  "TEXT": "/data/model.kmodel"
+                }
+              }
+            },
+            "MODEL_SIZE": {
+              "shadow": {
+                "type": "math_number",
+                "fields": {
+                  "NUM": 640
+                }
+              }
+            }
+          }
+        },
+        {
+          "kind": "block",
+          "type": "cybercam_ai_init_face",
+          "inputs": {
+            "MODEL_PATH": {
+              "shadow": {
+                "type": "text",
+                "fields": {
+                  "TEXT": "/data/model.kmodel"
+                }
+              }
+            },
+            "ANCHORS_PATH": {
+              "shadow": {
+                "type": "text",
+                "fields": {
+                  "TEXT": "/data/anchors.bin"
+                }
+              }
+            },
+            "MODEL_SIZE": {
+              "shadow": {
+                "type": "math_number",
+                "fields": {
+                  "NUM": 640
+                }
+              }
+            }
+          }
+        },
+        {
+          "kind": "block",
+          "type": "cybercam_ai_init_mask",
+          "inputs": {
+            "DETECT_MODEL": {
+              "shadow": {
+                "type": "text",
+                "fields": {
+                  "TEXT": "/data/detect.kmodel"
+                }
+              }
+            },
+            "ANCHORS_PATH": {
+              "shadow": {
+                "type": "text",
+                "fields": {
+                  "TEXT": "/data/anchors.bin"
+                }
+              }
+            },
+            "MODEL_SIZE": {
+              "shadow": {
+                "type": "math_number",
+                "fields": {
+                  "NUM": 640
+                }
+              }
+            },
+            "MASK_MODEL": {
+              "shadow": {
+                "type": "text",
+                "fields": {
+                  "TEXT": "/data/mask.kmodel"
+                }
+              }
+            }
+          }
+        },
+        {
+          "kind": "block",
+          "type": "cybercam_ai_init_hand_keypoint",
+          "inputs": {
+            "DETECT_MODEL": {
+              "shadow": {
+                "type": "text",
+                "fields": {
+                  "TEXT": "/data/detect.kmodel"
+                }
+              }
+            },
+            "KEYPOINT_MODEL": {
+              "shadow": {
+                "type": "text",
+                "fields": {
+                  "TEXT": "/data/keypoint.kmodel"
+                }
+              }
+            }
+          }
+        },
+        {
+          "kind": "block",
+          "type": "cybercam_ai_init_ocr",
+          "inputs": {
+            "DETECT_MODEL": {
+              "shadow": {
+                "type": "text",
+                "fields": {
+                  "TEXT": "/data/detect.kmodel"
+                }
+              }
+            },
+            "RECOGNITION_MODEL": {
+              "shadow": {
+                "type": "text",
+                "fields": {
+                  "TEXT": "/data/recognition.kmodel"
+                }
+              }
+            },
+            "DICTIONARY": {
+              "shadow": {
+                "type": "text",
+                "fields": {
+                  "TEXT": "/data/dict.txt"
+                }
+              }
+            },
+            "DETECT_SIZE": {
+              "shadow": {
+                "type": "math_number",
+                "fields": {
+                  "NUM": 640
+                }
+              }
+            },
+            "RECOGNITION_WIDTH": {
+              "shadow": {
+                "type": "math_number",
+                "fields": {
+                  "NUM": 512
+                }
+              }
+            },
+            "RECOGNITION_HEIGHT": {
+              "shadow": {
+                "type": "math_number",
+                "fields": {
+                  "NUM": 32
+                }
+              }
+            }
+          }
+        },
+        {
+          "kind": "block",
+          "type": "cybercam_ai_init_licence",
+          "inputs": {
+            "DETECT_MODEL": {
+              "shadow": {
+                "type": "text",
+                "fields": {
+                  "TEXT": "/data/detect.kmodel"
+                }
+              }
+            },
+            "RECOGNITION_MODEL": {
+              "shadow": {
+                "type": "text",
+                "fields": {
+                  "TEXT": "/data/recognition.kmodel"
+                }
+              }
+            },
+            "ANCHORS_PATH": {
+              "shadow": {
+                "type": "text",
+                "fields": {
+                  "TEXT": "/data/anchors.bin"
+                }
+              }
+            },
+            "LABELS": {
+              "shadow": {
+                "type": "text",
+                "fields": {
+                  "TEXT": ""
+                }
+              }
+            },
+            "DETECT_SIZE": {
+              "shadow": {
+                "type": "math_number",
+                "fields": {
+                  "NUM": 640
+                }
+              }
+            },
+            "RECOGNITION_WIDTH": {
+              "shadow": {
+                "type": "math_number",
+                "fields": {
+                  "NUM": 512
+                }
+              }
+            },
+            "RECOGNITION_HEIGHT": {
+              "shadow": {
+                "type": "math_number",
+                "fields": {
+                  "NUM": 32
+                }
+              }
+            }
+          }
+        },
+        {
+          "kind": "block",
+          "type": "cybercam_ai_run",
+          "inputs": {
+            "IMAGE": {
+              "shadow": {
+                "type": "text",
+                "fields": {
+                  "TEXT": ""
+                }
+              }
+            }
+          }
+        },
+        {
+          "kind": "block",
+          "type": "cybercam_ai_run_confidence",
+          "inputs": {
+            "IMAGE": {
+              "shadow": {
+                "type": "text",
+                "fields": {
+                  "TEXT": ""
+                }
+              }
+            },
+            "CONFIDENCE": {
+              "shadow": {
+                "type": "math_number",
+                "fields": {
+                  "NUM": 0.5
+                }
+              }
+            }
+          }
+        },
+        {
+          "kind": "block",
+          "type": "cybercam_ai_run_thresholds",
+          "inputs": {
+            "IMAGE": {
+              "shadow": {
+                "type": "text",
+                "fields": {
+                  "TEXT": ""
+                }
+              }
+            },
+            "CONFIDENCE": {
+              "shadow": {
+                "type": "math_number",
+                "fields": {
+                  "NUM": 0.5
+                }
+              }
+            },
+            "NMS": {
+              "shadow": {
+                "type": "math_number",
+                "fields": {
+                  "NUM": 0.45
+                }
+              }
+            }
+          }
+        },
+        {
+          "kind": "block",
+          "type": "cybercam_result_length",
+          "inputs": {
+            "RESULTS": {
+              "shadow": {
+                "type": "text",
+                "fields": {
+                  "TEXT": ""
+                }
+              }
+            }
+          }
+        },
+        {
+          "kind": "block",
+          "type": "cybercam_result_item",
+          "inputs": {
+            "RESULTS": {
+              "shadow": {
+                "type": "text",
+                "fields": {
+                  "TEXT": ""
+                }
+              }
+            },
+            "INDEX": {
+              "shadow": {
+                "type": "math_number",
+                "fields": {
+                  "NUM": 0
+                }
+              }
+            }
+          }
+        },
+        {
+          "kind": "block",
+          "type": "cybercam_result_property",
+          "inputs": {
+            "RESULT": {
+              "shadow": {
+                "type": "text",
+                "fields": {
+                  "TEXT": ""
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

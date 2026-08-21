@@ -1,0 +1,25 @@
+{
+  "kind": "category",
+  "name": "System",
+  "colour": "#EF6C00",
+  "contents": [
+    {
+      "kind": "block",
+      "type": "python_command",
+      "inputs": {
+        "COMMAND": {
+          "shadow": {
+            "type": "text",
+            "fields": {
+              "TEXT": "uname -a"
+            }
+          }
+        }
+      }
+    },
+    {
+      "kind": "block",
+      "type": "python_cpu_temperature"
+    }
+  ]
+}

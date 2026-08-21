@@ -1,0 +1,142 @@
+{
+  "toolbox_name": "Serial",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "linux_uart_init": {
+    "message0": "initialize serial %1 device %2 baud %3",
+    "tooltip": "initialize serial %1 device %2 baud %3",
+    "args0": [
+      null,
+      null,
+      {
+        "options": [
+          [
+            "9600",
+            "9600"
+          ],
+          [
+            "19200",
+            "19200"
+          ],
+          [
+            "38400",
+            "38400"
+          ],
+          [
+            "57600",
+            "57600"
+          ],
+          [
+            "115200",
+            "115200"
+          ]
+        ]
+      }
+    ]
+  },
+  "linux_uart_available": {
+    "message0": "serial %1 bytes available",
+    "tooltip": "serial %1 bytes available",
+    "args0": [
+      null
+    ]
+  },
+  "linux_uart_read": {
+    "message0": "serial %1 read %2 bytes",
+    "tooltip": "serial %1 read %2 bytes",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "linux_uart_write": {
+    "message0": "serial %1 write %2",
+    "tooltip": "serial %1 write %2",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "linux_uart_flush": {
+    "message0": "flush serial %1 input",
+    "tooltip": "flush serial %1 input",
+    "args0": [
+      null
+    ]
+  },
+  "linux_uart_close": {
+    "message0": "close serial %1",
+    "tooltip": "close serial %1",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_uart_init": {
+    "message0": "initialize UART %1 baud %2",
+    "tooltip": "initialize UART %1 baud %2",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "9600",
+            "9600"
+          ],
+          [
+            "19200",
+            "19200"
+          ],
+          [
+            "38400",
+            "38400"
+          ],
+          [
+            "57600",
+            "57600"
+          ],
+          [
+            "115200",
+            "115200"
+          ]
+        ]
+      }
+    ]
+  },
+  "cybercam_uart_available": {
+    "message0": "UART %1 bytes available",
+    "tooltip": "UART %1 bytes available",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_uart_read": {
+    "message0": "UART %1 read %2 bytes",
+    "tooltip": "UART %1 read %2 bytes",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "cybercam_uart_write": {
+    "message0": "UART %1 write %2",
+    "tooltip": "UART %1 write %2",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "cybercam_uart_flush": {
+    "message0": "flush UART %1 input",
+    "tooltip": "flush UART %1 input",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_uart_close": {
+    "message0": "close UART %1",
+    "tooltip": "close UART %1",
+    "args0": [
+      null
+    ]
+  }
+}

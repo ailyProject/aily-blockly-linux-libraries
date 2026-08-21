@@ -1,0 +1,72 @@
+{
+  "toolbox_name": "GPIO / LED / PWM",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "cybercam_gpio_init": {
+    "message0": "GPIO %1 を初期化：ピン %2、方向 %3、プル %4",
+    "tooltip": "公式の board と digitalio モジュールでデジタル IO オブジェクトを作成します。",
+    "args0": [
+      null,
+      null,
+      { "options": [["入力", "INPUT"], ["出力", "OUTPUT"]] },
+      { "options": [["なし", "NONE"], ["プルアップ", "UP"], ["プルダウン", "DOWN"]] }
+    ]
+  },
+  "cybercam_gpio_write": {
+    "message0": "GPIO %1 を %2 に設定",
+    "tooltip": "GPIO %1 を %2 に設定",
+    "args0": [null, null]
+  },
+  "cybercam_gpio_read": {
+    "message0": "GPIO %1 の値",
+    "tooltip": "GPIO %1 の値",
+    "args0": [null]
+  },
+  "cybercam_gpio_deinit": {
+    "message0": "GPIO %1 を初期化解除",
+    "tooltip": "GPIO %1 を初期化解除",
+    "args0": [null]
+  },
+  "cybercam_led_write": {
+    "message0": "オンボード LED を %1 に設定",
+    "tooltip": "オンボード LED を %1 に設定",
+    "args0": [null]
+  },
+  "cybercam_key_pressed": {
+    "message0": "オンボードキーが押されている",
+    "tooltip": "オンボードキーが押されている"
+  },
+  "cybercam_pwm_init": {
+    "message0": "PWM %1 を初期化：対象 %2",
+    "tooltip": "PWM %1 を初期化：対象 %2",
+    "args0": [
+      null,
+      { "options": [["GPIO60 / PWM0", "0,0"], ["GPIO61 / PWM1", "0,1"], ["補助灯 / PWM2", "0,2"], ["ブザー / PWM3", "1,0"], ["バックライト / PWM5", "1,2"]] }
+    ]
+  },
+  "cybercam_pwm_frequency": {
+    "message0": "PWM %1 の周波数を %2 Hz に設定",
+    "tooltip": "PWM %1 の周波数を %2 Hz に設定",
+    "args0": [null, null]
+  },
+  "cybercam_pwm_duty": {
+    "message0": "PWM %1 のデューティ比を %2（0–1）に設定",
+    "tooltip": "PWM %1 のデューティ比を %2（0–1）に設定",
+    "args0": [null, null]
+  },
+  "cybercam_pwm_enable": {
+    "message0": "PWM %1 を有効化",
+    "tooltip": "PWM %1 を有効化",
+    "args0": [null]
+  },
+  "cybercam_pwm_disable": {
+    "message0": "PWM %1 を無効化",
+    "tooltip": "PWM %1 を無効化",
+    "args0": [null]
+  },
+  "cybercam_pwm_close": {
+    "message0": "PWM %1 を閉じる",
+    "tooltip": "PWM %1 を閉じる",
+    "args0": [null]
+  }
+}

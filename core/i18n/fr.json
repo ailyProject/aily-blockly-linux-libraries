@@ -1,0 +1,115 @@
+{
+  "toolbox_name": "Noyau",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_start": {
+    "message0": "quand le programme démarre %1 %2",
+    "tooltip": "Exécuter une fois au démarrage du programme.",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_forever": {
+    "message0": "répéter indéfiniment %1 %2",
+    "tooltip": "Exécuter les blocs contenus de manière répétée.",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_sleep": {
+    "message0": "attendre %1 secondes",
+    "tooltip": "Suspendre le programme pendant le nombre de secondes indiqué.",
+    "args0": [
+      null
+    ]
+  },
+  "python_print": {
+    "message0": "afficher %1",
+    "tooltip": "afficher %1",
+    "args0": [
+      null
+    ]
+  },
+  "python_number": {
+    "message0": "nombre %1",
+    "tooltip": "nombre %1",
+    "args0": [
+      null
+    ]
+  },
+  "python_text": {
+    "message0": "texte %1",
+    "tooltip": "texte %1",
+    "args0": [
+      null
+    ]
+  },
+  "python_boolean": {
+    "message0": "booléen %1",
+    "tooltip": "booléen %1",
+    "args0": [
+      {
+        "options": [
+          [
+            "vrai",
+            "TRUE"
+          ],
+          [
+            "faux",
+            "FALSE"
+          ]
+        ]
+      }
+    ]
+  },
+  "python_tuple": {
+    "message0": "tuple contenant %1",
+    "tooltip": "tuple contenant %1",
+    "args0": [
+      null
+    ]
+  },
+  "python_list": {
+    "message0": "liste contenant %1",
+    "tooltip": "liste contenant %1",
+    "args0": [
+      null
+    ]
+  },
+  "python_set_variable": {
+    "message0": "définir la variable %1 à %2",
+    "tooltip": "définir la variable %1 à %2",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_get_variable": {
+    "message0": "la variable %1",
+    "tooltip": "la variable %1",
+    "args0": [
+      null
+    ]
+  },
+  "python_if": {
+    "message0": "si %1 alors %2 %3",
+    "tooltip": "si %1 alors %2 %3",
+    "args0": [
+      null,
+      null,
+      null
+    ]
+  },
+  "python_for_each": {
+    "message0": "pour chaque %1 dans %2 faire %3 %4",
+    "tooltip": "pour chaque %1 dans %2 faire %3 %4",
+    "args0": [
+      null,
+      null,
+      null,
+      null
+    ]
+  }
+}

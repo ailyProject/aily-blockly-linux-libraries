@@ -1,0 +1,21 @@
+{
+  "toolbox_name": "صوت",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "linux_audio_play": {
+    "message0": "شغّل ملف WAV %1",
+    "tooltip": "شغّل ملف WAV %1",
+    "args0": [
+      null
+    ]
+  },
+  "linux_audio_record": {
+    "message0": "سجّل WAV إلى %1 ثوانٍ %2 معدل %3",
+    "tooltip": "سجّل WAV إلى %1 ثوانٍ %2 معدل %3",
+    "args0": [
+      null,
+      null,
+      null
+    ]
+  }
+}

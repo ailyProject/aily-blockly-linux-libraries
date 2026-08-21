@@ -1,0 +1,16 @@
+{
+  "toolbox_name": "시스템",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_command": {
+    "message0": "시스템 명령 %1 실행",
+    "tooltip": "시스템 명령 %1 실행",
+    "args0": [
+      null
+    ]
+  },
+  "python_cpu_temperature": {
+    "message0": "CPU 온도 °C",
+    "tooltip": "CPU 온도 °C"
+  }
+}

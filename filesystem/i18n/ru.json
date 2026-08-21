@@ -1,0 +1,16 @@
+{
+  "toolbox_name": "Система",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_command": {
+    "message0": "выполнить системную команду %1",
+    "tooltip": "выполнить системную команду %1",
+    "args0": [
+      null
+    ]
+  },
+  "python_cpu_temperature": {
+    "message0": "температура ЦП °C",
+    "tooltip": "температура ЦП °C"
+  }
+}

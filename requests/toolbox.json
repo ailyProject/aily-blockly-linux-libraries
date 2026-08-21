@@ -1,0 +1,122 @@
+{
+  "kind": "category",
+  "name": "Python Requests",
+  "colour": "#1565C0",
+  "contents": [
+    {
+      "kind": "category",
+      "name": "Sessions",
+      "colour": "#1565C0",
+      "contents": [
+        {"kind": "block", "type": "python_requests_session_init", "fields": {"NAME": "session"}},
+        {"kind": "block", "type": "python_requests_session_defaults", "fields": {"NAME": "session", "TRUST_ENV": "DEFAULT"}},
+        {"kind": "block", "type": "python_requests_session_close", "fields": {"NAME": "session"}}
+      ]
+    },
+    {
+      "kind": "category",
+      "name": "Requests and options",
+      "colour": "#1565C0",
+      "contents": [
+        {
+          "kind": "block",
+          "type": "python_requests_request",
+          "fields": {"METHOD": "GET"},
+          "inputs": {"URL": {"shadow": {"type": "text", "fields": {"TEXT": "https://example.com/api"}}}}
+        },
+        {
+          "kind": "block",
+          "type": "python_requests_get",
+          "inputs": {"URL": {"shadow": {"type": "text", "fields": {"TEXT": "https://example.com/api"}}}}
+        },
+        {
+          "kind": "block",
+          "type": "python_requests_send_body",
+          "fields": {"METHOD": "POST", "BODY_KIND": "JSON"},
+          "inputs": {"URL": {"shadow": {"type": "text", "fields": {"TEXT": "https://example.com/api"}}}}
+        },
+        {"kind": "block", "type": "python_requests_content_options", "fields": {"BODY_KIND": "NONE"}},
+        {"kind": "block", "type": "python_requests_network_options", "fields": {"ALLOW_REDIRECTS": "DEFAULT", "STREAM": "DEFAULT"}},
+        {"kind": "block", "type": "python_requests_tls_options", "fields": {"VERIFY_MODE": "SYSTEM"}},
+        {"kind": "block", "type": "python_requests_merge_options"},
+        {
+          "kind": "block",
+          "type": "python_requests_auth",
+          "fields": {"MODE": "BASIC"},
+          "inputs": {
+            "USERNAME": {"shadow": {"type": "text", "fields": {"TEXT": "username"}}},
+            "PASSWORD": {"shadow": {"type": "text", "fields": {"TEXT": "password"}}}
+          }
+        },
+        {
+          "kind": "block",
+          "type": "python_requests_timeout",
+          "inputs": {
+            "CONNECT": {"shadow": {"type": "math_number", "fields": {"NUM": 3.05}}},
+            "READ": {"shadow": {"type": "math_number", "fields": {"NUM": 30}}}
+          }
+        },
+        {
+          "kind": "block",
+          "type": "python_requests_proxies",
+          "inputs": {
+            "HTTP": {"shadow": {"type": "text", "fields": {"TEXT": "http://127.0.0.1:8080"}}},
+            "HTTPS": {"shadow": {"type": "text", "fields": {"TEXT": "http://127.0.0.1:8080"}}}
+          }
+        }
+      ]
+    },
+    {
+      "kind": "category",
+      "name": "Upload and download",
+      "colour": "#1565C0",
+      "contents": [
+        {
+          "kind": "block",
+          "type": "python_requests_upload_file",
+          "fields": {"RESPONSE_NAME": "response", "METHOD": "POST"},
+          "inputs": {
+            "URL": {"shadow": {"type": "text", "fields": {"TEXT": "https://example.com/upload"}}},
+            "FIELD": {"shadow": {"type": "text", "fields": {"TEXT": "file"}}},
+            "PATH": {"shadow": {"type": "text", "fields": {"TEXT": "upload.bin"}}},
+            "FILENAME": {"shadow": {"type": "text", "fields": {"TEXT": "upload.bin"}}},
+            "MIME": {"shadow": {"type": "text", "fields": {"TEXT": "application/octet-stream"}}}
+          }
+        },
+        {
+          "kind": "block",
+          "type": "python_requests_for_chunks",
+          "fields": {"CHUNK_NAME": "chunk", "DECODE_UNICODE": "FALSE"},
+          "inputs": {"CHUNK_SIZE": {"shadow": {"type": "math_number", "fields": {"NUM": 65536}}}}
+        },
+        {
+          "kind": "block",
+          "type": "python_requests_download",
+          "fields": {"RAISE": "TRUE"},
+          "inputs": {
+            "URL": {"shadow": {"type": "text", "fields": {"TEXT": "https://example.com/file.bin"}}},
+            "PATH": {"shadow": {"type": "text", "fields": {"TEXT": "download.bin"}}},
+            "CHUNK_SIZE": {"shadow": {"type": "math_number", "fields": {"NUM": 65536}}}
+          }
+        }
+      ]
+    },
+    {
+      "kind": "category",
+      "name": "Responses and errors",
+      "colour": "#1565C0",
+      "contents": [
+        {"kind": "block", "type": "python_requests_response_property", "fields": {"PROPERTY": "status_code"}},
+        {"kind": "block", "type": "python_requests_response_json"},
+        {"kind": "block", "type": "python_requests_response_lookup", "fields": {"SOURCE": "HEADERS"}},
+        {
+          "kind": "block",
+          "type": "python_requests_response_set_encoding",
+          "inputs": {"ENCODING": {"shadow": {"type": "text", "fields": {"TEXT": "utf-8"}}}}
+        },
+        {"kind": "block", "type": "python_requests_raise_for_status"},
+        {"kind": "block", "type": "python_requests_try", "fields": {"EXCEPTION": "REQUEST", "ERROR_NAME": "error"}}
+      ]
+    }
+  ]
+}

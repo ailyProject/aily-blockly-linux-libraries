@@ -1,0 +1,30 @@
+{
+  "toolbox_name": "SPI",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "rpi_spi_init": {
+    "message0": "初始化 SPI %1 总线 %2 设备 %3 模式 %4 速度 %5 Hz 位数 %6",
+    "tooltip": "使用 py-spidev 打开 SPI 设备并设置传输参数。",
+    "args0": [null, null, null, null, null, null]
+  },
+  "rpi_spi_transfer": {
+    "message0": "SPI %1 收发 %2",
+    "tooltip": "使用 xfer2 传输字节列表，并返回收到的字节列表。",
+    "args0": [null, null]
+  },
+  "rpi_spi_read": {
+    "message0": "SPI %1 读取 %2 字节",
+    "tooltip": "从 SPI 设备读取字节并返回列表。",
+    "args0": [null, null]
+  },
+  "rpi_spi_write": {
+    "message0": "SPI %1 写入 %2",
+    "tooltip": "使用 writebytes2 写入字节列表或缓冲区。",
+    "args0": [null, null]
+  },
+  "rpi_spi_close": {
+    "message0": "关闭 SPI %1",
+    "tooltip": "关闭 SPI 设备。",
+    "args0": [null]
+  }
+}

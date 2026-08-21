@@ -1,0 +1,115 @@
+{
+  "toolbox_name": "코어",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_start": {
+    "message0": "프로그램이 시작될 때 %1 %2",
+    "tooltip": "프로그램 시작 시 한 번 실행합니다.",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_forever": {
+    "message0": "영원히 반복 %1 %2",
+    "tooltip": "안의 블록을 반복 실행합니다.",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_sleep": {
+    "message0": "%1 초 기다리기",
+    "tooltip": "지정한 시간(초) 동안 프로그램을 일시 정지합니다.",
+    "args0": [
+      null
+    ]
+  },
+  "python_print": {
+    "message0": "%1 출력",
+    "tooltip": "%1 출력",
+    "args0": [
+      null
+    ]
+  },
+  "python_number": {
+    "message0": "숫자 %1",
+    "tooltip": "숫자 %1",
+    "args0": [
+      null
+    ]
+  },
+  "python_text": {
+    "message0": "텍스트 %1",
+    "tooltip": "텍스트 %1",
+    "args0": [
+      null
+    ]
+  },
+  "python_boolean": {
+    "message0": "불리언 %1",
+    "tooltip": "불리언 %1",
+    "args0": [
+      {
+        "options": [
+          [
+            "참",
+            "TRUE"
+          ],
+          [
+            "거짓",
+            "FALSE"
+          ]
+        ]
+      }
+    ]
+  },
+  "python_tuple": {
+    "message0": "항목 %1 로 만든 튜플",
+    "tooltip": "항목 %1 로 만든 튜플",
+    "args0": [
+      null
+    ]
+  },
+  "python_list": {
+    "message0": "항목 %1 로 만든 목록",
+    "tooltip": "항목 %1 로 만든 목록",
+    "args0": [
+      null
+    ]
+  },
+  "python_set_variable": {
+    "message0": "변수 %1 을 %2 로 설정",
+    "tooltip": "변수 %1 을 %2 로 설정",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_get_variable": {
+    "message0": "변수 %1",
+    "tooltip": "변수 %1",
+    "args0": [
+      null
+    ]
+  },
+  "python_if": {
+    "message0": "만약 %1 이면 %2 %3",
+    "tooltip": "만약 %1 이면 %2 %3",
+    "args0": [
+      null,
+      null,
+      null
+    ]
+  },
+  "python_for_each": {
+    "message0": "%2 의 각 %1 에 대해 %3 %4",
+    "tooltip": "%2 의 각 %1 에 대해 %3 %4",
+    "args0": [
+      null,
+      null,
+      null,
+      null
+    ]
+  }
+}

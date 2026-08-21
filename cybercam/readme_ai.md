@@ -1,121 +1,79 @@
-# CyberCAM Python
+# Onboard Peripherals
 
-01Studio CyberCAM K230-only Python blocks. Camera, display, KPU, GPIO, PWM, UART, audio, and IMU use CanMV/walnutpi APIs, not generic CPython. Portable language, OpenCV, network, and file blocks stay here so CyberCAM projects remain self-contained. Networking protocols require an already configured network.
+Package: `@aily-project/lib-cybercam`
 
-## Library Info
-- **Name**: @aily-project/lib-cybercam
-- **Version**: 1.0.0
+Version: 0.0.1
 
-## Block Definitions
+Runtime: standalone CPython generator at `globalThis.Python`
 
-| Block Type | Connection | Parameters (args0 order) | ABS Format |
-|------------|------------|--------------------------|------------|
-| `cybercam_start` | Hat | DO(input_statement) | `cybercam_start() @DO: child_block()` |
-| `cybercam_forever` | Hat | DO(input_statement) | `cybercam_forever() @DO: child_block()` |
-| `cybercam_sleep` | Statement | SECONDS(input_value) | `cybercam_sleep(math_number(0))` |
-| `cybercam_print` | Statement | VALUE(input_value) | `cybercam_print(math_number(0))` |
-| `cybercam_number` | Value | VALUE(field_number) | `cybercam_number(0)` |
-| `cybercam_text` | Value | VALUE(field_input) | `cybercam_text("VALUE")` |
-| `cybercam_boolean` | Value | VALUE(dropdown) | `cybercam_boolean(TRUE)` |
-| `cybercam_tuple` | Value | ITEMS(input_value) | `cybercam_tuple(math_number(1000))` |
-| `cybercam_list` | Value | ITEMS(input_value) | `cybercam_list(math_number(1000))` |
-| `cybercam_set_variable` | Statement | NAME(field_input), VALUE(input_value) | `cybercam_set_variable("value", math_number(0))` |
-| `cybercam_get_variable` | Value | NAME(field_input) | `cybercam_get_variable("value")` |
-| `cybercam_if` | Statement | CONDITION(input_value), DO(input_statement) | `cybercam_if(logic_boolean(TRUE)) @DO: child_block()` |
-| `cybercam_for_each` | Statement | NAME(field_input), ITEMS(input_value), DO(input_statement) | `cybercam_for_each("item", math_number(1000)) @DO: child_block()` |
-| `cybercam_gpio_init` | Statement | NAME(field_input), PIN(dropdown), DIRECTION(dropdown), PULL(dropdown) | `cybercam_gpio_init("pin", PIN, INPUT, NONE)` |
-| `cybercam_gpio_write` | Statement | NAME(field_input), VALUE(input_value) | `cybercam_gpio_write("pin", logic_boolean(TRUE))` |
-| `cybercam_gpio_read` | Value | NAME(field_input) | `cybercam_gpio_read("pin")` |
-| `cybercam_gpio_deinit` | Statement | NAME(field_input) | `cybercam_gpio_deinit("pin")` |
-| `cybercam_led_write` | Statement | VALUE(input_value) | `cybercam_led_write(logic_boolean(TRUE))` |
-| `cybercam_key_pressed` | Value | (none) | `cybercam_key_pressed()` |
-| `cybercam_pwm_init` | Statement | NAME(field_input), TARGET(dropdown) | `cybercam_pwm_init("pwm", "0,0")` |
-| `cybercam_pwm_frequency` | Statement | NAME(field_input), FREQUENCY(input_value) | `cybercam_pwm_frequency("pwm", math_number(0))` |
-| `cybercam_pwm_duty` | Statement | NAME(field_input), DUTY(input_value) | `cybercam_pwm_duty("pwm", math_number(0))` |
-| `cybercam_pwm_enable` | Statement | NAME(field_input) | `cybercam_pwm_enable("pwm")` |
-| `cybercam_pwm_disable` | Statement | NAME(field_input) | `cybercam_pwm_disable("pwm")` |
-| `cybercam_pwm_close` | Statement | NAME(field_input) | `cybercam_pwm_close("pwm")` |
-| `cybercam_uart_init` | Statement | NAME(field_input), BAUD(dropdown) | `cybercam_uart_init("uart", "9600")` |
-| `cybercam_uart_available` | Value | NAME(field_input) | `cybercam_uart_available("uart")` |
-| `cybercam_uart_read` | Value | NAME(field_input), SIZE(input_value) | `cybercam_uart_read("uart", math_number(0))` |
-| `cybercam_uart_write` | Statement | NAME(field_input), DATA(input_value) | `cybercam_uart_write("uart", math_number(0))` |
-| `cybercam_uart_flush` | Statement | NAME(field_input) | `cybercam_uart_flush("uart")` |
-| `cybercam_uart_close` | Statement | NAME(field_input) | `cybercam_uart_close("uart")` |
-| `cybercam_camera_init` | Statement | NAME(field_input), WIDTH(input_value), HEIGHT(input_value), SENSOR_ID(dropdown) | `cybercam_camera_init("camera", math_number(0), math_number(0), "2")` |
-| `cybercam_camera_opened` | Value | NAME(field_input) | `cybercam_camera_opened("camera")` |
-| `cybercam_camera_read` | Value | NAME(field_input) | `cybercam_camera_read("camera")` |
-| `cybercam_camera_hmirror` | Statement | NAME(field_input), ENABLED(input_value) | `cybercam_camera_hmirror("camera", logic_boolean(TRUE))` |
-| `cybercam_camera_vflip` | Statement | NAME(field_input), ENABLED(input_value) | `cybercam_camera_vflip("camera", logic_boolean(TRUE))` |
-| `cybercam_camera_release` | Statement | NAME(field_input) | `cybercam_camera_release("camera")` |
-| `cybercam_display_init` | Statement | (none) | `cybercam_display_init()` |
-| `cybercam_display_rotation` | Statement | ROTATION(dropdown) | `cybercam_display_rotation("0")` |
-| `cybercam_display_show` | Statement | IMAGE(input_value) | `cybercam_display_show(math_number(0))` |
-| `cybercam_ide_show` | Statement | IMAGE(input_value) | `cybercam_ide_show(math_number(0))` |
-| `cybercam_lcd_direction` | Value | (none) | `cybercam_lcd_direction()` |
-| `cybercam_image_resize` | Value | IMAGE(input_value), WIDTH(input_value), HEIGHT(input_value) | `cybercam_image_resize(math_number(0), math_number(0), math_number(0))` |
-| `cybercam_image_convert` | Value | IMAGE(input_value), CONVERSION(dropdown) | `cybercam_image_convert(math_number(0), COLOR_BGR2GRAY)` |
-| `cybercam_image_in_range` | Value | IMAGE(input_value), LOWER(input_value), UPPER(input_value) | `cybercam_image_in_range(math_number(0), math_number(0), math_number(0))` |
-| `cybercam_image_components` | Value | IMAGE(input_value), CONNECTIVITY(dropdown) | `cybercam_image_components(math_number(0), "4")` |
-| `cybercam_image_load` | Value | PATH(input_value) | `cybercam_image_load(text("value"))` |
-| `cybercam_image_save` | Statement | IMAGE(input_value), PATH(input_value) | `cybercam_image_save(math_number(0), text("value"))` |
-| `cybercam_draw_rectangle` | Statement | IMAGE(input_value), X1(input_value), Y1(input_value), X2(input_value), Y2(input_value),... | `cybercam_draw_rectangle(math_number(0), math_number(0), math_number(0), math_number(0), ...)` |
-| `cybercam_draw_circle` | Statement | IMAGE(input_value), X(input_value), Y(input_value), RADIUS(input_value), COLOR(input_va... | `cybercam_draw_circle(math_number(0), math_number(0), math_number(0), math_number(0), ...)` |
-| `cybercam_draw_line` | Statement | IMAGE(input_value), X1(input_value), Y1(input_value), X2(input_value), Y2(input_value),... | `cybercam_draw_line(math_number(0), math_number(0), math_number(0), math_number(0), ...)` |
-| `cybercam_draw_text` | Statement | TEXT(input_value), IMAGE(input_value), X(input_value), Y(input_value), SCALE(input_valu... | `cybercam_draw_text(text("value"), math_number(0), math_number(0), math_number(0), ...)` |
-| `cybercam_qr_decode` | Value | IMAGE(input_value) | `cybercam_qr_decode(math_number(0))` |
-| `cybercam_barcode_decode` | Value | IMAGE(input_value) | `cybercam_barcode_decode(math_number(0))` |
-| `cybercam_apriltag_init` | Statement | NAME(field_input), FAMILY(dropdown) | `cybercam_apriltag_init("tags", tag16h5)` |
-| `cybercam_apriltag_detect` | Value | NAME(field_input), IMAGE(input_value) | `cybercam_apriltag_detect("tags", math_number(0))` |
-| `cybercam_ai_init_simple` | Statement | NAME(field_input), MODEL(dropdown), MODEL_PATH(input_value), MODEL_SIZE(input_value) | `cybercam_ai_init_simple("detector", FALL_DETECT, text("value"), math_number(0))` |
-| `cybercam_ai_init_face` | Statement | NAME(field_input), MODEL_PATH(input_value), ANCHORS_PATH(input_value), MODEL_SIZE(input... | `cybercam_ai_init_face("detector", text("value"), text("value"), math_number(0))` |
-| `cybercam_ai_init_mask` | Statement | NAME(field_input), DETECT_MODEL(input_value), ANCHORS_PATH(input_value), MODEL_SIZE(inp... | `cybercam_ai_init_mask("detector", text("value"), text("value"), math_number(0), ...)` |
-| `cybercam_ai_init_hand_keypoint` | Statement | NAME(field_input), MODEL(dropdown), DETECT_MODEL(input_value), KEYPOINT_MODEL(input_value) | `cybercam_ai_init_hand_keypoint("detector", HAND_KEYPOINT, text("value"), text("value"))` |
-| `cybercam_ai_init_ocr` | Statement | NAME(field_input), DETECT_MODEL(input_value), RECOGNITION_MODEL(input_value), DICTIONAR... | `cybercam_ai_init_ocr("ocr", text("value"), text("value"), text("value"), ...)` |
-| `cybercam_ai_init_licence` | Statement | NAME(field_input), DETECT_MODEL(input_value), RECOGNITION_MODEL(input_value), ANCHORS_P... | `cybercam_ai_init_licence("licence", text("value"), text("value"), text("value"), ...)` |
-| `cybercam_ai_run` | Value | NAME(field_input), IMAGE(input_value) | `cybercam_ai_run("detector", math_number(0))` |
-| `cybercam_ai_run_confidence` | Value | NAME(field_input), IMAGE(input_value), CONFIDENCE(input_value) | `cybercam_ai_run_confidence("detector", math_number(0), math_number(0))` |
-| `cybercam_ai_run_thresholds` | Value | NAME(field_input), IMAGE(input_value), CONFIDENCE(input_value), NMS(input_value) | `cybercam_ai_run_thresholds("detector", math_number(0), math_number(0), math_number(1000))` |
-| `cybercam_result_length` | Value | RESULTS(input_value) | `cybercam_result_length(math_number(0))` |
-| `cybercam_result_item` | Value | RESULTS(input_value), INDEX(input_value) | `cybercam_result_item(math_number(0), math_number(0))` |
-| `cybercam_result_property` | Value | RESULT(input_value), PROPERTY(dropdown) | `cybercam_result_property(math_number(0), reliability)` |
-| `cybercam_socket_init` | Statement | NAME(field_input), FAMILY(dropdown), TYPE(dropdown) | `cybercam_socket_init("sock", AF_INET, SOCK_STREAM)` |
-| `cybercam_socket_address` | Value | HOST(input_value), PORT(input_value) | `cybercam_socket_address(text("value"), math_number(0))` |
-| `cybercam_socket_connect` | Statement | NAME(field_input), ADDRESS(input_value) | `cybercam_socket_connect("sock", math_number(0))` |
-| `cybercam_socket_bind` | Statement | NAME(field_input), ADDRESS(input_value) | `cybercam_socket_bind("sock", math_number(0))` |
-| `cybercam_socket_listen` | Statement | NAME(field_input), BACKLOG(input_value) | `cybercam_socket_listen("sock", math_number(0))` |
-| `cybercam_socket_accept` | Value | NAME(field_input) | `cybercam_socket_accept("sock")` |
-| `cybercam_socket_send` | Statement | NAME(field_input), DATA(input_value) | `cybercam_socket_send("sock", math_number(0))` |
-| `cybercam_socket_receive` | Value | NAME(field_input), SIZE(input_value) | `cybercam_socket_receive("sock", math_number(0))` |
-| `cybercam_socket_close` | Statement | NAME(field_input) | `cybercam_socket_close("sock")` |
-| `cybercam_mqtt_init` | Statement | NAME(field_input) | `cybercam_mqtt_init("client")` |
-| `cybercam_mqtt_connect` | Statement | NAME(field_input), HOST(input_value), PORT(input_value), KEEPALIVE(input_value) | `cybercam_mqtt_connect("client", text("value"), math_number(0), math_number(0))` |
-| `cybercam_mqtt_publish` | Statement | NAME(field_input), TOPIC(input_value), MESSAGE(input_value) | `cybercam_mqtt_publish("client", text("value"), text("value"))` |
-| `cybercam_mqtt_subscribe` | Statement | NAME(field_input), TOPIC(input_value) | `cybercam_mqtt_subscribe("client", text("value"))` |
-| `cybercam_mqtt_on_message` | Statement | NAME(field_input), TOPIC_NAME(field_input), PAYLOAD_NAME(field_input), DO(input_statement) | `cybercam_mqtt_on_message("client", "topic", "payload") @DO: child_block()` |
-| `cybercam_mqtt_loop` | Statement | NAME(field_input) | `cybercam_mqtt_loop("client")` |
-| `cybercam_mqtt_disconnect` | Statement | NAME(field_input) | `cybercam_mqtt_disconnect("client")` |
-| `cybercam_http_request` | Value | METHOD(dropdown), URL(input_value), DATA(input_value) | `cybercam_http_request(GET, text("value"), math_number(0))` |
-| `cybercam_http_response` | Value | RESPONSE(input_value), PROPERTY(dropdown) | `cybercam_http_response(math_number(0), status_code)` |
-| `cybercam_http_server` | Statement | HOST(input_value), PORT(input_value) | `cybercam_http_server(text("value"), math_number(0))` |
-| `cybercam_file_read` | Value | PATH(input_value) | `cybercam_file_read(text("value"))` |
-| `cybercam_file_write` | Statement | MODE(dropdown), PATH(input_value), CONTENT(input_value) | `cybercam_file_write(w, text("value"), math_number(0))` |
-| `cybercam_file_exists` | Value | PATH(input_value) | `cybercam_file_exists(text("value"))` |
-| `cybercam_file_list` | Value | PATH(input_value) | `cybercam_file_list(text("value"))` |
-| `cybercam_command` | Value | COMMAND(input_value) | `cybercam_command(text("value"))` |
-| `cybercam_audio_play` | Statement | PATH(input_value) | `cybercam_audio_play(text("value"))` |
-| `cybercam_audio_record` | Statement | PATH(input_value), SECONDS(input_value), RATE(input_value) | `cybercam_audio_record(text("value"), math_number(0), math_number(0))` |
-| `cybercam_imu_init` | Statement | NAME(field_input), BUS(input_value), ADDRESS(input_value) | `cybercam_imu_init("imu", math_number(0), math_number(0))` |
-| `cybercam_imu_read` | Value | NAME(field_input) | `cybercam_imu_read("imu")` |
-| `cybercam_imu_axis` | Value | NAME(field_input), AXIS(dropdown) | `cybercam_imu_axis("imu", "0")` |
-| `cybercam_imu_calibrate` | Statement | NAME(field_input), SAMPLES(input_value) | `cybercam_imu_calibrate("imu", math_number(0))` |
-| `cybercam_imu_close` | Statement | NAME(field_input) | `cybercam_imu_close("imu")` |
-| `cybercam_cpu_temperature` | Value | (none) | `cybercam_cpu_temperature()` |
-| `cybercam_chip_id` | Value | (none) | `cybercam_chip_id()` |
+Target: `canaan:k230:cybercam`
 
-## Parameter Options
+This base package exports 10 CyberCAM platform blocks: 2 ADC, 2 audio, 5 IMU, and 1 chip-ID block. The functional split removed 52 generic blocks, moved 4 existing file types unchanged to `@aily-project/lib-file` and 6 existing UART types unchanged to `@aily-project/lib-serial` as hidden saved-project compatibility definitions, moved 12 existing GPIO/onboard LED/key/PWM types unchanged to `@aily-project/lib-cybercam-gpio`, and moved 23 existing camera/display/KPU types unchanged to `@aily-project/lib-cybercam-cv`. The vision package adds `cybercam_camera_read_raw`, so it contains 24 blocks in total.
 
-Dropdown values and defaults follow `block.json`.
+## Retained block surface
 
-## Notes
+### ADC (2)
 
-Parameters and dropdown values follow `block.json`; inputs accept value blocks. Touch, Wi-Fi management, Bluetooth, generic I2C, SPI, GPIO interrupts, and ADC are excluded pending verified executable CyberCAM Python API contracts.
+`cybercam_adc_read_raw`, `cybercam_adc_read_voltage`.
+
+These blocks retain the CyberCAM-specific IIO ADC pads. ADC0/ADC1 return 12-bit raw values; voltage conversion defaults to the board's nominal 3.6 V full scale. ADC requires a CyberCAM image whose device tree registers the K230 ADC, and precision measurements require calibration.
+
+### Audio, IMU, and device identity (8)
+
+`cybercam_audio_play`, `cybercam_audio_record`, `cybercam_imu_init`, `cybercam_imu_read`, `cybercam_imu_axis`, `cybercam_imu_calibrate`, `cybercam_imu_close`, `cybercam_chip_id`.
+
+Audio uses the fixed K230 ALSA devices. IMU blocks contain the CyberCAM QMI8658 driver. Chip ID reads the K230 device path.
+
+## Moved UART surface
+
+The following 6 existing types now belong to `@aily-project/lib-serial` and retain their serialized identity: `cybercam_uart_init`, `cybercam_uart_available`, `cybercam_uart_read`, `cybercam_uart_write`, `cybercam_uart_flush`, and `cybercam_uart_close`. They remain registered only as hidden saved-project compatibility definitions and are not presented in the toolbox.
+
+Existing projects add `@aily-project/lib-serial` without renaming these blocks. New projects use `linux_uart_init`, `linux_uart_available`, `linux_uart_read`, `linux_uart_write`, `linux_uart_flush`, and `linux_uart_close`; the init block must explicitly select `/dev/ttyS2` on CyberCAM. Do not load the new serial package beside an older aggregate `lib-cybercam` release that still registers the same 6 `cybercam_uart_*` types, because Blockly definitions and `Python.forBlock` handlers would collide.
+
+## Moved file surface
+
+The following 4 existing types now belong to `@aily-project/lib-file` and retain their serialized identity: `cybercam_file_read`, `cybercam_file_write`, `cybercam_file_exists`, and `cybercam_file_list`. They remain registered only as hidden saved-project compatibility definitions and are not presented in the toolbox.
+
+Existing projects add `@aily-project/lib-file` without renaming these blocks. New projects use the toolbox-visible `python_file_read`, `python_file_write`, `python_file_exists`, and `python_file_list`. Do not load the new file package beside an older aggregate `lib-cybercam` release that still registers the same 4 `cybercam_file_*` types, or beside an older `lib-python-core` release that still registers the same 4 `python_file_*` types, because Blockly definitions and `Python.forBlock` handlers would collide.
+
+## Moved GPIO surface
+
+The following 12 existing types now belong to `@aily-project/lib-cybercam-gpio` and retain their serialized identity:
+
+- Digital GPIO (4): `cybercam_gpio_init`, `cybercam_gpio_write`, `cybercam_gpio_read`, `cybercam_gpio_deinit`.
+- Onboard resources (2): `cybercam_led_write`, `cybercam_key_pressed`.
+- PWM (6): `cybercam_pwm_init`, `cybercam_pwm_frequency`, `cybercam_pwm_duty`, `cybercam_pwm_enable`, `cybercam_pwm_disable`, `cybercam_pwm_close`.
+
+Existing projects do not rename these blocks; they add `@aily-project/lib-cybercam-gpio`. Do not load the new package beside an older aggregate `lib-cybercam` release that still defines the same 12 types, because Blockly definitions and `Python.forBlock` handlers would collide. The generic gpiozero-based `@aily-project/lib-gpio` is not interchangeable with CyberCAM `board`/`digitalio` and K230 `periphery.PWM` APIs.
+
+## Moved machine-vision surface
+
+The following 23 existing types now belong to `@aily-project/lib-cybercam-cv` and retain their serialized identity:
+
+- Camera/display (11): `cybercam_camera_init`, `cybercam_camera_opened`, `cybercam_camera_read`, `cybercam_camera_hmirror`, `cybercam_camera_vflip`, `cybercam_camera_release`, `cybercam_display_init`, `cybercam_display_rotation`, `cybercam_display_show`, `cybercam_ide_show`, `cybercam_lcd_direction`.
+- KPU/results (12): `cybercam_ai_init_simple`, `cybercam_ai_init_face`, `cybercam_ai_init_mask`, `cybercam_ai_init_hand_keypoint`, `cybercam_ai_init_ocr`, `cybercam_ai_init_licence`, `cybercam_ai_run`, `cybercam_ai_run_confidence`, `cybercam_ai_run_thresholds`, `cybercam_result_length`, `cybercam_result_item`, `cybercam_result_property`.
+
+The new vision package also adds `cybercam_camera_read_raw`, which returns the complete `(ret, img)` camera result. Existing projects do not rename migrated blocks; they add the new package. Do not load the new package beside an older aggregate `lib-cybercam` release that still defines the same 23 types.
+
+## Delegated generic blocks
+
+Install only the functional libraries a project needs:
+
+| Removed group | Count | Replacement |
+|---|---:|---|
+| Python lifecycle, syntax, values, variables, and loops | 13 | `@aily-project/lib-core` |
+| OpenCV image operations, drawing, QR/barcode, and AprilTag | 14 | `@aily-project/lib-vision` |
+| Socket and standard-library HTTP file server | 10 | `@aily-project/lib-network` |
+| MQTT | 7 | `@aily-project/lib-paho-mqtt` |
+| Requests HTTP client | 2 migrated legacy types hidden + 22 new public types | `@aily-project/lib-requests` |
+| Standard file operations | 4 visible + 4 legacy types hidden | `@aily-project/lib-file` |
+| System commands and CPU temperature | 2 | `@aily-project/lib-filesystem` |
+| CyberCAM UART | 6 migrated; legacy types hidden | `@aily-project/lib-serial` |
+| CyberCAM GPIO, onboard LED/key, and PWM | 12 migrated | `@aily-project/lib-cybercam-gpio` |
+| CyberCAM camera, display, and KPU | 23 migrated + 1 new | `@aily-project/lib-cybercam-cv` |
+
+For generic language, vision, network, commands, and CPU-temperature blocks, replacement names use the `python_*` prefix instead of the removed `cybercam_*` names, while input names and dropdown machine values stay aligned. MQTT now belongs to `@aily-project/lib-paho-mqtt`; the two migrated `python_http_*` client types are hidden compatibility definitions in `@aily-project/lib-requests`, while new HTTP client work uses `python_requests_*`. The 4 legacy file types are hidden compatibility definitions and do not require renaming; new file work uses `python_file_*`, whose toolbox defaults are `file.txt` for file paths and `.` for directory listing, while the hidden legacy handlers retain `/data/...` fallbacks. Preserve existing input values during migration: generic image shadows use `/tmp/...` instead of `/data/...`, draw-text content uses `Python` instead of `CyberCAM`, listen backlog uses `1` instead of `0`, and MQTT topics use `/python/data` instead of `/cybercam/data`. The 6 legacy UART types and 23 migrated machine-vision types also retain their `cybercam_*` names; new UART work uses `linux_uart_*` with `/dev/ttyS2`.
+
+## Program structure
+
+Use `python_start` and `python_forever` from `@aily-project/lib-core`. Add this package for ADC/audio/IMU/device identity, `lib-network` for sockets and the standard-library HTTP file server, `lib-paho-mqtt` for MQTT, `lib-requests` for HTTP clients, `lib-file` for standard file operations, `lib-filesystem` for system commands and CPU temperature, `lib-serial` for UART, `lib-cybercam-gpio` for digital IO/onboard LED/key/PWM, `lib-cybercam-cv` for CSI camera/display/KPU, and `lib-vision` for portable OpenCV, drawing, and code recognition. For new CyberCAM UART initialization, use `linux_uart_init` and set its device to `/dev/ttyS2`. Exact fields, dropdown machine values, and defaults are defined by the owning package's `block.json`.

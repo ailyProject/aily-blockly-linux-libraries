@@ -1,0 +1,50 @@
+{
+  "toolbox_name": "I2C / SMBus",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "rpi_i2c_init": {
+    "message0": "initialiser I2C %1 bus %2",
+    "tooltip": "Ouvre un bus I2C Linux avec smbus2.",
+    "args0": [null, null]
+  },
+  "rpi_i2c_read_byte_data": {
+    "message0": "I2C %1 lire un octet adresse %2 registre %3",
+    "tooltip": "Lit une valeur de 8 bits dans un registre I2C.",
+    "args0": [null, null, null]
+  },
+  "rpi_i2c_write_byte_data": {
+    "message0": "I2C %1 écrire un octet adresse %2 registre %3 donnée %4",
+    "tooltip": "Écrit une valeur de 8 bits dans un registre I2C.",
+    "args0": [null, null, null, null]
+  },
+  "rpi_i2c_read_word_data": {
+    "message0": "I2C %1 lire un mot adresse %2 registre %3",
+    "tooltip": "Lit un mot SMBus 16 bits petit-boutiste dans un registre.",
+    "args0": [null, null, null]
+  },
+  "rpi_i2c_write_word_data": {
+    "message0": "I2C %1 écrire un mot adresse %2 registre %3 donnée %4",
+    "tooltip": "Écrit un mot SMBus 16 bits petit-boutiste dans un registre.",
+    "args0": [null, null, null, null]
+  },
+  "rpi_i2c_read_i2c_block": {
+    "message0": "I2C %1 lire un bloc adresse %2 registre %3 longueur %4",
+    "tooltip": "Lit un bloc d'octets dans un registre I2C.",
+    "args0": [null, null, null, null]
+  },
+  "rpi_i2c_write_i2c_block": {
+    "message0": "I2C %1 écrire un bloc adresse %2 registre %3 données %4",
+    "tooltip": "Écrit une liste d'octets dans un registre I2C.",
+    "args0": [null, null, null, null]
+  },
+  "rpi_i2c_write_read": {
+    "message0": "I2C %1 redémarrage adresse %2 écrire %3 lire %4 octets",
+    "tooltip": "Écrit puis lit dans une transaction I2C avec redémarrage répété.",
+    "args0": [null, null, null, null]
+  },
+  "rpi_i2c_close": {
+    "message0": "fermer I2C %1",
+    "tooltip": "Ferme un bus I2C.",
+    "args0": [null]
+  }
+}

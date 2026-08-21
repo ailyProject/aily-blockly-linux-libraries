@@ -1,0 +1,21 @@
+{
+  "toolbox_name": "Audio",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "linux_audio_play": {
+    "message0": "play WAV file %1",
+    "tooltip": "play WAV file %1",
+    "args0": [
+      null
+    ]
+  },
+  "linux_audio_record": {
+    "message0": "record WAV to %1 seconds %2 sample rate %3",
+    "tooltip": "record WAV to %1 seconds %2 sample rate %3",
+    "args0": [
+      null,
+      null,
+      null
+    ]
+  }
+}

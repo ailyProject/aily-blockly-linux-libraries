@@ -1,0 +1,87 @@
+{
+  "toolbox_name": "檔案",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_file_read": {
+    "message0": "讀取文字檔案 %1",
+    "tooltip": "讀取文字檔案 %1",
+    "args0": [
+      null
+    ]
+  },
+  "python_file_write": {
+    "message0": "以 %1 模式處理文字檔案 %2，內容 %3",
+    "tooltip": "以 %1 模式處理文字檔案 %2，內容 %3",
+    "args0": [
+      {
+        "options": [
+          [
+            "寫入",
+            "w"
+          ],
+          [
+            "附加",
+            "a"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_file_exists": {
+    "message0": "路徑 %1 存在",
+    "tooltip": "路徑 %1 存在",
+    "args0": [
+      null
+    ]
+  },
+  "python_file_list": {
+    "message0": "列出目錄 %1",
+    "tooltip": "列出目錄 %1",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_file_read": {
+    "message0": "讀取文字檔案 %1",
+    "tooltip": "讀取文字檔案 %1",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_file_write": {
+    "message0": "以 %1 模式處理文字檔案 %2，內容 %3",
+    "tooltip": "以 %1 模式處理文字檔案 %2，內容 %3",
+    "args0": [
+      {
+        "options": [
+          [
+            "寫入",
+            "w"
+          ],
+          [
+            "附加",
+            "a"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "cybercam_file_exists": {
+    "message0": "路徑 %1 存在",
+    "tooltip": "路徑 %1 存在",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_file_list": {
+    "message0": "列出目錄 %1",
+    "tooltip": "列出目錄 %1",
+    "args0": [
+      null
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "toolbox_name": "오디오",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "linux_audio_play": {
+    "message0": "WAV 파일 %1 재생",
+    "tooltip": "WAV 파일 %1 재생",
+    "args0": [
+      null
+    ]
+  },
+  "linux_audio_record": {
+    "message0": "WAV 를 %1 에 녹음, 초 %2, 샘플링 %3",
+    "tooltip": "WAV 를 %1 에 녹음, 초 %2, 샘플링 %3",
+    "args0": [
+      null,
+      null,
+      null
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "toolbox_name": "Picamera2",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "rpi_picamera2_init": {
+    "message0": "初始化 Picamera2 %1，相機編號 %2，寬 %3，高 %4，格式 %5",
+    "tooltip": "建立並設定樹莓派 Picamera2 相機。",
+    "args0": [null, null, null, null, null]
+  },
+  "rpi_picamera2_start": {
+    "message0": "啟動 Picamera2 %1",
+    "tooltip": "啟動已設定的 Picamera2 相機。",
+    "args0": [null]
+  },
+  "rpi_picamera2_capture_array": {
+    "message0": "Picamera2 %1 擷取圖像陣列",
+    "tooltip": "將主圖像串流擷取為 NumPy 陣列。",
+    "args0": [null]
+  },
+  "rpi_picamera2_capture_file": {
+    "message0": "Picamera2 %1 儲存圖像到 %2",
+    "tooltip": "擷取圖像並儲存到檔案。",
+    "args0": [null, null]
+  },
+  "rpi_picamera2_set_control": {
+    "message0": "Picamera2 %1 設定控制項 %2 為 %3",
+    "tooltip": "設定支援的 Picamera2 相機控制項。",
+    "args0": [null, null, null]
+  },
+  "rpi_picamera2_stop": {
+    "message0": "停止 Picamera2 %1",
+    "tooltip": "停止擷取但不關閉 Picamera2 相機。",
+    "args0": [null]
+  },
+  "rpi_picamera2_close": {
+    "message0": "關閉 Picamera2 %1",
+    "tooltip": "安全停止並關閉 Picamera2 相機。",
+    "args0": [null]
+  }
+}

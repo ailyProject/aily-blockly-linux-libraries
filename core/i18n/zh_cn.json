@@ -1,0 +1,115 @@
+{
+  "toolbox_name": "核心",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_start": {
+    "message0": "当程序启动时 %1 %2",
+    "tooltip": "程序启动时执行一次。",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_forever": {
+    "message0": "永久循环 %1 %2",
+    "tooltip": "重复执行其中的积木。",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_sleep": {
+    "message0": "等待 %1 秒",
+    "tooltip": "暂停程序指定的秒数。",
+    "args0": [
+      null
+    ]
+  },
+  "python_print": {
+    "message0": "打印 %1",
+    "tooltip": "打印 %1",
+    "args0": [
+      null
+    ]
+  },
+  "python_number": {
+    "message0": "数值 %1",
+    "tooltip": "数值 %1",
+    "args0": [
+      null
+    ]
+  },
+  "python_text": {
+    "message0": "文本 %1",
+    "tooltip": "文本 %1",
+    "args0": [
+      null
+    ]
+  },
+  "python_boolean": {
+    "message0": "布尔值 %1",
+    "tooltip": "布尔值 %1",
+    "args0": [
+      {
+        "options": [
+          [
+            "真",
+            "TRUE"
+          ],
+          [
+            "假",
+            "FALSE"
+          ]
+        ]
+      }
+    ]
+  },
+  "python_tuple": {
+    "message0": "由项目 %1 构成元组",
+    "tooltip": "由项目 %1 构成元组",
+    "args0": [
+      null
+    ]
+  },
+  "python_list": {
+    "message0": "由项目 %1 构成列表",
+    "tooltip": "由项目 %1 构成列表",
+    "args0": [
+      null
+    ]
+  },
+  "python_set_variable": {
+    "message0": "将变量 %1 设为 %2",
+    "tooltip": "将变量 %1 设为 %2",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_get_variable": {
+    "message0": "变量 %1",
+    "tooltip": "变量 %1",
+    "args0": [
+      null
+    ]
+  },
+  "python_if": {
+    "message0": "如果 %1 则执行 %2 %3",
+    "tooltip": "如果 %1 则执行 %2 %3",
+    "args0": [
+      null,
+      null,
+      null
+    ]
+  },
+  "python_for_each": {
+    "message0": "对于 %2 中的每个 %1 执行 %3 %4",
+    "tooltip": "对于 %2 中的每个 %1 执行 %3 %4",
+    "args0": [
+      null,
+      null,
+      null,
+      null
+    ]
+  }
+}

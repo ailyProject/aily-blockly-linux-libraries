@@ -1,0 +1,917 @@
+{
+  "kind": "category",
+  "name": "Vision",
+  "colour": "#1976D2",
+  "contents": [
+    {
+      "kind": "block",
+      "type": "python_image_resize",
+      "inputs": {
+        "IMAGE": {
+          "shadow": {
+            "type": "text",
+            "fields": {
+              "TEXT": ""
+            }
+          }
+        },
+        "WIDTH": {
+          "shadow": {
+            "type": "math_number",
+            "fields": {
+              "NUM": 640
+            }
+          }
+        },
+        "HEIGHT": {
+          "shadow": {
+            "type": "math_number",
+            "fields": {
+              "NUM": 480
+            }
+          }
+        }
+      }
+    },
+    {
+      "kind": "block",
+      "type": "python_image_convert",
+      "inputs": {
+        "IMAGE": {
+          "shadow": {
+            "type": "text",
+            "fields": {
+              "TEXT": ""
+            }
+          }
+        }
+      }
+    },
+    {
+      "kind": "block",
+      "type": "python_image_in_range",
+      "inputs": {
+        "IMAGE": {
+          "shadow": {
+            "type": "text",
+            "fields": {
+              "TEXT": ""
+            }
+          }
+        },
+        "LOWER": {
+          "shadow": {
+            "type": "text",
+            "fields": {
+              "TEXT": ""
+            }
+          }
+        },
+        "UPPER": {
+          "shadow": {
+            "type": "text",
+            "fields": {
+              "TEXT": ""
+            }
+          }
+        }
+      }
+    },
+    {
+      "kind": "block",
+      "type": "python_image_components",
+      "inputs": {
+        "IMAGE": {
+          "shadow": {
+            "type": "text",
+            "fields": {
+              "TEXT": ""
+            }
+          }
+        }
+      }
+    },
+    {
+      "kind": "block",
+      "type": "python_components_property",
+      "inputs": {
+        "COMPONENTS": {
+          "shadow": {
+            "type": "text",
+            "fields": {
+              "TEXT": ""
+            }
+          }
+        }
+      }
+    },
+    {
+      "kind": "block",
+      "type": "python_component_stat",
+      "inputs": {
+        "COMPONENTS": {
+          "shadow": {
+            "type": "text",
+            "fields": {
+              "TEXT": ""
+            }
+          }
+        },
+        "INDEX": {
+          "shadow": {
+            "type": "math_number",
+            "fields": {
+              "NUM": 1
+            }
+          }
+        }
+      }
+    },
+    {
+      "kind": "block",
+      "type": "python_image_canny",
+      "inputs": {
+        "IMAGE": {
+          "shadow": {
+            "type": "text",
+            "fields": {
+              "TEXT": ""
+            }
+          }
+        },
+        "THRESHOLD1": {
+          "shadow": {
+            "type": "math_number",
+            "fields": {
+              "NUM": 50
+            }
+          }
+        },
+        "THRESHOLD2": {
+          "shadow": {
+            "type": "math_number",
+            "fields": {
+              "NUM": 150
+            }
+          }
+        },
+        "L2_GRADIENT": {
+          "shadow": {
+            "type": "logic_boolean",
+            "fields": {
+              "BOOL": "FALSE"
+            }
+          }
+        }
+      }
+    },
+    {
+      "kind": "block",
+      "type": "python_image_hough_circles",
+      "inputs": {
+        "IMAGE": {
+          "shadow": {
+            "type": "text",
+            "fields": {
+              "TEXT": ""
+            }
+          }
+        },
+        "DP": {
+          "shadow": {
+            "type": "math_number",
+            "fields": {
+              "NUM": 1
+            }
+          }
+        },
+        "MIN_DIST": {
+          "shadow": {
+            "type": "math_number",
+            "fields": {
+              "NUM": 20
+            }
+          }
+        },
+        "PARAM1": {
+          "shadow": {
+            "type": "math_number",
+            "fields": {
+              "NUM": 100
+            }
+          }
+        },
+        "PARAM2": {
+          "shadow": {
+            "type": "math_number",
+            "fields": {
+              "NUM": 40
+            }
+          }
+        },
+        "MIN_RADIUS": {
+          "shadow": {
+            "type": "math_number",
+            "fields": {
+              "NUM": 8
+            }
+          }
+        },
+        "MAX_RADIUS": {
+          "shadow": {
+            "type": "math_number",
+            "fields": {
+              "NUM": 40
+            }
+          }
+        }
+      }
+    },
+    {
+      "kind": "block",
+      "type": "python_image_gaussian_blur",
+      "inputs": {
+        "IMAGE": {
+          "shadow": {
+            "type": "text",
+            "fields": {
+              "TEXT": ""
+            }
+          }
+        },
+        "KERNEL_WIDTH": {
+          "shadow": {
+            "type": "math_number",
+            "fields": {
+              "NUM": 3
+            }
+          }
+        },
+        "KERNEL_HEIGHT": {
+          "shadow": {
+            "type": "math_number",
+            "fields": {
+              "NUM": 3
+            }
+          }
+        },
+        "SIGMA_X": {
+          "shadow": {
+            "type": "math_number",
+            "fields": {
+              "NUM": 0.8
+            }
+          }
+        },
+        "SIGMA_Y": {
+          "shadow": {
+            "type": "math_number",
+            "fields": {
+              "NUM": 0
+            }
+          }
+        }
+      }
+    },
+    {
+      "kind": "block",
+      "type": "python_morphology_kernel",
+      "inputs": {
+        "WIDTH": {
+          "shadow": {
+            "type": "math_number",
+            "fields": {
+              "NUM": 3
+            }
+          }
+        },
+        "HEIGHT": {
+          "shadow": {
+            "type": "math_number",
+            "fields": {
+              "NUM": 3
+            }
+          }
+        }
+      }
+    },
+    {
+      "kind": "block",
+      "type": "python_image_morphology",
+      "inputs": {
+        "IMAGE": {
+          "shadow": {
+            "type": "text",
+            "fields": {
+              "TEXT": ""
+            }
+          }
+        },
+        "KERNEL": {
+          "shadow": {
+            "type": "text",
+            "fields": {
+              "TEXT": ""
+            }
+          }
+        },
+        "ITERATIONS": {
+          "shadow": {
+            "type": "math_number",
+            "fields": {
+              "NUM": 1
+            }
+          }
+        }
+      }
+    },
+    {
+      "kind": "block",
+      "type": "python_image_find_contours",
+      "inputs": {
+        "IMAGE": {
+          "shadow": {
+            "type": "text",
+            "fields": {
+              "TEXT": ""
+            }
+          }
+        }
+      }
+    },
+    {
+      "kind": "block",
+      "type": "python_contour_area",
+      "inputs": {
+        "CONTOUR": {
+          "shadow": {
+            "type": "text",
+            "fields": {
+              "TEXT": ""
+            }
+          }
+        }
+      }
+    },
+    {
+      "kind": "block",
+      "type": "python_contour_perimeter",
+      "inputs": {
+        "CONTOUR": {
+          "shadow": {
+            "type": "text",
+            "fields": {
+              "TEXT": ""
+            }
+          }
+        },
+        "CLOSED": {
+          "shadow": {
+            "type": "logic_boolean",
+            "fields": {
+              "BOOL": "TRUE"
+            }
+          }
+        }
+      }
+    },
+    {
+      "kind": "block",
+      "type": "python_contour_approx",
+      "inputs": {
+        "CONTOUR": {
+          "shadow": {
+            "type": "text",
+            "fields": {
+              "TEXT": ""
+            }
+          }
+        },
+        "EPSILON": {
+          "shadow": {
+            "type": "math_number",
+            "fields": {
+              "NUM": 5
+            }
+          }
+        },
+        "CLOSED": {
+          "shadow": {
+            "type": "logic_boolean",
+            "fields": {
+              "BOOL": "TRUE"
+            }
+          }
+        }
+      }
+    },
+    {
+      "kind": "block",
+      "type": "python_contour_is_convex",
+      "inputs": {
+        "CONTOUR": {
+          "shadow": {
+            "type": "text",
+            "fields": {
+              "TEXT": ""
+            }
+          }
+        }
+      }
+    },
+    {
+      "kind": "block",
+      "type": "python_contour_min_area_rect",
+      "inputs": {
+        "CONTOUR": {
+          "shadow": {
+            "type": "text",
+            "fields": {
+              "TEXT": ""
+            }
+          }
+        }
+      }
+    },
+    {
+      "kind": "block",
+      "type": "python_rotated_rect_points",
+      "inputs": {
+        "RECT": {
+          "shadow": {
+            "type": "text",
+            "fields": {
+              "TEXT": ""
+            }
+          }
+        }
+      }
+    },
+    {
+      "kind": "block",
+      "type": "python_image_load",
+      "inputs": {
+        "PATH": {
+          "shadow": {
+            "type": "text",
+            "fields": {
+              "TEXT": "/tmp/file.txt"
+            }
+          }
+        }
+      }
+    },
+    {
+      "kind": "block",
+      "type": "python_image_save",
+      "inputs": {
+        "IMAGE": {
+          "shadow": {
+            "type": "text",
+            "fields": {
+              "TEXT": ""
+            }
+          }
+        },
+        "PATH": {
+          "shadow": {
+            "type": "text",
+            "fields": {
+              "TEXT": "/tmp/file.txt"
+            }
+          }
+        }
+      }
+    },
+    {
+      "kind": "block",
+      "type": "python_draw_rectangle",
+      "inputs": {
+        "IMAGE": {
+          "shadow": {
+            "type": "text",
+            "fields": {
+              "TEXT": ""
+            }
+          }
+        },
+        "X1": {
+          "shadow": {
+            "type": "math_number",
+            "fields": {
+              "NUM": 10
+            }
+          }
+        },
+        "Y1": {
+          "shadow": {
+            "type": "math_number",
+            "fields": {
+              "NUM": 10
+            }
+          }
+        },
+        "X2": {
+          "shadow": {
+            "type": "math_number",
+            "fields": {
+              "NUM": 100
+            }
+          }
+        },
+        "Y2": {
+          "shadow": {
+            "type": "math_number",
+            "fields": {
+              "NUM": 100
+            }
+          }
+        },
+        "COLOR": {
+          "shadow": {
+            "type": "text",
+            "fields": {
+              "TEXT": ""
+            }
+          }
+        },
+        "THICKNESS": {
+          "shadow": {
+            "type": "math_number",
+            "fields": {
+              "NUM": 2
+            }
+          }
+        }
+      }
+    },
+    {
+      "kind": "block",
+      "type": "python_draw_circle",
+      "inputs": {
+        "IMAGE": {
+          "shadow": {
+            "type": "text",
+            "fields": {
+              "TEXT": ""
+            }
+          }
+        },
+        "X": {
+          "shadow": {
+            "type": "math_number",
+            "fields": {
+              "NUM": 10
+            }
+          }
+        },
+        "Y": {
+          "shadow": {
+            "type": "math_number",
+            "fields": {
+              "NUM": 30
+            }
+          }
+        },
+        "RADIUS": {
+          "shadow": {
+            "type": "math_number",
+            "fields": {
+              "NUM": 10
+            }
+          }
+        },
+        "COLOR": {
+          "shadow": {
+            "type": "text",
+            "fields": {
+              "TEXT": ""
+            }
+          }
+        },
+        "THICKNESS": {
+          "shadow": {
+            "type": "math_number",
+            "fields": {
+              "NUM": 2
+            }
+          }
+        }
+      }
+    },
+    {
+      "kind": "block",
+      "type": "python_draw_line",
+      "inputs": {
+        "IMAGE": {
+          "shadow": {
+            "type": "text",
+            "fields": {
+              "TEXT": ""
+            }
+          }
+        },
+        "X1": {
+          "shadow": {
+            "type": "math_number",
+            "fields": {
+              "NUM": 10
+            }
+          }
+        },
+        "Y1": {
+          "shadow": {
+            "type": "math_number",
+            "fields": {
+              "NUM": 10
+            }
+          }
+        },
+        "X2": {
+          "shadow": {
+            "type": "math_number",
+            "fields": {
+              "NUM": 100
+            }
+          }
+        },
+        "Y2": {
+          "shadow": {
+            "type": "math_number",
+            "fields": {
+              "NUM": 100
+            }
+          }
+        },
+        "COLOR": {
+          "shadow": {
+            "type": "text",
+            "fields": {
+              "TEXT": ""
+            }
+          }
+        },
+        "THICKNESS": {
+          "shadow": {
+            "type": "math_number",
+            "fields": {
+              "NUM": 2
+            }
+          }
+        }
+      }
+    },
+    {
+      "kind": "block",
+      "type": "python_draw_text",
+      "inputs": {
+        "TEXT": {
+          "shadow": {
+            "type": "text",
+            "fields": {
+              "TEXT": "Python"
+            }
+          }
+        },
+        "IMAGE": {
+          "shadow": {
+            "type": "text",
+            "fields": {
+              "TEXT": ""
+            }
+          }
+        },
+        "X": {
+          "shadow": {
+            "type": "math_number",
+            "fields": {
+              "NUM": 10
+            }
+          }
+        },
+        "Y": {
+          "shadow": {
+            "type": "math_number",
+            "fields": {
+              "NUM": 30
+            }
+          }
+        },
+        "SCALE": {
+          "shadow": {
+            "type": "math_number",
+            "fields": {
+              "NUM": 1
+            }
+          }
+        },
+        "COLOR": {
+          "shadow": {
+            "type": "text",
+            "fields": {
+              "TEXT": ""
+            }
+          }
+        },
+        "THICKNESS": {
+          "shadow": {
+            "type": "math_number",
+            "fields": {
+              "NUM": 2
+            }
+          }
+        }
+      }
+    },
+    {
+      "kind": "block",
+      "type": "python_draw_polyline",
+      "inputs": {
+        "IMAGE": {
+          "shadow": {
+            "type": "text",
+            "fields": {
+              "TEXT": ""
+            }
+          }
+        },
+        "POINTS": {
+          "shadow": {
+            "type": "text",
+            "fields": {
+              "TEXT": ""
+            }
+          }
+        },
+        "CLOSED": {
+          "shadow": {
+            "type": "logic_boolean",
+            "fields": {
+              "BOOL": "TRUE"
+            }
+          }
+        },
+        "COLOR": {
+          "shadow": {
+            "type": "text",
+            "fields": {
+              "TEXT": ""
+            }
+          }
+        },
+        "THICKNESS": {
+          "shadow": {
+            "type": "math_number",
+            "fields": {
+              "NUM": 2
+            }
+          }
+        }
+      }
+    },
+    {
+      "kind": "block",
+      "type": "python_draw_text_freetype",
+      "inputs": {
+        "TEXT": {
+          "shadow": {
+            "type": "text",
+            "fields": {
+              "TEXT": "Python 视觉"
+            }
+          }
+        },
+        "IMAGE": {
+          "shadow": {
+            "type": "text",
+            "fields": {
+              "TEXT": ""
+            }
+          }
+        },
+        "X": {
+          "shadow": {
+            "type": "math_number",
+            "fields": {
+              "NUM": 10
+            }
+          }
+        },
+        "Y": {
+          "shadow": {
+            "type": "math_number",
+            "fields": {
+              "NUM": 30
+            }
+          }
+        },
+        "FONT_HEIGHT": {
+          "shadow": {
+            "type": "math_number",
+            "fields": {
+              "NUM": 30
+            }
+          }
+        },
+        "COLOR": {
+          "shadow": {
+            "type": "text",
+            "fields": {
+              "TEXT": ""
+            }
+          }
+        },
+        "THICKNESS": {
+          "shadow": {
+            "type": "math_number",
+            "fields": {
+              "NUM": -1
+            }
+          }
+        },
+        "FONT_PATH": {
+          "shadow": {
+            "type": "text",
+            "fields": {
+              "TEXT": "/usr/share/fonts/truetype/wqy/wqy-zenhei.ttc"
+            }
+          }
+        }
+      }
+    },
+    {
+      "kind": "block",
+      "type": "python_qr_decode",
+      "inputs": {
+        "IMAGE": {
+          "shadow": {
+            "type": "text",
+            "fields": {
+              "TEXT": ""
+            }
+          }
+        }
+      }
+    },
+    {
+      "kind": "block",
+      "type": "python_barcode_decode",
+      "inputs": {
+        "IMAGE": {
+          "shadow": {
+            "type": "text",
+            "fields": {
+              "TEXT": ""
+            }
+          }
+        }
+      }
+    },
+    {
+      "kind": "block",
+      "type": "python_code_result_property",
+      "inputs": {
+        "RESULT": {
+          "shadow": {
+            "type": "text",
+            "fields": {
+              "TEXT": ""
+            }
+          }
+        }
+      }
+    },
+    {
+      "kind": "block",
+      "type": "python_apriltag_init"
+    },
+    {
+      "kind": "block",
+      "type": "python_apriltag_detect",
+      "inputs": {
+        "IMAGE": {
+          "shadow": {
+            "type": "text",
+            "fields": {
+              "TEXT": ""
+            }
+          }
+        }
+      }
+    },
+    {
+      "kind": "block",
+      "type": "python_apriltag_result_property",
+      "inputs": {
+        "RESULT": {
+          "shadow": {
+            "type": "text",
+            "fields": {
+              "TEXT": ""
+            }
+          }
+        }
+      }
+    }
+  ]
+}

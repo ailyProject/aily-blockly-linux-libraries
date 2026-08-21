@@ -1,0 +1,40 @@
+{
+  "toolbox_name": "Picamera2",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "rpi_picamera2_init": {
+    "message0": "initialize Picamera2 %1 camera %2 width %3 height %4 format %5",
+    "tooltip": "Create and configure a Raspberry Pi Picamera2 camera.",
+    "args0": [null, null, null, null, null]
+  },
+  "rpi_picamera2_start": {
+    "message0": "start Picamera2 %1",
+    "tooltip": "Start the configured Picamera2 camera.",
+    "args0": [null]
+  },
+  "rpi_picamera2_capture_array": {
+    "message0": "Picamera2 %1 capture array",
+    "tooltip": "Capture the main stream as a NumPy array.",
+    "args0": [null]
+  },
+  "rpi_picamera2_capture_file": {
+    "message0": "Picamera2 %1 capture file %2",
+    "tooltip": "Capture an image and save it to a file.",
+    "args0": [null, null]
+  },
+  "rpi_picamera2_set_control": {
+    "message0": "Picamera2 %1 set control %2 to %3",
+    "tooltip": "Set a supported Picamera2 camera control.",
+    "args0": [null, null, null]
+  },
+  "rpi_picamera2_stop": {
+    "message0": "stop Picamera2 %1",
+    "tooltip": "Stop capture without closing the Picamera2 camera.",
+    "args0": [null]
+  },
+  "rpi_picamera2_close": {
+    "message0": "close Picamera2 %1",
+    "tooltip": "Stop and close the Picamera2 camera safely.",
+    "args0": [null]
+  }
+}

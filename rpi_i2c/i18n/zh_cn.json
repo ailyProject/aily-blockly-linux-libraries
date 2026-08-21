@@ -1,0 +1,50 @@
+{
+  "toolbox_name": "I2C / SMBus",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "rpi_i2c_init": {
+    "message0": "初始化 I2C %1，总线 %2",
+    "tooltip": "使用 smbus2 打开 Linux I2C 总线。",
+    "args0": [null, null]
+  },
+  "rpi_i2c_read_byte_data": {
+    "message0": "I2C %1 从地址 %2 寄存器 %3 读取字节",
+    "tooltip": "从 I2C 寄存器读取 8 位数值。",
+    "args0": [null, null, null]
+  },
+  "rpi_i2c_write_byte_data": {
+    "message0": "I2C %1 向地址 %2 寄存器 %3 写入字节 %4",
+    "tooltip": "向 I2C 寄存器写入 8 位数值。",
+    "args0": [null, null, null, null]
+  },
+  "rpi_i2c_read_word_data": {
+    "message0": "I2C %1 从地址 %2 寄存器 %3 读取字",
+    "tooltip": "从寄存器读取一个 16 位小端 SMBus 字。",
+    "args0": [null, null, null]
+  },
+  "rpi_i2c_write_word_data": {
+    "message0": "I2C %1 向地址 %2 寄存器 %3 写入字 %4",
+    "tooltip": "向寄存器写入一个 16 位小端 SMBus 字。",
+    "args0": [null, null, null, null]
+  },
+  "rpi_i2c_read_i2c_block": {
+    "message0": "I2C %1 从地址 %2 寄存器 %3 读取 %4 字节",
+    "tooltip": "从 I2C 寄存器读取一块字节数据。",
+    "args0": [null, null, null, null]
+  },
+  "rpi_i2c_write_i2c_block": {
+    "message0": "I2C %1 向地址 %2 寄存器 %3 写入块数据 %4",
+    "tooltip": "向 I2C 寄存器写入字节列表。",
+    "args0": [null, null, null, null]
+  },
+  "rpi_i2c_write_read": {
+    "message0": "I2C %1 重复起始 地址 %2 写入 %3 再读取 %4 字节",
+    "tooltip": "在一次带重复起始条件的 I2C 事务中写入字节并读取响应。",
+    "args0": [null, null, null, null]
+  },
+  "rpi_i2c_close": {
+    "message0": "关闭 I2C %1",
+    "tooltip": "关闭 I2C 总线。",
+    "args0": [null]
+  }
+}

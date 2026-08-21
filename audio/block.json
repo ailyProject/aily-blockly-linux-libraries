@@ -1,0 +1,44 @@
+[
+  {
+    "type": "linux_audio_play",
+    "message0": "play WAV file %1",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "PATH",
+        "check": "String"
+      }
+    ],
+    "colour": "#EF6C00",
+    "tooltip": "play WAV file %1",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "linux_audio_record",
+    "message0": "record WAV to %1 seconds %2 sample rate %3",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "PATH",
+        "check": "String"
+      },
+      {
+        "type": "input_value",
+        "name": "SECONDS",
+        "check": "Number"
+      },
+      {
+        "type": "input_value",
+        "name": "RATE",
+        "check": "Number"
+      }
+    ],
+    "colour": "#EF6C00",
+    "tooltip": "record WAV to %1 seconds %2 sample rate %3",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  }
+]

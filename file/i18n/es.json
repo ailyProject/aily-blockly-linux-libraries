@@ -1,0 +1,87 @@
+{
+  "toolbox_name": "Archivos",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_file_read": {
+    "message0": "leer archivo de texto %1",
+    "tooltip": "leer archivo de texto %1",
+    "args0": [
+      null
+    ]
+  },
+  "python_file_write": {
+    "message0": "tratar archivo de texto %2 en modo %1 contenido %3",
+    "tooltip": "tratar archivo de texto %2 en modo %1 contenido %3",
+    "args0": [
+      {
+        "options": [
+          [
+            "escribir",
+            "w"
+          ],
+          [
+            "añadir",
+            "a"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_file_exists": {
+    "message0": "la ruta %1 existe",
+    "tooltip": "la ruta %1 existe",
+    "args0": [
+      null
+    ]
+  },
+  "python_file_list": {
+    "message0": "listar directorio %1",
+    "tooltip": "listar directorio %1",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_file_read": {
+    "message0": "Leer el archivo de texto %1",
+    "tooltip": "Leer el archivo de texto %1",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_file_write": {
+    "message0": "Procesar el archivo de texto %2 en modo %1: contenido %3",
+    "tooltip": "Procesar el archivo de texto %2 en modo %1: contenido %3",
+    "args0": [
+      {
+        "options": [
+          [
+            "escribir",
+            "w"
+          ],
+          [
+            "añadir",
+            "a"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "cybercam_file_exists": {
+    "message0": "La ruta %1 existe",
+    "tooltip": "La ruta %1 existe",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_file_list": {
+    "message0": "Listar el directorio %1",
+    "tooltip": "Listar el directorio %1",
+    "args0": [
+      null
+    ]
+  }
+}

@@ -1,0 +1,721 @@
+[
+  {
+    "type": "cybercam_camera_init",
+    "message0": "initialize camera %1 width %2 height %3 sensor %4",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "camera"
+      },
+      {
+        "type": "input_value",
+        "name": "WIDTH",
+        "check": "Number"
+      },
+      {
+        "type": "input_value",
+        "name": "HEIGHT",
+        "check": "Number"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "SENSOR_ID",
+        "options": [
+          [
+            "onboard CSI2",
+            "2"
+          ],
+          [
+            "CSI0",
+            "0"
+          ]
+        ]
+      }
+    ],
+    "colour": "#1976D2",
+    "tooltip": "initialize camera %1 width %2 height %3 sensor %4",
+    "icon": "camera",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "cybercam_camera_opened",
+    "message0": "camera %1 is open",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "camera"
+      }
+    ],
+    "colour": "#1976D2",
+    "tooltip": "camera %1 is open",
+    "icon": "camera",
+    "output": "Any"
+  },
+  {
+    "type": "cybercam_camera_read",
+    "message0": "camera %1 image",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "camera"
+      }
+    ],
+    "colour": "#1976D2",
+    "tooltip": "camera %1 image",
+    "icon": "camera",
+    "output": "Any"
+  },
+  {
+    "type": "cybercam_camera_read_raw",
+    "message0": "camera %1 raw read result",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "camera"
+      }
+    ],
+    "colour": "#1976D2",
+    "tooltip": "Return the complete camera.read() result, including the success flag and image.",
+    "icon": "camera",
+    "output": "Any"
+  },
+  {
+    "type": "cybercam_camera_hmirror",
+    "message0": "camera %1 horizontal mirror %2",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "camera"
+      },
+      {
+        "type": "input_value",
+        "name": "ENABLED",
+        "check": "Boolean"
+      }
+    ],
+    "colour": "#1976D2",
+    "tooltip": "camera %1 horizontal mirror %2",
+    "icon": "camera",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "cybercam_camera_vflip",
+    "message0": "camera %1 vertical flip %2",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "camera"
+      },
+      {
+        "type": "input_value",
+        "name": "ENABLED",
+        "check": "Boolean"
+      }
+    ],
+    "colour": "#1976D2",
+    "tooltip": "camera %1 vertical flip %2",
+    "icon": "camera",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "cybercam_camera_release",
+    "message0": "release camera %1",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "camera"
+      }
+    ],
+    "colour": "#1976D2",
+    "tooltip": "release camera %1",
+    "icon": "camera",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "cybercam_display_init",
+    "message0": "initialize onboard display",
+    "colour": "#1976D2",
+    "tooltip": "initialize onboard display",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "cybercam_display_rotation",
+    "message0": "set display rotation %1",
+    "args0": [
+      {
+        "type": "field_dropdown",
+        "name": "ROTATION",
+        "options": [
+          [
+            "0°",
+            "0"
+          ],
+          [
+            "90°",
+            "1"
+          ],
+          [
+            "180°",
+            "2"
+          ],
+          [
+            "270°",
+            "3"
+          ]
+        ]
+      }
+    ],
+    "colour": "#1976D2",
+    "tooltip": "set display rotation %1",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "cybercam_display_show",
+    "message0": "show image %1 on display",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "IMAGE"
+      }
+    ],
+    "colour": "#1976D2",
+    "tooltip": "show image %1 on display",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "cybercam_ide_show",
+    "message0": "show image %1 in IDE",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "IMAGE"
+      }
+    ],
+    "colour": "#1976D2",
+    "tooltip": "show image %1 in IDE",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "cybercam_lcd_direction",
+    "message0": "current display direction",
+    "colour": "#1976D2",
+    "tooltip": "current display direction",
+    "icon": "settings",
+    "output": "Any"
+  },
+  {
+    "type": "cybercam_ai_init_simple",
+    "message0": "initialize AI %1 model %2 path %3 size %4",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "detector"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "MODEL",
+        "options": [
+          [
+            "Fall detection",
+            "FALL_DETECT"
+          ],
+          [
+            "Hand detection",
+            "HAND_DETECT"
+          ],
+          [
+            "Person detection",
+            "PERSON_DETECT"
+          ],
+          [
+            "Person keypoints",
+            "PERSON_KEYPOINT"
+          ],
+          [
+            "Smoke detection",
+            "SMOKE_DETECT"
+          ],
+          [
+            "Traffic light",
+            "TRAFFIC_LIGHT_DETECT"
+          ],
+          [
+            "YOLO11 classification",
+            "YOLO11_CLS"
+          ],
+          [
+            "YOLO11 detection",
+            "YOLO11_DET"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "MODEL_PATH",
+        "check": "String"
+      },
+      {
+        "type": "input_value",
+        "name": "MODEL_SIZE",
+        "check": "Number"
+      }
+    ],
+    "colour": "#7B1FA2",
+    "tooltip": "initialize AI %1 model %2 path %3 size %4",
+    "icon": "robot",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "cybercam_ai_init_face",
+    "message0": "initialize face detector %1 model %2 anchors %3 size %4",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "detector"
+      },
+      {
+        "type": "input_value",
+        "name": "MODEL_PATH",
+        "check": "String"
+      },
+      {
+        "type": "input_value",
+        "name": "ANCHORS_PATH",
+        "check": "String"
+      },
+      {
+        "type": "input_value",
+        "name": "MODEL_SIZE",
+        "check": "Number"
+      }
+    ],
+    "colour": "#7B1FA2",
+    "tooltip": "initialize face detector %1 model %2 anchors %3 size %4",
+    "icon": "robot",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "cybercam_ai_init_mask",
+    "message0": "initialize mask detector %1 detection model %2 anchors %3 size %4 mask model %5",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "detector"
+      },
+      {
+        "type": "input_value",
+        "name": "DETECT_MODEL",
+        "check": "String"
+      },
+      {
+        "type": "input_value",
+        "name": "ANCHORS_PATH",
+        "check": "String"
+      },
+      {
+        "type": "input_value",
+        "name": "MODEL_SIZE",
+        "check": "Number"
+      },
+      {
+        "type": "input_value",
+        "name": "MASK_MODEL",
+        "check": "String"
+      }
+    ],
+    "colour": "#7B1FA2",
+    "tooltip": "initialize mask detector %1 detection model %2 anchors %3 size %4 mask model %5",
+    "icon": "robot",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "cybercam_ai_init_hand_keypoint",
+    "message0": "initialize hand AI %1 type %2 detection model %3 keypoint model %4",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "detector"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "MODEL",
+        "options": [
+          [
+            "keypoints",
+            "HAND_KEYPOINT"
+          ],
+          [
+            "gesture classification",
+            "HAND_KEYPOINT_CLS"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "DETECT_MODEL",
+        "check": "String"
+      },
+      {
+        "type": "input_value",
+        "name": "KEYPOINT_MODEL",
+        "check": "String"
+      }
+    ],
+    "colour": "#7B1FA2",
+    "tooltip": "initialize hand AI %1 type %2 detection model %3 keypoint model %4",
+    "icon": "robot",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "cybercam_ai_init_ocr",
+    "message0": "initialize OCR %1 detection %2 recognition %3 dictionary %4 detection size %5 recognition width %6 height %7",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "ocr"
+      },
+      {
+        "type": "input_value",
+        "name": "DETECT_MODEL",
+        "check": "String"
+      },
+      {
+        "type": "input_value",
+        "name": "RECOGNITION_MODEL",
+        "check": "String"
+      },
+      {
+        "type": "input_value",
+        "name": "DICTIONARY",
+        "check": "String"
+      },
+      {
+        "type": "input_value",
+        "name": "DETECT_SIZE",
+        "check": "Number"
+      },
+      {
+        "type": "input_value",
+        "name": "RECOGNITION_WIDTH",
+        "check": "Number"
+      },
+      {
+        "type": "input_value",
+        "name": "RECOGNITION_HEIGHT",
+        "check": "Number"
+      }
+    ],
+    "colour": "#7B1FA2",
+    "tooltip": "initialize OCR %1 detection %2 recognition %3 dictionary %4 detection size %5 recognition width %6 height %7",
+    "icon": "robot",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "cybercam_ai_init_licence",
+    "message0": "initialize license-plate AI %1 detection %2 recognition %3 anchors %4 labels %5 detection size %6 recognition width %7 height %8",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "licence"
+      },
+      {
+        "type": "input_value",
+        "name": "DETECT_MODEL",
+        "check": "String"
+      },
+      {
+        "type": "input_value",
+        "name": "RECOGNITION_MODEL",
+        "check": "String"
+      },
+      {
+        "type": "input_value",
+        "name": "ANCHORS_PATH",
+        "check": "String"
+      },
+      {
+        "type": "input_value",
+        "name": "LABELS"
+      },
+      {
+        "type": "input_value",
+        "name": "DETECT_SIZE",
+        "check": "Number"
+      },
+      {
+        "type": "input_value",
+        "name": "RECOGNITION_WIDTH",
+        "check": "Number"
+      },
+      {
+        "type": "input_value",
+        "name": "RECOGNITION_HEIGHT",
+        "check": "Number"
+      }
+    ],
+    "colour": "#7B1FA2",
+    "tooltip": "initialize license-plate AI %1 detection %2 recognition %3 anchors %4 labels %5 detection size %6 recognition width %7 height %8",
+    "icon": "robot",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "cybercam_ai_run",
+    "message0": "AI %1 run on %2",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "detector"
+      },
+      {
+        "type": "input_value",
+        "name": "IMAGE"
+      }
+    ],
+    "colour": "#7B1FA2",
+    "tooltip": "AI %1 run on %2",
+    "icon": "robot",
+    "output": "Any"
+  },
+  {
+    "type": "cybercam_ai_run_confidence",
+    "message0": "AI %1 run on %2 confidence %3",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "detector"
+      },
+      {
+        "type": "input_value",
+        "name": "IMAGE"
+      },
+      {
+        "type": "input_value",
+        "name": "CONFIDENCE",
+        "check": "Number"
+      }
+    ],
+    "colour": "#7B1FA2",
+    "tooltip": "AI %1 run on %2 confidence %3",
+    "icon": "robot",
+    "output": "Any"
+  },
+  {
+    "type": "cybercam_ai_run_thresholds",
+    "message0": "AI %1 run on %2 confidence %3 NMS %4",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "detector"
+      },
+      {
+        "type": "input_value",
+        "name": "IMAGE"
+      },
+      {
+        "type": "input_value",
+        "name": "CONFIDENCE",
+        "check": "Number"
+      },
+      {
+        "type": "input_value",
+        "name": "NMS",
+        "check": "Number"
+      }
+    ],
+    "colour": "#7B1FA2",
+    "tooltip": "AI %1 run on %2 confidence %3 NMS %4",
+    "icon": "robot",
+    "output": "Any"
+  },
+  {
+    "type": "cybercam_result_length",
+    "message0": "result list %1 length",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "RESULTS"
+      }
+    ],
+    "colour": "#7B1FA2",
+    "tooltip": "result list %1 length",
+    "icon": "settings",
+    "output": "Any"
+  },
+  {
+    "type": "cybercam_result_item",
+    "message0": "result list %1 item %2",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "RESULTS"
+      },
+      {
+        "type": "input_value",
+        "name": "INDEX",
+        "check": "Number"
+      }
+    ],
+    "colour": "#7B1FA2",
+    "tooltip": "result list %1 item %2",
+    "icon": "settings",
+    "output": "Any"
+  },
+  {
+    "type": "cybercam_result_property",
+    "message0": "result %1 property %2",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "RESULT"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "PROPERTY",
+        "options": [
+          [
+            "confidence",
+            "reliability"
+          ],
+          [
+            "x",
+            "x"
+          ],
+          [
+            "y",
+            "y"
+          ],
+          [
+            "width",
+            "w"
+          ],
+          [
+            "height",
+            "h"
+          ],
+          [
+            "label",
+            "label"
+          ],
+          [
+            "text",
+            "text"
+          ],
+          [
+            "mask",
+            "mask"
+          ],
+          [
+            "top 5",
+            "top5"
+          ],
+          [
+            "keypoints",
+            "keypoints"
+          ],
+          [
+            "corners",
+            "corners"
+          ],
+          [
+            "left eye",
+            "left_eye"
+          ],
+          [
+            "left eye x",
+            "left_eye.x"
+          ],
+          [
+            "left eye y",
+            "left_eye.y"
+          ],
+          [
+            "right eye",
+            "right_eye"
+          ],
+          [
+            "right eye x",
+            "right_eye.x"
+          ],
+          [
+            "right eye y",
+            "right_eye.y"
+          ],
+          [
+            "nose",
+            "nose"
+          ],
+          [
+            "nose x",
+            "nose.x"
+          ],
+          [
+            "nose y",
+            "nose.y"
+          ],
+          [
+            "left mouth",
+            "left_mouth"
+          ],
+          [
+            "left mouth x",
+            "left_mouth.x"
+          ],
+          [
+            "left mouth y",
+            "left_mouth.y"
+          ],
+          [
+            "right mouth",
+            "right_mouth"
+          ],
+          [
+            "right mouth x",
+            "right_mouth.x"
+          ],
+          [
+            "right mouth y",
+            "right_mouth.y"
+          ]
+        ]
+      }
+    ],
+    "colour": "#7B1FA2",
+    "tooltip": "result %1 property %2",
+    "icon": "settings",
+    "output": "Any"
+  }
+]

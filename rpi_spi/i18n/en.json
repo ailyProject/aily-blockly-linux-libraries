@@ -1,0 +1,30 @@
+{
+  "toolbox_name": "SPI",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "rpi_spi_init": {
+    "message0": "initialize SPI %1 bus %2 device %3 mode %4 speed %5 Hz bits %6",
+    "tooltip": "Open an SPI device with py-spidev and configure its transfer parameters.",
+    "args0": [null, null, null, null, null, null]
+  },
+  "rpi_spi_transfer": {
+    "message0": "SPI %1 transfer %2",
+    "tooltip": "Transfer a list of bytes with xfer2 and return the received byte list.",
+    "args0": [null, null]
+  },
+  "rpi_spi_read": {
+    "message0": "SPI %1 read %2 bytes",
+    "tooltip": "Read bytes from the SPI device and return them as a list.",
+    "args0": [null, null]
+  },
+  "rpi_spi_write": {
+    "message0": "SPI %1 write %2",
+    "tooltip": "Write a list or buffer of bytes with writebytes2.",
+    "args0": [null, null]
+  },
+  "rpi_spi_close": {
+    "message0": "close SPI %1",
+    "tooltip": "Close the SPI device.",
+    "args0": [null]
+  }
+}

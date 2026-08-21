@@ -1,0 +1,36 @@
+{
+  "toolbox_name": "相機",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "linux_camera_init": {
+    "message0": "初始化相機 %1，裝置 %2，寬 %3，高 %4",
+    "tooltip": "初始化相機 %1，裝置 %2，寬 %3，高 %4",
+    "args0": [
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "linux_camera_opened": {
+    "message0": "相機 %1 已開啟",
+    "tooltip": "相機 %1 已開啟",
+    "args0": [
+      null
+    ]
+  },
+  "linux_camera_read": {
+    "message0": "相機 %1 的圖像",
+    "tooltip": "相機 %1 的圖像",
+    "args0": [
+      null
+    ]
+  },
+  "linux_camera_release": {
+    "message0": "釋放相機 %1",
+    "tooltip": "釋放相機 %1",
+    "args0": [
+      null
+    ]
+  }
+}

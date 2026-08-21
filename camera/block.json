@@ -1,0 +1,79 @@
+[
+  {
+    "type": "linux_camera_init",
+    "message0": "initialize camera %1 device %2 width %3 height %4",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "camera"
+      },
+      {
+        "type": "field_input",
+        "name": "DEVICE",
+        "text": "/dev/video0"
+      },
+      {
+        "type": "input_value",
+        "name": "WIDTH",
+        "check": "Number"
+      },
+      {
+        "type": "input_value",
+        "name": "HEIGHT",
+        "check": "Number"
+      }
+    ],
+    "colour": "#1976D2",
+    "tooltip": "initialize camera %1 device %2 width %3 height %4",
+    "icon": "camera",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "linux_camera_opened",
+    "message0": "camera %1 is open",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "camera"
+      }
+    ],
+    "colour": "#1976D2",
+    "tooltip": "camera %1 is open",
+    "icon": "camera",
+    "output": "Any"
+  },
+  {
+    "type": "linux_camera_read",
+    "message0": "camera %1 image",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "camera"
+      }
+    ],
+    "colour": "#1976D2",
+    "tooltip": "camera %1 image",
+    "icon": "camera",
+    "output": "Any"
+  },
+  {
+    "type": "linux_camera_release",
+    "message0": "release camera %1",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "camera"
+      }
+    ],
+    "colour": "#1976D2",
+    "tooltip": "release camera %1",
+    "icon": "camera",
+    "previousStatement": null,
+    "nextStatement": null
+  }
+]

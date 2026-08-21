@@ -1,0 +1,87 @@
+{
+  "toolbox_name": "文件",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_file_read": {
+    "message0": "读取文本文件 %1",
+    "tooltip": "读取文本文件 %1",
+    "args0": [
+      null
+    ]
+  },
+  "python_file_write": {
+    "message0": "以 %1 模式处理文本文件 %2，内容 %3",
+    "tooltip": "以 %1 模式处理文本文件 %2，内容 %3",
+    "args0": [
+      {
+        "options": [
+          [
+            "写入",
+            "w"
+          ],
+          [
+            "追加",
+            "a"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_file_exists": {
+    "message0": "路径 %1 存在",
+    "tooltip": "路径 %1 存在",
+    "args0": [
+      null
+    ]
+  },
+  "python_file_list": {
+    "message0": "列出目录 %1",
+    "tooltip": "列出目录 %1",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_file_read": {
+    "message0": "读取文本文件 %1",
+    "tooltip": "读取文本文件 %1",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_file_write": {
+    "message0": "以 %1 模式处理文本文件 %2，内容 %3",
+    "tooltip": "以 %1 模式处理文本文件 %2，内容 %3",
+    "args0": [
+      {
+        "options": [
+          [
+            "写入",
+            "w"
+          ],
+          [
+            "追加",
+            "a"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "cybercam_file_exists": {
+    "message0": "路径 %1 存在",
+    "tooltip": "路径 %1 存在",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_file_list": {
+    "message0": "列出目录 %1",
+    "tooltip": "列出目录 %1",
+    "args0": [
+      null
+    ]
+  }
+}

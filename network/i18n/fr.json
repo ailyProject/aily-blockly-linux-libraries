@@ -1,0 +1,387 @@
+{
+  "toolbox_name": "Réseau",
+  "toolbox_categories": [
+    "Socket setup",
+    "TCP communication",
+    "UDP communication",
+   "Socket utilities",
+   "HTTP"
+  ],
+  "toolbox_labels": {
+    "Socket setup": "Configuration des sockets",
+    "TCP communication": "Communication TCP",
+    "UDP communication": "Communication UDP",
+   "Socket utilities": "Utilitaires de socket",
+   "HTTP": "HTTP"
+  },
+  "python_socket_init": {
+    "message0": "initialiser le socket %1 famille %2 type %3",
+    "tooltip": "initialiser le socket %1 famille %2 type %3",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "IPv4",
+            "AF_INET"
+          ],
+          [
+            "IPv6",
+            "AF_INET6"
+          ]
+        ]
+      },
+      {
+        "options": [
+          [
+            "TCP",
+            "SOCK_STREAM"
+          ],
+          [
+            "UDP",
+            "SOCK_DGRAM"
+          ]
+        ]
+      }
+    ]
+  },
+  "python_socket_address": {
+    "message0": "résoudre l’hôte %1 port %2 famille %3 type %4",
+    "tooltip": "Résout une adresse TCP ou UDP IPv4/IPv6 avec getaddrinfo.",
+    "args0": [
+      null,
+      null,
+      {
+        "options": [
+          [
+            "IPv4",
+            "AF_INET"
+          ],
+          [
+            "IPv6",
+            "AF_INET6"
+          ]
+        ]
+      },
+      {
+        "options": [
+          [
+            "TCP",
+            "SOCK_STREAM"
+          ],
+          [
+            "UDP",
+            "SOCK_DGRAM"
+          ]
+        ]
+      }
+    ]
+  },
+  "python_socket_address_part": {
+    "message0": "%1 de l’adresse %2",
+    "tooltip": "Lit l’hôte/IP ou le port d’une adresse de socket IPv4 ou IPv6.",
+    "args0": [
+      {
+        "options": [
+          [
+            "hôte/IP",
+            "HOST"
+          ],
+          [
+            "port",
+            "PORT"
+          ]
+        ]
+      },
+      null
+    ]
+  },
+  "python_socket_connect": {
+    "message0": "connecter le socket %1 à %2",
+    "tooltip": "connecter le socket %1 à %2",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_socket_bind": {
+    "message0": "lier le socket %1 à %2",
+    "tooltip": "lier le socket %1 à %2",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_socket_listen": {
+    "message0": "faire écouter le socket %1 file %2",
+    "tooltip": "faire écouter le socket %1 file %2",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_socket_accept": {
+    "message0": "le socket %1 accepte une connexion",
+    "tooltip": "le socket %1 accepte une connexion",
+    "args0": [
+      null
+    ]
+  },
+  "python_socket_accept_into": {
+    "message0": "socket %1 accepter dans client %2 adresse %3",
+    "tooltip": "Accepte une connexion TCP et stocke son socket connecté et l’adresse du pair.",
+    "args0": [
+      null,
+      null,
+      null
+    ]
+  },
+  "python_socket_send": {
+    "message0": "socket %1 envoyer intégralement %2",
+    "tooltip": "Envoie l’intégralité de la charge utile TCP ; le texte est encodé en UTF-8 et les données de type octets restent inchangées.",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_socket_receive": {
+    "message0": "recevoir %2 octets du socket %1",
+    "tooltip": "Reçoit au maximum ce nombre d’octets TCP ; b'' signifie que le pair a fermé la connexion.",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_socket_send_to": {
+    "message0": "socket UDP %1 envoyer %2 à %3",
+    "tooltip": "Envoie un datagramme UDP ; le texte est encodé en UTF-8 et les données de type octets restent inchangées.",
+    "args0": [
+      null,
+      null,
+      null
+    ]
+  },
+  "python_socket_receive_from": {
+    "message0": "socket UDP %1 recevoir un datagramme de %2 octets maximum",
+    "tooltip": "Reçoit un datagramme UDP sous la forme (données, adresse) ; un petit tampon tronque le datagramme.",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_socket_receive_from_into": {
+    "message0": "socket UDP %1 recevoir jusqu’à %2 octets dans données %3 adresse %4",
+    "tooltip": "Reçoit un datagramme UDP et stocke séparément ses octets et l’adresse de l’expéditeur.",
+    "args0": [
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "python_socket_set_timeout": {
+    "message0": "socket %1 définir le délai à %2 secondes",
+    "tooltip": "Définit un délai d’opération ; zéro sélectionne le mode non bloquant et une valeur positive déclenche une erreur à l’expiration.",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_socket_set_blocking": {
+    "message0": "socket %1 passer en mode %2",
+    "tooltip": "Bascule entre les modes bloquant et non bloquant.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "bloquant",
+            "TRUE"
+          ],
+          [
+            "non bloquant",
+            "FALSE"
+          ]
+        ]
+      }
+    ]
+  },
+  "python_socket_set_option": {
+    "message0": "socket %1 option %2 %3",
+    "tooltip": "Configure une option booléenne portable du socket ; activez la réutilisation d’adresse avant la liaison.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "réutiliser l’adresse",
+            "SO_REUSEADDR"
+          ],
+          [
+            "diffusion",
+            "SO_BROADCAST"
+          ],
+          [
+            "maintien de connexion",
+            "SO_KEEPALIVE"
+          ],
+          [
+            "TCP sans délai",
+            "TCP_NODELAY"
+          ]
+        ]
+      },
+      {
+        "options": [
+          [
+            "activer",
+            "TRUE"
+          ],
+          [
+            "désactiver",
+            "FALSE"
+          ]
+        ]
+      }
+    ]
+  },
+  "python_socket_ready": {
+    "message0": "socket %1 prêt pour %2 dans un délai de %3 secondes",
+    "tooltip": "Utilise select pour tester la disponibilité avant une opération sans blocage.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "lecture",
+            "READ"
+          ],
+          [
+            "écriture",
+            "WRITE"
+          ]
+        ]
+      },
+      null
+    ]
+  },
+  "python_socket_endpoint": {
+    "message0": "adresse %2 du socket %1",
+    "tooltip": "Obtient l’adresse locale ou l’adresse du pair connecté.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "locale",
+            "LOCAL"
+          ],
+          [
+            "du pair",
+            "PEER"
+          ]
+        ]
+      }
+    ]
+  },
+  "python_socket_encode": {
+    "message0": "encoder le texte %1 en octets %2",
+    "tooltip": "Encode le texte en octets pour une charge utile de socket.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "UTF-8",
+            "utf-8"
+          ],
+          [
+            "ASCII",
+            "ascii"
+          ],
+          [
+            "GBK",
+            "gbk"
+          ]
+        ]
+      }
+    ]
+  },
+  "python_socket_decode": {
+    "message0": "décoder les octets %1 en %2, en cas d’erreur %3",
+    "tooltip": "Décode les octets en texte avec la politique d’erreur sélectionnée.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "UTF-8",
+            "utf-8"
+          ],
+          [
+            "ASCII",
+            "ascii"
+          ],
+          [
+            "GBK",
+            "gbk"
+          ]
+        ]
+      },
+      {
+        "options": [
+          [
+            "remplacer",
+            "replace"
+          ],
+          [
+            "strict",
+            "strict"
+          ],
+          [
+            "ignorer",
+            "ignore"
+          ]
+        ]
+      }
+    ]
+  },
+  "python_socket_shutdown": {
+    "message0": "socket %1 désactiver %2",
+    "tooltip": "Désactive la réception, l’envoi ou les deux avant de fermer un socket connecté.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "la réception",
+            "SHUT_RD"
+          ],
+          [
+            "l’envoi",
+            "SHUT_WR"
+          ],
+          [
+            "les deux",
+            "SHUT_RDWR"
+          ]
+        ]
+      }
+    ]
+  },
+  "python_socket_close": {
+    "message0": "fermer le socket %1",
+    "tooltip": "fermer le socket %1",
+    "args0": [
+      null
+   ]
+ },
+  "python_http_server": {
+    "message0": "servir le répertoire actuel en HTTP : hôte %1 port %2",
+    "tooltip": "servir le répertoire actuel en HTTP : hôte %1 port %2",
+    "args0": [
+      null,
+      null
+    ]
+  }
+}

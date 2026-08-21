@@ -1,0 +1,72 @@
+{
+  "toolbox_name": "GPIO / LED / PWM",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "cybercam_gpio_init": {
+    "message0": "GPIO %1 초기화: 핀 %2, 방향 %3, 풀 %4",
+    "tooltip": "공식 board 및 digitalio 모듈로 디지털 IO 객체를 만듭니다.",
+    "args0": [
+      null,
+      null,
+      { "options": [["입력", "INPUT"], ["출력", "OUTPUT"]] },
+      { "options": [["없음", "NONE"], ["풀업", "UP"], ["풀다운", "DOWN"]] }
+    ]
+  },
+  "cybercam_gpio_write": {
+    "message0": "GPIO %1을(를) %2로 설정",
+    "tooltip": "GPIO %1을(를) %2로 설정",
+    "args0": [null, null]
+  },
+  "cybercam_gpio_read": {
+    "message0": "GPIO %1 값",
+    "tooltip": "GPIO %1 값",
+    "args0": [null]
+  },
+  "cybercam_gpio_deinit": {
+    "message0": "GPIO %1 초기화 해제",
+    "tooltip": "GPIO %1 초기화 해제",
+    "args0": [null]
+  },
+  "cybercam_led_write": {
+    "message0": "온보드 LED를 %1로 설정",
+    "tooltip": "온보드 LED를 %1로 설정",
+    "args0": [null]
+  },
+  "cybercam_key_pressed": {
+    "message0": "온보드 키가 눌림",
+    "tooltip": "온보드 키가 눌림"
+  },
+  "cybercam_pwm_init": {
+    "message0": "PWM %1 초기화: 대상 %2",
+    "tooltip": "PWM %1 초기화: 대상 %2",
+    "args0": [
+      null,
+      { "options": [["GPIO60 / PWM0", "0,0"], ["GPIO61 / PWM1", "0,1"], ["보조광 / PWM2", "0,2"], ["부저 / PWM3", "1,0"], ["백라이트 / PWM5", "1,2"]] }
+    ]
+  },
+  "cybercam_pwm_frequency": {
+    "message0": "PWM %1 주파수를 %2 Hz로 설정",
+    "tooltip": "PWM %1 주파수를 %2 Hz로 설정",
+    "args0": [null, null]
+  },
+  "cybercam_pwm_duty": {
+    "message0": "PWM %1 듀티 사이클을 %2(0–1)로 설정",
+    "tooltip": "PWM %1 듀티 사이클을 %2(0–1)로 설정",
+    "args0": [null, null]
+  },
+  "cybercam_pwm_enable": {
+    "message0": "PWM %1 활성화",
+    "tooltip": "PWM %1 활성화",
+    "args0": [null]
+  },
+  "cybercam_pwm_disable": {
+    "message0": "PWM %1 비활성화",
+    "tooltip": "PWM %1 비활성화",
+    "args0": [null]
+  },
+  "cybercam_pwm_close": {
+    "message0": "PWM %1 닫기",
+    "tooltip": "PWM %1 닫기",
+    "args0": [null]
+  }
+}

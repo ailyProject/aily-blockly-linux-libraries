@@ -1,0 +1,231 @@
+{
+  "toolbox_name": "GPIO y PWM",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "linux_gpio_init": {
+    "message0": "inicializar GPIO %1 pin %2 dirección %3 pull %4",
+    "tooltip": "Crear un pin digital con gpiozero.",
+    "args0": [
+      null,
+      null,
+      {
+        "options": [
+          [
+            "entrada",
+            "INPUT"
+          ],
+          [
+            "salida",
+            "OUTPUT"
+          ]
+        ]
+      },
+      {
+        "options": [
+          [
+            "ninguno",
+            "NONE"
+          ],
+          [
+            "pull-up",
+            "UP"
+          ],
+          [
+            "pull-down",
+            "DOWN"
+          ]
+        ]
+      }
+    ]
+  },
+  "linux_gpio_write": {
+    "message0": "establecer GPIO %1 a %2",
+    "tooltip": "establecer GPIO %1 a %2",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "linux_gpio_read": {
+    "message0": "valor de GPIO %1",
+    "tooltip": "valor de GPIO %1",
+    "args0": [
+      null
+    ]
+  },
+  "linux_gpio_close": {
+    "message0": "cerrar GPIO %1",
+    "tooltip": "cerrar GPIO %1",
+    "args0": [
+      null
+    ]
+  },
+  "linux_led_init": {
+    "message0": "inicializar LED %1 pin %2 nivel activo %3",
+    "tooltip": "Crea un LED de gpiozero en el pin seleccionado.",
+    "args0": [
+      null,
+      null,
+      {
+        "options": [
+          [
+            "alto",
+            "TRUE"
+          ],
+          [
+            "bajo",
+            "FALSE"
+          ]
+        ]
+      }
+    ]
+  },
+  "linux_led_action": {
+    "message0": "LED %1 %2",
+    "tooltip": "Enciende, apaga o alterna un LED inicializado.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "encender",
+            "ON"
+          ],
+          [
+            "apagar",
+            "OFF"
+          ],
+          [
+            "alternar",
+            "TOGGLE"
+          ]
+        ]
+      }
+    ]
+  },
+  "linux_led_blink": {
+    "message0": "hacer parpadear LED %1 encendido %2 s apagado %3 s veces %4 (0 sin fin)",
+    "tooltip": "Parpadea en segundo plano; 0 repite indefinidamente.",
+    "args0": [
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "linux_button_init": {
+    "message0": "inicializar botón %1 pin %2 resistencia %3 nivel activo sin resistencia %4 rebote %5 s pulsación larga %6 s",
+    "tooltip": "Crea un Button de gpiozero. El nivel activo se usa cuando no hay resistencia.",
+    "args0": [
+      null,
+      null,
+      {
+        "options": [
+          [
+            "pull-up",
+            "UP"
+          ],
+          [
+            "pull-down",
+            "DOWN"
+          ],
+          [
+            "ninguna",
+            "NONE"
+          ]
+        ]
+      },
+      {
+        "options": [
+          [
+            "alto",
+            "TRUE"
+          ],
+          [
+            "bajo",
+            "FALSE"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "linux_button_pressed": {
+    "message0": "botón %1 está pulsado",
+    "tooltip": "Indica si el botón inicializado está pulsado.",
+    "args0": [
+      null
+    ]
+  },
+  "linux_button_held": {
+    "message0": "botón %1 mantiene pulsación",
+    "tooltip": "Indica si el botón inicializado alcanzó el tiempo de pulsación larga.",
+    "args0": [
+      null
+    ]
+  },
+  "linux_button_wait": {
+    "message0": "esperar botón %1 %2 límite %3 s (0 sin límite)",
+    "tooltip": "Espera una pulsación o liberación; 0 espera sin límite.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "pulsar",
+            "PRESS"
+          ],
+          [
+            "soltar",
+            "RELEASE"
+          ]
+        ]
+      },
+      null
+    ]
+  },
+  "linux_led_write": {
+    "message0": "establecer LED heredado fijo GPIO17 a %1",
+    "tooltip": "Bloque de compatibilidad heredado fijado a GPIO17; usa preferentemente «inicializar LED».",
+    "args0": [
+      null
+    ]
+  },
+  "linux_key_pressed": {
+    "message0": "botón heredado fijo GPIO27 está pulsado",
+    "tooltip": "Bloque de compatibilidad heredado fijado a GPIO27; usa preferentemente «inicializar botón»."
+  },
+  "linux_pwm_init": {
+    "message0": "inicializar PWM %1 pin %2 frecuencia %3 Hz",
+    "tooltip": "inicializar PWM %1 pin %2 frecuencia %3 Hz",
+    "args0": [
+      null,
+      null,
+      null
+    ]
+  },
+  "linux_pwm_duty": {
+    "message0": "establecer el ciclo de trabajo de PWM %1 a %2 (0–1)",
+    "tooltip": "establecer el ciclo de trabajo de PWM %1 a %2 (0–1)",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "linux_pwm_frequency": {
+    "message0": "establecer frecuencia de PWM %1 a %2 Hz",
+    "tooltip": "Cambia la frecuencia de una salida PWM inicializada.",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "linux_pwm_close": {
+    "message0": "cerrar PWM %1",
+    "tooltip": "cerrar PWM %1",
+    "args0": [
+      null
+    ]
+  }
+}

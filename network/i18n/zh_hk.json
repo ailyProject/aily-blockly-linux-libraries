@@ -1,0 +1,387 @@
+{
+  "toolbox_name": "網絡",
+  "toolbox_categories": [
+    "Socket 設定",
+    "TCP 通訊",
+    "UDP 通訊",
+   "Socket 工具",
+   "HTTP"
+  ],
+  "toolbox_labels": {
+    "Socket setup": "Socket 設定",
+    "TCP communication": "TCP 通訊",
+    "UDP communication": "UDP 通訊",
+   "Socket utilities": "Socket 工具",
+   "HTTP": "HTTP"
+  },
+  "python_socket_init": {
+    "message0": "初始化 Socket %1，位址族 %2，類型 %3",
+    "tooltip": "初始化 Socket %1，位址族 %2，類型 %3",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "IPv4",
+            "AF_INET"
+          ],
+          [
+            "IPv6",
+            "AF_INET6"
+          ]
+        ]
+      },
+      {
+        "options": [
+          [
+            "TCP",
+            "SOCK_STREAM"
+          ],
+          [
+            "UDP",
+            "SOCK_DGRAM"
+          ]
+        ]
+      }
+    ]
+  },
+  "python_socket_address": {
+    "message0": "解析主機 %1 連接埠 %2 位址族 %3 類型 %4",
+    "tooltip": "使用 getaddrinfo 解析 IPv4/IPv6 TCP 或 UDP 位址。",
+    "args0": [
+      null,
+      null,
+      {
+        "options": [
+          [
+            "IPv4",
+            "AF_INET"
+          ],
+          [
+            "IPv6",
+            "AF_INET6"
+          ]
+        ]
+      },
+      {
+        "options": [
+          [
+            "TCP",
+            "SOCK_STREAM"
+          ],
+          [
+            "UDP",
+            "SOCK_DGRAM"
+          ]
+        ]
+      }
+    ]
+  },
+  "python_socket_address_part": {
+    "message0": "位址 %2 的 %1",
+    "tooltip": "讀取 IPv4 或 IPv6 Socket 位址中的主機/IP 或連接埠。",
+    "args0": [
+      {
+        "options": [
+          [
+            "主機/IP",
+            "HOST"
+          ],
+          [
+            "連接埠",
+            "PORT"
+          ]
+        ]
+      },
+      null
+    ]
+  },
+  "python_socket_connect": {
+    "message0": "將 Socket %1 連線至 %2",
+    "tooltip": "將 Socket %1 連線至 %2",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_socket_bind": {
+    "message0": "將 Socket %1 綁定至 %2",
+    "tooltip": "將 Socket %1 綁定至 %2",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_socket_listen": {
+    "message0": "讓 Socket %1 監聽，等候佇列 %2",
+    "tooltip": "讓 Socket %1 監聽，等候佇列 %2",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_socket_accept": {
+    "message0": "Socket %1 接受連線",
+    "tooltip": "Socket %1 接受連線",
+    "args0": [
+      null
+    ]
+  },
+  "python_socket_accept_into": {
+    "message0": "Socket %1 接受連線並存入用戶端 %2 位址 %3",
+    "tooltip": "接受 TCP 連線，並儲存已連線的 Socket 及對端位址。",
+    "args0": [
+      null,
+      null,
+      null
+    ]
+  },
+  "python_socket_send": {
+    "message0": "Socket %1 完整傳送 %2",
+    "tooltip": "傳送完整的 TCP 資料；文字會編碼為 UTF-8，類位元組資料保持不變。",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_socket_receive": {
+    "message0": "透過 Socket %1 接收 %2 位元組",
+    "tooltip": "最多接收指定數量的 TCP 位元組；b'' 表示對端已關閉連線。",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_socket_send_to": {
+    "message0": "UDP Socket %1 將 %2 傳送至 %3",
+    "tooltip": "傳送一個 UDP 資料報；文字會編碼為 UTF-8，類位元組資料保持不變。",
+    "args0": [
+      null,
+      null,
+      null
+    ]
+  },
+  "python_socket_receive_from": {
+    "message0": "UDP Socket %1 接收最多 %2 位元組的資料報",
+    "tooltip": "接收一個 UDP 資料報並傳回（資料，位址）；緩衝區過小會截斷資料報。",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_socket_receive_from_into": {
+    "message0": "UDP Socket %1 接收最多 %2 位元組並存入資料 %3 位址 %4",
+    "tooltip": "接收一個 UDP 資料報，並分別儲存其位元組資料和傳送方位址。",
+    "args0": [
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "python_socket_set_timeout": {
+    "message0": "Socket %1 設定逾時 %2 秒",
+    "tooltip": "設定操作逾時；0 表示非阻塞模式，正值逾時時會引發例外。",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_socket_set_blocking": {
+    "message0": "Socket %1 設定為 %2 模式",
+    "tooltip": "在阻塞與非阻塞操作之間切換。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "阻塞",
+            "TRUE"
+          ],
+          [
+            "非阻塞",
+            "FALSE"
+          ]
+        ]
+      }
+    ]
+  },
+  "python_socket_set_option": {
+    "message0": "Socket %1 選項 %2 %3",
+    "tooltip": "設定可移植的布林 Socket 選項；請在綁定前設定重用位址。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "重用位址",
+            "SO_REUSEADDR"
+          ],
+          [
+            "廣播",
+            "SO_BROADCAST"
+          ],
+          [
+            "保持連線",
+            "SO_KEEPALIVE"
+          ],
+          [
+            "TCP 無延遲",
+            "TCP_NODELAY"
+          ]
+        ]
+      },
+      {
+        "options": [
+          [
+            "啟用",
+            "TRUE"
+          ],
+          [
+            "停用",
+            "FALSE"
+          ]
+        ]
+      }
+    ]
+  },
+  "python_socket_ready": {
+    "message0": "Socket %1 的%2操作是否在 %3 秒內就緒",
+    "tooltip": "使用 select 在操作前檢測就緒狀態，避免阻塞。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "讀取",
+            "READ"
+          ],
+          [
+            "寫入",
+            "WRITE"
+          ]
+        ]
+      },
+      null
+    ]
+  },
+  "python_socket_endpoint": {
+    "message0": "Socket %1 的%2位址",
+    "tooltip": "取得本機位址或已連線的對端位址。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "本機",
+            "LOCAL"
+          ],
+          [
+            "對端",
+            "PEER"
+          ]
+        ]
+      }
+    ]
+  },
+  "python_socket_encode": {
+    "message0": "將文字 %1 編碼為 %2 位元組",
+    "tooltip": "將文字編碼為 Socket 載荷所需的位元組資料。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "UTF-8",
+            "utf-8"
+          ],
+          [
+            "ASCII",
+            "ascii"
+          ],
+          [
+            "GBK",
+            "gbk"
+          ]
+        ]
+      }
+    ]
+  },
+  "python_socket_decode": {
+    "message0": "將位元組 %1 以 %2 解碼，錯誤處理 %3",
+    "tooltip": "使用所選錯誤處理策略將位元組資料解碼為文字。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "UTF-8",
+            "utf-8"
+          ],
+          [
+            "ASCII",
+            "ascii"
+          ],
+          [
+            "GBK",
+            "gbk"
+          ]
+        ]
+      },
+      {
+        "options": [
+          [
+            "取代",
+            "replace"
+          ],
+          [
+            "嚴格",
+            "strict"
+          ],
+          [
+            "忽略",
+            "ignore"
+          ]
+        ]
+      }
+    ]
+  },
+  "python_socket_shutdown": {
+    "message0": "Socket %1 關閉%2",
+    "tooltip": "在關閉已連線的 Socket 前停止接收、傳送或兩者。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "接收",
+            "SHUT_RD"
+          ],
+          [
+            "傳送",
+            "SHUT_WR"
+          ],
+          [
+            "兩者",
+            "SHUT_RDWR"
+          ]
+        ]
+      }
+    ]
+  },
+  "python_socket_close": {
+    "message0": "關閉 Socket %1",
+    "tooltip": "關閉 Socket %1",
+    "args0": [
+      null
+   ]
+ },
+  "python_http_server": {
+    "message0": "透過 HTTP 提供目前目錄：主機 %1，連接埠 %2",
+    "tooltip": "透過 HTTP 提供目前目錄：主機 %1，連接埠 %2",
+    "args0": [
+      null,
+      null
+    ]
+  }
+}

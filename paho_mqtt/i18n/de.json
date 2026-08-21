@@ -1,0 +1,115 @@
+{
+  "toolbox_name": "Paho MQTT",
+  "toolbox_categories": ["Client und Sicherheit", "Ereignisse", "Veröffentlichen und abonnieren", "Netzwerkschleife"],
+  "toolbox_labels": {
+    "Client and security": "Client und Sicherheit",
+    "Events": "Ereignisse",
+    "Publish and subscribe": "Veröffentlichen und abonnieren",
+    "Network loop": "Netzwerkschleife"
+  },
+  "python_mqtt_init": {
+    "message0": "MQTT-Client %1 initialisieren, Client-ID %2, Protokoll %3, Transport %4",
+    "tooltip": "Erstellt einen Paho-MQTT-2.x-Client mit Callback API VERSION2. Client-IDs sollten auf dem Broker eindeutig sein.",
+    "args0": [null, null, {"options": [["MQTT 3.1.1", "MQTTv311"], ["MQTT 5", "MQTTv5"]]}, {"options": [["TCP", "tcp"], ["WebSocket", "websockets"]]}]
+  },
+  "python_mqtt_set_auth": {
+    "message0": "MQTT %1 Benutzername %2 Passwort %3 festlegen",
+    "tooltip": "Legt vor dem Verbinden die Anmeldedaten für den Broker fest.",
+    "args0": [null, null, null]
+  },
+  "python_mqtt_set_tls": {
+    "message0": "MQTT %1 TLS aktivieren, CA-Datei %2, Client-Zertifikat %3, privater Schlüssel %4",
+    "tooltip": "Aktiviert vor dem Verbinden verifiziertes TLS. Eine leere CA verwendet den Vertrauensspeicher des Systems; Client-Zertifikat und Schlüssel sind optional.",
+    "args0": [null, null, null, null]
+  },
+  "python_mqtt_set_will": {
+    "message0": "MQTT %1 letzten Willen festlegen, Thema %2, Nutzlast %3, QoS %4, Retain %5",
+    "tooltip": "Legt vor dem Verbinden die Nachricht des letzten Willens fest.",
+    "args0": [null, null, null, {"options": [["0", "0"], ["1", "1"], ["2", "2"]]}, {"options": [["falsch", "FALSE"], ["wahr", "TRUE"]]}]
+  },
+  "python_mqtt_set_websocket_options": {
+    "message0": "MQTT %1 WebSocket-Pfad %2 festlegen",
+    "tooltip": "Legt vor dem Verbinden den WebSocket-Pfad des Brokers fest; mit WebSocket-Transport verwenden.",
+    "args0": [null, null]
+  },
+  "python_mqtt_set_reconnect_delay": {
+    "message0": "MQTT %1 Verzögerung für Neuverbindung auf mindestens %2 und höchstens %3 Sekunden setzen",
+    "tooltip": "Konfiguriert die exponentiellen Verzögerungen für automatische Neuverbindungen der Hintergrund- und Endlosschleife; einzelne manuelle Schleifenaufrufe verbinden nicht automatisch neu.",
+    "args0": [null, null, null]
+  },
+  "python_mqtt_connect": {
+    "message0": "MQTT %1 mit Host %2 Port %3 Keepalive %4 Sekunden verbinden",
+    "tooltip": "Startet eine MQTT-Verbindung. Das CONNACK-Ergebnis des Brokers wird erst bei laufender Netzwerkschleife zugestellt.",
+    "args0": [null, null, null, null]
+  },
+  "python_mqtt_on_connect": {
+    "message0": "bei Verbindungsergebnis von MQTT %1 Erfolg in %2, Grund in %3 und vorhandene Sitzung in %4 speichern, dann %5 %6",
+    "tooltip": "Verarbeitet Verbindungsergebnisse der Paho Callback API VERSION2. Hier abonnieren, damit Abonnements nach einer Neuverbindung wiederhergestellt werden.",
+    "args0": [null, null, null, null, null, null]
+  },
+  "python_mqtt_on_message": {
+    "message0": "wenn MQTT %1 eine Nachricht empfängt, Thema in %2, Nutzlast-Bytes in %3, QoS in %4 und Retain in %5 speichern, dann %6 %7",
+    "tooltip": "Verarbeitet eine eingehende Nachricht. Die Nutzlast besteht aus Bytes; für Text muss sie ausdrücklich dekodiert werden.",
+    "args0": [null, null, null, null, null, null, null]
+  },
+  "python_mqtt_on_disconnect": {
+    "message0": "wenn MQTT %1 getrennt wird, Grund in %2 und Empfang eines MQTT-DISCONNECT-Pakets vom Server in %3 speichern, dann %4 %5",
+    "tooltip": "Verarbeitet ein Trennungsereignis der Paho Callback API VERSION2 und dessen Ursachencode.",
+    "args0": [null, null, null, null, null]
+  },
+  "python_mqtt_publish": {
+    "message0": "MQTT %1 auf Thema %2 Nutzlast %3 mit QoS %4 und Retain %5 veröffentlichen",
+    "tooltip": "Stellt eine Nachricht zum Veröffentlichen in die Warteschlange. Vor einem schnellen Programmende den Block zum Veröffentlichen mit Warten verwenden, wenn die Zustellung abgeschlossen sein muss.",
+    "args0": [null, null, null, {"options": [["0", "0"], ["1", "1"], ["2", "2"]]}, {"options": [["falsch", "FALSE"], ["wahr", "TRUE"]]}]
+  },
+  "python_mqtt_publish_wait": {
+    "message0": "MQTT %1 auf Thema %2 Nutzlast %3 mit QoS %4 und Retain %5 veröffentlichen und %6 Sekunden warten",
+    "tooltip": "Wartet auf den Abschluss der Veröffentlichung. Ist die Nachricht beim Ablauf des Zeitlimits noch nicht veröffentlicht, wird TimeoutError ausgelöst. Nicht innerhalb eines Netzwerk-Callbacks verwenden.",
+    "args0": [null, null, null, {"options": [["0", "0"], ["1", "1"], ["2", "2"]]}, {"options": [["falsch", "FALSE"], ["wahr", "TRUE"]]}, null]
+  },
+  "python_mqtt_subscribe": {
+    "message0": "MQTT %1 Themenfilter %2 mit QoS %3 abonnieren",
+    "tooltip": "Abonniert einen Themenfilter. Diesen Block in den Verbindungs-Callback setzen, um das Abonnement nach einer Neuverbindung wiederherzustellen.",
+    "args0": [null, null, {"options": [["0", "0"], ["1", "1"], ["2", "2"]]}]
+  },
+  "python_mqtt_unsubscribe": {
+    "message0": "MQTT %1 Themenfilter %2 abbestellen",
+    "tooltip": "Bestellt einen Themenfilter ab.",
+    "args0": [null, null]
+  },
+  "python_mqtt_decode_payload": {
+    "message0": "MQTT-Nutzlast %1 als %2 dekodieren, bei Fehler %3",
+    "tooltip": "Dekodiert MQTT-Nutzlast-Bytes mit einer festgelegten Kodierung und Fehlerbehandlung zu Text.",
+    "args0": [null, {"options": [["UTF-8", "utf-8"], ["ASCII", "ascii"], ["GBK", "gbk"]]}, {"options": [["ersetzen", "replace"], ["streng", "strict"], ["ignorieren", "ignore"]]}]
+  },
+  "python_mqtt_is_connected": {
+    "message0": "MQTT %1 ist verbunden",
+    "tooltip": "Gibt zurück, ob der Paho-Client sich derzeit als verbunden betrachtet.",
+    "args0": [null]
+  },
+  "python_mqtt_loop_start": {
+    "message0": "MQTT %1 Hintergrundschleife starten",
+    "tooltip": "Startet Pahos Netzwerk-Thread im Hintergrund. Nicht mit der Endlosschleife oder manuellen Schleifenaufrufen mischen.",
+    "args0": [null]
+  },
+  "python_mqtt_loop_stop": {
+    "message0": "MQTT %1 Hintergrundschleife stoppen",
+    "tooltip": "Stoppt Pahos Netzwerk-Thread im Hintergrund; dies allein garantiert nicht, dass ausstehende Veröffentlichungen gesendet wurden.",
+    "args0": [null]
+  },
+  "python_mqtt_loop_once": {
+    "message0": "MQTT %1 Netzwerk einmal verarbeiten, Zeitlimit %2 Sekunden",
+    "tooltip": "Verarbeitet den Netzwerkverkehr einmal. Regelmäßig aufrufen, das Zeitlimit unter Keepalive halten und keine Netzwerkschleifen-Modi mischen.",
+    "args0": [null, null]
+  },
+  "python_mqtt_loop": {
+    "message0": "MQTT %1 Endlosschleife ausführen",
+    "tooltip": "Führt Pahos blockierende Netzwerkschleife unbegrenzt aus. Nachfolgende Anweisungen laufen normalerweise erst nach einer Trennung oder einem Fehler.",
+    "args0": [null]
+  },
+  "python_mqtt_disconnect": {
+    "message0": "MQTT %1 trennen",
+    "tooltip": "Fordert eine ordnungsgemäße MQTT-Trennung an. Eine Hintergrundschleife nach dem Trennen stoppen.",
+    "args0": [null]
+  }
+}

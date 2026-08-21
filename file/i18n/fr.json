@@ -1,0 +1,87 @@
+{
+  "toolbox_name": "Fichiers",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_file_read": {
+    "message0": "lire le fichier texte %1",
+    "tooltip": "lire le fichier texte %1",
+    "args0": [
+      null
+    ]
+  },
+  "python_file_write": {
+    "message0": "traiter le fichier texte %2 en mode %1 contenu %3",
+    "tooltip": "traiter le fichier texte %2 en mode %1 contenu %3",
+    "args0": [
+      {
+        "options": [
+          [
+            "écrire",
+            "w"
+          ],
+          [
+            "ajouter",
+            "a"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_file_exists": {
+    "message0": "le chemin %1 existe",
+    "tooltip": "le chemin %1 existe",
+    "args0": [
+      null
+    ]
+  },
+  "python_file_list": {
+    "message0": "lister le répertoire %1",
+    "tooltip": "lister le répertoire %1",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_file_read": {
+    "message0": "Lire le fichier texte %1",
+    "tooltip": "Lire le fichier texte %1",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_file_write": {
+    "message0": "Traiter le fichier texte %2 en mode %1 : contenu %3",
+    "tooltip": "Traiter le fichier texte %2 en mode %1 : contenu %3",
+    "args0": [
+      {
+        "options": [
+          [
+            "écrire",
+            "w"
+          ],
+          [
+            "ajouter",
+            "a"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "cybercam_file_exists": {
+    "message0": "Le chemin %1 existe",
+    "tooltip": "Le chemin %1 existe",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_file_list": {
+    "message0": "Lister le répertoire %1",
+    "tooltip": "Lister le répertoire %1",
+    "args0": [
+      null
+    ]
+  }
+}

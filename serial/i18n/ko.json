@@ -1,0 +1,142 @@
+{
+  "toolbox_name": "시리얼",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "linux_uart_init": {
+    "message0": "시리얼 %1 초기화, 장치 %2, 보드레이트 %3",
+    "tooltip": "시리얼 %1 초기화, 장치 %2, 보드레이트 %3",
+    "args0": [
+      null,
+      null,
+      {
+        "options": [
+          [
+            "9600",
+            "9600"
+          ],
+          [
+            "19200",
+            "19200"
+          ],
+          [
+            "38400",
+            "38400"
+          ],
+          [
+            "57600",
+            "57600"
+          ],
+          [
+            "115200",
+            "115200"
+          ]
+        ]
+      }
+    ]
+  },
+  "linux_uart_available": {
+    "message0": "시리얼 %1 에서 읽을 수 있는 바이트",
+    "tooltip": "시리얼 %1 에서 읽을 수 있는 바이트",
+    "args0": [
+      null
+    ]
+  },
+  "linux_uart_read": {
+    "message0": "시리얼 %1 에서 %2 바이트 읽기",
+    "tooltip": "시리얼 %1 에서 %2 바이트 읽기",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "linux_uart_write": {
+    "message0": "시리얼 %1 에 %2 쓰기",
+    "tooltip": "시리얼 %1 에 %2 쓰기",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "linux_uart_flush": {
+    "message0": "시리얼 %1 입력 버퍼 비우기",
+    "tooltip": "시리얼 %1 입력 버퍼 비우기",
+    "args0": [
+      null
+    ]
+  },
+  "linux_uart_close": {
+    "message0": "시리얼 %1 닫기",
+    "tooltip": "시리얼 %1 닫기",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_uart_init": {
+    "message0": "UART %1 초기화: 보드레이트 %2",
+    "tooltip": "UART %1 초기화: 보드레이트 %2",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "9600",
+            "9600"
+          ],
+          [
+            "19200",
+            "19200"
+          ],
+          [
+            "38400",
+            "38400"
+          ],
+          [
+            "57600",
+            "57600"
+          ],
+          [
+            "115200",
+            "115200"
+          ]
+        ]
+      }
+    ]
+  },
+  "cybercam_uart_available": {
+    "message0": "UART %1에서 읽을 수 있는 바이트 수",
+    "tooltip": "UART %1에서 읽을 수 있는 바이트 수",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_uart_read": {
+    "message0": "UART %1에서 %2바이트 읽기",
+    "tooltip": "UART %1에서 %2바이트 읽기",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "cybercam_uart_write": {
+    "message0": "UART %1에 %2 쓰기",
+    "tooltip": "UART %1에 %2 쓰기",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "cybercam_uart_flush": {
+    "message0": "UART %1 입력 버퍼 비우기",
+    "tooltip": "UART %1 입력 버퍼 비우기",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_uart_close": {
+    "message0": "UART %1 닫기",
+    "tooltip": "UART %1 닫기",
+    "args0": [
+      null
+    ]
+  }
+}

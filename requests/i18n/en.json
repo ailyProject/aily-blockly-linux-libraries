@@ -1,0 +1,130 @@
+{
+  "toolbox_name": "Requests",
+  "toolbox_categories": ["Sessions", "Requests and options", "Upload and download", "Responses and errors"],
+  "toolbox_labels": {
+    "Sessions": "Sessions",
+    "Requests and options": "Requests and options",
+    "Upload and download": "Upload and download",
+    "Responses and errors": "Responses and errors"
+  },
+  "python_requests_session_init": {
+    "message0": "initialize Requests session %1",
+    "tooltip": "Create a Requests Session for connection pooling, persistent cookies, and shared settings.",
+    "args0": [null]
+  },
+  "python_requests_session_defaults": {
+    "message0": "Requests session %1 set defaults headers %2 query params %3 cookies %4 auth %5 proxies %6 TLS verify %7 client certificate %8 trust environment %9",
+    "tooltip": "Set connected values as Session defaults. Unconnected inputs leave the corresponding setting unchanged.",
+    "args0": [null, null, null, null, null, null, null, null, {"options": [["default", "DEFAULT"], ["true", "TRUE"], ["false", "FALSE"]]}]
+  },
+  "python_requests_session_close": {
+    "message0": "close Requests session %1",
+    "tooltip": "Close the Session and release its connection pools.",
+    "args0": [null]
+  },
+  "python_requests_request": {
+    "message0": "Requests client %1 send %2 to URL %3 options %4",
+    "tooltip": "Send any HTTP method. Leave client empty for the module-level API, or connect a Session value.",
+    "args0": [null, {"options": [["GET", "GET"], ["POST", "POST"], ["PUT", "PUT"], ["PATCH", "PATCH"], ["DELETE", "DELETE"], ["HEAD", "HEAD"], ["OPTIONS", "OPTIONS"]]}, null, null]
+  },
+  "python_requests_get": {
+    "message0": "Requests client %1 GET URL %2 query params %3 options %4",
+    "tooltip": "Send a GET request with optional query parameters and options. Leave client empty for the module-level API.",
+    "args0": [null, null, null, null]
+  },
+  "python_requests_send_body": {
+    "message0": "Requests client %1 send %2 to URL %3 body type %4 body %5 options %6",
+    "tooltip": "Send a request whose body is JSON, form/raw data, or a Requests files mapping. Explicit body data overrides the same key in options.",
+    "args0": [null, {"options": [["POST", "POST"], ["PUT", "PUT"], ["PATCH", "PATCH"], ["DELETE", "DELETE"]]}, null, {"options": [["none", "NONE"], ["JSON", "JSON"], ["form or raw data", "DATA"], ["files", "FILES"]]}, null, null]
+  },
+  "python_requests_content_options": {
+    "message0": "content options query params %1 headers %2 cookies %3 auth %4 body type %5 body %6",
+    "tooltip": "Build request content options. Only connected inputs are included, and at most one body key is generated.",
+    "args0": [null, null, null, null, {"options": [["none", "NONE"], ["JSON", "JSON"], ["form or raw data", "DATA"], ["files", "FILES"]]}, null]
+  },
+  "python_requests_network_options": {
+    "message0": "network options timeout %1 proxies %2 follow redirects %3 stream response %4",
+    "tooltip": "Build timeout, proxy, redirect, and streaming options. Default leaves Requests behavior unchanged.",
+    "args0": [null, null, {"options": [["default", "DEFAULT"], ["true", "TRUE"], ["false", "FALSE"]]}, {"options": [["default", "DEFAULT"], ["true", "TRUE"], ["false", "FALSE"]]}]
+  },
+  "python_requests_tls_options": {
+    "message0": "TLS options verification %1 CA bundle %2 client certificate %3 private key %4",
+    "tooltip": "Build TLS verification and optional client-certificate options. Disabling verification is unsafe and intended only for controlled testing.",
+    "args0": [{"options": [["system trust store", "SYSTEM"], ["CA bundle file", "CA_BUNDLE"], ["insecure: do not verify", "INSECURE"]]}, null, null, null]
+  },
+  "python_requests_merge_options": {
+    "message0": "merge request options %1 then %2",
+    "tooltip": "Merge two option mappings. Values on the right take precedence.",
+    "args0": [null, null]
+  },
+  "python_requests_auth": {
+    "message0": "HTTP %1 auth username %2 password %3",
+    "tooltip": "Create Basic or Digest authentication credentials. Use HTTPS to protect credentials in transit.",
+    "args0": [{"options": [["Basic", "BASIC"], ["Digest", "DIGEST"]]}, null, null]
+  },
+  "python_requests_timeout": {
+    "message0": "timeout connect %1 seconds read %2 seconds",
+    "tooltip": "Create separate connect and read inactivity timeouts. This is not a total request deadline.",
+    "args0": [null, null]
+  },
+  "python_requests_proxies": {
+    "message0": "proxy mapping HTTP %1 HTTPS %2",
+    "tooltip": "Build an HTTP and HTTPS proxy mapping. Unconnected schemes are omitted.",
+    "args0": [null, null]
+  },
+  "python_requests_upload_file": {
+    "message0": "upload file and set response %1 client %2 method %3 URL %4 form field %5 path %6 filename %7 MIME type %8 options %9",
+    "tooltip": "Upload one file using multipart/form-data, assign the Response, and always close the local file handle.",
+    "args0": [null, null, {"options": [["POST", "POST"], ["PUT", "PUT"], ["PATCH", "PATCH"]]}, null, null, null, null, null, null]
+  },
+  "python_requests_response_property": {
+    "message0": "response %1 property %2",
+    "tooltip": "Read a Response property. Text is decoded text; content is bytes; OK is true for status codes below 400.",
+    "args0": [null, {"options": [["status code", "status_code"], ["OK", "ok"], ["text", "text"], ["content bytes", "content"], ["headers", "headers"], ["cookies", "cookies"], ["final URL", "url"], ["encoding", "encoding"], ["reason", "reason"], ["elapsed time", "elapsed"], ["redirect history", "history"], ["request", "request"], ["raw stream", "raw"], ["links", "links"]]}]
+  },
+  "python_requests_response_json": {
+    "message0": "decode response %1 as JSON",
+    "tooltip": "Decode the response body as JSON. This may fail independently of the HTTP status.",
+    "args0": [null]
+  },
+  "python_requests_response_lookup": {
+    "message0": "response %1 lookup %2 key %3 default %4",
+    "tooltip": "Look up a response header or cookie and return a default when it is absent.",
+    "args0": [null, {"options": [["header", "HEADERS"], ["cookie", "COOKIES"]]}, null, null]
+  },
+  "python_requests_response_set_encoding": {
+    "message0": "set response %1 text encoding %2",
+    "tooltip": "Override the encoding used by response.text. Set it before reading text.",
+    "args0": [null, null]
+  },
+  "python_requests_raise_for_status": {
+    "message0": "response %1 raise for HTTP error status",
+    "tooltip": "Raise HTTPError for unsuccessful HTTP status codes.",
+    "args0": [null]
+  },
+  "python_requests_try": {
+    "message0": "try Requests operation %1 %2 catch %3 as %4 %5 %6 finally %7 %8",
+    "tooltip": "Run request code, catch one Requests exception family, and always run the finally branch.",
+    "args0": [null, null, {"options": [["request error", "REQUEST"], ["connection error", "CONNECTION"], ["timeout", "TIMEOUT"], ["HTTP status error", "HTTP"], ["too many redirects", "REDIRECT"], ["JSON decode error", "JSON"], ["TLS/SSL error", "SSL"]]}, null, null, null, null, null]
+  },
+  "python_requests_for_chunks": {
+    "message0": "for each chunk %1 in response %2 chunk size %3 decode Unicode %4 do %5 %6",
+    "tooltip": "Iterate non-empty response chunks and close the response afterward. The request should use stream mode.",
+    "args0": [null, null, null, {"options": [["false", "FALSE"], ["true", "TRUE"]]}, null, null]
+  },
+  "python_requests_download": {
+    "message0": "download client %1 URL %2 to path %3 options %4 chunk size %5 raise for status %6",
+    "tooltip": "Stream a URL to a local file in chunks, close all resources, and optionally reject HTTP error statuses.",
+    "args0": [null, null, null, null, null, {"options": [["true", "TRUE"], ["false", "FALSE"]]}]
+  },
+  "python_http_request": {
+    "message0": "HTTP %1 URL %2 data %3",
+    "tooltip": "HTTP %1 URL %2 data %3",
+    "args0": [{"options": [["GET", "GET"], ["POST", "POST"], ["PUT", "PUT"], ["DELETE", "DELETE"]]}, null, null]
+  },
+  "python_http_response": {
+    "message0": "HTTP response %1 property %2",
+    "tooltip": "HTTP response %1 property %2",
+    "args0": [null, {"options": [["status code", "status_code"], ["text", "text"], ["JSON", "json()"]]}]
+  }
+}

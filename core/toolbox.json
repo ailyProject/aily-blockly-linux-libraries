@@ -1,0 +1,121 @@
+{
+  "kind": "category",
+  "name": "Core",
+  "colour": "#455A64",
+  "contents": [
+    {
+      "kind": "block",
+      "type": "python_sleep",
+      "inputs": {
+        "SECONDS": {
+          "shadow": {
+            "type": "math_number",
+            "fields": {
+              "NUM": 1
+            }
+          }
+        }
+      }
+    },
+    {
+      "kind": "block",
+      "type": "python_print",
+      "inputs": {
+        "VALUE": {
+          "shadow": {
+            "type": "text",
+            "fields": {
+              "TEXT": ""
+            }
+          }
+        }
+      }
+    },
+    {
+      "kind": "block",
+      "type": "python_number"
+    },
+    {
+      "kind": "block",
+      "type": "python_text"
+    },
+    {
+      "kind": "block",
+      "type": "python_boolean"
+    },
+    {
+      "kind": "block",
+      "type": "python_tuple",
+      "inputs": {
+        "ITEMS": {
+          "shadow": {
+            "type": "text",
+            "fields": {
+              "TEXT": ""
+            }
+          }
+        }
+      }
+    },
+    {
+      "kind": "block",
+      "type": "python_list",
+      "inputs": {
+        "ITEMS": {
+          "shadow": {
+            "type": "text",
+            "fields": {
+              "TEXT": ""
+            }
+          }
+        }
+      }
+    },
+    {
+      "kind": "block",
+      "type": "python_set_variable",
+      "inputs": {
+        "VALUE": {
+          "shadow": {
+            "type": "text",
+            "fields": {
+              "TEXT": ""
+            }
+          }
+        }
+      }
+    },
+    {
+      "kind": "block",
+      "type": "python_get_variable"
+    },
+    {
+      "kind": "block",
+      "type": "python_if",
+      "inputs": {
+        "CONDITION": {
+          "shadow": {
+            "type": "logic_boolean",
+            "fields": {
+              "BOOL": "TRUE"
+            }
+          }
+        }
+      }
+    },
+    {
+      "kind": "block",
+      "type": "python_for_each",
+      "inputs": {
+        "ITEMS": {
+          "shadow": {
+            "type": "text",
+            "fields": {
+              "TEXT": ""
+            }
+          }
+        }
+      }
+    }
+  ]
+}

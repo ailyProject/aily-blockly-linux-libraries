@@ -1,0 +1,231 @@
+{
+  "toolbox_name": "GPIO と PWM",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "linux_gpio_init": {
+    "message0": "GPIO %1 を初期化、ピン %2、方向 %3、プル %4",
+    "tooltip": "gpiozero でデジタルピンを作成します。",
+    "args0": [
+      null,
+      null,
+      {
+        "options": [
+          [
+            "入力",
+            "INPUT"
+          ],
+          [
+            "出力",
+            "OUTPUT"
+          ]
+        ]
+      },
+      {
+        "options": [
+          [
+            "なし",
+            "NONE"
+          ],
+          [
+            "プルアップ",
+            "UP"
+          ],
+          [
+            "プルダウン",
+            "DOWN"
+          ]
+        ]
+      }
+    ]
+  },
+  "linux_gpio_write": {
+    "message0": "GPIO %1 を %2 にする",
+    "tooltip": "GPIO %1 を %2 にする",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "linux_gpio_read": {
+    "message0": "GPIO %1 の値",
+    "tooltip": "GPIO %1 の値",
+    "args0": [
+      null
+    ]
+  },
+  "linux_gpio_close": {
+    "message0": "GPIO %1 を閉じる",
+    "tooltip": "GPIO %1 を閉じる",
+    "args0": [
+      null
+    ]
+  },
+  "linux_led_init": {
+    "message0": "LED %1 を初期化 ピン %2 アクティブレベル %3",
+    "tooltip": "選択したピンに gpiozero LED を作成します。",
+    "args0": [
+      null,
+      null,
+      {
+        "options": [
+          [
+            "高",
+            "TRUE"
+          ],
+          [
+            "低",
+            "FALSE"
+          ]
+        ]
+      }
+    ]
+  },
+  "linux_led_action": {
+    "message0": "LED %1 を %2",
+    "tooltip": "初期化済み LED を点灯、消灯、または切り替えます。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "点灯",
+            "ON"
+          ],
+          [
+            "消灯",
+            "OFF"
+          ],
+          [
+            "切り替え",
+            "TOGGLE"
+          ]
+        ]
+      }
+    ]
+  },
+  "linux_led_blink": {
+    "message0": "LED %1 を点滅 点灯 %2 秒 消灯 %3 秒 回数 %4（0 は無限）",
+    "tooltip": "バックグラウンドで点滅します。回数 0 は無限に繰り返します。",
+    "args0": [
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "linux_button_init": {
+    "message0": "ボタン %1 を初期化 ピン %2 プル %3 プルなし時のアクティブレベル %4 デバウンス %5 秒 長押し %6 秒",
+    "tooltip": "gpiozero Button を作成します。プルなしの場合はアクティブレベルを使用します。",
+    "args0": [
+      null,
+      null,
+      {
+        "options": [
+          [
+            "プルアップ",
+            "UP"
+          ],
+          [
+            "プルダウン",
+            "DOWN"
+          ],
+          [
+            "なし",
+            "NONE"
+          ]
+        ]
+      },
+      {
+        "options": [
+          [
+            "高",
+            "TRUE"
+          ],
+          [
+            "低",
+            "FALSE"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "linux_button_pressed": {
+    "message0": "ボタン %1 が押されている",
+    "tooltip": "初期化済みボタンが現在押されているかを返します。",
+    "args0": [
+      null
+    ]
+  },
+  "linux_button_held": {
+    "message0": "ボタン %1 が長押しされている",
+    "tooltip": "初期化済みボタンが長押し時間に達したかを返します。",
+    "args0": [
+      null
+    ]
+  },
+  "linux_button_wait": {
+    "message0": "ボタン %1 の %2 を待つ タイムアウト %3 秒（0 は無制限）",
+    "tooltip": "押下または解放を待ちます。タイムアウト 0 は無制限に待ちます。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "押下",
+            "PRESS"
+          ],
+          [
+            "解放",
+            "RELEASE"
+          ]
+        ]
+      },
+      null
+    ]
+  },
+  "linux_led_write": {
+    "message0": "旧固定 GPIO17 LED を %1 にする",
+    "tooltip": "GPIO17 固定の旧互換ブロックです。「LED を初期化」を優先してください。",
+    "args0": [
+      null
+    ]
+  },
+  "linux_key_pressed": {
+    "message0": "旧固定 GPIO27 ボタンが押されている",
+    "tooltip": "GPIO27 固定の旧互換ブロックです。「ボタンを初期化」を優先してください。"
+  },
+  "linux_pwm_init": {
+    "message0": "PWM %1 を初期化、ピン %2、周波数 %3 Hz",
+    "tooltip": "PWM %1 を初期化、ピン %2、周波数 %3 Hz",
+    "args0": [
+      null,
+      null,
+      null
+    ]
+  },
+  "linux_pwm_duty": {
+    "message0": "PWM %1 のデューティを %2（0–1）にする",
+    "tooltip": "PWM %1 のデューティを %2（0–1）にする",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "linux_pwm_frequency": {
+    "message0": "PWM %1 の周波数を %2 Hz に設定",
+    "tooltip": "初期化済み PWM 出力の周波数を変更します。",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "linux_pwm_close": {
+    "message0": "PWM %1 を閉じる",
+    "tooltip": "PWM %1 を閉じる",
+    "args0": [
+      null
+    ]
+  }
+}

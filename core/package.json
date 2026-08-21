@@ -1,0 +1,44 @@
+{
+  "name": "@aily-project/lib-core",
+  "nickname": "Core",
+  "nickname_zh_cn": "核心",
+  "nickname_en": "Core",
+  "nickname_zh_hk": "核心",
+  "nickname_ja": "コア",
+  "nickname_ko": "코어",
+  "nickname_de": "Kern",
+  "nickname_fr": "Noyau",
+  "nickname_es": "Núcleo",
+  "nickname_pt": "Núcleo",
+  "nickname_ru": "Ядро",
+  "nickname_ar": "نواة",
+  "version": "0.0.1",
+  "description": "Python 基础语法、程序结构、变量和基础数据。",
+  "description_zh_cn": "Python 基础语法、程序结构、变量和基础数据。",
+  "description_en": "Python program structure, variables, and basic data primitives.",
+  "spec": true,
+  "compatibility": {
+    "type": [
+      "canaan:k230:cybercam",
+      "broadcom:bcm2712:raspberrypi_5",
+      "allwinner:t527:walnutpi_2b"
+    ],
+    "voltage": [
+      3.3
+    ]
+  },
+  "keywords": [
+    "aily",
+    "blockly",
+    "python",
+    "core",
+    "language"
+  ],
+  "tags": [
+    "core"
+  ],
+  "author": "ailyProject",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {}
+}

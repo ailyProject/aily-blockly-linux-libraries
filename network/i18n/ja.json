@@ -1,0 +1,387 @@
+{
+  "toolbox_name": "ネットワーク",
+  "toolbox_categories": [
+    "ソケット設定",
+    "TCP 通信",
+    "UDP 通信",
+   "ソケットユーティリティ",
+   "HTTP"
+  ],
+  "toolbox_labels": {
+    "Socket setup": "ソケット設定",
+    "TCP communication": "TCP 通信",
+    "UDP communication": "UDP 通信",
+   "Socket utilities": "ソケットユーティリティ",
+   "HTTP": "HTTP"
+  },
+  "python_socket_init": {
+    "message0": "ソケット %1 を初期化、ファミリー %2、種類 %3",
+    "tooltip": "ソケット %1 を初期化、ファミリー %2、種類 %3",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "IPv4",
+            "AF_INET"
+          ],
+          [
+            "IPv6",
+            "AF_INET6"
+          ]
+        ]
+      },
+      {
+        "options": [
+          [
+            "TCP",
+            "SOCK_STREAM"
+          ],
+          [
+            "UDP",
+            "SOCK_DGRAM"
+          ]
+        ]
+      }
+    ]
+  },
+  "python_socket_address": {
+    "message0": "ホスト %1 ポート %2 ファミリー %3 種類 %4 を解決",
+    "tooltip": "getaddrinfo を使用して IPv4/IPv6 の TCP または UDP アドレスを解決します。",
+    "args0": [
+      null,
+      null,
+      {
+        "options": [
+          [
+            "IPv4",
+            "AF_INET"
+          ],
+          [
+            "IPv6",
+            "AF_INET6"
+          ]
+        ]
+      },
+      {
+        "options": [
+          [
+            "TCP",
+            "SOCK_STREAM"
+          ],
+          [
+            "UDP",
+            "SOCK_DGRAM"
+          ]
+        ]
+      }
+    ]
+  },
+  "python_socket_address_part": {
+    "message0": "アドレス %2 の %1",
+    "tooltip": "IPv4 または IPv6 ソケットアドレスからホスト/IP またはポートを取得します。",
+    "args0": [
+      {
+        "options": [
+          [
+            "ホスト/IP",
+            "HOST"
+          ],
+          [
+            "ポート",
+            "PORT"
+          ]
+        ]
+      },
+      null
+    ]
+  },
+  "python_socket_connect": {
+    "message0": "ソケット %1 を %2 に接続",
+    "tooltip": "ソケット %1 を %2 に接続",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_socket_bind": {
+    "message0": "ソケット %1 を %2 にバインド",
+    "tooltip": "ソケット %1 を %2 にバインド",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_socket_listen": {
+    "message0": "ソケット %1 を待ち受け、バックログ %2",
+    "tooltip": "ソケット %1 を待ち受け、バックログ %2",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_socket_accept": {
+    "message0": "ソケット %1 が接続を受け入れる",
+    "tooltip": "ソケット %1 が接続を受け入れる",
+    "args0": [
+      null
+    ]
+  },
+  "python_socket_accept_into": {
+    "message0": "ソケット %1 で接続を受け入れ、クライアント %2 とアドレス %3 に格納",
+    "tooltip": "TCP 接続を受け入れ、接続済みソケットと相手側アドレスを格納します。",
+    "args0": [
+      null,
+      null,
+      null
+    ]
+  },
+  "python_socket_send": {
+    "message0": "ソケット %1 で %2 を完全送信",
+    "tooltip": "TCP ペイロード全体を送信します。テキストは UTF-8 にエンコードし、バイト列データは変更しません。",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_socket_receive": {
+    "message0": "ソケット %1 で %2 バイト受信",
+    "tooltip": "指定した最大数の TCP バイトを受信します。b'' は相手側が接続を閉じたことを示します。",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_socket_send_to": {
+    "message0": "UDP ソケット %1 で %2 を %3 に送信",
+    "tooltip": "UDP データグラムを 1 個送信します。テキストは UTF-8 にエンコードし、バイト列データは変更しません。",
+    "args0": [
+      null,
+      null,
+      null
+    ]
+  },
+  "python_socket_receive_from": {
+    "message0": "UDP ソケット %1 で最大 %2 バイトのデータグラムを受信",
+    "tooltip": "UDP データグラムを（データ、アドレス）として 1 個受信します。バッファが小さいとデータグラムは切り詰められます。",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_socket_receive_from_into": {
+    "message0": "UDP ソケット %1 で最大 %2 バイトを受信し、データ %3 アドレス %4 に格納",
+    "tooltip": "UDP データグラムを 1 個受信し、バイト列と送信元アドレスを個別に格納します。",
+    "args0": [
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "python_socket_set_timeout": {
+    "message0": "ソケット %1 のタイムアウトを %2 秒に設定",
+    "tooltip": "操作のタイムアウトを設定します。0 はノンブロッキングモードを選択し、正の値ではタイムアウト時に例外が発生します。",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_socket_set_blocking": {
+    "message0": "ソケット %1 を %2 モードに設定",
+    "tooltip": "ブロッキング操作とノンブロッキング操作を切り替えます。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "ブロッキング",
+            "TRUE"
+          ],
+          [
+            "ノンブロッキング",
+            "FALSE"
+          ]
+        ]
+      }
+    ]
+  },
+  "python_socket_set_option": {
+    "message0": "ソケット %1 のオプション %2 を %3",
+    "tooltip": "移植可能な真偽値ソケットオプションを設定します。アドレス再利用はバインド前に設定してください。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "アドレス再利用",
+            "SO_REUSEADDR"
+          ],
+          [
+            "ブロードキャスト",
+            "SO_BROADCAST"
+          ],
+          [
+            "キープアライブ",
+            "SO_KEEPALIVE"
+          ],
+          [
+            "TCP 遅延なし",
+            "TCP_NODELAY"
+          ]
+        ]
+      },
+      {
+        "options": [
+          [
+            "有効化",
+            "TRUE"
+          ],
+          [
+            "無効化",
+            "FALSE"
+          ]
+        ]
+      }
+    ]
+  },
+  "python_socket_ready": {
+    "message0": "ソケット %1 の %2 準備を %3 秒以内で確認",
+    "tooltip": "select を使用して操作前に準備状態を確認し、ブロッキングを回避します。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "読み取り",
+            "READ"
+          ],
+          [
+            "書き込み",
+            "WRITE"
+          ]
+        ]
+      },
+      null
+    ]
+  },
+  "python_socket_endpoint": {
+    "message0": "ソケット %1 の %2 アドレス",
+    "tooltip": "ローカルアドレスまたは接続先の相手側アドレスを取得します。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "ローカル",
+            "LOCAL"
+          ],
+          [
+            "接続先",
+            "PEER"
+          ]
+        ]
+      }
+    ]
+  },
+  "python_socket_encode": {
+    "message0": "テキスト %1 を %2 バイト列にエンコード",
+    "tooltip": "ソケットのペイロード用にテキストをバイト列へエンコードします。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "UTF-8",
+            "utf-8"
+          ],
+          [
+            "ASCII",
+            "ascii"
+          ],
+          [
+            "GBK",
+            "gbk"
+          ]
+        ]
+      }
+    ]
+  },
+  "python_socket_decode": {
+    "message0": "バイト列 %1 を %2 でデコード、エラー時 %3",
+    "tooltip": "選択したエラー処理方針でバイト列をテキストにデコードします。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "UTF-8",
+            "utf-8"
+          ],
+          [
+            "ASCII",
+            "ascii"
+          ],
+          [
+            "GBK",
+            "gbk"
+          ]
+        ]
+      },
+      {
+        "options": [
+          [
+            "置換",
+            "replace"
+          ],
+          [
+            "厳密",
+            "strict"
+          ],
+          [
+            "無視",
+            "ignore"
+          ]
+        ]
+      }
+    ]
+  },
+  "python_socket_shutdown": {
+    "message0": "ソケット %1 の %2 をシャットダウン",
+    "tooltip": "接続済みソケットを閉じる前に、受信、送信、または送受信を無効にします。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "受信",
+            "SHUT_RD"
+          ],
+          [
+            "送信",
+            "SHUT_WR"
+          ],
+          [
+            "送受信",
+            "SHUT_RDWR"
+          ]
+        ]
+      }
+    ]
+  },
+  "python_socket_close": {
+    "message0": "ソケット %1 を閉じる",
+    "tooltip": "ソケット %1 を閉じる",
+    "args0": [
+      null
+   ]
+ },
+  "python_http_server": {
+    "message0": "現在のディレクトリを HTTP で公開：ホスト %1、ポート %2",
+    "tooltip": "現在のディレクトリを HTTP で公開：ホスト %1、ポート %2",
+    "args0": [
+      null,
+      null
+    ]
+  }
+}

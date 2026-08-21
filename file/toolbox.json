@@ -1,0 +1,71 @@
+{
+  "kind": "category",
+  "name": "File",
+  "colour": "#EF6C00",
+  "contents": [
+    {
+      "kind": "block",
+      "type": "python_file_read",
+      "inputs": {
+        "PATH": {
+          "shadow": {
+            "type": "text",
+            "fields": {
+              "TEXT": "file.txt"
+            }
+          }
+        }
+      }
+    },
+    {
+      "kind": "block",
+      "type": "python_file_write",
+      "inputs": {
+        "PATH": {
+          "shadow": {
+            "type": "text",
+            "fields": {
+              "TEXT": "file.txt"
+            }
+          }
+        },
+        "CONTENT": {
+          "shadow": {
+            "type": "text",
+            "fields": {
+              "TEXT": ""
+            }
+          }
+        }
+      }
+    },
+    {
+      "kind": "block",
+      "type": "python_file_exists",
+      "inputs": {
+        "PATH": {
+          "shadow": {
+            "type": "text",
+            "fields": {
+              "TEXT": "file.txt"
+            }
+          }
+        }
+      }
+    },
+    {
+      "kind": "block",
+      "type": "python_file_list",
+      "inputs": {
+        "PATH": {
+          "shadow": {
+            "type": "text",
+            "fields": {
+              "TEXT": "."
+            }
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,231 @@
+{
+  "toolbox_name": "GPIO et PWM",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "linux_gpio_init": {
+    "message0": "initialiser GPIO %1 broche %2 direction %3 rappel %4",
+    "tooltip": "Créer une broche numérique avec gpiozero.",
+    "args0": [
+      null,
+      null,
+      {
+        "options": [
+          [
+            "entrée",
+            "INPUT"
+          ],
+          [
+            "sortie",
+            "OUTPUT"
+          ]
+        ]
+      },
+      {
+        "options": [
+          [
+            "aucun",
+            "NONE"
+          ],
+          [
+            "tirage haut",
+            "UP"
+          ],
+          [
+            "tirage bas",
+            "DOWN"
+          ]
+        ]
+      }
+    ]
+  },
+  "linux_gpio_write": {
+    "message0": "mettre GPIO %1 à %2",
+    "tooltip": "mettre GPIO %1 à %2",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "linux_gpio_read": {
+    "message0": "valeur de GPIO %1",
+    "tooltip": "valeur de GPIO %1",
+    "args0": [
+      null
+    ]
+  },
+  "linux_gpio_close": {
+    "message0": "fermer GPIO %1",
+    "tooltip": "fermer GPIO %1",
+    "args0": [
+      null
+    ]
+  },
+  "linux_led_init": {
+    "message0": "initialiser LED %1 broche %2 niveau actif %3",
+    "tooltip": "Crée une LED gpiozero sur la broche choisie.",
+    "args0": [
+      null,
+      null,
+      {
+        "options": [
+          [
+            "haut",
+            "TRUE"
+          ],
+          [
+            "bas",
+            "FALSE"
+          ]
+        ]
+      }
+    ]
+  },
+  "linux_led_action": {
+    "message0": "LED %1 %2",
+    "tooltip": "Allume, éteint ou inverse une LED initialisée.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "allumer",
+            "ON"
+          ],
+          [
+            "éteindre",
+            "OFF"
+          ],
+          [
+            "inverser",
+            "TOGGLE"
+          ]
+        ]
+      }
+    ]
+  },
+  "linux_led_blink": {
+    "message0": "faire clignoter LED %1 allumée %2 s éteinte %3 s nombre %4 (0 sans fin)",
+    "tooltip": "Clignote en arrière-plan ; un nombre de 0 répète indéfiniment.",
+    "args0": [
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "linux_button_init": {
+    "message0": "initialiser bouton %1 broche %2 tirage %3 niveau actif sans tirage %4 anti-rebond %5 s maintien %6 s",
+    "tooltip": "Crée un Button gpiozero. Le niveau actif est utilisé sans résistance de tirage.",
+    "args0": [
+      null,
+      null,
+      {
+        "options": [
+          [
+            "tirage haut",
+            "UP"
+          ],
+          [
+            "tirage bas",
+            "DOWN"
+          ],
+          [
+            "aucun",
+            "NONE"
+          ]
+        ]
+      },
+      {
+        "options": [
+          [
+            "haut",
+            "TRUE"
+          ],
+          [
+            "bas",
+            "FALSE"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "linux_button_pressed": {
+    "message0": "bouton %1 est enfoncé",
+    "tooltip": "Indique si le bouton initialisé est actuellement enfoncé.",
+    "args0": [
+      null
+    ]
+  },
+  "linux_button_held": {
+    "message0": "bouton %1 est maintenu",
+    "tooltip": "Indique si le bouton initialisé a atteint son temps de maintien.",
+    "args0": [
+      null
+    ]
+  },
+  "linux_button_wait": {
+    "message0": "attendre bouton %1 %2 délai %3 s (0 sans limite)",
+    "tooltip": "Attend un appui ou un relâchement ; un délai de 0 attend sans limite.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "appui",
+            "PRESS"
+          ],
+          [
+            "relâchement",
+            "RELEASE"
+          ]
+        ]
+      },
+      null
+    ]
+  },
+  "linux_led_write": {
+    "message0": "mettre la LED héritée fixe GPIO17 à %1",
+    "tooltip": "Bloc de compatibilité hérité fixé à GPIO17 ; utilisez de préférence « initialiser LED ».",
+    "args0": [
+      null
+    ]
+  },
+  "linux_key_pressed": {
+    "message0": "bouton hérité fixe GPIO27 est enfoncé",
+    "tooltip": "Bloc de compatibilité hérité fixé à GPIO27 ; utilisez de préférence « initialiser bouton »."
+  },
+  "linux_pwm_init": {
+    "message0": "initialiser PWM %1 broche %2 fréquence %3 Hz",
+    "tooltip": "initialiser PWM %1 broche %2 fréquence %3 Hz",
+    "args0": [
+      null,
+      null,
+      null
+    ]
+  },
+  "linux_pwm_duty": {
+    "message0": "régler le rapport cyclique de PWM %1 à %2 (0–1)",
+    "tooltip": "régler le rapport cyclique de PWM %1 à %2 (0–1)",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "linux_pwm_frequency": {
+    "message0": "régler la fréquence PWM %1 à %2 Hz",
+    "tooltip": "Modifie la fréquence d’une sortie PWM initialisée.",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "linux_pwm_close": {
+    "message0": "fermer PWM %1",
+    "tooltip": "fermer PWM %1",
+    "args0": [
+      null
+    ]
+  }
+}

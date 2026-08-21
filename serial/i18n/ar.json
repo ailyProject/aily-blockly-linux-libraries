@@ -1,0 +1,142 @@
+{
+  "toolbox_name": "المنفذ التسلسلي",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "linux_uart_init": {
+    "message0": "هيئ المنفذ التسلسلي %1 الجهاز %2 السرعة %3",
+    "tooltip": "هيئ المنفذ التسلسلي %1 الجهاز %2 السرعة %3",
+    "args0": [
+      null,
+      null,
+      {
+        "options": [
+          [
+            "9600",
+            "9600"
+          ],
+          [
+            "19200",
+            "19200"
+          ],
+          [
+            "38400",
+            "38400"
+          ],
+          [
+            "57600",
+            "57600"
+          ],
+          [
+            "115200",
+            "115200"
+          ]
+        ]
+      }
+    ]
+  },
+  "linux_uart_available": {
+    "message0": "البايتات المتاحة من المنفذ %1",
+    "tooltip": "البايتات المتاحة من المنفذ %1",
+    "args0": [
+      null
+    ]
+  },
+  "linux_uart_read": {
+    "message0": "اقرأ %2 بايت من المنفذ %1",
+    "tooltip": "اقرأ %2 بايت من المنفذ %1",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "linux_uart_write": {
+    "message0": "اكتب %2 إلى المنفذ %1",
+    "tooltip": "اكتب %2 إلى المنفذ %1",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "linux_uart_flush": {
+    "message0": "امسح مخزن إدخال المنفذ %1",
+    "tooltip": "امسح مخزن إدخال المنفذ %1",
+    "args0": [
+      null
+    ]
+  },
+  "linux_uart_close": {
+    "message0": "أغلق المنفذ %1",
+    "tooltip": "أغلق المنفذ %1",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_uart_init": {
+    "message0": "تهيئة UART %1: معدل البث %2",
+    "tooltip": "تهيئة UART %1: معدل البث %2",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "9600",
+            "9600"
+          ],
+          [
+            "19200",
+            "19200"
+          ],
+          [
+            "38400",
+            "38400"
+          ],
+          [
+            "57600",
+            "57600"
+          ],
+          [
+            "115200",
+            "115200"
+          ]
+        ]
+      }
+    ]
+  },
+  "cybercam_uart_available": {
+    "message0": "البايتات المتاحة في UART %1",
+    "tooltip": "البايتات المتاحة في UART %1",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_uart_read": {
+    "message0": "قراءة %2 بايت من UART %1",
+    "tooltip": "قراءة %2 بايت من UART %1",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "cybercam_uart_write": {
+    "message0": "كتابة %2 إلى UART %1",
+    "tooltip": "كتابة %2 إلى UART %1",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "cybercam_uart_flush": {
+    "message0": "مسح مخزن إدخال UART %1",
+    "tooltip": "مسح مخزن إدخال UART %1",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_uart_close": {
+    "message0": "إغلاق UART %1",
+    "tooltip": "إغلاق UART %1",
+    "args0": [
+      null
+    ]
+  }
+}

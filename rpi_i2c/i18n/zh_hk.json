@@ -1,0 +1,50 @@
+{
+  "toolbox_name": "I2C / SMBus",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "rpi_i2c_init": {
+    "message0": "初始化 I2C %1，匯流排 %2",
+    "tooltip": "使用 smbus2 開啟 Linux I2C 匯流排。",
+    "args0": [null, null]
+  },
+  "rpi_i2c_read_byte_data": {
+    "message0": "I2C %1 從位址 %2 暫存器 %3 讀取位元組",
+    "tooltip": "從 I2C 暫存器讀取 8 位元數值。",
+    "args0": [null, null, null]
+  },
+  "rpi_i2c_write_byte_data": {
+    "message0": "I2C %1 向位址 %2 暫存器 %3 寫入位元組 %4",
+    "tooltip": "向 I2C 暫存器寫入 8 位元數值。",
+    "args0": [null, null, null, null]
+  },
+  "rpi_i2c_read_word_data": {
+    "message0": "I2C %1 從位址 %2 暫存器 %3 讀取字",
+    "tooltip": "從暫存器讀取一個 16 位元小端 SMBus 字。",
+    "args0": [null, null, null]
+  },
+  "rpi_i2c_write_word_data": {
+    "message0": "I2C %1 向位址 %2 暫存器 %3 寫入字 %4",
+    "tooltip": "向暫存器寫入一個 16 位元小端 SMBus 字。",
+    "args0": [null, null, null, null]
+  },
+  "rpi_i2c_read_i2c_block": {
+    "message0": "I2C %1 從位址 %2 暫存器 %3 讀取 %4 位元組",
+    "tooltip": "從 I2C 暫存器讀取一組位元組資料。",
+    "args0": [null, null, null, null]
+  },
+  "rpi_i2c_write_i2c_block": {
+    "message0": "I2C %1 向位址 %2 暫存器 %3 寫入區塊資料 %4",
+    "tooltip": "向 I2C 暫存器寫入位元組清單。",
+    "args0": [null, null, null, null]
+  },
+  "rpi_i2c_write_read": {
+    "message0": "I2C %1 重複起始 位址 %2 寫入 %3 再讀取 %4 位元組",
+    "tooltip": "在一次帶重複起始條件的 I2C 交易中寫入位元組並讀取回應。",
+    "args0": [null, null, null, null]
+  },
+  "rpi_i2c_close": {
+    "message0": "關閉 I2C %1",
+    "tooltip": "關閉 I2C 匯流排。",
+    "args0": [null]
+  }
+}

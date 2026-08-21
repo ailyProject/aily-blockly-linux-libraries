@@ -1,0 +1,395 @@
+{
+  "toolbox_name": "카메라 및 AI",
+  "toolbox_categories": [
+    "카메라 및 화면",
+    "KPU AI"
+  ],
+  "toolbox_labels": {
+    "Camera and display": "카메라 및 화면",
+    "KPU AI": "KPU AI"
+  },
+  "cybercam_camera_init": {
+    "message0": "카메라 %1 초기화: 너비 %2, 높이 %3, 센서 %4",
+    "tooltip": "카메라 %1 초기화: 너비 %2, 높이 %3, 센서 %4",
+    "args0": [
+      null,
+      null,
+      null,
+      {
+        "options": [
+          [
+            "온보드 CSI2",
+            "2"
+          ],
+          [
+            "CSI0",
+            "0"
+          ]
+        ]
+      }
+    ]
+  },
+  "cybercam_camera_opened": {
+    "message0": "카메라 %1이 열려 있음",
+    "tooltip": "카메라 %1이 열려 있음",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_camera_read": {
+    "message0": "카메라 %1 이미지",
+    "tooltip": "카메라 %1 이미지",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_camera_read_raw": {
+    "message0": "카메라 %1 원시 읽기 결과",
+    "tooltip": "성공 플래그와 이미지를 포함한 전체 camera.read() 결과를 반환합니다.",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_camera_hmirror": {
+    "message0": "카메라 %1 수평 미러를 %2로 설정",
+    "tooltip": "카메라 %1 수평 미러를 %2로 설정",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "cybercam_camera_vflip": {
+    "message0": "카메라 %1 수직 뒤집기를 %2로 설정",
+    "tooltip": "카메라 %1 수직 뒤집기를 %2로 설정",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "cybercam_camera_release": {
+    "message0": "카메라 %1 해제",
+    "tooltip": "카메라 %1 해제",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_display_init": {
+    "message0": "온보드 디스플레이 초기화",
+    "tooltip": "온보드 디스플레이 초기화"
+  },
+  "cybercam_display_rotation": {
+    "message0": "디스플레이 회전을 %1로 설정",
+    "tooltip": "디스플레이 회전을 %1로 설정",
+    "args0": [
+      {
+        "options": [
+          [
+            "0°",
+            "0"
+          ],
+          [
+            "90°",
+            "1"
+          ],
+          [
+            "180°",
+            "2"
+          ],
+          [
+            "270°",
+            "3"
+          ]
+        ]
+      }
+    ]
+  },
+  "cybercam_display_show": {
+    "message0": "이미지 %1을(를) 디스플레이에 표시",
+    "tooltip": "이미지 %1을(를) 디스플레이에 표시",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_ide_show": {
+    "message0": "이미지 %1을(를) IDE에 표시",
+    "tooltip": "이미지 %1을(를) IDE에 표시",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_lcd_direction": {
+    "message0": "현재 디스플레이 방향",
+    "tooltip": "현재 디스플레이 방향"
+  },
+  "cybercam_ai_init_simple": {
+    "message0": "AI %1 초기화: 모델 %2, 경로 %3, 크기 %4",
+    "tooltip": "AI %1 초기화: 모델 %2, 경로 %3, 크기 %4",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "낙상 검출",
+            "FALL_DETECT"
+          ],
+          [
+            "손 검출",
+            "HAND_DETECT"
+          ],
+          [
+            "사람 검출",
+            "PERSON_DETECT"
+          ],
+          [
+            "사람 키포인트",
+            "PERSON_KEYPOINT"
+          ],
+          [
+            "연기 검출",
+            "SMOKE_DETECT"
+          ],
+          [
+            "신호등 검출",
+            "TRAFFIC_LIGHT_DETECT"
+          ],
+          [
+            "YOLO11 분류",
+            "YOLO11_CLS"
+          ],
+          [
+            "YOLO11 검출",
+            "YOLO11_DET"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "cybercam_ai_init_face": {
+    "message0": "얼굴 검출기 %1 초기화: 모델 %2, 앵커 %3, 크기 %4",
+    "tooltip": "얼굴 검출기 %1 초기화: 모델 %2, 앵커 %3, 크기 %4",
+    "args0": [
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "cybercam_ai_init_mask": {
+    "message0": "마스크 검출기 %1 초기화: 검출 모델 %2, 앵커 %3, 크기 %4, 마스크 모델 %5",
+    "tooltip": "마스크 검출기 %1 초기화: 검출 모델 %2, 앵커 %3, 크기 %4, 마스크 모델 %5",
+    "args0": [
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "cybercam_ai_init_hand_keypoint": {
+    "message0": "손 AI %1 초기화: 유형 %2, 검출 모델 %3, 키포인트 모델 %4",
+    "tooltip": "손 AI %1 초기화: 유형 %2, 검출 모델 %3, 키포인트 모델 %4",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "키포인트",
+            "HAND_KEYPOINT"
+          ],
+          [
+            "제스처 분류",
+            "HAND_KEYPOINT_CLS"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "cybercam_ai_init_ocr": {
+    "message0": "OCR %1 초기화: 검출 %2, 인식 %3, 사전 %4, 검출 크기 %5, 인식 너비 %6, 높이 %7",
+    "tooltip": "OCR %1 초기화: 검출 %2, 인식 %3, 사전 %4, 검출 크기 %5, 인식 너비 %6, 높이 %7",
+    "args0": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "cybercam_ai_init_licence": {
+    "message0": "번호판 AI %1 초기화: 검출 %2, 인식 %3, 앵커 %4, 라벨 %5, 검출 크기 %6, 인식 너비 %7, 높이 %8",
+    "tooltip": "번호판 AI %1 초기화: 검출 %2, 인식 %3, 앵커 %4, 라벨 %5, 검출 크기 %6, 인식 너비 %7, 높이 %8",
+    "args0": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "cybercam_ai_run": {
+    "message0": "AI %1을(를) %2에 실행",
+    "tooltip": "AI %1을(를) %2에 실행",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "cybercam_ai_run_confidence": {
+    "message0": "AI %1을(를) %2에 실행: 신뢰도 %3",
+    "tooltip": "AI %1을(를) %2에 실행: 신뢰도 %3",
+    "args0": [
+      null,
+      null,
+      null
+    ]
+  },
+  "cybercam_ai_run_thresholds": {
+    "message0": "AI %1을(를) %2에 실행: 신뢰도 %3, NMS %4",
+    "tooltip": "AI %1을(를) %2에 실행: 신뢰도 %3, NMS %4",
+    "args0": [
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "cybercam_result_length": {
+    "message0": "결과 리스트 %1 길이",
+    "tooltip": "결과 리스트 %1 길이",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_result_item": {
+    "message0": "결과 리스트 %1의 항목 %2",
+    "tooltip": "결과 리스트 %1의 항목 %2",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "cybercam_result_property": {
+    "message0": "결과 %1의 속성 %2",
+    "tooltip": "결과 %1의 속성 %2",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "신뢰도",
+            "reliability"
+          ],
+          [
+            "x",
+            "x"
+          ],
+          [
+            "y",
+            "y"
+          ],
+          [
+            "너비",
+            "w"
+          ],
+          [
+            "높이",
+            "h"
+          ],
+          [
+            "라벨",
+            "label"
+          ],
+          [
+            "텍스트",
+            "text"
+          ],
+          [
+            "마스크",
+            "mask"
+          ],
+          [
+            "상위 5개",
+            "top5"
+          ],
+          [
+            "키포인트",
+            "keypoints"
+          ],
+          [
+            "모서리",
+            "corners"
+          ],
+          [
+            "왼쪽 눈",
+            "left_eye"
+          ],
+          [
+            "왼쪽 눈 x",
+            "left_eye.x"
+          ],
+          [
+            "왼쪽 눈 y",
+            "left_eye.y"
+          ],
+          [
+            "오른쪽 눈",
+            "right_eye"
+          ],
+          [
+            "오른쪽 눈 x",
+            "right_eye.x"
+          ],
+          [
+            "오른쪽 눈 y",
+            "right_eye.y"
+          ],
+          [
+            "코",
+            "nose"
+          ],
+          [
+            "코 x",
+            "nose.x"
+          ],
+          [
+            "코 y",
+            "nose.y"
+          ],
+          [
+            "왼쪽 입꼬리",
+            "left_mouth"
+          ],
+          [
+            "왼쪽 입꼬리 x",
+            "left_mouth.x"
+          ],
+          [
+            "왼쪽 입꼬리 y",
+            "left_mouth.y"
+          ],
+          [
+            "오른쪽 입꼬리",
+            "right_mouth"
+          ],
+          [
+            "오른쪽 입꼬리 x",
+            "right_mouth.x"
+          ],
+          [
+            "오른쪽 입꼬리 y",
+            "right_mouth.y"
+          ]
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,177 @@
+[
+  {
+    "type": "rpi_picamera2_init",
+    "message0": "initialize Picamera2 %1 camera %2 width %3 height %4 format %5",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "camera"
+      },
+      {
+        "type": "input_value",
+        "name": "CAMERA_NUM",
+        "check": "Number"
+      },
+      {
+        "type": "input_value",
+        "name": "WIDTH",
+        "check": "Number"
+      },
+      {
+        "type": "input_value",
+        "name": "HEIGHT",
+        "check": "Number"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "FORMAT",
+        "options": [
+          [
+            "RGB888",
+            "RGB888"
+          ],
+          [
+            "BGR888",
+            "BGR888"
+          ],
+          [
+            "XRGB888",
+            "XRGB888"
+          ]
+        ]
+      }
+    ],
+    "colour": "#C51A4A",
+    "tooltip": "Create and configure a Raspberry Pi Picamera2 camera.",
+    "icon": "camera",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "rpi_picamera2_start",
+    "message0": "start Picamera2 %1",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "camera"
+      }
+    ],
+    "colour": "#C51A4A",
+    "tooltip": "Start the configured Picamera2 camera.",
+    "icon": "camera",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "rpi_picamera2_capture_array",
+    "message0": "Picamera2 %1 capture array",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "camera"
+      }
+    ],
+    "colour": "#C51A4A",
+    "tooltip": "Capture the main stream as a NumPy array.",
+    "icon": "camera",
+    "output": "Any"
+  },
+  {
+    "type": "rpi_picamera2_capture_file",
+    "message0": "Picamera2 %1 capture file %2",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "camera"
+      },
+      {
+        "type": "input_value",
+        "name": "PATH",
+        "check": "String"
+      }
+    ],
+    "colour": "#C51A4A",
+    "tooltip": "Capture an image and save it to a file.",
+    "icon": "camera",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "rpi_picamera2_set_control",
+    "message0": "Picamera2 %1 set control %2 to %3",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "camera"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "CONTROL",
+        "options": [
+          [
+            "frame rate",
+            "FrameRate"
+          ],
+          [
+            "exposure time (µs)",
+            "ExposureTime"
+          ],
+          [
+            "analogue gain",
+            "AnalogueGain"
+          ],
+          [
+            "auto white balance",
+            "AwbEnable"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "VALUE"
+      }
+    ],
+    "colour": "#C51A4A",
+    "tooltip": "Set a supported Picamera2 camera control.",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "rpi_picamera2_stop",
+    "message0": "stop Picamera2 %1",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "camera"
+      }
+    ],
+    "colour": "#C51A4A",
+    "tooltip": "Stop capture without closing the Picamera2 camera.",
+    "icon": "camera",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "rpi_picamera2_close",
+    "message0": "close Picamera2 %1",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "camera"
+      }
+    ],
+    "colour": "#C51A4A",
+    "tooltip": "Stop and close the Picamera2 camera safely.",
+    "icon": "camera",
+    "previousStatement": null,
+    "nextStatement": null
+  }
+]

@@ -1,0 +1,629 @@
+{
+  "toolbox_name": "비전",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_image_resize": {
+    "message0": "이미지 %1 너비 %2 높이 %3 보간 %4 로 크기 조정",
+    "tooltip": "선택한 OpenCV 보간 방식으로 이미지 크기를 조정합니다.",
+    "args0": [
+      null,
+      null,
+      null,
+      {
+        "options": [
+          [
+            "선형",
+            "INTER_LINEAR"
+          ],
+          [
+            "영역",
+            "INTER_AREA"
+          ],
+          [
+            "최근접",
+            "INTER_NEAREST"
+          ],
+          [
+            "3차",
+            "INTER_CUBIC"
+          ]
+        ]
+      }
+    ]
+  },
+  "python_image_convert": {
+    "message0": "이미지 %1 을 %2 로 변환",
+    "tooltip": "이미지 %1 을 %2 로 변환",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "BGR에서 회색조",
+            "COLOR_BGR2GRAY"
+          ],
+          [
+            "BGR에서 LAB",
+            "COLOR_BGR2LAB"
+          ],
+          [
+            "BGR에서 RGB",
+            "COLOR_BGR2RGB"
+          ],
+          [
+            "회색조에서 BGR",
+            "COLOR_GRAY2BGR"
+          ]
+        ]
+      }
+    ]
+  },
+  "python_image_in_range": {
+    "message0": "이미지 %1 을 하한 %2, 상한 %3 으로 마스크",
+    "tooltip": "이미지 %1 을 하한 %2, 상한 %3 으로 마스크",
+    "args0": [
+      null,
+      null,
+      null
+    ]
+  },
+  "python_image_components": {
+    "message0": "%1 의 연결 요소, 연결성 %2",
+    "tooltip": "%1 의 연결 요소, 연결성 %2",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "4",
+            "4"
+          ],
+          [
+            "8",
+            "8"
+          ]
+        ]
+      }
+    ]
+  },
+  "python_components_property": {
+    "message0": "연결 요소 결과 %1 속성 %2",
+    "tooltip": "connectedComponentsWithStats가 반환한 튜플에서 속성을 읽습니다.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "개수",
+            "COUNT"
+          ],
+          [
+            "레이블 영상",
+            "LABELS"
+          ],
+          [
+            "통계",
+            "STATS"
+          ],
+          [
+            "중심점",
+            "CENTROIDS"
+          ]
+        ]
+      }
+    ]
+  },
+  "python_component_stat": {
+    "message0": "연결 요소 결과 %1 항목 %2 속성 %3",
+    "tooltip": "연결 요소 하나의 형상, 면적 또는 중심점 데이터를 읽습니다.",
+    "args0": [
+      null,
+      null,
+      {
+        "options": [
+          [
+            "왼쪽",
+            "LEFT"
+          ],
+          [
+            "위쪽",
+            "TOP"
+          ],
+          [
+            "너비",
+            "WIDTH"
+          ],
+          [
+            "높이",
+            "HEIGHT"
+          ],
+          [
+            "면적",
+            "AREA"
+          ],
+          [
+            "중심점 x",
+            "CENTROID_X"
+          ],
+          [
+            "중심점 y",
+            "CENTROID_Y"
+          ]
+        ]
+      }
+    ]
+  },
+  "python_image_canny": {
+    "message0": "이미지 %1 Canny 경계 하한 %2 상한 %3 조리개 %4 L2 그래디언트 %5",
+    "tooltip": "8비트 이미지에 OpenCV Canny 경계 검출을 수행합니다.",
+    "args0": [
+      null,
+      null,
+      null,
+      {
+        "options": [
+          [
+            "3",
+            "3"
+          ],
+          [
+            "5",
+            "5"
+          ],
+          [
+            "7",
+            "7"
+          ]
+        ]
+      },
+      null
+    ]
+  },
+  "python_image_hough_circles": {
+    "message0": "%1 에서 허프 원 검출 방식 %2 dp %3 최소 거리 %4 매개변수1 %5 매개변수2 %6 최소 반지름 %7 최대 반지름 %8",
+    "tooltip": "OpenCV 허프 원 변환으로 원을 검출합니다.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "그래디언트",
+            "HOUGH_GRADIENT"
+          ],
+          [
+            "대체 그래디언트",
+            "HOUGH_GRADIENT_ALT"
+          ]
+        ]
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "python_image_gaussian_blur": {
+    "message0": "이미지 %1 가우시안 흐림 커널 너비 %2 높이 %3 sigma X %4 sigma Y %5",
+    "tooltip": "홀수 크기의 가우시안 커널로 이미지를 흐리게 합니다.",
+    "args0": [
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "python_morphology_kernel": {
+    "message0": "형태학 커널 모양 %1 너비 %2 높이 %3",
+    "tooltip": "OpenCV 형태학 구조 요소를 만듭니다.",
+    "args0": [
+      {
+        "options": [
+          [
+            "사각형",
+            "MORPH_RECT"
+          ],
+          [
+            "타원",
+            "MORPH_ELLIPSE"
+          ],
+          [
+            "십자",
+            "MORPH_CROSS"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_image_morphology": {
+    "message0": "이미지 %1 형태학 연산 %2 커널 %3 반복 %4",
+    "tooltip": "OpenCV morphologyEx 연산을 적용합니다.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "닫기",
+            "MORPH_CLOSE"
+          ],
+          [
+            "열기",
+            "MORPH_OPEN"
+          ],
+          [
+            "형태학 그래디언트",
+            "MORPH_GRADIENT"
+          ],
+          [
+            "탑햇",
+            "MORPH_TOPHAT"
+          ],
+          [
+            "블랙햇",
+            "MORPH_BLACKHAT"
+          ],
+          [
+            "히트-오어-미스",
+            "MORPH_HITMISS"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_image_find_contours": {
+    "message0": "이미지 %1 윤곽선 찾기 검색 %2 근사 %3",
+    "tooltip": "윤곽선을 찾고 윤곽선 목록만 반환합니다.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "외부 윤곽선",
+            "RETR_EXTERNAL"
+          ],
+          [
+            "목록",
+            "RETR_LIST"
+          ],
+          [
+            "연결 요소",
+            "RETR_CCOMP"
+          ],
+          [
+            "트리",
+            "RETR_TREE"
+          ]
+        ]
+      },
+      {
+        "options": [
+          [
+            "모든 점",
+            "CHAIN_APPROX_NONE"
+          ],
+          [
+            "단순화",
+            "CHAIN_APPROX_SIMPLE"
+          ],
+          [
+            "Teh-Chin L1",
+            "CHAIN_APPROX_TC89_L1"
+          ],
+          [
+            "Teh-Chin KCOS",
+            "CHAIN_APPROX_TC89_KCOS"
+          ]
+        ]
+      }
+    ]
+  },
+  "python_contour_area": {
+    "message0": "윤곽선 %1 면적",
+    "tooltip": "윤곽선으로 둘러싸인 면적을 반환합니다.",
+    "args0": [
+      null
+    ]
+  },
+  "python_contour_perimeter": {
+    "message0": "윤곽선 %1 둘레 닫힘 %2",
+    "tooltip": "윤곽선의 호 길이 또는 닫힌 둘레를 반환합니다.",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_contour_approx": {
+    "message0": "윤곽선 %1 근사 epsilon %2 닫힘 %3",
+    "tooltip": "Douglas-Peucker 알고리즘으로 윤곽선을 근사합니다.",
+    "args0": [
+      null,
+      null,
+      null
+    ]
+  },
+  "python_contour_is_convex": {
+    "message0": "윤곽선 %1 은 볼록함",
+    "tooltip": "윤곽선이 볼록한지 검사합니다.",
+    "args0": [
+      null
+    ]
+  },
+  "python_contour_min_area_rect": {
+    "message0": "윤곽선 %1 최소 면적 사각형",
+    "tooltip": "윤곽선을 감싸는 최소 면적 회전 사각형을 반환합니다.",
+    "args0": [
+      null
+    ]
+  },
+  "python_rotated_rect_points": {
+    "message0": "회전 사각형 %1 꼭짓점",
+    "tooltip": "OpenCV 회전 사각형의 네 꼭짓점을 반환합니다.",
+    "args0": [
+      null
+    ]
+  },
+  "python_image_load": {
+    "message0": "이미지 파일 %1 불러오기",
+    "tooltip": "이미지 파일 %1 불러오기",
+    "args0": [
+      null
+    ]
+  },
+  "python_image_save": {
+    "message0": "이미지 %1 을 파일 %2 에 저장",
+    "tooltip": "이미지 %1 을 파일 %2 에 저장",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_draw_rectangle": {
+    "message0": "%1 에 사각형 그리기: x %2, y %3 에서 x %4, y %5, 색 %6, 두께 %7",
+    "tooltip": "%1 에 사각형 그리기: x %2, y %3 에서 x %4, y %5, 색 %6, 두께 %7",
+    "args0": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "python_draw_circle": {
+    "message0": "%1 에 원 그리기: x %2, y %3, 반지름 %4, 색 %5, 두께 %6",
+    "tooltip": "%1 에 원 그리기: x %2, y %3, 반지름 %4, 색 %5, 두께 %6",
+    "args0": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "python_draw_line": {
+    "message0": "%1 에 선 그리기: x %2, y %3 에서 x %4, y %5, 색 %6, 두께 %7",
+    "tooltip": "%1 에 선 그리기: x %2, y %3 에서 x %4, y %5, 색 %6, 두께 %7",
+    "args0": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "python_draw_text": {
+    "message0": "%2 의 x %3, y %4 에 텍스트 %1 그리기, 배율 %5, 색 %6, 두께 %7",
+    "tooltip": "%2 의 x %3, y %4 에 텍스트 %1 그리기, 배율 %5, 색 %6, 두께 %7",
+    "args0": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "python_draw_polyline": {
+    "message0": "이미지 %1 에 폴리라인 그리기 점 배열 %2 닫힘 %3 색 %4 두께 %5",
+    "tooltip": "하나 이상의 OpenCV 점 배열을 폴리라인으로 그립니다.",
+    "args0": [
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "python_draw_text_freetype": {
+    "message0": "이미지 %2 에 FreeType 텍스트 %1 x %3 y %4 높이 %5 색 %6 두께 %7 글꼴 %8",
+    "tooltip": "OpenCV FreeType 모듈과 TrueType/OpenType 글꼴로 Unicode 텍스트를 그립니다.",
+    "args0": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "python_qr_decode": {
+    "message0": "%1 의 QR 코드 디코딩",
+    "tooltip": "%1 의 QR 코드 디코딩",
+    "args0": [
+      null
+    ]
+  },
+  "python_barcode_decode": {
+    "message0": "이미지 %1 바코드 디코드 종류 %2",
+    "tooltip": "지원되는 모든 기호를 디코드하거나 pyzbar를 한 종류로 제한합니다.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "전체",
+            "ALL"
+          ],
+          [
+            "QR 코드",
+            "QRCODE"
+          ],
+          [
+            "Code 128",
+            "CODE128"
+          ],
+          [
+            "EAN-13",
+            "EAN13"
+          ]
+        ]
+      }
+    ]
+  },
+  "python_code_result_property": {
+    "message0": "디코드 결과 %1 속성 %2",
+    "tooltip": "pyzbar 디코드 결과의 필드를 읽습니다.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "종류",
+            "TYPE"
+          ],
+          [
+            "데이터 바이트",
+            "DATA"
+          ],
+          [
+            "텍스트",
+            "TEXT"
+          ],
+          [
+            "사각형",
+            "RECT"
+          ],
+          [
+            "x",
+            "X"
+          ],
+          [
+            "y",
+            "Y"
+          ],
+          [
+            "너비",
+            "WIDTH"
+          ],
+          [
+            "높이",
+            "HEIGHT"
+          ],
+          [
+            "다각형",
+            "POLYGON"
+          ]
+        ]
+      }
+    ]
+  },
+  "python_apriltag_init": {
+    "message0": "AprilTag 감지기 %1 초기화, 패밀리 %2",
+    "tooltip": "AprilTag 감지기 %1 초기화, 패밀리 %2",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "tag16h5",
+            "tag16h5"
+          ],
+          [
+            "tag25h7",
+            "tag25h7"
+          ],
+          [
+            "tag25h9",
+            "tag25h9"
+          ],
+          [
+            "tag36h10",
+            "tag36h10"
+          ],
+          [
+            "tag36h11",
+            "tag36h11"
+          ]
+        ]
+      }
+    ]
+  },
+  "python_apriltag_detect": {
+    "message0": "AprilTag 감지기 %1 로 회색 이미지 %2 감지",
+    "tooltip": "AprilTag 감지기 %1 로 회색 이미지 %2 감지",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_apriltag_result_property": {
+    "message0": "AprilTag 결과 %1 속성 %2",
+    "tooltip": "AprilTag 검출 결과의 식별, 형상, 신뢰도 또는 자세 데이터를 읽습니다.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "태그 ID",
+            "TAG_ID"
+          ],
+          [
+            "태그 패밀리",
+            "TAG_FAMILY"
+          ],
+          [
+            "꼭짓점",
+            "CORNERS"
+          ],
+          [
+            "중심",
+            "CENTER"
+          ],
+          [
+            "해밍 거리",
+            "HAMMING"
+          ],
+          [
+            "판정 여유",
+            "DECISION_MARGIN"
+          ],
+          [
+            "호모그래피",
+            "HOMOGRAPHY"
+          ],
+          [
+            "자세 회전",
+            "POSE_R"
+          ],
+          [
+            "자세 이동",
+            "POSE_T"
+          ]
+        ]
+      }
+    ]
+  }
+}

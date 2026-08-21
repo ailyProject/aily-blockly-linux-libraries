@@ -1,0 +1,629 @@
+{
+  "toolbox_name": "Bildverarbeitung",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_image_resize": {
+    "message0": "Bild %1 auf Breite %2 Höhe %3 mit Interpolation %4 skalieren",
+    "tooltip": "Skaliert ein Bild mit dem gewählten OpenCV-Interpolationsverfahren.",
+    "args0": [
+      null,
+      null,
+      null,
+      {
+        "options": [
+          [
+            "linear",
+            "INTER_LINEAR"
+          ],
+          [
+            "flächenbasiert",
+            "INTER_AREA"
+          ],
+          [
+            "nächster Nachbar",
+            "INTER_NEAREST"
+          ],
+          [
+            "kubisch",
+            "INTER_CUBIC"
+          ]
+        ]
+      }
+    ]
+  },
+  "python_image_convert": {
+    "message0": "Bild %1 mit %2 umwandeln",
+    "tooltip": "Bild %1 mit %2 umwandeln",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "BGR → Graustufen",
+            "COLOR_BGR2GRAY"
+          ],
+          [
+            "BGR → LAB",
+            "COLOR_BGR2LAB"
+          ],
+          [
+            "BGR → RGB",
+            "COLOR_BGR2RGB"
+          ],
+          [
+            "Graustufen → BGR",
+            "COLOR_GRAY2BGR"
+          ]
+        ]
+      }
+    ]
+  },
+  "python_image_in_range": {
+    "message0": "Bild %1 mit Untergrenze %2, Obergrenze %3 maskieren",
+    "tooltip": "Bild %1 mit Untergrenze %2, Obergrenze %3 maskieren",
+    "args0": [
+      null,
+      null,
+      null
+    ]
+  },
+  "python_image_components": {
+    "message0": "Zusammenhängende Komponenten von %1, Konnektivität %2",
+    "tooltip": "Zusammenhängende Komponenten von %1, Konnektivität %2",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "4",
+            "4"
+          ],
+          [
+            "8",
+            "8"
+          ]
+        ]
+      }
+    ]
+  },
+  "python_components_property": {
+    "message0": "Eigenschaft %2 des Zusammenhangskomponenten-Ergebnisses %1",
+    "tooltip": "Liest eine Eigenschaft aus dem von connectedComponentsWithStats gelieferten Tupel.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "Anzahl",
+            "COUNT"
+          ],
+          [
+            "Beschriftungsbild",
+            "LABELS"
+          ],
+          [
+            "Statistik",
+            "STATS"
+          ],
+          [
+            "Schwerpunkte",
+            "CENTROIDS"
+          ]
+        ]
+      }
+    ]
+  },
+  "python_component_stat": {
+    "message0": "Eigenschaft %3 von Komponente %2 im Ergebnis %1",
+    "tooltip": "Liest Geometrie-, Flächen- oder Schwerpunktdaten einer Zusammenhangskomponente.",
+    "args0": [
+      null,
+      null,
+      {
+        "options": [
+          [
+            "links",
+            "LEFT"
+          ],
+          [
+            "oben",
+            "TOP"
+          ],
+          [
+            "Breite",
+            "WIDTH"
+          ],
+          [
+            "Höhe",
+            "HEIGHT"
+          ],
+          [
+            "Fläche",
+            "AREA"
+          ],
+          [
+            "Schwerpunkt x",
+            "CENTROID_X"
+          ],
+          [
+            "Schwerpunkt y",
+            "CENTROID_Y"
+          ]
+        ]
+      }
+    ]
+  },
+  "python_image_canny": {
+    "message0": "Canny-Kanten von %1 untere Schwelle %2 obere Schwelle %3 Apertur %4 L2-Gradient %5",
+    "tooltip": "Führt die OpenCV-Canny-Kantenerkennung auf einem 8-Bit-Bild aus.",
+    "args0": [
+      null,
+      null,
+      null,
+      {
+        "options": [
+          [
+            "3",
+            "3"
+          ],
+          [
+            "5",
+            "5"
+          ],
+          [
+            "7",
+            "7"
+          ]
+        ]
+      },
+      null
+    ]
+  },
+  "python_image_hough_circles": {
+    "message0": "Hough-Kreise in %1 Methode %2 dp %3 Mindestabstand %4 Parameter1 %5 Parameter2 %6 Mindestradius %7 Maximalradius %8",
+    "tooltip": "Erkennt Kreise mit der OpenCV-Hough-Kreis-Transformation.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "Gradient",
+            "HOUGH_GRADIENT"
+          ],
+          [
+            "alternativer Gradient",
+            "HOUGH_GRADIENT_ALT"
+          ]
+        ]
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "python_image_gaussian_blur": {
+    "message0": "Gauß-Weichzeichnung von %1 Kernelbreite %2 Höhe %3 Sigma X %4 Sigma Y %5",
+    "tooltip": "Zeichnet ein Bild mit einem ungeraden Gauß-Kernel weich.",
+    "args0": [
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "python_morphology_kernel": {
+    "message0": "Morphologie-Kernel Form %1 Breite %2 Höhe %3",
+    "tooltip": "Erzeugt ein OpenCV-Strukturelement für Morphologie.",
+    "args0": [
+      {
+        "options": [
+          [
+            "Rechteck",
+            "MORPH_RECT"
+          ],
+          [
+            "Ellipse",
+            "MORPH_ELLIPSE"
+          ],
+          [
+            "Kreuz",
+            "MORPH_CROSS"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_image_morphology": {
+    "message0": "Morphologie auf %1 Operation %2 Kernel %3 Wiederholungen %4",
+    "tooltip": "Wendet eine OpenCV-morphologyEx-Operation an.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "Schließen",
+            "MORPH_CLOSE"
+          ],
+          [
+            "Öffnen",
+            "MORPH_OPEN"
+          ],
+          [
+            "morphologischer Gradient",
+            "MORPH_GRADIENT"
+          ],
+          [
+            "Top-Hat",
+            "MORPH_TOPHAT"
+          ],
+          [
+            "Black-Hat",
+            "MORPH_BLACKHAT"
+          ],
+          [
+            "Treffer oder Fehlschlag",
+            "MORPH_HITMISS"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_image_find_contours": {
+    "message0": "Konturen in %1 finden Abruf %2 Approximation %3",
+    "tooltip": "Findet Konturen und gibt nur die Konturenliste zurück.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "äußere Konturen",
+            "RETR_EXTERNAL"
+          ],
+          [
+            "Liste",
+            "RETR_LIST"
+          ],
+          [
+            "Zusammenhangskomponenten",
+            "RETR_CCOMP"
+          ],
+          [
+            "Baum",
+            "RETR_TREE"
+          ]
+        ]
+      },
+      {
+        "options": [
+          [
+            "alle Punkte",
+            "CHAIN_APPROX_NONE"
+          ],
+          [
+            "vereinfacht",
+            "CHAIN_APPROX_SIMPLE"
+          ],
+          [
+            "Teh-Chin L1",
+            "CHAIN_APPROX_TC89_L1"
+          ],
+          [
+            "Teh-Chin KCOS",
+            "CHAIN_APPROX_TC89_KCOS"
+          ]
+        ]
+      }
+    ]
+  },
+  "python_contour_area": {
+    "message0": "Fläche der Kontur %1",
+    "tooltip": "Gibt die von einer Kontur eingeschlossene Fläche zurück.",
+    "args0": [
+      null
+    ]
+  },
+  "python_contour_perimeter": {
+    "message0": "Umfang der Kontur %1 geschlossen %2",
+    "tooltip": "Gibt die Bogenlänge oder den geschlossenen Umfang einer Kontur zurück.",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_contour_approx": {
+    "message0": "Kontur %1 approximieren Epsilon %2 geschlossen %3",
+    "tooltip": "Approximiert eine Kontur mit dem Douglas-Peucker-Algorithmus.",
+    "args0": [
+      null,
+      null,
+      null
+    ]
+  },
+  "python_contour_is_convex": {
+    "message0": "Kontur %1 ist konvex",
+    "tooltip": "Prüft, ob eine Kontur konvex ist.",
+    "args0": [
+      null
+    ]
+  },
+  "python_contour_min_area_rect": {
+    "message0": "Kleinstes Flächenrechteck der Kontur %1",
+    "tooltip": "Gibt das gedrehte Rechteck kleinster Fläche für eine Kontur zurück.",
+    "args0": [
+      null
+    ]
+  },
+  "python_rotated_rect_points": {
+    "message0": "Eckpunkte des gedrehten Rechtecks %1",
+    "tooltip": "Gibt die vier Eckpunkte eines gedrehten OpenCV-Rechtecks zurück.",
+    "args0": [
+      null
+    ]
+  },
+  "python_image_load": {
+    "message0": "Bilddatei %1 laden",
+    "tooltip": "Bilddatei %1 laden",
+    "args0": [
+      null
+    ]
+  },
+  "python_image_save": {
+    "message0": "Bild %1 in Datei %2 speichern",
+    "tooltip": "Bild %1 in Datei %2 speichern",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_draw_rectangle": {
+    "message0": "Rechteck auf %1 zeichnen: von x %2, y %3 nach x %4, y %5, Farbe %6, Stärke %7",
+    "tooltip": "Rechteck auf %1 zeichnen: von x %2, y %3 nach x %4, y %5, Farbe %6, Stärke %7",
+    "args0": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "python_draw_circle": {
+    "message0": "Kreis auf %1 zeichnen: x %2, y %3, Radius %4, Farbe %5, Stärke %6",
+    "tooltip": "Kreis auf %1 zeichnen: x %2, y %3, Radius %4, Farbe %5, Stärke %6",
+    "args0": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "python_draw_line": {
+    "message0": "Linie auf %1 zeichnen: von x %2, y %3 nach x %4, y %5, Farbe %6, Stärke %7",
+    "tooltip": "Linie auf %1 zeichnen: von x %2, y %3 nach x %4, y %5, Farbe %6, Stärke %7",
+    "args0": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "python_draw_text": {
+    "message0": "Text %1 auf %2 bei x %3, y %4 zeichnen, Skala %5, Farbe %6, Stärke %7",
+    "tooltip": "Text %1 auf %2 bei x %3, y %4 zeichnen, Skala %5, Farbe %6, Stärke %7",
+    "args0": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "python_draw_polyline": {
+    "message0": "Polylinie auf %1 zeichnen Punktfelder %2 geschlossen %3 Farbe %4 Stärke %5",
+    "tooltip": "Zeichnet ein oder mehrere OpenCV-Punktfelder als Polylinie.",
+    "args0": [
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "python_draw_text_freetype": {
+    "message0": "FreeType-Text %1 auf %2 x %3 y %4 Höhe %5 Farbe %6 Stärke %7 Schrift %8 zeichnen",
+    "tooltip": "Zeichnet Unicode-Text mit dem OpenCV-FreeType-Modul und einer TrueType/OpenType-Schrift.",
+    "args0": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "python_qr_decode": {
+    "message0": "QR-Codes in %1 dekodieren",
+    "tooltip": "QR-Codes in %1 dekodieren",
+    "args0": [
+      null
+    ]
+  },
+  "python_barcode_decode": {
+    "message0": "Barcodes in %1 decodieren Symbol %2",
+    "tooltip": "Decodiert alle unterstützten Symbole oder beschränkt pyzbar auf einen Symboltyp.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "alle",
+            "ALL"
+          ],
+          [
+            "QR-Code",
+            "QRCODE"
+          ],
+          [
+            "Code 128",
+            "CODE128"
+          ],
+          [
+            "EAN-13",
+            "EAN13"
+          ]
+        ]
+      }
+    ]
+  },
+  "python_code_result_property": {
+    "message0": "Eigenschaft %2 des decodierten Codes %1",
+    "tooltip": "Liest ein Feld aus einem pyzbar-Decodierergebnis.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "Typ",
+            "TYPE"
+          ],
+          [
+            "Datenbytes",
+            "DATA"
+          ],
+          [
+            "Text",
+            "TEXT"
+          ],
+          [
+            "Rechteck",
+            "RECT"
+          ],
+          [
+            "x",
+            "X"
+          ],
+          [
+            "y",
+            "Y"
+          ],
+          [
+            "Breite",
+            "WIDTH"
+          ],
+          [
+            "Höhe",
+            "HEIGHT"
+          ],
+          [
+            "Polygon",
+            "POLYGON"
+          ]
+        ]
+      }
+    ]
+  },
+  "python_apriltag_init": {
+    "message0": "AprilTag-Detektor %1 initialisieren, Familie %2",
+    "tooltip": "AprilTag-Detektor %1 initialisieren, Familie %2",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "tag16h5",
+            "tag16h5"
+          ],
+          [
+            "tag25h7",
+            "tag25h7"
+          ],
+          [
+            "tag25h9",
+            "tag25h9"
+          ],
+          [
+            "tag36h10",
+            "tag36h10"
+          ],
+          [
+            "tag36h11",
+            "tag36h11"
+          ]
+        ]
+      }
+    ]
+  },
+  "python_apriltag_detect": {
+    "message0": "AprilTag-Detektor %1 erkennt Graubild %2",
+    "tooltip": "AprilTag-Detektor %1 erkennt Graubild %2",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_apriltag_result_property": {
+    "message0": "Eigenschaft %2 des AprilTag-Ergebnisses %1",
+    "tooltip": "Liest Kennungs-, Geometrie-, Konfidenz- oder Posedaten einer AprilTag-Erkennung.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "Tag-ID",
+            "TAG_ID"
+          ],
+          [
+            "Tag-Familie",
+            "TAG_FAMILY"
+          ],
+          [
+            "Eckpunkte",
+            "CORNERS"
+          ],
+          [
+            "Mittelpunkt",
+            "CENTER"
+          ],
+          [
+            "Hamming-Distanz",
+            "HAMMING"
+          ],
+          [
+            "Entscheidungsspielraum",
+            "DECISION_MARGIN"
+          ],
+          [
+            "Homografie",
+            "HOMOGRAPHY"
+          ],
+          [
+            "Posendrehung",
+            "POSE_R"
+          ],
+          [
+            "Posenverschiebung",
+            "POSE_T"
+          ]
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "toolbox_name": "Dateien",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_file_read": {
+    "message0": "Textdatei %1 lesen",
+    "tooltip": "Textdatei %1 lesen",
+    "args0": [
+      null
+    ]
+  },
+  "python_file_write": {
+    "message0": "Textdatei %2 im Modus %1 mit Inhalt %3",
+    "tooltip": "Textdatei %2 im Modus %1 mit Inhalt %3",
+    "args0": [
+      {
+        "options": [
+          [
+            "schreiben",
+            "w"
+          ],
+          [
+            "anhängen",
+            "a"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_file_exists": {
+    "message0": "Pfad %1 existiert",
+    "tooltip": "Pfad %1 existiert",
+    "args0": [
+      null
+    ]
+  },
+  "python_file_list": {
+    "message0": "Verzeichnis %1 auflisten",
+    "tooltip": "Verzeichnis %1 auflisten",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_file_read": {
+    "message0": "Textdatei %1 lesen",
+    "tooltip": "Textdatei %1 lesen",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_file_write": {
+    "message0": "Textdatei %2 im Modus %1 verarbeiten: Inhalt %3",
+    "tooltip": "Textdatei %2 im Modus %1 verarbeiten: Inhalt %3",
+    "args0": [
+      {
+        "options": [
+          [
+            "schreiben",
+            "w"
+          ],
+          [
+            "anhängen",
+            "a"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "cybercam_file_exists": {
+    "message0": "Pfad %1 ist vorhanden",
+    "tooltip": "Pfad %1 ist vorhanden",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_file_list": {
+    "message0": "Verzeichnis %1 auflisten",
+    "tooltip": "Verzeichnis %1 auflisten",
+    "args0": [
+      null
+    ]
+  }
+}

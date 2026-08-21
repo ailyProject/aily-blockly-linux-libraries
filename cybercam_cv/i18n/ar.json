@@ -1,0 +1,395 @@
+{
+  "toolbox_name": "الكاميرا والذكاء الاصطناعي",
+  "toolbox_categories": [
+    "الكاميرا والشاشة",
+    "ذكاء KPU"
+  ],
+  "toolbox_labels": {
+    "Camera and display": "الكاميرا والشاشة",
+    "KPU AI": "ذكاء KPU"
+  },
+  "cybercam_camera_init": {
+    "message0": "تهيئة الكاميرا %1: العرض %2، الارتفاع %3، المستشعر %4",
+    "tooltip": "تهيئة الكاميرا %1: العرض %2، الارتفاع %3، المستشعر %4",
+    "args0": [
+      null,
+      null,
+      null,
+      {
+        "options": [
+          [
+            "مدمج CSI2",
+            "2"
+          ],
+          [
+            "CSI0",
+            "0"
+          ]
+        ]
+      }
+    ]
+  },
+  "cybercam_camera_opened": {
+    "message0": "الكاميرا %1 مفتوحة",
+    "tooltip": "الكاميرا %1 مفتوحة",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_camera_read": {
+    "message0": "صورة الكاميرا %1",
+    "tooltip": "صورة الكاميرا %1",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_camera_read_raw": {
+    "message0": "نتيجة القراءة الخام للكاميرا %1",
+    "tooltip": "يعيد النتيجة الكاملة للدالة camera.read()، بما في ذلك علامة النجاح والصورة.",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_camera_hmirror": {
+    "message0": "ضبط الانعكاس الأفقي للكاميرا %1 على %2",
+    "tooltip": "ضبط الانعكاس الأفقي للكاميرا %1 على %2",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "cybercam_camera_vflip": {
+    "message0": "ضبط القلب الرأسي للكاميرا %1 على %2",
+    "tooltip": "ضبط القلب الرأسي للكاميرا %1 على %2",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "cybercam_camera_release": {
+    "message0": "تحرير الكاميرا %1",
+    "tooltip": "تحرير الكاميرا %1",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_display_init": {
+    "message0": "تهيئة الشاشة المدمجة",
+    "tooltip": "تهيئة الشاشة المدمجة"
+  },
+  "cybercam_display_rotation": {
+    "message0": "ضبط تدوير الشاشة على %1",
+    "tooltip": "ضبط تدوير الشاشة على %1",
+    "args0": [
+      {
+        "options": [
+          [
+            "0°",
+            "0"
+          ],
+          [
+            "90°",
+            "1"
+          ],
+          [
+            "180°",
+            "2"
+          ],
+          [
+            "270°",
+            "3"
+          ]
+        ]
+      }
+    ]
+  },
+  "cybercam_display_show": {
+    "message0": "عرض الصورة %1 على الشاشة",
+    "tooltip": "عرض الصورة %1 على الشاشة",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_ide_show": {
+    "message0": "عرض الصورة %1 في IDE",
+    "tooltip": "عرض الصورة %1 في IDE",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_lcd_direction": {
+    "message0": "اتجاه الشاشة الحالي",
+    "tooltip": "اتجاه الشاشة الحالي"
+  },
+  "cybercam_ai_init_simple": {
+    "message0": "تهيئة الذكاء الاصطناعي %1: النموذج %2، المسار %3، الحجم %4",
+    "tooltip": "تهيئة الذكاء الاصطناعي %1: النموذج %2، المسار %3، الحجم %4",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "كشف السقوط",
+            "FALL_DETECT"
+          ],
+          [
+            "كشف اليد",
+            "HAND_DETECT"
+          ],
+          [
+            "كشف الشخص",
+            "PERSON_DETECT"
+          ],
+          [
+            "نقاط الجسم",
+            "PERSON_KEYPOINT"
+          ],
+          [
+            "كشف الدخان",
+            "SMOKE_DETECT"
+          ],
+          [
+            "إشارة المرور",
+            "TRAFFIC_LIGHT_DETECT"
+          ],
+          [
+            "YOLO11 تصنيف",
+            "YOLO11_CLS"
+          ],
+          [
+            "YOLO11 كشف",
+            "YOLO11_DET"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "cybercam_ai_init_face": {
+    "message0": "تهيئة كاشف الوجوه %1: النموذج %2، المراسي %3، الحجم %4",
+    "tooltip": "تهيئة كاشف الوجوه %1: النموذج %2، المراسي %3، الحجم %4",
+    "args0": [
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "cybercam_ai_init_mask": {
+    "message0": "تهيئة كاشف الأقنعة %1: نموذج الكشف %2، المراسي %3، الحجم %4، نموذج القناع %5",
+    "tooltip": "تهيئة كاشف الأقنعة %1: نموذج الكشف %2، المراسي %3، الحجم %4، نموذج القناع %5",
+    "args0": [
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "cybercam_ai_init_hand_keypoint": {
+    "message0": "تهيئة ذكاء اليد %1: النوع %2، نموذج الكشف %3، نموذج النقاط الرئيسية %4",
+    "tooltip": "تهيئة ذكاء اليد %1: النوع %2، نموذج الكشف %3، نموذج النقاط الرئيسية %4",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "نقاط رئيسية",
+            "HAND_KEYPOINT"
+          ],
+          [
+            "تصنيف الإيماءات",
+            "HAND_KEYPOINT_CLS"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "cybercam_ai_init_ocr": {
+    "message0": "تهيئة OCR %1: الكشف %2، التعرف %3، القاموس %4، حجم الكشف %5، عرض التعرف %6، الارتفاع %7",
+    "tooltip": "تهيئة OCR %1: الكشف %2، التعرف %3، القاموس %4، حجم الكشف %5، عرض التعرف %6، الارتفاع %7",
+    "args0": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "cybercam_ai_init_licence": {
+    "message0": "تهيئة ذكاء لوحات المركبات %1: الكشف %2، التعرف %3، المراسي %4، التسميات %5، حجم الكشف %6، عرض التعرف %7، الارتفاع %8",
+    "tooltip": "تهيئة ذكاء لوحات المركبات %1: الكشف %2، التعرف %3، المراسي %4، التسميات %5، حجم الكشف %6، عرض التعرف %7، الارتفاع %8",
+    "args0": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "cybercam_ai_run": {
+    "message0": "تشغيل الذكاء الاصطناعي %1 على %2",
+    "tooltip": "تشغيل الذكاء الاصطناعي %1 على %2",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "cybercam_ai_run_confidence": {
+    "message0": "تشغيل الذكاء الاصطناعي %1 على %2: الثقة %3",
+    "tooltip": "تشغيل الذكاء الاصطناعي %1 على %2: الثقة %3",
+    "args0": [
+      null,
+      null,
+      null
+    ]
+  },
+  "cybercam_ai_run_thresholds": {
+    "message0": "تشغيل الذكاء الاصطناعي %1 على %2: الثقة %3، NMS %4",
+    "tooltip": "تشغيل الذكاء الاصطناعي %1 على %2: الثقة %3، NMS %4",
+    "args0": [
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "cybercam_result_length": {
+    "message0": "طول قائمة النتائج %1",
+    "tooltip": "طول قائمة النتائج %1",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_result_item": {
+    "message0": "العنصر %2 من قائمة النتائج %1",
+    "tooltip": "العنصر %2 من قائمة النتائج %1",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "cybercam_result_property": {
+    "message0": "الخاصية %2 من النتيجة %1",
+    "tooltip": "الخاصية %2 من النتيجة %1",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "الثقة",
+            "reliability"
+          ],
+          [
+            "x",
+            "x"
+          ],
+          [
+            "y",
+            "y"
+          ],
+          [
+            "العرض",
+            "w"
+          ],
+          [
+            "الارتفاع",
+            "h"
+          ],
+          [
+            "التسمية",
+            "label"
+          ],
+          [
+            "النص",
+            "text"
+          ],
+          [
+            "القناع",
+            "mask"
+          ],
+          [
+            "أفضل 5",
+            "top5"
+          ],
+          [
+            "نقاط رئيسية",
+            "keypoints"
+          ],
+          [
+            "الزوايا",
+            "corners"
+          ],
+          [
+            "العين اليسرى",
+            "left_eye"
+          ],
+          [
+            "العين اليسرى x",
+            "left_eye.x"
+          ],
+          [
+            "العين اليسرى y",
+            "left_eye.y"
+          ],
+          [
+            "العين اليمنى",
+            "right_eye"
+          ],
+          [
+            "العين اليمنى x",
+            "right_eye.x"
+          ],
+          [
+            "العين اليمنى y",
+            "right_eye.y"
+          ],
+          [
+            "الأنف",
+            "nose"
+          ],
+          [
+            "الأنف x",
+            "nose.x"
+          ],
+          [
+            "الأنف y",
+            "nose.y"
+          ],
+          [
+            "زاوية الفم اليسرى",
+            "left_mouth"
+          ],
+          [
+            "زاوية الفم اليسرى x",
+            "left_mouth.x"
+          ],
+          [
+            "زاوية الفم اليسرى y",
+            "left_mouth.y"
+          ],
+          [
+            "زاوية الفم اليمنى",
+            "right_mouth"
+          ],
+          [
+            "زاوية الفم اليمنى x",
+            "right_mouth.x"
+          ],
+          [
+            "زاوية الفم اليمنى y",
+            "right_mouth.y"
+          ]
+        ]
+      }
+    ]
+  }
+}

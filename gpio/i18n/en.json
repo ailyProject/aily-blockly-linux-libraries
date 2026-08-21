@@ -1,0 +1,231 @@
+{
+  "toolbox_name": "GPIO & PWM",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "linux_gpio_init": {
+    "message0": "initialize GPIO %1 pin %2 direction %3 pull %4",
+    "tooltip": "Create a gpiozero digital pin.",
+    "args0": [
+      null,
+      null,
+      {
+        "options": [
+          [
+            "input",
+            "INPUT"
+          ],
+          [
+            "output",
+            "OUTPUT"
+          ]
+        ]
+      },
+      {
+        "options": [
+          [
+            "none",
+            "NONE"
+          ],
+          [
+            "up",
+            "UP"
+          ],
+          [
+            "down",
+            "DOWN"
+          ]
+        ]
+      }
+    ]
+  },
+  "linux_gpio_write": {
+    "message0": "set GPIO %1 to %2",
+    "tooltip": "set GPIO %1 to %2",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "linux_gpio_read": {
+    "message0": "GPIO %1 value",
+    "tooltip": "GPIO %1 value",
+    "args0": [
+      null
+    ]
+  },
+  "linux_gpio_close": {
+    "message0": "close GPIO %1",
+    "tooltip": "close GPIO %1",
+    "args0": [
+      null
+    ]
+  },
+  "linux_led_init": {
+    "message0": "initialize LED %1 pin %2 active level %3",
+    "tooltip": "Create a gpiozero LED on the selected pin.",
+    "args0": [
+      null,
+      null,
+      {
+        "options": [
+          [
+            "high",
+            "TRUE"
+          ],
+          [
+            "low",
+            "FALSE"
+          ]
+        ]
+      }
+    ]
+  },
+  "linux_led_action": {
+    "message0": "LED %1 %2",
+    "tooltip": "Turn an initialized LED on, off, or toggle it.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "on",
+            "ON"
+          ],
+          [
+            "off",
+            "OFF"
+          ],
+          [
+            "toggle",
+            "TOGGLE"
+          ]
+        ]
+      }
+    ]
+  },
+  "linux_led_blink": {
+    "message0": "blink LED %1 on %2 s off %3 s count %4 (0 forever)",
+    "tooltip": "Blink in the background; a count of 0 repeats forever.",
+    "args0": [
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "linux_button_init": {
+    "message0": "initialize button %1 pin %2 pull %3 active level (no pull) %4 debounce %5 s hold %6 s",
+    "tooltip": "Create a gpiozero Button. Active level is used when pull is none.",
+    "args0": [
+      null,
+      null,
+      {
+        "options": [
+          [
+            "up",
+            "UP"
+          ],
+          [
+            "down",
+            "DOWN"
+          ],
+          [
+            "none",
+            "NONE"
+          ]
+        ]
+      },
+      {
+        "options": [
+          [
+            "high",
+            "TRUE"
+          ],
+          [
+            "low",
+            "FALSE"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "linux_button_pressed": {
+    "message0": "button %1 is pressed",
+    "tooltip": "Whether the initialized button is currently pressed.",
+    "args0": [
+      null
+    ]
+  },
+  "linux_button_held": {
+    "message0": "button %1 is held",
+    "tooltip": "Whether the initialized button has been held for its hold time.",
+    "args0": [
+      null
+    ]
+  },
+  "linux_button_wait": {
+    "message0": "wait for button %1 %2 timeout %3 s (0 forever)",
+    "tooltip": "Wait for a press or release; timeout 0 waits without a limit.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "press",
+            "PRESS"
+          ],
+          [
+            "release",
+            "RELEASE"
+          ]
+        ]
+      },
+      null
+    ]
+  },
+  "linux_led_write": {
+    "message0": "set legacy fixed GPIO17 LED to %1",
+    "tooltip": "Legacy compatibility block fixed to GPIO17; prefer the initialize LED block.",
+    "args0": [
+      null
+    ]
+  },
+  "linux_key_pressed": {
+    "message0": "legacy fixed GPIO27 button is pressed",
+    "tooltip": "Legacy compatibility block fixed to GPIO27; prefer the initialize button block."
+  },
+  "linux_pwm_init": {
+    "message0": "initialize PWM %1 pin %2 frequency %3 Hz",
+    "tooltip": "initialize PWM %1 pin %2 frequency %3 Hz",
+    "args0": [
+      null,
+      null,
+      null
+    ]
+  },
+  "linux_pwm_duty": {
+    "message0": "set PWM %1 duty cycle %2 (0-1)",
+    "tooltip": "set PWM %1 duty cycle %2 (0-1)",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "linux_pwm_frequency": {
+    "message0": "set PWM %1 frequency %2 Hz",
+    "tooltip": "Change the frequency of an initialized PWM output.",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "linux_pwm_close": {
+    "message0": "close PWM %1",
+    "tooltip": "close PWM %1",
+    "args0": [
+      null
+    ]
+  }
+}

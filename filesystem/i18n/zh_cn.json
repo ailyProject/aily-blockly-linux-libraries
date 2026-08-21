@@ -1,0 +1,16 @@
+{
+  "toolbox_name": "系统",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_command": {
+    "message0": "运行系统命令 %1",
+    "tooltip": "运行系统命令 %1",
+    "args0": [
+      null
+    ]
+  },
+  "python_cpu_temperature": {
+    "message0": "CPU 温度 °C",
+    "tooltip": "CPU 温度 °C"
+  }
+}

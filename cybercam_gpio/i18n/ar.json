@@ -1,0 +1,72 @@
+{
+  "toolbox_name": "GPIO / LED / PWM",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "cybercam_gpio_init": {
+    "message0": "تهيئة GPIO %1: الطرف %2، الاتجاه %3، المقاومة %4",
+    "tooltip": "إنشاء كائن إدخال وإخراج رقمي باستخدام وحدتي board وdigitalio الرسميتين.",
+    "args0": [
+      null,
+      null,
+      { "options": [["إدخال", "INPUT"], ["إخراج", "OUTPUT"]] },
+      { "options": [["بلا", "NONE"], ["رفع", "UP"], ["خفض", "DOWN"]] }
+    ]
+  },
+  "cybercam_gpio_write": {
+    "message0": "ضبط GPIO %1 على %2",
+    "tooltip": "ضبط GPIO %1 على %2",
+    "args0": [null, null]
+  },
+  "cybercam_gpio_read": {
+    "message0": "قيمة GPIO %1",
+    "tooltip": "قيمة GPIO %1",
+    "args0": [null]
+  },
+  "cybercam_gpio_deinit": {
+    "message0": "إلغاء تهيئة GPIO %1",
+    "tooltip": "إلغاء تهيئة GPIO %1",
+    "args0": [null]
+  },
+  "cybercam_led_write": {
+    "message0": "ضبط LED المدمج على %1",
+    "tooltip": "ضبط LED المدمج على %1",
+    "args0": [null]
+  },
+  "cybercam_key_pressed": {
+    "message0": "الزر المدمج مضغوط",
+    "tooltip": "الزر المدمج مضغوط"
+  },
+  "cybercam_pwm_init": {
+    "message0": "تهيئة PWM %1: الهدف %2",
+    "tooltip": "تهيئة PWM %1: الهدف %2",
+    "args0": [
+      null,
+      { "options": [["GPIO60 / PWM0", "0,0"], ["GPIO61 / PWM1", "0,1"], ["ضوء تعبئة / PWM2", "0,2"], ["طنان / PWM3", "1,0"], ["إضاءة خلفية / PWM5", "1,2"]] }
+    ]
+  },
+  "cybercam_pwm_frequency": {
+    "message0": "ضبط تردد PWM %1 على %2 Hz",
+    "tooltip": "ضبط تردد PWM %1 على %2 Hz",
+    "args0": [null, null]
+  },
+  "cybercam_pwm_duty": {
+    "message0": "ضبط دورة عمل PWM %1 على %2 (0–1)",
+    "tooltip": "ضبط دورة عمل PWM %1 على %2 (0–1)",
+    "args0": [null, null]
+  },
+  "cybercam_pwm_enable": {
+    "message0": "تمكين PWM %1",
+    "tooltip": "تمكين PWM %1",
+    "args0": [null]
+  },
+  "cybercam_pwm_disable": {
+    "message0": "تعطيل PWM %1",
+    "tooltip": "تعطيل PWM %1",
+    "args0": [null]
+  },
+  "cybercam_pwm_close": {
+    "message0": "إغلاق PWM %1",
+    "tooltip": "إغلاق PWM %1",
+    "args0": [null]
+  }
+}

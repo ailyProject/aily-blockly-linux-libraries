@@ -1,0 +1,115 @@
+{
+  "toolbox_name": "核心",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_start": {
+    "message0": "當程式啟動時 %1 %2",
+    "tooltip": "程式啟動時執行一次。",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_forever": {
+    "message0": "永久循環 %1 %2",
+    "tooltip": "重複執行其中的積木。",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_sleep": {
+    "message0": "等待 %1 秒",
+    "tooltip": "暫停程式指定的秒數。",
+    "args0": [
+      null
+    ]
+  },
+  "python_print": {
+    "message0": "列印 %1",
+    "tooltip": "列印 %1",
+    "args0": [
+      null
+    ]
+  },
+  "python_number": {
+    "message0": "數值 %1",
+    "tooltip": "數值 %1",
+    "args0": [
+      null
+    ]
+  },
+  "python_text": {
+    "message0": "文字 %1",
+    "tooltip": "文字 %1",
+    "args0": [
+      null
+    ]
+  },
+  "python_boolean": {
+    "message0": "布林值 %1",
+    "tooltip": "布林值 %1",
+    "args0": [
+      {
+        "options": [
+          [
+            "真",
+            "TRUE"
+          ],
+          [
+            "假",
+            "FALSE"
+          ]
+        ]
+      }
+    ]
+  },
+  "python_tuple": {
+    "message0": "由項目 %1 組成元組",
+    "tooltip": "由項目 %1 組成元組",
+    "args0": [
+      null
+    ]
+  },
+  "python_list": {
+    "message0": "由項目 %1 組成清單",
+    "tooltip": "由項目 %1 組成清單",
+    "args0": [
+      null
+    ]
+  },
+  "python_set_variable": {
+    "message0": "將變數 %1 設為 %2",
+    "tooltip": "將變數 %1 設為 %2",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_get_variable": {
+    "message0": "變數 %1",
+    "tooltip": "變數 %1",
+    "args0": [
+      null
+    ]
+  },
+  "python_if": {
+    "message0": "如果 %1 則執行 %2 %3",
+    "tooltip": "如果 %1 則執行 %2 %3",
+    "args0": [
+      null,
+      null,
+      null
+    ]
+  },
+  "python_for_each": {
+    "message0": "對 %2 中的每個 %1 執行 %3 %4",
+    "tooltip": "對 %2 中的每個 %1 執行 %3 %4",
+    "args0": [
+      null,
+      null,
+      null,
+      null
+    ]
+  }
+}

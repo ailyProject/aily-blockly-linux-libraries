@@ -1,0 +1,629 @@
+{
+  "toolbox_name": "視覺",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_image_resize": {
+    "message0": "調整圖像 %1 寬 %2 高 %3 插值 %4",
+    "tooltip": "使用所選 OpenCV 插值方法調整圖像尺寸。",
+    "args0": [
+      null,
+      null,
+      null,
+      {
+        "options": [
+          [
+            "線性",
+            "INTER_LINEAR"
+          ],
+          [
+            "區域",
+            "INTER_AREA"
+          ],
+          [
+            "最近鄰",
+            "INTER_NEAREST"
+          ],
+          [
+            "三次",
+            "INTER_CUBIC"
+          ]
+        ]
+      }
+    ]
+  },
+  "python_image_convert": {
+    "message0": "使用 %2 轉換圖像 %1",
+    "tooltip": "使用 %2 轉換圖像 %1",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "BGR 轉灰階",
+            "COLOR_BGR2GRAY"
+          ],
+          [
+            "BGR 轉 LAB",
+            "COLOR_BGR2LAB"
+          ],
+          [
+            "BGR 轉 RGB",
+            "COLOR_BGR2RGB"
+          ],
+          [
+            "灰階轉 BGR",
+            "COLOR_GRAY2BGR"
+          ]
+        ]
+      }
+    ]
+  },
+  "python_image_in_range": {
+    "message0": "對圖像 %1 按下限 %2、上限 %3 產生遮罩",
+    "tooltip": "對圖像 %1 按下限 %2、上限 %3 產生遮罩",
+    "args0": [
+      null,
+      null,
+      null
+    ]
+  },
+  "python_image_components": {
+    "message0": "計算 %1 的連通元件，連通性 %2",
+    "tooltip": "計算 %1 的連通元件，連通性 %2",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "4",
+            "4"
+          ],
+          [
+            "8",
+            "8"
+          ]
+        ]
+      }
+    ]
+  },
+  "python_components_property": {
+    "message0": "連通組件結果 %1 屬性 %2",
+    "tooltip": "讀取 connectedComponentsWithStats 返回元組中的屬性。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "數量",
+            "COUNT"
+          ],
+          [
+            "標籤圖",
+            "LABELS"
+          ],
+          [
+            "統計資料",
+            "STATS"
+          ],
+          [
+            "質心",
+            "CENTROIDS"
+          ]
+        ]
+      }
+    ]
+  },
+  "python_component_stat": {
+    "message0": "連通組件結果 %1 第 %2 項屬性 %3",
+    "tooltip": "讀取一個連通組件的幾何、面積或質心資料。",
+    "args0": [
+      null,
+      null,
+      {
+        "options": [
+          [
+            "左邊界",
+            "LEFT"
+          ],
+          [
+            "上邊界",
+            "TOP"
+          ],
+          [
+            "寬度",
+            "WIDTH"
+          ],
+          [
+            "高度",
+            "HEIGHT"
+          ],
+          [
+            "面積",
+            "AREA"
+          ],
+          [
+            "質心 x",
+            "CENTROID_X"
+          ],
+          [
+            "質心 y",
+            "CENTROID_Y"
+          ]
+        ]
+      }
+    ]
+  },
+  "python_image_canny": {
+    "message0": "圖像 %1 Canny 邊緣 低閾值 %2 高閾值 %3 孔徑 %4 L2 梯度 %5",
+    "tooltip": "對 8 位圖像執行 OpenCV Canny 邊緣檢測。",
+    "args0": [
+      null,
+      null,
+      null,
+      {
+        "options": [
+          [
+            "3",
+            "3"
+          ],
+          [
+            "5",
+            "5"
+          ],
+          [
+            "7",
+            "7"
+          ]
+        ]
+      },
+      null
+    ]
+  },
+  "python_image_hough_circles": {
+    "message0": "在 %1 中檢測霍夫圓 方法 %2 dp %3 最小距離 %4 參數1 %5 參數2 %6 最小半徑 %7 最大半徑 %8",
+    "tooltip": "使用 OpenCV 霍夫圓變換檢測圓形。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "梯度",
+            "HOUGH_GRADIENT"
+          ],
+          [
+            "替代梯度",
+            "HOUGH_GRADIENT_ALT"
+          ]
+        ]
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "python_image_gaussian_blur": {
+    "message0": "高斯模糊 %1 核寬 %2 核高 %3 sigma X %4 sigma Y %5",
+    "tooltip": "使用奇數尺寸的高斯核模糊圖像。",
+    "args0": [
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "python_morphology_kernel": {
+    "message0": "形態學核 形狀 %1 寬 %2 高 %3",
+    "tooltip": "建立 OpenCV 形態學結構元素。",
+    "args0": [
+      {
+        "options": [
+          [
+            "矩形",
+            "MORPH_RECT"
+          ],
+          [
+            "橢圓",
+            "MORPH_ELLIPSE"
+          ],
+          [
+            "十字",
+            "MORPH_CROSS"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_image_morphology": {
+    "message0": "對 %1 執行形態學 運算 %2 核 %3 次數 %4",
+    "tooltip": "執行 OpenCV morphologyEx 形態學運算。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "閉運算",
+            "MORPH_CLOSE"
+          ],
+          [
+            "開運算",
+            "MORPH_OPEN"
+          ],
+          [
+            "形態學梯度",
+            "MORPH_GRADIENT"
+          ],
+          [
+            "頂帽",
+            "MORPH_TOPHAT"
+          ],
+          [
+            "黑帽",
+            "MORPH_BLACKHAT"
+          ],
+          [
+            "擊中或未擊中",
+            "MORPH_HITMISS"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_image_find_contours": {
+    "message0": "在 %1 中尋找輪廓 檢索 %2 近似 %3",
+    "tooltip": "尋找輪廓並只返回輪廓列表。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "外輪廓",
+            "RETR_EXTERNAL"
+          ],
+          [
+            "列表",
+            "RETR_LIST"
+          ],
+          [
+            "連通組件",
+            "RETR_CCOMP"
+          ],
+          [
+            "樹",
+            "RETR_TREE"
+          ]
+        ]
+      },
+      {
+        "options": [
+          [
+            "所有點",
+            "CHAIN_APPROX_NONE"
+          ],
+          [
+            "簡化",
+            "CHAIN_APPROX_SIMPLE"
+          ],
+          [
+            "Teh-Chin L1",
+            "CHAIN_APPROX_TC89_L1"
+          ],
+          [
+            "Teh-Chin KCOS",
+            "CHAIN_APPROX_TC89_KCOS"
+          ]
+        ]
+      }
+    ]
+  },
+  "python_contour_area": {
+    "message0": "輪廓 %1 的面積",
+    "tooltip": "返回輪廓包圍的面積。",
+    "args0": [
+      null
+    ]
+  },
+  "python_contour_perimeter": {
+    "message0": "輪廓 %1 的周長 閉合 %2",
+    "tooltip": "返回輪廓弧長或閉合周長。",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_contour_approx": {
+    "message0": "近似輪廓 %1 epsilon %2 閉合 %3",
+    "tooltip": "使用 Douglas-Peucker 演算法近似輪廓。",
+    "args0": [
+      null,
+      null,
+      null
+    ]
+  },
+  "python_contour_is_convex": {
+    "message0": "輪廓 %1 是凸輪廓",
+    "tooltip": "檢測輪廓是否為凸輪廓。",
+    "args0": [
+      null
+    ]
+  },
+  "python_contour_min_area_rect": {
+    "message0": "輪廓 %1 的最小面積矩形",
+    "tooltip": "返回輪廓的最小面積旋轉矩形。",
+    "args0": [
+      null
+    ]
+  },
+  "python_rotated_rect_points": {
+    "message0": "旋轉矩形 %1 的角點",
+    "tooltip": "返回 OpenCV 旋轉矩形的四個角點。",
+    "args0": [
+      null
+    ]
+  },
+  "python_image_load": {
+    "message0": "載入圖像檔案 %1",
+    "tooltip": "載入圖像檔案 %1",
+    "args0": [
+      null
+    ]
+  },
+  "python_image_save": {
+    "message0": "將圖像 %1 儲存至檔案 %2",
+    "tooltip": "將圖像 %1 儲存至檔案 %2",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_draw_rectangle": {
+    "message0": "在 %1 上繪製矩形：從 x %2、y %3 到 x %4、y %5，顏色 %6，線寬 %7",
+    "tooltip": "在 %1 上繪製矩形：從 x %2、y %3 到 x %4、y %5，顏色 %6，線寬 %7",
+    "args0": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "python_draw_circle": {
+    "message0": "在 %1 上繪製圓形：x %2、y %3，半徑 %4，顏色 %5，線寬 %6",
+    "tooltip": "在 %1 上繪製圓形：x %2、y %3，半徑 %4，顏色 %5，線寬 %6",
+    "args0": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "python_draw_line": {
+    "message0": "在 %1 上繪製線段：從 x %2、y %3 到 x %4、y %5，顏色 %6，線寬 %7",
+    "tooltip": "在 %1 上繪製線段：從 x %2、y %3 到 x %4、y %5，顏色 %6，線寬 %7",
+    "args0": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "python_draw_text": {
+    "message0": "在 %2 的 x %3、y %4 繪製文字 %1，縮放 %5，顏色 %6，線寬 %7",
+    "tooltip": "在 %2 的 x %3、y %4 繪製文字 %1，縮放 %5，顏色 %6，線寬 %7",
+    "args0": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "python_draw_polyline": {
+    "message0": "在 %1 上繪製折線 點陣列 %2 閉合 %3 顏色 %4 線寬 %5",
+    "tooltip": "將一個或多個 OpenCV 點陣列繪製為折線。",
+    "args0": [
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "python_draw_text_freetype": {
+    "message0": "在 %2 上繪製 FreeType 文字 %1 x %3 y %4 字高 %5 顏色 %6 線寬 %7 字型 %8",
+    "tooltip": "使用 OpenCV FreeType 模組和 TrueType/OpenType 字型繪製 Unicode 文字。",
+    "args0": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "python_qr_decode": {
+    "message0": "解碼 %1 中的 QR Code",
+    "tooltip": "解碼 %1 中的 QR Code",
+    "args0": [
+      null
+    ]
+  },
+  "python_barcode_decode": {
+    "message0": "解碼 %1 中的條碼 類型 %2",
+    "tooltip": "解碼所有支援的碼制，或將 pyzbar 限定為一種碼制。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "全部",
+            "ALL"
+          ],
+          [
+            "二維碼",
+            "QRCODE"
+          ],
+          [
+            "Code 128",
+            "CODE128"
+          ],
+          [
+            "EAN-13",
+            "EAN13"
+          ]
+        ]
+      }
+    ]
+  },
+  "python_code_result_property": {
+    "message0": "已解碼碼 %1 屬性 %2",
+    "tooltip": "讀取 pyzbar 解碼結果的欄位。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "類型",
+            "TYPE"
+          ],
+          [
+            "資料位元組",
+            "DATA"
+          ],
+          [
+            "文字",
+            "TEXT"
+          ],
+          [
+            "矩形",
+            "RECT"
+          ],
+          [
+            "x",
+            "X"
+          ],
+          [
+            "y",
+            "Y"
+          ],
+          [
+            "寬度",
+            "WIDTH"
+          ],
+          [
+            "高度",
+            "HEIGHT"
+          ],
+          [
+            "多邊形",
+            "POLYGON"
+          ]
+        ]
+      }
+    ]
+  },
+  "python_apriltag_init": {
+    "message0": "初始化 AprilTag 偵測器 %1，標籤族 %2",
+    "tooltip": "初始化 AprilTag 偵測器 %1，標籤族 %2",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "tag16h5",
+            "tag16h5"
+          ],
+          [
+            "tag25h7",
+            "tag25h7"
+          ],
+          [
+            "tag25h9",
+            "tag25h9"
+          ],
+          [
+            "tag36h10",
+            "tag36h10"
+          ],
+          [
+            "tag36h11",
+            "tag36h11"
+          ]
+        ]
+      }
+    ]
+  },
+  "python_apriltag_detect": {
+    "message0": "使用 AprilTag 偵測器 %1 偵測灰階圖像 %2",
+    "tooltip": "使用 AprilTag 偵測器 %1 偵測灰階圖像 %2",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_apriltag_result_property": {
+    "message0": "AprilTag 結果 %1 屬性 %2",
+    "tooltip": "讀取 AprilTag 檢測結果的標識、幾何、置信度或位姿資料。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "標籤 ID",
+            "TAG_ID"
+          ],
+          [
+            "標籤族",
+            "TAG_FAMILY"
+          ],
+          [
+            "角點",
+            "CORNERS"
+          ],
+          [
+            "中心",
+            "CENTER"
+          ],
+          [
+            "漢明距離",
+            "HAMMING"
+          ],
+          [
+            "判決餘量",
+            "DECISION_MARGIN"
+          ],
+          [
+            "單應矩陣",
+            "HOMOGRAPHY"
+          ],
+          [
+            "位姿旋轉",
+            "POSE_R"
+          ],
+          [
+            "位姿平移",
+            "POSE_T"
+          ]
+        ]
+      }
+    ]
+  }
+}

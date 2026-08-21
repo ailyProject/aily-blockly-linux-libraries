@@ -1,0 +1,387 @@
+{
+  "toolbox_name": "Сеть",
+  "toolbox_categories": [
+    "Socket setup",
+    "TCP communication",
+    "UDP communication",
+   "Socket utilities",
+   "HTTP"
+  ],
+  "toolbox_labels": {
+    "Socket setup": "Настройка сокетов",
+    "TCP communication": "Связь по TCP",
+    "UDP communication": "Связь по UDP",
+   "Socket utilities": "Инструменты сокетов",
+   "HTTP": "HTTP"
+  },
+  "python_socket_init": {
+    "message0": "инициализировать сокет %1 семейство %2 тип %3",
+    "tooltip": "инициализировать сокет %1 семейство %2 тип %3",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "IPv4",
+            "AF_INET"
+          ],
+          [
+            "IPv6",
+            "AF_INET6"
+          ]
+        ]
+      },
+      {
+        "options": [
+          [
+            "TCP",
+            "SOCK_STREAM"
+          ],
+          [
+            "UDP",
+            "SOCK_DGRAM"
+          ]
+        ]
+      }
+    ]
+  },
+  "python_socket_address": {
+    "message0": "разрешить хост %1 порт %2 семейство %3 тип %4",
+    "tooltip": "Разрешить TCP- или UDP-адрес IPv4/IPv6 с помощью getaddrinfo.",
+    "args0": [
+      null,
+      null,
+      {
+        "options": [
+          [
+            "IPv4",
+            "AF_INET"
+          ],
+          [
+            "IPv6",
+            "AF_INET6"
+          ]
+        ]
+      },
+      {
+        "options": [
+          [
+            "TCP",
+            "SOCK_STREAM"
+          ],
+          [
+            "UDP",
+            "SOCK_DGRAM"
+          ]
+        ]
+      }
+    ]
+  },
+  "python_socket_address_part": {
+    "message0": "%1 адреса %2",
+    "tooltip": "Получить хост/IP или порт из адреса сокета IPv4 или IPv6.",
+    "args0": [
+      {
+        "options": [
+          [
+            "хост/IP",
+            "HOST"
+          ],
+          [
+            "порт",
+            "PORT"
+          ]
+        ]
+      },
+      null
+    ]
+  },
+  "python_socket_connect": {
+    "message0": "подключить сокет %1 к %2",
+    "tooltip": "подключить сокет %1 к %2",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_socket_bind": {
+    "message0": "привязать сокет %1 к %2",
+    "tooltip": "привязать сокет %1 к %2",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_socket_listen": {
+    "message0": "слушать сокет %1 очередь %2",
+    "tooltip": "слушать сокет %1 очередь %2",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_socket_accept": {
+    "message0": "сокет %1 принимает соединение",
+    "tooltip": "сокет %1 принимает соединение",
+    "args0": [
+      null
+    ]
+  },
+  "python_socket_accept_into": {
+    "message0": "сокет %1 принять соединение в клиент %2 адрес %3",
+    "tooltip": "Принять TCP-соединение и сохранить подключённый сокет и адрес узла.",
+    "args0": [
+      null,
+      null,
+      null
+    ]
+  },
+  "python_socket_send": {
+    "message0": "сокет %1 надёжно отправить %2",
+    "tooltip": "Отправить всю полезную нагрузку TCP; текст кодируется в UTF-8, а байтовые данные не изменяются.",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_socket_receive": {
+    "message0": "принять %2 байт из сокета %1",
+    "tooltip": "Получить не более указанного числа байт TCP; b'' означает, что удалённая сторона закрыла соединение.",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_socket_send_to": {
+    "message0": "UDP-сокет %1 отправить %2 на %3",
+    "tooltip": "Отправить одну UDP-датаграмму; текст кодируется в UTF-8, а байтовые данные не изменяются.",
+    "args0": [
+      null,
+      null,
+      null
+    ]
+  },
+  "python_socket_receive_from": {
+    "message0": "UDP-сокет %1 получить датаграмму до %2 байт",
+    "tooltip": "Получить одну UDP-датаграмму как (данные, адрес); малый буфер обрезает датаграмму.",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_socket_receive_from_into": {
+    "message0": "UDP-сокет %1 получить до %2 байт в данные %3 адрес %4",
+    "tooltip": "Получить одну UDP-датаграмму и раздельно сохранить её байты и адрес отправителя.",
+    "args0": [
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "python_socket_set_timeout": {
+    "message0": "сокет %1 задать тайм-аут %2 секунд",
+    "tooltip": "Задать тайм-аут операции; ноль включает неблокирующий режим, положительные значения вызывают ошибку по тайм-ауту.",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_socket_set_blocking": {
+    "message0": "сокет %1 установить режим %2",
+    "tooltip": "Переключить блокирующий или неблокирующий режим работы.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "блокирующий",
+            "TRUE"
+          ],
+          [
+            "неблокирующий",
+            "FALSE"
+          ]
+        ]
+      }
+    ]
+  },
+  "python_socket_set_option": {
+    "message0": "сокет %1 параметр %2 %3",
+    "tooltip": "Настроить переносимый логический параметр сокета; повторное использование адреса задаётся до привязки.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "повторное использование адреса",
+            "SO_REUSEADDR"
+          ],
+          [
+            "широковещание",
+            "SO_BROADCAST"
+          ],
+          [
+            "поддержание соединения",
+            "SO_KEEPALIVE"
+          ],
+          [
+            "TCP без задержки",
+            "TCP_NODELAY"
+          ]
+        ]
+      },
+      {
+        "options": [
+          [
+            "включить",
+            "TRUE"
+          ],
+          [
+            "выключить",
+            "FALSE"
+          ]
+        ]
+      }
+    ]
+  },
+  "python_socket_ready": {
+    "message0": "сокет %1 готов к %2 в течение %3 секунд",
+    "tooltip": "Использовать select для проверки готовности перед операцией без блокировки.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "чтению",
+            "READ"
+          ],
+          [
+            "записи",
+            "WRITE"
+          ]
+        ]
+      },
+      null
+    ]
+  },
+  "python_socket_endpoint": {
+    "message0": "%2 адрес сокета %1",
+    "tooltip": "Получить локальный адрес или адрес подключённого узла.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "локальный",
+            "LOCAL"
+          ],
+          [
+            "удалённый",
+            "PEER"
+          ]
+        ]
+      }
+    ]
+  },
+  "python_socket_encode": {
+    "message0": "кодировать текст %1 в байты %2",
+    "tooltip": "Кодировать текст в байты для полезной нагрузки сокета.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "UTF-8",
+            "utf-8"
+          ],
+          [
+            "ASCII",
+            "ascii"
+          ],
+          [
+            "GBK",
+            "gbk"
+          ]
+        ]
+      }
+    ]
+  },
+  "python_socket_decode": {
+    "message0": "декодировать байты %1 как %2, при ошибке %3",
+    "tooltip": "Декодировать байты в текст с выбранной политикой обработки ошибок.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "UTF-8",
+            "utf-8"
+          ],
+          [
+            "ASCII",
+            "ascii"
+          ],
+          [
+            "GBK",
+            "gbk"
+          ]
+        ]
+      },
+      {
+        "options": [
+          [
+            "заменить",
+            "replace"
+          ],
+          [
+            "строго",
+            "strict"
+          ],
+          [
+            "игнорировать",
+            "ignore"
+          ]
+        ]
+      }
+    ]
+  },
+  "python_socket_shutdown": {
+    "message0": "сокет %1 отключить %2",
+    "tooltip": "Отключить приём, передачу или оба направления перед закрытием подключённого сокета.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "приём",
+            "SHUT_RD"
+          ],
+          [
+            "передачу",
+            "SHUT_WR"
+          ],
+          [
+            "оба направления",
+            "SHUT_RDWR"
+          ]
+        ]
+      }
+    ]
+  },
+  "python_socket_close": {
+    "message0": "закрыть сокет %1",
+    "tooltip": "закрыть сокет %1",
+    "args0": [
+      null
+   ]
+ },
+  "python_http_server": {
+    "message0": "раздавать текущий каталог по HTTP: хост %1 порт %2",
+    "tooltip": "раздавать текущий каталог по HTTP: хост %1 порт %2",
+    "args0": [
+      null,
+      null
+    ]
+  }
+}

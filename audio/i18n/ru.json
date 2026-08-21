@@ -1,0 +1,21 @@
+{
+  "toolbox_name": "Аудио",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "linux_audio_play": {
+    "message0": "воспроизвести WAV-файл %1",
+    "tooltip": "воспроизвести WAV-файл %1",
+    "args0": [
+      null
+    ]
+  },
+  "linux_audio_record": {
+    "message0": "записать WAV в %1 секунды %2 частота %3",
+    "tooltip": "записать WAV в %1 секунды %2 частота %3",
+    "args0": [
+      null,
+      null,
+      null
+    ]
+  }
+}

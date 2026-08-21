@@ -1,0 +1,40 @@
+{
+  "toolbox_name": "Picamera2",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "rpi_picamera2_init": {
+    "message0": "تهيئة Picamera2 %1 الكاميرا %2 العرض %3 الارتفاع %4 التنسيق %5",
+    "tooltip": "إنشاء كاميرا Raspberry Pi وتهيئتها باستخدام Picamera2.",
+    "args0": [null, null, null, null, null]
+  },
+  "rpi_picamera2_start": {
+    "message0": "تشغيل Picamera2 %1",
+    "tooltip": "تشغيل كاميرا Picamera2 التي تمت تهيئتها.",
+    "args0": [null]
+  },
+  "rpi_picamera2_capture_array": {
+    "message0": "Picamera2 %1 التقاط مصفوفة",
+    "tooltip": "التقاط التدفق الرئيسي كمصفوفة NumPy.",
+    "args0": [null]
+  },
+  "rpi_picamera2_capture_file": {
+    "message0": "Picamera2 %1 التقاط إلى الملف %2",
+    "tooltip": "التقاط صورة وحفظها في ملف.",
+    "args0": [null, null]
+  },
+  "rpi_picamera2_set_control": {
+    "message0": "Picamera2 %1 ضبط التحكم %2 على %3",
+    "tooltip": "ضبط أحد عناصر التحكم التي يدعمها Picamera2.",
+    "args0": [null, null, null]
+  },
+  "rpi_picamera2_stop": {
+    "message0": "إيقاف Picamera2 %1",
+    "tooltip": "إيقاف الالتقاط دون إغلاق كاميرا Picamera2.",
+    "args0": [null]
+  },
+  "rpi_picamera2_close": {
+    "message0": "إغلاق Picamera2 %1",
+    "tooltip": "إيقاف كاميرا Picamera2 وإغلاقها بأمان.",
+    "args0": [null]
+  }
+}

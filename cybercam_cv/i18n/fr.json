@@ -1,0 +1,395 @@
+{
+  "toolbox_name": "Caméra et IA",
+  "toolbox_categories": [
+    "Caméra et écran",
+    "IA KPU"
+  ],
+  "toolbox_labels": {
+    "Camera and display": "Caméra et écran",
+    "KPU AI": "IA KPU"
+  },
+  "cybercam_camera_init": {
+    "message0": "Initialiser la caméra %1 : largeur %2, hauteur %3, capteur %4",
+    "tooltip": "Initialiser la caméra %1 : largeur %2, hauteur %3, capteur %4",
+    "args0": [
+      null,
+      null,
+      null,
+      {
+        "options": [
+          [
+            "intégré CSI2",
+            "2"
+          ],
+          [
+            "CSI0",
+            "0"
+          ]
+        ]
+      }
+    ]
+  },
+  "cybercam_camera_opened": {
+    "message0": "La caméra %1 est ouverte",
+    "tooltip": "La caméra %1 est ouverte",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_camera_read": {
+    "message0": "Image de la caméra %1",
+    "tooltip": "Image de la caméra %1",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_camera_read_raw": {
+    "message0": "résultat de lecture brut de la caméra %1",
+    "tooltip": "Renvoie le résultat complet de camera.read(), avec l’indicateur de réussite et l’image.",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_camera_hmirror": {
+    "message0": "Définir le miroir horizontal de la caméra %1 sur %2",
+    "tooltip": "Définir le miroir horizontal de la caméra %1 sur %2",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "cybercam_camera_vflip": {
+    "message0": "Définir le retournement vertical de la caméra %1 sur %2",
+    "tooltip": "Définir le retournement vertical de la caméra %1 sur %2",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "cybercam_camera_release": {
+    "message0": "Libérer la caméra %1",
+    "tooltip": "Libérer la caméra %1",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_display_init": {
+    "message0": "Initialiser l’écran intégré",
+    "tooltip": "Initialiser l’écran intégré"
+  },
+  "cybercam_display_rotation": {
+    "message0": "Définir la rotation de l’écran sur %1",
+    "tooltip": "Définir la rotation de l’écran sur %1",
+    "args0": [
+      {
+        "options": [
+          [
+            "0°",
+            "0"
+          ],
+          [
+            "90°",
+            "1"
+          ],
+          [
+            "180°",
+            "2"
+          ],
+          [
+            "270°",
+            "3"
+          ]
+        ]
+      }
+    ]
+  },
+  "cybercam_display_show": {
+    "message0": "Afficher l’image %1 sur l’écran",
+    "tooltip": "Afficher l’image %1 sur l’écran",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_ide_show": {
+    "message0": "Afficher l’image %1 dans l’IDE",
+    "tooltip": "Afficher l’image %1 dans l’IDE",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_lcd_direction": {
+    "message0": "Orientation actuelle de l’écran",
+    "tooltip": "Orientation actuelle de l’écran"
+  },
+  "cybercam_ai_init_simple": {
+    "message0": "Initialiser l’IA %1 : modèle %2, chemin %3, taille %4",
+    "tooltip": "Initialiser l’IA %1 : modèle %2, chemin %3, taille %4",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "détection de chute",
+            "FALL_DETECT"
+          ],
+          [
+            "détection de main",
+            "HAND_DETECT"
+          ],
+          [
+            "détection de personne",
+            "PERSON_DETECT"
+          ],
+          [
+            "points du corps",
+            "PERSON_KEYPOINT"
+          ],
+          [
+            "détection de fumée",
+            "SMOKE_DETECT"
+          ],
+          [
+            "feu tricolore",
+            "TRAFFIC_LIGHT_DETECT"
+          ],
+          [
+            "YOLO11 classification",
+            "YOLO11_CLS"
+          ],
+          [
+            "YOLO11 détection",
+            "YOLO11_DET"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "cybercam_ai_init_face": {
+    "message0": "Initialiser le détecteur de visages %1 : modèle %2, ancres %3, taille %4",
+    "tooltip": "Initialiser le détecteur de visages %1 : modèle %2, ancres %3, taille %4",
+    "args0": [
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "cybercam_ai_init_mask": {
+    "message0": "Initialiser le détecteur de masques %1 : modèle de détection %2, ancres %3, taille %4, modèle de masque %5",
+    "tooltip": "Initialiser le détecteur de masques %1 : modèle de détection %2, ancres %3, taille %4, modèle de masque %5",
+    "args0": [
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "cybercam_ai_init_hand_keypoint": {
+    "message0": "Initialiser l’IA de la main %1 : type %2, modèle de détection %3, modèle de points clés %4",
+    "tooltip": "Initialiser l’IA de la main %1 : type %2, modèle de détection %3, modèle de points clés %4",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "points clés",
+            "HAND_KEYPOINT"
+          ],
+          [
+            "classification des gestes",
+            "HAND_KEYPOINT_CLS"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "cybercam_ai_init_ocr": {
+    "message0": "Initialiser OCR %1 : détection %2, reconnaissance %3, dictionnaire %4, taille de détection %5, largeur de reconnaissance %6, hauteur %7",
+    "tooltip": "Initialiser OCR %1 : détection %2, reconnaissance %3, dictionnaire %4, taille de détection %5, largeur de reconnaissance %6, hauteur %7",
+    "args0": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "cybercam_ai_init_licence": {
+    "message0": "Initialiser l’IA de plaques %1 : détection %2, reconnaissance %3, ancres %4, étiquettes %5, taille de détection %6, largeur de reconnaissance %7, hauteur %8",
+    "tooltip": "Initialiser l’IA de plaques %1 : détection %2, reconnaissance %3, ancres %4, étiquettes %5, taille de détection %6, largeur de reconnaissance %7, hauteur %8",
+    "args0": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "cybercam_ai_run": {
+    "message0": "Exécuter l’IA %1 sur %2",
+    "tooltip": "Exécuter l’IA %1 sur %2",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "cybercam_ai_run_confidence": {
+    "message0": "Exécuter l’IA %1 sur %2 : confiance %3",
+    "tooltip": "Exécuter l’IA %1 sur %2 : confiance %3",
+    "args0": [
+      null,
+      null,
+      null
+    ]
+  },
+  "cybercam_ai_run_thresholds": {
+    "message0": "Exécuter l’IA %1 sur %2 : confiance %3, NMS %4",
+    "tooltip": "Exécuter l’IA %1 sur %2 : confiance %3, NMS %4",
+    "args0": [
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "cybercam_result_length": {
+    "message0": "Longueur de la liste de résultats %1",
+    "tooltip": "Longueur de la liste de résultats %1",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_result_item": {
+    "message0": "Élément %2 de la liste de résultats %1",
+    "tooltip": "Élément %2 de la liste de résultats %1",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "cybercam_result_property": {
+    "message0": "Propriété %2 du résultat %1",
+    "tooltip": "Propriété %2 du résultat %1",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "confiance",
+            "reliability"
+          ],
+          [
+            "x",
+            "x"
+          ],
+          [
+            "y",
+            "y"
+          ],
+          [
+            "largeur",
+            "w"
+          ],
+          [
+            "hauteur",
+            "h"
+          ],
+          [
+            "étiquette",
+            "label"
+          ],
+          [
+            "texte",
+            "text"
+          ],
+          [
+            "masque",
+            "mask"
+          ],
+          [
+            "5 premiers",
+            "top5"
+          ],
+          [
+            "points clés",
+            "keypoints"
+          ],
+          [
+            "coins",
+            "corners"
+          ],
+          [
+            "œil gauche",
+            "left_eye"
+          ],
+          [
+            "œil gauche x",
+            "left_eye.x"
+          ],
+          [
+            "œil gauche y",
+            "left_eye.y"
+          ],
+          [
+            "œil droit",
+            "right_eye"
+          ],
+          [
+            "œil droit x",
+            "right_eye.x"
+          ],
+          [
+            "œil droit y",
+            "right_eye.y"
+          ],
+          [
+            "nez",
+            "nose"
+          ],
+          [
+            "nez x",
+            "nose.x"
+          ],
+          [
+            "nez y",
+            "nose.y"
+          ],
+          [
+            "coin gauche de la bouche",
+            "left_mouth"
+          ],
+          [
+            "coin gauche de la bouche x",
+            "left_mouth.x"
+          ],
+          [
+            "coin gauche de la bouche y",
+            "left_mouth.y"
+          ],
+          [
+            "coin droit de la bouche",
+            "right_mouth"
+          ],
+          [
+            "coin droit de la bouche x",
+            "right_mouth.x"
+          ],
+          [
+            "coin droit de la bouche y",
+            "right_mouth.y"
+          ]
+        ]
+      }
+    ]
+  }
+}

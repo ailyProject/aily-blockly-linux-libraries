@@ -1,0 +1,231 @@
+{
+  "toolbox_name": "GPIO وPWM",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "linux_gpio_init": {
+    "message0": "هيئ GPIO %1 الطرف %2 الاتجاه %3 السحب %4",
+    "tooltip": "إنشاء طرف رقمي باستخدام gpiozero.",
+    "args0": [
+      null,
+      null,
+      {
+        "options": [
+          [
+            "إدخال",
+            "INPUT"
+          ],
+          [
+            "إخراج",
+            "OUTPUT"
+          ]
+        ]
+      },
+      {
+        "options": [
+          [
+            "بلا",
+            "NONE"
+          ],
+          [
+            "رفع",
+            "UP"
+          ],
+          [
+            "خفض",
+            "DOWN"
+          ]
+        ]
+      }
+    ]
+  },
+  "linux_gpio_write": {
+    "message0": "عيّن GPIO %1 إلى %2",
+    "tooltip": "عيّن GPIO %1 إلى %2",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "linux_gpio_read": {
+    "message0": "قيمة GPIO %1",
+    "tooltip": "قيمة GPIO %1",
+    "args0": [
+      null
+    ]
+  },
+  "linux_gpio_close": {
+    "message0": "أغلق GPIO %1",
+    "tooltip": "أغلق GPIO %1",
+    "args0": [
+      null
+    ]
+  },
+  "linux_led_init": {
+    "message0": "تهيئة LED %1 الطرف %2 المستوى الفعّال %3",
+    "tooltip": "ينشئ LED من gpiozero على الطرف المحدد.",
+    "args0": [
+      null,
+      null,
+      {
+        "options": [
+          [
+            "مرتفع",
+            "TRUE"
+          ],
+          [
+            "منخفض",
+            "FALSE"
+          ]
+        ]
+      }
+    ]
+  },
+  "linux_led_action": {
+    "message0": "LED %1 %2",
+    "tooltip": "يشغّل LED مهيّأ أو يوقفه أو يبدّل حالته.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "تشغيل",
+            "ON"
+          ],
+          [
+            "إيقاف",
+            "OFF"
+          ],
+          [
+            "تبديل",
+            "TOGGLE"
+          ]
+        ]
+      }
+    ]
+  },
+  "linux_led_blink": {
+    "message0": "وميض LED %1 تشغيل %2 ث إيقاف %3 ث العدد %4 (0 بلا نهاية)",
+    "tooltip": "يومض في الخلفية؛ العدد 0 يكرر بلا نهاية.",
+    "args0": [
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "linux_button_init": {
+    "message0": "تهيئة الزر %1 الطرف %2 السحب %3 المستوى الفعّال دون سحب %4 إزالة الارتداد %5 ث الضغط المطوّل %6 ث",
+    "tooltip": "ينشئ Button من gpiozero. يُستخدم المستوى الفعّال عند عدم اختيار السحب.",
+    "args0": [
+      null,
+      null,
+      {
+        "options": [
+          [
+            "سحب لأعلى",
+            "UP"
+          ],
+          [
+            "سحب لأسفل",
+            "DOWN"
+          ],
+          [
+            "بلا سحب",
+            "NONE"
+          ]
+        ]
+      },
+      {
+        "options": [
+          [
+            "مرتفع",
+            "TRUE"
+          ],
+          [
+            "منخفض",
+            "FALSE"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "linux_button_pressed": {
+    "message0": "الزر %1 مضغوط",
+    "tooltip": "هل الزر المهيّأ مضغوط الآن.",
+    "args0": [
+      null
+    ]
+  },
+  "linux_button_held": {
+    "message0": "الزر %1 مضغوط مطولاً",
+    "tooltip": "هل بلغ الزر المهيّأ مدة الضغط المطوّل.",
+    "args0": [
+      null
+    ]
+  },
+  "linux_button_wait": {
+    "message0": "انتظار الزر %1 %2 مهلة %3 ث (0 بلا حد)",
+    "tooltip": "ينتظر الضغط أو التحرير؛ المهلة 0 تنتظر بلا حد.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "ضغط",
+            "PRESS"
+          ],
+          [
+            "تحرير",
+            "RELEASE"
+          ]
+        ]
+      },
+      null
+    ]
+  },
+  "linux_led_write": {
+    "message0": "اضبط LED القديم الثابت على GPIO17 إلى %1",
+    "tooltip": "لبنة توافق قديمة ثابتة على GPIO17؛ يُفضّل استخدام لبنة تهيئة LED.",
+    "args0": [
+      null
+    ]
+  },
+  "linux_key_pressed": {
+    "message0": "زر GPIO27 القديم الثابت مضغوط",
+    "tooltip": "لبنة توافق قديمة ثابتة على GPIO27؛ يُفضّل استخدام لبنة تهيئة الزر."
+  },
+  "linux_pwm_init": {
+    "message0": "هيئ PWM %1 الطرف %2 التردد %3 هرتز",
+    "tooltip": "هيئ PWM %1 الطرف %2 التردد %3 هرتز",
+    "args0": [
+      null,
+      null,
+      null
+    ]
+  },
+  "linux_pwm_duty": {
+    "message0": "عيّن دورة PWM %1 إلى %2 (0–1)",
+    "tooltip": "عيّن دورة PWM %1 إلى %2 (0–1)",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "linux_pwm_frequency": {
+    "message0": "ضبط تردد PWM %1 على %2 هرتز",
+    "tooltip": "يغيّر تردد خرج PWM مهيّأ.",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "linux_pwm_close": {
+    "message0": "أغلق PWM %1",
+    "tooltip": "أغلق PWM %1",
+    "args0": [
+      null
+    ]
+  }
+}

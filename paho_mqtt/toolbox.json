@@ -1,0 +1,298 @@
+{
+  "kind": "category",
+  "name": "Paho MQTT",
+  "colour": "#7B1FA2",
+  "contents": [
+    {
+      "kind": "category",
+      "name": "Client and security",
+      "colour": "#7B1FA2",
+      "contents": [
+        {
+          "kind": "block",
+          "type": "python_mqtt_init",
+          "fields": {
+            "NAME": "client",
+            "PROTOCOL": "MQTTv311",
+            "TRANSPORT": "tcp"
+          },
+          "inputs": {
+            "CLIENT_ID": {
+              "shadow": {
+                "type": "text",
+                "fields": {
+                  "TEXT": ""
+                }
+              }
+            }
+          }
+        },
+        {
+          "kind": "block",
+          "type": "python_mqtt_set_auth",
+          "inputs": {
+            "USERNAME": {
+              "shadow": {
+                "type": "text",
+                "fields": {
+                  "TEXT": "username"
+                }
+              }
+            },
+            "PASSWORD": {
+              "shadow": {
+                "type": "text",
+                "fields": {
+                  "TEXT": "password"
+                }
+              }
+            }
+          }
+        },
+        {
+          "kind": "block",
+          "type": "python_mqtt_set_tls"
+        },
+        {
+          "kind": "block",
+          "type": "python_mqtt_set_will",
+          "inputs": {
+            "TOPIC": {
+              "shadow": {
+                "type": "text",
+                "fields": {
+                  "TEXT": "/device/status"
+                }
+              }
+            },
+            "PAYLOAD": {
+              "shadow": {
+                "type": "text",
+                "fields": {
+                  "TEXT": "offline"
+                }
+              }
+            }
+          }
+        },
+        {
+          "kind": "block",
+          "type": "python_mqtt_set_websocket_options",
+          "inputs": {
+            "PATH": {
+              "shadow": {
+                "type": "text",
+                "fields": {
+                  "TEXT": "/mqtt"
+                }
+              }
+            }
+          }
+        },
+        {
+          "kind": "block",
+          "type": "python_mqtt_set_reconnect_delay",
+          "inputs": {
+            "MIN_DELAY": {
+              "shadow": {
+                "type": "math_number",
+                "fields": {
+                  "NUM": 1
+                }
+              }
+            },
+            "MAX_DELAY": {
+              "shadow": {
+                "type": "math_number",
+                "fields": {
+                  "NUM": 120
+                }
+              }
+            }
+          }
+        },
+        {
+          "kind": "block",
+          "type": "python_mqtt_connect",
+          "inputs": {
+            "HOST": {
+              "shadow": {
+                "type": "text",
+                "fields": {
+                  "TEXT": "localhost"
+                }
+              }
+            },
+            "PORT": {
+              "shadow": {
+                "type": "math_number",
+                "fields": {
+                  "NUM": 1883
+                }
+              }
+            },
+            "KEEPALIVE": {
+              "shadow": {
+                "type": "math_number",
+                "fields": {
+                  "NUM": 60
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "kind": "category",
+      "name": "Events",
+      "colour": "#7B1FA2",
+      "contents": [
+        {
+          "kind": "block",
+          "type": "python_mqtt_on_connect"
+        },
+        {
+          "kind": "block",
+          "type": "python_mqtt_on_message"
+        },
+        {
+          "kind": "block",
+          "type": "python_mqtt_on_disconnect"
+        }
+      ]
+    },
+    {
+      "kind": "category",
+      "name": "Publish and subscribe",
+      "colour": "#7B1FA2",
+      "contents": [
+        {
+          "kind": "block",
+          "type": "python_mqtt_publish",
+          "inputs": {
+            "TOPIC": {
+              "shadow": {
+                "type": "text",
+                "fields": {
+                  "TEXT": "/python/data"
+                }
+              }
+            },
+            "MESSAGE": {
+              "shadow": {
+                "type": "text",
+                "fields": {
+                  "TEXT": "Hello MQTT!"
+                }
+              }
+            }
+          }
+        },
+        {
+          "kind": "block",
+          "type": "python_mqtt_publish_wait",
+          "inputs": {
+            "TOPIC": {
+              "shadow": {
+                "type": "text",
+                "fields": {
+                  "TEXT": "/python/data"
+                }
+              }
+            },
+            "MESSAGE": {
+              "shadow": {
+                "type": "text",
+                "fields": {
+                  "TEXT": "Hello MQTT!"
+                }
+              }
+            },
+            "TIMEOUT": {
+              "shadow": {
+                "type": "math_number",
+                "fields": {
+                  "NUM": 10
+                }
+              }
+            }
+          }
+        },
+        {
+          "kind": "block",
+          "type": "python_mqtt_subscribe",
+          "inputs": {
+            "TOPIC": {
+              "shadow": {
+                "type": "text",
+                "fields": {
+                  "TEXT": "/python/data"
+                }
+              }
+            }
+          }
+        },
+        {
+          "kind": "block",
+          "type": "python_mqtt_unsubscribe",
+          "inputs": {
+            "TOPIC": {
+              "shadow": {
+                "type": "text",
+                "fields": {
+                  "TEXT": "/python/data"
+                }
+              }
+            }
+          }
+        },
+        {
+          "kind": "block",
+          "type": "python_mqtt_decode_payload"
+        }
+      ]
+    },
+    {
+      "kind": "category",
+      "name": "Network loop",
+      "colour": "#7B1FA2",
+      "contents": [
+        {
+          "kind": "block",
+          "type": "python_mqtt_is_connected"
+        },
+        {
+          "kind": "block",
+          "type": "python_mqtt_loop_start"
+        },
+        {
+          "kind": "block",
+          "type": "python_mqtt_loop_stop"
+        },
+        {
+          "kind": "block",
+          "type": "python_mqtt_loop_once",
+          "inputs": {
+            "TIMEOUT": {
+              "shadow": {
+                "type": "math_number",
+                "fields": {
+                  "NUM": 1
+                }
+              }
+            }
+          }
+        },
+        {
+          "kind": "block",
+          "type": "python_mqtt_loop"
+        },
+        {
+          "kind": "block",
+          "type": "python_mqtt_disconnect"
+        }
+      ]
+    }
+  ]
+}

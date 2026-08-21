@@ -1,0 +1,36 @@
+{
+  "toolbox_name": "카메라",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "linux_camera_init": {
+    "message0": "카메라 %1 초기화, 장치 %2, 너비 %3, 높이 %4",
+    "tooltip": "카메라 %1 초기화, 장치 %2, 너비 %3, 높이 %4",
+    "args0": [
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "linux_camera_opened": {
+    "message0": "카메라 %1 이 열림",
+    "tooltip": "카메라 %1 이 열림",
+    "args0": [
+      null
+    ]
+  },
+  "linux_camera_read": {
+    "message0": "카메라 %1 이미지",
+    "tooltip": "카메라 %1 이미지",
+    "args0": [
+      null
+    ]
+  },
+  "linux_camera_release": {
+    "message0": "카메라 %1 해제",
+    "tooltip": "카메라 %1 해제",
+    "args0": [
+      null
+    ]
+  }
+}

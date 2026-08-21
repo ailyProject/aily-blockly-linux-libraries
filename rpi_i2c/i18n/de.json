@@ -1,0 +1,50 @@
+{
+  "toolbox_name": "I2C / SMBus",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "rpi_i2c_init": {
+    "message0": "I2C %1 auf Bus %2 initialisieren",
+    "tooltip": "Öffnet einen Linux-I2C-Bus mit smbus2.",
+    "args0": [null, null]
+  },
+  "rpi_i2c_read_byte_data": {
+    "message0": "I2C %1 Byte von Adresse %2 Register %3 lesen",
+    "tooltip": "Liest einen 8-Bit-Wert aus einem I2C-Register.",
+    "args0": [null, null, null]
+  },
+  "rpi_i2c_write_byte_data": {
+    "message0": "I2C %1 Byte an Adresse %2 Register %3 schreiben Daten %4",
+    "tooltip": "Schreibt einen 8-Bit-Wert in ein I2C-Register.",
+    "args0": [null, null, null, null]
+  },
+  "rpi_i2c_read_word_data": {
+    "message0": "I2C %1 Wort von Adresse %2 Register %3 lesen",
+    "tooltip": "Liest ein 16-Bit-SMBus-Wort im Little-Endian-Format.",
+    "args0": [null, null, null]
+  },
+  "rpi_i2c_write_word_data": {
+    "message0": "I2C %1 Wort an Adresse %2 Register %3 schreiben Daten %4",
+    "tooltip": "Schreibt ein 16-Bit-SMBus-Wort im Little-Endian-Format.",
+    "args0": [null, null, null, null]
+  },
+  "rpi_i2c_read_i2c_block": {
+    "message0": "I2C %1 Block von Adresse %2 Register %3 Länge %4 lesen",
+    "tooltip": "Liest einen Byteblock aus einem I2C-Register.",
+    "args0": [null, null, null, null]
+  },
+  "rpi_i2c_write_i2c_block": {
+    "message0": "I2C %1 Block an Adresse %2 Register %3 schreiben Daten %4",
+    "tooltip": "Schreibt eine Byteliste in ein I2C-Register.",
+    "args0": [null, null, null, null]
+  },
+  "rpi_i2c_write_read": {
+    "message0": "I2C %1 Repeated-Start Adresse %2 schreiben %3 lesen %4 Bytes",
+    "tooltip": "Schreibt und liest Bytes in einer I2C-Transaktion mit Repeated Start.",
+    "args0": [null, null, null, null]
+  },
+  "rpi_i2c_close": {
+    "message0": "I2C %1 schließen",
+    "tooltip": "Schließt einen I2C-Bus.",
+    "args0": [null]
+  }
+}

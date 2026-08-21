@@ -1,0 +1,30 @@
+{
+  "toolbox_name": "SPI",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "rpi_spi_init": {
+    "message0": "SPI %1 초기화 버스 %2 장치 %3 모드 %4 속도 %5 Hz 비트 %6",
+    "tooltip": "py-spidev로 SPI 장치를 열고 전송 매개변수를 설정합니다.",
+    "args0": [null, null, null, null, null, null]
+  },
+  "rpi_spi_transfer": {
+    "message0": "SPI %1 송수신 %2",
+    "tooltip": "xfer2로 바이트 목록을 전송하고 수신한 목록을 반환합니다.",
+    "args0": [null, null]
+  },
+  "rpi_spi_read": {
+    "message0": "SPI %1 에서 %2 바이트 읽기",
+    "tooltip": "SPI 장치에서 바이트를 읽어 목록으로 반환합니다.",
+    "args0": [null, null]
+  },
+  "rpi_spi_write": {
+    "message0": "SPI %1 에 %2 쓰기",
+    "tooltip": "writebytes2로 바이트 목록이나 버퍼를 씁니다.",
+    "args0": [null, null]
+  },
+  "rpi_spi_close": {
+    "message0": "SPI %1 닫기",
+    "tooltip": "SPI 장치를 닫습니다.",
+    "args0": [null]
+  }
+}

@@ -1,0 +1,142 @@
+{
+  "toolbox_name": "串列埠",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "linux_uart_init": {
+    "message0": "初始化串口 %1，裝置 %2，鮑率 %3",
+    "tooltip": "初始化串口 %1，裝置 %2，鮑率 %3",
+    "args0": [
+      null,
+      null,
+      {
+        "options": [
+          [
+            "9600",
+            "9600"
+          ],
+          [
+            "19200",
+            "19200"
+          ],
+          [
+            "38400",
+            "38400"
+          ],
+          [
+            "57600",
+            "57600"
+          ],
+          [
+            "115200",
+            "115200"
+          ]
+        ]
+      }
+    ]
+  },
+  "linux_uart_available": {
+    "message0": "串口 %1 可讀取的位元組數",
+    "tooltip": "串口 %1 可讀取的位元組數",
+    "args0": [
+      null
+    ]
+  },
+  "linux_uart_read": {
+    "message0": "從串口 %1 讀取 %2 位元組",
+    "tooltip": "從串口 %1 讀取 %2 位元組",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "linux_uart_write": {
+    "message0": "向串口 %1 寫入 %2",
+    "tooltip": "向串口 %1 寫入 %2",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "linux_uart_flush": {
+    "message0": "清空串口 %1 的輸入緩衝區",
+    "tooltip": "清空串口 %1 的輸入緩衝區",
+    "args0": [
+      null
+    ]
+  },
+  "linux_uart_close": {
+    "message0": "關閉串口 %1",
+    "tooltip": "關閉串口 %1",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_uart_init": {
+    "message0": "初始化 UART %1，鮑率 %2",
+    "tooltip": "初始化 UART %1，鮑率 %2",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "9600",
+            "9600"
+          ],
+          [
+            "19200",
+            "19200"
+          ],
+          [
+            "38400",
+            "38400"
+          ],
+          [
+            "57600",
+            "57600"
+          ],
+          [
+            "115200",
+            "115200"
+          ]
+        ]
+      }
+    ]
+  },
+  "cybercam_uart_available": {
+    "message0": "UART %1 可讀取的位元組數",
+    "tooltip": "UART %1 可讀取的位元組數",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_uart_read": {
+    "message0": "從 UART %1 讀取 %2 位元組",
+    "tooltip": "從 UART %1 讀取 %2 位元組",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "cybercam_uart_write": {
+    "message0": "向 UART %1 寫入 %2",
+    "tooltip": "向 UART %1 寫入 %2",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "cybercam_uart_flush": {
+    "message0": "清空 UART %1 的輸入緩衝區",
+    "tooltip": "清空 UART %1 的輸入緩衝區",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_uart_close": {
+    "message0": "關閉 UART %1",
+    "tooltip": "關閉 UART %1",
+    "args0": [
+      null
+    ]
+  }
+}

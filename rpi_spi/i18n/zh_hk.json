@@ -1,0 +1,30 @@
+{
+  "toolbox_name": "SPI",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "rpi_spi_init": {
+    "message0": "初始化 SPI %1 匯流排 %2 裝置 %3 模式 %4 速度 %5 Hz 位元 %6",
+    "tooltip": "使用 py-spidev 開啟 SPI 裝置並設定傳輸參數。",
+    "args0": [null, null, null, null, null, null]
+  },
+  "rpi_spi_transfer": {
+    "message0": "SPI %1 收發 %2",
+    "tooltip": "使用 xfer2 傳輸位元組列表，並傳回收到的位元組列表。",
+    "args0": [null, null]
+  },
+  "rpi_spi_read": {
+    "message0": "SPI %1 讀取 %2 位元組",
+    "tooltip": "從 SPI 裝置讀取位元組並傳回列表。",
+    "args0": [null, null]
+  },
+  "rpi_spi_write": {
+    "message0": "SPI %1 寫入 %2",
+    "tooltip": "使用 writebytes2 寫入位元組列表或緩衝區。",
+    "args0": [null, null]
+  },
+  "rpi_spi_close": {
+    "message0": "關閉 SPI %1",
+    "tooltip": "關閉 SPI 裝置。",
+    "args0": [null]
+  }
+}

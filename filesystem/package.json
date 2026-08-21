@@ -1,0 +1,49 @@
+{
+  "name": "@aily-project/lib-filesystem",
+  "nickname": "System",
+  "nickname_zh_cn": "系统",
+  "nickname_en": "System",
+  "nickname_zh_hk": "系統",
+  "nickname_ja": "システム",
+  "nickname_ko": "시스템",
+  "nickname_de": "System",
+  "nickname_fr": "Système",
+  "nickname_es": "Sistema",
+  "nickname_pt": "Sistema",
+  "nickname_ru": "Система",
+  "nickname_ar": "نظام",
+  "version": "0.0.1",
+  "description": "系统命令和 Linux CPU 温度兼容积木；标准文件操作已迁至 @aily-project/lib-file。",
+  "description_zh_cn": "系统命令和 Linux CPU 温度兼容积木；标准文件操作已迁至 @aily-project/lib-file。",
+  "description_en": "System-command and Linux CPU-temperature compatibility blocks; standard file operations moved to @aily-project/lib-file.",
+  "spec": true,
+  "compatibility": {
+    "type": [
+      "canaan:k230:cybercam",
+      "broadcom:bcm2712:raspberrypi_5",
+      "allwinner:t527:walnutpi_2b"
+    ],
+    "voltage": [
+      3.3
+    ]
+  },
+  "keywords": [
+    "aily",
+    "blockly",
+    "python",
+    "linux",
+    "system",
+    "command",
+    "shell",
+    "sysfs",
+    "temperature",
+    "filesystem"
+  ],
+  "tags": [
+    "system"
+  ],
+  "author": "ailyProject",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {}
+}

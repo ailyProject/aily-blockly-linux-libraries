@@ -1,0 +1,395 @@
+{
+  "toolbox_name": "Camera & AI",
+  "toolbox_categories": [
+    "Camera and display",
+    "KPU AI"
+  ],
+  "toolbox_labels": {
+    "Camera and display": "Camera and display",
+    "KPU AI": "KPU AI"
+  },
+  "cybercam_camera_init": {
+    "message0": "initialize camera %1 width %2 height %3 sensor %4",
+    "tooltip": "initialize camera %1 width %2 height %3 sensor %4",
+    "args0": [
+      null,
+      null,
+      null,
+      {
+        "options": [
+          [
+            "onboard CSI2",
+            "2"
+          ],
+          [
+            "CSI0",
+            "0"
+          ]
+        ]
+      }
+    ]
+  },
+  "cybercam_camera_opened": {
+    "message0": "camera %1 is open",
+    "tooltip": "camera %1 is open",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_camera_read": {
+    "message0": "camera %1 image",
+    "tooltip": "camera %1 image",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_camera_read_raw": {
+    "message0": "camera %1 raw read result",
+    "tooltip": "Return the complete camera.read() result, including the success flag and image.",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_camera_hmirror": {
+    "message0": "camera %1 horizontal mirror %2",
+    "tooltip": "camera %1 horizontal mirror %2",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "cybercam_camera_vflip": {
+    "message0": "camera %1 vertical flip %2",
+    "tooltip": "camera %1 vertical flip %2",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "cybercam_camera_release": {
+    "message0": "release camera %1",
+    "tooltip": "release camera %1",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_display_init": {
+    "message0": "initialize onboard display",
+    "tooltip": "initialize onboard display"
+  },
+  "cybercam_display_rotation": {
+    "message0": "set display rotation %1",
+    "tooltip": "set display rotation %1",
+    "args0": [
+      {
+        "options": [
+          [
+            "0°",
+            "0"
+          ],
+          [
+            "90°",
+            "1"
+          ],
+          [
+            "180°",
+            "2"
+          ],
+          [
+            "270°",
+            "3"
+          ]
+        ]
+      }
+    ]
+  },
+  "cybercam_display_show": {
+    "message0": "show image %1 on display",
+    "tooltip": "show image %1 on display",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_ide_show": {
+    "message0": "show image %1 in IDE",
+    "tooltip": "show image %1 in IDE",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_lcd_direction": {
+    "message0": "current display direction",
+    "tooltip": "current display direction"
+  },
+  "cybercam_ai_init_simple": {
+    "message0": "initialize AI %1 model %2 path %3 size %4",
+    "tooltip": "initialize AI %1 model %2 path %3 size %4",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "Fall detection",
+            "FALL_DETECT"
+          ],
+          [
+            "Hand detection",
+            "HAND_DETECT"
+          ],
+          [
+            "Person detection",
+            "PERSON_DETECT"
+          ],
+          [
+            "Person keypoints",
+            "PERSON_KEYPOINT"
+          ],
+          [
+            "Smoke detection",
+            "SMOKE_DETECT"
+          ],
+          [
+            "Traffic light",
+            "TRAFFIC_LIGHT_DETECT"
+          ],
+          [
+            "YOLO11 classification",
+            "YOLO11_CLS"
+          ],
+          [
+            "YOLO11 detection",
+            "YOLO11_DET"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "cybercam_ai_init_face": {
+    "message0": "initialize face detector %1 model %2 anchors %3 size %4",
+    "tooltip": "initialize face detector %1 model %2 anchors %3 size %4",
+    "args0": [
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "cybercam_ai_init_mask": {
+    "message0": "initialize mask detector %1 detection model %2 anchors %3 size %4 mask model %5",
+    "tooltip": "initialize mask detector %1 detection model %2 anchors %3 size %4 mask model %5",
+    "args0": [
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "cybercam_ai_init_hand_keypoint": {
+    "message0": "initialize hand AI %1 type %2 detection model %3 keypoint model %4",
+    "tooltip": "initialize hand AI %1 type %2 detection model %3 keypoint model %4",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "keypoints",
+            "HAND_KEYPOINT"
+          ],
+          [
+            "gesture classification",
+            "HAND_KEYPOINT_CLS"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "cybercam_ai_init_ocr": {
+    "message0": "initialize OCR %1 detection %2 recognition %3 dictionary %4 detection size %5 recognition width %6 height %7",
+    "tooltip": "initialize OCR %1 detection %2 recognition %3 dictionary %4 detection size %5 recognition width %6 height %7",
+    "args0": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "cybercam_ai_init_licence": {
+    "message0": "initialize license-plate AI %1 detection %2 recognition %3 anchors %4 labels %5 detection size %6 recognition width %7 height %8",
+    "tooltip": "initialize license-plate AI %1 detection %2 recognition %3 anchors %4 labels %5 detection size %6 recognition width %7 height %8",
+    "args0": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "cybercam_ai_run": {
+    "message0": "AI %1 run on %2",
+    "tooltip": "AI %1 run on %2",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "cybercam_ai_run_confidence": {
+    "message0": "AI %1 run on %2 confidence %3",
+    "tooltip": "AI %1 run on %2 confidence %3",
+    "args0": [
+      null,
+      null,
+      null
+    ]
+  },
+  "cybercam_ai_run_thresholds": {
+    "message0": "AI %1 run on %2 confidence %3 NMS %4",
+    "tooltip": "AI %1 run on %2 confidence %3 NMS %4",
+    "args0": [
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "cybercam_result_length": {
+    "message0": "result list %1 length",
+    "tooltip": "result list %1 length",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_result_item": {
+    "message0": "result list %1 item %2",
+    "tooltip": "result list %1 item %2",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "cybercam_result_property": {
+    "message0": "result %1 property %2",
+    "tooltip": "result %1 property %2",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "confidence",
+            "reliability"
+          ],
+          [
+            "x",
+            "x"
+          ],
+          [
+            "y",
+            "y"
+          ],
+          [
+            "width",
+            "w"
+          ],
+          [
+            "height",
+            "h"
+          ],
+          [
+            "label",
+            "label"
+          ],
+          [
+            "text",
+            "text"
+          ],
+          [
+            "mask",
+            "mask"
+          ],
+          [
+            "top 5",
+            "top5"
+          ],
+          [
+            "keypoints",
+            "keypoints"
+          ],
+          [
+            "corners",
+            "corners"
+          ],
+          [
+            "left eye",
+            "left_eye"
+          ],
+          [
+            "left eye x",
+            "left_eye.x"
+          ],
+          [
+            "left eye y",
+            "left_eye.y"
+          ],
+          [
+            "right eye",
+            "right_eye"
+          ],
+          [
+            "right eye x",
+            "right_eye.x"
+          ],
+          [
+            "right eye y",
+            "right_eye.y"
+          ],
+          [
+            "nose",
+            "nose"
+          ],
+          [
+            "nose x",
+            "nose.x"
+          ],
+          [
+            "nose y",
+            "nose.y"
+          ],
+          [
+            "left mouth",
+            "left_mouth"
+          ],
+          [
+            "left mouth x",
+            "left_mouth.x"
+          ],
+          [
+            "left mouth y",
+            "left_mouth.y"
+          ],
+          [
+            "right mouth",
+            "right_mouth"
+          ],
+          [
+            "right mouth x",
+            "right_mouth.x"
+          ],
+          [
+            "right mouth y",
+            "right_mouth.y"
+          ]
+        ]
+      }
+    ]
+  }
+}

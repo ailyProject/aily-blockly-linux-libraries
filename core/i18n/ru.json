@@ -1,0 +1,115 @@
+{
+  "toolbox_name": "Ядро",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_start": {
+    "message0": "когда программа запускается %1 %2",
+    "tooltip": "Выполнить один раз при запуске программы.",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_forever": {
+    "message0": "повторять вечно %1 %2",
+    "tooltip": "Повторно выполнять вложенные блоки.",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_sleep": {
+    "message0": "ждать %1 секунд",
+    "tooltip": "Приостановить программу на указанное число секунд.",
+    "args0": [
+      null
+    ]
+  },
+  "python_print": {
+    "message0": "напечатать %1",
+    "tooltip": "напечатать %1",
+    "args0": [
+      null
+    ]
+  },
+  "python_number": {
+    "message0": "число %1",
+    "tooltip": "число %1",
+    "args0": [
+      null
+    ]
+  },
+  "python_text": {
+    "message0": "текст %1",
+    "tooltip": "текст %1",
+    "args0": [
+      null
+    ]
+  },
+  "python_boolean": {
+    "message0": "логическое %1",
+    "tooltip": "логическое %1",
+    "args0": [
+      {
+        "options": [
+          [
+            "истина",
+            "TRUE"
+          ],
+          [
+            "ложь",
+            "FALSE"
+          ]
+        ]
+      }
+    ]
+  },
+  "python_tuple": {
+    "message0": "кортеж из %1",
+    "tooltip": "кортеж из %1",
+    "args0": [
+      null
+    ]
+  },
+  "python_list": {
+    "message0": "список из %1",
+    "tooltip": "список из %1",
+    "args0": [
+      null
+    ]
+  },
+  "python_set_variable": {
+    "message0": "задать переменную %1 как %2",
+    "tooltip": "задать переменную %1 как %2",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_get_variable": {
+    "message0": "переменная %1",
+    "tooltip": "переменная %1",
+    "args0": [
+      null
+    ]
+  },
+  "python_if": {
+    "message0": "если %1 то %2 %3",
+    "tooltip": "если %1 то %2 %3",
+    "args0": [
+      null,
+      null,
+      null
+    ]
+  },
+  "python_for_each": {
+    "message0": "для каждого %1 в %2 сделать %3 %4",
+    "tooltip": "для каждого %1 в %2 сделать %3 %4",
+    "args0": [
+      null,
+      null,
+      null,
+      null
+    ]
+  }
+}

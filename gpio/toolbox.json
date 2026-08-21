@@ -1,0 +1,161 @@
+{
+  "kind": "category",
+  "name": "GPIO & PWM",
+  "colour": "#00897B",
+  "contents": [
+    {
+      "kind": "block",
+      "type": "linux_gpio_init"
+    },
+    {
+      "kind": "block",
+      "type": "linux_gpio_write",
+      "inputs": {
+        "VALUE": {
+          "shadow": {
+            "type": "logic_boolean",
+            "fields": {
+              "BOOL": "TRUE"
+            }
+          }
+        }
+      }
+    },
+    {
+      "kind": "block",
+      "type": "linux_gpio_read"
+    },
+    {
+      "kind": "block",
+      "type": "linux_gpio_close"
+    },
+    {
+      "kind": "block",
+      "type": "linux_led_init"
+    },
+    {
+      "kind": "block",
+      "type": "linux_led_action"
+    },
+    {
+      "kind": "block",
+      "type": "linux_led_blink",
+      "inputs": {
+        "ON_TIME": {
+          "shadow": {
+            "type": "math_number",
+            "fields": {
+              "NUM": 1
+            }
+          }
+        },
+        "OFF_TIME": {
+          "shadow": {
+            "type": "math_number",
+            "fields": {
+              "NUM": 1
+            }
+          }
+        },
+        "COUNT": {
+          "shadow": {
+            "type": "math_number",
+            "fields": {
+              "NUM": 0
+            }
+          }
+        }
+      }
+    },
+    {
+      "kind": "block",
+      "type": "linux_button_init",
+      "inputs": {
+        "BOUNCE_TIME": {
+          "shadow": {
+            "type": "math_number",
+            "fields": {
+              "NUM": 0.05
+            }
+          }
+        },
+        "HOLD_TIME": {
+          "shadow": {
+            "type": "math_number",
+            "fields": {
+              "NUM": 1
+            }
+          }
+        }
+      }
+    },
+    {
+      "kind": "block",
+      "type": "linux_button_pressed"
+    },
+    {
+      "kind": "block",
+      "type": "linux_button_held"
+    },
+    {
+      "kind": "block",
+      "type": "linux_button_wait",
+      "inputs": {
+        "TIMEOUT": {
+          "shadow": {
+            "type": "math_number",
+            "fields": {
+              "NUM": 0
+            }
+          }
+        }
+      }
+    },
+    {
+      "kind": "block",
+      "type": "linux_pwm_init",
+      "inputs": {
+        "FREQUENCY": {
+          "shadow": {
+            "type": "math_number",
+            "fields": {
+              "NUM": 1000
+            }
+          }
+        }
+      }
+    },
+    {
+      "kind": "block",
+      "type": "linux_pwm_duty",
+      "inputs": {
+        "DUTY": {
+          "shadow": {
+            "type": "math_number",
+            "fields": {
+              "NUM": 0.5
+            }
+          }
+        }
+      }
+    },
+    {
+      "kind": "block",
+      "type": "linux_pwm_frequency",
+      "inputs": {
+        "FREQUENCY": {
+          "shadow": {
+            "type": "math_number",
+            "fields": {
+              "NUM": 1000
+            }
+          }
+        }
+      }
+    },
+    {
+      "kind": "block",
+      "type": "linux_pwm_close"
+    }
+  ]
+}

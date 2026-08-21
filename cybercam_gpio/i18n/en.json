@@ -1,0 +1,72 @@
+{
+  "toolbox_name": "GPIO / LED / PWM",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "cybercam_gpio_init": {
+    "message0": "initialize GPIO %1 pin %2 direction %3 pull %4",
+    "tooltip": "Create a digital IO object using the official board and digitalio modules.",
+    "args0": [
+      null,
+      null,
+      { "options": [["input", "INPUT"], ["output", "OUTPUT"]] },
+      { "options": [["none", "NONE"], ["up", "UP"], ["down", "DOWN"]] }
+    ]
+  },
+  "cybercam_gpio_write": {
+    "message0": "set GPIO %1 to %2",
+    "tooltip": "set GPIO %1 to %2",
+    "args0": [null, null]
+  },
+  "cybercam_gpio_read": {
+    "message0": "GPIO %1 value",
+    "tooltip": "GPIO %1 value",
+    "args0": [null]
+  },
+  "cybercam_gpio_deinit": {
+    "message0": "deinitialize GPIO %1",
+    "tooltip": "deinitialize GPIO %1",
+    "args0": [null]
+  },
+  "cybercam_led_write": {
+    "message0": "set onboard LED to %1",
+    "tooltip": "set onboard LED to %1",
+    "args0": [null]
+  },
+  "cybercam_key_pressed": {
+    "message0": "onboard key is pressed",
+    "tooltip": "onboard key is pressed"
+  },
+  "cybercam_pwm_init": {
+    "message0": "initialize PWM %1 target %2",
+    "tooltip": "initialize PWM %1 target %2",
+    "args0": [
+      null,
+      { "options": [["GPIO60 / PWM0", "0,0"], ["GPIO61 / PWM1", "0,1"], ["fill light / PWM2", "0,2"], ["buzzer / PWM3", "1,0"], ["backlight / PWM5", "1,2"]] }
+    ]
+  },
+  "cybercam_pwm_frequency": {
+    "message0": "set PWM %1 frequency %2 Hz",
+    "tooltip": "set PWM %1 frequency %2 Hz",
+    "args0": [null, null]
+  },
+  "cybercam_pwm_duty": {
+    "message0": "set PWM %1 duty cycle %2 (0-1)",
+    "tooltip": "set PWM %1 duty cycle %2 (0-1)",
+    "args0": [null, null]
+  },
+  "cybercam_pwm_enable": {
+    "message0": "enable PWM %1",
+    "tooltip": "enable PWM %1",
+    "args0": [null]
+  },
+  "cybercam_pwm_disable": {
+    "message0": "disable PWM %1",
+    "tooltip": "disable PWM %1",
+    "args0": [null]
+  },
+  "cybercam_pwm_close": {
+    "message0": "close PWM %1",
+    "tooltip": "close PWM %1",
+    "args0": [null]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "toolbox_name": "Sistema",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_command": {
+    "message0": "ejecutar comando del sistema %1",
+    "tooltip": "ejecutar comando del sistema %1",
+    "args0": [
+      null
+    ]
+  },
+  "python_cpu_temperature": {
+    "message0": "temperatura de CPU °C",
+    "tooltip": "temperatura de CPU °C"
+  }
+}

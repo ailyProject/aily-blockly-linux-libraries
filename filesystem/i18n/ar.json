@@ -1,0 +1,16 @@
+{
+  "toolbox_name": "نظام",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_command": {
+    "message0": "شغّل أمر النظام %1",
+    "tooltip": "شغّل أمر النظام %1",
+    "args0": [
+      null
+    ]
+  },
+  "python_cpu_temperature": {
+    "message0": "درجة حرارة المعالج °C",
+    "tooltip": "درجة حرارة المعالج °C"
+  }
+}

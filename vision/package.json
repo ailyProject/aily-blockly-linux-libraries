@@ -1,0 +1,50 @@
+{
+  "name": "@aily-project/lib-vision",
+  "nickname": "Vision",
+  "nickname_zh_cn": "视觉",
+  "nickname_en": "Vision",
+  "nickname_zh_hk": "視覺",
+  "nickname_ja": "ビジョン",
+  "nickname_ko": "비전",
+  "nickname_de": "Bildverarbeitung",
+  "nickname_fr": "Vision",
+  "nickname_es": "Visión",
+  "nickname_pt": "Visão",
+  "nickname_ru": "Компьютерное зрение",
+  "nickname_ar": "رؤية",
+  "version": "0.0.1",
+  "description": "通用 OpenCV 图像处理、轮廓分析、绘制与二维码、条码和 AprilTag 识别。",
+  "description_zh_cn": "通用 OpenCV 图像处理、轮廓分析、绘制与二维码、条码和 AprilTag 识别。",
+  "description_en": "Portable OpenCV image processing, contour analysis, drawing, and QR/barcode/AprilTag recognition.",
+  "spec": true,
+  "compatibility": {
+    "type": [
+      "canaan:k230:cybercam",
+      "broadcom:bcm2712:raspberrypi_5",
+      "allwinner:t527:walnutpi_2b"
+    ],
+    "voltage": [
+      3.3
+    ]
+  },
+  "keywords": [
+    "aily",
+    "blockly",
+    "python",
+    "opencv",
+    "vision",
+    "contour",
+    "canny",
+    "hough",
+    "qr",
+    "barcode",
+    "apriltag"
+  ],
+  "tags": [
+    "data-processing"
+  ],
+  "author": "ailyProject",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {}
+}

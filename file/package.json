@@ -1,0 +1,48 @@
+{
+  "name": "@aily-project/lib-file",
+  "nickname": "File",
+  "nickname_zh_cn": "文件",
+  "nickname_en": "File",
+  "nickname_zh_hk": "檔案",
+  "nickname_ja": "ファイル",
+  "nickname_ko": "파일",
+  "nickname_de": "Dateien",
+  "nickname_fr": "Fichiers",
+  "nickname_es": "Archivos",
+  "nickname_pt": "Arquivos",
+  "nickname_ru": "Файлы",
+  "nickname_ar": "ملفات",
+  "version": "0.0.1",
+  "description": "跨平台 Python 标准文件操作：UTF-8 文本读写、路径存在判断和目录列举；隐藏兼容 4 个旧 CyberCAM 文件 type。",
+  "description_zh_cn": "跨平台 Python 标准文件操作：UTF-8 文本读写、路径存在判断和目录列举；隐藏兼容 4 个旧 CyberCAM 文件 type。",
+  "description_en": "Cross-platform standard Python file operations with four hidden legacy CyberCAM file types for saved-project compatibility.",
+  "spec": true,
+  "compatibility": {
+    "type": [
+      "canaan:k230:cybercam",
+      "broadcom:bcm2712:raspberrypi_5",
+      "allwinner:t527:walnutpi_2b"
+    ],
+    "voltage": [
+      3.3
+    ]
+  },
+  "keywords": [
+    "aily",
+    "blockly",
+    "python",
+    "file",
+    "filesystem",
+    "path",
+    "directory",
+    "utf-8"
+  ],
+  "tags": [
+    "storage"
+  ],
+  "author": "ailyProject",
+  "license": "MIT",
+  "homepage": "https://docs.python.org/3/library/functions.html#open",
+  "dependencies": {},
+  "devDependencies": {}
+}

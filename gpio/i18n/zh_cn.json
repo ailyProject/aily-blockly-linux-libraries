@@ -1,0 +1,231 @@
+{
+  "toolbox_name": "GPIO 与 PWM",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "linux_gpio_init": {
+    "message0": "初始化 GPIO %1，引脚 %2，方向 %3，上下拉 %4",
+    "tooltip": "使用 gpiozero 创建数字引脚。",
+    "args0": [
+      null,
+      null,
+      {
+        "options": [
+          [
+            "输入",
+            "INPUT"
+          ],
+          [
+            "输出",
+            "OUTPUT"
+          ]
+        ]
+      },
+      {
+        "options": [
+          [
+            "无",
+            "NONE"
+          ],
+          [
+            "上拉",
+            "UP"
+          ],
+          [
+            "下拉",
+            "DOWN"
+          ]
+        ]
+      }
+    ]
+  },
+  "linux_gpio_write": {
+    "message0": "将 GPIO %1 设为 %2",
+    "tooltip": "将 GPIO %1 设为 %2",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "linux_gpio_read": {
+    "message0": "GPIO %1 的值",
+    "tooltip": "GPIO %1 的值",
+    "args0": [
+      null
+    ]
+  },
+  "linux_gpio_close": {
+    "message0": "关闭 GPIO %1",
+    "tooltip": "关闭 GPIO %1",
+    "args0": [
+      null
+    ]
+  },
+  "linux_led_init": {
+    "message0": "初始化 LED %1，引脚 %2，有效电平 %3",
+    "tooltip": "在所选引脚上创建 gpiozero LED。",
+    "args0": [
+      null,
+      null,
+      {
+        "options": [
+          [
+            "高",
+            "TRUE"
+          ],
+          [
+            "低",
+            "FALSE"
+          ]
+        ]
+      }
+    ]
+  },
+  "linux_led_action": {
+    "message0": "LED %1 %2",
+    "tooltip": "点亮、熄灭或切换已初始化 LED 的状态。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "点亮",
+            "ON"
+          ],
+          [
+            "熄灭",
+            "OFF"
+          ],
+          [
+            "切换",
+            "TOGGLE"
+          ]
+        ]
+      }
+    ]
+  },
+  "linux_led_blink": {
+    "message0": "LED %1 闪烁，亮 %2 秒，灭 %3 秒，次数 %4（0 为无限）",
+    "tooltip": "在后台闪烁；次数为 0 时无限重复。",
+    "args0": [
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "linux_button_init": {
+    "message0": "初始化按键 %1，引脚 %2，上下拉 %3，无上下拉时有效电平 %4，消抖 %5 秒，长按 %6 秒",
+    "tooltip": "创建 gpiozero Button；选择无上下拉时使用有效电平设置。",
+    "args0": [
+      null,
+      null,
+      {
+        "options": [
+          [
+            "上拉",
+            "UP"
+          ],
+          [
+            "下拉",
+            "DOWN"
+          ],
+          [
+            "无",
+            "NONE"
+          ]
+        ]
+      },
+      {
+        "options": [
+          [
+            "高",
+            "TRUE"
+          ],
+          [
+            "低",
+            "FALSE"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "linux_button_pressed": {
+    "message0": "按键 %1 已按下",
+    "tooltip": "已初始化按键当前是否处于按下状态。",
+    "args0": [
+      null
+    ]
+  },
+  "linux_button_held": {
+    "message0": "按键 %1 已长按",
+    "tooltip": "已初始化按键是否已达到设定的长按时间。",
+    "args0": [
+      null
+    ]
+  },
+  "linux_button_wait": {
+    "message0": "等待按键 %1 %2，超时 %3 秒（0 为无限）",
+    "tooltip": "等待按下或释放；超时为 0 时一直等待。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "按下",
+            "PRESS"
+          ],
+          [
+            "释放",
+            "RELEASE"
+          ]
+        ]
+      },
+      null
+    ]
+  },
+  "linux_led_write": {
+    "message0": "将旧版固定 GPIO17 LED 设为 %1",
+    "tooltip": "旧版兼容积木，固定使用 GPIO17；请优先使用“初始化 LED”积木。",
+    "args0": [
+      null
+    ]
+  },
+  "linux_key_pressed": {
+    "message0": "旧版固定 GPIO27 按键已按下",
+    "tooltip": "旧版兼容积木，固定使用 GPIO27；请优先使用“初始化按键”积木。"
+  },
+  "linux_pwm_init": {
+    "message0": "初始化 PWM %1，引脚 %2，频率 %3 Hz",
+    "tooltip": "初始化 PWM %1，引脚 %2，频率 %3 Hz",
+    "args0": [
+      null,
+      null,
+      null
+    ]
+  },
+  "linux_pwm_duty": {
+    "message0": "将 PWM %1 的占空比设为 %2（0–1）",
+    "tooltip": "将 PWM %1 的占空比设为 %2（0–1）",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "linux_pwm_frequency": {
+    "message0": "将 PWM %1 的频率设为 %2 Hz",
+    "tooltip": "更改已初始化 PWM 输出的频率。",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "linux_pwm_close": {
+    "message0": "关闭 PWM %1",
+    "tooltip": "关闭 PWM %1",
+    "args0": [
+      null
+    ]
+  }
+}

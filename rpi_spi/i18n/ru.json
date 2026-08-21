@@ -1,0 +1,30 @@
+{
+  "toolbox_name": "SPI",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "rpi_spi_init": {
+    "message0": "инициализировать SPI %1 шина %2 устройство %3 режим %4 скорость %5 Гц бит %6",
+    "tooltip": "Открывает устройство SPI через py-spidev и настраивает параметры передачи.",
+    "args0": [null, null, null, null, null, null]
+  },
+  "rpi_spi_transfer": {
+    "message0": "SPI %1 передать %2",
+    "tooltip": "Передаёт список байтов через xfer2 и возвращает принятый список.",
+    "args0": [null, null]
+  },
+  "rpi_spi_read": {
+    "message0": "SPI %1 прочитать %2 байт",
+    "tooltip": "Читает байты из устройства SPI и возвращает их списком.",
+    "args0": [null, null]
+  },
+  "rpi_spi_write": {
+    "message0": "SPI %1 записать %2",
+    "tooltip": "Записывает список или буфер байтов через writebytes2.",
+    "args0": [null, null]
+  },
+  "rpi_spi_close": {
+    "message0": "закрыть SPI %1",
+    "tooltip": "Закрывает устройство SPI.",
+    "args0": [null]
+  }
+}

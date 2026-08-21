@@ -1,0 +1,47 @@
+{
+  "name": "@aily-project/lib-rpi-i2c",
+  "nickname": "I2C / SMBus",
+  "nickname_zh_cn": "I2C / SMBus",
+  "nickname_en": "I2C / SMBus",
+  "nickname_zh_hk": "I2C / SMBus",
+  "nickname_ja": "I2C / SMBus",
+  "nickname_ko": "I2C / SMBus",
+  "nickname_de": "I2C / SMBus",
+  "nickname_fr": "I2C / SMBus",
+  "nickname_es": "I2C / SMBus",
+  "nickname_pt": "I2C / SMBus",
+  "nickname_ru": "I2C / SMBus",
+  "nickname_ar": "I2C / SMBus",
+  "version": "0.0.1",
+  "description": "在树莓派 5 上通过 smbus2 访问 I2C/SMBus 设备，支持寄存器、块数据和重复起始事务。",
+  "description_zh_cn": "在树莓派 5 上通过 smbus2 访问 I2C/SMBus 设备，支持寄存器、块数据和重复起始事务。",
+  "description_en": "Access I2C/SMBus devices on Raspberry Pi 5 through smbus2, including register, block, and repeated-start transactions.",
+  "spec": true,
+  "compatibility": {
+    "type": [
+      "broadcom:bcm2712:raspberrypi_5"
+    ],
+    "voltage": [
+      3.3
+    ]
+  },
+  "keywords": [
+    "aily",
+    "blockly",
+    "python",
+    "linux",
+    "i2c",
+    "smbus",
+    "smbus2",
+    "sensor"
+  ],
+  "tags": [
+    "communication",
+    "io"
+  ],
+  "author": "ailyProject",
+  "license": "MIT",
+  "homepage": "https://smbus2.readthedocs.io/en/latest/",
+  "dependencies": {},
+  "devDependencies": {}
+}

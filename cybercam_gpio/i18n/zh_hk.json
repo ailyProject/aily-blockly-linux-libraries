@@ -1,0 +1,72 @@
+{
+  "toolbox_name": "GPIO / LED / PWM",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "cybercam_gpio_init": {
+    "message0": "初始化 GPIO %1，引腳 %2，方向 %3，上下拉 %4",
+    "tooltip": "使用官方 board 與 digitalio 模組建立數碼 IO 物件。",
+    "args0": [
+      null,
+      null,
+      { "options": [["輸入", "INPUT"], ["輸出", "OUTPUT"]] },
+      { "options": [["無", "NONE"], ["上拉", "UP"], ["下拉", "DOWN"]] }
+    ]
+  },
+  "cybercam_gpio_write": {
+    "message0": "將 GPIO %1 設為 %2",
+    "tooltip": "將 GPIO %1 設為 %2",
+    "args0": [null, null]
+  },
+  "cybercam_gpio_read": {
+    "message0": "GPIO %1 的值",
+    "tooltip": "GPIO %1 的值",
+    "args0": [null]
+  },
+  "cybercam_gpio_deinit": {
+    "message0": "解除初始化 GPIO %1",
+    "tooltip": "解除初始化 GPIO %1",
+    "args0": [null]
+  },
+  "cybercam_led_write": {
+    "message0": "將板載 LED 設為 %1",
+    "tooltip": "將板載 LED 設為 %1",
+    "args0": [null]
+  },
+  "cybercam_key_pressed": {
+    "message0": "板載按鍵已按下",
+    "tooltip": "板載按鍵已按下"
+  },
+  "cybercam_pwm_init": {
+    "message0": "初始化 PWM %1，目標 %2",
+    "tooltip": "初始化 PWM %1，目標 %2",
+    "args0": [
+      null,
+      { "options": [["GPIO60 / PWM0", "0,0"], ["GPIO61 / PWM1", "0,1"], ["補光燈 / PWM2", "0,2"], ["蜂鳴器 / PWM3", "1,0"], ["背光 / PWM5", "1,2"]] }
+    ]
+  },
+  "cybercam_pwm_frequency": {
+    "message0": "將 PWM %1 的頻率設為 %2 Hz",
+    "tooltip": "將 PWM %1 的頻率設為 %2 Hz",
+    "args0": [null, null]
+  },
+  "cybercam_pwm_duty": {
+    "message0": "將 PWM %1 的佔空比設為 %2（0–1）",
+    "tooltip": "將 PWM %1 的佔空比設為 %2（0–1）",
+    "args0": [null, null]
+  },
+  "cybercam_pwm_enable": {
+    "message0": "啟用 PWM %1",
+    "tooltip": "啟用 PWM %1",
+    "args0": [null]
+  },
+  "cybercam_pwm_disable": {
+    "message0": "停用 PWM %1",
+    "tooltip": "停用 PWM %1",
+    "args0": [null]
+  },
+  "cybercam_pwm_close": {
+    "message0": "關閉 PWM %1",
+    "tooltip": "關閉 PWM %1",
+    "args0": [null]
+  }
+}

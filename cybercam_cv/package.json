@@ -1,0 +1,60 @@
+{
+  "name": "@aily-project/lib-cybercam-cv",
+  "nickname": "Camera & AI",
+  "nickname_zh_cn": "相机与 AI",
+  "nickname_en": "Camera & AI",
+  "nickname_zh_hk": "相機與 AI",
+  "nickname_ja": "カメラと AI",
+  "nickname_ko": "카메라 및 AI",
+  "nickname_de": "Kamera & KI",
+  "nickname_fr": "Caméra et IA",
+  "nickname_es": "Cámara e IA",
+  "nickname_pt": "Câmera e IA",
+  "nickname_ru": "Камера и ИИ",
+  "nickname_ar": "الكاميرا والذكاء الاصطناعي",
+  "version": "0.0.1",
+  "description": "01Studio CyberCAM K230 专用机器视觉积木，提供 walnutpi 相机、显示、IDE 预览、屏幕方向、KPU 推理与结果访问；23 个既有 type 原样迁入，并新增完整相机读取结果积木，共 24 个。",
+  "description_zh_cn": "01Studio CyberCAM K230 专用机器视觉积木，提供 walnutpi 相机、显示、IDE 预览、屏幕方向、KPU 推理与结果访问；23 个既有 type 原样迁入，并新增完整相机读取结果积木，共 24 个。",
+  "description_en": "CyberCAM K230-specific vision blocks for walnutpi camera, display, IDE preview, direction, KPU inference, and results: 23 existing types moved unchanged plus one new complete camera-read block, 24 total.",
+  "description_zh_hk": "01Studio CyberCAM K230 專用機器視覺積木，提供 walnutpi 相機、顯示、IDE 預覽、螢幕方向、KPU 推理與結果存取；23 個既有 type 原樣遷入，另新增完整相機讀取結果積木，共 24 個。",
+  "description_ja": "CyberCAM K230 固有のカメラ、表示、IDE、画面方向、KPU 推論、結果参照を提供します。既存 23 型を名前を変えずに移動し、完全なカメラ読取結果用の新規 1 型を加えた全 24 ブロックです。",
+  "description_ko": "CyberCAM K230 전용 카메라, 디스플레이, IDE, 화면 방향, KPU 추론 및 결과 블록입니다. 기존 형식 23개를 이름 변경 없이 옮기고 전체 카메라 읽기 결과용 새 블록 1개를 더해 총 24개입니다.",
+  "description_de": "CyberCAM-K230-spezifische Blöcke für Kamera, Anzeige, IDE, Ausrichtung, KPU-Inferenz und Ergebnisse: 23 vorhandene Typen unverändert verschoben plus ein neuer Block für das vollständige Kamera-Leseergebnis, insgesamt 24.",
+  "description_fr": "Blocs de vision propres au CyberCAM K230 pour caméra, affichage, IDE, orientation, KPU et résultats : 23 types existants déplacés sans renommage, plus un nouveau bloc de lecture caméra complète, soit 24 au total.",
+  "description_es": "Bloques de visión para CyberCAM K230: 23 tipos existentes trasladados sin renombrar y un nuevo bloque para el resultado completo de lectura de cámara, 24 en total.",
+  "description_pt": "Blocos de visão para CyberCAM K230: 23 tipos existentes movidos sem renomeação e um novo bloco para o resultado completo da leitura da câmera, totalizando 24.",
+  "description_ru": "Блоки компьютерного зрения CyberCAM K230: 23 существующих типа перенесены без переименования и добавлен один блок полного результата чтения камеры, всего 24.",
+  "description_ar": "لبنات رؤية خاصة بـ CyberCAM K230: نُقلت 23 نوعًا حاليًا دون إعادة تسمية وأضيفت لبنة جديدة لنتيجة قراءة الكاميرا الكاملة، بإجمالي 24 لبنة.",
+  "spec": true,
+  "compatibility": {
+    "type": [
+      "canaan:k230:cybercam"
+    ],
+    "voltage": [
+      3.3
+    ]
+  },
+  "keywords": [
+    "aily",
+    "blockly",
+    "python",
+    "cybercam",
+    "k230",
+    "camera",
+    "display",
+    "kpu",
+    "ai",
+    "computer-vision"
+  ],
+  "tags": [
+    "camera",
+    "display",
+    "data-processing",
+    "sensor"
+  ],
+  "author": "ailyProject; hardware APIs by 01Studio",
+  "license": "MIT",
+  "homepage": "https://wiki.01studio.cc/docs/category/%E6%9C%BA%E5%99%A8%E8%A7%86%E8%A7%89-2/",
+  "dependencies": {},
+  "devDependencies": {}
+}

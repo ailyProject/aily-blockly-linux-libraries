@@ -1,0 +1,50 @@
+{
+  "toolbox_name": "I2C / SMBus",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "rpi_i2c_init": {
+    "message0": "inicializar I2C %1 barramento %2",
+    "tooltip": "Abre um barramento I2C Linux com smbus2.",
+    "args0": [null, null]
+  },
+  "rpi_i2c_read_byte_data": {
+    "message0": "I2C %1 ler byte endereço %2 registrador %3",
+    "tooltip": "Lê um valor de 8 bits de um registrador I2C.",
+    "args0": [null, null, null]
+  },
+  "rpi_i2c_write_byte_data": {
+    "message0": "I2C %1 escrever byte endereço %2 registrador %3 dado %4",
+    "tooltip": "Escreve um valor de 8 bits em um registrador I2C.",
+    "args0": [null, null, null, null]
+  },
+  "rpi_i2c_read_word_data": {
+    "message0": "I2C %1 ler palavra endereço %2 registrador %3",
+    "tooltip": "Lê uma palavra SMBus de 16 bits em little-endian.",
+    "args0": [null, null, null]
+  },
+  "rpi_i2c_write_word_data": {
+    "message0": "I2C %1 escrever palavra endereço %2 registrador %3 dado %4",
+    "tooltip": "Escreve uma palavra SMBus de 16 bits em little-endian.",
+    "args0": [null, null, null, null]
+  },
+  "rpi_i2c_read_i2c_block": {
+    "message0": "I2C %1 ler bloco endereço %2 registrador %3 tamanho %4",
+    "tooltip": "Lê um bloco de bytes de um registrador I2C.",
+    "args0": [null, null, null, null]
+  },
+  "rpi_i2c_write_i2c_block": {
+    "message0": "I2C %1 escrever bloco endereço %2 registrador %3 dados %4",
+    "tooltip": "Escreve uma lista de bytes em um registrador I2C.",
+    "args0": [null, null, null, null]
+  },
+  "rpi_i2c_write_read": {
+    "message0": "I2C %1 início repetido endereço %2 escrever %3 ler %4 bytes",
+    "tooltip": "Escreve e lê em uma transação I2C com início repetido.",
+    "args0": [null, null, null, null]
+  },
+  "rpi_i2c_close": {
+    "message0": "fechar I2C %1",
+    "tooltip": "Fecha um barramento I2C.",
+    "args0": [null]
+  }
+}

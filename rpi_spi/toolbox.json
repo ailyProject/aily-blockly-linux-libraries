@@ -1,0 +1,67 @@
+{
+  "kind": "category",
+  "name": "SPI",
+  "colour": "#5C6BC0",
+  "contents": [
+    {
+      "kind": "block",
+      "type": "rpi_spi_init",
+      "inputs": {
+        "SPEED": {
+          "shadow": {
+            "type": "math_number",
+            "fields": {
+              "NUM": 500000
+            }
+          }
+        }
+      }
+    },
+    {
+      "kind": "block",
+      "type": "rpi_spi_transfer",
+      "inputs": {
+        "DATA": {
+          "shadow": {
+            "type": "lists_create_with",
+            "extraState": {
+              "itemCount": 0
+            }
+          }
+        }
+      }
+    },
+    {
+      "kind": "block",
+      "type": "rpi_spi_read",
+      "inputs": {
+        "LENGTH": {
+          "shadow": {
+            "type": "math_number",
+            "fields": {
+              "NUM": 1
+            }
+          }
+        }
+      }
+    },
+    {
+      "kind": "block",
+      "type": "rpi_spi_write",
+      "inputs": {
+        "DATA": {
+          "shadow": {
+            "type": "lists_create_with",
+            "extraState": {
+              "itemCount": 0
+            }
+          }
+        }
+      }
+    },
+    {
+      "kind": "block",
+      "type": "rpi_spi_close"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "name": "@aily-project/lib-audio",
+  "nickname": "Audio",
+  "nickname_zh_cn": "音频",
+  "nickname_en": "Audio",
+  "nickname_zh_hk": "音訊",
+  "nickname_ja": "オーディオ",
+  "nickname_ko": "오디오",
+  "nickname_de": "Audio",
+  "nickname_fr": "Audio",
+  "nickname_es": "Audio",
+  "nickname_pt": "Áudio",
+  "nickname_ru": "Аудио",
+  "nickname_ar": "صوت",
+  "version": "0.0.1",
+  "description": "通过 ALSA 播放和录制 WAV 音频。",
+  "description_zh_cn": "通过 ALSA 播放和录制 WAV 音频。",
+  "description_en": "Play and record WAV audio through ALSA.",
+  "spec": true,
+  "compatibility": {
+    "type": [
+      "broadcom:bcm2712:raspberrypi_5",
+      "allwinner:t527:walnutpi_2b"
+    ],
+    "voltage": [
+      3.3
+    ]
+  },
+  "keywords": [
+    "aily",
+    "blockly",
+    "python",
+    "linux",
+    "audio",
+    "alsa",
+    "wav"
+  ],
+  "tags": [
+    "audio"
+  ],
+  "author": "ailyProject",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {}
+}

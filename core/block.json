@@ -1,0 +1,232 @@
+[
+  {
+    "type": "python_start",
+    "message0": "when program starts %1 %2",
+    "args0": [
+      {
+        "type": "input_statement",
+        "name": "DO"
+      },
+      {
+        "type": "input_dummy"
+      }
+    ],
+    "colour": "#455A64",
+    "tooltip": "Run once when the Python program starts.",
+    "icon": "settings"
+  },
+  {
+    "type": "python_forever",
+    "message0": "forever %1 %2",
+    "args0": [
+      {
+        "type": "input_statement",
+        "name": "DO"
+      },
+      {
+        "type": "input_dummy"
+      }
+    ],
+    "colour": "#455A64",
+    "tooltip": "Run these blocks repeatedly.",
+    "icon": "settings"
+  },
+  {
+    "type": "python_sleep",
+    "message0": "wait %1 seconds",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "SECONDS",
+        "check": "Number"
+      }
+    ],
+    "colour": "#455A64",
+    "tooltip": "Pause the program for a number of seconds.",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "python_print",
+    "message0": "print %1",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "VALUE"
+      }
+    ],
+    "colour": "#455A64",
+    "tooltip": "print %1",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "python_number",
+    "message0": "number %1",
+    "args0": [
+      {
+        "type": "field_number",
+        "name": "VALUE",
+        "value": 0
+      }
+    ],
+    "colour": "#455A64",
+    "tooltip": "number %1",
+    "icon": "settings",
+    "output": "Any"
+  },
+  {
+    "type": "python_text",
+    "message0": "text %1",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "VALUE",
+        "text": ""
+      }
+    ],
+    "colour": "#455A64",
+    "tooltip": "text %1",
+    "icon": "settings",
+    "output": "Any"
+  },
+  {
+    "type": "python_boolean",
+    "message0": "boolean %1",
+    "args0": [
+      {
+        "type": "field_dropdown",
+        "name": "VALUE",
+        "options": [
+          [
+            "true",
+            "TRUE"
+          ],
+          [
+            "false",
+            "FALSE"
+          ]
+        ]
+      }
+    ],
+    "colour": "#455A64",
+    "tooltip": "boolean %1",
+    "icon": "settings",
+    "output": "Any"
+  },
+  {
+    "type": "python_tuple",
+    "message0": "tuple containing %1",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "ITEMS"
+      }
+    ],
+    "colour": "#455A64",
+    "tooltip": "tuple containing %1",
+    "icon": "settings",
+    "output": "Any"
+  },
+  {
+    "type": "python_list",
+    "message0": "list containing %1",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "ITEMS"
+      }
+    ],
+    "colour": "#455A64",
+    "tooltip": "list containing %1",
+    "icon": "settings",
+    "output": "Any"
+  },
+  {
+    "type": "python_set_variable",
+    "message0": "set variable %1 to %2",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "value"
+      },
+      {
+        "type": "input_value",
+        "name": "VALUE"
+      }
+    ],
+    "colour": "#455A64",
+    "tooltip": "set variable %1 to %2",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "python_get_variable",
+    "message0": "variable %1",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "value"
+      }
+    ],
+    "colour": "#455A64",
+    "tooltip": "variable %1",
+    "icon": "settings",
+    "output": "Any"
+  },
+  {
+    "type": "python_if",
+    "message0": "if %1 do %2 %3",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "CONDITION",
+        "check": "Boolean"
+      },
+      {
+        "type": "input_statement",
+        "name": "DO"
+      },
+      {
+        "type": "input_dummy"
+      }
+    ],
+    "colour": "#455A64",
+    "tooltip": "if %1 do %2 %3",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "python_for_each",
+    "message0": "for each %1 in %2 do %3 %4",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "item"
+      },
+      {
+        "type": "input_value",
+        "name": "ITEMS"
+      },
+      {
+        "type": "input_statement",
+        "name": "DO"
+      },
+      {
+        "type": "input_dummy"
+      }
+    ],
+    "colour": "#455A64",
+    "tooltip": "for each %1 in %2 do %3 %4",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  }
+]

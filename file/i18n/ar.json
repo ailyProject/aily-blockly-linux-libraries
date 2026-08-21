@@ -1,0 +1,87 @@
+{
+  "toolbox_name": "ملفات",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_file_read": {
+    "message0": "اقرأ ملف النص %1",
+    "tooltip": "اقرأ ملف النص %1",
+    "args0": [
+      null
+    ]
+  },
+  "python_file_write": {
+    "message0": "عالج ملف النص %2 بالوضع %1 المحتوى %3",
+    "tooltip": "عالج ملف النص %2 بالوضع %1 المحتوى %3",
+    "args0": [
+      {
+        "options": [
+          [
+            "كتابة",
+            "w"
+          ],
+          [
+            "إلحاق",
+            "a"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_file_exists": {
+    "message0": "المسار %1 موجود",
+    "tooltip": "المسار %1 موجود",
+    "args0": [
+      null
+    ]
+  },
+  "python_file_list": {
+    "message0": "اعرض المجلد %1",
+    "tooltip": "اعرض المجلد %1",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_file_read": {
+    "message0": "قراءة الملف النصي %1",
+    "tooltip": "قراءة الملف النصي %1",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_file_write": {
+    "message0": "معالجة الملف النصي %2 بالوضع %1: المحتوى %3",
+    "tooltip": "معالجة الملف النصي %2 بالوضع %1: المحتوى %3",
+    "args0": [
+      {
+        "options": [
+          [
+            "كتابة",
+            "w"
+          ],
+          [
+            "إلحاق",
+            "a"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "cybercam_file_exists": {
+    "message0": "المسار %1 موجود",
+    "tooltip": "المسار %1 موجود",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_file_list": {
+    "message0": "سرد المجلد %1",
+    "tooltip": "سرد المجلد %1",
+    "args0": [
+      null
+    ]
+  }
+}

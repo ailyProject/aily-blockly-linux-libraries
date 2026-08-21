@@ -1,0 +1,21 @@
+{
+  "toolbox_name": "Audio",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "linux_audio_play": {
+    "message0": "WAV-Datei %1 abspielen",
+    "tooltip": "WAV-Datei %1 abspielen",
+    "args0": [
+      null
+    ]
+  },
+  "linux_audio_record": {
+    "message0": "WAV nach %1 aufnehmen, Sekunden %2, Abtastrate %3",
+    "tooltip": "WAV nach %1 aufnehmen, Sekunden %2, Abtastrate %3",
+    "args0": [
+      null,
+      null,
+      null
+    ]
+  }
+}

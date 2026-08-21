@@ -1,0 +1,40 @@
+{
+  "toolbox_name": "Picamera2",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "rpi_picamera2_init": {
+    "message0": "Picamera2 %1 を初期化 カメラ %2 幅 %3 高さ %4 形式 %5",
+    "tooltip": "Raspberry Pi Picamera2 カメラを作成して設定します。",
+    "args0": [null, null, null, null, null]
+  },
+  "rpi_picamera2_start": {
+    "message0": "Picamera2 %1 を開始",
+    "tooltip": "設定済みの Picamera2 カメラを開始します。",
+    "args0": [null]
+  },
+  "rpi_picamera2_capture_array": {
+    "message0": "Picamera2 %1 で画像配列を取得",
+    "tooltip": "メインストリームを NumPy 配列として取得します。",
+    "args0": [null]
+  },
+  "rpi_picamera2_capture_file": {
+    "message0": "Picamera2 %1 でファイル %2 に撮影",
+    "tooltip": "画像を撮影してファイルに保存します。",
+    "args0": [null, null]
+  },
+  "rpi_picamera2_set_control": {
+    "message0": "Picamera2 %1 の制御 %2 を %3 に設定",
+    "tooltip": "対応する Picamera2 カメラ制御を設定します。",
+    "args0": [null, null, null]
+  },
+  "rpi_picamera2_stop": {
+    "message0": "Picamera2 %1 を停止",
+    "tooltip": "カメラを閉じずに撮影を停止します。",
+    "args0": [null]
+  },
+  "rpi_picamera2_close": {
+    "message0": "Picamera2 %1 を閉じる",
+    "tooltip": "Picamera2 カメラを安全に停止して閉じます。",
+    "args0": [null]
+  }
+}

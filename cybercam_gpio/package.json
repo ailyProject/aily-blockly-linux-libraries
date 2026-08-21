@@ -1,0 +1,59 @@
+{
+  "name": "@aily-project/lib-cybercam-gpio",
+  "nickname": "GPIO / LED / PWM",
+  "nickname_zh_cn": "GPIO / LED / PWM",
+  "nickname_en": "GPIO / LED / PWM",
+  "nickname_zh_hk": "GPIO / LED / PWM",
+  "nickname_ja": "GPIO / LED / PWM",
+  "nickname_ko": "GPIO / LED / PWM",
+  "nickname_de": "GPIO / LED / PWM",
+  "nickname_fr": "GPIO / LED / PWM",
+  "nickname_es": "GPIO / LED / PWM",
+  "nickname_pt": "GPIO / LED / PWM",
+  "nickname_ru": "GPIO / LED / PWM",
+  "nickname_ar": "GPIO / LED / PWM",
+  "version": "0.0.1",
+  "description": "01Studio CyberCAM K230 专用 GPIO、板载 LED/按键与 PWM 积木；12 个既有 type 从 lib-cybercam 原样迁入。",
+  "description_zh_cn": "01Studio CyberCAM K230 专用 GPIO、板载 LED/按键与 PWM 积木；12 个既有 type 从 lib-cybercam 原样迁入。",
+  "description_en": "CyberCAM K230-specific GPIO, onboard LED/key, and PWM blocks: 12 existing types moved unchanged from lib-cybercam.",
+  "description_zh_hk": "01Studio CyberCAM K230 專用 GPIO、板載 LED/按鍵及 PWM 積木；12 個既有 type 從 lib-cybercam 原樣遷入。",
+  "description_ja": "CyberCAM K230 固有の GPIO、オンボード LED／キー、PWM 用ブロックです。既存の 12 型を lib-cybercam から名前を変えずに移動しました。",
+  "description_ko": "CyberCAM K230 전용 GPIO, 온보드 LED/키 및 PWM 블록입니다. 기존 형식 12개를 lib-cybercam에서 이름 변경 없이 옮겼습니다.",
+  "description_de": "CyberCAM-K230-spezifische Blöcke für GPIO, Onboard-LED/-Taste und PWM: 12 vorhandene Typen wurden unverändert aus lib-cybercam verschoben.",
+  "description_fr": "Blocs GPIO, LED/bouton intégrés et PWM propres au CyberCAM K230 : 12 types existants déplacés sans renommage depuis lib-cybercam.",
+  "description_es": "Bloques GPIO, LED/botón integrados y PWM para CyberCAM K230: 12 tipos existentes trasladados sin renombrar desde lib-cybercam.",
+  "description_pt": "Blocos GPIO, LED/botão integrados e PWM para CyberCAM K230: 12 tipos existentes movidos sem renomeação de lib-cybercam.",
+  "description_ru": "Блоки GPIO, встроенного светодиода/кнопки и PWM для CyberCAM K230: 12 существующих типов перенесены без переименования из lib-cybercam.",
+  "description_ar": "لبنات GPIO وLED/الزر المدمجين وPWM الخاصة بـ CyberCAM K230؛ نُقلت 12 نوعًا حاليًا دون إعادة تسمية من lib-cybercam.",
+  "spec": true,
+  "compatibility": {
+    "type": [
+      "canaan:k230:cybercam"
+    ],
+    "voltage": [
+      3.3
+    ]
+  },
+  "keywords": [
+    "aily",
+    "blockly",
+    "python",
+    "cybercam",
+    "k230",
+    "gpio",
+    "digitalio",
+    "led",
+    "button",
+    "pwm",
+    "python-periphery"
+  ],
+  "tags": [
+    "io",
+    "sensor"
+  ],
+  "author": "ailyProject; hardware APIs by 01Studio",
+  "license": "MIT",
+  "homepage": "https://wiki.01studio.cc/docs/cybercam/basic_examples/gpio_intro/",
+  "dependencies": {},
+  "devDependencies": {}
+}

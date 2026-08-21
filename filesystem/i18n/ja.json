@@ -1,0 +1,16 @@
+{
+  "toolbox_name": "システム",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_command": {
+    "message0": "システムコマンド %1 を実行",
+    "tooltip": "システムコマンド %1 を実行",
+    "args0": [
+      null
+    ]
+  },
+  "python_cpu_temperature": {
+    "message0": "CPU 温度 °C",
+    "tooltip": "CPU 温度 °C"
+  }
+}

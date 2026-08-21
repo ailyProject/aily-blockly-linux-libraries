@@ -1,0 +1,21 @@
+{
+  "toolbox_name": "音频",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "linux_audio_play": {
+    "message0": "播放 WAV 文件 %1",
+    "tooltip": "播放 WAV 文件 %1",
+    "args0": [
+      null
+    ]
+  },
+  "linux_audio_record": {
+    "message0": "录制 WAV 到 %1，时长 %2 秒，采样率 %3",
+    "tooltip": "录制 WAV 到 %1，时长 %2 秒，采样率 %3",
+    "args0": [
+      null,
+      null,
+      null
+    ]
+  }
+}

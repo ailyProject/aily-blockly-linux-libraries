@@ -1,0 +1,51 @@
+{
+  "kind": "category",
+  "name": "Serial",
+  "colour": "#00897B",
+  "contents": [
+    {
+      "kind": "block",
+      "type": "linux_uart_init"
+    },
+    {
+      "kind": "block",
+      "type": "linux_uart_available"
+    },
+    {
+      "kind": "block",
+      "type": "linux_uart_read",
+      "inputs": {
+        "SIZE": {
+          "shadow": {
+            "type": "math_number",
+            "fields": {
+              "NUM": 1024
+            }
+          }
+        }
+      }
+    },
+    {
+      "kind": "block",
+      "type": "linux_uart_write",
+      "inputs": {
+        "DATA": {
+          "shadow": {
+            "type": "text",
+            "fields": {
+              "TEXT": ""
+            }
+          }
+        }
+      }
+    },
+    {
+      "kind": "block",
+      "type": "linux_uart_flush"
+    },
+    {
+      "kind": "block",
+      "type": "linux_uart_close"
+    }
+  ]
+}

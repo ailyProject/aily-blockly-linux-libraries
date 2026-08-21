@@ -1,0 +1,50 @@
+{
+  "toolbox_name": "I2C / SMBus",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "rpi_i2c_init": {
+    "message0": "تهيئة I2C‏ %1 على الناقل %2",
+    "tooltip": "فتح ناقل I2C في Linux باستخدام smbus2.",
+    "args0": [null, null]
+  },
+  "rpi_i2c_read_byte_data": {
+    "message0": "I2C‏ %1 قراءة بايت من العنوان %2 السجل %3",
+    "tooltip": "قراءة قيمة 8 بت من سجل I2C.",
+    "args0": [null, null, null]
+  },
+  "rpi_i2c_write_byte_data": {
+    "message0": "I2C‏ %1 كتابة بايت إلى العنوان %2 السجل %3 البيانات %4",
+    "tooltip": "كتابة قيمة 8 بت إلى سجل I2C.",
+    "args0": [null, null, null, null]
+  },
+  "rpi_i2c_read_word_data": {
+    "message0": "I2C‏ %1 قراءة كلمة من العنوان %2 السجل %3",
+    "tooltip": "قراءة كلمة SMBus صغيرة الترتيب بحجم 16 بت من سجل.",
+    "args0": [null, null, null]
+  },
+  "rpi_i2c_write_word_data": {
+    "message0": "I2C‏ %1 كتابة كلمة إلى العنوان %2 السجل %3 البيانات %4",
+    "tooltip": "كتابة كلمة SMBus صغيرة الترتيب بحجم 16 بت إلى سجل.",
+    "args0": [null, null, null, null]
+  },
+  "rpi_i2c_read_i2c_block": {
+    "message0": "I2C‏ %1 قراءة كتلة من العنوان %2 السجل %3 بطول %4",
+    "tooltip": "قراءة كتلة من البايتات من سجل I2C.",
+    "args0": [null, null, null, null]
+  },
+  "rpi_i2c_write_i2c_block": {
+    "message0": "I2C‏ %1 كتابة كتلة إلى العنوان %2 السجل %3 البيانات %4",
+    "tooltip": "كتابة قائمة بايتات إلى سجل I2C.",
+    "args0": [null, null, null, null]
+  },
+  "rpi_i2c_write_read": {
+    "message0": "I2C‏ %1 بدء متكرر العنوان %2 كتابة %3 قراءة %4 بايت",
+    "tooltip": "كتابة بايتات وقراءة الاستجابة في معاملة I2C واحدة ببدء متكرر.",
+    "args0": [null, null, null, null]
+  },
+  "rpi_i2c_close": {
+    "message0": "إغلاق I2C‏ %1",
+    "tooltip": "إغلاق ناقل I2C.",
+    "args0": [null]
+  }
+}

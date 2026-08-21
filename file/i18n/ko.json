@@ -1,0 +1,87 @@
+{
+  "toolbox_name": "파일",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_file_read": {
+    "message0": "텍스트 파일 %1 읽기",
+    "tooltip": "텍스트 파일 %1 읽기",
+    "args0": [
+      null
+    ]
+  },
+  "python_file_write": {
+    "message0": "텍스트 파일 %2 를 %1 모드로 처리, 내용 %3",
+    "tooltip": "텍스트 파일 %2 를 %1 모드로 처리, 내용 %3",
+    "args0": [
+      {
+        "options": [
+          [
+            "쓰기",
+            "w"
+          ],
+          [
+            "추가",
+            "a"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_file_exists": {
+    "message0": "경로 %1 이 존재함",
+    "tooltip": "경로 %1 이 존재함",
+    "args0": [
+      null
+    ]
+  },
+  "python_file_list": {
+    "message0": "디렉터리 %1 나열",
+    "tooltip": "디렉터리 %1 나열",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_file_read": {
+    "message0": "텍스트 파일 %1 읽기",
+    "tooltip": "텍스트 파일 %1 읽기",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_file_write": {
+    "message0": "텍스트 파일 %2를 %1 모드로 처리: 내용 %3",
+    "tooltip": "텍스트 파일 %2를 %1 모드로 처리: 내용 %3",
+    "args0": [
+      {
+        "options": [
+          [
+            "쓰기",
+            "w"
+          ],
+          [
+            "추가",
+            "a"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "cybercam_file_exists": {
+    "message0": "경로 %1이 존재함",
+    "tooltip": "경로 %1이 존재함",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_file_list": {
+    "message0": "디렉터리 %1 목록",
+    "tooltip": "디렉터리 %1 목록",
+    "args0": [
+      null
+    ]
+  }
+}

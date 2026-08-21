@@ -1,0 +1,443 @@
+[
+  {
+    "type": "linux_gpio_init",
+    "message0": "initialize GPIO %1 pin %2 direction %3 pull %4",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "pin"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "PIN",
+        "options": "${board.digitalPins}"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "DIRECTION",
+        "options": [
+          [
+            "input",
+            "INPUT"
+          ],
+          [
+            "output",
+            "OUTPUT"
+          ]
+        ]
+      },
+      {
+        "type": "field_dropdown",
+        "name": "PULL",
+        "options": [
+          [
+            "none",
+            "NONE"
+          ],
+          [
+            "up",
+            "UP"
+          ],
+          [
+            "down",
+            "DOWN"
+          ]
+        ]
+      }
+    ],
+    "colour": "#00897B",
+    "tooltip": "Create a gpiozero digital pin.",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "linux_gpio_write",
+    "message0": "set GPIO %1 to %2",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "pin"
+      },
+      {
+        "type": "input_value",
+        "name": "VALUE",
+        "check": "Boolean"
+      }
+    ],
+    "colour": "#00897B",
+    "tooltip": "set GPIO %1 to %2",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "linux_gpio_read",
+    "message0": "GPIO %1 value",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "pin"
+      }
+    ],
+    "colour": "#00897B",
+    "tooltip": "GPIO %1 value",
+    "icon": "settings",
+    "output": "Boolean"
+  },
+  {
+    "type": "linux_gpio_close",
+    "message0": "close GPIO %1",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "pin"
+      }
+    ],
+    "colour": "#00897B",
+    "tooltip": "close GPIO %1",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "linux_led_init",
+    "message0": "initialize LED %1 pin %2 active level %3",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "led"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "PIN",
+        "options": "${board.digitalPins}"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "ACTIVE_HIGH",
+        "options": [
+          [
+            "high",
+            "TRUE"
+          ],
+          [
+            "low",
+            "FALSE"
+          ]
+        ]
+      }
+    ],
+    "colour": "#00897B",
+    "tooltip": "Create a gpiozero LED on the selected pin.",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "linux_led_action",
+    "message0": "LED %1 %2",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "led"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "ACTION",
+        "options": [
+          [
+            "on",
+            "ON"
+          ],
+          [
+            "off",
+            "OFF"
+          ],
+          [
+            "toggle",
+            "TOGGLE"
+          ]
+        ]
+      }
+    ],
+    "colour": "#00897B",
+    "tooltip": "Turn an initialized LED on, off, or toggle it.",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "linux_led_blink",
+    "message0": "blink LED %1 on %2 s off %3 s count %4 (0 forever)",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "led"
+      },
+      {
+        "type": "input_value",
+        "name": "ON_TIME",
+        "check": "Number"
+      },
+      {
+        "type": "input_value",
+        "name": "OFF_TIME",
+        "check": "Number"
+      },
+      {
+        "type": "input_value",
+        "name": "COUNT",
+        "check": "Number"
+      }
+    ],
+    "colour": "#00897B",
+    "tooltip": "Blink in the background; a count of 0 repeats forever.",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "linux_button_init",
+    "message0": "initialize button %1 pin %2 pull %3 active level (no pull) %4 debounce %5 s hold %6 s",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "button"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "PIN",
+        "options": "${board.digitalPins}"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "PULL",
+        "options": [
+          [
+            "up",
+            "UP"
+          ],
+          [
+            "down",
+            "DOWN"
+          ],
+          [
+            "none",
+            "NONE"
+          ]
+        ]
+      },
+      {
+        "type": "field_dropdown",
+        "name": "ACTIVE_HIGH",
+        "options": [
+          [
+            "high",
+            "TRUE"
+          ],
+          [
+            "low",
+            "FALSE"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "BOUNCE_TIME",
+        "check": "Number"
+      },
+      {
+        "type": "input_value",
+        "name": "HOLD_TIME",
+        "check": "Number"
+      }
+    ],
+    "colour": "#00897B",
+    "tooltip": "Create a gpiozero Button. Active level is used when pull is none.",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "linux_button_pressed",
+    "message0": "button %1 is pressed",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "button"
+      }
+    ],
+    "colour": "#00897B",
+    "tooltip": "Whether the initialized button is currently pressed.",
+    "icon": "settings",
+    "output": "Boolean"
+  },
+  {
+    "type": "linux_button_held",
+    "message0": "button %1 is held",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "button"
+      }
+    ],
+    "colour": "#00897B",
+    "tooltip": "Whether the initialized button has been held for its hold time.",
+    "icon": "settings",
+    "output": "Boolean"
+  },
+  {
+    "type": "linux_button_wait",
+    "message0": "wait for button %1 %2 timeout %3 s (0 forever)",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "button"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "EVENT",
+        "options": [
+          [
+            "press",
+            "PRESS"
+          ],
+          [
+            "release",
+            "RELEASE"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "TIMEOUT",
+        "check": "Number"
+      }
+    ],
+    "colour": "#00897B",
+    "tooltip": "Wait for a press or release; timeout 0 waits without a limit.",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "linux_led_write",
+    "message0": "set legacy GPIO17 LED to %1",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "VALUE",
+        "check": "Boolean"
+      }
+    ],
+    "colour": "#00897B",
+    "tooltip": "Legacy compatibility block fixed to GPIO17; prefer initialize LED.",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "linux_key_pressed",
+    "message0": "legacy GPIO27 button is pressed",
+    "colour": "#00897B",
+    "tooltip": "Legacy compatibility block fixed to GPIO27; prefer initialize button.",
+    "icon": "settings",
+    "output": "Any"
+  },
+  {
+    "type": "linux_pwm_init",
+    "message0": "initialize PWM %1 pin %2 frequency %3 Hz",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "pwm"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "PIN",
+        "options": "${board.digitalPins}"
+      },
+      {
+        "type": "input_value",
+        "name": "FREQUENCY",
+        "check": "Number"
+      }
+    ],
+    "colour": "#00897B",
+    "tooltip": "initialize PWM %1 pin %2 frequency %3 Hz",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "linux_pwm_duty",
+    "message0": "set PWM %1 duty cycle %2 (0-1)",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "pwm"
+      },
+      {
+        "type": "input_value",
+        "name": "DUTY",
+        "check": "Number"
+      }
+    ],
+    "colour": "#00897B",
+    "tooltip": "set PWM %1 duty cycle %2 (0-1)",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "linux_pwm_frequency",
+    "message0": "set PWM %1 frequency %2 Hz",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "pwm"
+      },
+      {
+        "type": "input_value",
+        "name": "FREQUENCY",
+        "check": "Number"
+      }
+    ],
+    "colour": "#00897B",
+    "tooltip": "Change the frequency of an initialized PWM output.",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "linux_pwm_close",
+    "message0": "close PWM %1",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "pwm"
+      }
+    ],
+    "colour": "#00897B",
+    "tooltip": "close PWM %1",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  }
+]

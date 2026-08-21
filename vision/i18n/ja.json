@@ -1,0 +1,629 @@
+{
+  "toolbox_name": "ビジョン",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_image_resize": {
+    "message0": "画像 %1 を幅 %2 高さ %3 補間 %4 でリサイズ",
+    "tooltip": "選択した OpenCV の補間方法で画像サイズを変更します。",
+    "args0": [
+      null,
+      null,
+      null,
+      {
+        "options": [
+          [
+            "線形",
+            "INTER_LINEAR"
+          ],
+          [
+            "面積",
+            "INTER_AREA"
+          ],
+          [
+            "最近傍",
+            "INTER_NEAREST"
+          ],
+          [
+            "3 次",
+            "INTER_CUBIC"
+          ]
+        ]
+      }
+    ]
+  },
+  "python_image_convert": {
+    "message0": "画像 %1 を %2 で変換",
+    "tooltip": "画像 %1 を %2 で変換",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "BGR からグレー",
+            "COLOR_BGR2GRAY"
+          ],
+          [
+            "BGR から LAB",
+            "COLOR_BGR2LAB"
+          ],
+          [
+            "BGR から RGB",
+            "COLOR_BGR2RGB"
+          ],
+          [
+            "グレーから BGR",
+            "COLOR_GRAY2BGR"
+          ]
+        ]
+      }
+    ]
+  },
+  "python_image_in_range": {
+    "message0": "画像 %1 を下限 %2、上限 %3 でマスク",
+    "tooltip": "画像 %1 を下限 %2、上限 %3 でマスク",
+    "args0": [
+      null,
+      null,
+      null
+    ]
+  },
+  "python_image_components": {
+    "message0": "%1 の連結成分、結合度 %2",
+    "tooltip": "%1 の連結成分、結合度 %2",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "4",
+            "4"
+          ],
+          [
+            "8",
+            "8"
+          ]
+        ]
+      }
+    ]
+  },
+  "python_components_property": {
+    "message0": "連結成分の結果 %1 の属性 %2",
+    "tooltip": "connectedComponentsWithStats が返すタプルから属性を取得します。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "個数",
+            "COUNT"
+          ],
+          [
+            "ラベル画像",
+            "LABELS"
+          ],
+          [
+            "統計",
+            "STATS"
+          ],
+          [
+            "重心",
+            "CENTROIDS"
+          ]
+        ]
+      }
+    ]
+  },
+  "python_component_stat": {
+    "message0": "連結成分の結果 %1 の項目 %2 の属性 %3",
+    "tooltip": "1 つの連結成分の形状、面積、重心データを取得します。",
+    "args0": [
+      null,
+      null,
+      {
+        "options": [
+          [
+            "左",
+            "LEFT"
+          ],
+          [
+            "上",
+            "TOP"
+          ],
+          [
+            "幅",
+            "WIDTH"
+          ],
+          [
+            "高さ",
+            "HEIGHT"
+          ],
+          [
+            "面積",
+            "AREA"
+          ],
+          [
+            "重心 x",
+            "CENTROID_X"
+          ],
+          [
+            "重心 y",
+            "CENTROID_Y"
+          ]
+        ]
+      }
+    ]
+  },
+  "python_image_canny": {
+    "message0": "画像 %1 の Canny エッジ 下限 %2 上限 %3 アパーチャ %4 L2 勾配 %5",
+    "tooltip": "8 ビット画像に OpenCV の Canny エッジ検出を適用します。",
+    "args0": [
+      null,
+      null,
+      null,
+      {
+        "options": [
+          [
+            "3",
+            "3"
+          ],
+          [
+            "5",
+            "5"
+          ],
+          [
+            "7",
+            "7"
+          ]
+        ]
+      },
+      null
+    ]
+  },
+  "python_image_hough_circles": {
+    "message0": "%1 のハフ円 方法 %2 dp %3 最小距離 %4 パラメータ1 %5 パラメータ2 %6 最小半径 %7 最大半径 %8",
+    "tooltip": "OpenCV のハフ円変換で円を検出します。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "勾配",
+            "HOUGH_GRADIENT"
+          ],
+          [
+            "代替勾配",
+            "HOUGH_GRADIENT_ALT"
+          ]
+        ]
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "python_image_gaussian_blur": {
+    "message0": "画像 %1 をガウシアンぼかし カーネル幅 %2 高さ %3 sigma X %4 sigma Y %5",
+    "tooltip": "奇数サイズのガウシアンカーネルで画像をぼかします。",
+    "args0": [
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "python_morphology_kernel": {
+    "message0": "モルフォロジーカーネル 形状 %1 幅 %2 高さ %3",
+    "tooltip": "OpenCV のモルフォロジー構造要素を作成します。",
+    "args0": [
+      {
+        "options": [
+          [
+            "矩形",
+            "MORPH_RECT"
+          ],
+          [
+            "楕円",
+            "MORPH_ELLIPSE"
+          ],
+          [
+            "十字",
+            "MORPH_CROSS"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_image_morphology": {
+    "message0": "画像 %1 にモルフォロジー 演算 %2 カーネル %3 回数 %4",
+    "tooltip": "OpenCV の morphologyEx 演算を適用します。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "クロージング",
+            "MORPH_CLOSE"
+          ],
+          [
+            "オープニング",
+            "MORPH_OPEN"
+          ],
+          [
+            "モルフォロジー勾配",
+            "MORPH_GRADIENT"
+          ],
+          [
+            "トップハット",
+            "MORPH_TOPHAT"
+          ],
+          [
+            "ブラックハット",
+            "MORPH_BLACKHAT"
+          ],
+          [
+            "ヒット・オア・ミス",
+            "MORPH_HITMISS"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_image_find_contours": {
+    "message0": "画像 %1 の輪郭を検索 取得方法 %2 近似方法 %3",
+    "tooltip": "輪郭を検出し、輪郭リストだけを返します。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "外側輪郭",
+            "RETR_EXTERNAL"
+          ],
+          [
+            "リスト",
+            "RETR_LIST"
+          ],
+          [
+            "連結成分",
+            "RETR_CCOMP"
+          ],
+          [
+            "ツリー",
+            "RETR_TREE"
+          ]
+        ]
+      },
+      {
+        "options": [
+          [
+            "全点",
+            "CHAIN_APPROX_NONE"
+          ],
+          [
+            "簡略",
+            "CHAIN_APPROX_SIMPLE"
+          ],
+          [
+            "Teh-Chin L1",
+            "CHAIN_APPROX_TC89_L1"
+          ],
+          [
+            "Teh-Chin KCOS",
+            "CHAIN_APPROX_TC89_KCOS"
+          ]
+        ]
+      }
+    ]
+  },
+  "python_contour_area": {
+    "message0": "輪郭 %1 の面積",
+    "tooltip": "輪郭で囲まれた面積を返します。",
+    "args0": [
+      null
+    ]
+  },
+  "python_contour_perimeter": {
+    "message0": "輪郭 %1 の周長 閉じる %2",
+    "tooltip": "輪郭の弧長または閉じた周長を返します。",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_contour_approx": {
+    "message0": "輪郭 %1 を近似 epsilon %2 閉じる %3",
+    "tooltip": "Douglas-Peucker 法で輪郭を近似します。",
+    "args0": [
+      null,
+      null,
+      null
+    ]
+  },
+  "python_contour_is_convex": {
+    "message0": "輪郭 %1 は凸である",
+    "tooltip": "輪郭が凸かどうかを判定します。",
+    "args0": [
+      null
+    ]
+  },
+  "python_contour_min_area_rect": {
+    "message0": "輪郭 %1 の最小面積矩形",
+    "tooltip": "輪郭を囲む最小面積の回転矩形を返します。",
+    "args0": [
+      null
+    ]
+  },
+  "python_rotated_rect_points": {
+    "message0": "回転矩形 %1 の頂点",
+    "tooltip": "OpenCV の回転矩形の 4 頂点を返します。",
+    "args0": [
+      null
+    ]
+  },
+  "python_image_load": {
+    "message0": "画像ファイル %1 を読み込む",
+    "tooltip": "画像ファイル %1 を読み込む",
+    "args0": [
+      null
+    ]
+  },
+  "python_image_save": {
+    "message0": "画像 %1 をファイル %2 に保存",
+    "tooltip": "画像 %1 をファイル %2 に保存",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_draw_rectangle": {
+    "message0": "%1 に矩形を描く：x %2、y %3 から x %4、y %5、色 %6、線幅 %7",
+    "tooltip": "%1 に矩形を描く：x %2、y %3 から x %4、y %5、色 %6、線幅 %7",
+    "args0": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "python_draw_circle": {
+    "message0": "%1 に円を描く：x %2、y %3、半径 %4、色 %5、線幅 %6",
+    "tooltip": "%1 に円を描く：x %2、y %3、半径 %4、色 %5、線幅 %6",
+    "args0": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "python_draw_line": {
+    "message0": "%1 に線を描く：x %2、y %3 から x %4、y %5、色 %6、線幅 %7",
+    "tooltip": "%1 に線を描く：x %2、y %3 から x %4、y %5、色 %6、線幅 %7",
+    "args0": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "python_draw_text": {
+    "message0": "%2 の x %3、y %4 にテキスト %1 を描く、倍率 %5、色 %6、線幅 %7",
+    "tooltip": "%2 の x %3、y %4 にテキスト %1 を描く、倍率 %5、色 %6、線幅 %7",
+    "args0": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "python_draw_polyline": {
+    "message0": "画像 %1 にポリライン 点配列 %2 閉じる %3 色 %4 太さ %5",
+    "tooltip": "1 つ以上の OpenCV 点配列をポリラインとして描画します。",
+    "args0": [
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "python_draw_text_freetype": {
+    "message0": "画像 %2 に FreeType 文字 %1 x %3 y %4 高さ %5 色 %6 太さ %7 フォント %8",
+    "tooltip": "OpenCV FreeType モジュールと TrueType/OpenType フォントで Unicode 文字を描画します。",
+    "args0": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "python_qr_decode": {
+    "message0": "%1 の QR コードを復号",
+    "tooltip": "%1 の QR コードを復号",
+    "args0": [
+      null
+    ]
+  },
+  "python_barcode_decode": {
+    "message0": "画像 %1 のバーコードをデコード 種類 %2",
+    "tooltip": "対応する全種類をデコードするか、pyzbar を 1 種類に限定します。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "すべて",
+            "ALL"
+          ],
+          [
+            "QR コード",
+            "QRCODE"
+          ],
+          [
+            "Code 128",
+            "CODE128"
+          ],
+          [
+            "EAN-13",
+            "EAN13"
+          ]
+        ]
+      }
+    ]
+  },
+  "python_code_result_property": {
+    "message0": "デコード結果 %1 の属性 %2",
+    "tooltip": "pyzbar のデコード結果からフィールドを取得します。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "種類",
+            "TYPE"
+          ],
+          [
+            "データバイト",
+            "DATA"
+          ],
+          [
+            "文字列",
+            "TEXT"
+          ],
+          [
+            "矩形",
+            "RECT"
+          ],
+          [
+            "x",
+            "X"
+          ],
+          [
+            "y",
+            "Y"
+          ],
+          [
+            "幅",
+            "WIDTH"
+          ],
+          [
+            "高さ",
+            "HEIGHT"
+          ],
+          [
+            "多角形",
+            "POLYGON"
+          ]
+        ]
+      }
+    ]
+  },
+  "python_apriltag_init": {
+    "message0": "AprilTag 検出器 %1 を初期化、ファミリー %2",
+    "tooltip": "AprilTag 検出器 %1 を初期化、ファミリー %2",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "tag16h5",
+            "tag16h5"
+          ],
+          [
+            "tag25h7",
+            "tag25h7"
+          ],
+          [
+            "tag25h9",
+            "tag25h9"
+          ],
+          [
+            "tag36h10",
+            "tag36h10"
+          ],
+          [
+            "tag36h11",
+            "tag36h11"
+          ]
+        ]
+      }
+    ]
+  },
+  "python_apriltag_detect": {
+    "message0": "AprilTag 検出器 %1 でグレー画像 %2 を検出",
+    "tooltip": "AprilTag 検出器 %1 でグレー画像 %2 を検出",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_apriltag_result_property": {
+    "message0": "AprilTag 結果 %1 の属性 %2",
+    "tooltip": "AprilTag 検出結果から識別、形状、信頼度、姿勢データを取得します。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "タグ ID",
+            "TAG_ID"
+          ],
+          [
+            "タグファミリー",
+            "TAG_FAMILY"
+          ],
+          [
+            "頂点",
+            "CORNERS"
+          ],
+          [
+            "中心",
+            "CENTER"
+          ],
+          [
+            "ハミング距離",
+            "HAMMING"
+          ],
+          [
+            "判定マージン",
+            "DECISION_MARGIN"
+          ],
+          [
+            "ホモグラフィー",
+            "HOMOGRAPHY"
+          ],
+          [
+            "姿勢の回転",
+            "POSE_R"
+          ],
+          [
+            "姿勢の並進",
+            "POSE_T"
+          ]
+        ]
+      }
+    ]
+  }
+}

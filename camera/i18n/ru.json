@@ -1,0 +1,36 @@
+{
+  "toolbox_name": "Камера",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "linux_camera_init": {
+    "message0": "инициализировать камеру %1 устройство %2 ширина %3 высота %4",
+    "tooltip": "инициализировать камеру %1 устройство %2 ширина %3 высота %4",
+    "args0": [
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "linux_camera_opened": {
+    "message0": "камера %1 открыта",
+    "tooltip": "камера %1 открыта",
+    "args0": [
+      null
+    ]
+  },
+  "linux_camera_read": {
+    "message0": "изображение камеры %1",
+    "tooltip": "изображение камеры %1",
+    "args0": [
+      null
+    ]
+  },
+  "linux_camera_release": {
+    "message0": "освободить камеру %1",
+    "tooltip": "освободить камеру %1",
+    "args0": [
+      null
+    ]
+  }
+}

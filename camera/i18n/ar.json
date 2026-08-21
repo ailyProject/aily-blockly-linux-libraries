@@ -1,0 +1,36 @@
+{
+  "toolbox_name": "كاميرا",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "linux_camera_init": {
+    "message0": "هيئ الكاميرا %1 الجهاز %2 العرض %3 الارتفاع %4",
+    "tooltip": "هيئ الكاميرا %1 الجهاز %2 العرض %3 الارتفاع %4",
+    "args0": [
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "linux_camera_opened": {
+    "message0": "الكاميرا %1 مفتوحة",
+    "tooltip": "الكاميرا %1 مفتوحة",
+    "args0": [
+      null
+    ]
+  },
+  "linux_camera_read": {
+    "message0": "صورة الكاميرا %1",
+    "tooltip": "صورة الكاميرا %1",
+    "args0": [
+      null
+    ]
+  },
+  "linux_camera_release": {
+    "message0": "حرّر الكاميرا %1",
+    "tooltip": "حرّر الكاميرا %1",
+    "args0": [
+      null
+    ]
+  }
+}

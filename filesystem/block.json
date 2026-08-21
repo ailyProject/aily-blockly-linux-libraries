@@ -1,0 +1,25 @@
+[
+  {
+    "type": "python_command",
+    "message0": "run system command %1",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "COMMAND",
+        "check": "String"
+      }
+    ],
+    "colour": "#EF6C00",
+    "tooltip": "run system command %1",
+    "icon": "settings",
+    "output": "Any"
+  },
+  {
+    "type": "python_cpu_temperature",
+    "message0": "CPU temperature °C",
+    "colour": "#EF6C00",
+    "tooltip": "CPU temperature °C",
+    "icon": "settings",
+    "output": "Any"
+  }
+]

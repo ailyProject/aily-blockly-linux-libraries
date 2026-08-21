@@ -1,0 +1,45 @@
+{
+  "name": "@aily-project/lib-camera",
+  "nickname": "Camera",
+  "nickname_zh_cn": "摄像头",
+  "nickname_en": "Camera",
+  "nickname_zh_hk": "相機",
+  "nickname_ja": "カメラ",
+  "nickname_ko": "카메라",
+  "nickname_de": "Kamera",
+  "nickname_fr": "Caméra",
+  "nickname_es": "Cámara",
+  "nickname_pt": "Câmera",
+  "nickname_ru": "Камера",
+  "nickname_ar": "كاميرا",
+  "version": "0.0.1",
+  "description": "通过 OpenCV 和 V4L2 初始化、采集与释放 Linux 相机。",
+  "description_zh_cn": "通过 OpenCV 和 V4L2 初始化、采集与释放 Linux 相机。",
+  "description_en": "Initialize, capture from, and release Linux V4L2 cameras through OpenCV.",
+  "spec": true,
+  "compatibility": {
+    "type": [
+      "broadcom:bcm2712:raspberrypi_5",
+      "allwinner:t527:walnutpi_2b"
+    ],
+    "voltage": [
+      3.3
+    ]
+  },
+  "keywords": [
+    "aily",
+    "blockly",
+    "python",
+    "linux",
+    "camera",
+    "opencv",
+    "v4l2"
+  ],
+  "tags": [
+    "camera"
+  ],
+  "author": "ailyProject",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {}
+}

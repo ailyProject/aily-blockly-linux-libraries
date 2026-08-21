@@ -1,0 +1,40 @@
+{
+  "toolbox_name": "Picamera2",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "rpi_picamera2_init": {
+    "message0": "инициализировать Picamera2 %1 камера %2 ширина %3 высота %4 формат %5",
+    "tooltip": "Создать и настроить камеру Raspberry Pi с помощью Picamera2.",
+    "args0": [null, null, null, null, null]
+  },
+  "rpi_picamera2_start": {
+    "message0": "запустить Picamera2 %1",
+    "tooltip": "Запустить настроенную камеру Picamera2.",
+    "args0": [null]
+  },
+  "rpi_picamera2_capture_array": {
+    "message0": "Picamera2 %1 получить массив",
+    "tooltip": "Получить основной поток как массив NumPy.",
+    "args0": [null]
+  },
+  "rpi_picamera2_capture_file": {
+    "message0": "Picamera2 %1 сохранить снимок в файл %2",
+    "tooltip": "Сделать снимок и сохранить его в файл.",
+    "args0": [null, null]
+  },
+  "rpi_picamera2_set_control": {
+    "message0": "Picamera2 %1 задать параметр %2 равным %3",
+    "tooltip": "Задать поддерживаемый параметр камеры Picamera2.",
+    "args0": [null, null, null]
+  },
+  "rpi_picamera2_stop": {
+    "message0": "остановить Picamera2 %1",
+    "tooltip": "Остановить съёмку, не закрывая камеру Picamera2.",
+    "args0": [null]
+  },
+  "rpi_picamera2_close": {
+    "message0": "закрыть Picamera2 %1",
+    "tooltip": "Безопасно остановить и закрыть камеру Picamera2.",
+    "args0": [null]
+  }
+}

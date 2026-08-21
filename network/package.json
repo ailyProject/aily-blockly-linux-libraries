@@ -1,0 +1,45 @@
+{
+  "name": "@aily-project/lib-network",
+  "nickname": "Network",
+  "nickname_zh_cn": "网络",
+  "nickname_en": "Network",
+  "nickname_zh_hk": "網絡",
+  "nickname_ja": "ネットワーク",
+  "nickname_ko": "네트워크",
+  "nickname_de": "Netzwerk",
+  "nickname_fr": "Réseau",
+  "nickname_es": "Red",
+  "nickname_pt": "Rede",
+  "nickname_ru": "Сеть",
+  "nickname_ar": "شبكة",
+  "version": "0.0.1",
+  "description": "跨 CyberCAM 与树莓派的 IPv4/IPv6 TCP/UDP Socket 与标准库 HTTP 文件服务器。",
+  "description_zh_cn": "跨 CyberCAM 与树莓派的 IPv4/IPv6 TCP/UDP Socket 与标准库 HTTP 文件服务器。",
+  "description_en": "Portable IPv4/IPv6 TCP/UDP sockets and a standard-library HTTP file server for CyberCAM and Raspberry Pi.",
+  "spec": true,
+  "compatibility": {
+    "type": [
+      "canaan:k230:cybercam",
+      "broadcom:bcm2712:raspberrypi_5",
+      "allwinner:t527:walnutpi_2b"
+    ],
+    "voltage": [
+      3.3
+    ]
+  },
+  "keywords": [
+    "aily",
+    "blockly",
+    "python",
+    "network",
+    "socket",
+    "http"
+  ],
+  "tags": [
+    "communication"
+  ],
+  "author": "ailyProject",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {}
+}

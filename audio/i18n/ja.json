@@ -1,0 +1,21 @@
+{
+  "toolbox_name": "オーディオ",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "linux_audio_play": {
+    "message0": "WAV ファイル %1 を再生",
+    "tooltip": "WAV ファイル %1 を再生",
+    "args0": [
+      null
+    ]
+  },
+  "linux_audio_record": {
+    "message0": "WAV を %1 に録音、秒数 %2、サンプリング %3",
+    "tooltip": "WAV を %1 に録音、秒数 %2、サンプリング %3",
+    "args0": [
+      null,
+      null,
+      null
+    ]
+  }
+}

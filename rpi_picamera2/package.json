@@ -1,0 +1,46 @@
+{
+  "name": "@aily-project/lib-rpi-picamera2",
+  "nickname": "Picamera2",
+  "nickname_zh_cn": "Picamera2",
+  "nickname_en": "Picamera2",
+  "nickname_zh_hk": "Picamera2",
+  "nickname_ja": "Picamera2",
+  "nickname_ko": "Picamera2",
+  "nickname_de": "Picamera2",
+  "nickname_fr": "Picamera2",
+  "nickname_es": "Picamera2",
+  "nickname_pt": "Picamera2",
+  "nickname_ru": "Picamera2",
+  "nickname_ar": "Picamera2",
+  "version": "0.0.1",
+  "description": "通过 Raspberry Pi 官方 Picamera2 API 配置、控制和采集 CSI 相机。",
+  "description_zh_cn": "通过 Raspberry Pi 官方 Picamera2 API 配置、控制和采集 CSI 相机。",
+  "description_en": "Configure, control, and capture Raspberry Pi CSI cameras through the official Picamera2 API.",
+  "spec": true,
+  "compatibility": {
+    "type": [
+      "broadcom:bcm2712:raspberrypi_5"
+    ],
+    "voltage": [
+      3.3
+    ]
+  },
+  "keywords": [
+    "aily",
+    "blockly",
+    "python",
+    "raspberry-pi",
+    "picamera2",
+    "libcamera",
+    "camera",
+    "csi"
+  ],
+  "tags": [
+    "camera"
+  ],
+  "author": "ailyProject",
+  "license": "MIT",
+  "homepage": "https://github.com/raspberrypi/picamera2",
+  "dependencies": {},
+  "devDependencies": {}
+}

@@ -1,0 +1,21 @@
+{
+  "toolbox_name": "Áudio",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "linux_audio_play": {
+    "message0": "reproduzir arquivo WAV %1",
+    "tooltip": "reproduzir arquivo WAV %1",
+    "args0": [
+      null
+    ]
+  },
+  "linux_audio_record": {
+    "message0": "gravar WAV em %1 segundos %2 taxa %3",
+    "tooltip": "gravar WAV em %1 segundos %2 taxa %3",
+    "args0": [
+      null,
+      null,
+      null
+    ]
+  }
+}

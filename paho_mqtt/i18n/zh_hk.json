@@ -1,0 +1,115 @@
+{
+  "toolbox_name": "Paho MQTT",
+  "toolbox_categories": ["客戶端與安全", "事件", "發佈與訂閱", "網絡循環"],
+  "toolbox_labels": {
+    "Client and security": "客戶端與安全",
+    "Events": "事件",
+    "Publish and subscribe": "發佈與訂閱",
+    "Network loop": "網絡循環"
+  },
+  "python_mqtt_init": {
+    "message0": "初始化 MQTT 客戶端 %1，客戶端 ID %2，協定 %3，傳輸方式 %4",
+    "tooltip": "建立使用回調 API VERSION2 的 Paho MQTT 2.x 客戶端。客戶端 ID 在代理伺服器上應保持唯一。",
+    "args0": [null, null, {"options": [["MQTT 3.1.1", "MQTTv311"], ["MQTT 5", "MQTTv5"]]}, {"options": [["TCP", "tcp"], ["WebSocket", "websockets"]]}]
+  },
+  "python_mqtt_set_auth": {
+    "message0": "MQTT %1 設定使用者名稱 %2 密碼 %3",
+    "tooltip": "連線前設定代理伺服器的使用者名稱和密碼。",
+    "args0": [null, null, null]
+  },
+  "python_mqtt_set_tls": {
+    "message0": "MQTT %1 啟用 TLS，CA 檔案 %2，客戶端憑證 %3，私密金鑰 %4",
+    "tooltip": "連線前啟用經驗證的 TLS。CA 留空時使用系統信任庫；客戶端憑證和私密金鑰可留空。",
+    "args0": [null, null, null, null]
+  },
+  "python_mqtt_set_will": {
+    "message0": "MQTT %1 設定遺囑主題 %2 載荷 %3 QoS %4 保留 %5",
+    "tooltip": "連線前設定遺囑訊息。",
+    "args0": [null, null, null, {"options": [["0", "0"], ["1", "1"], ["2", "2"]]}, {"options": [["否", "FALSE"], ["是", "TRUE"]]}]
+  },
+  "python_mqtt_set_websocket_options": {
+    "message0": "MQTT %1 設定 WebSocket 路徑 %2",
+    "tooltip": "連線前設定代理伺服器的 WebSocket 路徑；請配合 WebSocket 傳輸方式使用。",
+    "args0": [null, null]
+  },
+  "python_mqtt_set_reconnect_delay": {
+    "message0": "MQTT %1 設定重新連線延遲，最小 %2 最大 %3 秒",
+    "tooltip": "設定背景循環和永久循環自動重新連線時使用的指數退避延遲；手動單次網絡循環不會自動重新連線。",
+    "args0": [null, null, null]
+  },
+  "python_mqtt_connect": {
+    "message0": "MQTT %1 連線至主機 %2 連接埠 %3 保活 %4 秒",
+    "tooltip": "開始 MQTT 連線。只有網絡循環運行後，才會收到代理伺服器的 CONNACK 結果。",
+    "args0": [null, null, null, null]
+  },
+  "python_mqtt_on_connect": {
+    "message0": "當 MQTT %1 傳回連線結果時，將成功狀態設為 %2 原因設為 %3 工作階段存在設為 %4，執行 %5 %6",
+    "tooltip": "處理 Paho 回調 API VERSION2 的連線結果。請在此處訂閱，以便重新連線後恢復訂閱。",
+    "args0": [null, null, null, null, null, null]
+  },
+  "python_mqtt_on_message": {
+    "message0": "當 MQTT %1 收到訊息時，將主題設為 %2 載荷位元組設為 %3 QoS 設為 %4 保留標誌設為 %5，執行 %6 %7",
+    "tooltip": "處理收到的訊息。載荷是位元組資料；需要文字時請明確解碼。",
+    "args0": [null, null, null, null, null, null, null]
+  },
+  "python_mqtt_on_disconnect": {
+    "message0": "當 MQTT %1 中斷連線時，將原因設為 %2 伺服器 MQTT DISCONNECT 封包接收標誌設為 %3，執行 %4 %5",
+    "tooltip": "處理 Paho 回調 API VERSION2 的中斷連線事件及其原因碼。",
+    "args0": [null, null, null, null, null]
+  },
+  "python_mqtt_publish": {
+    "message0": "MQTT %1 向主題 %2 發佈載荷 %3 QoS %4 保留 %5",
+    "tooltip": "將訊息加入發佈佇列。如果程式即將結束且必須完成傳送，請使用「發佈並等待」積木。",
+    "args0": [null, null, null, {"options": [["0", "0"], ["1", "1"], ["2", "2"]]}, {"options": [["否", "FALSE"], ["是", "TRUE"]]}]
+  },
+  "python_mqtt_publish_wait": {
+    "message0": "MQTT %1 向主題 %2 發佈載荷 %3 QoS %4 保留 %5 並等待 %6 秒",
+    "tooltip": "等待發佈完成；若逾時時訊息仍未發佈，則拋出 TimeoutError。不要在網絡回調內使用。",
+    "args0": [null, null, null, {"options": [["0", "0"], ["1", "1"], ["2", "2"]]}, {"options": [["否", "FALSE"], ["是", "TRUE"]]}, null]
+  },
+  "python_mqtt_subscribe": {
+    "message0": "MQTT %1 訂閱主題篩選器 %2 QoS %3",
+    "tooltip": "訂閱主題篩選器。請將此積木放入連線回調，以便重新連線後恢復訂閱。",
+    "args0": [null, null, {"options": [["0", "0"], ["1", "1"], ["2", "2"]]}]
+  },
+  "python_mqtt_unsubscribe": {
+    "message0": "MQTT %1 取消訂閱主題篩選器 %2",
+    "tooltip": "取消訂閱主題篩選器。",
+    "args0": [null, null]
+  },
+  "python_mqtt_decode_payload": {
+    "message0": "將 MQTT 載荷 %1 按 %2 解碼，錯誤處理 %3",
+    "tooltip": "使用指定編碼和錯誤處理策略，將 MQTT 載荷位元組解碼為文字。",
+    "args0": [null, {"options": [["UTF-8", "utf-8"], ["ASCII", "ascii"], ["GBK", "gbk"]]}, {"options": [["取代", "replace"], ["嚴格", "strict"], ["忽略", "ignore"]]}]
+  },
+  "python_mqtt_is_connected": {
+    "message0": "MQTT %1 已連線",
+    "tooltip": "傳回 Paho 客戶端目前是否認為連線已建立。",
+    "args0": [null]
+  },
+  "python_mqtt_loop_start": {
+    "message0": "MQTT %1 啟動背景循環",
+    "tooltip": "啟動 Paho 背景網絡執行緒。不要與永久循環或手動循環混用。",
+    "args0": [null]
+  },
+  "python_mqtt_loop_stop": {
+    "message0": "MQTT %1 停止背景循環",
+    "tooltip": "停止 Paho 背景網絡執行緒；此操作本身不能保證待發佈訊息已經傳送。",
+    "args0": [null]
+  },
+  "python_mqtt_loop_once": {
+    "message0": "MQTT %1 處理一次網絡，逾時 %2 秒",
+    "tooltip": "處理一次網絡流量。請定期呼叫並使逾時小於保活時間；不要混用網絡循環模式。",
+    "args0": [null, null]
+  },
+  "python_mqtt_loop": {
+    "message0": "MQTT %1 永久運行循環",
+    "tooltip": "永久運行 Paho 的阻塞網絡循環。後續陳述式通常只會在中斷連線或發生錯誤後執行。",
+    "args0": [null]
+  },
+  "python_mqtt_disconnect": {
+    "message0": "中斷 MQTT %1",
+    "tooltip": "要求正常中斷 MQTT 連線。中斷後請停止背景循環。",
+    "args0": [null]
+  }
+}

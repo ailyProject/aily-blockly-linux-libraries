@@ -1,0 +1,40 @@
+{
+  "toolbox_name": "Picamera2",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "rpi_picamera2_init": {
+    "message0": "初始化 Picamera2 %1，相机编号 %2，宽 %3，高 %4，格式 %5",
+    "tooltip": "创建并配置树莓派 Picamera2 相机。",
+    "args0": [null, null, null, null, null]
+  },
+  "rpi_picamera2_start": {
+    "message0": "启动 Picamera2 %1",
+    "tooltip": "启动已配置的 Picamera2 相机。",
+    "args0": [null]
+  },
+  "rpi_picamera2_capture_array": {
+    "message0": "Picamera2 %1 采集图像数组",
+    "tooltip": "将主图像流采集为 NumPy 数组。",
+    "args0": [null]
+  },
+  "rpi_picamera2_capture_file": {
+    "message0": "Picamera2 %1 保存图像到 %2",
+    "tooltip": "采集图像并保存到文件。",
+    "args0": [null, null]
+  },
+  "rpi_picamera2_set_control": {
+    "message0": "Picamera2 %1 设置控制项 %2 为 %3",
+    "tooltip": "设置受支持的 Picamera2 相机控制项。",
+    "args0": [null, null, null]
+  },
+  "rpi_picamera2_stop": {
+    "message0": "停止 Picamera2 %1",
+    "tooltip": "停止采集但不关闭 Picamera2 相机。",
+    "args0": [null]
+  },
+  "rpi_picamera2_close": {
+    "message0": "关闭 Picamera2 %1",
+    "tooltip": "安全停止并关闭 Picamera2 相机。",
+    "args0": [null]
+  }
+}

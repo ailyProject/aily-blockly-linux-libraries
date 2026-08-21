@@ -1,0 +1,50 @@
+{
+  "toolbox_name": "I2C / SMBus",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "rpi_i2c_init": {
+    "message0": "I2C %1 をバス %2 で初期化",
+    "tooltip": "smbus2 を使用して Linux I2C バスを開きます。",
+    "args0": [null, null]
+  },
+  "rpi_i2c_read_byte_data": {
+    "message0": "I2C %1 アドレス %2 レジスタ %3 からバイトを読み取る",
+    "tooltip": "I2C レジスタから 8 ビット値を読み取ります。",
+    "args0": [null, null, null]
+  },
+  "rpi_i2c_write_byte_data": {
+    "message0": "I2C %1 アドレス %2 レジスタ %3 にバイト %4 を書き込む",
+    "tooltip": "I2C レジスタに 8 ビット値を書き込みます。",
+    "args0": [null, null, null, null]
+  },
+  "rpi_i2c_read_word_data": {
+    "message0": "I2C %1 アドレス %2 レジスタ %3 からワードを読み取る",
+    "tooltip": "レジスタから 16 ビットのリトルエンディアン SMBus ワードを読み取ります。",
+    "args0": [null, null, null]
+  },
+  "rpi_i2c_write_word_data": {
+    "message0": "I2C %1 アドレス %2 レジスタ %3 にワード %4 を書き込む",
+    "tooltip": "レジスタに 16 ビットのリトルエンディアン SMBus ワードを書き込みます。",
+    "args0": [null, null, null, null]
+  },
+  "rpi_i2c_read_i2c_block": {
+    "message0": "I2C %1 アドレス %2 レジスタ %3 から %4 バイト読み取る",
+    "tooltip": "I2C レジスタからバイト列を読み取ります。",
+    "args0": [null, null, null, null]
+  },
+  "rpi_i2c_write_i2c_block": {
+    "message0": "I2C %1 アドレス %2 レジスタ %3 にブロックデータ %4 を書き込む",
+    "tooltip": "I2C レジスタにバイトのリストを書き込みます。",
+    "args0": [null, null, null, null]
+  },
+  "rpi_i2c_write_read": {
+    "message0": "I2C %1 反復スタート アドレス %2 書き込み %3 読み取り %4 バイト",
+    "tooltip": "1 回の反復スタート I2C トランザクションでバイトを書き込み、応答を読み取ります。",
+    "args0": [null, null, null, null]
+  },
+  "rpi_i2c_close": {
+    "message0": "I2C %1 を閉じる",
+    "tooltip": "I2C バスを閉じます。",
+    "args0": [null]
+  }
+}

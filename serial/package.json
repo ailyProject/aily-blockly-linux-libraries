@@ -1,0 +1,50 @@
+{
+  "name": "@aily-project/lib-serial",
+  "nickname": "Serial",
+  "nickname_zh_cn": "串口",
+  "nickname_en": "Serial",
+  "nickname_zh_hk": "串列埠",
+  "nickname_ja": "シリアル",
+  "nickname_ko": "시리얼",
+  "nickname_de": "Serielle Schnittstelle",
+  "nickname_fr": "Port série",
+  "nickname_es": "Puerto serie",
+  "nickname_pt": "Porta serial",
+  "nickname_ru": "Последовательный порт",
+  "nickname_ar": "المنفذ التسلسلي",
+  "version": "0.0.1",
+  "description": "基于 PySerial 的 Linux UART/串口库：6 个通用可见积木，另隐藏注册 6 个 CyberCAM 旧 type 以兼容已保存工程。",
+  "description_zh_cn": "基于 PySerial 的 Linux UART/串口库：6 个通用可见积木，另隐藏注册 6 个 CyberCAM 旧 type 以兼容已保存工程。",
+  "description_en": "PySerial-based Linux UART/serial library with six general-purpose toolbox blocks plus six hidden legacy CyberCAM types for saved-project compatibility.",
+  "spec": true,
+  "compatibility": {
+    "type": [
+      "broadcom:bcm2712:raspberrypi_5",
+      "allwinner:t527:walnutpi_2b",
+      "canaan:k230:cybercam"
+    ],
+    "voltage": [
+      3.3
+    ]
+  },
+  "keywords": [
+    "aily",
+    "blockly",
+    "python",
+    "linux",
+    "serial",
+    "uart",
+    "pyserial",
+    "cybercam",
+    "k230"
+  ],
+  "tags": [
+    "communication",
+    "io"
+  ],
+  "author": "ailyProject",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {},
+  "homepage": "https://pyserial.readthedocs.io/en/latest/"
+}

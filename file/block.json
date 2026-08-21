@@ -1,0 +1,160 @@
+[
+  {
+    "type": "python_file_read",
+    "message0": "read text file %1",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "PATH",
+        "check": "String"
+      }
+    ],
+    "colour": "#EF6C00",
+    "tooltip": "read text file %1",
+    "icon": "settings",
+    "output": "Any"
+  },
+  {
+    "type": "python_file_write",
+    "message0": "%1 text file %2 content %3",
+    "args0": [
+      {
+        "type": "field_dropdown",
+        "name": "MODE",
+        "options": [
+          [
+            "write",
+            "w"
+          ],
+          [
+            "append",
+            "a"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "PATH",
+        "check": "String"
+      },
+      {
+        "type": "input_value",
+        "name": "CONTENT"
+      }
+    ],
+    "colour": "#EF6C00",
+    "tooltip": "%1 text file %2 content %3",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "python_file_exists",
+    "message0": "path %1 exists",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "PATH",
+        "check": "String"
+      }
+    ],
+    "colour": "#EF6C00",
+    "tooltip": "path %1 exists",
+    "icon": "settings",
+    "output": "Any"
+  },
+  {
+    "type": "python_file_list",
+    "message0": "list directory %1",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "PATH",
+        "check": "String"
+      }
+    ],
+    "colour": "#EF6C00",
+    "tooltip": "list directory %1",
+    "icon": "settings",
+    "output": "Any"
+  },
+  {
+    "type": "cybercam_file_read",
+    "message0": "read text file %1",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "PATH",
+        "check": "String"
+      }
+    ],
+    "colour": "#EF6C00",
+    "tooltip": "read text file %1",
+    "icon": "settings",
+    "output": "Any"
+  },
+  {
+    "type": "cybercam_file_write",
+    "message0": "%1 text file %2 content %3",
+    "args0": [
+      {
+        "type": "field_dropdown",
+        "name": "MODE",
+        "options": [
+          [
+            "write",
+            "w"
+          ],
+          [
+            "append",
+            "a"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "PATH",
+        "check": "String"
+      },
+      {
+        "type": "input_value",
+        "name": "CONTENT"
+      }
+    ],
+    "colour": "#EF6C00",
+    "tooltip": "%1 text file %2 content %3",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "cybercam_file_exists",
+    "message0": "path %1 exists",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "PATH",
+        "check": "String"
+      }
+    ],
+    "colour": "#EF6C00",
+    "tooltip": "path %1 exists",
+    "icon": "settings",
+    "output": "Any"
+  },
+  {
+    "type": "cybercam_file_list",
+    "message0": "list directory %1",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "PATH",
+        "check": "String"
+      }
+    ],
+    "colour": "#EF6C00",
+    "tooltip": "list directory %1",
+    "icon": "settings",
+    "output": "Any"
+  }
+]

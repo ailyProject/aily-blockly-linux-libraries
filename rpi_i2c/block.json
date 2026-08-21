@@ -1,0 +1,240 @@
+[
+  {
+    "type": "rpi_i2c_init",
+    "message0": "initialize I2C %1 bus %2",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "i2c"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "BUS",
+        "options": "${board.i2c}"
+      }
+    ],
+    "colour": "#00897B",
+    "tooltip": "Open a Linux I2C bus with smbus2.",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "rpi_i2c_read_byte_data",
+    "message0": "I2C %1 read byte address %2 register %3",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "i2c"
+      },
+      {
+        "type": "input_value",
+        "name": "ADDRESS",
+        "check": "Number"
+      },
+      {
+        "type": "input_value",
+        "name": "REGISTER",
+        "check": "Number"
+      }
+    ],
+    "colour": "#00897B",
+    "tooltip": "Read an 8-bit value from an I2C register.",
+    "icon": "settings",
+    "output": "Number"
+  },
+  {
+    "type": "rpi_i2c_write_byte_data",
+    "message0": "I2C %1 write byte address %2 register %3 data %4",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "i2c"
+      },
+      {
+        "type": "input_value",
+        "name": "ADDRESS",
+        "check": "Number"
+      },
+      {
+        "type": "input_value",
+        "name": "REGISTER",
+        "check": "Number"
+      },
+      {
+        "type": "input_value",
+        "name": "DATA",
+        "check": "Number"
+      }
+    ],
+    "colour": "#00897B",
+    "tooltip": "Write an 8-bit value to an I2C register.",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "rpi_i2c_read_word_data",
+    "message0": "I2C %1 read word address %2 register %3",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "i2c"
+      },
+      {
+        "type": "input_value",
+        "name": "ADDRESS",
+        "check": "Number"
+      },
+      {
+        "type": "input_value",
+        "name": "REGISTER",
+        "check": "Number"
+      }
+    ],
+    "colour": "#00897B",
+    "tooltip": "Read a 16-bit little-endian SMBus word from a register.",
+    "icon": "settings",
+    "output": "Number"
+  },
+  {
+    "type": "rpi_i2c_write_word_data",
+    "message0": "I2C %1 write word address %2 register %3 data %4",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "i2c"
+      },
+      {
+        "type": "input_value",
+        "name": "ADDRESS",
+        "check": "Number"
+      },
+      {
+        "type": "input_value",
+        "name": "REGISTER",
+        "check": "Number"
+      },
+      {
+        "type": "input_value",
+        "name": "DATA",
+        "check": "Number"
+      }
+    ],
+    "colour": "#00897B",
+    "tooltip": "Write a 16-bit little-endian SMBus word to a register.",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "rpi_i2c_read_i2c_block",
+    "message0": "I2C %1 read block address %2 register %3 length %4",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "i2c"
+      },
+      {
+        "type": "input_value",
+        "name": "ADDRESS",
+        "check": "Number"
+      },
+      {
+        "type": "input_value",
+        "name": "REGISTER",
+        "check": "Number"
+      },
+      {
+        "type": "input_value",
+        "name": "LENGTH",
+        "check": "Number"
+      }
+    ],
+    "colour": "#00897B",
+    "tooltip": "Read a block of bytes from an I2C register.",
+    "icon": "settings",
+    "output": "Array"
+  },
+  {
+    "type": "rpi_i2c_write_i2c_block",
+    "message0": "I2C %1 write block address %2 register %3 data %4",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "i2c"
+      },
+      {
+        "type": "input_value",
+        "name": "ADDRESS",
+        "check": "Number"
+      },
+      {
+        "type": "input_value",
+        "name": "REGISTER",
+        "check": "Number"
+      },
+      {
+        "type": "input_value",
+        "name": "DATA"
+      }
+    ],
+    "colour": "#00897B",
+    "tooltip": "Write a list of bytes to an I2C register.",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "rpi_i2c_write_read",
+    "message0": "I2C %1 repeated-start address %2 write %3 read %4 bytes",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "i2c"
+      },
+      {
+        "type": "input_value",
+        "name": "ADDRESS",
+        "check": "Number"
+      },
+      {
+        "type": "input_value",
+        "name": "WRITE_DATA"
+      },
+      {
+        "type": "input_value",
+        "name": "READ_LENGTH",
+        "check": "Number"
+      }
+    ],
+    "colour": "#00897B",
+    "tooltip": "Write bytes and read the response in one repeated-start I2C transaction.",
+    "icon": "settings",
+    "output": "Array"
+  },
+  {
+    "type": "rpi_i2c_close",
+    "message0": "close I2C %1",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "i2c"
+      }
+    ],
+    "colour": "#00897B",
+    "tooltip": "Close an I2C bus.",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  }
+]

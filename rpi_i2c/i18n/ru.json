@@ -1,0 +1,50 @@
+{
+  "toolbox_name": "I2C / SMBus",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "rpi_i2c_init": {
+    "message0": "инициализировать I2C %1 на шине %2",
+    "tooltip": "Открывает шину Linux I2C с помощью smbus2.",
+    "args0": [null, null]
+  },
+  "rpi_i2c_read_byte_data": {
+    "message0": "I2C %1 прочитать байт адрес %2 регистр %3",
+    "tooltip": "Читает 8-битное значение из регистра I2C.",
+    "args0": [null, null, null]
+  },
+  "rpi_i2c_write_byte_data": {
+    "message0": "I2C %1 записать байт адрес %2 регистр %3 данные %4",
+    "tooltip": "Записывает 8-битное значение в регистр I2C.",
+    "args0": [null, null, null, null]
+  },
+  "rpi_i2c_read_word_data": {
+    "message0": "I2C %1 прочитать слово адрес %2 регистр %3",
+    "tooltip": "Читает 16-битное слово SMBus с младшим байтом первым из регистра.",
+    "args0": [null, null, null]
+  },
+  "rpi_i2c_write_word_data": {
+    "message0": "I2C %1 записать слово адрес %2 регистр %3 данные %4",
+    "tooltip": "Записывает 16-битное слово SMBus с младшим байтом первым в регистр.",
+    "args0": [null, null, null, null]
+  },
+  "rpi_i2c_read_i2c_block": {
+    "message0": "I2C %1 прочитать блок адрес %2 регистр %3 длина %4",
+    "tooltip": "Читает блок байтов из регистра I2C.",
+    "args0": [null, null, null, null]
+  },
+  "rpi_i2c_write_i2c_block": {
+    "message0": "I2C %1 записать блок адрес %2 регистр %3 данные %4",
+    "tooltip": "Записывает список байтов в регистр I2C.",
+    "args0": [null, null, null, null]
+  },
+  "rpi_i2c_write_read": {
+    "message0": "I2C %1 повторный старт адрес %2 запись %3 чтение %4 байт",
+    "tooltip": "Записывает байты и читает ответ в одной транзакции I2C с повторным стартом.",
+    "args0": [null, null, null, null]
+  },
+  "rpi_i2c_close": {
+    "message0": "закрыть I2C %1",
+    "tooltip": "Закрывает шину I2C.",
+    "args0": [null]
+  }
+}

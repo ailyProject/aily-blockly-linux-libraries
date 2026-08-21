@@ -1,0 +1,87 @@
+{
+  "toolbox_name": "ファイル",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_file_read": {
+    "message0": "テキストファイル %1 を読む",
+    "tooltip": "テキストファイル %1 を読む",
+    "args0": [
+      null
+    ]
+  },
+  "python_file_write": {
+    "message0": "テキストファイル %2 を %1 モードで処理、内容 %3",
+    "tooltip": "テキストファイル %2 を %1 モードで処理、内容 %3",
+    "args0": [
+      {
+        "options": [
+          [
+            "書き込み",
+            "w"
+          ],
+          [
+            "追記",
+            "a"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_file_exists": {
+    "message0": "パス %1 は存在する",
+    "tooltip": "パス %1 は存在する",
+    "args0": [
+      null
+    ]
+  },
+  "python_file_list": {
+    "message0": "ディレクトリ %1 を一覧",
+    "tooltip": "ディレクトリ %1 を一覧",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_file_read": {
+    "message0": "テキストファイル %1 を読み取る",
+    "tooltip": "テキストファイル %1 を読み取る",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_file_write": {
+    "message0": "テキストファイル %2 を %1 モードで処理：内容 %3",
+    "tooltip": "テキストファイル %2 を %1 モードで処理：内容 %3",
+    "args0": [
+      {
+        "options": [
+          [
+            "書き込み",
+            "w"
+          ],
+          [
+            "追記",
+            "a"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "cybercam_file_exists": {
+    "message0": "パス %1 が存在する",
+    "tooltip": "パス %1 が存在する",
+    "args0": [
+      null
+    ]
+  },
+  "cybercam_file_list": {
+    "message0": "ディレクトリ %1 を一覧表示",
+    "tooltip": "ディレクトリ %1 を一覧表示",
+    "args0": [
+      null
+    ]
+  }
+}

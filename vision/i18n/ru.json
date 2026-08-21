@@ -1,0 +1,629 @@
+{
+  "toolbox_name": "Компьютерное зрение",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_image_resize": {
+    "message0": "изменить размер изображения %1 ширина %2 высота %3 интерполяция %4",
+    "tooltip": "Изменяет размер изображения выбранным методом интерполяции OpenCV.",
+    "args0": [
+      null,
+      null,
+      null,
+      {
+        "options": [
+          [
+            "линейная",
+            "INTER_LINEAR"
+          ],
+          [
+            "по площади",
+            "INTER_AREA"
+          ],
+          [
+            "ближайший сосед",
+            "INTER_NEAREST"
+          ],
+          [
+            "кубическая",
+            "INTER_CUBIC"
+          ]
+        ]
+      }
+    ]
+  },
+  "python_image_convert": {
+    "message0": "преобразовать изображение %1 через %2",
+    "tooltip": "преобразовать изображение %1 через %2",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "BGR → оттенки серого",
+            "COLOR_BGR2GRAY"
+          ],
+          [
+            "BGR → LAB",
+            "COLOR_BGR2LAB"
+          ],
+          [
+            "BGR → RGB",
+            "COLOR_BGR2RGB"
+          ],
+          [
+            "оттенки серого → BGR",
+            "COLOR_GRAY2BGR"
+          ]
+        ]
+      }
+    ]
+  },
+  "python_image_in_range": {
+    "message0": "маска изображения %1 низ %2 верх %3",
+    "tooltip": "маска изображения %1 низ %2 верх %3",
+    "args0": [
+      null,
+      null,
+      null
+    ]
+  },
+  "python_image_components": {
+    "message0": "связные компоненты %1 связность %2",
+    "tooltip": "связные компоненты %1 связность %2",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "4",
+            "4"
+          ],
+          [
+            "8",
+            "8"
+          ]
+        ]
+      }
+    ]
+  },
+  "python_components_property": {
+    "message0": "свойство %2 результата связных компонентов %1",
+    "tooltip": "Читает свойство из кортежа, возвращённого connectedComponentsWithStats.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "количество",
+            "COUNT"
+          ],
+          [
+            "карта меток",
+            "LABELS"
+          ],
+          [
+            "статистика",
+            "STATS"
+          ],
+          [
+            "центры масс",
+            "CENTROIDS"
+          ]
+        ]
+      }
+    ]
+  },
+  "python_component_stat": {
+    "message0": "свойство %3 компонента %2 в результате %1",
+    "tooltip": "Читает геометрию, площадь или центр масс связного компонента.",
+    "args0": [
+      null,
+      null,
+      {
+        "options": [
+          [
+            "слева",
+            "LEFT"
+          ],
+          [
+            "сверху",
+            "TOP"
+          ],
+          [
+            "ширина",
+            "WIDTH"
+          ],
+          [
+            "высота",
+            "HEIGHT"
+          ],
+          [
+            "площадь",
+            "AREA"
+          ],
+          [
+            "центр масс x",
+            "CENTROID_X"
+          ],
+          [
+            "центр масс y",
+            "CENTROID_Y"
+          ]
+        ]
+      }
+    ]
+  },
+  "python_image_canny": {
+    "message0": "границы Canny для %1 нижний порог %2 верхний %3 апертура %4 градиент L2 %5",
+    "tooltip": "Выполняет поиск границ Canny OpenCV на 8-битном изображении.",
+    "args0": [
+      null,
+      null,
+      null,
+      {
+        "options": [
+          [
+            "3",
+            "3"
+          ],
+          [
+            "5",
+            "5"
+          ],
+          [
+            "7",
+            "7"
+          ]
+        ]
+      },
+      null
+    ]
+  },
+  "python_image_hough_circles": {
+    "message0": "окружности Хафа в %1 метод %2 dp %3 мин. расстояние %4 параметр1 %5 параметр2 %6 мин. радиус %7 макс. радиус %8",
+    "tooltip": "Находит окружности преобразованием Хафа OpenCV.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "градиент",
+            "HOUGH_GRADIENT"
+          ],
+          [
+            "альтернативный градиент",
+            "HOUGH_GRADIENT_ALT"
+          ]
+        ]
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "python_image_gaussian_blur": {
+    "message0": "гауссово размытие %1 ширина ядра %2 высота %3 sigma X %4 sigma Y %5",
+    "tooltip": "Размывает изображение гауссовым ядром нечётного размера.",
+    "args0": [
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "python_morphology_kernel": {
+    "message0": "морфологическое ядро форма %1 ширина %2 высота %3",
+    "tooltip": "Создаёт структурный элемент морфологии OpenCV.",
+    "args0": [
+      {
+        "options": [
+          [
+            "прямоугольник",
+            "MORPH_RECT"
+          ],
+          [
+            "эллипс",
+            "MORPH_ELLIPSE"
+          ],
+          [
+            "крест",
+            "MORPH_CROSS"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_image_morphology": {
+    "message0": "морфология для %1 операция %2 ядро %3 итерации %4",
+    "tooltip": "Применяет морфологическую операцию morphologyEx OpenCV.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "закрытие",
+            "MORPH_CLOSE"
+          ],
+          [
+            "открытие",
+            "MORPH_OPEN"
+          ],
+          [
+            "морфологический градиент",
+            "MORPH_GRADIENT"
+          ],
+          [
+            "белая шляпа",
+            "MORPH_TOPHAT"
+          ],
+          [
+            "чёрная шляпа",
+            "MORPH_BLACKHAT"
+          ],
+          [
+            "попадание или промах",
+            "MORPH_HITMISS"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_image_find_contours": {
+    "message0": "найти контуры в %1 режим %2 аппроксимация %3",
+    "tooltip": "Находит контуры и возвращает только список контуров.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "внешние контуры",
+            "RETR_EXTERNAL"
+          ],
+          [
+            "список",
+            "RETR_LIST"
+          ],
+          [
+            "связные компоненты",
+            "RETR_CCOMP"
+          ],
+          [
+            "дерево",
+            "RETR_TREE"
+          ]
+        ]
+      },
+      {
+        "options": [
+          [
+            "все точки",
+            "CHAIN_APPROX_NONE"
+          ],
+          [
+            "упрощённая",
+            "CHAIN_APPROX_SIMPLE"
+          ],
+          [
+            "Teh-Chin L1",
+            "CHAIN_APPROX_TC89_L1"
+          ],
+          [
+            "Teh-Chin KCOS",
+            "CHAIN_APPROX_TC89_KCOS"
+          ]
+        ]
+      }
+    ]
+  },
+  "python_contour_area": {
+    "message0": "площадь контура %1",
+    "tooltip": "Возвращает площадь, ограниченную контуром.",
+    "args0": [
+      null
+    ]
+  },
+  "python_contour_perimeter": {
+    "message0": "периметр контура %1 замкнут %2",
+    "tooltip": "Возвращает длину дуги или периметр замкнутого контура.",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_contour_approx": {
+    "message0": "аппроксимировать контур %1 epsilon %2 замкнут %3",
+    "tooltip": "Аппроксимирует контур алгоритмом Дугласа — Пекера.",
+    "args0": [
+      null,
+      null,
+      null
+    ]
+  },
+  "python_contour_is_convex": {
+    "message0": "контур %1 выпуклый",
+    "tooltip": "Проверяет, является ли контур выпуклым.",
+    "args0": [
+      null
+    ]
+  },
+  "python_contour_min_area_rect": {
+    "message0": "прямоугольник минимальной площади для контура %1",
+    "tooltip": "Возвращает повёрнутый прямоугольник минимальной площади для контура.",
+    "args0": [
+      null
+    ]
+  },
+  "python_rotated_rect_points": {
+    "message0": "вершины повёрнутого прямоугольника %1",
+    "tooltip": "Возвращает четыре вершины повёрнутого прямоугольника OpenCV.",
+    "args0": [
+      null
+    ]
+  },
+  "python_image_load": {
+    "message0": "загрузить файл изображения %1",
+    "tooltip": "загрузить файл изображения %1",
+    "args0": [
+      null
+    ]
+  },
+  "python_image_save": {
+    "message0": "сохранить изображение %1 в файл %2",
+    "tooltip": "сохранить изображение %1 в файл %2",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_draw_rectangle": {
+    "message0": "нарисовать прямоугольник на %1 от x %2 y %3 до x %4 y %5 цвет %6 толщина %7",
+    "tooltip": "нарисовать прямоугольник на %1 от x %2 y %3 до x %4 y %5 цвет %6 толщина %7",
+    "args0": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "python_draw_circle": {
+    "message0": "нарисовать круг на %1 x %2 y %3 радиус %4 цвет %5 толщина %6",
+    "tooltip": "нарисовать круг на %1 x %2 y %3 радиус %4 цвет %5 толщина %6",
+    "args0": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "python_draw_line": {
+    "message0": "нарисовать линию на %1 от x %2 y %3 до x %4 y %5 цвет %6 толщина %7",
+    "tooltip": "нарисовать линию на %1 от x %2 y %3 до x %4 y %5 цвет %6 толщина %7",
+    "args0": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "python_draw_text": {
+    "message0": "нарисовать текст %1 на %2 x %3 y %4 масштаб %5 цвет %6 толщина %7",
+    "tooltip": "нарисовать текст %1 на %2 x %3 y %4 масштаб %5 цвет %6 толщина %7",
+    "args0": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "python_draw_polyline": {
+    "message0": "нарисовать ломаную на %1 массивы точек %2 замкнута %3 цвет %4 толщина %5",
+    "tooltip": "Рисует один или несколько массивов точек OpenCV как ломаную.",
+    "args0": [
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "python_draw_text_freetype": {
+    "message0": "нарисовать текст FreeType %1 на %2 x %3 y %4 высота %5 цвет %6 толщина %7 шрифт %8",
+    "tooltip": "Рисует текст Unicode модулем FreeType OpenCV и шрифтом TrueType/OpenType.",
+    "args0": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "python_qr_decode": {
+    "message0": "декодировать QR-коды в %1",
+    "tooltip": "декодировать QR-коды в %1",
+    "args0": [
+      null
+    ]
+  },
+  "python_barcode_decode": {
+    "message0": "декодировать коды в %1 тип %2",
+    "tooltip": "Декодирует все поддерживаемые символы или ограничивает pyzbar одним типом.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "все",
+            "ALL"
+          ],
+          [
+            "QR-код",
+            "QRCODE"
+          ],
+          [
+            "Code 128",
+            "CODE128"
+          ],
+          [
+            "EAN-13",
+            "EAN13"
+          ]
+        ]
+      }
+    ]
+  },
+  "python_code_result_property": {
+    "message0": "свойство %2 декодированного кода %1",
+    "tooltip": "Читает поле результата декодирования pyzbar.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "тип",
+            "TYPE"
+          ],
+          [
+            "байты данных",
+            "DATA"
+          ],
+          [
+            "текст",
+            "TEXT"
+          ],
+          [
+            "прямоугольник",
+            "RECT"
+          ],
+          [
+            "x",
+            "X"
+          ],
+          [
+            "y",
+            "Y"
+          ],
+          [
+            "ширина",
+            "WIDTH"
+          ],
+          [
+            "высота",
+            "HEIGHT"
+          ],
+          [
+            "многоугольник",
+            "POLYGON"
+          ]
+        ]
+      }
+    ]
+  },
+  "python_apriltag_init": {
+    "message0": "инициализировать детектор AprilTag %1 семейство %2",
+    "tooltip": "инициализировать детектор AprilTag %1 семейство %2",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "tag16h5",
+            "tag16h5"
+          ],
+          [
+            "tag25h7",
+            "tag25h7"
+          ],
+          [
+            "tag25h9",
+            "tag25h9"
+          ],
+          [
+            "tag36h10",
+            "tag36h10"
+          ],
+          [
+            "tag36h11",
+            "tag36h11"
+          ]
+        ]
+      }
+    ]
+  },
+  "python_apriltag_detect": {
+    "message0": "детектор AprilTag %1 обнаруживает серое изображение %2",
+    "tooltip": "детектор AprilTag %1 обнаруживает серое изображение %2",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_apriltag_result_property": {
+    "message0": "свойство %2 результата AprilTag %1",
+    "tooltip": "Читает идентификатор, геометрию, уверенность или позу результата AprilTag.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "ID метки",
+            "TAG_ID"
+          ],
+          [
+            "семейство метки",
+            "TAG_FAMILY"
+          ],
+          [
+            "вершины",
+            "CORNERS"
+          ],
+          [
+            "центр",
+            "CENTER"
+          ],
+          [
+            "расстояние Хэмминга",
+            "HAMMING"
+          ],
+          [
+            "запас решения",
+            "DECISION_MARGIN"
+          ],
+          [
+            "гомография",
+            "HOMOGRAPHY"
+          ],
+          [
+            "поворот позы",
+            "POSE_R"
+          ],
+          [
+            "смещение позы",
+            "POSE_T"
+          ]
+        ]
+      }
+    ]
+  }
+}

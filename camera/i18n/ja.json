@@ -1,0 +1,36 @@
+{
+  "toolbox_name": "カメラ",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "linux_camera_init": {
+    "message0": "カメラ %1 を初期化、デバイス %2、幅 %3、高さ %4",
+    "tooltip": "カメラ %1 を初期化、デバイス %2、幅 %3、高さ %4",
+    "args0": [
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "linux_camera_opened": {
+    "message0": "カメラ %1 は開いている",
+    "tooltip": "カメラ %1 は開いている",
+    "args0": [
+      null
+    ]
+  },
+  "linux_camera_read": {
+    "message0": "カメラ %1 の画像",
+    "tooltip": "カメラ %1 の画像",
+    "args0": [
+      null
+    ]
+  },
+  "linux_camera_release": {
+    "message0": "カメラ %1 を解放する",
+    "tooltip": "カメラ %1 を解放する",
+    "args0": [
+      null
+    ]
+  }
+}

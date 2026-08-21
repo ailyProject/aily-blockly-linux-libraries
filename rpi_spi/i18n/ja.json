@@ -1,0 +1,30 @@
+{
+  "toolbox_name": "SPI",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "rpi_spi_init": {
+    "message0": "SPI %1 を初期化 バス %2 デバイス %3 モード %4 速度 %5 Hz ビット数 %6",
+    "tooltip": "py-spidev で SPI デバイスを開き、転送パラメーターを設定します。",
+    "args0": [null, null, null, null, null, null]
+  },
+  "rpi_spi_transfer": {
+    "message0": "SPI %1 送受信 %2",
+    "tooltip": "xfer2 でバイトリストを転送し、受信したリストを返します。",
+    "args0": [null, null]
+  },
+  "rpi_spi_read": {
+    "message0": "SPI %1 から %2 バイト読み取る",
+    "tooltip": "SPI デバイスからバイトを読み取り、リストとして返します。",
+    "args0": [null, null]
+  },
+  "rpi_spi_write": {
+    "message0": "SPI %1 に %2 を書き込む",
+    "tooltip": "writebytes2 でバイトリストまたはバッファを書き込みます。",
+    "args0": [null, null]
+  },
+  "rpi_spi_close": {
+    "message0": "SPI %1 を閉じる",
+    "tooltip": "SPI デバイスを閉じます。",
+    "args0": [null]
+  }
+}

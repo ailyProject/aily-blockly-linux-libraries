@@ -1,0 +1,387 @@
+{
+  "toolbox_name": "شبكة",
+  "toolbox_categories": [
+    "Socket setup",
+    "TCP communication",
+    "UDP communication",
+   "Socket utilities",
+   "HTTP"
+  ],
+  "toolbox_labels": {
+    "Socket setup": "إعداد المقابس",
+    "TCP communication": "اتصال TCP",
+    "UDP communication": "اتصال UDP",
+   "Socket utilities": "أدوات المقابس",
+   "HTTP": "HTTP"
+  },
+  "python_socket_init": {
+    "message0": "هيئ المقبس %1 العائلة %2 النوع %3",
+    "tooltip": "هيئ المقبس %1 العائلة %2 النوع %3",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "IPv4",
+            "AF_INET"
+          ],
+          [
+            "IPv6",
+            "AF_INET6"
+          ]
+        ]
+      },
+      {
+        "options": [
+          [
+            "TCP",
+            "SOCK_STREAM"
+          ],
+          [
+            "UDP",
+            "SOCK_DGRAM"
+          ]
+        ]
+      }
+    ]
+  },
+  "python_socket_address": {
+    "message0": "حل المضيف %1 والمنفذ %2 والعائلة %3 والنوع %4",
+    "tooltip": "حل عنوان TCP أو UDP بنظام IPv4/IPv6 باستخدام getaddrinfo.",
+    "args0": [
+      null,
+      null,
+      {
+        "options": [
+          [
+            "IPv4",
+            "AF_INET"
+          ],
+          [
+            "IPv6",
+            "AF_INET6"
+          ]
+        ]
+      },
+      {
+        "options": [
+          [
+            "TCP",
+            "SOCK_STREAM"
+          ],
+          [
+            "UDP",
+            "SOCK_DGRAM"
+          ]
+        ]
+      }
+    ]
+  },
+  "python_socket_address_part": {
+    "message0": "%1 من العنوان %2",
+    "tooltip": "قراءة المضيف/IP أو المنفذ من عنوان مقبس IPv4 أو IPv6.",
+    "args0": [
+      {
+        "options": [
+          [
+            "المضيف/IP",
+            "HOST"
+          ],
+          [
+            "المنفذ",
+            "PORT"
+          ]
+        ]
+      },
+      null
+    ]
+  },
+  "python_socket_connect": {
+    "message0": "وصّل المقبس %1 إلى %2",
+    "tooltip": "وصّل المقبس %1 إلى %2",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_socket_bind": {
+    "message0": "اربط المقبس %1 بـ %2",
+    "tooltip": "اربط المقبس %1 بـ %2",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_socket_listen": {
+    "message0": "اجعل المقبس %1 يستمع الطابور %2",
+    "tooltip": "اجعل المقبس %1 يستمع الطابور %2",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_socket_accept": {
+    "message0": "المقبس %1 يقبل اتصالاً",
+    "tooltip": "المقبس %1 يقبل اتصالاً",
+    "args0": [
+      null
+    ]
+  },
+  "python_socket_accept_into": {
+    "message0": "المقبس %1 يقبل الاتصال في العميل %2 والعنوان %3",
+    "tooltip": "قبول اتصال TCP وتخزين المقبس المتصل وعنوان الطرف النظير.",
+    "args0": [
+      null,
+      null,
+      null
+    ]
+  },
+  "python_socket_send": {
+    "message0": "المقبس %1 يرسل %2 بالكامل",
+    "tooltip": "إرسال حمولة TCP بالكامل؛ يُرمّز النص بصيغة UTF-8 وتبقى بيانات البايتات دون تغيير.",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_socket_receive": {
+    "message0": "استقبل %2 بايت من المقبس %1",
+    "tooltip": "استقبال ما يصل إلى هذا العدد من بايتات TCP؛ تعني b'' أن الطرف النظير أغلق الاتصال.",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_socket_send_to": {
+    "message0": "مقبس UDP %1 يرسل %2 إلى %3",
+    "tooltip": "إرسال مخطط بيانات UDP واحد؛ يُرمّز النص بصيغة UTF-8 وتبقى بيانات البايتات دون تغيير.",
+    "args0": [
+      null,
+      null,
+      null
+    ]
+  },
+  "python_socket_receive_from": {
+    "message0": "مقبس UDP %1 يستقبل مخطط بيانات حتى %2 بايت",
+    "tooltip": "استقبال مخطط بيانات UDP واحد بالشكل (البيانات، العنوان)؛ يقتطع المخزن المؤقت الصغير مخطط البيانات.",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_socket_receive_from_into": {
+    "message0": "مقبس UDP %1 يستقبل حتى %2 بايت في البيانات %3 والعنوان %4",
+    "tooltip": "استقبال مخطط بيانات UDP واحد وتخزين بايتاته وعنوان المرسل كلًا على حدة.",
+    "args0": [
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "python_socket_set_timeout": {
+    "message0": "المقبس %1 يضبط المهلة على %2 ثانية",
+    "tooltip": "ضبط مهلة للعملية؛ يحدد الصفر الوضع غير الحاجب، وتؤدي القيم الموجبة إلى خطأ عند انتهاء المهلة.",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_socket_set_blocking": {
+    "message0": "المقبس %1 يضبط الوضع %2",
+    "tooltip": "التبديل بين التشغيل الحاجب وغير الحاجب.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "حاجب",
+            "TRUE"
+          ],
+          [
+            "غير حاجب",
+            "FALSE"
+          ]
+        ]
+      }
+    ]
+  },
+  "python_socket_set_option": {
+    "message0": "المقبس %1 الخيار %2 %3",
+    "tooltip": "تهيئة خيار منطقي محمول للمقبس؛ اضبط إعادة استخدام العنوان قبل الربط.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "إعادة استخدام العنوان",
+            "SO_REUSEADDR"
+          ],
+          [
+            "البث العام",
+            "SO_BROADCAST"
+          ],
+          [
+            "إبقاء الاتصال",
+            "SO_KEEPALIVE"
+          ],
+          [
+            "TCP بلا تأخير",
+            "TCP_NODELAY"
+          ]
+        ]
+      },
+      {
+        "options": [
+          [
+            "تمكين",
+            "TRUE"
+          ],
+          [
+            "تعطيل",
+            "FALSE"
+          ]
+        ]
+      }
+    ]
+  },
+  "python_socket_ready": {
+    "message0": "المقبس %1 جاهز من أجل %2 خلال %3 ثوانٍ",
+    "tooltip": "استخدام select لاختبار الجاهزية قبل العملية دون حجب.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "القراءة",
+            "READ"
+          ],
+          [
+            "الكتابة",
+            "WRITE"
+          ]
+        ]
+      },
+      null
+    ]
+  },
+  "python_socket_endpoint": {
+    "message0": "عنوان %2 للمقبس %1",
+    "tooltip": "الحصول على العنوان المحلي أو عنوان الطرف النظير المتصل.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "محلي",
+            "LOCAL"
+          ],
+          [
+            "النظير",
+            "PEER"
+          ]
+        ]
+      }
+    ]
+  },
+  "python_socket_encode": {
+    "message0": "ترميز النص %1 إلى بايتات %2",
+    "tooltip": "ترميز النص إلى بايتات لاستخدامه حمولةً للمقبس.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "UTF-8",
+            "utf-8"
+          ],
+          [
+            "ASCII",
+            "ascii"
+          ],
+          [
+            "GBK",
+            "gbk"
+          ]
+        ]
+      }
+    ]
+  },
+  "python_socket_decode": {
+    "message0": "فك ترميز البايتات %1 باستخدام %2 وعند الخطأ %3",
+    "tooltip": "فك ترميز البايتات إلى نص وفق سياسة الأخطاء المحددة.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "UTF-8",
+            "utf-8"
+          ],
+          [
+            "ASCII",
+            "ascii"
+          ],
+          [
+            "GBK",
+            "gbk"
+          ]
+        ]
+      },
+      {
+        "options": [
+          [
+            "استبدال",
+            "replace"
+          ],
+          [
+            "صارم",
+            "strict"
+          ],
+          [
+            "تجاهل",
+            "ignore"
+          ]
+        ]
+      }
+    ]
+  },
+  "python_socket_shutdown": {
+    "message0": "المقبس %1 يعطّل %2",
+    "tooltip": "تعطيل الاستقبال أو الإرسال أو كليهما قبل إغلاق مقبس متصل.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "الاستقبال",
+            "SHUT_RD"
+          ],
+          [
+            "الإرسال",
+            "SHUT_WR"
+          ],
+          [
+            "كليهما",
+            "SHUT_RDWR"
+          ]
+        ]
+      }
+    ]
+  },
+  "python_socket_close": {
+    "message0": "أغلق المقبس %1",
+    "tooltip": "أغلق المقبس %1",
+    "args0": [
+      null
+   ]
+ },
+  "python_http_server": {
+    "message0": "قدّم المجلد الحالي عبر HTTP: المضيف %1 المنفذ %2",
+    "tooltip": "قدّم المجلد الحالي عبر HTTP: المضيف %1 المنفذ %2",
+    "args0": [
+      null,
+      null
+    ]
+  }
+}

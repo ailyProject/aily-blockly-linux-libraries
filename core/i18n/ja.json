@@ -1,0 +1,115 @@
+{
+  "toolbox_name": "コア",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_start": {
+    "message0": "プログラム開始時 %1 %2",
+    "tooltip": "プログラムの起動時に一度実行します。",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_forever": {
+    "message0": "永久ループ %1 %2",
+    "tooltip": "中のブロックを繰り返し実行します。",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_sleep": {
+    "message0": "%1 秒待つ",
+    "tooltip": "指定した秒数だけプログラムを停止します。",
+    "args0": [
+      null
+    ]
+  },
+  "python_print": {
+    "message0": "%1 を表示",
+    "tooltip": "%1 を表示",
+    "args0": [
+      null
+    ]
+  },
+  "python_number": {
+    "message0": "数値 %1",
+    "tooltip": "数値 %1",
+    "args0": [
+      null
+    ]
+  },
+  "python_text": {
+    "message0": "テキスト %1",
+    "tooltip": "テキスト %1",
+    "args0": [
+      null
+    ]
+  },
+  "python_boolean": {
+    "message0": "真偽値 %1",
+    "tooltip": "真偽値 %1",
+    "args0": [
+      {
+        "options": [
+          [
+            "真",
+            "TRUE"
+          ],
+          [
+            "偽",
+            "FALSE"
+          ]
+        ]
+      }
+    ]
+  },
+  "python_tuple": {
+    "message0": "項目 %1 のタプル",
+    "tooltip": "項目 %1 のタプル",
+    "args0": [
+      null
+    ]
+  },
+  "python_list": {
+    "message0": "項目 %1 のリスト",
+    "tooltip": "項目 %1 のリスト",
+    "args0": [
+      null
+    ]
+  },
+  "python_set_variable": {
+    "message0": "変数 %1 を %2 にする",
+    "tooltip": "変数 %1 を %2 にする",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_get_variable": {
+    "message0": "変数 %1",
+    "tooltip": "変数 %1",
+    "args0": [
+      null
+    ]
+  },
+  "python_if": {
+    "message0": "もし %1 なら %2 %3",
+    "tooltip": "もし %1 なら %2 %3",
+    "args0": [
+      null,
+      null,
+      null
+    ]
+  },
+  "python_for_each": {
+    "message0": "%2 の各 %1 について %3 %4",
+    "tooltip": "%2 の各 %1 について %3 %4",
+    "args0": [
+      null,
+      null,
+      null,
+      null
+    ]
+  }
+}

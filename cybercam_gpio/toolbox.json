@@ -1,0 +1,95 @@
+{
+  "kind": "category",
+  "name": "GPIO / LED / PWM",
+  "colour": "#00897B",
+  "contents": [
+    {
+      "kind": "block",
+      "type": "cybercam_gpio_init"
+    },
+    {
+      "kind": "block",
+      "type": "cybercam_gpio_write",
+      "inputs": {
+        "VALUE": {
+          "shadow": {
+            "type": "logic_boolean",
+            "fields": {
+              "BOOL": "TRUE"
+            }
+          }
+        }
+      }
+    },
+    {
+      "kind": "block",
+      "type": "cybercam_gpio_read"
+    },
+    {
+      "kind": "block",
+      "type": "cybercam_gpio_deinit"
+    },
+    {
+      "kind": "block",
+      "type": "cybercam_led_write",
+      "inputs": {
+        "VALUE": {
+          "shadow": {
+            "type": "logic_boolean",
+            "fields": {
+              "BOOL": "TRUE"
+            }
+          }
+        }
+      }
+    },
+    {
+      "kind": "block",
+      "type": "cybercam_key_pressed"
+    },
+    {
+      "kind": "block",
+      "type": "cybercam_pwm_init"
+    },
+    {
+      "kind": "block",
+      "type": "cybercam_pwm_frequency",
+      "inputs": {
+        "FREQUENCY": {
+          "shadow": {
+            "type": "math_number",
+            "fields": {
+              "NUM": 1000
+            }
+          }
+        }
+      }
+    },
+    {
+      "kind": "block",
+      "type": "cybercam_pwm_duty",
+      "inputs": {
+        "DUTY": {
+          "shadow": {
+            "type": "math_number",
+            "fields": {
+              "NUM": 0.5
+            }
+          }
+        }
+      }
+    },
+    {
+      "kind": "block",
+      "type": "cybercam_pwm_enable"
+    },
+    {
+      "kind": "block",
+      "type": "cybercam_pwm_disable"
+    },
+    {
+      "kind": "block",
+      "type": "cybercam_pwm_close"
+    }
+  ]
+}

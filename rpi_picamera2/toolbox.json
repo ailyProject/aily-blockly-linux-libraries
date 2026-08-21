@@ -1,0 +1,81 @@
+{
+  "kind": "category",
+  "name": "Picamera2",
+  "colour": "#C51A4A",
+  "contents": [
+    {
+      "kind": "block",
+      "type": "rpi_picamera2_init",
+      "inputs": {
+        "CAMERA_NUM": {
+          "shadow": {
+            "type": "math_number",
+            "fields": {
+              "NUM": 0
+            }
+          }
+        },
+        "WIDTH": {
+          "shadow": {
+            "type": "math_number",
+            "fields": {
+              "NUM": 640
+            }
+          }
+        },
+        "HEIGHT": {
+          "shadow": {
+            "type": "math_number",
+            "fields": {
+              "NUM": 480
+            }
+          }
+        }
+      }
+    },
+    {
+      "kind": "block",
+      "type": "rpi_picamera2_start"
+    },
+    {
+      "kind": "block",
+      "type": "rpi_picamera2_capture_array"
+    },
+    {
+      "kind": "block",
+      "type": "rpi_picamera2_capture_file",
+      "inputs": {
+        "PATH": {
+          "shadow": {
+            "type": "text",
+            "fields": {
+              "TEXT": "/tmp/rpi_picamera2.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "kind": "block",
+      "type": "rpi_picamera2_set_control",
+      "inputs": {
+        "VALUE": {
+          "shadow": {
+            "type": "math_number",
+            "fields": {
+              "NUM": 30
+            }
+          }
+        }
+      }
+    },
+    {
+      "kind": "block",
+      "type": "rpi_picamera2_stop"
+    },
+    {
+      "kind": "block",
+      "type": "rpi_picamera2_close"
+    }
+  ]
+}

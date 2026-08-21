@@ -1,0 +1,115 @@
+{
+  "toolbox_name": "Paho MQTT",
+  "toolbox_categories": ["Client and security", "Events", "Publish and subscribe", "Network loop"],
+  "toolbox_labels": {
+    "Client and security": "Client and security",
+    "Events": "Events",
+    "Publish and subscribe": "Publish and subscribe",
+    "Network loop": "Network loop"
+  },
+  "python_mqtt_init": {
+    "message0": "initialize MQTT client %1 client ID %2 protocol %3 transport %4",
+    "tooltip": "Create a Paho MQTT 2.x client with Callback API VERSION2. Client IDs should be unique on the broker.",
+    "args0": [null, null, {"options": [["MQTT 3.1.1", "MQTTv311"], ["MQTT 5", "MQTTv5"]]}, {"options": [["TCP", "tcp"], ["WebSocket", "websockets"]]}]
+  },
+  "python_mqtt_set_auth": {
+    "message0": "MQTT %1 set username %2 password %3",
+    "tooltip": "Configure broker credentials before connecting.",
+    "args0": [null, null, null]
+  },
+  "python_mqtt_set_tls": {
+    "message0": "MQTT %1 enable TLS CA file %2 client certificate %3 private key %4",
+    "tooltip": "Enable verified TLS before connecting. Leave CA empty to use the system trust store; client certificate and key are optional.",
+    "args0": [null, null, null, null]
+  },
+  "python_mqtt_set_will": {
+    "message0": "MQTT %1 set will topic %2 payload %3 QoS %4 retain %5",
+    "tooltip": "Set the last-will message before connecting.",
+    "args0": [null, null, null, {"options": [["0", "0"], ["1", "1"], ["2", "2"]]}, {"options": [["false", "FALSE"], ["true", "TRUE"]]}]
+  },
+  "python_mqtt_set_websocket_options": {
+    "message0": "MQTT %1 set WebSocket path %2",
+    "tooltip": "Set the broker WebSocket path before connecting; use with a WebSocket client transport.",
+    "args0": [null, null]
+  },
+  "python_mqtt_set_reconnect_delay": {
+    "message0": "MQTT %1 set reconnect delay minimum %2 maximum %3 seconds",
+    "tooltip": "Configure exponential automatic-reconnect delays used by the background and forever network loops. Manual single-step loop calls do not reconnect automatically.",
+    "args0": [null, null, null]
+  },
+  "python_mqtt_connect": {
+    "message0": "MQTT %1 connect host %2 port %3 keepalive %4 seconds",
+    "tooltip": "Start an MQTT connection. The broker CONNACK result is delivered only after a network loop runs.",
+    "args0": [null, null, null, null]
+  },
+  "python_mqtt_on_connect": {
+    "message0": "when MQTT %1 connection result set success %2 reason %3 session present %4 do %5 %6",
+    "tooltip": "Handle Paho Callback API VERSION2 connection results. Subscribe here so subscriptions are restored after reconnecting.",
+    "args0": [null, null, null, null, null, null]
+  },
+  "python_mqtt_on_message": {
+    "message0": "when MQTT %1 receives message set topic %2 payload bytes %3 QoS %4 retained %5 do %6 %7",
+    "tooltip": "Handle an incoming message. Payload is bytes; decode it explicitly when text is required.",
+    "args0": [null, null, null, null, null, null, null]
+  },
+  "python_mqtt_on_disconnect": {
+    "message0": "when MQTT %1 disconnects set reason %2 server MQTT DISCONNECT packet received %3 do %4 %5",
+    "tooltip": "Handle a Paho Callback API VERSION2 disconnect event and its reason code.",
+    "args0": [null, null, null, null, null]
+  },
+  "python_mqtt_publish": {
+    "message0": "MQTT %1 publish topic %2 payload %3 QoS %4 retain %5",
+    "tooltip": "Queue a message for publishing. Use the wait-for-publish block before a prompt exit when delivery must complete.",
+    "args0": [null, null, null, {"options": [["0", "0"], ["1", "1"], ["2", "2"]]}, {"options": [["false", "FALSE"], ["true", "TRUE"]]}]
+  },
+  "python_mqtt_publish_wait": {
+    "message0": "MQTT %1 publish topic %2 payload %3 QoS %4 retain %5 and wait %6 seconds",
+    "tooltip": "Wait for publication to complete. If the timeout expires while the message is still unpublished, raise TimeoutError. Do not use this inside a network callback.",
+    "args0": [null, null, null, {"options": [["0", "0"], ["1", "1"], ["2", "2"]]}, {"options": [["false", "FALSE"], ["true", "TRUE"]]}, null]
+  },
+  "python_mqtt_subscribe": {
+    "message0": "MQTT %1 subscribe filter %2 QoS %3",
+    "tooltip": "Subscribe to a topic filter. Place this inside the connection callback to restore it after reconnecting.",
+    "args0": [null, null, {"options": [["0", "0"], ["1", "1"], ["2", "2"]]}]
+  },
+  "python_mqtt_unsubscribe": {
+    "message0": "MQTT %1 unsubscribe filter %2",
+    "tooltip": "Unsubscribe from a topic filter.",
+    "args0": [null, null]
+  },
+  "python_mqtt_decode_payload": {
+    "message0": "decode MQTT payload %1 as %2 on error %3",
+    "tooltip": "Decode MQTT payload bytes into text with an explicit encoding and error policy.",
+    "args0": [null, {"options": [["UTF-8", "utf-8"], ["ASCII", "ascii"], ["GBK", "gbk"]]}, {"options": [["replace", "replace"], ["strict", "strict"], ["ignore", "ignore"]]}]
+  },
+  "python_mqtt_is_connected": {
+    "message0": "MQTT %1 is connected",
+    "tooltip": "Return whether the Paho client currently considers itself connected.",
+    "args0": [null]
+  },
+  "python_mqtt_loop_start": {
+    "message0": "MQTT %1 start background loop",
+    "tooltip": "Start Paho's background network thread. Do not mix this with loop forever or manual loop calls.",
+    "args0": [null]
+  },
+  "python_mqtt_loop_stop": {
+    "message0": "MQTT %1 stop background loop",
+    "tooltip": "Stop Paho's background network thread; this does not by itself guarantee pending publications were sent.",
+    "args0": [null]
+  },
+  "python_mqtt_loop_once": {
+    "message0": "MQTT %1 process network once timeout %2 seconds",
+    "tooltip": "Process network traffic once. Call regularly and keep timeout below keepalive; do not mix network-loop modes.",
+    "args0": [null, null]
+  },
+  "python_mqtt_loop": {
+    "message0": "MQTT %1 loop forever",
+    "tooltip": "Run Paho's blocking network loop forever. Following statements normally run only after disconnection or an error.",
+    "args0": [null]
+  },
+  "python_mqtt_disconnect": {
+    "message0": "disconnect MQTT %1",
+    "tooltip": "Request a clean MQTT disconnection. Stop a background loop after disconnecting.",
+    "args0": [null]
+  }
+}
