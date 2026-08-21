@@ -1,0 +1,174 @@
+{
+  "toolbox_name": "libgpiod v2",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "linux_gpiod_call": {
+    "message0": "libgpiod v2 aufrufen oder erzeugen %1 Argumente %2 Schlüsselwortargumente %3",
+    "tooltip": "Eine freigegebene libgpiod v2-Funktion oder einen Konstruktor aufrufen und das Ergebnis zurückgeben.",
+    "args0": [
+      {
+        "options": [
+          [
+            "request_lines",
+            "request_lines"
+          ],
+          [
+            "LineSettings",
+            "LineSettings"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "linux_gpiod_do": {
+    "message0": "libgpiod v2 ausführen %1 Argumente %2 Schlüsselwortargumente %3",
+    "tooltip": "Eine freigegebene libgpiod v2-Funktion oder einen Konstruktor als Anweisung ausführen.",
+    "args0": [
+      {
+        "options": [
+          [
+            "request_lines",
+            "request_lines"
+          ],
+          [
+            "LineSettings",
+            "LineSettings"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "linux_gpiod_method": {
+    "message0": "libgpiod v2-Objekt %1 Methode %2 Argumente %3 Schlüsselwortargumente %4",
+    "tooltip": "Eine freigegebene Methode eines libgpiod v2-Objekts aufrufen und das Ergebnis zurückgeben.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "get_value",
+            "get_value"
+          ],
+          [
+            "get_values",
+            "get_values"
+          ],
+          [
+            "set_value",
+            "set_value"
+          ],
+          [
+            "set_values",
+            "set_values"
+          ],
+          [
+            "wait_edge_events",
+            "wait_edge_events"
+          ],
+          [
+            "read_edge_events",
+            "read_edge_events"
+          ],
+          [
+            "reconfigure_lines",
+            "reconfigure_lines"
+          ],
+          [
+            "release",
+            "release"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "linux_gpiod_do_method": {
+    "message0": "libgpiod v2-Objekt %1 Methode %2 ausführen Argumente %3 Schlüsselwortargumente %4",
+    "tooltip": "Eine freigegebene Methode eines libgpiod v2-Objekts als Anweisung ausführen.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "get_value",
+            "get_value"
+          ],
+          [
+            "get_values",
+            "get_values"
+          ],
+          [
+            "set_value",
+            "set_value"
+          ],
+          [
+            "set_values",
+            "set_values"
+          ],
+          [
+            "wait_edge_events",
+            "wait_edge_events"
+          ],
+          [
+            "read_edge_events",
+            "read_edge_events"
+          ],
+          [
+            "reconfigure_lines",
+            "reconfigure_lines"
+          ],
+          [
+            "release",
+            "release"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "linux_gpiod_attribute": {
+    "message0": "libgpiod v2-Objekt %1 Attribut %2",
+    "tooltip": "Ein freigegebenes Attribut eines libgpiod v2-Objekts oder Moduls lesen.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "line.Direction.INPUT",
+            "line.Direction.INPUT"
+          ],
+          [
+            "line.Direction.OUTPUT",
+            "line.Direction.OUTPUT"
+          ],
+          [
+            "line.Value.ACTIVE",
+            "line.Value.ACTIVE"
+          ],
+          [
+            "line.Value.INACTIVE",
+            "line.Value.INACTIVE"
+          ],
+          [
+            "line.Edge.RISING",
+            "line.Edge.RISING"
+          ],
+          [
+            "line.Edge.FALLING",
+            "line.Edge.FALLING"
+          ],
+          [
+            "line.Edge.BOTH",
+            "line.Edge.BOTH"
+          ]
+        ]
+      }
+    ]
+  }
+}

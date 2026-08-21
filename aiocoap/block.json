@@ -1,0 +1,228 @@
+[
+  {
+    "type": "python_aiocoap_call",
+    "message0": "aiocoap call or create %1 arguments %2 keyword arguments %3",
+    "args0": [
+      {
+        "type": "field_dropdown",
+        "name": "TARGET",
+        "options": [
+          [
+            "Context.create_client_context",
+            "Context.create_client_context"
+          ],
+          [
+            "Context.create_server_context",
+            "Context.create_server_context"
+          ],
+          [
+            "Message",
+            "Message"
+          ],
+          [
+            "resource.Site",
+            "resource.Site"
+          ],
+          [
+            "resource.Resource",
+            "resource.Resource"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#0288D1",
+    "tooltip": "Call an allowlisted aiocoap function or constructor and return its result.",
+    "icon": "settings",
+    "output": "Any"
+  },
+  {
+    "type": "python_aiocoap_do",
+    "message0": "run aiocoap %1 arguments %2 keyword arguments %3",
+    "args0": [
+      {
+        "type": "field_dropdown",
+        "name": "TARGET",
+        "options": [
+          [
+            "Context.create_client_context",
+            "Context.create_client_context"
+          ],
+          [
+            "Context.create_server_context",
+            "Context.create_server_context"
+          ],
+          [
+            "Message",
+            "Message"
+          ],
+          [
+            "resource.Site",
+            "resource.Site"
+          ],
+          [
+            "resource.Resource",
+            "resource.Resource"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#0288D1",
+    "tooltip": "Run an allowlisted aiocoap function or constructor as a statement.",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "python_aiocoap_method",
+    "message0": "aiocoap object %1 call method %2 arguments %3 keyword arguments %4",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "OBJECT"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "METHOD",
+        "options": [
+          [
+            "request",
+            "request"
+          ],
+          [
+            "render_get",
+            "render_get"
+          ],
+          [
+            "render_post",
+            "render_post"
+          ],
+          [
+            "add_resource",
+            "add_resource"
+          ],
+          [
+            "shutdown",
+            "shutdown"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#0288D1",
+    "tooltip": "Call an allowlisted aiocoap object method and return its result.",
+    "icon": "settings",
+    "output": "Any"
+  },
+  {
+    "type": "python_aiocoap_do_method",
+    "message0": "run aiocoap object %1 method %2 arguments %3 keyword arguments %4",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "OBJECT"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "METHOD",
+        "options": [
+          [
+            "request",
+            "request"
+          ],
+          [
+            "render_get",
+            "render_get"
+          ],
+          [
+            "render_post",
+            "render_post"
+          ],
+          [
+            "add_resource",
+            "add_resource"
+          ],
+          [
+            "shutdown",
+            "shutdown"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#0288D1",
+    "tooltip": "Run an allowlisted aiocoap object method as a statement.",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "python_aiocoap_attribute",
+    "message0": "aiocoap object %1 attribute %2",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "OBJECT"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "ATTRIBUTE",
+        "options": [
+          [
+            "code",
+            "code"
+          ],
+          [
+            "payload",
+            "payload"
+          ],
+          [
+            "uri",
+            "uri"
+          ],
+          [
+            "remote",
+            "remote"
+          ],
+          [
+            "opt",
+            "opt"
+          ]
+        ]
+      }
+    ],
+    "colour": "#0288D1",
+    "tooltip": "Read an allowlisted aiocoap object or module attribute.",
+    "icon": "settings",
+    "output": "Any"
+  }
+]

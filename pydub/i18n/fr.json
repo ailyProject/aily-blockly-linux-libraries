@@ -1,0 +1,166 @@
+{
+  "toolbox_name": "pydub",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_pydub_call": {
+    "message0": "pydub appeler ou créer %1 arguments %2 arguments nommés %3",
+    "tooltip": "Appeler une fonction ou un constructeur pydub autorisé et renvoyer le résultat.",
+    "args0": [
+      {
+        "options": [
+          [
+            "AudioSegment.silent",
+            "AudioSegment.silent"
+          ],
+          [
+            "AudioSegment.from_file",
+            "AudioSegment.from_file"
+          ],
+          [
+            "AudioSegment.from_wav",
+            "AudioSegment.from_wav"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_pydub_do": {
+    "message0": "exécuter pydub %1 arguments %2 arguments nommés %3",
+    "tooltip": "Exécuter une fonction ou un constructeur pydub autorisé comme instruction.",
+    "args0": [
+      {
+        "options": [
+          [
+            "AudioSegment.silent",
+            "AudioSegment.silent"
+          ],
+          [
+            "AudioSegment.from_file",
+            "AudioSegment.from_file"
+          ],
+          [
+            "AudioSegment.from_wav",
+            "AudioSegment.from_wav"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_pydub_method": {
+    "message0": "objet pydub %1 méthode %2 arguments %3 arguments nommés %4",
+    "tooltip": "Appeler une méthode autorisée d’un objet pydub et renvoyer le résultat.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "export",
+            "export"
+          ],
+          [
+            "overlay",
+            "overlay"
+          ],
+          [
+            "append",
+            "append"
+          ],
+          [
+            "fade_in",
+            "fade_in"
+          ],
+          [
+            "fade_out",
+            "fade_out"
+          ],
+          [
+            "set_frame_rate",
+            "set_frame_rate"
+          ],
+          [
+            "set_channels",
+            "set_channels"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_pydub_do_method": {
+    "message0": "exécuter la méthode pydub de l’objet %1 %2 arguments %3 arguments nommés %4",
+    "tooltip": "Exécuter une méthode autorisée d’un objet pydub comme instruction.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "export",
+            "export"
+          ],
+          [
+            "overlay",
+            "overlay"
+          ],
+          [
+            "append",
+            "append"
+          ],
+          [
+            "fade_in",
+            "fade_in"
+          ],
+          [
+            "fade_out",
+            "fade_out"
+          ],
+          [
+            "set_frame_rate",
+            "set_frame_rate"
+          ],
+          [
+            "set_channels",
+            "set_channels"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_pydub_attribute": {
+    "message0": "objet pydub %1 attribut %2",
+    "tooltip": "Lire un attribut autorisé d’un objet ou module pydub.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "duration_seconds",
+            "duration_seconds"
+          ],
+          [
+            "frame_rate",
+            "frame_rate"
+          ],
+          [
+            "channels",
+            "channels"
+          ],
+          [
+            "sample_width",
+            "sample_width"
+          ],
+          [
+            "raw_data",
+            "raw_data"
+          ]
+        ]
+      }
+    ]
+  }
+}

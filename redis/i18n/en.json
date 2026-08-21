@@ -1,0 +1,206 @@
+{
+  "toolbox_name": "redis-py",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_redis_call": {
+    "message0": "redis-py call or create %1 arguments %2 keyword arguments %3",
+    "tooltip": "Call an allowlisted redis-py function or constructor and return its result.",
+    "args0": [
+      {
+        "options": [
+          [
+            "Redis",
+            "Redis"
+          ],
+          [
+            "StrictRedis",
+            "StrictRedis"
+          ],
+          [
+            "from_url",
+            "from_url"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_redis_do": {
+    "message0": "run redis-py %1 arguments %2 keyword arguments %3",
+    "tooltip": "Run an allowlisted redis-py function or constructor as a statement.",
+    "args0": [
+      {
+        "options": [
+          [
+            "Redis",
+            "Redis"
+          ],
+          [
+            "StrictRedis",
+            "StrictRedis"
+          ],
+          [
+            "from_url",
+            "from_url"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_redis_method": {
+    "message0": "redis-py object %1 call method %2 arguments %3 keyword arguments %4",
+    "tooltip": "Call an allowlisted redis-py object method and return its result.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "get",
+            "get"
+          ],
+          [
+            "set",
+            "set"
+          ],
+          [
+            "delete",
+            "delete"
+          ],
+          [
+            "incr",
+            "incr"
+          ],
+          [
+            "decr",
+            "decr"
+          ],
+          [
+            "publish",
+            "publish"
+          ],
+          [
+            "subscribe",
+            "subscribe"
+          ],
+          [
+            "hset",
+            "hset"
+          ],
+          [
+            "hget",
+            "hget"
+          ],
+          [
+            "lpush",
+            "lpush"
+          ],
+          [
+            "rpop",
+            "rpop"
+          ],
+          [
+            "scan_iter",
+            "scan_iter"
+          ],
+          [
+            "ping",
+            "ping"
+          ],
+          [
+            "close",
+            "close"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_redis_do_method": {
+    "message0": "run redis-py object %1 method %2 arguments %3 keyword arguments %4",
+    "tooltip": "Run an allowlisted redis-py object method as a statement.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "get",
+            "get"
+          ],
+          [
+            "set",
+            "set"
+          ],
+          [
+            "delete",
+            "delete"
+          ],
+          [
+            "incr",
+            "incr"
+          ],
+          [
+            "decr",
+            "decr"
+          ],
+          [
+            "publish",
+            "publish"
+          ],
+          [
+            "subscribe",
+            "subscribe"
+          ],
+          [
+            "hset",
+            "hset"
+          ],
+          [
+            "hget",
+            "hget"
+          ],
+          [
+            "lpush",
+            "lpush"
+          ],
+          [
+            "rpop",
+            "rpop"
+          ],
+          [
+            "scan_iter",
+            "scan_iter"
+          ],
+          [
+            "ping",
+            "ping"
+          ],
+          [
+            "close",
+            "close"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_redis_attribute": {
+    "message0": "redis-py object %1 attribute %2",
+    "tooltip": "Read an allowlisted redis-py object or module attribute.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "connection_pool",
+            "connection_pool"
+          ]
+        ]
+      }
+    ]
+  }
+}

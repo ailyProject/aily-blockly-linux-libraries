@@ -1,0 +1,47 @@
+{
+  "name": "@aily-project/lib-aiohttp",
+  "nickname": "aiohttp",
+  "nickname_zh_cn": "aiohttp",
+  "nickname_en": "aiohttp",
+  "nickname_zh_hk": "aiohttp",
+  "nickname_ja": "aiohttp",
+  "nickname_ko": "aiohttp",
+  "nickname_de": "aiohttp",
+  "nickname_fr": "aiohttp",
+  "nickname_es": "aiohttp",
+  "nickname_pt": "aiohttp",
+  "nickname_ru": "aiohttp",
+  "nickname_ar": "aiohttp",
+  "version": "0.0.1",
+  "description": "面向树莓派与 Linux 开发板的 aiohttp 常用 Python API 白名单积木。",
+  "description_zh_cn": "面向树莓派与 Linux 开发板的 aiohttp 常用 Python API 白名单积木。",
+  "description_en": "Allowlisted aiohttp Python API blocks for Raspberry Pi and Linux single-board computers.",
+  "spec": true,
+  "compatibility": {
+    "type": [
+      "canaan:k230:cybercam",
+      "broadcom:bcm2712:raspberrypi_5",
+      "allwinner:t527:walnutpi_2b"
+    ],
+    "voltage": [
+      3.3
+    ]
+  },
+  "keywords": [
+    "aily",
+    "blockly",
+    "python",
+    "linux",
+    "raspberry-pi",
+    "aiohttp",
+    "aiohttp"
+  ],
+  "tags": [
+    "communication"
+  ],
+  "author": "ailyProject",
+  "license": "MIT",
+  "homepage": "https://docs.aiohttp.org/",
+  "dependencies": {},
+  "devDependencies": {}
+}

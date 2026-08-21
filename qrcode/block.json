@@ -1,0 +1,192 @@
+[
+  {
+    "type": "python_qrcode_call",
+    "message0": "qrcode call or create %1 arguments %2 keyword arguments %3",
+    "args0": [
+      {
+        "type": "field_dropdown",
+        "name": "TARGET",
+        "options": [
+          [
+            "make",
+            "make"
+          ],
+          [
+            "QRCode",
+            "QRCode"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#1976D2",
+    "tooltip": "Call an allowlisted qrcode function or constructor and return its result.",
+    "icon": "settings",
+    "output": "Any"
+  },
+  {
+    "type": "python_qrcode_do",
+    "message0": "run qrcode %1 arguments %2 keyword arguments %3",
+    "args0": [
+      {
+        "type": "field_dropdown",
+        "name": "TARGET",
+        "options": [
+          [
+            "make",
+            "make"
+          ],
+          [
+            "QRCode",
+            "QRCode"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#1976D2",
+    "tooltip": "Run an allowlisted qrcode function or constructor as a statement.",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "python_qrcode_method",
+    "message0": "qrcode object %1 call method %2 arguments %3 keyword arguments %4",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "OBJECT"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "METHOD",
+        "options": [
+          [
+            "add_data",
+            "add_data"
+          ],
+          [
+            "make",
+            "make"
+          ],
+          [
+            "make_image",
+            "make_image"
+          ],
+          [
+            "clear",
+            "clear"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#1976D2",
+    "tooltip": "Call an allowlisted qrcode object method and return its result.",
+    "icon": "settings",
+    "output": "Any"
+  },
+  {
+    "type": "python_qrcode_do_method",
+    "message0": "run qrcode object %1 method %2 arguments %3 keyword arguments %4",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "OBJECT"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "METHOD",
+        "options": [
+          [
+            "add_data",
+            "add_data"
+          ],
+          [
+            "make",
+            "make"
+          ],
+          [
+            "make_image",
+            "make_image"
+          ],
+          [
+            "clear",
+            "clear"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#1976D2",
+    "tooltip": "Run an allowlisted qrcode object method as a statement.",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "python_qrcode_attribute",
+    "message0": "qrcode object %1 attribute %2",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "OBJECT"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "ATTRIBUTE",
+        "options": [
+          [
+            "version",
+            "version"
+          ],
+          [
+            "error_correction",
+            "error_correction"
+          ],
+          [
+            "box_size",
+            "box_size"
+          ],
+          [
+            "border",
+            "border"
+          ]
+        ]
+      }
+    ],
+    "colour": "#1976D2",
+    "tooltip": "Read an allowlisted qrcode object or module attribute.",
+    "icon": "settings",
+    "output": "Any"
+  }
+]

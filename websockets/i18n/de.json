@@ -1,0 +1,174 @@
+{
+  "toolbox_name": "websockets",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_websockets_call": {
+    "message0": "websockets aufrufen oder erzeugen %1 Argumente %2 Schlüsselwortargumente %3",
+    "tooltip": "Eine freigegebene websockets-Funktion oder einen Konstruktor aufrufen und das Ergebnis zurückgeben.",
+    "args0": [
+      {
+        "options": [
+          [
+            "connect",
+            "connect"
+          ],
+          [
+            "serve",
+            "serve"
+          ],
+          [
+            "broadcast",
+            "broadcast"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_websockets_do": {
+    "message0": "websockets ausführen %1 Argumente %2 Schlüsselwortargumente %3",
+    "tooltip": "Eine freigegebene websockets-Funktion oder einen Konstruktor als Anweisung ausführen.",
+    "args0": [
+      {
+        "options": [
+          [
+            "connect",
+            "connect"
+          ],
+          [
+            "serve",
+            "serve"
+          ],
+          [
+            "broadcast",
+            "broadcast"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_websockets_method": {
+    "message0": "websockets-Objekt %1 Methode %2 Argumente %3 Schlüsselwortargumente %4",
+    "tooltip": "Eine freigegebene Methode eines websockets-Objekts aufrufen und das Ergebnis zurückgeben.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "send",
+            "send"
+          ],
+          [
+            "recv",
+            "recv"
+          ],
+          [
+            "close",
+            "close"
+          ],
+          [
+            "ping",
+            "ping"
+          ],
+          [
+            "pong",
+            "pong"
+          ],
+          [
+            "wait_closed",
+            "wait_closed"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_websockets_do_method": {
+    "message0": "websockets-Objekt %1 Methode %2 ausführen Argumente %3 Schlüsselwortargumente %4",
+    "tooltip": "Eine freigegebene Methode eines websockets-Objekts als Anweisung ausführen.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "send",
+            "send"
+          ],
+          [
+            "recv",
+            "recv"
+          ],
+          [
+            "close",
+            "close"
+          ],
+          [
+            "ping",
+            "ping"
+          ],
+          [
+            "pong",
+            "pong"
+          ],
+          [
+            "wait_closed",
+            "wait_closed"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_websockets_attribute": {
+    "message0": "websockets-Objekt %1 Attribut %2",
+    "tooltip": "Ein freigegebenes Attribut eines websockets-Objekts oder Moduls lesen.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "remote_address",
+            "remote_address"
+          ],
+          [
+            "local_address",
+            "local_address"
+          ],
+          [
+            "state",
+            "state"
+          ],
+          [
+            "close_code",
+            "close_code"
+          ],
+          [
+            "close_reason",
+            "close_reason"
+          ],
+          [
+            "subprotocol",
+            "subprotocol"
+          ],
+          [
+            "latency",
+            "latency"
+          ],
+          [
+            "request",
+            "request"
+          ],
+          [
+            "response",
+            "response"
+          ]
+        ]
+      }
+    ]
+  }
+}

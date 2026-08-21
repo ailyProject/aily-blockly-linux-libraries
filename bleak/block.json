@@ -1,0 +1,268 @@
+[
+  {
+    "type": "python_bleak_call",
+    "message0": "Bleak Bluetooth LE call or create %1 arguments %2 keyword arguments %3",
+    "args0": [
+      {
+        "type": "field_dropdown",
+        "name": "TARGET",
+        "options": [
+          [
+            "BleakScanner",
+            "BleakScanner"
+          ],
+          [
+            "BleakScanner.discover",
+            "BleakScanner.discover"
+          ],
+          [
+            "BleakScanner.find_device_by_address",
+            "BleakScanner.find_device_by_address"
+          ],
+          [
+            "BleakScanner.find_device_by_name",
+            "BleakScanner.find_device_by_name"
+          ],
+          [
+            "BleakClient",
+            "BleakClient"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#0288D1",
+    "tooltip": "Call an allowlisted Bleak Bluetooth LE function or constructor and return its result.",
+    "icon": "settings",
+    "output": "Any"
+  },
+  {
+    "type": "python_bleak_do",
+    "message0": "run Bleak Bluetooth LE %1 arguments %2 keyword arguments %3",
+    "args0": [
+      {
+        "type": "field_dropdown",
+        "name": "TARGET",
+        "options": [
+          [
+            "BleakScanner",
+            "BleakScanner"
+          ],
+          [
+            "BleakScanner.discover",
+            "BleakScanner.discover"
+          ],
+          [
+            "BleakScanner.find_device_by_address",
+            "BleakScanner.find_device_by_address"
+          ],
+          [
+            "BleakScanner.find_device_by_name",
+            "BleakScanner.find_device_by_name"
+          ],
+          [
+            "BleakClient",
+            "BleakClient"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#0288D1",
+    "tooltip": "Run an allowlisted Bleak Bluetooth LE function or constructor as a statement.",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "python_bleak_method",
+    "message0": "Bleak Bluetooth LE object %1 call method %2 arguments %3 keyword arguments %4",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "OBJECT"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "METHOD",
+        "options": [
+          [
+            "connect",
+            "connect"
+          ],
+          [
+            "disconnect",
+            "disconnect"
+          ],
+          [
+            "read_gatt_char",
+            "read_gatt_char"
+          ],
+          [
+            "write_gatt_char",
+            "write_gatt_char"
+          ],
+          [
+            "start_notify",
+            "start_notify"
+          ],
+          [
+            "stop_notify",
+            "stop_notify"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#0288D1",
+    "tooltip": "Call an allowlisted Bleak Bluetooth LE object method and return its result.",
+    "icon": "settings",
+    "output": "Any"
+  },
+  {
+    "type": "python_bleak_do_method",
+    "message0": "run Bleak Bluetooth LE object %1 method %2 arguments %3 keyword arguments %4",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "OBJECT"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "METHOD",
+        "options": [
+          [
+            "connect",
+            "connect"
+          ],
+          [
+            "disconnect",
+            "disconnect"
+          ],
+          [
+            "read_gatt_char",
+            "read_gatt_char"
+          ],
+          [
+            "write_gatt_char",
+            "write_gatt_char"
+          ],
+          [
+            "start_notify",
+            "start_notify"
+          ],
+          [
+            "stop_notify",
+            "stop_notify"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#0288D1",
+    "tooltip": "Run an allowlisted Bleak Bluetooth LE object method as a statement.",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "python_bleak_attribute",
+    "message0": "Bleak Bluetooth LE object %1 attribute %2",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "OBJECT"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "ATTRIBUTE",
+        "options": [
+          [
+            "is_connected",
+            "is_connected"
+          ],
+          [
+            "address",
+            "address"
+          ],
+          [
+            "name",
+            "name"
+          ],
+          [
+            "details",
+            "details"
+          ],
+          [
+            "mtu_size",
+            "mtu_size"
+          ],
+          [
+            "services",
+            "services"
+          ],
+          [
+            "backend_id",
+            "backend_id"
+          ],
+          [
+            "rssi",
+            "rssi"
+          ],
+          [
+            "local_name",
+            "local_name"
+          ],
+          [
+            "manufacturer_data",
+            "manufacturer_data"
+          ],
+          [
+            "service_data",
+            "service_data"
+          ],
+          [
+            "service_uuids",
+            "service_uuids"
+          ],
+          [
+            "tx_power",
+            "tx_power"
+          ]
+        ]
+      }
+    ],
+    "colour": "#0288D1",
+    "tooltip": "Read an allowlisted Bleak Bluetooth LE object or module attribute.",
+    "icon": "settings",
+    "output": "Any"
+  }
+]

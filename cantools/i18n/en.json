@@ -1,0 +1,154 @@
+{
+  "toolbox_name": "cantools",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_cantools_call": {
+    "message0": "cantools call or create %1 arguments %2 keyword arguments %3",
+    "tooltip": "Call an allowlisted cantools function or constructor and return its result.",
+    "args0": [
+      {
+        "options": [
+          [
+            "database.load_file",
+            "database.load_file"
+          ],
+          [
+            "database.load_string",
+            "database.load_string"
+          ],
+          [
+            "database.load",
+            "database.load"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_cantools_do": {
+    "message0": "run cantools %1 arguments %2 keyword arguments %3",
+    "tooltip": "Run an allowlisted cantools function or constructor as a statement.",
+    "args0": [
+      {
+        "options": [
+          [
+            "database.load_file",
+            "database.load_file"
+          ],
+          [
+            "database.load_string",
+            "database.load_string"
+          ],
+          [
+            "database.load",
+            "database.load"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_cantools_method": {
+    "message0": "cantools object %1 call method %2 arguments %3 keyword arguments %4",
+    "tooltip": "Call an allowlisted cantools object method and return its result.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "encode_message",
+            "encode_message"
+          ],
+          [
+            "decode_message",
+            "decode_message"
+          ],
+          [
+            "get_message_by_name",
+            "get_message_by_name"
+          ],
+          [
+            "refresh",
+            "refresh"
+          ],
+          [
+            "as_dbc_string",
+            "as_dbc_string"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_cantools_do_method": {
+    "message0": "run cantools object %1 method %2 arguments %3 keyword arguments %4",
+    "tooltip": "Run an allowlisted cantools object method as a statement.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "encode_message",
+            "encode_message"
+          ],
+          [
+            "decode_message",
+            "decode_message"
+          ],
+          [
+            "get_message_by_name",
+            "get_message_by_name"
+          ],
+          [
+            "refresh",
+            "refresh"
+          ],
+          [
+            "as_dbc_string",
+            "as_dbc_string"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_cantools_attribute": {
+    "message0": "cantools object %1 attribute %2",
+    "tooltip": "Read an allowlisted cantools object or module attribute.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "messages",
+            "messages"
+          ],
+          [
+            "nodes",
+            "nodes"
+          ],
+          [
+            "buses",
+            "buses"
+          ],
+          [
+            "name",
+            "name"
+          ],
+          [
+            "frame_id",
+            "frame_id"
+          ],
+          [
+            "signals",
+            "signals"
+          ]
+        ]
+      }
+    ]
+  }
+}

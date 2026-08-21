@@ -1,0 +1,178 @@
+{
+  "toolbox_name": "python-can",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_python_can_call": {
+    "message0": "python-can 呼叫或建立 %1 參數 %2 關鍵字參數 %3",
+    "tooltip": "呼叫白名單中的 python-can 函式或建構器並傳回結果。",
+    "args0": [
+      {
+        "options": [
+          [
+            "Bus",
+            "Bus"
+          ],
+          [
+            "Message",
+            "Message"
+          ],
+          [
+            "Notifier",
+            "Notifier"
+          ],
+          [
+            "Listener",
+            "Listener"
+          ],
+          [
+            "BufferedReader",
+            "BufferedReader"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_python_can_do": {
+    "message0": "執行 python-can %1 參數 %2 關鍵字參數 %3",
+    "tooltip": "以敘述方式執行白名單中的 python-can 函式或建構器。",
+    "args0": [
+      {
+        "options": [
+          [
+            "Bus",
+            "Bus"
+          ],
+          [
+            "Message",
+            "Message"
+          ],
+          [
+            "Notifier",
+            "Notifier"
+          ],
+          [
+            "Listener",
+            "Listener"
+          ],
+          [
+            "BufferedReader",
+            "BufferedReader"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_python_can_method": {
+    "message0": "python-can 物件 %1 呼叫方法 %2 參數 %3 關鍵字參數 %4",
+    "tooltip": "呼叫白名單中的 python-can 物件方法並傳回結果。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "send",
+            "send"
+          ],
+          [
+            "recv",
+            "recv"
+          ],
+          [
+            "shutdown",
+            "shutdown"
+          ],
+          [
+            "send_periodic",
+            "send_periodic"
+          ],
+          [
+            "stop_all_periodic_tasks",
+            "stop_all_periodic_tasks"
+          ],
+          [
+            "get_message",
+            "get_message"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_python_can_do_method": {
+    "message0": "執行 python-can 物件 %1 的方法 %2 參數 %3 關鍵字參數 %4",
+    "tooltip": "以敘述方式執行白名單中的 python-can 物件方法。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "send",
+            "send"
+          ],
+          [
+            "recv",
+            "recv"
+          ],
+          [
+            "shutdown",
+            "shutdown"
+          ],
+          [
+            "send_periodic",
+            "send_periodic"
+          ],
+          [
+            "stop_all_periodic_tasks",
+            "stop_all_periodic_tasks"
+          ],
+          [
+            "get_message",
+            "get_message"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_python_can_attribute": {
+    "message0": "python-can 物件 %1 屬性 %2",
+    "tooltip": "讀取白名單中的 python-can 物件或模組屬性。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "arbitration_id",
+            "arbitration_id"
+          ],
+          [
+            "data",
+            "data"
+          ],
+          [
+            "is_extended_id",
+            "is_extended_id"
+          ],
+          [
+            "is_remote_frame",
+            "is_remote_frame"
+          ],
+          [
+            "timestamp",
+            "timestamp"
+          ],
+          [
+            "channel",
+            "channel"
+          ]
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,186 @@
+{
+  "toolbox_name": "pyudev",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "linux_pyudev_call": {
+    "message0": "pyudev aufrufen oder erzeugen %1 Argumente %2 Schlüsselwortargumente %3",
+    "tooltip": "Eine freigegebene pyudev-Funktion oder einen Konstruktor aufrufen und das Ergebnis zurückgeben.",
+    "args0": [
+      {
+        "options": [
+          [
+            "Context",
+            "Context"
+          ],
+          [
+            "Monitor",
+            "Monitor"
+          ],
+          [
+            "MonitorObserver",
+            "MonitorObserver"
+          ],
+          [
+            "Devices.from_path",
+            "Devices.from_path"
+          ],
+          [
+            "Devices.from_device_file",
+            "Devices.from_device_file"
+          ],
+          [
+            "Devices.from_device_number",
+            "Devices.from_device_number"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "linux_pyudev_do": {
+    "message0": "pyudev ausführen %1 Argumente %2 Schlüsselwortargumente %3",
+    "tooltip": "Eine freigegebene pyudev-Funktion oder einen Konstruktor als Anweisung ausführen.",
+    "args0": [
+      {
+        "options": [
+          [
+            "Context",
+            "Context"
+          ],
+          [
+            "Monitor",
+            "Monitor"
+          ],
+          [
+            "MonitorObserver",
+            "MonitorObserver"
+          ],
+          [
+            "Devices.from_path",
+            "Devices.from_path"
+          ],
+          [
+            "Devices.from_device_file",
+            "Devices.from_device_file"
+          ],
+          [
+            "Devices.from_device_number",
+            "Devices.from_device_number"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "linux_pyudev_method": {
+    "message0": "pyudev-Objekt %1 Methode %2 Argumente %3 Schlüsselwortargumente %4",
+    "tooltip": "Eine freigegebene Methode eines pyudev-Objekts aufrufen und das Ergebnis zurückgeben.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "list_devices",
+            "list_devices"
+          ],
+          [
+            "filter_by",
+            "filter_by"
+          ],
+          [
+            "enable_receiving",
+            "enable_receiving"
+          ],
+          [
+            "start",
+            "start"
+          ],
+          [
+            "stop",
+            "stop"
+          ],
+          [
+            "poll",
+            "poll"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "linux_pyudev_do_method": {
+    "message0": "pyudev-Objekt %1 Methode %2 ausführen Argumente %3 Schlüsselwortargumente %4",
+    "tooltip": "Eine freigegebene Methode eines pyudev-Objekts als Anweisung ausführen.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "list_devices",
+            "list_devices"
+          ],
+          [
+            "filter_by",
+            "filter_by"
+          ],
+          [
+            "enable_receiving",
+            "enable_receiving"
+          ],
+          [
+            "start",
+            "start"
+          ],
+          [
+            "stop",
+            "stop"
+          ],
+          [
+            "poll",
+            "poll"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "linux_pyudev_attribute": {
+    "message0": "pyudev-Objekt %1 Attribut %2",
+    "tooltip": "Ein freigegebenes Attribut eines pyudev-Objekts oder Moduls lesen.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "device_path",
+            "device_path"
+          ],
+          [
+            "device_node",
+            "device_node"
+          ],
+          [
+            "subsystem",
+            "subsystem"
+          ],
+          [
+            "sys_name",
+            "sys_name"
+          ],
+          [
+            "properties",
+            "properties"
+          ],
+          [
+            "parent",
+            "parent"
+          ]
+        ]
+      }
+    ]
+  }
+}

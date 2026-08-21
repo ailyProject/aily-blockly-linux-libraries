@@ -1,0 +1,27 @@
+{
+  "kind": "category",
+  "name": "CircuitPython VL53L1X",
+  "colour": "#00897B",
+  "contents": [
+    {
+      "kind": "block",
+      "type": "python_adafruit_vl53l1x_call"
+    },
+    {
+      "kind": "block",
+      "type": "python_adafruit_vl53l1x_do"
+    },
+    {
+      "kind": "block",
+      "type": "python_adafruit_vl53l1x_method"
+    },
+    {
+      "kind": "block",
+      "type": "python_adafruit_vl53l1x_do_method"
+    },
+    {
+      "kind": "block",
+      "type": "python_adafruit_vl53l1x_attribute"
+    }
+  ]
+}

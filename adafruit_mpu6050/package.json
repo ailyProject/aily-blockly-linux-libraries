@@ -1,0 +1,45 @@
+{
+  "name": "@aily-project/lib-adafruit-mpu6050",
+  "nickname": "CircuitPython MPU6050",
+  "nickname_zh_cn": "CircuitPython MPU6050",
+  "nickname_en": "CircuitPython MPU6050",
+  "nickname_zh_hk": "CircuitPython MPU6050",
+  "nickname_ja": "CircuitPython MPU6050",
+  "nickname_ko": "CircuitPython MPU6050",
+  "nickname_de": "CircuitPython MPU6050",
+  "nickname_fr": "CircuitPython MPU6050",
+  "nickname_es": "CircuitPython MPU6050",
+  "nickname_pt": "CircuitPython MPU6050",
+  "nickname_ru": "CircuitPython MPU6050",
+  "nickname_ar": "CircuitPython MPU6050",
+  "version": "0.0.1",
+  "description": "面向树莓派与 Linux 开发板的 CircuitPython MPU6050 常用 Python API 白名单积木。",
+  "description_zh_cn": "面向树莓派与 Linux 开发板的 CircuitPython MPU6050 常用 Python API 白名单积木。",
+  "description_en": "Allowlisted CircuitPython MPU6050 Python API blocks for Raspberry Pi and Linux single-board computers.",
+  "spec": true,
+  "compatibility": {
+    "type": [
+      "broadcom:bcm2712:raspberrypi_5"
+    ],
+    "voltage": [
+      3.3
+    ]
+  },
+  "keywords": [
+    "aily",
+    "blockly",
+    "python",
+    "linux",
+    "raspberry-pi",
+    "adafruit-circuitpython-mpu6050",
+    "adafruit_mpu6050"
+  ],
+  "tags": [
+    "io"
+  ],
+  "author": "ailyProject",
+  "license": "MIT",
+  "homepage": "https://docs.circuitpython.org/projects/mpu6050/en/latest/",
+  "dependencies": {},
+  "devDependencies": {}
+}

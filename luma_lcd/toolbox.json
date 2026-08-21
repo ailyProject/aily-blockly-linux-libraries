@@ -1,0 +1,27 @@
+{
+  "kind": "category",
+  "name": "luma.lcd",
+  "colour": "#1976D2",
+  "contents": [
+    {
+      "kind": "block",
+      "type": "python_luma_lcd_call"
+    },
+    {
+      "kind": "block",
+      "type": "python_luma_lcd_do"
+    },
+    {
+      "kind": "block",
+      "type": "python_luma_lcd_method"
+    },
+    {
+      "kind": "block",
+      "type": "python_luma_lcd_do_method"
+    },
+    {
+      "kind": "block",
+      "type": "python_luma_lcd_attribute"
+    }
+  ]
+}

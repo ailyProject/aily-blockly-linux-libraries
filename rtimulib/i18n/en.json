@@ -1,0 +1,151 @@
+{
+  "toolbox_name": "RTIMULib",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "rpi_rtimulib_call": {
+    "message0": "RTIMULib call or create %1 arguments %2 keyword arguments %3",
+    "tooltip": "Call an allowlisted RTIMULib function or constructor and return its result.",
+    "args0": [
+      {
+        "options": [
+          [
+            "Settings",
+            "Settings"
+          ],
+          [
+            "RTIMU",
+            "RTIMU"
+          ],
+          [
+            "RTPressure",
+            "RTPressure"
+          ],
+          [
+            "RTHumidity",
+            "RTHumidity"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "rpi_rtimulib_do": {
+    "message0": "run RTIMULib %1 arguments %2 keyword arguments %3",
+    "tooltip": "Run an allowlisted RTIMULib function or constructor as a statement.",
+    "args0": [
+      {
+        "options": [
+          [
+            "Settings",
+            "Settings"
+          ],
+          [
+            "RTIMU",
+            "RTIMU"
+          ],
+          [
+            "RTPressure",
+            "RTPressure"
+          ],
+          [
+            "RTHumidity",
+            "RTHumidity"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "rpi_rtimulib_method": {
+    "message0": "RTIMULib object %1 call method %2 arguments %3 keyword arguments %4",
+    "tooltip": "Call an allowlisted RTIMULib object method and return its result.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "IMUInit",
+            "IMUInit"
+          ],
+          [
+            "IMURead",
+            "IMURead"
+          ],
+          [
+            "getIMUData",
+            "getIMUData"
+          ],
+          [
+            "IMUGetPollInterval",
+            "IMUGetPollInterval"
+          ],
+          [
+            "pressureInit",
+            "pressureInit"
+          ],
+          [
+            "pressureRead",
+            "pressureRead"
+          ],
+          [
+            "humidityInit",
+            "humidityInit"
+          ],
+          [
+            "humidityRead",
+            "humidityRead"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "rpi_rtimulib_do_method": {
+    "message0": "run RTIMULib object %1 method %2 arguments %3 keyword arguments %4",
+    "tooltip": "Run an allowlisted RTIMULib object method as a statement.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "IMUInit",
+            "IMUInit"
+          ],
+          [
+            "IMURead",
+            "IMURead"
+          ],
+          [
+            "getIMUData",
+            "getIMUData"
+          ],
+          [
+            "IMUGetPollInterval",
+            "IMUGetPollInterval"
+          ],
+          [
+            "pressureInit",
+            "pressureInit"
+          ],
+          [
+            "pressureRead",
+            "pressureRead"
+          ],
+          [
+            "humidityInit",
+            "humidityInit"
+          ],
+          [
+            "humidityRead",
+            "humidityRead"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  }
+}

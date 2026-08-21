@@ -1,0 +1,134 @@
+{
+  "toolbox_name": "CircuitPython MCP3xxx",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_adafruit_mcp3xxx_call": {
+    "message0": "CircuitPython MCP3xxx استدعاء أو إنشاء %1 الوسائط %2 وسائط الكلمات المفتاحية %3",
+    "tooltip": "استدعاء دالة أو مُنشئ مسموح من CircuitPython MCP3xxx وإرجاع النتيجة.",
+    "args0": [
+      {
+        "options": [
+          [
+            "MCP3008",
+            "MCP3008"
+          ],
+          [
+            "AnalogIn",
+            "AnalogIn"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_mcp3xxx_do": {
+    "message0": "تشغيل CircuitPython MCP3xxx %1 الوسائط %2 وسائط الكلمات المفتاحية %3",
+    "tooltip": "تشغيل دالة أو مُنشئ مسموح من CircuitPython MCP3xxx كتعليمة.",
+    "args0": [
+      {
+        "options": [
+          [
+            "MCP3008",
+            "MCP3008"
+          ],
+          [
+            "AnalogIn",
+            "AnalogIn"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_mcp3xxx_method": {
+    "message0": "كائن CircuitPython MCP3xxx %1 الطريقة %2 الوسائط %3 وسائط الكلمات المفتاحية %4",
+    "tooltip": "استدعاء طريقة مسموحة لكائن CircuitPython MCP3xxx وإرجاع النتيجة.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "read",
+            "read"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_mcp3xxx_do_method": {
+    "message0": "تشغيل طريقة CircuitPython MCP3xxx للكائن %1 %2 الوسائط %3 وسائط الكلمات المفتاحية %4",
+    "tooltip": "تشغيل طريقة مسموحة لكائن CircuitPython MCP3xxx كتعليمة.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "read",
+            "read"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_mcp3xxx_attribute": {
+    "message0": "كائن CircuitPython MCP3xxx %1 السمة %2",
+    "tooltip": "قراءة سمة مسموحة لكائن أو وحدة CircuitPython MCP3xxx.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "P0",
+            "P0"
+          ],
+          [
+            "P1",
+            "P1"
+          ],
+          [
+            "P2",
+            "P2"
+          ],
+          [
+            "P3",
+            "P3"
+          ],
+          [
+            "P4",
+            "P4"
+          ],
+          [
+            "P5",
+            "P5"
+          ],
+          [
+            "P6",
+            "P6"
+          ],
+          [
+            "P7",
+            "P7"
+          ],
+          [
+            "value",
+            "value"
+          ],
+          [
+            "voltage",
+            "voltage"
+          ],
+          [
+            "reference_voltage",
+            "reference_voltage"
+          ]
+        ]
+      }
+    ]
+  }
+}

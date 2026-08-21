@@ -1,0 +1,94 @@
+{
+  "toolbox_name": "CircuitPython RGB Display",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_adafruit_rgb_display_call": {
+    "message0": "CircuitPython RGB Display 呼叫或建立 %1 參數 %2 關鍵字參數 %3",
+    "tooltip": "呼叫白名單中的 CircuitPython RGB Display 函式或建構器並傳回結果。",
+    "args0": [
+      {
+        "options": [
+          [
+            "ST7789",
+            "ST7789"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_rgb_display_do": {
+    "message0": "執行 CircuitPython RGB Display %1 參數 %2 關鍵字參數 %3",
+    "tooltip": "以敘述方式執行白名單中的 CircuitPython RGB Display 函式或建構器。",
+    "args0": [
+      {
+        "options": [
+          [
+            "ST7789",
+            "ST7789"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_rgb_display_method": {
+    "message0": "CircuitPython RGB Display 物件 %1 呼叫方法 %2 參數 %3 關鍵字參數 %4",
+    "tooltip": "呼叫白名單中的 CircuitPython RGB Display 物件方法並傳回結果。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "image",
+            "image"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_rgb_display_do_method": {
+    "message0": "執行 CircuitPython RGB Display 物件 %1 的方法 %2 參數 %3 關鍵字參數 %4",
+    "tooltip": "以敘述方式執行白名單中的 CircuitPython RGB Display 物件方法。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "image",
+            "image"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_rgb_display_attribute": {
+    "message0": "CircuitPython RGB Display 物件 %1 屬性 %2",
+    "tooltip": "讀取白名單中的 CircuitPython RGB Display 物件或模組屬性。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "width",
+            "width"
+          ],
+          [
+            "height",
+            "height"
+          ],
+          [
+            "rotation",
+            "rotation"
+          ]
+        ]
+      }
+    ]
+  }
+}

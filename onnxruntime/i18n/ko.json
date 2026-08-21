@@ -1,0 +1,151 @@
+{
+  "toolbox_name": "ONNX Runtime",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_onnxruntime_call": {
+    "message0": "ONNX Runtime 호출 또는 생성 %1 인수 %2 키워드 인수 %3",
+    "tooltip": "허용 목록의 ONNX Runtime 함수 또는 생성자를 호출하고 결과를 반환합니다.",
+    "args0": [
+      {
+        "options": [
+          [
+            "InferenceSession",
+            "InferenceSession"
+          ],
+          [
+            "SessionOptions",
+            "SessionOptions"
+          ],
+          [
+            "get_available_providers",
+            "get_available_providers"
+          ],
+          [
+            "get_device",
+            "get_device"
+          ],
+          [
+            "set_default_logger_severity",
+            "set_default_logger_severity"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_onnxruntime_do": {
+    "message0": "ONNX Runtime 실행 %1 인수 %2 키워드 인수 %3",
+    "tooltip": "허용 목록의 ONNX Runtime 함수 또는 생성자를 문으로 실행합니다.",
+    "args0": [
+      {
+        "options": [
+          [
+            "InferenceSession",
+            "InferenceSession"
+          ],
+          [
+            "SessionOptions",
+            "SessionOptions"
+          ],
+          [
+            "get_available_providers",
+            "get_available_providers"
+          ],
+          [
+            "get_device",
+            "get_device"
+          ],
+          [
+            "set_default_logger_severity",
+            "set_default_logger_severity"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_onnxruntime_method": {
+    "message0": "ONNX Runtime 객체 %1 메서드 %2 인수 %3 키워드 인수 %4",
+    "tooltip": "허용 목록의 ONNX Runtime 객체 메서드를 호출하고 결과를 반환합니다.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "run",
+            "run"
+          ],
+          [
+            "run_with_iobinding",
+            "run_with_iobinding"
+          ],
+          [
+            "get_inputs",
+            "get_inputs"
+          ],
+          [
+            "get_outputs",
+            "get_outputs"
+          ],
+          [
+            "get_providers",
+            "get_providers"
+          ],
+          [
+            "set_providers",
+            "set_providers"
+          ],
+          [
+            "end_profiling",
+            "end_profiling"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_onnxruntime_do_method": {
+    "message0": "ONNX Runtime 객체 %1 메서드 실행 %2 인수 %3 키워드 인수 %4",
+    "tooltip": "허용 목록의 ONNX Runtime 객체 메서드를 문으로 실행합니다.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "run",
+            "run"
+          ],
+          [
+            "run_with_iobinding",
+            "run_with_iobinding"
+          ],
+          [
+            "get_inputs",
+            "get_inputs"
+          ],
+          [
+            "get_outputs",
+            "get_outputs"
+          ],
+          [
+            "get_providers",
+            "get_providers"
+          ],
+          [
+            "set_providers",
+            "set_providers"
+          ],
+          [
+            "end_profiling",
+            "end_profiling"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  }
+}

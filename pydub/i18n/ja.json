@@ -1,0 +1,166 @@
+{
+  "toolbox_name": "pydub",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_pydub_call": {
+    "message0": "pydub 呼び出しまたは作成 %1 引数 %2 キーワード引数 %3",
+    "tooltip": "許可された pydub の関数またはコンストラクターを呼び出して結果を返します。",
+    "args0": [
+      {
+        "options": [
+          [
+            "AudioSegment.silent",
+            "AudioSegment.silent"
+          ],
+          [
+            "AudioSegment.from_file",
+            "AudioSegment.from_file"
+          ],
+          [
+            "AudioSegment.from_wav",
+            "AudioSegment.from_wav"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_pydub_do": {
+    "message0": "pydub を実行 %1 引数 %2 キーワード引数 %3",
+    "tooltip": "許可された pydub の関数またはコンストラクターを文として実行します。",
+    "args0": [
+      {
+        "options": [
+          [
+            "AudioSegment.silent",
+            "AudioSegment.silent"
+          ],
+          [
+            "AudioSegment.from_file",
+            "AudioSegment.from_file"
+          ],
+          [
+            "AudioSegment.from_wav",
+            "AudioSegment.from_wav"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_pydub_method": {
+    "message0": "pydub オブジェクト %1 メソッド %2 引数 %3 キーワード引数 %4",
+    "tooltip": "許可された pydub オブジェクトのメソッドを呼び出して結果を返します。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "export",
+            "export"
+          ],
+          [
+            "overlay",
+            "overlay"
+          ],
+          [
+            "append",
+            "append"
+          ],
+          [
+            "fade_in",
+            "fade_in"
+          ],
+          [
+            "fade_out",
+            "fade_out"
+          ],
+          [
+            "set_frame_rate",
+            "set_frame_rate"
+          ],
+          [
+            "set_channels",
+            "set_channels"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_pydub_do_method": {
+    "message0": "pydub オブジェクト %1 のメソッド %2 を実行 引数 %3 キーワード引数 %4",
+    "tooltip": "許可された pydub オブジェクトのメソッドを文として実行します。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "export",
+            "export"
+          ],
+          [
+            "overlay",
+            "overlay"
+          ],
+          [
+            "append",
+            "append"
+          ],
+          [
+            "fade_in",
+            "fade_in"
+          ],
+          [
+            "fade_out",
+            "fade_out"
+          ],
+          [
+            "set_frame_rate",
+            "set_frame_rate"
+          ],
+          [
+            "set_channels",
+            "set_channels"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_pydub_attribute": {
+    "message0": "pydub オブジェクト %1 属性 %2",
+    "tooltip": "許可された pydub オブジェクトまたはモジュールの属性を読み取ります。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "duration_seconds",
+            "duration_seconds"
+          ],
+          [
+            "frame_rate",
+            "frame_rate"
+          ],
+          [
+            "channels",
+            "channels"
+          ],
+          [
+            "sample_width",
+            "sample_width"
+          ],
+          [
+            "raw_data",
+            "raw_data"
+          ]
+        ]
+      }
+    ]
+  }
+}

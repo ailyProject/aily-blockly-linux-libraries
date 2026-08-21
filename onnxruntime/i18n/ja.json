@@ -1,0 +1,151 @@
+{
+  "toolbox_name": "ONNX Runtime",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_onnxruntime_call": {
+    "message0": "ONNX Runtime 呼び出しまたは作成 %1 引数 %2 キーワード引数 %3",
+    "tooltip": "許可された ONNX Runtime の関数またはコンストラクターを呼び出して結果を返します。",
+    "args0": [
+      {
+        "options": [
+          [
+            "InferenceSession",
+            "InferenceSession"
+          ],
+          [
+            "SessionOptions",
+            "SessionOptions"
+          ],
+          [
+            "get_available_providers",
+            "get_available_providers"
+          ],
+          [
+            "get_device",
+            "get_device"
+          ],
+          [
+            "set_default_logger_severity",
+            "set_default_logger_severity"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_onnxruntime_do": {
+    "message0": "ONNX Runtime を実行 %1 引数 %2 キーワード引数 %3",
+    "tooltip": "許可された ONNX Runtime の関数またはコンストラクターを文として実行します。",
+    "args0": [
+      {
+        "options": [
+          [
+            "InferenceSession",
+            "InferenceSession"
+          ],
+          [
+            "SessionOptions",
+            "SessionOptions"
+          ],
+          [
+            "get_available_providers",
+            "get_available_providers"
+          ],
+          [
+            "get_device",
+            "get_device"
+          ],
+          [
+            "set_default_logger_severity",
+            "set_default_logger_severity"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_onnxruntime_method": {
+    "message0": "ONNX Runtime オブジェクト %1 メソッド %2 引数 %3 キーワード引数 %4",
+    "tooltip": "許可された ONNX Runtime オブジェクトのメソッドを呼び出して結果を返します。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "run",
+            "run"
+          ],
+          [
+            "run_with_iobinding",
+            "run_with_iobinding"
+          ],
+          [
+            "get_inputs",
+            "get_inputs"
+          ],
+          [
+            "get_outputs",
+            "get_outputs"
+          ],
+          [
+            "get_providers",
+            "get_providers"
+          ],
+          [
+            "set_providers",
+            "set_providers"
+          ],
+          [
+            "end_profiling",
+            "end_profiling"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_onnxruntime_do_method": {
+    "message0": "ONNX Runtime オブジェクト %1 のメソッド %2 を実行 引数 %3 キーワード引数 %4",
+    "tooltip": "許可された ONNX Runtime オブジェクトのメソッドを文として実行します。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "run",
+            "run"
+          ],
+          [
+            "run_with_iobinding",
+            "run_with_iobinding"
+          ],
+          [
+            "get_inputs",
+            "get_inputs"
+          ],
+          [
+            "get_outputs",
+            "get_outputs"
+          ],
+          [
+            "get_providers",
+            "get_providers"
+          ],
+          [
+            "set_providers",
+            "set_providers"
+          ],
+          [
+            "end_profiling",
+            "end_profiling"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  }
+}

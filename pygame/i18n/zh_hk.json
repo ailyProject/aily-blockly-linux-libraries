@@ -1,0 +1,238 @@
+{
+  "toolbox_name": "pygame",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_pygame_call": {
+    "message0": "pygame 呼叫或建立 %1 參數 %2 關鍵字參數 %3",
+    "tooltip": "呼叫白名單中的 pygame 函式或建構器並傳回結果。",
+    "args0": [
+      {
+        "options": [
+          [
+            "init",
+            "init"
+          ],
+          [
+            "quit",
+            "quit"
+          ],
+          [
+            "display.set_mode",
+            "display.set_mode"
+          ],
+          [
+            "display.flip",
+            "display.flip"
+          ],
+          [
+            "event.get",
+            "event.get"
+          ],
+          [
+            "time.Clock",
+            "time.Clock"
+          ],
+          [
+            "image.load",
+            "image.load"
+          ],
+          [
+            "mixer.Sound",
+            "mixer.Sound"
+          ],
+          [
+            "font.Font",
+            "font.Font"
+          ],
+          [
+            "draw.line",
+            "draw.line"
+          ],
+          [
+            "draw.rect",
+            "draw.rect"
+          ],
+          [
+            "draw.circle",
+            "draw.circle"
+          ],
+          [
+            "transform.scale",
+            "transform.scale"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_pygame_do": {
+    "message0": "執行 pygame %1 參數 %2 關鍵字參數 %3",
+    "tooltip": "以敘述方式執行白名單中的 pygame 函式或建構器。",
+    "args0": [
+      {
+        "options": [
+          [
+            "init",
+            "init"
+          ],
+          [
+            "quit",
+            "quit"
+          ],
+          [
+            "display.set_mode",
+            "display.set_mode"
+          ],
+          [
+            "display.flip",
+            "display.flip"
+          ],
+          [
+            "event.get",
+            "event.get"
+          ],
+          [
+            "time.Clock",
+            "time.Clock"
+          ],
+          [
+            "image.load",
+            "image.load"
+          ],
+          [
+            "mixer.Sound",
+            "mixer.Sound"
+          ],
+          [
+            "font.Font",
+            "font.Font"
+          ],
+          [
+            "draw.line",
+            "draw.line"
+          ],
+          [
+            "draw.rect",
+            "draw.rect"
+          ],
+          [
+            "draw.circle",
+            "draw.circle"
+          ],
+          [
+            "transform.scale",
+            "transform.scale"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_pygame_method": {
+    "message0": "pygame 物件 %1 呼叫方法 %2 參數 %3 關鍵字參數 %4",
+    "tooltip": "呼叫白名單中的 pygame 物件方法並傳回結果。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "fill",
+            "fill"
+          ],
+          [
+            "blit",
+            "blit"
+          ],
+          [
+            "get_rect",
+            "get_rect"
+          ],
+          [
+            "play",
+            "play"
+          ],
+          [
+            "stop",
+            "stop"
+          ],
+          [
+            "tick",
+            "tick"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_pygame_do_method": {
+    "message0": "執行 pygame 物件 %1 的方法 %2 參數 %3 關鍵字參數 %4",
+    "tooltip": "以敘述方式執行白名單中的 pygame 物件方法。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "fill",
+            "fill"
+          ],
+          [
+            "blit",
+            "blit"
+          ],
+          [
+            "get_rect",
+            "get_rect"
+          ],
+          [
+            "play",
+            "play"
+          ],
+          [
+            "stop",
+            "stop"
+          ],
+          [
+            "tick",
+            "tick"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_pygame_attribute": {
+    "message0": "pygame 物件 %1 屬性 %2",
+    "tooltip": "讀取白名單中的 pygame 物件或模組屬性。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "type",
+            "type"
+          ],
+          [
+            "key",
+            "key"
+          ],
+          [
+            "pos",
+            "pos"
+          ],
+          [
+            "button",
+            "button"
+          ],
+          [
+            "size",
+            "size"
+          ]
+        ]
+      }
+    ]
+  }
+}

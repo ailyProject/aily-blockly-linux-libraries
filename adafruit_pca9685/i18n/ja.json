@@ -1,0 +1,98 @@
+{
+  "toolbox_name": "CircuitPython PCA9685",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_adafruit_pca9685_call": {
+    "message0": "CircuitPython PCA9685 呼び出しまたは作成 %1 引数 %2 キーワード引数 %3",
+    "tooltip": "許可された CircuitPython PCA9685 の関数またはコンストラクターを呼び出して結果を返します。",
+    "args0": [
+      {
+        "options": [
+          [
+            "PCA9685",
+            "PCA9685"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_pca9685_do": {
+    "message0": "CircuitPython PCA9685 を実行 %1 引数 %2 キーワード引数 %3",
+    "tooltip": "許可された CircuitPython PCA9685 の関数またはコンストラクターを文として実行します。",
+    "args0": [
+      {
+        "options": [
+          [
+            "PCA9685",
+            "PCA9685"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_pca9685_method": {
+    "message0": "CircuitPython PCA9685 オブジェクト %1 メソッド %2 引数 %3 キーワード引数 %4",
+    "tooltip": "許可された CircuitPython PCA9685 オブジェクトのメソッドを呼び出して結果を返します。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "reset",
+            "reset"
+          ],
+          [
+            "deinit",
+            "deinit"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_pca9685_do_method": {
+    "message0": "CircuitPython PCA9685 オブジェクト %1 のメソッド %2 を実行 引数 %3 キーワード引数 %4",
+    "tooltip": "許可された CircuitPython PCA9685 オブジェクトのメソッドを文として実行します。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "reset",
+            "reset"
+          ],
+          [
+            "deinit",
+            "deinit"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_pca9685_attribute": {
+    "message0": "CircuitPython PCA9685 オブジェクト %1 属性 %2",
+    "tooltip": "許可された CircuitPython PCA9685 オブジェクトまたはモジュールの属性を読み取ります。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "frequency",
+            "frequency"
+          ],
+          [
+            "channels",
+            "channels"
+          ]
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,194 @@
+{
+  "toolbox_name": "Azure IoT Device",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_azure_iot_device_call": {
+    "message0": "Azure IoT Device استدعاء أو إنشاء %1 الوسائط %2 وسائط الكلمات المفتاحية %3",
+    "tooltip": "استدعاء دالة أو مُنشئ مسموح من Azure IoT Device وإرجاع النتيجة.",
+    "args0": [
+      {
+        "options": [
+          [
+            "IoTHubDeviceClient.create_from_connection_string",
+            "IoTHubDeviceClient.create_from_connection_string"
+          ],
+          [
+            "IoTHubDeviceClient.create_from_symmetric_key",
+            "IoTHubDeviceClient.create_from_symmetric_key"
+          ],
+          [
+            "IoTHubModuleClient.create_from_connection_string",
+            "IoTHubModuleClient.create_from_connection_string"
+          ],
+          [
+            "Message",
+            "Message"
+          ],
+          [
+            "MethodResponse",
+            "MethodResponse"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_azure_iot_device_do": {
+    "message0": "تشغيل Azure IoT Device %1 الوسائط %2 وسائط الكلمات المفتاحية %3",
+    "tooltip": "تشغيل دالة أو مُنشئ مسموح من Azure IoT Device كتعليمة.",
+    "args0": [
+      {
+        "options": [
+          [
+            "IoTHubDeviceClient.create_from_connection_string",
+            "IoTHubDeviceClient.create_from_connection_string"
+          ],
+          [
+            "IoTHubDeviceClient.create_from_symmetric_key",
+            "IoTHubDeviceClient.create_from_symmetric_key"
+          ],
+          [
+            "IoTHubModuleClient.create_from_connection_string",
+            "IoTHubModuleClient.create_from_connection_string"
+          ],
+          [
+            "Message",
+            "Message"
+          ],
+          [
+            "MethodResponse",
+            "MethodResponse"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_azure_iot_device_method": {
+    "message0": "كائن Azure IoT Device %1 الطريقة %2 الوسائط %3 وسائط الكلمات المفتاحية %4",
+    "tooltip": "استدعاء طريقة مسموحة لكائن Azure IoT Device وإرجاع النتيجة.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "connect",
+            "connect"
+          ],
+          [
+            "disconnect",
+            "disconnect"
+          ],
+          [
+            "send_message",
+            "send_message"
+          ],
+          [
+            "receive_message",
+            "receive_message"
+          ],
+          [
+            "send_method_response",
+            "send_method_response"
+          ],
+          [
+            "patch_twin_reported_properties",
+            "patch_twin_reported_properties"
+          ],
+          [
+            "get_twin",
+            "get_twin"
+          ],
+          [
+            "shutdown",
+            "shutdown"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_azure_iot_device_do_method": {
+    "message0": "تشغيل طريقة Azure IoT Device للكائن %1 %2 الوسائط %3 وسائط الكلمات المفتاحية %4",
+    "tooltip": "تشغيل طريقة مسموحة لكائن Azure IoT Device كتعليمة.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "connect",
+            "connect"
+          ],
+          [
+            "disconnect",
+            "disconnect"
+          ],
+          [
+            "send_message",
+            "send_message"
+          ],
+          [
+            "receive_message",
+            "receive_message"
+          ],
+          [
+            "send_method_response",
+            "send_method_response"
+          ],
+          [
+            "patch_twin_reported_properties",
+            "patch_twin_reported_properties"
+          ],
+          [
+            "get_twin",
+            "get_twin"
+          ],
+          [
+            "shutdown",
+            "shutdown"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_azure_iot_device_attribute": {
+    "message0": "كائن Azure IoT Device %1 السمة %2",
+    "tooltip": "قراءة سمة مسموحة لكائن أو وحدة Azure IoT Device.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "connected",
+            "connected"
+          ],
+          [
+            "user_agent",
+            "user_agent"
+          ],
+          [
+            "custom_properties",
+            "custom_properties"
+          ],
+          [
+            "message_id",
+            "message_id"
+          ],
+          [
+            "correlation_id",
+            "correlation_id"
+          ],
+          [
+            "content_type",
+            "content_type"
+          ]
+        ]
+      }
+    ]
+  }
+}

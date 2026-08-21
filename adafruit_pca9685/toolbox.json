@@ -1,0 +1,27 @@
+{
+  "kind": "category",
+  "name": "CircuitPython PCA9685",
+  "colour": "#00897B",
+  "contents": [
+    {
+      "kind": "block",
+      "type": "python_adafruit_pca9685_call"
+    },
+    {
+      "kind": "block",
+      "type": "python_adafruit_pca9685_do"
+    },
+    {
+      "kind": "block",
+      "type": "python_adafruit_pca9685_method"
+    },
+    {
+      "kind": "block",
+      "type": "python_adafruit_pca9685_do_method"
+    },
+    {
+      "kind": "block",
+      "type": "python_adafruit_pca9685_attribute"
+    }
+  ]
+}

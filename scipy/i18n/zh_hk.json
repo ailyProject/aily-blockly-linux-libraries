@@ -1,0 +1,160 @@
+{
+  "toolbox_name": "SciPy Signal",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_scipy_call": {
+    "message0": "SciPy Signal 呼叫或建立 %1 參數 %2 關鍵字參數 %3",
+    "tooltip": "呼叫白名單中的 SciPy Signal 函式或建構器並傳回結果。",
+    "args0": [
+      {
+        "options": [
+          [
+            "butter",
+            "butter"
+          ],
+          [
+            "sosfilt",
+            "sosfilt"
+          ],
+          [
+            "sosfiltfilt",
+            "sosfiltfilt"
+          ],
+          [
+            "filtfilt",
+            "filtfilt"
+          ],
+          [
+            "find_peaks",
+            "find_peaks"
+          ],
+          [
+            "welch",
+            "welch"
+          ],
+          [
+            "periodogram",
+            "periodogram"
+          ],
+          [
+            "convolve",
+            "convolve"
+          ],
+          [
+            "correlate",
+            "correlate"
+          ],
+          [
+            "resample",
+            "resample"
+          ],
+          [
+            "spectrogram",
+            "spectrogram"
+          ],
+          [
+            "stft",
+            "stft"
+          ],
+          [
+            "istft",
+            "istft"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_scipy_do": {
+    "message0": "執行 SciPy Signal %1 參數 %2 關鍵字參數 %3",
+    "tooltip": "以敘述方式執行白名單中的 SciPy Signal 函式或建構器。",
+    "args0": [
+      {
+        "options": [
+          [
+            "butter",
+            "butter"
+          ],
+          [
+            "sosfilt",
+            "sosfilt"
+          ],
+          [
+            "sosfiltfilt",
+            "sosfiltfilt"
+          ],
+          [
+            "filtfilt",
+            "filtfilt"
+          ],
+          [
+            "find_peaks",
+            "find_peaks"
+          ],
+          [
+            "welch",
+            "welch"
+          ],
+          [
+            "periodogram",
+            "periodogram"
+          ],
+          [
+            "convolve",
+            "convolve"
+          ],
+          [
+            "correlate",
+            "correlate"
+          ],
+          [
+            "resample",
+            "resample"
+          ],
+          [
+            "spectrogram",
+            "spectrogram"
+          ],
+          [
+            "stft",
+            "stft"
+          ],
+          [
+            "istft",
+            "istft"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_scipy_attribute": {
+    "message0": "SciPy Signal 物件 %1 屬性 %2",
+    "tooltip": "讀取白名單中的 SciPy Signal 物件或模組屬性。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "shape",
+            "shape"
+          ],
+          [
+            "dtype",
+            "dtype"
+          ],
+          [
+            "ndim",
+            "ndim"
+          ],
+          [
+            "size",
+            "size"
+          ]
+        ]
+      }
+    ]
+  }
+}

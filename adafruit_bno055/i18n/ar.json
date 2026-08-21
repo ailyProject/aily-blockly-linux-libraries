@@ -1,0 +1,100 @@
+{
+  "toolbox_name": "CircuitPython BNO055",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_adafruit_bno055_call": {
+    "message0": "CircuitPython BNO055 استدعاء أو إنشاء %1 الوسائط %2 وسائط الكلمات المفتاحية %3",
+    "tooltip": "استدعاء دالة أو مُنشئ مسموح من CircuitPython BNO055 وإرجاع النتيجة.",
+    "args0": [
+      {
+        "options": [
+          [
+            "BNO055_I2C",
+            "BNO055_I2C"
+          ],
+          [
+            "BNO055_UART",
+            "BNO055_UART"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_bno055_do": {
+    "message0": "تشغيل CircuitPython BNO055 %1 الوسائط %2 وسائط الكلمات المفتاحية %3",
+    "tooltip": "تشغيل دالة أو مُنشئ مسموح من CircuitPython BNO055 كتعليمة.",
+    "args0": [
+      {
+        "options": [
+          [
+            "BNO055_I2C",
+            "BNO055_I2C"
+          ],
+          [
+            "BNO055_UART",
+            "BNO055_UART"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_bno055_attribute": {
+    "message0": "كائن CircuitPython BNO055 %1 السمة %2",
+    "tooltip": "قراءة سمة مسموحة لكائن أو وحدة CircuitPython BNO055.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "sensor_mode",
+            "sensor_mode"
+          ],
+          [
+            "temperature",
+            "temperature"
+          ],
+          [
+            "acceleration",
+            "acceleration"
+          ],
+          [
+            "magnetic",
+            "magnetic"
+          ],
+          [
+            "gyro",
+            "gyro"
+          ],
+          [
+            "euler",
+            "euler"
+          ],
+          [
+            "quaternion",
+            "quaternion"
+          ],
+          [
+            "linear_acceleration",
+            "linear_acceleration"
+          ],
+          [
+            "gravity",
+            "gravity"
+          ],
+          [
+            "calibration_status",
+            "calibration_status"
+          ],
+          [
+            "calibrated",
+            "calibrated"
+          ]
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "toolbox_name": "CircuitPython Motor",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_adafruit_motor_call": {
+    "message0": "CircuitPython Motor 呼び出しまたは作成 %1 引数 %2 キーワード引数 %3",
+    "tooltip": "許可された CircuitPython Motor の関数またはコンストラクターを呼び出して結果を返します。",
+    "args0": [
+      {
+        "options": [
+          [
+            "DCMotor",
+            "DCMotor"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_motor_do": {
+    "message0": "CircuitPython Motor を実行 %1 引数 %2 キーワード引数 %3",
+    "tooltip": "許可された CircuitPython Motor の関数またはコンストラクターを文として実行します。",
+    "args0": [
+      {
+        "options": [
+          [
+            "DCMotor",
+            "DCMotor"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_motor_attribute": {
+    "message0": "CircuitPython Motor オブジェクト %1 属性 %2",
+    "tooltip": "許可された CircuitPython Motor オブジェクトまたはモジュールの属性を読み取ります。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "throttle",
+            "throttle"
+          ],
+          [
+            "decay_mode",
+            "decay_mode"
+          ],
+          [
+            "SLOW_DECAY",
+            "SLOW_DECAY"
+          ],
+          [
+            "FAST_DECAY",
+            "FAST_DECAY"
+          ]
+        ]
+      }
+    ]
+  }
+}

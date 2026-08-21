@@ -1,0 +1,72 @@
+{
+  "toolbox_name": "CircuitPython MotorKit",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_adafruit_motorkit_call": {
+    "message0": "CircuitPython MotorKit chamar ou criar %1 argumentos %2 argumentos nomeados %3",
+    "tooltip": "Chama uma função ou construtor permitido de CircuitPython MotorKit e devolve o resultado.",
+    "args0": [
+      {
+        "options": [
+          [
+            "MotorKit",
+            "MotorKit"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_motorkit_do": {
+    "message0": "executar CircuitPython MotorKit %1 argumentos %2 argumentos nomeados %3",
+    "tooltip": "Executa uma função ou construtor permitido de CircuitPython MotorKit como instrução.",
+    "args0": [
+      {
+        "options": [
+          [
+            "MotorKit",
+            "MotorKit"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_motorkit_attribute": {
+    "message0": "objeto CircuitPython MotorKit %1 atributo %2",
+    "tooltip": "Lê um atributo permitido de um objeto ou módulo CircuitPython MotorKit.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "motor1",
+            "motor1"
+          ],
+          [
+            "motor2",
+            "motor2"
+          ],
+          [
+            "motor3",
+            "motor3"
+          ],
+          [
+            "motor4",
+            "motor4"
+          ],
+          [
+            "stepper1",
+            "stepper1"
+          ],
+          [
+            "stepper2",
+            "stepper2"
+          ]
+        ]
+      }
+    ]
+  }
+}

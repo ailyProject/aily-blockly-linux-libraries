@@ -1,0 +1,159 @@
+{
+  "toolbox_name": "hidapi",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "linux_hidapi_call": {
+    "message0": "hidapi استدعاء أو إنشاء %1 الوسائط %2 وسائط الكلمات المفتاحية %3",
+    "tooltip": "استدعاء دالة أو مُنشئ مسموح من hidapi وإرجاع النتيجة.",
+    "args0": [
+      {
+        "options": [
+          [
+            "device",
+            "device"
+          ],
+          [
+            "enumerate",
+            "enumerate"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "linux_hidapi_do": {
+    "message0": "تشغيل hidapi %1 الوسائط %2 وسائط الكلمات المفتاحية %3",
+    "tooltip": "تشغيل دالة أو مُنشئ مسموح من hidapi كتعليمة.",
+    "args0": [
+      {
+        "options": [
+          [
+            "device",
+            "device"
+          ],
+          [
+            "enumerate",
+            "enumerate"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "linux_hidapi_method": {
+    "message0": "كائن hidapi %1 الطريقة %2 الوسائط %3 وسائط الكلمات المفتاحية %4",
+    "tooltip": "استدعاء طريقة مسموحة لكائن hidapi وإرجاع النتيجة.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "open",
+            "open"
+          ],
+          [
+            "open_path",
+            "open_path"
+          ],
+          [
+            "write",
+            "write"
+          ],
+          [
+            "read",
+            "read"
+          ],
+          [
+            "send_feature_report",
+            "send_feature_report"
+          ],
+          [
+            "get_feature_report",
+            "get_feature_report"
+          ],
+          [
+            "get_manufacturer_string",
+            "get_manufacturer_string"
+          ],
+          [
+            "get_product_string",
+            "get_product_string"
+          ],
+          [
+            "get_serial_number_string",
+            "get_serial_number_string"
+          ],
+          [
+            "close",
+            "close"
+          ],
+          [
+            "set_nonblocking",
+            "set_nonblocking"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "linux_hidapi_do_method": {
+    "message0": "تشغيل طريقة hidapi للكائن %1 %2 الوسائط %3 وسائط الكلمات المفتاحية %4",
+    "tooltip": "تشغيل طريقة مسموحة لكائن hidapi كتعليمة.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "open",
+            "open"
+          ],
+          [
+            "open_path",
+            "open_path"
+          ],
+          [
+            "write",
+            "write"
+          ],
+          [
+            "read",
+            "read"
+          ],
+          [
+            "send_feature_report",
+            "send_feature_report"
+          ],
+          [
+            "get_feature_report",
+            "get_feature_report"
+          ],
+          [
+            "get_manufacturer_string",
+            "get_manufacturer_string"
+          ],
+          [
+            "get_product_string",
+            "get_product_string"
+          ],
+          [
+            "get_serial_number_string",
+            "get_serial_number_string"
+          ],
+          [
+            "close",
+            "close"
+          ],
+          [
+            "set_nonblocking",
+            "set_nonblocking"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  }
+}

@@ -1,0 +1,254 @@
+{
+  "toolbox_name": "HTTPX",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_httpx_call": {
+    "message0": "HTTPX 呼叫或建立 %1 參數 %2 關鍵字參數 %3",
+    "tooltip": "呼叫白名單中的 HTTPX 函式或建構器並傳回結果。",
+    "args0": [
+      {
+        "options": [
+          [
+            "Client",
+            "Client"
+          ],
+          [
+            "AsyncClient",
+            "AsyncClient"
+          ],
+          [
+            "get",
+            "get"
+          ],
+          [
+            "post",
+            "post"
+          ],
+          [
+            "put",
+            "put"
+          ],
+          [
+            "delete",
+            "delete"
+          ],
+          [
+            "request",
+            "request"
+          ],
+          [
+            "Timeout",
+            "Timeout"
+          ],
+          [
+            "Limits",
+            "Limits"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_httpx_do": {
+    "message0": "執行 HTTPX %1 參數 %2 關鍵字參數 %3",
+    "tooltip": "以敘述方式執行白名單中的 HTTPX 函式或建構器。",
+    "args0": [
+      {
+        "options": [
+          [
+            "Client",
+            "Client"
+          ],
+          [
+            "AsyncClient",
+            "AsyncClient"
+          ],
+          [
+            "get",
+            "get"
+          ],
+          [
+            "post",
+            "post"
+          ],
+          [
+            "put",
+            "put"
+          ],
+          [
+            "delete",
+            "delete"
+          ],
+          [
+            "request",
+            "request"
+          ],
+          [
+            "Timeout",
+            "Timeout"
+          ],
+          [
+            "Limits",
+            "Limits"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_httpx_method": {
+    "message0": "HTTPX 物件 %1 呼叫方法 %2 參數 %3 關鍵字參數 %4",
+    "tooltip": "呼叫白名單中的 HTTPX 物件方法並傳回結果。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "get",
+            "get"
+          ],
+          [
+            "post",
+            "post"
+          ],
+          [
+            "put",
+            "put"
+          ],
+          [
+            "delete",
+            "delete"
+          ],
+          [
+            "request",
+            "request"
+          ],
+          [
+            "close",
+            "close"
+          ],
+          [
+            "aclose",
+            "aclose"
+          ],
+          [
+            "json",
+            "json"
+          ],
+          [
+            "raise_for_status",
+            "raise_for_status"
+          ],
+          [
+            "iter_bytes",
+            "iter_bytes"
+          ],
+          [
+            "aiter_bytes",
+            "aiter_bytes"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_httpx_do_method": {
+    "message0": "執行 HTTPX 物件 %1 的方法 %2 參數 %3 關鍵字參數 %4",
+    "tooltip": "以敘述方式執行白名單中的 HTTPX 物件方法。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "get",
+            "get"
+          ],
+          [
+            "post",
+            "post"
+          ],
+          [
+            "put",
+            "put"
+          ],
+          [
+            "delete",
+            "delete"
+          ],
+          [
+            "request",
+            "request"
+          ],
+          [
+            "close",
+            "close"
+          ],
+          [
+            "aclose",
+            "aclose"
+          ],
+          [
+            "json",
+            "json"
+          ],
+          [
+            "raise_for_status",
+            "raise_for_status"
+          ],
+          [
+            "iter_bytes",
+            "iter_bytes"
+          ],
+          [
+            "aiter_bytes",
+            "aiter_bytes"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_httpx_attribute": {
+    "message0": "HTTPX 物件 %1 屬性 %2",
+    "tooltip": "讀取白名單中的 HTTPX 物件或模組屬性。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "status_code",
+            "status_code"
+          ],
+          [
+            "text",
+            "text"
+          ],
+          [
+            "content",
+            "content"
+          ],
+          [
+            "headers",
+            "headers"
+          ],
+          [
+            "cookies",
+            "cookies"
+          ],
+          [
+            "url",
+            "url"
+          ],
+          [
+            "is_success",
+            "is_success"
+          ]
+        ]
+      }
+    ]
+  }
+}

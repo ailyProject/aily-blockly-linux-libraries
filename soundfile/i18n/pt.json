@@ -1,0 +1,186 @@
+{
+  "toolbox_name": "SoundFile",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_soundfile_call": {
+    "message0": "SoundFile chamar ou criar %1 argumentos %2 argumentos nomeados %3",
+    "tooltip": "Chama uma função ou construtor permitido de SoundFile e devolve o resultado.",
+    "args0": [
+      {
+        "options": [
+          [
+            "read",
+            "read"
+          ],
+          [
+            "write",
+            "write"
+          ],
+          [
+            "blocks",
+            "blocks"
+          ],
+          [
+            "info",
+            "info"
+          ],
+          [
+            "SoundFile",
+            "SoundFile"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_soundfile_do": {
+    "message0": "executar SoundFile %1 argumentos %2 argumentos nomeados %3",
+    "tooltip": "Executa uma função ou construtor permitido de SoundFile como instrução.",
+    "args0": [
+      {
+        "options": [
+          [
+            "read",
+            "read"
+          ],
+          [
+            "write",
+            "write"
+          ],
+          [
+            "blocks",
+            "blocks"
+          ],
+          [
+            "info",
+            "info"
+          ],
+          [
+            "SoundFile",
+            "SoundFile"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_soundfile_method": {
+    "message0": "objeto SoundFile %1 método %2 argumentos %3 argumentos nomeados %4",
+    "tooltip": "Chama um método permitido de um objeto SoundFile e devolve o resultado.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "read",
+            "read"
+          ],
+          [
+            "write",
+            "write"
+          ],
+          [
+            "seek",
+            "seek"
+          ],
+          [
+            "tell",
+            "tell"
+          ],
+          [
+            "flush",
+            "flush"
+          ],
+          [
+            "close",
+            "close"
+          ],
+          [
+            "blocks",
+            "blocks"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_soundfile_do_method": {
+    "message0": "executar método de SoundFile objeto %1 %2 argumentos %3 argumentos nomeados %4",
+    "tooltip": "Executa um método permitido de um objeto SoundFile como instrução.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "read",
+            "read"
+          ],
+          [
+            "write",
+            "write"
+          ],
+          [
+            "seek",
+            "seek"
+          ],
+          [
+            "tell",
+            "tell"
+          ],
+          [
+            "flush",
+            "flush"
+          ],
+          [
+            "close",
+            "close"
+          ],
+          [
+            "blocks",
+            "blocks"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_soundfile_attribute": {
+    "message0": "objeto SoundFile %1 atributo %2",
+    "tooltip": "Lê um atributo permitido de um objeto ou módulo SoundFile.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "samplerate",
+            "samplerate"
+          ],
+          [
+            "channels",
+            "channels"
+          ],
+          [
+            "frames",
+            "frames"
+          ],
+          [
+            "format",
+            "format"
+          ],
+          [
+            "subtype",
+            "subtype"
+          ],
+          [
+            "closed",
+            "closed"
+          ]
+        ]
+      }
+    ]
+  }
+}

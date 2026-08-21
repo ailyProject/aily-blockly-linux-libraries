@@ -1,0 +1,47 @@
+{
+  "name": "@aily-project/lib-pynmea2",
+  "nickname": "pynmea2",
+  "nickname_zh_cn": "pynmea2",
+  "nickname_en": "pynmea2",
+  "nickname_zh_hk": "pynmea2",
+  "nickname_ja": "pynmea2",
+  "nickname_ko": "pynmea2",
+  "nickname_de": "pynmea2",
+  "nickname_fr": "pynmea2",
+  "nickname_es": "pynmea2",
+  "nickname_pt": "pynmea2",
+  "nickname_ru": "pynmea2",
+  "nickname_ar": "pynmea2",
+  "version": "0.0.1",
+  "description": "面向树莓派与 Linux 开发板的 pynmea2 常用 Python API 白名单积木。",
+  "description_zh_cn": "面向树莓派与 Linux 开发板的 pynmea2 常用 Python API 白名单积木。",
+  "description_en": "Allowlisted pynmea2 Python API blocks for Raspberry Pi and Linux single-board computers.",
+  "spec": true,
+  "compatibility": {
+    "type": [
+      "canaan:k230:cybercam",
+      "broadcom:bcm2712:raspberrypi_5",
+      "allwinner:t527:walnutpi_2b"
+    ],
+    "voltage": [
+      3.3
+    ]
+  },
+  "keywords": [
+    "aily",
+    "blockly",
+    "python",
+    "linux",
+    "raspberry-pi",
+    "pynmea2",
+    "pynmea2"
+  ],
+  "tags": [
+    "io"
+  ],
+  "author": "ailyProject",
+  "license": "MIT",
+  "homepage": "https://github.com/Knio/pynmea2",
+  "dependencies": {},
+  "devDependencies": {}
+}

@@ -1,0 +1,182 @@
+{
+  "toolbox_name": "PyModbus",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_pymodbus_call": {
+    "message0": "PyModbus chamar ou criar %1 argumentos %2 argumentos nomeados %3",
+    "tooltip": "Chama uma função ou construtor permitido de PyModbus e devolve o resultado.",
+    "args0": [
+      {
+        "options": [
+          [
+            "ModbusTcpClient",
+            "ModbusTcpClient"
+          ],
+          [
+            "ModbusSerialClient",
+            "ModbusSerialClient"
+          ],
+          [
+            "ModbusUdpClient",
+            "ModbusUdpClient"
+          ],
+          [
+            "AsyncModbusTcpClient",
+            "AsyncModbusTcpClient"
+          ],
+          [
+            "AsyncModbusSerialClient",
+            "AsyncModbusSerialClient"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_pymodbus_do": {
+    "message0": "executar PyModbus %1 argumentos %2 argumentos nomeados %3",
+    "tooltip": "Executa uma função ou construtor permitido de PyModbus como instrução.",
+    "args0": [
+      {
+        "options": [
+          [
+            "ModbusTcpClient",
+            "ModbusTcpClient"
+          ],
+          [
+            "ModbusSerialClient",
+            "ModbusSerialClient"
+          ],
+          [
+            "ModbusUdpClient",
+            "ModbusUdpClient"
+          ],
+          [
+            "AsyncModbusTcpClient",
+            "AsyncModbusTcpClient"
+          ],
+          [
+            "AsyncModbusSerialClient",
+            "AsyncModbusSerialClient"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_pymodbus_method": {
+    "message0": "objeto PyModbus %1 método %2 argumentos %3 argumentos nomeados %4",
+    "tooltip": "Chama um método permitido de um objeto PyModbus e devolve o resultado.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "connect",
+            "connect"
+          ],
+          [
+            "close",
+            "close"
+          ],
+          [
+            "read_coils",
+            "read_coils"
+          ],
+          [
+            "read_discrete_inputs",
+            "read_discrete_inputs"
+          ],
+          [
+            "read_holding_registers",
+            "read_holding_registers"
+          ],
+          [
+            "read_input_registers",
+            "read_input_registers"
+          ],
+          [
+            "write_coil",
+            "write_coil"
+          ],
+          [
+            "write_register",
+            "write_register"
+          ],
+          [
+            "write_registers",
+            "write_registers"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_pymodbus_do_method": {
+    "message0": "executar método de PyModbus objeto %1 %2 argumentos %3 argumentos nomeados %4",
+    "tooltip": "Executa um método permitido de um objeto PyModbus como instrução.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "connect",
+            "connect"
+          ],
+          [
+            "close",
+            "close"
+          ],
+          [
+            "read_coils",
+            "read_coils"
+          ],
+          [
+            "read_discrete_inputs",
+            "read_discrete_inputs"
+          ],
+          [
+            "read_holding_registers",
+            "read_holding_registers"
+          ],
+          [
+            "read_input_registers",
+            "read_input_registers"
+          ],
+          [
+            "write_coil",
+            "write_coil"
+          ],
+          [
+            "write_register",
+            "write_register"
+          ],
+          [
+            "write_registers",
+            "write_registers"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_pymodbus_attribute": {
+    "message0": "objeto PyModbus %1 atributo %2",
+    "tooltip": "Lê um atributo permitido de um objeto ou módulo PyModbus.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "connected",
+            "connected"
+          ]
+        ]
+      }
+    ]
+  }
+}

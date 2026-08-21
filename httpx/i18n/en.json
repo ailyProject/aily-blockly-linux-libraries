@@ -1,0 +1,254 @@
+{
+  "toolbox_name": "HTTPX",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_httpx_call": {
+    "message0": "HTTPX call or create %1 arguments %2 keyword arguments %3",
+    "tooltip": "Call an allowlisted HTTPX function or constructor and return its result.",
+    "args0": [
+      {
+        "options": [
+          [
+            "Client",
+            "Client"
+          ],
+          [
+            "AsyncClient",
+            "AsyncClient"
+          ],
+          [
+            "get",
+            "get"
+          ],
+          [
+            "post",
+            "post"
+          ],
+          [
+            "put",
+            "put"
+          ],
+          [
+            "delete",
+            "delete"
+          ],
+          [
+            "request",
+            "request"
+          ],
+          [
+            "Timeout",
+            "Timeout"
+          ],
+          [
+            "Limits",
+            "Limits"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_httpx_do": {
+    "message0": "run HTTPX %1 arguments %2 keyword arguments %3",
+    "tooltip": "Run an allowlisted HTTPX function or constructor as a statement.",
+    "args0": [
+      {
+        "options": [
+          [
+            "Client",
+            "Client"
+          ],
+          [
+            "AsyncClient",
+            "AsyncClient"
+          ],
+          [
+            "get",
+            "get"
+          ],
+          [
+            "post",
+            "post"
+          ],
+          [
+            "put",
+            "put"
+          ],
+          [
+            "delete",
+            "delete"
+          ],
+          [
+            "request",
+            "request"
+          ],
+          [
+            "Timeout",
+            "Timeout"
+          ],
+          [
+            "Limits",
+            "Limits"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_httpx_method": {
+    "message0": "HTTPX object %1 call method %2 arguments %3 keyword arguments %4",
+    "tooltip": "Call an allowlisted HTTPX object method and return its result.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "get",
+            "get"
+          ],
+          [
+            "post",
+            "post"
+          ],
+          [
+            "put",
+            "put"
+          ],
+          [
+            "delete",
+            "delete"
+          ],
+          [
+            "request",
+            "request"
+          ],
+          [
+            "close",
+            "close"
+          ],
+          [
+            "aclose",
+            "aclose"
+          ],
+          [
+            "json",
+            "json"
+          ],
+          [
+            "raise_for_status",
+            "raise_for_status"
+          ],
+          [
+            "iter_bytes",
+            "iter_bytes"
+          ],
+          [
+            "aiter_bytes",
+            "aiter_bytes"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_httpx_do_method": {
+    "message0": "run HTTPX object %1 method %2 arguments %3 keyword arguments %4",
+    "tooltip": "Run an allowlisted HTTPX object method as a statement.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "get",
+            "get"
+          ],
+          [
+            "post",
+            "post"
+          ],
+          [
+            "put",
+            "put"
+          ],
+          [
+            "delete",
+            "delete"
+          ],
+          [
+            "request",
+            "request"
+          ],
+          [
+            "close",
+            "close"
+          ],
+          [
+            "aclose",
+            "aclose"
+          ],
+          [
+            "json",
+            "json"
+          ],
+          [
+            "raise_for_status",
+            "raise_for_status"
+          ],
+          [
+            "iter_bytes",
+            "iter_bytes"
+          ],
+          [
+            "aiter_bytes",
+            "aiter_bytes"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_httpx_attribute": {
+    "message0": "HTTPX object %1 attribute %2",
+    "tooltip": "Read an allowlisted HTTPX object or module attribute.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "status_code",
+            "status_code"
+          ],
+          [
+            "text",
+            "text"
+          ],
+          [
+            "content",
+            "content"
+          ],
+          [
+            "headers",
+            "headers"
+          ],
+          [
+            "cookies",
+            "cookies"
+          ],
+          [
+            "url",
+            "url"
+          ],
+          [
+            "is_success",
+            "is_success"
+          ]
+        ]
+      }
+    ]
+  }
+}

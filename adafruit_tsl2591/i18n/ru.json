@@ -1,0 +1,72 @@
+{
+  "toolbox_name": "CircuitPython TSL2591",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_adafruit_tsl2591_call": {
+    "message0": "CircuitPython TSL2591 вызвать или создать %1 аргументы %2 именованные аргументы %3",
+    "tooltip": "Вызывает разрешённую функцию или конструктор CircuitPython TSL2591 и возвращает результат.",
+    "args0": [
+      {
+        "options": [
+          [
+            "TSL2591",
+            "TSL2591"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_tsl2591_do": {
+    "message0": "выполнить CircuitPython TSL2591 %1 аргументы %2 именованные аргументы %3",
+    "tooltip": "Выполняет разрешённую функцию или конструктор CircuitPython TSL2591 как инструкцию.",
+    "args0": [
+      {
+        "options": [
+          [
+            "TSL2591",
+            "TSL2591"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_tsl2591_attribute": {
+    "message0": "объект CircuitPython TSL2591 %1 атрибут %2",
+    "tooltip": "Читает разрешённый атрибут объекта или модуля CircuitPython TSL2591.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "lux",
+            "lux"
+          ],
+          [
+            "infrared",
+            "infrared"
+          ],
+          [
+            "visible",
+            "visible"
+          ],
+          [
+            "full_spectrum",
+            "full_spectrum"
+          ],
+          [
+            "gain",
+            "gain"
+          ],
+          [
+            "integration_time",
+            "integration_time"
+          ]
+        ]
+      }
+    ]
+  }
+}

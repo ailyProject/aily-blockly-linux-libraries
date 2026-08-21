@@ -1,0 +1,186 @@
+{
+  "toolbox_name": "SoundFile",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_soundfile_call": {
+    "message0": "SoundFile 调用或创建 %1 参数 %2 关键字参数 %3",
+    "tooltip": "调用白名单中的 SoundFile 函数或构造器并返回结果。",
+    "args0": [
+      {
+        "options": [
+          [
+            "read",
+            "read"
+          ],
+          [
+            "write",
+            "write"
+          ],
+          [
+            "blocks",
+            "blocks"
+          ],
+          [
+            "info",
+            "info"
+          ],
+          [
+            "SoundFile",
+            "SoundFile"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_soundfile_do": {
+    "message0": "运行 SoundFile %1 参数 %2 关键字参数 %3",
+    "tooltip": "以语句方式运行白名单中的 SoundFile 函数或构造器。",
+    "args0": [
+      {
+        "options": [
+          [
+            "read",
+            "read"
+          ],
+          [
+            "write",
+            "write"
+          ],
+          [
+            "blocks",
+            "blocks"
+          ],
+          [
+            "info",
+            "info"
+          ],
+          [
+            "SoundFile",
+            "SoundFile"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_soundfile_method": {
+    "message0": "SoundFile 对象 %1 调用方法 %2 参数 %3 关键字参数 %4",
+    "tooltip": "调用白名单中的 SoundFile 对象方法并返回结果。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "read",
+            "read"
+          ],
+          [
+            "write",
+            "write"
+          ],
+          [
+            "seek",
+            "seek"
+          ],
+          [
+            "tell",
+            "tell"
+          ],
+          [
+            "flush",
+            "flush"
+          ],
+          [
+            "close",
+            "close"
+          ],
+          [
+            "blocks",
+            "blocks"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_soundfile_do_method": {
+    "message0": "运行 SoundFile 对象 %1 的方法 %2 参数 %3 关键字参数 %4",
+    "tooltip": "以语句方式运行白名单中的 SoundFile 对象方法。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "read",
+            "read"
+          ],
+          [
+            "write",
+            "write"
+          ],
+          [
+            "seek",
+            "seek"
+          ],
+          [
+            "tell",
+            "tell"
+          ],
+          [
+            "flush",
+            "flush"
+          ],
+          [
+            "close",
+            "close"
+          ],
+          [
+            "blocks",
+            "blocks"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_soundfile_attribute": {
+    "message0": "SoundFile 对象 %1 属性 %2",
+    "tooltip": "读取白名单中的 SoundFile 对象或模块属性。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "samplerate",
+            "samplerate"
+          ],
+          [
+            "channels",
+            "channels"
+          ],
+          [
+            "frames",
+            "frames"
+          ],
+          [
+            "format",
+            "format"
+          ],
+          [
+            "subtype",
+            "subtype"
+          ],
+          [
+            "closed",
+            "closed"
+          ]
+        ]
+      }
+    ]
+  }
+}

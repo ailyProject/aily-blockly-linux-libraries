@@ -1,0 +1,72 @@
+{
+  "toolbox_name": "CircuitPython MotorKit",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_adafruit_motorkit_call": {
+    "message0": "CircuitPython MotorKit استدعاء أو إنشاء %1 الوسائط %2 وسائط الكلمات المفتاحية %3",
+    "tooltip": "استدعاء دالة أو مُنشئ مسموح من CircuitPython MotorKit وإرجاع النتيجة.",
+    "args0": [
+      {
+        "options": [
+          [
+            "MotorKit",
+            "MotorKit"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_motorkit_do": {
+    "message0": "تشغيل CircuitPython MotorKit %1 الوسائط %2 وسائط الكلمات المفتاحية %3",
+    "tooltip": "تشغيل دالة أو مُنشئ مسموح من CircuitPython MotorKit كتعليمة.",
+    "args0": [
+      {
+        "options": [
+          [
+            "MotorKit",
+            "MotorKit"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_motorkit_attribute": {
+    "message0": "كائن CircuitPython MotorKit %1 السمة %2",
+    "tooltip": "قراءة سمة مسموحة لكائن أو وحدة CircuitPython MotorKit.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "motor1",
+            "motor1"
+          ],
+          [
+            "motor2",
+            "motor2"
+          ],
+          [
+            "motor3",
+            "motor3"
+          ],
+          [
+            "motor4",
+            "motor4"
+          ],
+          [
+            "stepper1",
+            "stepper1"
+          ],
+          [
+            "stepper2",
+            "stepper2"
+          ]
+        ]
+      }
+    ]
+  }
+}

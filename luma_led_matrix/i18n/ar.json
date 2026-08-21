@@ -1,0 +1,150 @@
+{
+  "toolbox_name": "luma.led_matrix",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_luma_led_matrix_call": {
+    "message0": "luma.led_matrix استدعاء أو إنشاء %1 الوسائط %2 وسائط الكلمات المفتاحية %3",
+    "tooltip": "استدعاء دالة أو مُنشئ مسموح من luma.led_matrix وإرجاع النتيجة.",
+    "args0": [
+      {
+        "options": [
+          [
+            "max7219",
+            "max7219"
+          ],
+          [
+            "ws2812",
+            "ws2812"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_luma_led_matrix_do": {
+    "message0": "تشغيل luma.led_matrix %1 الوسائط %2 وسائط الكلمات المفتاحية %3",
+    "tooltip": "تشغيل دالة أو مُنشئ مسموح من luma.led_matrix كتعليمة.",
+    "args0": [
+      {
+        "options": [
+          [
+            "max7219",
+            "max7219"
+          ],
+          [
+            "ws2812",
+            "ws2812"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_luma_led_matrix_method": {
+    "message0": "كائن luma.led_matrix %1 الطريقة %2 الوسائط %3 وسائط الكلمات المفتاحية %4",
+    "tooltip": "استدعاء طريقة مسموحة لكائن luma.led_matrix وإرجاع النتيجة.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "display",
+            "display"
+          ],
+          [
+            "clear",
+            "clear"
+          ],
+          [
+            "show",
+            "show"
+          ],
+          [
+            "hide",
+            "hide"
+          ],
+          [
+            "contrast",
+            "contrast"
+          ],
+          [
+            "cleanup",
+            "cleanup"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_luma_led_matrix_do_method": {
+    "message0": "تشغيل طريقة luma.led_matrix للكائن %1 %2 الوسائط %3 وسائط الكلمات المفتاحية %4",
+    "tooltip": "تشغيل طريقة مسموحة لكائن luma.led_matrix كتعليمة.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "display",
+            "display"
+          ],
+          [
+            "clear",
+            "clear"
+          ],
+          [
+            "show",
+            "show"
+          ],
+          [
+            "hide",
+            "hide"
+          ],
+          [
+            "contrast",
+            "contrast"
+          ],
+          [
+            "cleanup",
+            "cleanup"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_luma_led_matrix_attribute": {
+    "message0": "كائن luma.led_matrix %1 السمة %2",
+    "tooltip": "قراءة سمة مسموحة لكائن أو وحدة luma.led_matrix.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "width",
+            "width"
+          ],
+          [
+            "height",
+            "height"
+          ],
+          [
+            "size",
+            "size"
+          ],
+          [
+            "mode",
+            "mode"
+          ],
+          [
+            "bounding_box",
+            "bounding_box"
+          ]
+        ]
+      }
+    ]
+  }
+}

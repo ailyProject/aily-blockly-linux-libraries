@@ -1,0 +1,228 @@
+[
+  {
+    "type": "python_hailo_platform_call",
+    "message0": "HailoRT Python call or create %1 arguments %2 keyword arguments %3",
+    "args0": [
+      {
+        "type": "field_dropdown",
+        "name": "TARGET",
+        "options": [
+          [
+            "HEF",
+            "HEF"
+          ],
+          [
+            "VDevice",
+            "VDevice"
+          ],
+          [
+            "Device",
+            "Device"
+          ],
+          [
+            "ConfigureParams",
+            "ConfigureParams"
+          ],
+          [
+            "InferVStreams",
+            "InferVStreams"
+          ],
+          [
+            "InputVStreamParams",
+            "InputVStreamParams"
+          ],
+          [
+            "OutputVStreamParams",
+            "OutputVStreamParams"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#1976D2",
+    "tooltip": "Call an allowlisted HailoRT Python function or constructor and return its result.",
+    "icon": "settings",
+    "output": "Any"
+  },
+  {
+    "type": "python_hailo_platform_do",
+    "message0": "run HailoRT Python %1 arguments %2 keyword arguments %3",
+    "args0": [
+      {
+        "type": "field_dropdown",
+        "name": "TARGET",
+        "options": [
+          [
+            "HEF",
+            "HEF"
+          ],
+          [
+            "VDevice",
+            "VDevice"
+          ],
+          [
+            "Device",
+            "Device"
+          ],
+          [
+            "ConfigureParams",
+            "ConfigureParams"
+          ],
+          [
+            "InferVStreams",
+            "InferVStreams"
+          ],
+          [
+            "InputVStreamParams",
+            "InputVStreamParams"
+          ],
+          [
+            "OutputVStreamParams",
+            "OutputVStreamParams"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#1976D2",
+    "tooltip": "Run an allowlisted HailoRT Python function or constructor as a statement.",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "python_hailo_platform_method",
+    "message0": "HailoRT Python object %1 call method %2 arguments %3 keyword arguments %4",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "OBJECT"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "METHOD",
+        "options": [
+          [
+            "configure",
+            "configure"
+          ],
+          [
+            "create_infer_model",
+            "create_infer_model"
+          ],
+          [
+            "activate",
+            "activate"
+          ],
+          [
+            "wait_for_async_ready",
+            "wait_for_async_ready"
+          ],
+          [
+            "run_async",
+            "run_async"
+          ],
+          [
+            "infer",
+            "infer"
+          ],
+          [
+            "get_input_vstream_infos",
+            "get_input_vstream_infos"
+          ],
+          [
+            "get_output_vstream_infos",
+            "get_output_vstream_infos"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#1976D2",
+    "tooltip": "Call an allowlisted HailoRT Python object method and return its result.",
+    "icon": "settings",
+    "output": "Any"
+  },
+  {
+    "type": "python_hailo_platform_do_method",
+    "message0": "run HailoRT Python object %1 method %2 arguments %3 keyword arguments %4",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "OBJECT"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "METHOD",
+        "options": [
+          [
+            "configure",
+            "configure"
+          ],
+          [
+            "create_infer_model",
+            "create_infer_model"
+          ],
+          [
+            "activate",
+            "activate"
+          ],
+          [
+            "wait_for_async_ready",
+            "wait_for_async_ready"
+          ],
+          [
+            "run_async",
+            "run_async"
+          ],
+          [
+            "infer",
+            "infer"
+          ],
+          [
+            "get_input_vstream_infos",
+            "get_input_vstream_infos"
+          ],
+          [
+            "get_output_vstream_infos",
+            "get_output_vstream_infos"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#1976D2",
+    "tooltip": "Run an allowlisted HailoRT Python object method as a statement.",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  }
+]

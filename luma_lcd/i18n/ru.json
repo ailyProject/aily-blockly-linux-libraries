@@ -1,0 +1,166 @@
+{
+  "toolbox_name": "luma.lcd",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_luma_lcd_call": {
+    "message0": "luma.lcd вызвать или создать %1 аргументы %2 именованные аргументы %3",
+    "tooltip": "Вызывает разрешённую функцию или конструктор luma.lcd и возвращает результат.",
+    "args0": [
+      {
+        "options": [
+          [
+            "st7735",
+            "st7735"
+          ],
+          [
+            "st7789",
+            "st7789"
+          ],
+          [
+            "ili9341",
+            "ili9341"
+          ],
+          [
+            "pcd8544",
+            "pcd8544"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_luma_lcd_do": {
+    "message0": "выполнить luma.lcd %1 аргументы %2 именованные аргументы %3",
+    "tooltip": "Выполняет разрешённую функцию или конструктор luma.lcd как инструкцию.",
+    "args0": [
+      {
+        "options": [
+          [
+            "st7735",
+            "st7735"
+          ],
+          [
+            "st7789",
+            "st7789"
+          ],
+          [
+            "ili9341",
+            "ili9341"
+          ],
+          [
+            "pcd8544",
+            "pcd8544"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_luma_lcd_method": {
+    "message0": "объект luma.lcd %1 метод %2 аргументы %3 именованные аргументы %4",
+    "tooltip": "Вызывает разрешённый метод объекта luma.lcd и возвращает результат.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "display",
+            "display"
+          ],
+          [
+            "clear",
+            "clear"
+          ],
+          [
+            "show",
+            "show"
+          ],
+          [
+            "hide",
+            "hide"
+          ],
+          [
+            "contrast",
+            "contrast"
+          ],
+          [
+            "cleanup",
+            "cleanup"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_luma_lcd_do_method": {
+    "message0": "выполнить метод luma.lcd объекта %1 %2 аргументы %3 именованные аргументы %4",
+    "tooltip": "Выполняет разрешённый метод объекта luma.lcd как инструкцию.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "display",
+            "display"
+          ],
+          [
+            "clear",
+            "clear"
+          ],
+          [
+            "show",
+            "show"
+          ],
+          [
+            "hide",
+            "hide"
+          ],
+          [
+            "contrast",
+            "contrast"
+          ],
+          [
+            "cleanup",
+            "cleanup"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_luma_lcd_attribute": {
+    "message0": "объект luma.lcd %1 атрибут %2",
+    "tooltip": "Читает разрешённый атрибут объекта или модуля luma.lcd.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "width",
+            "width"
+          ],
+          [
+            "height",
+            "height"
+          ],
+          [
+            "size",
+            "size"
+          ],
+          [
+            "mode",
+            "mode"
+          ],
+          [
+            "bounding_box",
+            "bounding_box"
+          ]
+        ]
+      }
+    ]
+  }
+}

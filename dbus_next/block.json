@@ -1,0 +1,204 @@
+[
+  {
+    "type": "python_dbus_next_call",
+    "message0": "dbus-next call or create %1 arguments %2 keyword arguments %3",
+    "args0": [
+      {
+        "type": "field_dropdown",
+        "name": "TARGET",
+        "options": [
+          [
+            "MessageBus",
+            "MessageBus"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#455A64",
+    "tooltip": "Call an allowlisted dbus-next function or constructor and return its result.",
+    "icon": "settings",
+    "output": "Any"
+  },
+  {
+    "type": "python_dbus_next_do",
+    "message0": "run dbus-next %1 arguments %2 keyword arguments %3",
+    "args0": [
+      {
+        "type": "field_dropdown",
+        "name": "TARGET",
+        "options": [
+          [
+            "MessageBus",
+            "MessageBus"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#455A64",
+    "tooltip": "Run an allowlisted dbus-next function or constructor as a statement.",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "python_dbus_next_method",
+    "message0": "dbus-next object %1 call method %2 arguments %3 keyword arguments %4",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "OBJECT"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "METHOD",
+        "options": [
+          [
+            "connect",
+            "connect"
+          ],
+          [
+            "disconnect",
+            "disconnect"
+          ],
+          [
+            "introspect",
+            "introspect"
+          ],
+          [
+            "get_proxy_object",
+            "get_proxy_object"
+          ],
+          [
+            "call",
+            "call"
+          ],
+          [
+            "export",
+            "export"
+          ],
+          [
+            "unexport",
+            "unexport"
+          ],
+          [
+            "request_name",
+            "request_name"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#455A64",
+    "tooltip": "Call an allowlisted dbus-next object method and return its result.",
+    "icon": "settings",
+    "output": "Any"
+  },
+  {
+    "type": "python_dbus_next_do_method",
+    "message0": "run dbus-next object %1 method %2 arguments %3 keyword arguments %4",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "OBJECT"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "METHOD",
+        "options": [
+          [
+            "connect",
+            "connect"
+          ],
+          [
+            "disconnect",
+            "disconnect"
+          ],
+          [
+            "introspect",
+            "introspect"
+          ],
+          [
+            "get_proxy_object",
+            "get_proxy_object"
+          ],
+          [
+            "call",
+            "call"
+          ],
+          [
+            "export",
+            "export"
+          ],
+          [
+            "unexport",
+            "unexport"
+          ],
+          [
+            "request_name",
+            "request_name"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#455A64",
+    "tooltip": "Run an allowlisted dbus-next object method as a statement.",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "python_dbus_next_attribute",
+    "message0": "dbus-next object %1 attribute %2",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "OBJECT"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "ATTRIBUTE",
+        "options": [
+          [
+            "unique_name",
+            "unique_name"
+          ]
+        ]
+      }
+    ],
+    "colour": "#455A64",
+    "tooltip": "Read an allowlisted dbus-next object or module attribute.",
+    "icon": "settings",
+    "output": "Any"
+  }
+]

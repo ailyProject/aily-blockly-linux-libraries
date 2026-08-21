@@ -1,0 +1,154 @@
+{
+  "toolbox_name": "cantools",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_cantools_call": {
+    "message0": "cantools استدعاء أو إنشاء %1 الوسائط %2 وسائط الكلمات المفتاحية %3",
+    "tooltip": "استدعاء دالة أو مُنشئ مسموح من cantools وإرجاع النتيجة.",
+    "args0": [
+      {
+        "options": [
+          [
+            "database.load_file",
+            "database.load_file"
+          ],
+          [
+            "database.load_string",
+            "database.load_string"
+          ],
+          [
+            "database.load",
+            "database.load"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_cantools_do": {
+    "message0": "تشغيل cantools %1 الوسائط %2 وسائط الكلمات المفتاحية %3",
+    "tooltip": "تشغيل دالة أو مُنشئ مسموح من cantools كتعليمة.",
+    "args0": [
+      {
+        "options": [
+          [
+            "database.load_file",
+            "database.load_file"
+          ],
+          [
+            "database.load_string",
+            "database.load_string"
+          ],
+          [
+            "database.load",
+            "database.load"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_cantools_method": {
+    "message0": "كائن cantools %1 الطريقة %2 الوسائط %3 وسائط الكلمات المفتاحية %4",
+    "tooltip": "استدعاء طريقة مسموحة لكائن cantools وإرجاع النتيجة.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "encode_message",
+            "encode_message"
+          ],
+          [
+            "decode_message",
+            "decode_message"
+          ],
+          [
+            "get_message_by_name",
+            "get_message_by_name"
+          ],
+          [
+            "refresh",
+            "refresh"
+          ],
+          [
+            "as_dbc_string",
+            "as_dbc_string"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_cantools_do_method": {
+    "message0": "تشغيل طريقة cantools للكائن %1 %2 الوسائط %3 وسائط الكلمات المفتاحية %4",
+    "tooltip": "تشغيل طريقة مسموحة لكائن cantools كتعليمة.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "encode_message",
+            "encode_message"
+          ],
+          [
+            "decode_message",
+            "decode_message"
+          ],
+          [
+            "get_message_by_name",
+            "get_message_by_name"
+          ],
+          [
+            "refresh",
+            "refresh"
+          ],
+          [
+            "as_dbc_string",
+            "as_dbc_string"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_cantools_attribute": {
+    "message0": "كائن cantools %1 السمة %2",
+    "tooltip": "قراءة سمة مسموحة لكائن أو وحدة cantools.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "messages",
+            "messages"
+          ],
+          [
+            "nodes",
+            "nodes"
+          ],
+          [
+            "buses",
+            "buses"
+          ],
+          [
+            "name",
+            "name"
+          ],
+          [
+            "frame_id",
+            "frame_id"
+          ],
+          [
+            "signals",
+            "signals"
+          ]
+        ]
+      }
+    ]
+  }
+}

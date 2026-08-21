@@ -1,0 +1,194 @@
+{
+  "toolbox_name": "Azure IoT Device",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_azure_iot_device_call": {
+    "message0": "Azure IoT Device 调用或创建 %1 参数 %2 关键字参数 %3",
+    "tooltip": "调用白名单中的 Azure IoT Device 函数或构造器并返回结果。",
+    "args0": [
+      {
+        "options": [
+          [
+            "IoTHubDeviceClient.create_from_connection_string",
+            "IoTHubDeviceClient.create_from_connection_string"
+          ],
+          [
+            "IoTHubDeviceClient.create_from_symmetric_key",
+            "IoTHubDeviceClient.create_from_symmetric_key"
+          ],
+          [
+            "IoTHubModuleClient.create_from_connection_string",
+            "IoTHubModuleClient.create_from_connection_string"
+          ],
+          [
+            "Message",
+            "Message"
+          ],
+          [
+            "MethodResponse",
+            "MethodResponse"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_azure_iot_device_do": {
+    "message0": "运行 Azure IoT Device %1 参数 %2 关键字参数 %3",
+    "tooltip": "以语句方式运行白名单中的 Azure IoT Device 函数或构造器。",
+    "args0": [
+      {
+        "options": [
+          [
+            "IoTHubDeviceClient.create_from_connection_string",
+            "IoTHubDeviceClient.create_from_connection_string"
+          ],
+          [
+            "IoTHubDeviceClient.create_from_symmetric_key",
+            "IoTHubDeviceClient.create_from_symmetric_key"
+          ],
+          [
+            "IoTHubModuleClient.create_from_connection_string",
+            "IoTHubModuleClient.create_from_connection_string"
+          ],
+          [
+            "Message",
+            "Message"
+          ],
+          [
+            "MethodResponse",
+            "MethodResponse"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_azure_iot_device_method": {
+    "message0": "Azure IoT Device 对象 %1 调用方法 %2 参数 %3 关键字参数 %4",
+    "tooltip": "调用白名单中的 Azure IoT Device 对象方法并返回结果。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "connect",
+            "connect"
+          ],
+          [
+            "disconnect",
+            "disconnect"
+          ],
+          [
+            "send_message",
+            "send_message"
+          ],
+          [
+            "receive_message",
+            "receive_message"
+          ],
+          [
+            "send_method_response",
+            "send_method_response"
+          ],
+          [
+            "patch_twin_reported_properties",
+            "patch_twin_reported_properties"
+          ],
+          [
+            "get_twin",
+            "get_twin"
+          ],
+          [
+            "shutdown",
+            "shutdown"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_azure_iot_device_do_method": {
+    "message0": "运行 Azure IoT Device 对象 %1 的方法 %2 参数 %3 关键字参数 %4",
+    "tooltip": "以语句方式运行白名单中的 Azure IoT Device 对象方法。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "connect",
+            "connect"
+          ],
+          [
+            "disconnect",
+            "disconnect"
+          ],
+          [
+            "send_message",
+            "send_message"
+          ],
+          [
+            "receive_message",
+            "receive_message"
+          ],
+          [
+            "send_method_response",
+            "send_method_response"
+          ],
+          [
+            "patch_twin_reported_properties",
+            "patch_twin_reported_properties"
+          ],
+          [
+            "get_twin",
+            "get_twin"
+          ],
+          [
+            "shutdown",
+            "shutdown"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_azure_iot_device_attribute": {
+    "message0": "Azure IoT Device 对象 %1 属性 %2",
+    "tooltip": "读取白名单中的 Azure IoT Device 对象或模块属性。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "connected",
+            "connected"
+          ],
+          [
+            "user_agent",
+            "user_agent"
+          ],
+          [
+            "custom_properties",
+            "custom_properties"
+          ],
+          [
+            "message_id",
+            "message_id"
+          ],
+          [
+            "correlation_id",
+            "correlation_id"
+          ],
+          [
+            "content_type",
+            "content_type"
+          ]
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,174 @@
+{
+  "toolbox_name": "pymavlink",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_pymavlink_call": {
+    "message0": "pymavlink вызвать или создать %1 аргументы %2 именованные аргументы %3",
+    "tooltip": "Вызывает разрешённую функцию или конструктор pymavlink и возвращает результат.",
+    "args0": [
+      {
+        "options": [
+          [
+            "mavlink_connection",
+            "mavlink_connection"
+          ],
+          [
+            "mode_string_v10",
+            "mode_string_v10"
+          ],
+          [
+            "all_printable",
+            "all_printable"
+          ],
+          [
+            "periodic_event",
+            "periodic_event"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_pymavlink_do": {
+    "message0": "выполнить pymavlink %1 аргументы %2 именованные аргументы %3",
+    "tooltip": "Выполняет разрешённую функцию или конструктор pymavlink как инструкцию.",
+    "args0": [
+      {
+        "options": [
+          [
+            "mavlink_connection",
+            "mavlink_connection"
+          ],
+          [
+            "mode_string_v10",
+            "mode_string_v10"
+          ],
+          [
+            "all_printable",
+            "all_printable"
+          ],
+          [
+            "periodic_event",
+            "periodic_event"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_pymavlink_method": {
+    "message0": "объект pymavlink %1 метод %2 аргументы %3 именованные аргументы %4",
+    "tooltip": "Вызывает разрешённый метод объекта pymavlink и возвращает результат.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "wait_heartbeat",
+            "wait_heartbeat"
+          ],
+          [
+            "recv_match",
+            "recv_match"
+          ],
+          [
+            "mode_mapping",
+            "mode_mapping"
+          ],
+          [
+            "set_mode",
+            "set_mode"
+          ],
+          [
+            "close",
+            "close"
+          ],
+          [
+            "write",
+            "write"
+          ],
+          [
+            "param_fetch_all",
+            "param_fetch_all"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_pymavlink_do_method": {
+    "message0": "выполнить метод pymavlink объекта %1 %2 аргументы %3 именованные аргументы %4",
+    "tooltip": "Выполняет разрешённый метод объекта pymavlink как инструкцию.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "wait_heartbeat",
+            "wait_heartbeat"
+          ],
+          [
+            "recv_match",
+            "recv_match"
+          ],
+          [
+            "mode_mapping",
+            "mode_mapping"
+          ],
+          [
+            "set_mode",
+            "set_mode"
+          ],
+          [
+            "close",
+            "close"
+          ],
+          [
+            "write",
+            "write"
+          ],
+          [
+            "param_fetch_all",
+            "param_fetch_all"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_pymavlink_attribute": {
+    "message0": "объект pymavlink %1 атрибут %2",
+    "tooltip": "Читает разрешённый атрибут объекта или модуля pymavlink.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "target_system",
+            "target_system"
+          ],
+          [
+            "target_component",
+            "target_component"
+          ],
+          [
+            "mav",
+            "mav"
+          ],
+          [
+            "flightmode",
+            "flightmode"
+          ],
+          [
+            "messages",
+            "messages"
+          ]
+        ]
+      }
+    ]
+  }
+}

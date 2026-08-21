@@ -1,0 +1,47 @@
+{
+  "name": "@aily-project/lib-azure-iot-device",
+  "nickname": "Azure IoT Device",
+  "nickname_zh_cn": "Azure IoT Device",
+  "nickname_en": "Azure IoT Device",
+  "nickname_zh_hk": "Azure IoT Device",
+  "nickname_ja": "Azure IoT Device",
+  "nickname_ko": "Azure IoT Device",
+  "nickname_de": "Azure IoT Device",
+  "nickname_fr": "Azure IoT Device",
+  "nickname_es": "Azure IoT Device",
+  "nickname_pt": "Azure IoT Device",
+  "nickname_ru": "Azure IoT Device",
+  "nickname_ar": "Azure IoT Device",
+  "version": "0.0.1",
+  "description": "面向树莓派与 Linux 开发板的 Azure IoT Device 常用 Python API 白名单积木。",
+  "description_zh_cn": "面向树莓派与 Linux 开发板的 Azure IoT Device 常用 Python API 白名单积木。",
+  "description_en": "Allowlisted Azure IoT Device Python API blocks for Raspberry Pi and Linux single-board computers.",
+  "spec": true,
+  "compatibility": {
+    "type": [
+      "canaan:k230:cybercam",
+      "broadcom:bcm2712:raspberrypi_5",
+      "allwinner:t527:walnutpi_2b"
+    ],
+    "voltage": [
+      3.3
+    ]
+  },
+  "keywords": [
+    "aily",
+    "blockly",
+    "python",
+    "linux",
+    "raspberry-pi",
+    "azure-iot-device",
+    "azure.iot.device"
+  ],
+  "tags": [
+    "communication"
+  ],
+  "author": "ailyProject",
+  "license": "MIT",
+  "homepage": "https://learn.microsoft.com/en-us/python/api/overview/azure/iot-device-readme",
+  "dependencies": {},
+  "devDependencies": {}
+}

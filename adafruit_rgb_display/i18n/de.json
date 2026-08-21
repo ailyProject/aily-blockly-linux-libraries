@@ -1,0 +1,94 @@
+{
+  "toolbox_name": "CircuitPython RGB Display",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_adafruit_rgb_display_call": {
+    "message0": "CircuitPython RGB Display aufrufen oder erzeugen %1 Argumente %2 Schlüsselwortargumente %3",
+    "tooltip": "Eine freigegebene CircuitPython RGB Display-Funktion oder einen Konstruktor aufrufen und das Ergebnis zurückgeben.",
+    "args0": [
+      {
+        "options": [
+          [
+            "ST7789",
+            "ST7789"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_rgb_display_do": {
+    "message0": "CircuitPython RGB Display ausführen %1 Argumente %2 Schlüsselwortargumente %3",
+    "tooltip": "Eine freigegebene CircuitPython RGB Display-Funktion oder einen Konstruktor als Anweisung ausführen.",
+    "args0": [
+      {
+        "options": [
+          [
+            "ST7789",
+            "ST7789"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_rgb_display_method": {
+    "message0": "CircuitPython RGB Display-Objekt %1 Methode %2 Argumente %3 Schlüsselwortargumente %4",
+    "tooltip": "Eine freigegebene Methode eines CircuitPython RGB Display-Objekts aufrufen und das Ergebnis zurückgeben.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "image",
+            "image"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_rgb_display_do_method": {
+    "message0": "CircuitPython RGB Display-Objekt %1 Methode %2 ausführen Argumente %3 Schlüsselwortargumente %4",
+    "tooltip": "Eine freigegebene Methode eines CircuitPython RGB Display-Objekts als Anweisung ausführen.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "image",
+            "image"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_rgb_display_attribute": {
+    "message0": "CircuitPython RGB Display-Objekt %1 Attribut %2",
+    "tooltip": "Ein freigegebenes Attribut eines CircuitPython RGB Display-Objekts oder Moduls lesen.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "width",
+            "width"
+          ],
+          [
+            "height",
+            "height"
+          ],
+          [
+            "rotation",
+            "rotation"
+          ]
+        ]
+      }
+    ]
+  }
+}

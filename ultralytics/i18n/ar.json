@@ -1,0 +1,170 @@
+{
+  "toolbox_name": "Ultralytics",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_ultralytics_call": {
+    "message0": "Ultralytics استدعاء أو إنشاء %1 الوسائط %2 وسائط الكلمات المفتاحية %3",
+    "tooltip": "استدعاء دالة أو مُنشئ مسموح من Ultralytics وإرجاع النتيجة.",
+    "args0": [
+      {
+        "options": [
+          [
+            "YOLO",
+            "YOLO"
+          ],
+          [
+            "RTDETR",
+            "RTDETR"
+          ],
+          [
+            "SAM",
+            "SAM"
+          ],
+          [
+            "FastSAM",
+            "FastSAM"
+          ],
+          [
+            "NAS",
+            "NAS"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_ultralytics_do": {
+    "message0": "تشغيل Ultralytics %1 الوسائط %2 وسائط الكلمات المفتاحية %3",
+    "tooltip": "تشغيل دالة أو مُنشئ مسموح من Ultralytics كتعليمة.",
+    "args0": [
+      {
+        "options": [
+          [
+            "YOLO",
+            "YOLO"
+          ],
+          [
+            "RTDETR",
+            "RTDETR"
+          ],
+          [
+            "SAM",
+            "SAM"
+          ],
+          [
+            "FastSAM",
+            "FastSAM"
+          ],
+          [
+            "NAS",
+            "NAS"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_ultralytics_method": {
+    "message0": "كائن Ultralytics %1 الطريقة %2 الوسائط %3 وسائط الكلمات المفتاحية %4",
+    "tooltip": "استدعاء طريقة مسموحة لكائن Ultralytics وإرجاع النتيجة.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "train",
+            "train"
+          ],
+          [
+            "val",
+            "val"
+          ],
+          [
+            "predict",
+            "predict"
+          ],
+          [
+            "export",
+            "export"
+          ],
+          [
+            "track",
+            "track"
+          ],
+          [
+            "benchmark",
+            "benchmark"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_ultralytics_do_method": {
+    "message0": "تشغيل طريقة Ultralytics للكائن %1 %2 الوسائط %3 وسائط الكلمات المفتاحية %4",
+    "tooltip": "تشغيل طريقة مسموحة لكائن Ultralytics كتعليمة.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "train",
+            "train"
+          ],
+          [
+            "val",
+            "val"
+          ],
+          [
+            "predict",
+            "predict"
+          ],
+          [
+            "export",
+            "export"
+          ],
+          [
+            "track",
+            "track"
+          ],
+          [
+            "benchmark",
+            "benchmark"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_ultralytics_attribute": {
+    "message0": "كائن Ultralytics %1 السمة %2",
+    "tooltip": "قراءة سمة مسموحة لكائن أو وحدة Ultralytics.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "names",
+            "names"
+          ],
+          [
+            "model",
+            "model"
+          ],
+          [
+            "overrides",
+            "overrides"
+          ],
+          [
+            "callbacks",
+            "callbacks"
+          ]
+        ]
+      }
+    ]
+  }
+}

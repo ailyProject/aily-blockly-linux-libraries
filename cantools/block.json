@@ -1,0 +1,216 @@
+[
+  {
+    "type": "python_cantools_call",
+    "message0": "cantools call or create %1 arguments %2 keyword arguments %3",
+    "args0": [
+      {
+        "type": "field_dropdown",
+        "name": "TARGET",
+        "options": [
+          [
+            "database.load_file",
+            "database.load_file"
+          ],
+          [
+            "database.load_string",
+            "database.load_string"
+          ],
+          [
+            "database.load",
+            "database.load"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#00897B",
+    "tooltip": "Call an allowlisted cantools function or constructor and return its result.",
+    "icon": "settings",
+    "output": "Any"
+  },
+  {
+    "type": "python_cantools_do",
+    "message0": "run cantools %1 arguments %2 keyword arguments %3",
+    "args0": [
+      {
+        "type": "field_dropdown",
+        "name": "TARGET",
+        "options": [
+          [
+            "database.load_file",
+            "database.load_file"
+          ],
+          [
+            "database.load_string",
+            "database.load_string"
+          ],
+          [
+            "database.load",
+            "database.load"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#00897B",
+    "tooltip": "Run an allowlisted cantools function or constructor as a statement.",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "python_cantools_method",
+    "message0": "cantools object %1 call method %2 arguments %3 keyword arguments %4",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "OBJECT"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "METHOD",
+        "options": [
+          [
+            "encode_message",
+            "encode_message"
+          ],
+          [
+            "decode_message",
+            "decode_message"
+          ],
+          [
+            "get_message_by_name",
+            "get_message_by_name"
+          ],
+          [
+            "refresh",
+            "refresh"
+          ],
+          [
+            "as_dbc_string",
+            "as_dbc_string"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#00897B",
+    "tooltip": "Call an allowlisted cantools object method and return its result.",
+    "icon": "settings",
+    "output": "Any"
+  },
+  {
+    "type": "python_cantools_do_method",
+    "message0": "run cantools object %1 method %2 arguments %3 keyword arguments %4",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "OBJECT"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "METHOD",
+        "options": [
+          [
+            "encode_message",
+            "encode_message"
+          ],
+          [
+            "decode_message",
+            "decode_message"
+          ],
+          [
+            "get_message_by_name",
+            "get_message_by_name"
+          ],
+          [
+            "refresh",
+            "refresh"
+          ],
+          [
+            "as_dbc_string",
+            "as_dbc_string"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#00897B",
+    "tooltip": "Run an allowlisted cantools object method as a statement.",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "python_cantools_attribute",
+    "message0": "cantools object %1 attribute %2",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "OBJECT"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "ATTRIBUTE",
+        "options": [
+          [
+            "messages",
+            "messages"
+          ],
+          [
+            "nodes",
+            "nodes"
+          ],
+          [
+            "buses",
+            "buses"
+          ],
+          [
+            "name",
+            "name"
+          ],
+          [
+            "frame_id",
+            "frame_id"
+          ],
+          [
+            "signals",
+            "signals"
+          ]
+        ]
+      }
+    ],
+    "colour": "#00897B",
+    "tooltip": "Read an allowlisted cantools object or module attribute.",
+    "icon": "settings",
+    "output": "Any"
+  }
+]

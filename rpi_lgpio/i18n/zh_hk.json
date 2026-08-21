@@ -1,0 +1,198 @@
+{
+  "toolbox_name": "rpi-lgpio",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "rpi_lgpio_call": {
+    "message0": "rpi-lgpio 呼叫或建立 %1 參數 %2 關鍵字參數 %3",
+    "tooltip": "呼叫白名單中的 rpi-lgpio 函式或建構器並傳回結果。",
+    "args0": [
+      {
+        "options": [
+          [
+            "setmode",
+            "setmode"
+          ],
+          [
+            "setup",
+            "setup"
+          ],
+          [
+            "input",
+            "input"
+          ],
+          [
+            "output",
+            "output"
+          ],
+          [
+            "cleanup",
+            "cleanup"
+          ],
+          [
+            "PWM",
+            "PWM"
+          ],
+          [
+            "add_event_detect",
+            "add_event_detect"
+          ],
+          [
+            "wait_for_edge",
+            "wait_for_edge"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "rpi_lgpio_do": {
+    "message0": "執行 rpi-lgpio %1 參數 %2 關鍵字參數 %3",
+    "tooltip": "以敘述方式執行白名單中的 rpi-lgpio 函式或建構器。",
+    "args0": [
+      {
+        "options": [
+          [
+            "setmode",
+            "setmode"
+          ],
+          [
+            "setup",
+            "setup"
+          ],
+          [
+            "input",
+            "input"
+          ],
+          [
+            "output",
+            "output"
+          ],
+          [
+            "cleanup",
+            "cleanup"
+          ],
+          [
+            "PWM",
+            "PWM"
+          ],
+          [
+            "add_event_detect",
+            "add_event_detect"
+          ],
+          [
+            "wait_for_edge",
+            "wait_for_edge"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "rpi_lgpio_method": {
+    "message0": "rpi-lgpio 物件 %1 呼叫方法 %2 參數 %3 關鍵字參數 %4",
+    "tooltip": "呼叫白名單中的 rpi-lgpio 物件方法並傳回結果。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "start",
+            "start"
+          ],
+          [
+            "stop",
+            "stop"
+          ],
+          [
+            "ChangeDutyCycle",
+            "ChangeDutyCycle"
+          ],
+          [
+            "ChangeFrequency",
+            "ChangeFrequency"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "rpi_lgpio_do_method": {
+    "message0": "執行 rpi-lgpio 物件 %1 的方法 %2 參數 %3 關鍵字參數 %4",
+    "tooltip": "以敘述方式執行白名單中的 rpi-lgpio 物件方法。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "start",
+            "start"
+          ],
+          [
+            "stop",
+            "stop"
+          ],
+          [
+            "ChangeDutyCycle",
+            "ChangeDutyCycle"
+          ],
+          [
+            "ChangeFrequency",
+            "ChangeFrequency"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "rpi_lgpio_attribute": {
+    "message0": "rpi-lgpio 物件 %1 屬性 %2",
+    "tooltip": "讀取白名單中的 rpi-lgpio 物件或模組屬性。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "BCM",
+            "BCM"
+          ],
+          [
+            "BOARD",
+            "BOARD"
+          ],
+          [
+            "IN",
+            "IN"
+          ],
+          [
+            "OUT",
+            "OUT"
+          ],
+          [
+            "HIGH",
+            "HIGH"
+          ],
+          [
+            "LOW",
+            "LOW"
+          ],
+          [
+            "RISING",
+            "RISING"
+          ],
+          [
+            "FALLING",
+            "FALLING"
+          ],
+          [
+            "BOTH",
+            "BOTH"
+          ]
+        ]
+      }
+    ]
+  }
+}

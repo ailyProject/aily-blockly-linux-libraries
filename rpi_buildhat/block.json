@@ -1,0 +1,276 @@
+[
+  {
+    "type": "rpi_buildhat_call",
+    "message0": "Build HAT call or create %1 arguments %2 keyword arguments %3",
+    "args0": [
+      {
+        "type": "field_dropdown",
+        "name": "TARGET",
+        "options": [
+          [
+            "Motor",
+            "Motor"
+          ],
+          [
+            "MotorPair",
+            "MotorPair"
+          ],
+          [
+            "ColorSensor",
+            "ColorSensor"
+          ],
+          [
+            "DistanceSensor",
+            "DistanceSensor"
+          ],
+          [
+            "ForceSensor",
+            "ForceSensor"
+          ],
+          [
+            "Matrix",
+            "Matrix"
+          ],
+          [
+            "Light",
+            "Light"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#C51A4A",
+    "tooltip": "Call an allowlisted Build HAT function or constructor and return its result.",
+    "icon": "settings",
+    "output": "Any"
+  },
+  {
+    "type": "rpi_buildhat_do",
+    "message0": "run Build HAT %1 arguments %2 keyword arguments %3",
+    "args0": [
+      {
+        "type": "field_dropdown",
+        "name": "TARGET",
+        "options": [
+          [
+            "Motor",
+            "Motor"
+          ],
+          [
+            "MotorPair",
+            "MotorPair"
+          ],
+          [
+            "ColorSensor",
+            "ColorSensor"
+          ],
+          [
+            "DistanceSensor",
+            "DistanceSensor"
+          ],
+          [
+            "ForceSensor",
+            "ForceSensor"
+          ],
+          [
+            "Matrix",
+            "Matrix"
+          ],
+          [
+            "Light",
+            "Light"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#C51A4A",
+    "tooltip": "Run an allowlisted Build HAT function or constructor as a statement.",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "rpi_buildhat_method",
+    "message0": "Build HAT object %1 call method %2 arguments %3 keyword arguments %4",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "OBJECT"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "METHOD",
+        "options": [
+          [
+            "run_for_seconds",
+            "run_for_seconds"
+          ],
+          [
+            "run_for_degrees",
+            "run_for_degrees"
+          ],
+          [
+            "start",
+            "start"
+          ],
+          [
+            "stop",
+            "stop"
+          ],
+          [
+            "get_aposition",
+            "get_aposition"
+          ],
+          [
+            "get_color",
+            "get_color"
+          ],
+          [
+            "get_distance",
+            "get_distance"
+          ],
+          [
+            "get_force",
+            "get_force"
+          ],
+          [
+            "on",
+            "on"
+          ],
+          [
+            "off",
+            "off"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#C51A4A",
+    "tooltip": "Call an allowlisted Build HAT object method and return its result.",
+    "icon": "settings",
+    "output": "Any"
+  },
+  {
+    "type": "rpi_buildhat_do_method",
+    "message0": "run Build HAT object %1 method %2 arguments %3 keyword arguments %4",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "OBJECT"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "METHOD",
+        "options": [
+          [
+            "run_for_seconds",
+            "run_for_seconds"
+          ],
+          [
+            "run_for_degrees",
+            "run_for_degrees"
+          ],
+          [
+            "start",
+            "start"
+          ],
+          [
+            "stop",
+            "stop"
+          ],
+          [
+            "get_aposition",
+            "get_aposition"
+          ],
+          [
+            "get_color",
+            "get_color"
+          ],
+          [
+            "get_distance",
+            "get_distance"
+          ],
+          [
+            "get_force",
+            "get_force"
+          ],
+          [
+            "on",
+            "on"
+          ],
+          [
+            "off",
+            "off"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#C51A4A",
+    "tooltip": "Run an allowlisted Build HAT object method as a statement.",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "rpi_buildhat_attribute",
+    "message0": "Build HAT object %1 attribute %2",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "OBJECT"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "ATTRIBUTE",
+        "options": [
+          [
+            "position",
+            "position"
+          ],
+          [
+            "when_pressed",
+            "when_pressed"
+          ],
+          [
+            "when_released",
+            "when_released"
+          ]
+        ]
+      }
+    ],
+    "colour": "#C51A4A",
+    "tooltip": "Read an allowlisted Build HAT object or module attribute.",
+    "icon": "settings",
+    "output": "Any"
+  }
+]

@@ -1,0 +1,216 @@
+[
+  {
+    "type": "python_minimalmodbus_call",
+    "message0": "MinimalModbus call or create %1 arguments %2 keyword arguments %3",
+    "args0": [
+      {
+        "type": "field_dropdown",
+        "name": "TARGET",
+        "options": [
+          [
+            "Instrument",
+            "Instrument"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#00897B",
+    "tooltip": "Call an allowlisted MinimalModbus function or constructor and return its result.",
+    "icon": "settings",
+    "output": "Any"
+  },
+  {
+    "type": "python_minimalmodbus_do",
+    "message0": "run MinimalModbus %1 arguments %2 keyword arguments %3",
+    "args0": [
+      {
+        "type": "field_dropdown",
+        "name": "TARGET",
+        "options": [
+          [
+            "Instrument",
+            "Instrument"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#00897B",
+    "tooltip": "Run an allowlisted MinimalModbus function or constructor as a statement.",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "python_minimalmodbus_method",
+    "message0": "MinimalModbus object %1 call method %2 arguments %3 keyword arguments %4",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "OBJECT"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "METHOD",
+        "options": [
+          [
+            "read_register",
+            "read_register"
+          ],
+          [
+            "write_register",
+            "write_register"
+          ],
+          [
+            "read_registers",
+            "read_registers"
+          ],
+          [
+            "write_registers",
+            "write_registers"
+          ],
+          [
+            "read_bit",
+            "read_bit"
+          ],
+          [
+            "write_bit",
+            "write_bit"
+          ],
+          [
+            "read_string",
+            "read_string"
+          ],
+          [
+            "write_string",
+            "write_string"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#00897B",
+    "tooltip": "Call an allowlisted MinimalModbus object method and return its result.",
+    "icon": "settings",
+    "output": "Any"
+  },
+  {
+    "type": "python_minimalmodbus_do_method",
+    "message0": "run MinimalModbus object %1 method %2 arguments %3 keyword arguments %4",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "OBJECT"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "METHOD",
+        "options": [
+          [
+            "read_register",
+            "read_register"
+          ],
+          [
+            "write_register",
+            "write_register"
+          ],
+          [
+            "read_registers",
+            "read_registers"
+          ],
+          [
+            "write_registers",
+            "write_registers"
+          ],
+          [
+            "read_bit",
+            "read_bit"
+          ],
+          [
+            "write_bit",
+            "write_bit"
+          ],
+          [
+            "read_string",
+            "read_string"
+          ],
+          [
+            "write_string",
+            "write_string"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#00897B",
+    "tooltip": "Run an allowlisted MinimalModbus object method as a statement.",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "python_minimalmodbus_attribute",
+    "message0": "MinimalModbus object %1 attribute %2",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "OBJECT"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "ATTRIBUTE",
+        "options": [
+          [
+            "address",
+            "address"
+          ],
+          [
+            "mode",
+            "mode"
+          ],
+          [
+            "serial",
+            "serial"
+          ],
+          [
+            "clear_buffers_before_each_transaction",
+            "clear_buffers_before_each_transaction"
+          ]
+        ]
+      }
+    ],
+    "colour": "#00897B",
+    "tooltip": "Read an allowlisted MinimalModbus object or module attribute.",
+    "icon": "settings",
+    "output": "Any"
+  }
+]

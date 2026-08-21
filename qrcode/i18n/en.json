@@ -1,0 +1,130 @@
+{
+  "toolbox_name": "qrcode",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_qrcode_call": {
+    "message0": "qrcode call or create %1 arguments %2 keyword arguments %3",
+    "tooltip": "Call an allowlisted qrcode function or constructor and return its result.",
+    "args0": [
+      {
+        "options": [
+          [
+            "make",
+            "make"
+          ],
+          [
+            "QRCode",
+            "QRCode"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_qrcode_do": {
+    "message0": "run qrcode %1 arguments %2 keyword arguments %3",
+    "tooltip": "Run an allowlisted qrcode function or constructor as a statement.",
+    "args0": [
+      {
+        "options": [
+          [
+            "make",
+            "make"
+          ],
+          [
+            "QRCode",
+            "QRCode"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_qrcode_method": {
+    "message0": "qrcode object %1 call method %2 arguments %3 keyword arguments %4",
+    "tooltip": "Call an allowlisted qrcode object method and return its result.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "add_data",
+            "add_data"
+          ],
+          [
+            "make",
+            "make"
+          ],
+          [
+            "make_image",
+            "make_image"
+          ],
+          [
+            "clear",
+            "clear"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_qrcode_do_method": {
+    "message0": "run qrcode object %1 method %2 arguments %3 keyword arguments %4",
+    "tooltip": "Run an allowlisted qrcode object method as a statement.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "add_data",
+            "add_data"
+          ],
+          [
+            "make",
+            "make"
+          ],
+          [
+            "make_image",
+            "make_image"
+          ],
+          [
+            "clear",
+            "clear"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_qrcode_attribute": {
+    "message0": "qrcode object %1 attribute %2",
+    "tooltip": "Read an allowlisted qrcode object or module attribute.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "version",
+            "version"
+          ],
+          [
+            "error_correction",
+            "error_correction"
+          ],
+          [
+            "box_size",
+            "box_size"
+          ],
+          [
+            "border",
+            "border"
+          ]
+        ]
+      }
+    ]
+  }
+}

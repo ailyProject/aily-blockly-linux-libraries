@@ -1,0 +1,242 @@
+{
+  "toolbox_name": "pandas",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_pandas_call": {
+    "message0": "pandas вызвать или создать %1 аргументы %2 именованные аргументы %3",
+    "tooltip": "Вызывает разрешённую функцию или конструктор pandas и возвращает результат.",
+    "args0": [
+      {
+        "options": [
+          [
+            "DataFrame",
+            "DataFrame"
+          ],
+          [
+            "Series",
+            "Series"
+          ],
+          [
+            "read_csv",
+            "read_csv"
+          ],
+          [
+            "read_json",
+            "read_json"
+          ],
+          [
+            "read_excel",
+            "read_excel"
+          ],
+          [
+            "concat",
+            "concat"
+          ],
+          [
+            "merge",
+            "merge"
+          ],
+          [
+            "date_range",
+            "date_range"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_pandas_do": {
+    "message0": "выполнить pandas %1 аргументы %2 именованные аргументы %3",
+    "tooltip": "Выполняет разрешённую функцию или конструктор pandas как инструкцию.",
+    "args0": [
+      {
+        "options": [
+          [
+            "DataFrame",
+            "DataFrame"
+          ],
+          [
+            "Series",
+            "Series"
+          ],
+          [
+            "read_csv",
+            "read_csv"
+          ],
+          [
+            "read_json",
+            "read_json"
+          ],
+          [
+            "read_excel",
+            "read_excel"
+          ],
+          [
+            "concat",
+            "concat"
+          ],
+          [
+            "merge",
+            "merge"
+          ],
+          [
+            "date_range",
+            "date_range"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_pandas_method": {
+    "message0": "объект pandas %1 метод %2 аргументы %3 именованные аргументы %4",
+    "tooltip": "Вызывает разрешённый метод объекта pandas и возвращает результат.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "head",
+            "head"
+          ],
+          [
+            "tail",
+            "tail"
+          ],
+          [
+            "describe",
+            "describe"
+          ],
+          [
+            "groupby",
+            "groupby"
+          ],
+          [
+            "merge",
+            "merge"
+          ],
+          [
+            "join",
+            "join"
+          ],
+          [
+            "to_csv",
+            "to_csv"
+          ],
+          [
+            "to_json",
+            "to_json"
+          ],
+          [
+            "dropna",
+            "dropna"
+          ],
+          [
+            "fillna",
+            "fillna"
+          ],
+          [
+            "sort_values",
+            "sort_values"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_pandas_do_method": {
+    "message0": "выполнить метод pandas объекта %1 %2 аргументы %3 именованные аргументы %4",
+    "tooltip": "Выполняет разрешённый метод объекта pandas как инструкцию.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "head",
+            "head"
+          ],
+          [
+            "tail",
+            "tail"
+          ],
+          [
+            "describe",
+            "describe"
+          ],
+          [
+            "groupby",
+            "groupby"
+          ],
+          [
+            "merge",
+            "merge"
+          ],
+          [
+            "join",
+            "join"
+          ],
+          [
+            "to_csv",
+            "to_csv"
+          ],
+          [
+            "to_json",
+            "to_json"
+          ],
+          [
+            "dropna",
+            "dropna"
+          ],
+          [
+            "fillna",
+            "fillna"
+          ],
+          [
+            "sort_values",
+            "sort_values"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_pandas_attribute": {
+    "message0": "объект pandas %1 атрибут %2",
+    "tooltip": "Читает разрешённый атрибут объекта или модуля pandas.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "shape",
+            "shape"
+          ],
+          [
+            "columns",
+            "columns"
+          ],
+          [
+            "index",
+            "index"
+          ],
+          [
+            "dtypes",
+            "dtypes"
+          ],
+          [
+            "values",
+            "values"
+          ],
+          [
+            "empty",
+            "empty"
+          ]
+        ]
+      }
+    ]
+  }
+}

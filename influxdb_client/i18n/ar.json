@@ -1,0 +1,202 @@
+{
+  "toolbox_name": "InfluxDB Client",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_influxdb_client_call": {
+    "message0": "InfluxDB Client استدعاء أو إنشاء %1 الوسائط %2 وسائط الكلمات المفتاحية %3",
+    "tooltip": "استدعاء دالة أو مُنشئ مسموح من InfluxDB Client وإرجاع النتيجة.",
+    "args0": [
+      {
+        "options": [
+          [
+            "InfluxDBClient",
+            "InfluxDBClient"
+          ],
+          [
+            "Point",
+            "Point"
+          ],
+          [
+            "WriteOptions",
+            "WriteOptions"
+          ],
+          [
+            "Dialect",
+            "Dialect"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_influxdb_client_do": {
+    "message0": "تشغيل InfluxDB Client %1 الوسائط %2 وسائط الكلمات المفتاحية %3",
+    "tooltip": "تشغيل دالة أو مُنشئ مسموح من InfluxDB Client كتعليمة.",
+    "args0": [
+      {
+        "options": [
+          [
+            "InfluxDBClient",
+            "InfluxDBClient"
+          ],
+          [
+            "Point",
+            "Point"
+          ],
+          [
+            "WriteOptions",
+            "WriteOptions"
+          ],
+          [
+            "Dialect",
+            "Dialect"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_influxdb_client_method": {
+    "message0": "كائن InfluxDB Client %1 الطريقة %2 الوسائط %3 وسائط الكلمات المفتاحية %4",
+    "tooltip": "استدعاء طريقة مسموحة لكائن InfluxDB Client وإرجاع النتيجة.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "write_api",
+            "write_api"
+          ],
+          [
+            "query_api",
+            "query_api"
+          ],
+          [
+            "delete_api",
+            "delete_api"
+          ],
+          [
+            "write",
+            "write"
+          ],
+          [
+            "query",
+            "query"
+          ],
+          [
+            "query_data_frame",
+            "query_data_frame"
+          ],
+          [
+            "health",
+            "health"
+          ],
+          [
+            "ready",
+            "ready"
+          ],
+          [
+            "close",
+            "close"
+          ],
+          [
+            "delete",
+            "delete"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_influxdb_client_do_method": {
+    "message0": "تشغيل طريقة InfluxDB Client للكائن %1 %2 الوسائط %3 وسائط الكلمات المفتاحية %4",
+    "tooltip": "تشغيل طريقة مسموحة لكائن InfluxDB Client كتعليمة.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "write_api",
+            "write_api"
+          ],
+          [
+            "query_api",
+            "query_api"
+          ],
+          [
+            "delete_api",
+            "delete_api"
+          ],
+          [
+            "write",
+            "write"
+          ],
+          [
+            "query",
+            "query"
+          ],
+          [
+            "query_data_frame",
+            "query_data_frame"
+          ],
+          [
+            "health",
+            "health"
+          ],
+          [
+            "ready",
+            "ready"
+          ],
+          [
+            "close",
+            "close"
+          ],
+          [
+            "delete",
+            "delete"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_influxdb_client_attribute": {
+    "message0": "كائن InfluxDB Client %1 السمة %2",
+    "tooltip": "قراءة سمة مسموحة لكائن أو وحدة InfluxDB Client.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "version",
+            "version"
+          ],
+          [
+            "status",
+            "status"
+          ],
+          [
+            "message",
+            "message"
+          ],
+          [
+            "name",
+            "name"
+          ],
+          [
+            "tags",
+            "tags"
+          ],
+          [
+            "fields",
+            "fields"
+          ]
+        ]
+      }
+    ]
+  }
+}

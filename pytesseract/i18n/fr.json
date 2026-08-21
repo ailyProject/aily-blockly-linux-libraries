@@ -1,0 +1,92 @@
+{
+  "toolbox_name": "pytesseract",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_pytesseract_call": {
+    "message0": "pytesseract appeler ou créer %1 arguments %2 arguments nommés %3",
+    "tooltip": "Appeler une fonction ou un constructeur pytesseract autorisé et renvoyer le résultat.",
+    "args0": [
+      {
+        "options": [
+          [
+            "image_to_string",
+            "image_to_string"
+          ],
+          [
+            "image_to_data",
+            "image_to_data"
+          ],
+          [
+            "image_to_boxes",
+            "image_to_boxes"
+          ],
+          [
+            "image_to_osd",
+            "image_to_osd"
+          ],
+          [
+            "get_languages",
+            "get_languages"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_pytesseract_do": {
+    "message0": "exécuter pytesseract %1 arguments %2 arguments nommés %3",
+    "tooltip": "Exécuter une fonction ou un constructeur pytesseract autorisé comme instruction.",
+    "args0": [
+      {
+        "options": [
+          [
+            "image_to_string",
+            "image_to_string"
+          ],
+          [
+            "image_to_data",
+            "image_to_data"
+          ],
+          [
+            "image_to_boxes",
+            "image_to_boxes"
+          ],
+          [
+            "image_to_osd",
+            "image_to_osd"
+          ],
+          [
+            "get_languages",
+            "get_languages"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_pytesseract_attribute": {
+    "message0": "objet pytesseract %1 attribut %2",
+    "tooltip": "Lire un attribut autorisé d’un objet ou module pytesseract.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "Output.DICT",
+            "Output.DICT"
+          ],
+          [
+            "Output.STRING",
+            "Output.STRING"
+          ],
+          [
+            "Output.DATAFRAME",
+            "Output.DATAFRAME"
+          ]
+        ]
+      }
+    ]
+  }
+}

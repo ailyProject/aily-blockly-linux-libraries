@@ -1,0 +1,142 @@
+{
+  "toolbox_name": "dbus-next",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_dbus_next_call": {
+    "message0": "dbus-next aufrufen oder erzeugen %1 Argumente %2 Schlüsselwortargumente %3",
+    "tooltip": "Eine freigegebene dbus-next-Funktion oder einen Konstruktor aufrufen und das Ergebnis zurückgeben.",
+    "args0": [
+      {
+        "options": [
+          [
+            "MessageBus",
+            "MessageBus"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_dbus_next_do": {
+    "message0": "dbus-next ausführen %1 Argumente %2 Schlüsselwortargumente %3",
+    "tooltip": "Eine freigegebene dbus-next-Funktion oder einen Konstruktor als Anweisung ausführen.",
+    "args0": [
+      {
+        "options": [
+          [
+            "MessageBus",
+            "MessageBus"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_dbus_next_method": {
+    "message0": "dbus-next-Objekt %1 Methode %2 Argumente %3 Schlüsselwortargumente %4",
+    "tooltip": "Eine freigegebene Methode eines dbus-next-Objekts aufrufen und das Ergebnis zurückgeben.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "connect",
+            "connect"
+          ],
+          [
+            "disconnect",
+            "disconnect"
+          ],
+          [
+            "introspect",
+            "introspect"
+          ],
+          [
+            "get_proxy_object",
+            "get_proxy_object"
+          ],
+          [
+            "call",
+            "call"
+          ],
+          [
+            "export",
+            "export"
+          ],
+          [
+            "unexport",
+            "unexport"
+          ],
+          [
+            "request_name",
+            "request_name"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_dbus_next_do_method": {
+    "message0": "dbus-next-Objekt %1 Methode %2 ausführen Argumente %3 Schlüsselwortargumente %4",
+    "tooltip": "Eine freigegebene Methode eines dbus-next-Objekts als Anweisung ausführen.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "connect",
+            "connect"
+          ],
+          [
+            "disconnect",
+            "disconnect"
+          ],
+          [
+            "introspect",
+            "introspect"
+          ],
+          [
+            "get_proxy_object",
+            "get_proxy_object"
+          ],
+          [
+            "call",
+            "call"
+          ],
+          [
+            "export",
+            "export"
+          ],
+          [
+            "unexport",
+            "unexport"
+          ],
+          [
+            "request_name",
+            "request_name"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_dbus_next_attribute": {
+    "message0": "dbus-next-Objekt %1 Attribut %2",
+    "tooltip": "Ein freigegebenes Attribut eines dbus-next-Objekts oder Moduls lesen.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "unique_name",
+            "unique_name"
+          ]
+        ]
+      }
+    ]
+  }
+}

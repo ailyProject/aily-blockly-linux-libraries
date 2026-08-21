@@ -1,0 +1,87 @@
+[
+  {
+    "type": "python_adafruit_mlx90614_call",
+    "message0": "CircuitPython MLX90614 call or create %1 arguments %2 keyword arguments %3",
+    "args0": [
+      {
+        "type": "field_dropdown",
+        "name": "TARGET",
+        "options": [
+          [
+            "MLX90614",
+            "MLX90614"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#00897B",
+    "tooltip": "Call an allowlisted CircuitPython MLX90614 function or constructor and return its result.",
+    "icon": "settings",
+    "output": "Any"
+  },
+  {
+    "type": "python_adafruit_mlx90614_do",
+    "message0": "run CircuitPython MLX90614 %1 arguments %2 keyword arguments %3",
+    "args0": [
+      {
+        "type": "field_dropdown",
+        "name": "TARGET",
+        "options": [
+          [
+            "MLX90614",
+            "MLX90614"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#00897B",
+    "tooltip": "Run an allowlisted CircuitPython MLX90614 function or constructor as a statement.",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "python_adafruit_mlx90614_attribute",
+    "message0": "CircuitPython MLX90614 object %1 attribute %2",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "OBJECT"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "ATTRIBUTE",
+        "options": [
+          [
+            "ambient_temperature",
+            "ambient_temperature"
+          ],
+          [
+            "object_temperature",
+            "object_temperature"
+          ]
+        ]
+      }
+    ],
+    "colour": "#00897B",
+    "tooltip": "Read an allowlisted CircuitPython MLX90614 object or module attribute.",
+    "icon": "settings",
+    "output": "Any"
+  }
+]

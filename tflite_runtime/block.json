@@ -1,0 +1,188 @@
+[
+  {
+    "type": "python_tflite_runtime_call",
+    "message0": "LiteRT / TFLite Runtime call or create %1 arguments %2 keyword arguments %3",
+    "args0": [
+      {
+        "type": "field_dropdown",
+        "name": "TARGET",
+        "options": [
+          [
+            "Interpreter",
+            "Interpreter"
+          ],
+          [
+            "load_delegate",
+            "load_delegate"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#1976D2",
+    "tooltip": "Call an allowlisted LiteRT / TFLite Runtime function or constructor and return its result.",
+    "icon": "settings",
+    "output": "Any"
+  },
+  {
+    "type": "python_tflite_runtime_do",
+    "message0": "run LiteRT / TFLite Runtime %1 arguments %2 keyword arguments %3",
+    "args0": [
+      {
+        "type": "field_dropdown",
+        "name": "TARGET",
+        "options": [
+          [
+            "Interpreter",
+            "Interpreter"
+          ],
+          [
+            "load_delegate",
+            "load_delegate"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#1976D2",
+    "tooltip": "Run an allowlisted LiteRT / TFLite Runtime function or constructor as a statement.",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "python_tflite_runtime_method",
+    "message0": "LiteRT / TFLite Runtime object %1 call method %2 arguments %3 keyword arguments %4",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "OBJECT"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "METHOD",
+        "options": [
+          [
+            "allocate_tensors",
+            "allocate_tensors"
+          ],
+          [
+            "get_input_details",
+            "get_input_details"
+          ],
+          [
+            "get_output_details",
+            "get_output_details"
+          ],
+          [
+            "set_tensor",
+            "set_tensor"
+          ],
+          [
+            "get_tensor",
+            "get_tensor"
+          ],
+          [
+            "invoke",
+            "invoke"
+          ],
+          [
+            "resize_tensor_input",
+            "resize_tensor_input"
+          ],
+          [
+            "get_signature_runner",
+            "get_signature_runner"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#1976D2",
+    "tooltip": "Call an allowlisted LiteRT / TFLite Runtime object method and return its result.",
+    "icon": "settings",
+    "output": "Any"
+  },
+  {
+    "type": "python_tflite_runtime_do_method",
+    "message0": "run LiteRT / TFLite Runtime object %1 method %2 arguments %3 keyword arguments %4",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "OBJECT"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "METHOD",
+        "options": [
+          [
+            "allocate_tensors",
+            "allocate_tensors"
+          ],
+          [
+            "get_input_details",
+            "get_input_details"
+          ],
+          [
+            "get_output_details",
+            "get_output_details"
+          ],
+          [
+            "set_tensor",
+            "set_tensor"
+          ],
+          [
+            "get_tensor",
+            "get_tensor"
+          ],
+          [
+            "invoke",
+            "invoke"
+          ],
+          [
+            "resize_tensor_input",
+            "resize_tensor_input"
+          ],
+          [
+            "get_signature_runner",
+            "get_signature_runner"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#1976D2",
+    "tooltip": "Run an allowlisted LiteRT / TFLite Runtime object method as a statement.",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  }
+]

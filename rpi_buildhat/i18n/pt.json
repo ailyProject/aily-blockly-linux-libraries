@@ -1,0 +1,214 @@
+{
+  "toolbox_name": "Build HAT",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "rpi_buildhat_call": {
+    "message0": "Build HAT chamar ou criar %1 argumentos %2 argumentos nomeados %3",
+    "tooltip": "Chama uma função ou construtor permitido de Build HAT e devolve o resultado.",
+    "args0": [
+      {
+        "options": [
+          [
+            "Motor",
+            "Motor"
+          ],
+          [
+            "MotorPair",
+            "MotorPair"
+          ],
+          [
+            "ColorSensor",
+            "ColorSensor"
+          ],
+          [
+            "DistanceSensor",
+            "DistanceSensor"
+          ],
+          [
+            "ForceSensor",
+            "ForceSensor"
+          ],
+          [
+            "Matrix",
+            "Matrix"
+          ],
+          [
+            "Light",
+            "Light"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "rpi_buildhat_do": {
+    "message0": "executar Build HAT %1 argumentos %2 argumentos nomeados %3",
+    "tooltip": "Executa uma função ou construtor permitido de Build HAT como instrução.",
+    "args0": [
+      {
+        "options": [
+          [
+            "Motor",
+            "Motor"
+          ],
+          [
+            "MotorPair",
+            "MotorPair"
+          ],
+          [
+            "ColorSensor",
+            "ColorSensor"
+          ],
+          [
+            "DistanceSensor",
+            "DistanceSensor"
+          ],
+          [
+            "ForceSensor",
+            "ForceSensor"
+          ],
+          [
+            "Matrix",
+            "Matrix"
+          ],
+          [
+            "Light",
+            "Light"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "rpi_buildhat_method": {
+    "message0": "objeto Build HAT %1 método %2 argumentos %3 argumentos nomeados %4",
+    "tooltip": "Chama um método permitido de um objeto Build HAT e devolve o resultado.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "run_for_seconds",
+            "run_for_seconds"
+          ],
+          [
+            "run_for_degrees",
+            "run_for_degrees"
+          ],
+          [
+            "start",
+            "start"
+          ],
+          [
+            "stop",
+            "stop"
+          ],
+          [
+            "get_aposition",
+            "get_aposition"
+          ],
+          [
+            "get_color",
+            "get_color"
+          ],
+          [
+            "get_distance",
+            "get_distance"
+          ],
+          [
+            "get_force",
+            "get_force"
+          ],
+          [
+            "on",
+            "on"
+          ],
+          [
+            "off",
+            "off"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "rpi_buildhat_do_method": {
+    "message0": "executar método de Build HAT objeto %1 %2 argumentos %3 argumentos nomeados %4",
+    "tooltip": "Executa um método permitido de um objeto Build HAT como instrução.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "run_for_seconds",
+            "run_for_seconds"
+          ],
+          [
+            "run_for_degrees",
+            "run_for_degrees"
+          ],
+          [
+            "start",
+            "start"
+          ],
+          [
+            "stop",
+            "stop"
+          ],
+          [
+            "get_aposition",
+            "get_aposition"
+          ],
+          [
+            "get_color",
+            "get_color"
+          ],
+          [
+            "get_distance",
+            "get_distance"
+          ],
+          [
+            "get_force",
+            "get_force"
+          ],
+          [
+            "on",
+            "on"
+          ],
+          [
+            "off",
+            "off"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "rpi_buildhat_attribute": {
+    "message0": "objeto Build HAT %1 atributo %2",
+    "tooltip": "Lê um atributo permitido de um objeto ou módulo Build HAT.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "position",
+            "position"
+          ],
+          [
+            "when_pressed",
+            "when_pressed"
+          ],
+          [
+            "when_released",
+            "when_released"
+          ]
+        ]
+      }
+    ]
+  }
+}

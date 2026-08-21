@@ -1,0 +1,135 @@
+{
+  "toolbox_name": "AWS IoT Device SDK v2",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_aws_iot_device_sdk_call": {
+    "message0": "AWS IoT Device SDK v2 呼叫或建立 %1 參數 %2 關鍵字參數 %3",
+    "tooltip": "呼叫白名單中的 AWS IoT Device SDK v2 函式或建構器並傳回結果。",
+    "args0": [
+      {
+        "options": [
+          [
+            "mtls_from_path",
+            "mtls_from_path"
+          ],
+          [
+            "mtls_from_bytes",
+            "mtls_from_bytes"
+          ],
+          [
+            "websockets_with_default_aws_signing",
+            "websockets_with_default_aws_signing"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_aws_iot_device_sdk_do": {
+    "message0": "執行 AWS IoT Device SDK v2 %1 參數 %2 關鍵字參數 %3",
+    "tooltip": "以敘述方式執行白名單中的 AWS IoT Device SDK v2 函式或建構器。",
+    "args0": [
+      {
+        "options": [
+          [
+            "mtls_from_path",
+            "mtls_from_path"
+          ],
+          [
+            "mtls_from_bytes",
+            "mtls_from_bytes"
+          ],
+          [
+            "websockets_with_default_aws_signing",
+            "websockets_with_default_aws_signing"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_aws_iot_device_sdk_method": {
+    "message0": "AWS IoT Device SDK v2 物件 %1 呼叫方法 %2 參數 %3 關鍵字參數 %4",
+    "tooltip": "呼叫白名單中的 AWS IoT Device SDK v2 物件方法並傳回結果。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "connect",
+            "connect"
+          ],
+          [
+            "disconnect",
+            "disconnect"
+          ],
+          [
+            "publish",
+            "publish"
+          ],
+          [
+            "subscribe",
+            "subscribe"
+          ],
+          [
+            "unsubscribe",
+            "unsubscribe"
+          ],
+          [
+            "resubscribe_existing_topics",
+            "resubscribe_existing_topics"
+          ],
+          [
+            "result",
+            "result"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_aws_iot_device_sdk_do_method": {
+    "message0": "執行 AWS IoT Device SDK v2 物件 %1 的方法 %2 參數 %3 關鍵字參數 %4",
+    "tooltip": "以敘述方式執行白名單中的 AWS IoT Device SDK v2 物件方法。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "connect",
+            "connect"
+          ],
+          [
+            "disconnect",
+            "disconnect"
+          ],
+          [
+            "publish",
+            "publish"
+          ],
+          [
+            "subscribe",
+            "subscribe"
+          ],
+          [
+            "unsubscribe",
+            "unsubscribe"
+          ],
+          [
+            "resubscribe_existing_topics",
+            "resubscribe_existing_topics"
+          ],
+          [
+            "result",
+            "result"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  }
+}

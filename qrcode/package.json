@@ -1,0 +1,47 @@
+{
+  "name": "@aily-project/lib-qrcode",
+  "nickname": "qrcode",
+  "nickname_zh_cn": "qrcode",
+  "nickname_en": "qrcode",
+  "nickname_zh_hk": "qrcode",
+  "nickname_ja": "qrcode",
+  "nickname_ko": "qrcode",
+  "nickname_de": "qrcode",
+  "nickname_fr": "qrcode",
+  "nickname_es": "qrcode",
+  "nickname_pt": "qrcode",
+  "nickname_ru": "qrcode",
+  "nickname_ar": "qrcode",
+  "version": "0.0.1",
+  "description": "面向树莓派与 Linux 开发板的 qrcode 常用 Python API 白名单积木。",
+  "description_zh_cn": "面向树莓派与 Linux 开发板的 qrcode 常用 Python API 白名单积木。",
+  "description_en": "Allowlisted qrcode Python API blocks for Raspberry Pi and Linux single-board computers.",
+  "spec": true,
+  "compatibility": {
+    "type": [
+      "canaan:k230:cybercam",
+      "broadcom:bcm2712:raspberrypi_5",
+      "allwinner:t527:walnutpi_2b"
+    ],
+    "voltage": [
+      3.3
+    ]
+  },
+  "keywords": [
+    "aily",
+    "blockly",
+    "python",
+    "linux",
+    "raspberry-pi",
+    "qrcode",
+    "qrcode"
+  ],
+  "tags": [
+    "display"
+  ],
+  "author": "ailyProject",
+  "license": "MIT",
+  "homepage": "https://github.com/lincolnloop/python-qrcode",
+  "dependencies": {},
+  "devDependencies": {}
+}

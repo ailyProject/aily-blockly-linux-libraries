@@ -1,0 +1,122 @@
+{
+  "toolbox_name": "Raspberry Pi Hardware PWM",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "rpi_hardware_pwm_call": {
+    "message0": "Raspberry Pi Hardware PWM aufrufen oder erzeugen %1 Argumente %2 Schlüsselwortargumente %3",
+    "tooltip": "Eine freigegebene Raspberry Pi Hardware PWM-Funktion oder einen Konstruktor aufrufen und das Ergebnis zurückgeben.",
+    "args0": [
+      {
+        "options": [
+          [
+            "HardwarePWM",
+            "HardwarePWM"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "rpi_hardware_pwm_do": {
+    "message0": "Raspberry Pi Hardware PWM ausführen %1 Argumente %2 Schlüsselwortargumente %3",
+    "tooltip": "Eine freigegebene Raspberry Pi Hardware PWM-Funktion oder einen Konstruktor als Anweisung ausführen.",
+    "args0": [
+      {
+        "options": [
+          [
+            "HardwarePWM",
+            "HardwarePWM"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "rpi_hardware_pwm_method": {
+    "message0": "Raspberry Pi Hardware PWM-Objekt %1 Methode %2 Argumente %3 Schlüsselwortargumente %4",
+    "tooltip": "Eine freigegebene Methode eines Raspberry Pi Hardware PWM-Objekts aufrufen und das Ergebnis zurückgeben.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "start",
+            "start"
+          ],
+          [
+            "stop",
+            "stop"
+          ],
+          [
+            "change_duty_cycle",
+            "change_duty_cycle"
+          ],
+          [
+            "change_frequency",
+            "change_frequency"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "rpi_hardware_pwm_do_method": {
+    "message0": "Raspberry Pi Hardware PWM-Objekt %1 Methode %2 ausführen Argumente %3 Schlüsselwortargumente %4",
+    "tooltip": "Eine freigegebene Methode eines Raspberry Pi Hardware PWM-Objekts als Anweisung ausführen.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "start",
+            "start"
+          ],
+          [
+            "stop",
+            "stop"
+          ],
+          [
+            "change_duty_cycle",
+            "change_duty_cycle"
+          ],
+          [
+            "change_frequency",
+            "change_frequency"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "rpi_hardware_pwm_attribute": {
+    "message0": "Raspberry Pi Hardware PWM-Objekt %1 Attribut %2",
+    "tooltip": "Ein freigegebenes Attribut eines Raspberry Pi Hardware PWM-Objekts oder Moduls lesen.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "duty_cycle",
+            "duty_cycle"
+          ],
+          [
+            "frequency_hz",
+            "frequency_hz"
+          ],
+          [
+            "pwm_channel",
+            "pwm_channel"
+          ],
+          [
+            "chip",
+            "chip"
+          ]
+        ]
+      }
+    ]
+  }
+}

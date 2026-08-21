@@ -1,0 +1,174 @@
+{
+  "toolbox_name": "libgpiod v2",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "linux_gpiod_call": {
+    "message0": "libgpiod v2 呼び出しまたは作成 %1 引数 %2 キーワード引数 %3",
+    "tooltip": "許可された libgpiod v2 の関数またはコンストラクターを呼び出して結果を返します。",
+    "args0": [
+      {
+        "options": [
+          [
+            "request_lines",
+            "request_lines"
+          ],
+          [
+            "LineSettings",
+            "LineSettings"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "linux_gpiod_do": {
+    "message0": "libgpiod v2 を実行 %1 引数 %2 キーワード引数 %3",
+    "tooltip": "許可された libgpiod v2 の関数またはコンストラクターを文として実行します。",
+    "args0": [
+      {
+        "options": [
+          [
+            "request_lines",
+            "request_lines"
+          ],
+          [
+            "LineSettings",
+            "LineSettings"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "linux_gpiod_method": {
+    "message0": "libgpiod v2 オブジェクト %1 メソッド %2 引数 %3 キーワード引数 %4",
+    "tooltip": "許可された libgpiod v2 オブジェクトのメソッドを呼び出して結果を返します。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "get_value",
+            "get_value"
+          ],
+          [
+            "get_values",
+            "get_values"
+          ],
+          [
+            "set_value",
+            "set_value"
+          ],
+          [
+            "set_values",
+            "set_values"
+          ],
+          [
+            "wait_edge_events",
+            "wait_edge_events"
+          ],
+          [
+            "read_edge_events",
+            "read_edge_events"
+          ],
+          [
+            "reconfigure_lines",
+            "reconfigure_lines"
+          ],
+          [
+            "release",
+            "release"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "linux_gpiod_do_method": {
+    "message0": "libgpiod v2 オブジェクト %1 のメソッド %2 を実行 引数 %3 キーワード引数 %4",
+    "tooltip": "許可された libgpiod v2 オブジェクトのメソッドを文として実行します。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "get_value",
+            "get_value"
+          ],
+          [
+            "get_values",
+            "get_values"
+          ],
+          [
+            "set_value",
+            "set_value"
+          ],
+          [
+            "set_values",
+            "set_values"
+          ],
+          [
+            "wait_edge_events",
+            "wait_edge_events"
+          ],
+          [
+            "read_edge_events",
+            "read_edge_events"
+          ],
+          [
+            "reconfigure_lines",
+            "reconfigure_lines"
+          ],
+          [
+            "release",
+            "release"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "linux_gpiod_attribute": {
+    "message0": "libgpiod v2 オブジェクト %1 属性 %2",
+    "tooltip": "許可された libgpiod v2 オブジェクトまたはモジュールの属性を読み取ります。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "line.Direction.INPUT",
+            "line.Direction.INPUT"
+          ],
+          [
+            "line.Direction.OUTPUT",
+            "line.Direction.OUTPUT"
+          ],
+          [
+            "line.Value.ACTIVE",
+            "line.Value.ACTIVE"
+          ],
+          [
+            "line.Value.INACTIVE",
+            "line.Value.INACTIVE"
+          ],
+          [
+            "line.Edge.RISING",
+            "line.Edge.RISING"
+          ],
+          [
+            "line.Edge.FALLING",
+            "line.Edge.FALLING"
+          ],
+          [
+            "line.Edge.BOTH",
+            "line.Edge.BOTH"
+          ]
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,206 @@
+{
+  "toolbox_name": "Bleak Bluetooth LE",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_bleak_call": {
+    "message0": "Bleak Bluetooth LE chamar ou criar %1 argumentos %2 argumentos nomeados %3",
+    "tooltip": "Chama uma função ou construtor permitido de Bleak Bluetooth LE e devolve o resultado.",
+    "args0": [
+      {
+        "options": [
+          [
+            "BleakScanner",
+            "BleakScanner"
+          ],
+          [
+            "BleakScanner.discover",
+            "BleakScanner.discover"
+          ],
+          [
+            "BleakScanner.find_device_by_address",
+            "BleakScanner.find_device_by_address"
+          ],
+          [
+            "BleakScanner.find_device_by_name",
+            "BleakScanner.find_device_by_name"
+          ],
+          [
+            "BleakClient",
+            "BleakClient"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_bleak_do": {
+    "message0": "executar Bleak Bluetooth LE %1 argumentos %2 argumentos nomeados %3",
+    "tooltip": "Executa uma função ou construtor permitido de Bleak Bluetooth LE como instrução.",
+    "args0": [
+      {
+        "options": [
+          [
+            "BleakScanner",
+            "BleakScanner"
+          ],
+          [
+            "BleakScanner.discover",
+            "BleakScanner.discover"
+          ],
+          [
+            "BleakScanner.find_device_by_address",
+            "BleakScanner.find_device_by_address"
+          ],
+          [
+            "BleakScanner.find_device_by_name",
+            "BleakScanner.find_device_by_name"
+          ],
+          [
+            "BleakClient",
+            "BleakClient"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_bleak_method": {
+    "message0": "objeto Bleak Bluetooth LE %1 método %2 argumentos %3 argumentos nomeados %4",
+    "tooltip": "Chama um método permitido de um objeto Bleak Bluetooth LE e devolve o resultado.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "connect",
+            "connect"
+          ],
+          [
+            "disconnect",
+            "disconnect"
+          ],
+          [
+            "read_gatt_char",
+            "read_gatt_char"
+          ],
+          [
+            "write_gatt_char",
+            "write_gatt_char"
+          ],
+          [
+            "start_notify",
+            "start_notify"
+          ],
+          [
+            "stop_notify",
+            "stop_notify"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_bleak_do_method": {
+    "message0": "executar método de Bleak Bluetooth LE objeto %1 %2 argumentos %3 argumentos nomeados %4",
+    "tooltip": "Executa um método permitido de um objeto Bleak Bluetooth LE como instrução.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "connect",
+            "connect"
+          ],
+          [
+            "disconnect",
+            "disconnect"
+          ],
+          [
+            "read_gatt_char",
+            "read_gatt_char"
+          ],
+          [
+            "write_gatt_char",
+            "write_gatt_char"
+          ],
+          [
+            "start_notify",
+            "start_notify"
+          ],
+          [
+            "stop_notify",
+            "stop_notify"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_bleak_attribute": {
+    "message0": "objeto Bleak Bluetooth LE %1 atributo %2",
+    "tooltip": "Lê um atributo permitido de um objeto ou módulo Bleak Bluetooth LE.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "is_connected",
+            "is_connected"
+          ],
+          [
+            "address",
+            "address"
+          ],
+          [
+            "name",
+            "name"
+          ],
+          [
+            "details",
+            "details"
+          ],
+          [
+            "mtu_size",
+            "mtu_size"
+          ],
+          [
+            "services",
+            "services"
+          ],
+          [
+            "backend_id",
+            "backend_id"
+          ],
+          [
+            "rssi",
+            "rssi"
+          ],
+          [
+            "local_name",
+            "local_name"
+          ],
+          [
+            "manufacturer_data",
+            "manufacturer_data"
+          ],
+          [
+            "service_data",
+            "service_data"
+          ],
+          [
+            "service_uuids",
+            "service_uuids"
+          ],
+          [
+            "tx_power",
+            "tx_power"
+          ]
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,162 @@
+{
+  "toolbox_name": "lgpio",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "linux_lgpio_call": {
+    "message0": "lgpio 呼び出しまたは作成 %1 引数 %2 キーワード引数 %3",
+    "tooltip": "許可された lgpio の関数またはコンストラクターを呼び出して結果を返します。",
+    "args0": [
+      {
+        "options": [
+          [
+            "gpiochip_open",
+            "gpiochip_open"
+          ],
+          [
+            "gpiochip_close",
+            "gpiochip_close"
+          ],
+          [
+            "gpio_claim_input",
+            "gpio_claim_input"
+          ],
+          [
+            "gpio_claim_output",
+            "gpio_claim_output"
+          ],
+          [
+            "gpio_read",
+            "gpio_read"
+          ],
+          [
+            "gpio_write",
+            "gpio_write"
+          ],
+          [
+            "tx_pwm",
+            "tx_pwm"
+          ],
+          [
+            "callback",
+            "callback"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "linux_lgpio_do": {
+    "message0": "lgpio を実行 %1 引数 %2 キーワード引数 %3",
+    "tooltip": "許可された lgpio の関数またはコンストラクターを文として実行します。",
+    "args0": [
+      {
+        "options": [
+          [
+            "gpiochip_open",
+            "gpiochip_open"
+          ],
+          [
+            "gpiochip_close",
+            "gpiochip_close"
+          ],
+          [
+            "gpio_claim_input",
+            "gpio_claim_input"
+          ],
+          [
+            "gpio_claim_output",
+            "gpio_claim_output"
+          ],
+          [
+            "gpio_read",
+            "gpio_read"
+          ],
+          [
+            "gpio_write",
+            "gpio_write"
+          ],
+          [
+            "tx_pwm",
+            "tx_pwm"
+          ],
+          [
+            "callback",
+            "callback"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "linux_lgpio_method": {
+    "message0": "lgpio オブジェクト %1 メソッド %2 引数 %3 キーワード引数 %4",
+    "tooltip": "許可された lgpio オブジェクトのメソッドを呼び出して結果を返します。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "cancel",
+            "cancel"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "linux_lgpio_do_method": {
+    "message0": "lgpio オブジェクト %1 のメソッド %2 を実行 引数 %3 キーワード引数 %4",
+    "tooltip": "許可された lgpio オブジェクトのメソッドを文として実行します。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "cancel",
+            "cancel"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "linux_lgpio_attribute": {
+    "message0": "lgpio オブジェクト %1 属性 %2",
+    "tooltip": "許可された lgpio オブジェクトまたはモジュールの属性を読み取ります。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "RISING_EDGE",
+            "RISING_EDGE"
+          ],
+          [
+            "FALLING_EDGE",
+            "FALLING_EDGE"
+          ],
+          [
+            "BOTH_EDGES",
+            "BOTH_EDGES"
+          ],
+          [
+            "SET_PULL_UP",
+            "SET_PULL_UP"
+          ],
+          [
+            "SET_PULL_DOWN",
+            "SET_PULL_DOWN"
+          ],
+          [
+            "SET_PULL_NONE",
+            "SET_PULL_NONE"
+          ]
+        ]
+      }
+    ]
+  }
+}

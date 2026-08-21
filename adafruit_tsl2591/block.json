@@ -1,0 +1,103 @@
+[
+  {
+    "type": "python_adafruit_tsl2591_call",
+    "message0": "CircuitPython TSL2591 call or create %1 arguments %2 keyword arguments %3",
+    "args0": [
+      {
+        "type": "field_dropdown",
+        "name": "TARGET",
+        "options": [
+          [
+            "TSL2591",
+            "TSL2591"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#00897B",
+    "tooltip": "Call an allowlisted CircuitPython TSL2591 function or constructor and return its result.",
+    "icon": "settings",
+    "output": "Any"
+  },
+  {
+    "type": "python_adafruit_tsl2591_do",
+    "message0": "run CircuitPython TSL2591 %1 arguments %2 keyword arguments %3",
+    "args0": [
+      {
+        "type": "field_dropdown",
+        "name": "TARGET",
+        "options": [
+          [
+            "TSL2591",
+            "TSL2591"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#00897B",
+    "tooltip": "Run an allowlisted CircuitPython TSL2591 function or constructor as a statement.",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "python_adafruit_tsl2591_attribute",
+    "message0": "CircuitPython TSL2591 object %1 attribute %2",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "OBJECT"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "ATTRIBUTE",
+        "options": [
+          [
+            "lux",
+            "lux"
+          ],
+          [
+            "infrared",
+            "infrared"
+          ],
+          [
+            "visible",
+            "visible"
+          ],
+          [
+            "full_spectrum",
+            "full_spectrum"
+          ],
+          [
+            "gain",
+            "gain"
+          ],
+          [
+            "integration_time",
+            "integration_time"
+          ]
+        ]
+      }
+    ],
+    "colour": "#00897B",
+    "tooltip": "Read an allowlisted CircuitPython TSL2591 object or module attribute.",
+    "icon": "settings",
+    "output": "Any"
+  }
+]

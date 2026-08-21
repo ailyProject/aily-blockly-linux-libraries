@@ -1,0 +1,23 @@
+{
+  "kind": "category",
+  "name": "LiteRT / TFLite Runtime",
+  "colour": "#1976D2",
+  "contents": [
+    {
+      "kind": "block",
+      "type": "python_tflite_runtime_call"
+    },
+    {
+      "kind": "block",
+      "type": "python_tflite_runtime_do"
+    },
+    {
+      "kind": "block",
+      "type": "python_tflite_runtime_method"
+    },
+    {
+      "kind": "block",
+      "type": "python_tflite_runtime_do_method"
+    }
+  ]
+}

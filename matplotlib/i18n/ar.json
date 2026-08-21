@@ -1,0 +1,266 @@
+{
+  "toolbox_name": "Matplotlib pyplot",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_matplotlib_call": {
+    "message0": "Matplotlib pyplot استدعاء أو إنشاء %1 الوسائط %2 وسائط الكلمات المفتاحية %3",
+    "tooltip": "استدعاء دالة أو مُنشئ مسموح من Matplotlib pyplot وإرجاع النتيجة.",
+    "args0": [
+      {
+        "options": [
+          [
+            "figure",
+            "figure"
+          ],
+          [
+            "subplots",
+            "subplots"
+          ],
+          [
+            "plot",
+            "plot"
+          ],
+          [
+            "scatter",
+            "scatter"
+          ],
+          [
+            "bar",
+            "bar"
+          ],
+          [
+            "imshow",
+            "imshow"
+          ],
+          [
+            "hist",
+            "hist"
+          ],
+          [
+            "title",
+            "title"
+          ],
+          [
+            "xlabel",
+            "xlabel"
+          ],
+          [
+            "ylabel",
+            "ylabel"
+          ],
+          [
+            "legend",
+            "legend"
+          ],
+          [
+            "savefig",
+            "savefig"
+          ],
+          [
+            "show",
+            "show"
+          ],
+          [
+            "close",
+            "close"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_matplotlib_do": {
+    "message0": "تشغيل Matplotlib pyplot %1 الوسائط %2 وسائط الكلمات المفتاحية %3",
+    "tooltip": "تشغيل دالة أو مُنشئ مسموح من Matplotlib pyplot كتعليمة.",
+    "args0": [
+      {
+        "options": [
+          [
+            "figure",
+            "figure"
+          ],
+          [
+            "subplots",
+            "subplots"
+          ],
+          [
+            "plot",
+            "plot"
+          ],
+          [
+            "scatter",
+            "scatter"
+          ],
+          [
+            "bar",
+            "bar"
+          ],
+          [
+            "imshow",
+            "imshow"
+          ],
+          [
+            "hist",
+            "hist"
+          ],
+          [
+            "title",
+            "title"
+          ],
+          [
+            "xlabel",
+            "xlabel"
+          ],
+          [
+            "ylabel",
+            "ylabel"
+          ],
+          [
+            "legend",
+            "legend"
+          ],
+          [
+            "savefig",
+            "savefig"
+          ],
+          [
+            "show",
+            "show"
+          ],
+          [
+            "close",
+            "close"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_matplotlib_method": {
+    "message0": "كائن Matplotlib pyplot %1 الطريقة %2 الوسائط %3 وسائط الكلمات المفتاحية %4",
+    "tooltip": "استدعاء طريقة مسموحة لكائن Matplotlib pyplot وإرجاع النتيجة.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "plot",
+            "plot"
+          ],
+          [
+            "scatter",
+            "scatter"
+          ],
+          [
+            "bar",
+            "bar"
+          ],
+          [
+            "imshow",
+            "imshow"
+          ],
+          [
+            "set_title",
+            "set_title"
+          ],
+          [
+            "set_xlabel",
+            "set_xlabel"
+          ],
+          [
+            "set_ylabel",
+            "set_ylabel"
+          ],
+          [
+            "legend",
+            "legend"
+          ],
+          [
+            "grid",
+            "grid"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_matplotlib_do_method": {
+    "message0": "تشغيل طريقة Matplotlib pyplot للكائن %1 %2 الوسائط %3 وسائط الكلمات المفتاحية %4",
+    "tooltip": "تشغيل طريقة مسموحة لكائن Matplotlib pyplot كتعليمة.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "plot",
+            "plot"
+          ],
+          [
+            "scatter",
+            "scatter"
+          ],
+          [
+            "bar",
+            "bar"
+          ],
+          [
+            "imshow",
+            "imshow"
+          ],
+          [
+            "set_title",
+            "set_title"
+          ],
+          [
+            "set_xlabel",
+            "set_xlabel"
+          ],
+          [
+            "set_ylabel",
+            "set_ylabel"
+          ],
+          [
+            "legend",
+            "legend"
+          ],
+          [
+            "grid",
+            "grid"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_matplotlib_attribute": {
+    "message0": "كائن Matplotlib pyplot %1 السمة %2",
+    "tooltip": "قراءة سمة مسموحة لكائن أو وحدة Matplotlib pyplot.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "figure",
+            "figure"
+          ],
+          [
+            "axes",
+            "axes"
+          ],
+          [
+            "lines",
+            "lines"
+          ],
+          [
+            "images",
+            "images"
+          ]
+        ]
+      }
+    ]
+  }
+}

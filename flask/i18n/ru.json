@@ -1,0 +1,194 @@
+{
+  "toolbox_name": "Flask",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_flask_call": {
+    "message0": "Flask вызвать или создать %1 аргументы %2 именованные аргументы %3",
+    "tooltip": "Вызывает разрешённую функцию или конструктор Flask и возвращает результат.",
+    "args0": [
+      {
+        "options": [
+          [
+            "Flask",
+            "Flask"
+          ],
+          [
+            "Blueprint",
+            "Blueprint"
+          ],
+          [
+            "jsonify",
+            "jsonify"
+          ],
+          [
+            "redirect",
+            "redirect"
+          ],
+          [
+            "render_template",
+            "render_template"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_flask_do": {
+    "message0": "выполнить Flask %1 аргументы %2 именованные аргументы %3",
+    "tooltip": "Выполняет разрешённую функцию или конструктор Flask как инструкцию.",
+    "args0": [
+      {
+        "options": [
+          [
+            "Flask",
+            "Flask"
+          ],
+          [
+            "Blueprint",
+            "Blueprint"
+          ],
+          [
+            "jsonify",
+            "jsonify"
+          ],
+          [
+            "redirect",
+            "redirect"
+          ],
+          [
+            "render_template",
+            "render_template"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_flask_method": {
+    "message0": "объект Flask %1 метод %2 аргументы %3 именованные аргументы %4",
+    "tooltip": "Вызывает разрешённый метод объекта Flask и возвращает результат.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "route",
+            "route"
+          ],
+          [
+            "get",
+            "get"
+          ],
+          [
+            "post",
+            "post"
+          ],
+          [
+            "run",
+            "run"
+          ],
+          [
+            "register_blueprint",
+            "register_blueprint"
+          ],
+          [
+            "add_url_rule",
+            "add_url_rule"
+          ],
+          [
+            "make_response",
+            "make_response"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_flask_do_method": {
+    "message0": "выполнить метод Flask объекта %1 %2 аргументы %3 именованные аргументы %4",
+    "tooltip": "Выполняет разрешённый метод объекта Flask как инструкцию.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "route",
+            "route"
+          ],
+          [
+            "get",
+            "get"
+          ],
+          [
+            "post",
+            "post"
+          ],
+          [
+            "run",
+            "run"
+          ],
+          [
+            "register_blueprint",
+            "register_blueprint"
+          ],
+          [
+            "add_url_rule",
+            "add_url_rule"
+          ],
+          [
+            "make_response",
+            "make_response"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_flask_attribute": {
+    "message0": "объект Flask %1 атрибут %2",
+    "tooltip": "Читает разрешённый атрибут объекта или модуля Flask.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "config",
+            "config"
+          ],
+          [
+            "url_map",
+            "url_map"
+          ],
+          [
+            "name",
+            "name"
+          ],
+          [
+            "debug",
+            "debug"
+          ],
+          [
+            "testing",
+            "testing"
+          ],
+          [
+            "request.method",
+            "request.method"
+          ],
+          [
+            "request.args",
+            "request.args"
+          ],
+          [
+            "request.json",
+            "request.json"
+          ]
+        ]
+      }
+    ]
+  }
+}

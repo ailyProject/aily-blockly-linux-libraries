@@ -1,0 +1,94 @@
+{
+  "toolbox_name": "CircuitPython RGB Display",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_adafruit_rgb_display_call": {
+    "message0": "CircuitPython RGB Display appeler ou créer %1 arguments %2 arguments nommés %3",
+    "tooltip": "Appeler une fonction ou un constructeur CircuitPython RGB Display autorisé et renvoyer le résultat.",
+    "args0": [
+      {
+        "options": [
+          [
+            "ST7789",
+            "ST7789"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_rgb_display_do": {
+    "message0": "exécuter CircuitPython RGB Display %1 arguments %2 arguments nommés %3",
+    "tooltip": "Exécuter une fonction ou un constructeur CircuitPython RGB Display autorisé comme instruction.",
+    "args0": [
+      {
+        "options": [
+          [
+            "ST7789",
+            "ST7789"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_rgb_display_method": {
+    "message0": "objet CircuitPython RGB Display %1 méthode %2 arguments %3 arguments nommés %4",
+    "tooltip": "Appeler une méthode autorisée d’un objet CircuitPython RGB Display et renvoyer le résultat.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "image",
+            "image"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_rgb_display_do_method": {
+    "message0": "exécuter la méthode CircuitPython RGB Display de l’objet %1 %2 arguments %3 arguments nommés %4",
+    "tooltip": "Exécuter une méthode autorisée d’un objet CircuitPython RGB Display comme instruction.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "image",
+            "image"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_rgb_display_attribute": {
+    "message0": "objet CircuitPython RGB Display %1 attribut %2",
+    "tooltip": "Lire un attribut autorisé d’un objet ou module CircuitPython RGB Display.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "width",
+            "width"
+          ],
+          [
+            "height",
+            "height"
+          ],
+          [
+            "rotation",
+            "rotation"
+          ]
+        ]
+      }
+    ]
+  }
+}

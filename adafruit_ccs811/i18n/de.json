@@ -1,0 +1,106 @@
+{
+  "toolbox_name": "CircuitPython CCS811",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_adafruit_ccs811_call": {
+    "message0": "CircuitPython CCS811 aufrufen oder erzeugen %1 Argumente %2 Schlüsselwortargumente %3",
+    "tooltip": "Eine freigegebene CircuitPython CCS811-Funktion oder einen Konstruktor aufrufen und das Ergebnis zurückgeben.",
+    "args0": [
+      {
+        "options": [
+          [
+            "CCS811",
+            "CCS811"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_ccs811_do": {
+    "message0": "CircuitPython CCS811 ausführen %1 Argumente %2 Schlüsselwortargumente %3",
+    "tooltip": "Eine freigegebene CircuitPython CCS811-Funktion oder einen Konstruktor als Anweisung ausführen.",
+    "args0": [
+      {
+        "options": [
+          [
+            "CCS811",
+            "CCS811"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_ccs811_method": {
+    "message0": "CircuitPython CCS811-Objekt %1 Methode %2 Argumente %3 Schlüsselwortargumente %4",
+    "tooltip": "Eine freigegebene Methode eines CircuitPython CCS811-Objekts aufrufen und das Ergebnis zurückgeben.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "reset",
+            "reset"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_ccs811_do_method": {
+    "message0": "CircuitPython CCS811-Objekt %1 Methode %2 ausführen Argumente %3 Schlüsselwortargumente %4",
+    "tooltip": "Eine freigegebene Methode eines CircuitPython CCS811-Objekts als Anweisung ausführen.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "reset",
+            "reset"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_ccs811_attribute": {
+    "message0": "CircuitPython CCS811-Objekt %1 Attribut %2",
+    "tooltip": "Ein freigegebenes Attribut eines CircuitPython CCS811-Objekts oder Moduls lesen.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "eco2",
+            "eco2"
+          ],
+          [
+            "tvoc",
+            "tvoc"
+          ],
+          [
+            "data_ready",
+            "data_ready"
+          ],
+          [
+            "baseline",
+            "baseline"
+          ],
+          [
+            "temperature",
+            "temperature"
+          ],
+          [
+            "drive_mode",
+            "drive_mode"
+          ]
+        ]
+      }
+    ]
+  }
+}

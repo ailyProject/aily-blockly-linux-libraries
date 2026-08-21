@@ -1,0 +1,194 @@
+{
+  "toolbox_name": "Flask",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_flask_call": {
+    "message0": "Flask 호출 또는 생성 %1 인수 %2 키워드 인수 %3",
+    "tooltip": "허용 목록의 Flask 함수 또는 생성자를 호출하고 결과를 반환합니다.",
+    "args0": [
+      {
+        "options": [
+          [
+            "Flask",
+            "Flask"
+          ],
+          [
+            "Blueprint",
+            "Blueprint"
+          ],
+          [
+            "jsonify",
+            "jsonify"
+          ],
+          [
+            "redirect",
+            "redirect"
+          ],
+          [
+            "render_template",
+            "render_template"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_flask_do": {
+    "message0": "Flask 실행 %1 인수 %2 키워드 인수 %3",
+    "tooltip": "허용 목록의 Flask 함수 또는 생성자를 문으로 실행합니다.",
+    "args0": [
+      {
+        "options": [
+          [
+            "Flask",
+            "Flask"
+          ],
+          [
+            "Blueprint",
+            "Blueprint"
+          ],
+          [
+            "jsonify",
+            "jsonify"
+          ],
+          [
+            "redirect",
+            "redirect"
+          ],
+          [
+            "render_template",
+            "render_template"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_flask_method": {
+    "message0": "Flask 객체 %1 메서드 %2 인수 %3 키워드 인수 %4",
+    "tooltip": "허용 목록의 Flask 객체 메서드를 호출하고 결과를 반환합니다.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "route",
+            "route"
+          ],
+          [
+            "get",
+            "get"
+          ],
+          [
+            "post",
+            "post"
+          ],
+          [
+            "run",
+            "run"
+          ],
+          [
+            "register_blueprint",
+            "register_blueprint"
+          ],
+          [
+            "add_url_rule",
+            "add_url_rule"
+          ],
+          [
+            "make_response",
+            "make_response"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_flask_do_method": {
+    "message0": "Flask 객체 %1 메서드 실행 %2 인수 %3 키워드 인수 %4",
+    "tooltip": "허용 목록의 Flask 객체 메서드를 문으로 실행합니다.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "route",
+            "route"
+          ],
+          [
+            "get",
+            "get"
+          ],
+          [
+            "post",
+            "post"
+          ],
+          [
+            "run",
+            "run"
+          ],
+          [
+            "register_blueprint",
+            "register_blueprint"
+          ],
+          [
+            "add_url_rule",
+            "add_url_rule"
+          ],
+          [
+            "make_response",
+            "make_response"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_flask_attribute": {
+    "message0": "Flask 객체 %1 속성 %2",
+    "tooltip": "허용 목록의 Flask 객체 또는 모듈 속성을 읽습니다.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "config",
+            "config"
+          ],
+          [
+            "url_map",
+            "url_map"
+          ],
+          [
+            "name",
+            "name"
+          ],
+          [
+            "debug",
+            "debug"
+          ],
+          [
+            "testing",
+            "testing"
+          ],
+          [
+            "request.method",
+            "request.method"
+          ],
+          [
+            "request.args",
+            "request.args"
+          ],
+          [
+            "request.json",
+            "request.json"
+          ]
+        ]
+      }
+    ]
+  }
+}

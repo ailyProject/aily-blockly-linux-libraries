@@ -1,0 +1,27 @@
+{
+  "kind": "category",
+  "name": "python-can",
+  "colour": "#00897B",
+  "contents": [
+    {
+      "kind": "block",
+      "type": "python_python_can_call"
+    },
+    {
+      "kind": "block",
+      "type": "python_python_can_do"
+    },
+    {
+      "kind": "block",
+      "type": "python_python_can_method"
+    },
+    {
+      "kind": "block",
+      "type": "python_python_can_do_method"
+    },
+    {
+      "kind": "block",
+      "type": "python_python_can_attribute"
+    }
+  ]
+}

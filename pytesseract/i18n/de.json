@@ -1,0 +1,92 @@
+{
+  "toolbox_name": "pytesseract",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_pytesseract_call": {
+    "message0": "pytesseract aufrufen oder erzeugen %1 Argumente %2 Schlüsselwortargumente %3",
+    "tooltip": "Eine freigegebene pytesseract-Funktion oder einen Konstruktor aufrufen und das Ergebnis zurückgeben.",
+    "args0": [
+      {
+        "options": [
+          [
+            "image_to_string",
+            "image_to_string"
+          ],
+          [
+            "image_to_data",
+            "image_to_data"
+          ],
+          [
+            "image_to_boxes",
+            "image_to_boxes"
+          ],
+          [
+            "image_to_osd",
+            "image_to_osd"
+          ],
+          [
+            "get_languages",
+            "get_languages"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_pytesseract_do": {
+    "message0": "pytesseract ausführen %1 Argumente %2 Schlüsselwortargumente %3",
+    "tooltip": "Eine freigegebene pytesseract-Funktion oder einen Konstruktor als Anweisung ausführen.",
+    "args0": [
+      {
+        "options": [
+          [
+            "image_to_string",
+            "image_to_string"
+          ],
+          [
+            "image_to_data",
+            "image_to_data"
+          ],
+          [
+            "image_to_boxes",
+            "image_to_boxes"
+          ],
+          [
+            "image_to_osd",
+            "image_to_osd"
+          ],
+          [
+            "get_languages",
+            "get_languages"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_pytesseract_attribute": {
+    "message0": "pytesseract-Objekt %1 Attribut %2",
+    "tooltip": "Ein freigegebenes Attribut eines pytesseract-Objekts oder Moduls lesen.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "Output.DICT",
+            "Output.DICT"
+          ],
+          [
+            "Output.STRING",
+            "Output.STRING"
+          ],
+          [
+            "Output.DATAFRAME",
+            "Output.DATAFRAME"
+          ]
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "toolbox_name": "RPLCD",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_rplcd_call": {
+    "message0": "RPLCD استدعاء أو إنشاء %1 الوسائط %2 وسائط الكلمات المفتاحية %3",
+    "tooltip": "استدعاء دالة أو مُنشئ مسموح من RPLCD وإرجاع النتيجة.",
+    "args0": [
+      {
+        "options": [
+          [
+            "CharLCD",
+            "CharLCD"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_rplcd_do": {
+    "message0": "تشغيل RPLCD %1 الوسائط %2 وسائط الكلمات المفتاحية %3",
+    "tooltip": "تشغيل دالة أو مُنشئ مسموح من RPLCD كتعليمة.",
+    "args0": [
+      {
+        "options": [
+          [
+            "CharLCD",
+            "CharLCD"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_rplcd_method": {
+    "message0": "كائن RPLCD %1 الطريقة %2 الوسائط %3 وسائط الكلمات المفتاحية %4",
+    "tooltip": "استدعاء طريقة مسموحة لكائن RPLCD وإرجاع النتيجة.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "write_string",
+            "write_string"
+          ],
+          [
+            "clear",
+            "clear"
+          ],
+          [
+            "create_char",
+            "create_char"
+          ],
+          [
+            "home",
+            "home"
+          ],
+          [
+            "close",
+            "close"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_rplcd_do_method": {
+    "message0": "تشغيل طريقة RPLCD للكائن %1 %2 الوسائط %3 وسائط الكلمات المفتاحية %4",
+    "tooltip": "تشغيل طريقة مسموحة لكائن RPLCD كتعليمة.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "write_string",
+            "write_string"
+          ],
+          [
+            "clear",
+            "clear"
+          ],
+          [
+            "create_char",
+            "create_char"
+          ],
+          [
+            "home",
+            "home"
+          ],
+          [
+            "close",
+            "close"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_rplcd_attribute": {
+    "message0": "كائن RPLCD %1 السمة %2",
+    "tooltip": "قراءة سمة مسموحة لكائن أو وحدة RPLCD.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "cursor_pos",
+            "cursor_pos"
+          ],
+          [
+            "backlight_enabled",
+            "backlight_enabled"
+          ],
+          [
+            "cursor_mode",
+            "cursor_mode"
+          ],
+          [
+            "display_enabled",
+            "display_enabled"
+          ]
+        ]
+      }
+    ]
+  }
+}

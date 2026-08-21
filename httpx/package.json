@@ -1,0 +1,47 @@
+{
+  "name": "@aily-project/lib-httpx",
+  "nickname": "HTTPX",
+  "nickname_zh_cn": "HTTPX",
+  "nickname_en": "HTTPX",
+  "nickname_zh_hk": "HTTPX",
+  "nickname_ja": "HTTPX",
+  "nickname_ko": "HTTPX",
+  "nickname_de": "HTTPX",
+  "nickname_fr": "HTTPX",
+  "nickname_es": "HTTPX",
+  "nickname_pt": "HTTPX",
+  "nickname_ru": "HTTPX",
+  "nickname_ar": "HTTPX",
+  "version": "0.0.1",
+  "description": "面向树莓派与 Linux 开发板的 HTTPX 常用 Python API 白名单积木。",
+  "description_zh_cn": "面向树莓派与 Linux 开发板的 HTTPX 常用 Python API 白名单积木。",
+  "description_en": "Allowlisted HTTPX Python API blocks for Raspberry Pi and Linux single-board computers.",
+  "spec": true,
+  "compatibility": {
+    "type": [
+      "canaan:k230:cybercam",
+      "broadcom:bcm2712:raspberrypi_5",
+      "allwinner:t527:walnutpi_2b"
+    ],
+    "voltage": [
+      3.3
+    ]
+  },
+  "keywords": [
+    "aily",
+    "blockly",
+    "python",
+    "linux",
+    "raspberry-pi",
+    "httpx",
+    "httpx"
+  ],
+  "tags": [
+    "communication"
+  ],
+  "author": "ailyProject",
+  "license": "MIT",
+  "homepage": "https://www.python-httpx.org/",
+  "dependencies": {},
+  "devDependencies": {}
+}

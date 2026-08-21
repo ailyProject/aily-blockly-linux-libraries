@@ -1,0 +1,27 @@
+{
+  "kind": "category",
+  "name": "CircuitPython MPU6050",
+  "colour": "#00897B",
+  "contents": [
+    {
+      "kind": "block",
+      "type": "python_adafruit_mpu6050_call"
+    },
+    {
+      "kind": "block",
+      "type": "python_adafruit_mpu6050_do"
+    },
+    {
+      "kind": "block",
+      "type": "python_adafruit_mpu6050_method"
+    },
+    {
+      "kind": "block",
+      "type": "python_adafruit_mpu6050_do_method"
+    },
+    {
+      "kind": "block",
+      "type": "python_adafruit_mpu6050_attribute"
+    }
+  ]
+}

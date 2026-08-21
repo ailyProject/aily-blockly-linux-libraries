@@ -1,0 +1,142 @@
+{
+  "toolbox_name": "CircuitPython PN532",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_adafruit_pn532_call": {
+    "message0": "CircuitPython PN532 呼叫或建立 %1 參數 %2 關鍵字參數 %3",
+    "tooltip": "呼叫白名單中的 CircuitPython PN532 函式或建構器並傳回結果。",
+    "args0": [
+      {
+        "options": [
+          [
+            "PN532_I2C",
+            "PN532_I2C"
+          ],
+          [
+            "PN532_SPI",
+            "PN532_SPI"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_pn532_do": {
+    "message0": "執行 CircuitPython PN532 %1 參數 %2 關鍵字參數 %3",
+    "tooltip": "以敘述方式執行白名單中的 CircuitPython PN532 函式或建構器。",
+    "args0": [
+      {
+        "options": [
+          [
+            "PN532_I2C",
+            "PN532_I2C"
+          ],
+          [
+            "PN532_SPI",
+            "PN532_SPI"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_pn532_method": {
+    "message0": "CircuitPython PN532 物件 %1 呼叫方法 %2 參數 %3 關鍵字參數 %4",
+    "tooltip": "呼叫白名單中的 CircuitPython PN532 物件方法並傳回結果。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "SAM_configuration",
+            "SAM_configuration"
+          ],
+          [
+            "read_passive_target",
+            "read_passive_target"
+          ],
+          [
+            "listen_for_passive_target",
+            "listen_for_passive_target"
+          ],
+          [
+            "call_function",
+            "call_function"
+          ],
+          [
+            "mifare_classic_read_block",
+            "mifare_classic_read_block"
+          ],
+          [
+            "mifare_classic_write_block",
+            "mifare_classic_write_block"
+          ],
+          [
+            "ntag2xx_read_block",
+            "ntag2xx_read_block"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_pn532_do_method": {
+    "message0": "執行 CircuitPython PN532 物件 %1 的方法 %2 參數 %3 關鍵字參數 %4",
+    "tooltip": "以敘述方式執行白名單中的 CircuitPython PN532 物件方法。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "SAM_configuration",
+            "SAM_configuration"
+          ],
+          [
+            "read_passive_target",
+            "read_passive_target"
+          ],
+          [
+            "listen_for_passive_target",
+            "listen_for_passive_target"
+          ],
+          [
+            "call_function",
+            "call_function"
+          ],
+          [
+            "mifare_classic_read_block",
+            "mifare_classic_read_block"
+          ],
+          [
+            "mifare_classic_write_block",
+            "mifare_classic_write_block"
+          ],
+          [
+            "ntag2xx_read_block",
+            "ntag2xx_read_block"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_pn532_attribute": {
+    "message0": "CircuitPython PN532 物件 %1 屬性 %2",
+    "tooltip": "讀取白名單中的 CircuitPython PN532 物件或模組屬性。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "firmware_version",
+            "firmware_version"
+          ]
+        ]
+      }
+    ]
+  }
+}

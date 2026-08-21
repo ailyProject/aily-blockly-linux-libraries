@@ -1,0 +1,100 @@
+{
+  "toolbox_name": "CircuitPython BNO055",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_adafruit_bno055_call": {
+    "message0": "CircuitPython BNO055 呼び出しまたは作成 %1 引数 %2 キーワード引数 %3",
+    "tooltip": "許可された CircuitPython BNO055 の関数またはコンストラクターを呼び出して結果を返します。",
+    "args0": [
+      {
+        "options": [
+          [
+            "BNO055_I2C",
+            "BNO055_I2C"
+          ],
+          [
+            "BNO055_UART",
+            "BNO055_UART"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_bno055_do": {
+    "message0": "CircuitPython BNO055 を実行 %1 引数 %2 キーワード引数 %3",
+    "tooltip": "許可された CircuitPython BNO055 の関数またはコンストラクターを文として実行します。",
+    "args0": [
+      {
+        "options": [
+          [
+            "BNO055_I2C",
+            "BNO055_I2C"
+          ],
+          [
+            "BNO055_UART",
+            "BNO055_UART"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_bno055_attribute": {
+    "message0": "CircuitPython BNO055 オブジェクト %1 属性 %2",
+    "tooltip": "許可された CircuitPython BNO055 オブジェクトまたはモジュールの属性を読み取ります。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "sensor_mode",
+            "sensor_mode"
+          ],
+          [
+            "temperature",
+            "temperature"
+          ],
+          [
+            "acceleration",
+            "acceleration"
+          ],
+          [
+            "magnetic",
+            "magnetic"
+          ],
+          [
+            "gyro",
+            "gyro"
+          ],
+          [
+            "euler",
+            "euler"
+          ],
+          [
+            "quaternion",
+            "quaternion"
+          ],
+          [
+            "linear_acceleration",
+            "linear_acceleration"
+          ],
+          [
+            "gravity",
+            "gravity"
+          ],
+          [
+            "calibration_status",
+            "calibration_status"
+          ],
+          [
+            "calibrated",
+            "calibrated"
+          ]
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "toolbox_name": "CircuitPython AHTx0",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_adafruit_ahtx0_call": {
+    "message0": "CircuitPython AHTx0 вызвать или создать %1 аргументы %2 именованные аргументы %3",
+    "tooltip": "Вызывает разрешённую функцию или конструктор CircuitPython AHTx0 и возвращает результат.",
+    "args0": [
+      {
+        "options": [
+          [
+            "AHTx0",
+            "AHTx0"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_ahtx0_do": {
+    "message0": "выполнить CircuitPython AHTx0 %1 аргументы %2 именованные аргументы %3",
+    "tooltip": "Выполняет разрешённую функцию или конструктор CircuitPython AHTx0 как инструкцию.",
+    "args0": [
+      {
+        "options": [
+          [
+            "AHTx0",
+            "AHTx0"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_ahtx0_attribute": {
+    "message0": "объект CircuitPython AHTx0 %1 атрибут %2",
+    "tooltip": "Читает разрешённый атрибут объекта или модуля CircuitPython AHTx0.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "temperature",
+            "temperature"
+          ],
+          [
+            "relative_humidity",
+            "relative_humidity"
+          ]
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "toolbox_name": "CircuitPython INA219",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_adafruit_ina219_call": {
+    "message0": "CircuitPython INA219 chamar ou criar %1 argumentos %2 argumentos nomeados %3",
+    "tooltip": "Chama uma função ou construtor permitido de CircuitPython INA219 e devolve o resultado.",
+    "args0": [
+      {
+        "options": [
+          [
+            "INA219",
+            "INA219"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_ina219_do": {
+    "message0": "executar CircuitPython INA219 %1 argumentos %2 argumentos nomeados %3",
+    "tooltip": "Executa uma função ou construtor permitido de CircuitPython INA219 como instrução.",
+    "args0": [
+      {
+        "options": [
+          [
+            "INA219",
+            "INA219"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_ina219_method": {
+    "message0": "objeto CircuitPython INA219 %1 método %2 argumentos %3 argumentos nomeados %4",
+    "tooltip": "Chama um método permitido de um objeto CircuitPython INA219 e devolve o resultado.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "reset",
+            "reset"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_ina219_do_method": {
+    "message0": "executar método de CircuitPython INA219 objeto %1 %2 argumentos %3 argumentos nomeados %4",
+    "tooltip": "Executa um método permitido de um objeto CircuitPython INA219 como instrução.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "reset",
+            "reset"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_ina219_attribute": {
+    "message0": "objeto CircuitPython INA219 %1 atributo %2",
+    "tooltip": "Lê um atributo permitido de um objeto ou módulo CircuitPython INA219.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "bus_voltage",
+            "bus_voltage"
+          ],
+          [
+            "current",
+            "current"
+          ],
+          [
+            "power",
+            "power"
+          ],
+          [
+            "shunt_voltage",
+            "shunt_voltage"
+          ],
+          [
+            "conversion_ready",
+            "conversion_ready"
+          ],
+          [
+            "overflow",
+            "overflow"
+          ],
+          [
+            "bus_adc_resolution",
+            "bus_adc_resolution"
+          ],
+          [
+            "shunt_adc_resolution",
+            "shunt_adc_resolution"
+          ],
+          [
+            "mode",
+            "mode"
+          ]
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "toolbox_name": "CircuitPython MCP3xxx",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_adafruit_mcp3xxx_call": {
+    "message0": "CircuitPython MCP3xxx 呼び出しまたは作成 %1 引数 %2 キーワード引数 %3",
+    "tooltip": "許可された CircuitPython MCP3xxx の関数またはコンストラクターを呼び出して結果を返します。",
+    "args0": [
+      {
+        "options": [
+          [
+            "MCP3008",
+            "MCP3008"
+          ],
+          [
+            "AnalogIn",
+            "AnalogIn"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_mcp3xxx_do": {
+    "message0": "CircuitPython MCP3xxx を実行 %1 引数 %2 キーワード引数 %3",
+    "tooltip": "許可された CircuitPython MCP3xxx の関数またはコンストラクターを文として実行します。",
+    "args0": [
+      {
+        "options": [
+          [
+            "MCP3008",
+            "MCP3008"
+          ],
+          [
+            "AnalogIn",
+            "AnalogIn"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_mcp3xxx_method": {
+    "message0": "CircuitPython MCP3xxx オブジェクト %1 メソッド %2 引数 %3 キーワード引数 %4",
+    "tooltip": "許可された CircuitPython MCP3xxx オブジェクトのメソッドを呼び出して結果を返します。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "read",
+            "read"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_mcp3xxx_do_method": {
+    "message0": "CircuitPython MCP3xxx オブジェクト %1 のメソッド %2 を実行 引数 %3 キーワード引数 %4",
+    "tooltip": "許可された CircuitPython MCP3xxx オブジェクトのメソッドを文として実行します。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "read",
+            "read"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_mcp3xxx_attribute": {
+    "message0": "CircuitPython MCP3xxx オブジェクト %1 属性 %2",
+    "tooltip": "許可された CircuitPython MCP3xxx オブジェクトまたはモジュールの属性を読み取ります。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "P0",
+            "P0"
+          ],
+          [
+            "P1",
+            "P1"
+          ],
+          [
+            "P2",
+            "P2"
+          ],
+          [
+            "P3",
+            "P3"
+          ],
+          [
+            "P4",
+            "P4"
+          ],
+          [
+            "P5",
+            "P5"
+          ],
+          [
+            "P6",
+            "P6"
+          ],
+          [
+            "P7",
+            "P7"
+          ],
+          [
+            "value",
+            "value"
+          ],
+          [
+            "voltage",
+            "voltage"
+          ],
+          [
+            "reference_voltage",
+            "reference_voltage"
+          ]
+        ]
+      }
+    ]
+  }
+}

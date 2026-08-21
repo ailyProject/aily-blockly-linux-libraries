@@ -1,0 +1,268 @@
+[
+  {
+    "type": "python_redis_call",
+    "message0": "redis-py call or create %1 arguments %2 keyword arguments %3",
+    "args0": [
+      {
+        "type": "field_dropdown",
+        "name": "TARGET",
+        "options": [
+          [
+            "Redis",
+            "Redis"
+          ],
+          [
+            "StrictRedis",
+            "StrictRedis"
+          ],
+          [
+            "from_url",
+            "from_url"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#0288D1",
+    "tooltip": "Call an allowlisted redis-py function or constructor and return its result.",
+    "icon": "settings",
+    "output": "Any"
+  },
+  {
+    "type": "python_redis_do",
+    "message0": "run redis-py %1 arguments %2 keyword arguments %3",
+    "args0": [
+      {
+        "type": "field_dropdown",
+        "name": "TARGET",
+        "options": [
+          [
+            "Redis",
+            "Redis"
+          ],
+          [
+            "StrictRedis",
+            "StrictRedis"
+          ],
+          [
+            "from_url",
+            "from_url"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#0288D1",
+    "tooltip": "Run an allowlisted redis-py function or constructor as a statement.",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "python_redis_method",
+    "message0": "redis-py object %1 call method %2 arguments %3 keyword arguments %4",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "OBJECT"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "METHOD",
+        "options": [
+          [
+            "get",
+            "get"
+          ],
+          [
+            "set",
+            "set"
+          ],
+          [
+            "delete",
+            "delete"
+          ],
+          [
+            "incr",
+            "incr"
+          ],
+          [
+            "decr",
+            "decr"
+          ],
+          [
+            "publish",
+            "publish"
+          ],
+          [
+            "subscribe",
+            "subscribe"
+          ],
+          [
+            "hset",
+            "hset"
+          ],
+          [
+            "hget",
+            "hget"
+          ],
+          [
+            "lpush",
+            "lpush"
+          ],
+          [
+            "rpop",
+            "rpop"
+          ],
+          [
+            "scan_iter",
+            "scan_iter"
+          ],
+          [
+            "ping",
+            "ping"
+          ],
+          [
+            "close",
+            "close"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#0288D1",
+    "tooltip": "Call an allowlisted redis-py object method and return its result.",
+    "icon": "settings",
+    "output": "Any"
+  },
+  {
+    "type": "python_redis_do_method",
+    "message0": "run redis-py object %1 method %2 arguments %3 keyword arguments %4",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "OBJECT"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "METHOD",
+        "options": [
+          [
+            "get",
+            "get"
+          ],
+          [
+            "set",
+            "set"
+          ],
+          [
+            "delete",
+            "delete"
+          ],
+          [
+            "incr",
+            "incr"
+          ],
+          [
+            "decr",
+            "decr"
+          ],
+          [
+            "publish",
+            "publish"
+          ],
+          [
+            "subscribe",
+            "subscribe"
+          ],
+          [
+            "hset",
+            "hset"
+          ],
+          [
+            "hget",
+            "hget"
+          ],
+          [
+            "lpush",
+            "lpush"
+          ],
+          [
+            "rpop",
+            "rpop"
+          ],
+          [
+            "scan_iter",
+            "scan_iter"
+          ],
+          [
+            "ping",
+            "ping"
+          ],
+          [
+            "close",
+            "close"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#0288D1",
+    "tooltip": "Run an allowlisted redis-py object method as a statement.",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "python_redis_attribute",
+    "message0": "redis-py object %1 attribute %2",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "OBJECT"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "ATTRIBUTE",
+        "options": [
+          [
+            "connection_pool",
+            "connection_pool"
+          ]
+        ]
+      }
+    ],
+    "colour": "#0288D1",
+    "tooltip": "Read an allowlisted redis-py object or module attribute.",
+    "icon": "settings",
+    "output": "Any"
+  }
+]

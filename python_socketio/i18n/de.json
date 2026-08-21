@@ -1,0 +1,206 @@
+{
+  "toolbox_name": "python-socketio",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_python_socketio_call": {
+    "message0": "python-socketio aufrufen oder erzeugen %1 Argumente %2 Schlüsselwortargumente %3",
+    "tooltip": "Eine freigegebene python-socketio-Funktion oder einen Konstruktor aufrufen und das Ergebnis zurückgeben.",
+    "args0": [
+      {
+        "options": [
+          [
+            "Client",
+            "Client"
+          ],
+          [
+            "AsyncClient",
+            "AsyncClient"
+          ],
+          [
+            "Server",
+            "Server"
+          ],
+          [
+            "AsyncServer",
+            "AsyncServer"
+          ],
+          [
+            "WSGIApp",
+            "WSGIApp"
+          ],
+          [
+            "ASGIApp",
+            "ASGIApp"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_python_socketio_do": {
+    "message0": "python-socketio ausführen %1 Argumente %2 Schlüsselwortargumente %3",
+    "tooltip": "Eine freigegebene python-socketio-Funktion oder einen Konstruktor als Anweisung ausführen.",
+    "args0": [
+      {
+        "options": [
+          [
+            "Client",
+            "Client"
+          ],
+          [
+            "AsyncClient",
+            "AsyncClient"
+          ],
+          [
+            "Server",
+            "Server"
+          ],
+          [
+            "AsyncServer",
+            "AsyncServer"
+          ],
+          [
+            "WSGIApp",
+            "WSGIApp"
+          ],
+          [
+            "ASGIApp",
+            "ASGIApp"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_python_socketio_method": {
+    "message0": "python-socketio-Objekt %1 Methode %2 Argumente %3 Schlüsselwortargumente %4",
+    "tooltip": "Eine freigegebene Methode eines python-socketio-Objekts aufrufen und das Ergebnis zurückgeben.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "connect",
+            "connect"
+          ],
+          [
+            "disconnect",
+            "disconnect"
+          ],
+          [
+            "emit",
+            "emit"
+          ],
+          [
+            "send",
+            "send"
+          ],
+          [
+            "call",
+            "call"
+          ],
+          [
+            "on",
+            "on"
+          ],
+          [
+            "event",
+            "event"
+          ],
+          [
+            "start_background_task",
+            "start_background_task"
+          ],
+          [
+            "sleep",
+            "sleep"
+          ],
+          [
+            "transport",
+            "transport"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_python_socketio_do_method": {
+    "message0": "python-socketio-Objekt %1 Methode %2 ausführen Argumente %3 Schlüsselwortargumente %4",
+    "tooltip": "Eine freigegebene Methode eines python-socketio-Objekts als Anweisung ausführen.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "connect",
+            "connect"
+          ],
+          [
+            "disconnect",
+            "disconnect"
+          ],
+          [
+            "emit",
+            "emit"
+          ],
+          [
+            "send",
+            "send"
+          ],
+          [
+            "call",
+            "call"
+          ],
+          [
+            "on",
+            "on"
+          ],
+          [
+            "event",
+            "event"
+          ],
+          [
+            "start_background_task",
+            "start_background_task"
+          ],
+          [
+            "sleep",
+            "sleep"
+          ],
+          [
+            "transport",
+            "transport"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_python_socketio_attribute": {
+    "message0": "python-socketio-Objekt %1 Attribut %2",
+    "tooltip": "Ein freigegebenes Attribut eines python-socketio-Objekts oder Moduls lesen.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "connected",
+            "connected"
+          ],
+          [
+            "sid",
+            "sid"
+          ],
+          [
+            "namespaces",
+            "namespaces"
+          ]
+        ]
+      }
+    ]
+  }
+}

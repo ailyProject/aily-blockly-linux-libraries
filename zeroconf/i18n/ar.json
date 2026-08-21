@@ -1,0 +1,178 @@
+{
+  "toolbox_name": "python-zeroconf",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_zeroconf_call": {
+    "message0": "python-zeroconf استدعاء أو إنشاء %1 الوسائط %2 وسائط الكلمات المفتاحية %3",
+    "tooltip": "استدعاء دالة أو مُنشئ مسموح من python-zeroconf وإرجاع النتيجة.",
+    "args0": [
+      {
+        "options": [
+          [
+            "Zeroconf",
+            "Zeroconf"
+          ],
+          [
+            "ServiceInfo",
+            "ServiceInfo"
+          ],
+          [
+            "ServiceBrowser",
+            "ServiceBrowser"
+          ],
+          [
+            "ServiceStateChange",
+            "ServiceStateChange"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_zeroconf_do": {
+    "message0": "تشغيل python-zeroconf %1 الوسائط %2 وسائط الكلمات المفتاحية %3",
+    "tooltip": "تشغيل دالة أو مُنشئ مسموح من python-zeroconf كتعليمة.",
+    "args0": [
+      {
+        "options": [
+          [
+            "Zeroconf",
+            "Zeroconf"
+          ],
+          [
+            "ServiceInfo",
+            "ServiceInfo"
+          ],
+          [
+            "ServiceBrowser",
+            "ServiceBrowser"
+          ],
+          [
+            "ServiceStateChange",
+            "ServiceStateChange"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_zeroconf_method": {
+    "message0": "كائن python-zeroconf %1 الطريقة %2 الوسائط %3 وسائط الكلمات المفتاحية %4",
+    "tooltip": "استدعاء طريقة مسموحة لكائن python-zeroconf وإرجاع النتيجة.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "register_service",
+            "register_service"
+          ],
+          [
+            "update_service",
+            "update_service"
+          ],
+          [
+            "unregister_service",
+            "unregister_service"
+          ],
+          [
+            "unregister_all_services",
+            "unregister_all_services"
+          ],
+          [
+            "close",
+            "close"
+          ],
+          [
+            "get_service_info",
+            "get_service_info"
+          ],
+          [
+            "add_service_listener",
+            "add_service_listener"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_zeroconf_do_method": {
+    "message0": "تشغيل طريقة python-zeroconf للكائن %1 %2 الوسائط %3 وسائط الكلمات المفتاحية %4",
+    "tooltip": "تشغيل طريقة مسموحة لكائن python-zeroconf كتعليمة.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "register_service",
+            "register_service"
+          ],
+          [
+            "update_service",
+            "update_service"
+          ],
+          [
+            "unregister_service",
+            "unregister_service"
+          ],
+          [
+            "unregister_all_services",
+            "unregister_all_services"
+          ],
+          [
+            "close",
+            "close"
+          ],
+          [
+            "get_service_info",
+            "get_service_info"
+          ],
+          [
+            "add_service_listener",
+            "add_service_listener"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_zeroconf_attribute": {
+    "message0": "كائن python-zeroconf %1 السمة %2",
+    "tooltip": "قراءة سمة مسموحة لكائن أو وحدة python-zeroconf.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "name",
+            "name"
+          ],
+          [
+            "type",
+            "type"
+          ],
+          [
+            "addresses",
+            "addresses"
+          ],
+          [
+            "port",
+            "port"
+          ],
+          [
+            "properties",
+            "properties"
+          ],
+          [
+            "server",
+            "server"
+          ]
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,142 @@
+{
+  "toolbox_name": "dbus-next",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_dbus_next_call": {
+    "message0": "dbus-next appeler ou créer %1 arguments %2 arguments nommés %3",
+    "tooltip": "Appeler une fonction ou un constructeur dbus-next autorisé et renvoyer le résultat.",
+    "args0": [
+      {
+        "options": [
+          [
+            "MessageBus",
+            "MessageBus"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_dbus_next_do": {
+    "message0": "exécuter dbus-next %1 arguments %2 arguments nommés %3",
+    "tooltip": "Exécuter une fonction ou un constructeur dbus-next autorisé comme instruction.",
+    "args0": [
+      {
+        "options": [
+          [
+            "MessageBus",
+            "MessageBus"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_dbus_next_method": {
+    "message0": "objet dbus-next %1 méthode %2 arguments %3 arguments nommés %4",
+    "tooltip": "Appeler une méthode autorisée d’un objet dbus-next et renvoyer le résultat.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "connect",
+            "connect"
+          ],
+          [
+            "disconnect",
+            "disconnect"
+          ],
+          [
+            "introspect",
+            "introspect"
+          ],
+          [
+            "get_proxy_object",
+            "get_proxy_object"
+          ],
+          [
+            "call",
+            "call"
+          ],
+          [
+            "export",
+            "export"
+          ],
+          [
+            "unexport",
+            "unexport"
+          ],
+          [
+            "request_name",
+            "request_name"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_dbus_next_do_method": {
+    "message0": "exécuter la méthode dbus-next de l’objet %1 %2 arguments %3 arguments nommés %4",
+    "tooltip": "Exécuter une méthode autorisée d’un objet dbus-next comme instruction.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "connect",
+            "connect"
+          ],
+          [
+            "disconnect",
+            "disconnect"
+          ],
+          [
+            "introspect",
+            "introspect"
+          ],
+          [
+            "get_proxy_object",
+            "get_proxy_object"
+          ],
+          [
+            "call",
+            "call"
+          ],
+          [
+            "export",
+            "export"
+          ],
+          [
+            "unexport",
+            "unexport"
+          ],
+          [
+            "request_name",
+            "request_name"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_dbus_next_attribute": {
+    "message0": "objet dbus-next %1 attribut %2",
+    "tooltip": "Lire un attribut autorisé d’un objet ou module dbus-next.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "unique_name",
+            "unique_name"
+          ]
+        ]
+      }
+    ]
+  }
+}

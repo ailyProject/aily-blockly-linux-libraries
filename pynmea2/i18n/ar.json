@@ -1,0 +1,146 @@
+{
+  "toolbox_name": "pynmea2",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_pynmea2_call": {
+    "message0": "pynmea2 استدعاء أو إنشاء %1 الوسائط %2 وسائط الكلمات المفتاحية %3",
+    "tooltip": "استدعاء دالة أو مُنشئ مسموح من pynmea2 وإرجاع النتيجة.",
+    "args0": [
+      {
+        "options": [
+          [
+            "parse",
+            "parse"
+          ],
+          [
+            "NMEASentence",
+            "NMEASentence"
+          ],
+          [
+            "LatLonFix",
+            "LatLonFix"
+          ],
+          [
+            "ProprietarySentence",
+            "ProprietarySentence"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_pynmea2_do": {
+    "message0": "تشغيل pynmea2 %1 الوسائط %2 وسائط الكلمات المفتاحية %3",
+    "tooltip": "تشغيل دالة أو مُنشئ مسموح من pynmea2 كتعليمة.",
+    "args0": [
+      {
+        "options": [
+          [
+            "parse",
+            "parse"
+          ],
+          [
+            "NMEASentence",
+            "NMEASentence"
+          ],
+          [
+            "LatLonFix",
+            "LatLonFix"
+          ],
+          [
+            "ProprietarySentence",
+            "ProprietarySentence"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_pynmea2_method": {
+    "message0": "كائن pynmea2 %1 الطريقة %2 الوسائط %3 وسائط الكلمات المفتاحية %4",
+    "tooltip": "استدعاء طريقة مسموحة لكائن pynmea2 وإرجاع النتيجة.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "render",
+            "render"
+          ],
+          [
+            "identifier",
+            "identifier"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_pynmea2_do_method": {
+    "message0": "تشغيل طريقة pynmea2 للكائن %1 %2 الوسائط %3 وسائط الكلمات المفتاحية %4",
+    "tooltip": "تشغيل طريقة مسموحة لكائن pynmea2 كتعليمة.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "render",
+            "render"
+          ],
+          [
+            "identifier",
+            "identifier"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_pynmea2_attribute": {
+    "message0": "كائن pynmea2 %1 السمة %2",
+    "tooltip": "قراءة سمة مسموحة لكائن أو وحدة pynmea2.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "latitude",
+            "latitude"
+          ],
+          [
+            "longitude",
+            "longitude"
+          ],
+          [
+            "altitude",
+            "altitude"
+          ],
+          [
+            "timestamp",
+            "timestamp"
+          ],
+          [
+            "num_sats",
+            "num_sats"
+          ],
+          [
+            "gps_qual",
+            "gps_qual"
+          ],
+          [
+            "spd_over_grnd",
+            "spd_over_grnd"
+          ],
+          [
+            "true_course",
+            "true_course"
+          ]
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,162 @@
+{
+  "toolbox_name": "lgpio",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "linux_lgpio_call": {
+    "message0": "lgpio appeler ou créer %1 arguments %2 arguments nommés %3",
+    "tooltip": "Appeler une fonction ou un constructeur lgpio autorisé et renvoyer le résultat.",
+    "args0": [
+      {
+        "options": [
+          [
+            "gpiochip_open",
+            "gpiochip_open"
+          ],
+          [
+            "gpiochip_close",
+            "gpiochip_close"
+          ],
+          [
+            "gpio_claim_input",
+            "gpio_claim_input"
+          ],
+          [
+            "gpio_claim_output",
+            "gpio_claim_output"
+          ],
+          [
+            "gpio_read",
+            "gpio_read"
+          ],
+          [
+            "gpio_write",
+            "gpio_write"
+          ],
+          [
+            "tx_pwm",
+            "tx_pwm"
+          ],
+          [
+            "callback",
+            "callback"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "linux_lgpio_do": {
+    "message0": "exécuter lgpio %1 arguments %2 arguments nommés %3",
+    "tooltip": "Exécuter une fonction ou un constructeur lgpio autorisé comme instruction.",
+    "args0": [
+      {
+        "options": [
+          [
+            "gpiochip_open",
+            "gpiochip_open"
+          ],
+          [
+            "gpiochip_close",
+            "gpiochip_close"
+          ],
+          [
+            "gpio_claim_input",
+            "gpio_claim_input"
+          ],
+          [
+            "gpio_claim_output",
+            "gpio_claim_output"
+          ],
+          [
+            "gpio_read",
+            "gpio_read"
+          ],
+          [
+            "gpio_write",
+            "gpio_write"
+          ],
+          [
+            "tx_pwm",
+            "tx_pwm"
+          ],
+          [
+            "callback",
+            "callback"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "linux_lgpio_method": {
+    "message0": "objet lgpio %1 méthode %2 arguments %3 arguments nommés %4",
+    "tooltip": "Appeler une méthode autorisée d’un objet lgpio et renvoyer le résultat.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "cancel",
+            "cancel"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "linux_lgpio_do_method": {
+    "message0": "exécuter la méthode lgpio de l’objet %1 %2 arguments %3 arguments nommés %4",
+    "tooltip": "Exécuter une méthode autorisée d’un objet lgpio comme instruction.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "cancel",
+            "cancel"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "linux_lgpio_attribute": {
+    "message0": "objet lgpio %1 attribut %2",
+    "tooltip": "Lire un attribut autorisé d’un objet ou module lgpio.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "RISING_EDGE",
+            "RISING_EDGE"
+          ],
+          [
+            "FALLING_EDGE",
+            "FALLING_EDGE"
+          ],
+          [
+            "BOTH_EDGES",
+            "BOTH_EDGES"
+          ],
+          [
+            "SET_PULL_UP",
+            "SET_PULL_UP"
+          ],
+          [
+            "SET_PULL_DOWN",
+            "SET_PULL_DOWN"
+          ],
+          [
+            "SET_PULL_NONE",
+            "SET_PULL_NONE"
+          ]
+        ]
+      }
+    ]
+  }
+}

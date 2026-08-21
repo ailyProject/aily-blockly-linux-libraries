@@ -1,0 +1,102 @@
+{
+  "toolbox_name": "Munkres",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_munkres_call": {
+    "message0": "Munkres вызвать или создать %1 аргументы %2 именованные аргументы %3",
+    "tooltip": "Вызывает разрешённую функцию или конструктор Munkres и возвращает результат.",
+    "args0": [
+      {
+        "options": [
+          [
+            "Munkres",
+            "Munkres"
+          ],
+          [
+            "make_cost_matrix",
+            "make_cost_matrix"
+          ],
+          [
+            "print_matrix",
+            "print_matrix"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_munkres_do": {
+    "message0": "выполнить Munkres %1 аргументы %2 именованные аргументы %3",
+    "tooltip": "Выполняет разрешённую функцию или конструктор Munkres как инструкцию.",
+    "args0": [
+      {
+        "options": [
+          [
+            "Munkres",
+            "Munkres"
+          ],
+          [
+            "make_cost_matrix",
+            "make_cost_matrix"
+          ],
+          [
+            "print_matrix",
+            "print_matrix"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_munkres_method": {
+    "message0": "объект Munkres %1 метод %2 аргументы %3 именованные аргументы %4",
+    "tooltip": "Вызывает разрешённый метод объекта Munkres и возвращает результат.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "compute",
+            "compute"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_munkres_do_method": {
+    "message0": "выполнить метод Munkres объекта %1 %2 аргументы %3 именованные аргументы %4",
+    "tooltip": "Выполняет разрешённый метод объекта Munkres как инструкцию.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "compute",
+            "compute"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_munkres_attribute": {
+    "message0": "объект Munkres %1 атрибут %2",
+    "tooltip": "Читает разрешённый атрибут объекта или модуля Munkres.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "DISALLOWED",
+            "DISALLOWED"
+          ]
+        ]
+      }
+    ]
+  }
+}

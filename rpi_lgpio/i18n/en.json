@@ -1,0 +1,198 @@
+{
+  "toolbox_name": "rpi-lgpio",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "rpi_lgpio_call": {
+    "message0": "rpi-lgpio call or create %1 arguments %2 keyword arguments %3",
+    "tooltip": "Call an allowlisted rpi-lgpio function or constructor and return its result.",
+    "args0": [
+      {
+        "options": [
+          [
+            "setmode",
+            "setmode"
+          ],
+          [
+            "setup",
+            "setup"
+          ],
+          [
+            "input",
+            "input"
+          ],
+          [
+            "output",
+            "output"
+          ],
+          [
+            "cleanup",
+            "cleanup"
+          ],
+          [
+            "PWM",
+            "PWM"
+          ],
+          [
+            "add_event_detect",
+            "add_event_detect"
+          ],
+          [
+            "wait_for_edge",
+            "wait_for_edge"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "rpi_lgpio_do": {
+    "message0": "run rpi-lgpio %1 arguments %2 keyword arguments %3",
+    "tooltip": "Run an allowlisted rpi-lgpio function or constructor as a statement.",
+    "args0": [
+      {
+        "options": [
+          [
+            "setmode",
+            "setmode"
+          ],
+          [
+            "setup",
+            "setup"
+          ],
+          [
+            "input",
+            "input"
+          ],
+          [
+            "output",
+            "output"
+          ],
+          [
+            "cleanup",
+            "cleanup"
+          ],
+          [
+            "PWM",
+            "PWM"
+          ],
+          [
+            "add_event_detect",
+            "add_event_detect"
+          ],
+          [
+            "wait_for_edge",
+            "wait_for_edge"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "rpi_lgpio_method": {
+    "message0": "rpi-lgpio object %1 call method %2 arguments %3 keyword arguments %4",
+    "tooltip": "Call an allowlisted rpi-lgpio object method and return its result.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "start",
+            "start"
+          ],
+          [
+            "stop",
+            "stop"
+          ],
+          [
+            "ChangeDutyCycle",
+            "ChangeDutyCycle"
+          ],
+          [
+            "ChangeFrequency",
+            "ChangeFrequency"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "rpi_lgpio_do_method": {
+    "message0": "run rpi-lgpio object %1 method %2 arguments %3 keyword arguments %4",
+    "tooltip": "Run an allowlisted rpi-lgpio object method as a statement.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "start",
+            "start"
+          ],
+          [
+            "stop",
+            "stop"
+          ],
+          [
+            "ChangeDutyCycle",
+            "ChangeDutyCycle"
+          ],
+          [
+            "ChangeFrequency",
+            "ChangeFrequency"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "rpi_lgpio_attribute": {
+    "message0": "rpi-lgpio object %1 attribute %2",
+    "tooltip": "Read an allowlisted rpi-lgpio object or module attribute.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "BCM",
+            "BCM"
+          ],
+          [
+            "BOARD",
+            "BOARD"
+          ],
+          [
+            "IN",
+            "IN"
+          ],
+          [
+            "OUT",
+            "OUT"
+          ],
+          [
+            "HIGH",
+            "HIGH"
+          ],
+          [
+            "LOW",
+            "LOW"
+          ],
+          [
+            "RISING",
+            "RISING"
+          ],
+          [
+            "FALLING",
+            "FALLING"
+          ],
+          [
+            "BOTH",
+            "BOTH"
+          ]
+        ]
+      }
+    ]
+  }
+}

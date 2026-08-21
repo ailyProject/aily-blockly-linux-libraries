@@ -1,0 +1,182 @@
+{
+  "toolbox_name": "PyModbus",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_pymodbus_call": {
+    "message0": "PyModbus استدعاء أو إنشاء %1 الوسائط %2 وسائط الكلمات المفتاحية %3",
+    "tooltip": "استدعاء دالة أو مُنشئ مسموح من PyModbus وإرجاع النتيجة.",
+    "args0": [
+      {
+        "options": [
+          [
+            "ModbusTcpClient",
+            "ModbusTcpClient"
+          ],
+          [
+            "ModbusSerialClient",
+            "ModbusSerialClient"
+          ],
+          [
+            "ModbusUdpClient",
+            "ModbusUdpClient"
+          ],
+          [
+            "AsyncModbusTcpClient",
+            "AsyncModbusTcpClient"
+          ],
+          [
+            "AsyncModbusSerialClient",
+            "AsyncModbusSerialClient"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_pymodbus_do": {
+    "message0": "تشغيل PyModbus %1 الوسائط %2 وسائط الكلمات المفتاحية %3",
+    "tooltip": "تشغيل دالة أو مُنشئ مسموح من PyModbus كتعليمة.",
+    "args0": [
+      {
+        "options": [
+          [
+            "ModbusTcpClient",
+            "ModbusTcpClient"
+          ],
+          [
+            "ModbusSerialClient",
+            "ModbusSerialClient"
+          ],
+          [
+            "ModbusUdpClient",
+            "ModbusUdpClient"
+          ],
+          [
+            "AsyncModbusTcpClient",
+            "AsyncModbusTcpClient"
+          ],
+          [
+            "AsyncModbusSerialClient",
+            "AsyncModbusSerialClient"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_pymodbus_method": {
+    "message0": "كائن PyModbus %1 الطريقة %2 الوسائط %3 وسائط الكلمات المفتاحية %4",
+    "tooltip": "استدعاء طريقة مسموحة لكائن PyModbus وإرجاع النتيجة.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "connect",
+            "connect"
+          ],
+          [
+            "close",
+            "close"
+          ],
+          [
+            "read_coils",
+            "read_coils"
+          ],
+          [
+            "read_discrete_inputs",
+            "read_discrete_inputs"
+          ],
+          [
+            "read_holding_registers",
+            "read_holding_registers"
+          ],
+          [
+            "read_input_registers",
+            "read_input_registers"
+          ],
+          [
+            "write_coil",
+            "write_coil"
+          ],
+          [
+            "write_register",
+            "write_register"
+          ],
+          [
+            "write_registers",
+            "write_registers"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_pymodbus_do_method": {
+    "message0": "تشغيل طريقة PyModbus للكائن %1 %2 الوسائط %3 وسائط الكلمات المفتاحية %4",
+    "tooltip": "تشغيل طريقة مسموحة لكائن PyModbus كتعليمة.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "connect",
+            "connect"
+          ],
+          [
+            "close",
+            "close"
+          ],
+          [
+            "read_coils",
+            "read_coils"
+          ],
+          [
+            "read_discrete_inputs",
+            "read_discrete_inputs"
+          ],
+          [
+            "read_holding_registers",
+            "read_holding_registers"
+          ],
+          [
+            "read_input_registers",
+            "read_input_registers"
+          ],
+          [
+            "write_coil",
+            "write_coil"
+          ],
+          [
+            "write_register",
+            "write_register"
+          ],
+          [
+            "write_registers",
+            "write_registers"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_pymodbus_attribute": {
+    "message0": "كائن PyModbus %1 السمة %2",
+    "tooltip": "قراءة سمة مسموحة لكائن أو وحدة PyModbus.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "connected",
+            "connected"
+          ]
+        ]
+      }
+    ]
+  }
+}

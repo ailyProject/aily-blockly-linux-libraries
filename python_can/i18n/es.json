@@ -1,0 +1,178 @@
+{
+  "toolbox_name": "python-can",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_python_can_call": {
+    "message0": "python-can llamar o crear %1 argumentos %2 argumentos con nombre %3",
+    "tooltip": "Llama a una función o constructor permitido de python-can y devuelve el resultado.",
+    "args0": [
+      {
+        "options": [
+          [
+            "Bus",
+            "Bus"
+          ],
+          [
+            "Message",
+            "Message"
+          ],
+          [
+            "Notifier",
+            "Notifier"
+          ],
+          [
+            "Listener",
+            "Listener"
+          ],
+          [
+            "BufferedReader",
+            "BufferedReader"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_python_can_do": {
+    "message0": "ejecutar python-can %1 argumentos %2 argumentos con nombre %3",
+    "tooltip": "Ejecuta una función o constructor permitido de python-can como sentencia.",
+    "args0": [
+      {
+        "options": [
+          [
+            "Bus",
+            "Bus"
+          ],
+          [
+            "Message",
+            "Message"
+          ],
+          [
+            "Notifier",
+            "Notifier"
+          ],
+          [
+            "Listener",
+            "Listener"
+          ],
+          [
+            "BufferedReader",
+            "BufferedReader"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_python_can_method": {
+    "message0": "objeto python-can %1 método %2 argumentos %3 argumentos con nombre %4",
+    "tooltip": "Llama a un método permitido de un objeto python-can y devuelve el resultado.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "send",
+            "send"
+          ],
+          [
+            "recv",
+            "recv"
+          ],
+          [
+            "shutdown",
+            "shutdown"
+          ],
+          [
+            "send_periodic",
+            "send_periodic"
+          ],
+          [
+            "stop_all_periodic_tasks",
+            "stop_all_periodic_tasks"
+          ],
+          [
+            "get_message",
+            "get_message"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_python_can_do_method": {
+    "message0": "ejecutar método de python-can objeto %1 %2 argumentos %3 argumentos con nombre %4",
+    "tooltip": "Ejecuta un método permitido de un objeto python-can como sentencia.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "send",
+            "send"
+          ],
+          [
+            "recv",
+            "recv"
+          ],
+          [
+            "shutdown",
+            "shutdown"
+          ],
+          [
+            "send_periodic",
+            "send_periodic"
+          ],
+          [
+            "stop_all_periodic_tasks",
+            "stop_all_periodic_tasks"
+          ],
+          [
+            "get_message",
+            "get_message"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_python_can_attribute": {
+    "message0": "objeto python-can %1 atributo %2",
+    "tooltip": "Lee un atributo permitido de un objeto o módulo python-can.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "arbitration_id",
+            "arbitration_id"
+          ],
+          [
+            "data",
+            "data"
+          ],
+          [
+            "is_extended_id",
+            "is_extended_id"
+          ],
+          [
+            "is_remote_frame",
+            "is_remote_frame"
+          ],
+          [
+            "timestamp",
+            "timestamp"
+          ],
+          [
+            "channel",
+            "channel"
+          ]
+        ]
+      }
+    ]
+  }
+}

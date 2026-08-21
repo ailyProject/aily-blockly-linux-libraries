@@ -1,0 +1,27 @@
+{
+  "kind": "category",
+  "name": "Sense HAT Emulator",
+  "colour": "#C51A4A",
+  "contents": [
+    {
+      "kind": "block",
+      "type": "rpi_sense_emu_call"
+    },
+    {
+      "kind": "block",
+      "type": "rpi_sense_emu_do"
+    },
+    {
+      "kind": "block",
+      "type": "rpi_sense_emu_method"
+    },
+    {
+      "kind": "block",
+      "type": "rpi_sense_emu_do_method"
+    },
+    {
+      "kind": "block",
+      "type": "rpi_sense_emu_attribute"
+    }
+  ]
+}

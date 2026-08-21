@@ -1,0 +1,175 @@
+{
+  "toolbox_name": "HailoRT Python",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_hailo_platform_call": {
+    "message0": "HailoRT Python 呼叫或建立 %1 參數 %2 關鍵字參數 %3",
+    "tooltip": "呼叫白名單中的 HailoRT Python 函式或建構器並傳回結果。",
+    "args0": [
+      {
+        "options": [
+          [
+            "HEF",
+            "HEF"
+          ],
+          [
+            "VDevice",
+            "VDevice"
+          ],
+          [
+            "Device",
+            "Device"
+          ],
+          [
+            "ConfigureParams",
+            "ConfigureParams"
+          ],
+          [
+            "InferVStreams",
+            "InferVStreams"
+          ],
+          [
+            "InputVStreamParams",
+            "InputVStreamParams"
+          ],
+          [
+            "OutputVStreamParams",
+            "OutputVStreamParams"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_hailo_platform_do": {
+    "message0": "執行 HailoRT Python %1 參數 %2 關鍵字參數 %3",
+    "tooltip": "以敘述方式執行白名單中的 HailoRT Python 函式或建構器。",
+    "args0": [
+      {
+        "options": [
+          [
+            "HEF",
+            "HEF"
+          ],
+          [
+            "VDevice",
+            "VDevice"
+          ],
+          [
+            "Device",
+            "Device"
+          ],
+          [
+            "ConfigureParams",
+            "ConfigureParams"
+          ],
+          [
+            "InferVStreams",
+            "InferVStreams"
+          ],
+          [
+            "InputVStreamParams",
+            "InputVStreamParams"
+          ],
+          [
+            "OutputVStreamParams",
+            "OutputVStreamParams"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_hailo_platform_method": {
+    "message0": "HailoRT Python 物件 %1 呼叫方法 %2 參數 %3 關鍵字參數 %4",
+    "tooltip": "呼叫白名單中的 HailoRT Python 物件方法並傳回結果。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "configure",
+            "configure"
+          ],
+          [
+            "create_infer_model",
+            "create_infer_model"
+          ],
+          [
+            "activate",
+            "activate"
+          ],
+          [
+            "wait_for_async_ready",
+            "wait_for_async_ready"
+          ],
+          [
+            "run_async",
+            "run_async"
+          ],
+          [
+            "infer",
+            "infer"
+          ],
+          [
+            "get_input_vstream_infos",
+            "get_input_vstream_infos"
+          ],
+          [
+            "get_output_vstream_infos",
+            "get_output_vstream_infos"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_hailo_platform_do_method": {
+    "message0": "執行 HailoRT Python 物件 %1 的方法 %2 參數 %3 關鍵字參數 %4",
+    "tooltip": "以敘述方式執行白名單中的 HailoRT Python 物件方法。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "configure",
+            "configure"
+          ],
+          [
+            "create_infer_model",
+            "create_infer_model"
+          ],
+          [
+            "activate",
+            "activate"
+          ],
+          [
+            "wait_for_async_ready",
+            "wait_for_async_ready"
+          ],
+          [
+            "run_async",
+            "run_async"
+          ],
+          [
+            "infer",
+            "infer"
+          ],
+          [
+            "get_input_vstream_infos",
+            "get_input_vstream_infos"
+          ],
+          [
+            "get_output_vstream_infos",
+            "get_output_vstream_infos"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  }
+}

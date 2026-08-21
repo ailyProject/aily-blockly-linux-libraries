@@ -1,0 +1,27 @@
+{
+  "kind": "category",
+  "name": "Raspberry Pi Hardware PWM",
+  "colour": "#00897B",
+  "contents": [
+    {
+      "kind": "block",
+      "type": "rpi_hardware_pwm_call"
+    },
+    {
+      "kind": "block",
+      "type": "rpi_hardware_pwm_do"
+    },
+    {
+      "kind": "block",
+      "type": "rpi_hardware_pwm_method"
+    },
+    {
+      "kind": "block",
+      "type": "rpi_hardware_pwm_do_method"
+    },
+    {
+      "kind": "block",
+      "type": "rpi_hardware_pwm_attribute"
+    }
+  ]
+}

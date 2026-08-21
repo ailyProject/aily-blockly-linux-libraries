@@ -1,0 +1,27 @@
+{
+  "kind": "category",
+  "name": "CircuitPython SCD4x",
+  "colour": "#00897B",
+  "contents": [
+    {
+      "kind": "block",
+      "type": "python_adafruit_scd4x_call"
+    },
+    {
+      "kind": "block",
+      "type": "python_adafruit_scd4x_do"
+    },
+    {
+      "kind": "block",
+      "type": "python_adafruit_scd4x_method"
+    },
+    {
+      "kind": "block",
+      "type": "python_adafruit_scd4x_do_method"
+    },
+    {
+      "kind": "block",
+      "type": "python_adafruit_scd4x_attribute"
+    }
+  ]
+}

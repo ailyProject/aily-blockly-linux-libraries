@@ -1,0 +1,47 @@
+{
+  "name": "@aily-project/lib-gpsd-py3",
+  "nickname": "gpsd-py3",
+  "nickname_zh_cn": "gpsd-py3",
+  "nickname_en": "gpsd-py3",
+  "nickname_zh_hk": "gpsd-py3",
+  "nickname_ja": "gpsd-py3",
+  "nickname_ko": "gpsd-py3",
+  "nickname_de": "gpsd-py3",
+  "nickname_fr": "gpsd-py3",
+  "nickname_es": "gpsd-py3",
+  "nickname_pt": "gpsd-py3",
+  "nickname_ru": "gpsd-py3",
+  "nickname_ar": "gpsd-py3",
+  "version": "0.0.1",
+  "description": "面向树莓派与 Linux 开发板的 gpsd-py3 常用 Python API 白名单积木。",
+  "description_zh_cn": "面向树莓派与 Linux 开发板的 gpsd-py3 常用 Python API 白名单积木。",
+  "description_en": "Allowlisted gpsd-py3 Python API blocks for Raspberry Pi and Linux single-board computers.",
+  "spec": true,
+  "compatibility": {
+    "type": [
+      "canaan:k230:cybercam",
+      "broadcom:bcm2712:raspberrypi_5",
+      "allwinner:t527:walnutpi_2b"
+    ],
+    "voltage": [
+      3.3
+    ]
+  },
+  "keywords": [
+    "aily",
+    "blockly",
+    "python",
+    "linux",
+    "raspberry-pi",
+    "gpsd-py3",
+    "gpsd"
+  ],
+  "tags": [
+    "io"
+  ],
+  "author": "ailyProject",
+  "license": "MIT",
+  "homepage": "https://pypi.org/project/gpsd-py3/",
+  "dependencies": {},
+  "devDependencies": {}
+}

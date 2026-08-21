@@ -1,0 +1,228 @@
+[
+  {
+    "type": "linux_pyusb_call",
+    "message0": "PyUSB call or create %1 arguments %2 keyword arguments %3",
+    "args0": [
+      {
+        "type": "field_dropdown",
+        "name": "TARGET",
+        "options": [
+          [
+            "find",
+            "find"
+          ],
+          [
+            "show_devices",
+            "show_devices"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#00897B",
+    "tooltip": "Call an allowlisted PyUSB function or constructor and return its result.",
+    "icon": "settings",
+    "output": "Any"
+  },
+  {
+    "type": "linux_pyusb_do",
+    "message0": "run PyUSB %1 arguments %2 keyword arguments %3",
+    "args0": [
+      {
+        "type": "field_dropdown",
+        "name": "TARGET",
+        "options": [
+          [
+            "find",
+            "find"
+          ],
+          [
+            "show_devices",
+            "show_devices"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#00897B",
+    "tooltip": "Run an allowlisted PyUSB function or constructor as a statement.",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "linux_pyusb_method",
+    "message0": "PyUSB object %1 call method %2 arguments %3 keyword arguments %4",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "OBJECT"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "METHOD",
+        "options": [
+          [
+            "set_configuration",
+            "set_configuration"
+          ],
+          [
+            "write",
+            "write"
+          ],
+          [
+            "read",
+            "read"
+          ],
+          [
+            "ctrl_transfer",
+            "ctrl_transfer"
+          ],
+          [
+            "reset",
+            "reset"
+          ],
+          [
+            "is_kernel_driver_active",
+            "is_kernel_driver_active"
+          ],
+          [
+            "detach_kernel_driver",
+            "detach_kernel_driver"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#00897B",
+    "tooltip": "Call an allowlisted PyUSB object method and return its result.",
+    "icon": "settings",
+    "output": "Any"
+  },
+  {
+    "type": "linux_pyusb_do_method",
+    "message0": "run PyUSB object %1 method %2 arguments %3 keyword arguments %4",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "OBJECT"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "METHOD",
+        "options": [
+          [
+            "set_configuration",
+            "set_configuration"
+          ],
+          [
+            "write",
+            "write"
+          ],
+          [
+            "read",
+            "read"
+          ],
+          [
+            "ctrl_transfer",
+            "ctrl_transfer"
+          ],
+          [
+            "reset",
+            "reset"
+          ],
+          [
+            "is_kernel_driver_active",
+            "is_kernel_driver_active"
+          ],
+          [
+            "detach_kernel_driver",
+            "detach_kernel_driver"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#00897B",
+    "tooltip": "Run an allowlisted PyUSB object method as a statement.",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "linux_pyusb_attribute",
+    "message0": "PyUSB object %1 attribute %2",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "OBJECT"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "ATTRIBUTE",
+        "options": [
+          [
+            "idVendor",
+            "idVendor"
+          ],
+          [
+            "idProduct",
+            "idProduct"
+          ],
+          [
+            "bus",
+            "bus"
+          ],
+          [
+            "address",
+            "address"
+          ],
+          [
+            "manufacturer",
+            "manufacturer"
+          ],
+          [
+            "product",
+            "product"
+          ],
+          [
+            "serial_number",
+            "serial_number"
+          ]
+        ]
+      }
+    ],
+    "colour": "#00897B",
+    "tooltip": "Read an allowlisted PyUSB object or module attribute.",
+    "icon": "settings",
+    "output": "Any"
+  }
+]

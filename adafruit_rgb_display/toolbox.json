@@ -1,0 +1,27 @@
+{
+  "kind": "category",
+  "name": "CircuitPython RGB Display",
+  "colour": "#1976D2",
+  "contents": [
+    {
+      "kind": "block",
+      "type": "python_adafruit_rgb_display_call"
+    },
+    {
+      "kind": "block",
+      "type": "python_adafruit_rgb_display_do"
+    },
+    {
+      "kind": "block",
+      "type": "python_adafruit_rgb_display_method"
+    },
+    {
+      "kind": "block",
+      "type": "python_adafruit_rgb_display_do_method"
+    },
+    {
+      "kind": "block",
+      "type": "python_adafruit_rgb_display_attribute"
+    }
+  ]
+}

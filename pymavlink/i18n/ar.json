@@ -1,0 +1,174 @@
+{
+  "toolbox_name": "pymavlink",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_pymavlink_call": {
+    "message0": "pymavlink استدعاء أو إنشاء %1 الوسائط %2 وسائط الكلمات المفتاحية %3",
+    "tooltip": "استدعاء دالة أو مُنشئ مسموح من pymavlink وإرجاع النتيجة.",
+    "args0": [
+      {
+        "options": [
+          [
+            "mavlink_connection",
+            "mavlink_connection"
+          ],
+          [
+            "mode_string_v10",
+            "mode_string_v10"
+          ],
+          [
+            "all_printable",
+            "all_printable"
+          ],
+          [
+            "periodic_event",
+            "periodic_event"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_pymavlink_do": {
+    "message0": "تشغيل pymavlink %1 الوسائط %2 وسائط الكلمات المفتاحية %3",
+    "tooltip": "تشغيل دالة أو مُنشئ مسموح من pymavlink كتعليمة.",
+    "args0": [
+      {
+        "options": [
+          [
+            "mavlink_connection",
+            "mavlink_connection"
+          ],
+          [
+            "mode_string_v10",
+            "mode_string_v10"
+          ],
+          [
+            "all_printable",
+            "all_printable"
+          ],
+          [
+            "periodic_event",
+            "periodic_event"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_pymavlink_method": {
+    "message0": "كائن pymavlink %1 الطريقة %2 الوسائط %3 وسائط الكلمات المفتاحية %4",
+    "tooltip": "استدعاء طريقة مسموحة لكائن pymavlink وإرجاع النتيجة.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "wait_heartbeat",
+            "wait_heartbeat"
+          ],
+          [
+            "recv_match",
+            "recv_match"
+          ],
+          [
+            "mode_mapping",
+            "mode_mapping"
+          ],
+          [
+            "set_mode",
+            "set_mode"
+          ],
+          [
+            "close",
+            "close"
+          ],
+          [
+            "write",
+            "write"
+          ],
+          [
+            "param_fetch_all",
+            "param_fetch_all"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_pymavlink_do_method": {
+    "message0": "تشغيل طريقة pymavlink للكائن %1 %2 الوسائط %3 وسائط الكلمات المفتاحية %4",
+    "tooltip": "تشغيل طريقة مسموحة لكائن pymavlink كتعليمة.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "wait_heartbeat",
+            "wait_heartbeat"
+          ],
+          [
+            "recv_match",
+            "recv_match"
+          ],
+          [
+            "mode_mapping",
+            "mode_mapping"
+          ],
+          [
+            "set_mode",
+            "set_mode"
+          ],
+          [
+            "close",
+            "close"
+          ],
+          [
+            "write",
+            "write"
+          ],
+          [
+            "param_fetch_all",
+            "param_fetch_all"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_pymavlink_attribute": {
+    "message0": "كائن pymavlink %1 السمة %2",
+    "tooltip": "قراءة سمة مسموحة لكائن أو وحدة pymavlink.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "target_system",
+            "target_system"
+          ],
+          [
+            "target_component",
+            "target_component"
+          ],
+          [
+            "mav",
+            "mav"
+          ],
+          [
+            "flightmode",
+            "flightmode"
+          ],
+          [
+            "messages",
+            "messages"
+          ]
+        ]
+      }
+    ]
+  }
+}

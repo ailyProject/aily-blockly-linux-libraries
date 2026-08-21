@@ -1,0 +1,340 @@
+[
+  {
+    "type": "python_numpy_call",
+    "message0": "NumPy call or create %1 arguments %2 keyword arguments %3",
+    "args0": [
+      {
+        "type": "field_dropdown",
+        "name": "TARGET",
+        "options": [
+          [
+            "array",
+            "array"
+          ],
+          [
+            "asarray",
+            "asarray"
+          ],
+          [
+            "zeros",
+            "zeros"
+          ],
+          [
+            "ones",
+            "ones"
+          ],
+          [
+            "arange",
+            "arange"
+          ],
+          [
+            "linspace",
+            "linspace"
+          ],
+          [
+            "mean",
+            "mean"
+          ],
+          [
+            "std",
+            "std"
+          ],
+          [
+            "min",
+            "min"
+          ],
+          [
+            "max",
+            "max"
+          ],
+          [
+            "concatenate",
+            "concatenate"
+          ],
+          [
+            "stack",
+            "stack"
+          ],
+          [
+            "reshape",
+            "reshape"
+          ],
+          [
+            "load",
+            "load"
+          ],
+          [
+            "save",
+            "save"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#7B1FA2",
+    "tooltip": "Call an allowlisted NumPy function or constructor and return its result.",
+    "icon": "settings",
+    "output": "Any"
+  },
+  {
+    "type": "python_numpy_do",
+    "message0": "run NumPy %1 arguments %2 keyword arguments %3",
+    "args0": [
+      {
+        "type": "field_dropdown",
+        "name": "TARGET",
+        "options": [
+          [
+            "array",
+            "array"
+          ],
+          [
+            "asarray",
+            "asarray"
+          ],
+          [
+            "zeros",
+            "zeros"
+          ],
+          [
+            "ones",
+            "ones"
+          ],
+          [
+            "arange",
+            "arange"
+          ],
+          [
+            "linspace",
+            "linspace"
+          ],
+          [
+            "mean",
+            "mean"
+          ],
+          [
+            "std",
+            "std"
+          ],
+          [
+            "min",
+            "min"
+          ],
+          [
+            "max",
+            "max"
+          ],
+          [
+            "concatenate",
+            "concatenate"
+          ],
+          [
+            "stack",
+            "stack"
+          ],
+          [
+            "reshape",
+            "reshape"
+          ],
+          [
+            "load",
+            "load"
+          ],
+          [
+            "save",
+            "save"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#7B1FA2",
+    "tooltip": "Run an allowlisted NumPy function or constructor as a statement.",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "python_numpy_method",
+    "message0": "NumPy object %1 call method %2 arguments %3 keyword arguments %4",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "OBJECT"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "METHOD",
+        "options": [
+          [
+            "reshape",
+            "reshape"
+          ],
+          [
+            "astype",
+            "astype"
+          ],
+          [
+            "tolist",
+            "tolist"
+          ],
+          [
+            "flatten",
+            "flatten"
+          ],
+          [
+            "transpose",
+            "transpose"
+          ],
+          [
+            "mean",
+            "mean"
+          ],
+          [
+            "sum",
+            "sum"
+          ],
+          [
+            "min",
+            "min"
+          ],
+          [
+            "max",
+            "max"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#7B1FA2",
+    "tooltip": "Call an allowlisted NumPy object method and return its result.",
+    "icon": "settings",
+    "output": "Any"
+  },
+  {
+    "type": "python_numpy_do_method",
+    "message0": "run NumPy object %1 method %2 arguments %3 keyword arguments %4",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "OBJECT"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "METHOD",
+        "options": [
+          [
+            "reshape",
+            "reshape"
+          ],
+          [
+            "astype",
+            "astype"
+          ],
+          [
+            "tolist",
+            "tolist"
+          ],
+          [
+            "flatten",
+            "flatten"
+          ],
+          [
+            "transpose",
+            "transpose"
+          ],
+          [
+            "mean",
+            "mean"
+          ],
+          [
+            "sum",
+            "sum"
+          ],
+          [
+            "min",
+            "min"
+          ],
+          [
+            "max",
+            "max"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#7B1FA2",
+    "tooltip": "Run an allowlisted NumPy object method as a statement.",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "python_numpy_attribute",
+    "message0": "NumPy object %1 attribute %2",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "OBJECT"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "ATTRIBUTE",
+        "options": [
+          [
+            "shape",
+            "shape"
+          ],
+          [
+            "dtype",
+            "dtype"
+          ],
+          [
+            "ndim",
+            "ndim"
+          ],
+          [
+            "size",
+            "size"
+          ],
+          [
+            "T",
+            "T"
+          ]
+        ]
+      }
+    ],
+    "colour": "#7B1FA2",
+    "tooltip": "Read an allowlisted NumPy object or module attribute.",
+    "icon": "settings",
+    "output": "Any"
+  }
+]

@@ -1,0 +1,138 @@
+{
+  "toolbox_name": "CircuitPython ADS1x15",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_adafruit_ads1x15_call": {
+    "message0": "CircuitPython ADS1x15 chamar ou criar %1 argumentos %2 argumentos nomeados %3",
+    "tooltip": "Chama uma função ou construtor permitido de CircuitPython ADS1x15 e devolve o resultado.",
+    "args0": [
+      {
+        "options": [
+          [
+            "ADS1115",
+            "ADS1115"
+          ],
+          [
+            "AnalogIn",
+            "AnalogIn"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_ads1x15_do": {
+    "message0": "executar CircuitPython ADS1x15 %1 argumentos %2 argumentos nomeados %3",
+    "tooltip": "Executa uma função ou construtor permitido de CircuitPython ADS1x15 como instrução.",
+    "args0": [
+      {
+        "options": [
+          [
+            "ADS1115",
+            "ADS1115"
+          ],
+          [
+            "AnalogIn",
+            "AnalogIn"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_ads1x15_method": {
+    "message0": "objeto CircuitPython ADS1x15 %1 método %2 argumentos %3 argumentos nomeados %4",
+    "tooltip": "Chama um método permitido de um objeto CircuitPython ADS1x15 e devolve o resultado.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "read",
+            "read"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_ads1x15_do_method": {
+    "message0": "executar método de CircuitPython ADS1x15 objeto %1 %2 argumentos %3 argumentos nomeados %4",
+    "tooltip": "Executa um método permitido de um objeto CircuitPython ADS1x15 como instrução.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "read",
+            "read"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_ads1x15_attribute": {
+    "message0": "objeto CircuitPython ADS1x15 %1 atributo %2",
+    "tooltip": "Lê um atributo permitido de um objeto ou módulo CircuitPython ADS1x15.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "gain",
+            "gain"
+          ],
+          [
+            "mode",
+            "mode"
+          ],
+          [
+            "data_rate",
+            "data_rate"
+          ],
+          [
+            "comparator_queue_length",
+            "comparator_queue_length"
+          ],
+          [
+            "comparator_latch",
+            "comparator_latch"
+          ],
+          [
+            "comparator_polarity",
+            "comparator_polarity"
+          ],
+          [
+            "value",
+            "value"
+          ],
+          [
+            "voltage",
+            "voltage"
+          ],
+          [
+            "Pin.A0",
+            "Pin.A0"
+          ],
+          [
+            "Pin.A1",
+            "Pin.A1"
+          ],
+          [
+            "Pin.A2",
+            "Pin.A2"
+          ],
+          [
+            "Pin.A3",
+            "Pin.A3"
+          ]
+        ]
+      }
+    ]
+  }
+}

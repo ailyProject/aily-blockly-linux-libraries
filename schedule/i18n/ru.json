@@ -1,0 +1,242 @@
+{
+  "toolbox_name": "schedule",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_schedule_call": {
+    "message0": "schedule вызвать или создать %1 аргументы %2 именованные аргументы %3",
+    "tooltip": "Вызывает разрешённую функцию или конструктор schedule и возвращает результат.",
+    "args0": [
+      {
+        "options": [
+          [
+            "every",
+            "every"
+          ],
+          [
+            "run_pending",
+            "run_pending"
+          ],
+          [
+            "run_all",
+            "run_all"
+          ],
+          [
+            "clear",
+            "clear"
+          ],
+          [
+            "cancel_job",
+            "cancel_job"
+          ],
+          [
+            "get_jobs",
+            "get_jobs"
+          ],
+          [
+            "idle_seconds",
+            "idle_seconds"
+          ],
+          [
+            "repeat",
+            "repeat"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_schedule_do": {
+    "message0": "выполнить schedule %1 аргументы %2 именованные аргументы %3",
+    "tooltip": "Выполняет разрешённую функцию или конструктор schedule как инструкцию.",
+    "args0": [
+      {
+        "options": [
+          [
+            "every",
+            "every"
+          ],
+          [
+            "run_pending",
+            "run_pending"
+          ],
+          [
+            "run_all",
+            "run_all"
+          ],
+          [
+            "clear",
+            "clear"
+          ],
+          [
+            "cancel_job",
+            "cancel_job"
+          ],
+          [
+            "get_jobs",
+            "get_jobs"
+          ],
+          [
+            "idle_seconds",
+            "idle_seconds"
+          ],
+          [
+            "repeat",
+            "repeat"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_schedule_method": {
+    "message0": "объект schedule %1 метод %2 аргументы %3 именованные аргументы %4",
+    "tooltip": "Вызывает разрешённый метод объекта schedule и возвращает результат.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "at",
+            "at"
+          ],
+          [
+            "until",
+            "until"
+          ],
+          [
+            "to",
+            "to"
+          ],
+          [
+            "do",
+            "do"
+          ],
+          [
+            "tag",
+            "tag"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_schedule_do_method": {
+    "message0": "выполнить метод schedule объекта %1 %2 аргументы %3 именованные аргументы %4",
+    "tooltip": "Выполняет разрешённый метод объекта schedule как инструкцию.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "at",
+            "at"
+          ],
+          [
+            "until",
+            "until"
+          ],
+          [
+            "to",
+            "to"
+          ],
+          [
+            "do",
+            "do"
+          ],
+          [
+            "tag",
+            "tag"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_schedule_attribute": {
+    "message0": "объект schedule %1 атрибут %2",
+    "tooltip": "Читает разрешённый атрибут объекта или модуля schedule.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "next_run",
+            "next_run"
+          ],
+          [
+            "period",
+            "period"
+          ],
+          [
+            "unit",
+            "unit"
+          ],
+          [
+            "latest",
+            "latest"
+          ],
+          [
+            "start_day",
+            "start_day"
+          ],
+          [
+            "tags",
+            "tags"
+          ],
+          [
+            "seconds",
+            "seconds"
+          ],
+          [
+            "minutes",
+            "minutes"
+          ],
+          [
+            "hours",
+            "hours"
+          ],
+          [
+            "days",
+            "days"
+          ],
+          [
+            "weeks",
+            "weeks"
+          ],
+          [
+            "monday",
+            "monday"
+          ],
+          [
+            "tuesday",
+            "tuesday"
+          ],
+          [
+            "wednesday",
+            "wednesday"
+          ],
+          [
+            "thursday",
+            "thursday"
+          ],
+          [
+            "friday",
+            "friday"
+          ],
+          [
+            "saturday",
+            "saturday"
+          ],
+          [
+            "sunday",
+            "sunday"
+          ]
+        ]
+      }
+    ]
+  }
+}

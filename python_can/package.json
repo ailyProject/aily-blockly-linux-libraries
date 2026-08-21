@@ -1,0 +1,47 @@
+{
+  "name": "@aily-project/lib-python-can",
+  "nickname": "python-can",
+  "nickname_zh_cn": "python-can",
+  "nickname_en": "python-can",
+  "nickname_zh_hk": "python-can",
+  "nickname_ja": "python-can",
+  "nickname_ko": "python-can",
+  "nickname_de": "python-can",
+  "nickname_fr": "python-can",
+  "nickname_es": "python-can",
+  "nickname_pt": "python-can",
+  "nickname_ru": "python-can",
+  "nickname_ar": "python-can",
+  "version": "0.0.1",
+  "description": "面向树莓派与 Linux 开发板的 python-can 常用 Python API 白名单积木。",
+  "description_zh_cn": "面向树莓派与 Linux 开发板的 python-can 常用 Python API 白名单积木。",
+  "description_en": "Allowlisted python-can Python API blocks for Raspberry Pi and Linux single-board computers.",
+  "spec": true,
+  "compatibility": {
+    "type": [
+      "canaan:k230:cybercam",
+      "broadcom:bcm2712:raspberrypi_5",
+      "allwinner:t527:walnutpi_2b"
+    ],
+    "voltage": [
+      3.3
+    ]
+  },
+  "keywords": [
+    "aily",
+    "blockly",
+    "python",
+    "linux",
+    "raspberry-pi",
+    "python-can",
+    "can"
+  ],
+  "tags": [
+    "io"
+  ],
+  "author": "ailyProject",
+  "license": "MIT",
+  "homepage": "https://python-can.readthedocs.io/en/stable/",
+  "dependencies": {},
+  "devDependencies": {}
+}

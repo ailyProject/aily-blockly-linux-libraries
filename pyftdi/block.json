@@ -1,0 +1,204 @@
+[
+  {
+    "type": "linux_pyftdi_call",
+    "message0": "PyFtdi GPIO call or create %1 arguments %2 keyword arguments %3",
+    "args0": [
+      {
+        "type": "field_dropdown",
+        "name": "TARGET",
+        "options": [
+          [
+            "GpioController",
+            "GpioController"
+          ],
+          [
+            "GpioAsyncController",
+            "GpioAsyncController"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#00897B",
+    "tooltip": "Call an allowlisted PyFtdi GPIO function or constructor and return its result.",
+    "icon": "settings",
+    "output": "Any"
+  },
+  {
+    "type": "linux_pyftdi_do",
+    "message0": "run PyFtdi GPIO %1 arguments %2 keyword arguments %3",
+    "args0": [
+      {
+        "type": "field_dropdown",
+        "name": "TARGET",
+        "options": [
+          [
+            "GpioController",
+            "GpioController"
+          ],
+          [
+            "GpioAsyncController",
+            "GpioAsyncController"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#00897B",
+    "tooltip": "Run an allowlisted PyFtdi GPIO function or constructor as a statement.",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "linux_pyftdi_method",
+    "message0": "PyFtdi GPIO object %1 call method %2 arguments %3 keyword arguments %4",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "OBJECT"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "METHOD",
+        "options": [
+          [
+            "configure",
+            "configure"
+          ],
+          [
+            "set_direction",
+            "set_direction"
+          ],
+          [
+            "write",
+            "write"
+          ],
+          [
+            "read",
+            "read"
+          ],
+          [
+            "exchange",
+            "exchange"
+          ],
+          [
+            "close",
+            "close"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#00897B",
+    "tooltip": "Call an allowlisted PyFtdi GPIO object method and return its result.",
+    "icon": "settings",
+    "output": "Any"
+  },
+  {
+    "type": "linux_pyftdi_do_method",
+    "message0": "run PyFtdi GPIO object %1 method %2 arguments %3 keyword arguments %4",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "OBJECT"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "METHOD",
+        "options": [
+          [
+            "configure",
+            "configure"
+          ],
+          [
+            "set_direction",
+            "set_direction"
+          ],
+          [
+            "write",
+            "write"
+          ],
+          [
+            "read",
+            "read"
+          ],
+          [
+            "exchange",
+            "exchange"
+          ],
+          [
+            "close",
+            "close"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#00897B",
+    "tooltip": "Run an allowlisted PyFtdi GPIO object method as a statement.",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "linux_pyftdi_attribute",
+    "message0": "PyFtdi GPIO object %1 attribute %2",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "OBJECT"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "ATTRIBUTE",
+        "options": [
+          [
+            "frequency",
+            "frequency"
+          ],
+          [
+            "direction",
+            "direction"
+          ],
+          [
+            "pins",
+            "pins"
+          ]
+        ]
+      }
+    ],
+    "colour": "#00897B",
+    "tooltip": "Read an allowlisted PyFtdi GPIO object or module attribute.",
+    "icon": "settings",
+    "output": "Any"
+  }
+]

@@ -1,0 +1,188 @@
+[
+  {
+    "type": "python_aws_iot_device_sdk_call",
+    "message0": "AWS IoT Device SDK v2 call or create %1 arguments %2 keyword arguments %3",
+    "args0": [
+      {
+        "type": "field_dropdown",
+        "name": "TARGET",
+        "options": [
+          [
+            "mtls_from_path",
+            "mtls_from_path"
+          ],
+          [
+            "mtls_from_bytes",
+            "mtls_from_bytes"
+          ],
+          [
+            "websockets_with_default_aws_signing",
+            "websockets_with_default_aws_signing"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#0288D1",
+    "tooltip": "Call an allowlisted AWS IoT Device SDK v2 function or constructor and return its result.",
+    "icon": "settings",
+    "output": "Any"
+  },
+  {
+    "type": "python_aws_iot_device_sdk_do",
+    "message0": "run AWS IoT Device SDK v2 %1 arguments %2 keyword arguments %3",
+    "args0": [
+      {
+        "type": "field_dropdown",
+        "name": "TARGET",
+        "options": [
+          [
+            "mtls_from_path",
+            "mtls_from_path"
+          ],
+          [
+            "mtls_from_bytes",
+            "mtls_from_bytes"
+          ],
+          [
+            "websockets_with_default_aws_signing",
+            "websockets_with_default_aws_signing"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#0288D1",
+    "tooltip": "Run an allowlisted AWS IoT Device SDK v2 function or constructor as a statement.",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "python_aws_iot_device_sdk_method",
+    "message0": "AWS IoT Device SDK v2 object %1 call method %2 arguments %3 keyword arguments %4",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "OBJECT"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "METHOD",
+        "options": [
+          [
+            "connect",
+            "connect"
+          ],
+          [
+            "disconnect",
+            "disconnect"
+          ],
+          [
+            "publish",
+            "publish"
+          ],
+          [
+            "subscribe",
+            "subscribe"
+          ],
+          [
+            "unsubscribe",
+            "unsubscribe"
+          ],
+          [
+            "resubscribe_existing_topics",
+            "resubscribe_existing_topics"
+          ],
+          [
+            "result",
+            "result"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#0288D1",
+    "tooltip": "Call an allowlisted AWS IoT Device SDK v2 object method and return its result.",
+    "icon": "settings",
+    "output": "Any"
+  },
+  {
+    "type": "python_aws_iot_device_sdk_do_method",
+    "message0": "run AWS IoT Device SDK v2 object %1 method %2 arguments %3 keyword arguments %4",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "OBJECT"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "METHOD",
+        "options": [
+          [
+            "connect",
+            "connect"
+          ],
+          [
+            "disconnect",
+            "disconnect"
+          ],
+          [
+            "publish",
+            "publish"
+          ],
+          [
+            "subscribe",
+            "subscribe"
+          ],
+          [
+            "unsubscribe",
+            "unsubscribe"
+          ],
+          [
+            "resubscribe_existing_topics",
+            "resubscribe_existing_topics"
+          ],
+          [
+            "result",
+            "result"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#0288D1",
+    "tooltip": "Run an allowlisted AWS IoT Device SDK v2 object method as a statement.",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  }
+]

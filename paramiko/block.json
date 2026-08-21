@@ -1,0 +1,276 @@
+[
+  {
+    "type": "python_paramiko_call",
+    "message0": "Paramiko call or create %1 arguments %2 keyword arguments %3",
+    "args0": [
+      {
+        "type": "field_dropdown",
+        "name": "TARGET",
+        "options": [
+          [
+            "SSHClient",
+            "SSHClient"
+          ],
+          [
+            "Transport",
+            "Transport"
+          ],
+          [
+            "SFTPClient",
+            "SFTPClient"
+          ],
+          [
+            "AutoAddPolicy",
+            "AutoAddPolicy"
+          ],
+          [
+            "RSAKey",
+            "RSAKey"
+          ],
+          [
+            "Ed25519Key",
+            "Ed25519Key"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#0288D1",
+    "tooltip": "Call an allowlisted Paramiko function or constructor and return its result.",
+    "icon": "settings",
+    "output": "Any"
+  },
+  {
+    "type": "python_paramiko_do",
+    "message0": "run Paramiko %1 arguments %2 keyword arguments %3",
+    "args0": [
+      {
+        "type": "field_dropdown",
+        "name": "TARGET",
+        "options": [
+          [
+            "SSHClient",
+            "SSHClient"
+          ],
+          [
+            "Transport",
+            "Transport"
+          ],
+          [
+            "SFTPClient",
+            "SFTPClient"
+          ],
+          [
+            "AutoAddPolicy",
+            "AutoAddPolicy"
+          ],
+          [
+            "RSAKey",
+            "RSAKey"
+          ],
+          [
+            "Ed25519Key",
+            "Ed25519Key"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#0288D1",
+    "tooltip": "Run an allowlisted Paramiko function or constructor as a statement.",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "python_paramiko_method",
+    "message0": "Paramiko object %1 call method %2 arguments %3 keyword arguments %4",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "OBJECT"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "METHOD",
+        "options": [
+          [
+            "connect",
+            "connect"
+          ],
+          [
+            "exec_command",
+            "exec_command"
+          ],
+          [
+            "open_sftp",
+            "open_sftp"
+          ],
+          [
+            "close",
+            "close"
+          ],
+          [
+            "set_missing_host_key_policy",
+            "set_missing_host_key_policy"
+          ],
+          [
+            "load_system_host_keys",
+            "load_system_host_keys"
+          ],
+          [
+            "load_host_keys",
+            "load_host_keys"
+          ],
+          [
+            "get_host_keys",
+            "get_host_keys"
+          ],
+          [
+            "get_transport",
+            "get_transport"
+          ],
+          [
+            "is_active",
+            "is_active"
+          ],
+          [
+            "is_authenticated",
+            "is_authenticated"
+          ],
+          [
+            "put",
+            "put"
+          ],
+          [
+            "get",
+            "get"
+          ],
+          [
+            "listdir",
+            "listdir"
+          ],
+          [
+            "open",
+            "open"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#0288D1",
+    "tooltip": "Call an allowlisted Paramiko object method and return its result.",
+    "icon": "settings",
+    "output": "Any"
+  },
+  {
+    "type": "python_paramiko_do_method",
+    "message0": "run Paramiko object %1 method %2 arguments %3 keyword arguments %4",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "OBJECT"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "METHOD",
+        "options": [
+          [
+            "connect",
+            "connect"
+          ],
+          [
+            "exec_command",
+            "exec_command"
+          ],
+          [
+            "open_sftp",
+            "open_sftp"
+          ],
+          [
+            "close",
+            "close"
+          ],
+          [
+            "set_missing_host_key_policy",
+            "set_missing_host_key_policy"
+          ],
+          [
+            "load_system_host_keys",
+            "load_system_host_keys"
+          ],
+          [
+            "load_host_keys",
+            "load_host_keys"
+          ],
+          [
+            "get_host_keys",
+            "get_host_keys"
+          ],
+          [
+            "get_transport",
+            "get_transport"
+          ],
+          [
+            "is_active",
+            "is_active"
+          ],
+          [
+            "is_authenticated",
+            "is_authenticated"
+          ],
+          [
+            "put",
+            "put"
+          ],
+          [
+            "get",
+            "get"
+          ],
+          [
+            "listdir",
+            "listdir"
+          ],
+          [
+            "open",
+            "open"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#0288D1",
+    "tooltip": "Run an allowlisted Paramiko object method as a statement.",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  }
+]

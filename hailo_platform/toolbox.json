@@ -1,0 +1,23 @@
+{
+  "kind": "category",
+  "name": "HailoRT Python",
+  "colour": "#1976D2",
+  "contents": [
+    {
+      "kind": "block",
+      "type": "python_hailo_platform_call"
+    },
+    {
+      "kind": "block",
+      "type": "python_hailo_platform_do"
+    },
+    {
+      "kind": "block",
+      "type": "python_hailo_platform_method"
+    },
+    {
+      "kind": "block",
+      "type": "python_hailo_platform_do_method"
+    }
+  ]
+}

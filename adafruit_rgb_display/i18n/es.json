@@ -1,0 +1,94 @@
+{
+  "toolbox_name": "CircuitPython RGB Display",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_adafruit_rgb_display_call": {
+    "message0": "CircuitPython RGB Display llamar o crear %1 argumentos %2 argumentos con nombre %3",
+    "tooltip": "Llama a una función o constructor permitido de CircuitPython RGB Display y devuelve el resultado.",
+    "args0": [
+      {
+        "options": [
+          [
+            "ST7789",
+            "ST7789"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_rgb_display_do": {
+    "message0": "ejecutar CircuitPython RGB Display %1 argumentos %2 argumentos con nombre %3",
+    "tooltip": "Ejecuta una función o constructor permitido de CircuitPython RGB Display como sentencia.",
+    "args0": [
+      {
+        "options": [
+          [
+            "ST7789",
+            "ST7789"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_rgb_display_method": {
+    "message0": "objeto CircuitPython RGB Display %1 método %2 argumentos %3 argumentos con nombre %4",
+    "tooltip": "Llama a un método permitido de un objeto CircuitPython RGB Display y devuelve el resultado.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "image",
+            "image"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_rgb_display_do_method": {
+    "message0": "ejecutar método de CircuitPython RGB Display objeto %1 %2 argumentos %3 argumentos con nombre %4",
+    "tooltip": "Ejecuta un método permitido de un objeto CircuitPython RGB Display como sentencia.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "image",
+            "image"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_rgb_display_attribute": {
+    "message0": "objeto CircuitPython RGB Display %1 atributo %2",
+    "tooltip": "Lee un atributo permitido de un objeto o módulo CircuitPython RGB Display.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "width",
+            "width"
+          ],
+          [
+            "height",
+            "height"
+          ],
+          [
+            "rotation",
+            "rotation"
+          ]
+        ]
+      }
+    ]
+  }
+}

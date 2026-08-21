@@ -1,0 +1,127 @@
+{
+  "toolbox_name": "pyttsx3",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_pyttsx3_call": {
+    "message0": "pyttsx3 chamar ou criar %1 argumentos %2 argumentos nomeados %3",
+    "tooltip": "Chama uma função ou construtor permitido de pyttsx3 e devolve o resultado.",
+    "args0": [
+      {
+        "options": [
+          [
+            "init",
+            "init"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_pyttsx3_do": {
+    "message0": "executar pyttsx3 %1 argumentos %2 argumentos nomeados %3",
+    "tooltip": "Executa uma função ou construtor permitido de pyttsx3 como instrução.",
+    "args0": [
+      {
+        "options": [
+          [
+            "init",
+            "init"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_pyttsx3_method": {
+    "message0": "objeto pyttsx3 %1 método %2 argumentos %3 argumentos nomeados %4",
+    "tooltip": "Chama um método permitido de um objeto pyttsx3 e devolve o resultado.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "say",
+            "say"
+          ],
+          [
+            "runAndWait",
+            "runAndWait"
+          ],
+          [
+            "stop",
+            "stop"
+          ],
+          [
+            "getProperty",
+            "getProperty"
+          ],
+          [
+            "setProperty",
+            "setProperty"
+          ],
+          [
+            "save_to_file",
+            "save_to_file"
+          ],
+          [
+            "connect",
+            "connect"
+          ],
+          [
+            "disconnect",
+            "disconnect"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_pyttsx3_do_method": {
+    "message0": "executar método de pyttsx3 objeto %1 %2 argumentos %3 argumentos nomeados %4",
+    "tooltip": "Executa um método permitido de um objeto pyttsx3 como instrução.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "say",
+            "say"
+          ],
+          [
+            "runAndWait",
+            "runAndWait"
+          ],
+          [
+            "stop",
+            "stop"
+          ],
+          [
+            "getProperty",
+            "getProperty"
+          ],
+          [
+            "setProperty",
+            "setProperty"
+          ],
+          [
+            "save_to_file",
+            "save_to_file"
+          ],
+          [
+            "connect",
+            "connect"
+          ],
+          [
+            "disconnect",
+            "disconnect"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  }
+}

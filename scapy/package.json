@@ -1,0 +1,47 @@
+{
+  "name": "@aily-project/lib-scapy",
+  "nickname": "Scapy",
+  "nickname_zh_cn": "Scapy",
+  "nickname_en": "Scapy",
+  "nickname_zh_hk": "Scapy",
+  "nickname_ja": "Scapy",
+  "nickname_ko": "Scapy",
+  "nickname_de": "Scapy",
+  "nickname_fr": "Scapy",
+  "nickname_es": "Scapy",
+  "nickname_pt": "Scapy",
+  "nickname_ru": "Scapy",
+  "nickname_ar": "Scapy",
+  "version": "0.0.1",
+  "description": "面向树莓派与 Linux 开发板的 Scapy 常用 Python API 白名单积木。",
+  "description_zh_cn": "面向树莓派与 Linux 开发板的 Scapy 常用 Python API 白名单积木。",
+  "description_en": "Allowlisted Scapy Python API blocks for Raspberry Pi and Linux single-board computers.",
+  "spec": true,
+  "compatibility": {
+    "type": [
+      "canaan:k230:cybercam",
+      "broadcom:bcm2712:raspberrypi_5",
+      "allwinner:t527:walnutpi_2b"
+    ],
+    "voltage": [
+      3.3
+    ]
+  },
+  "keywords": [
+    "aily",
+    "blockly",
+    "python",
+    "linux",
+    "raspberry-pi",
+    "scapy",
+    "scapy.all"
+  ],
+  "tags": [
+    "communication"
+  ],
+  "author": "ailyProject",
+  "license": "MIT",
+  "homepage": "https://scapy.readthedocs.io/",
+  "dependencies": {},
+  "devDependencies": {}
+}

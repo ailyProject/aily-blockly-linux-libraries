@@ -1,0 +1,114 @@
+{
+  "toolbox_name": "CircuitPython MPU6050",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_adafruit_mpu6050_call": {
+    "message0": "CircuitPython MPU6050 вызвать или создать %1 аргументы %2 именованные аргументы %3",
+    "tooltip": "Вызывает разрешённую функцию или конструктор CircuitPython MPU6050 и возвращает результат.",
+    "args0": [
+      {
+        "options": [
+          [
+            "MPU6050",
+            "MPU6050"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_mpu6050_do": {
+    "message0": "выполнить CircuitPython MPU6050 %1 аргументы %2 именованные аргументы %3",
+    "tooltip": "Выполняет разрешённую функцию или конструктор CircuitPython MPU6050 как инструкцию.",
+    "args0": [
+      {
+        "options": [
+          [
+            "MPU6050",
+            "MPU6050"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_mpu6050_method": {
+    "message0": "объект CircuitPython MPU6050 %1 метод %2 аргументы %3 именованные аргументы %4",
+    "tooltip": "Вызывает разрешённый метод объекта CircuitPython MPU6050 и возвращает результат.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "reset",
+            "reset"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_mpu6050_do_method": {
+    "message0": "выполнить метод CircuitPython MPU6050 объекта %1 %2 аргументы %3 именованные аргументы %4",
+    "tooltip": "Выполняет разрешённый метод объекта CircuitPython MPU6050 как инструкцию.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "reset",
+            "reset"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_mpu6050_attribute": {
+    "message0": "объект CircuitPython MPU6050 %1 атрибут %2",
+    "tooltip": "Читает разрешённый атрибут объекта или модуля CircuitPython MPU6050.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "acceleration",
+            "acceleration"
+          ],
+          [
+            "gyro",
+            "gyro"
+          ],
+          [
+            "temperature",
+            "temperature"
+          ],
+          [
+            "cycle_rate",
+            "cycle_rate"
+          ],
+          [
+            "filter_bandwidth",
+            "filter_bandwidth"
+          ],
+          [
+            "gyro_range",
+            "gyro_range"
+          ],
+          [
+            "accelerometer_range",
+            "accelerometer_range"
+          ],
+          [
+            "cycle",
+            "cycle"
+          ]
+        ]
+      }
+    ]
+  }
+}

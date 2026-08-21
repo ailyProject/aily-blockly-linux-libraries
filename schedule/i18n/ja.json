@@ -1,0 +1,242 @@
+{
+  "toolbox_name": "schedule",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_schedule_call": {
+    "message0": "schedule 呼び出しまたは作成 %1 引数 %2 キーワード引数 %3",
+    "tooltip": "許可された schedule の関数またはコンストラクターを呼び出して結果を返します。",
+    "args0": [
+      {
+        "options": [
+          [
+            "every",
+            "every"
+          ],
+          [
+            "run_pending",
+            "run_pending"
+          ],
+          [
+            "run_all",
+            "run_all"
+          ],
+          [
+            "clear",
+            "clear"
+          ],
+          [
+            "cancel_job",
+            "cancel_job"
+          ],
+          [
+            "get_jobs",
+            "get_jobs"
+          ],
+          [
+            "idle_seconds",
+            "idle_seconds"
+          ],
+          [
+            "repeat",
+            "repeat"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_schedule_do": {
+    "message0": "schedule を実行 %1 引数 %2 キーワード引数 %3",
+    "tooltip": "許可された schedule の関数またはコンストラクターを文として実行します。",
+    "args0": [
+      {
+        "options": [
+          [
+            "every",
+            "every"
+          ],
+          [
+            "run_pending",
+            "run_pending"
+          ],
+          [
+            "run_all",
+            "run_all"
+          ],
+          [
+            "clear",
+            "clear"
+          ],
+          [
+            "cancel_job",
+            "cancel_job"
+          ],
+          [
+            "get_jobs",
+            "get_jobs"
+          ],
+          [
+            "idle_seconds",
+            "idle_seconds"
+          ],
+          [
+            "repeat",
+            "repeat"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_schedule_method": {
+    "message0": "schedule オブジェクト %1 メソッド %2 引数 %3 キーワード引数 %4",
+    "tooltip": "許可された schedule オブジェクトのメソッドを呼び出して結果を返します。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "at",
+            "at"
+          ],
+          [
+            "until",
+            "until"
+          ],
+          [
+            "to",
+            "to"
+          ],
+          [
+            "do",
+            "do"
+          ],
+          [
+            "tag",
+            "tag"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_schedule_do_method": {
+    "message0": "schedule オブジェクト %1 のメソッド %2 を実行 引数 %3 キーワード引数 %4",
+    "tooltip": "許可された schedule オブジェクトのメソッドを文として実行します。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "at",
+            "at"
+          ],
+          [
+            "until",
+            "until"
+          ],
+          [
+            "to",
+            "to"
+          ],
+          [
+            "do",
+            "do"
+          ],
+          [
+            "tag",
+            "tag"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_schedule_attribute": {
+    "message0": "schedule オブジェクト %1 属性 %2",
+    "tooltip": "許可された schedule オブジェクトまたはモジュールの属性を読み取ります。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "next_run",
+            "next_run"
+          ],
+          [
+            "period",
+            "period"
+          ],
+          [
+            "unit",
+            "unit"
+          ],
+          [
+            "latest",
+            "latest"
+          ],
+          [
+            "start_day",
+            "start_day"
+          ],
+          [
+            "tags",
+            "tags"
+          ],
+          [
+            "seconds",
+            "seconds"
+          ],
+          [
+            "minutes",
+            "minutes"
+          ],
+          [
+            "hours",
+            "hours"
+          ],
+          [
+            "days",
+            "days"
+          ],
+          [
+            "weeks",
+            "weeks"
+          ],
+          [
+            "monday",
+            "monday"
+          ],
+          [
+            "tuesday",
+            "tuesday"
+          ],
+          [
+            "wednesday",
+            "wednesday"
+          ],
+          [
+            "thursday",
+            "thursday"
+          ],
+          [
+            "friday",
+            "friday"
+          ],
+          [
+            "saturday",
+            "saturday"
+          ],
+          [
+            "sunday",
+            "sunday"
+          ]
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "toolbox_name": "LiteRT / TFLite Runtime",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_tflite_runtime_call": {
+    "message0": "LiteRT / TFLite Runtime 호출 또는 생성 %1 인수 %2 키워드 인수 %3",
+    "tooltip": "허용 목록의 LiteRT / TFLite Runtime 함수 또는 생성자를 호출하고 결과를 반환합니다.",
+    "args0": [
+      {
+        "options": [
+          [
+            "Interpreter",
+            "Interpreter"
+          ],
+          [
+            "load_delegate",
+            "load_delegate"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_tflite_runtime_do": {
+    "message0": "LiteRT / TFLite Runtime 실행 %1 인수 %2 키워드 인수 %3",
+    "tooltip": "허용 목록의 LiteRT / TFLite Runtime 함수 또는 생성자를 문으로 실행합니다.",
+    "args0": [
+      {
+        "options": [
+          [
+            "Interpreter",
+            "Interpreter"
+          ],
+          [
+            "load_delegate",
+            "load_delegate"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_tflite_runtime_method": {
+    "message0": "LiteRT / TFLite Runtime 객체 %1 메서드 %2 인수 %3 키워드 인수 %4",
+    "tooltip": "허용 목록의 LiteRT / TFLite Runtime 객체 메서드를 호출하고 결과를 반환합니다.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "allocate_tensors",
+            "allocate_tensors"
+          ],
+          [
+            "get_input_details",
+            "get_input_details"
+          ],
+          [
+            "get_output_details",
+            "get_output_details"
+          ],
+          [
+            "set_tensor",
+            "set_tensor"
+          ],
+          [
+            "get_tensor",
+            "get_tensor"
+          ],
+          [
+            "invoke",
+            "invoke"
+          ],
+          [
+            "resize_tensor_input",
+            "resize_tensor_input"
+          ],
+          [
+            "get_signature_runner",
+            "get_signature_runner"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_tflite_runtime_do_method": {
+    "message0": "LiteRT / TFLite Runtime 객체 %1 메서드 실행 %2 인수 %3 키워드 인수 %4",
+    "tooltip": "허용 목록의 LiteRT / TFLite Runtime 객체 메서드를 문으로 실행합니다.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "allocate_tensors",
+            "allocate_tensors"
+          ],
+          [
+            "get_input_details",
+            "get_input_details"
+          ],
+          [
+            "get_output_details",
+            "get_output_details"
+          ],
+          [
+            "set_tensor",
+            "set_tensor"
+          ],
+          [
+            "get_tensor",
+            "get_tensor"
+          ],
+          [
+            "invoke",
+            "invoke"
+          ],
+          [
+            "resize_tensor_input",
+            "resize_tensor_input"
+          ],
+          [
+            "get_signature_runner",
+            "get_signature_runner"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  }
+}

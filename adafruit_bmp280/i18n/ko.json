@@ -1,0 +1,84 @@
+{
+  "toolbox_name": "CircuitPython BMP280",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_adafruit_bmp280_call": {
+    "message0": "CircuitPython BMP280 호출 또는 생성 %1 인수 %2 키워드 인수 %3",
+    "tooltip": "허용 목록의 CircuitPython BMP280 함수 또는 생성자를 호출하고 결과를 반환합니다.",
+    "args0": [
+      {
+        "options": [
+          [
+            "Adafruit_BMP280_I2C",
+            "Adafruit_BMP280_I2C"
+          ],
+          [
+            "Adafruit_BMP280_SPI",
+            "Adafruit_BMP280_SPI"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_bmp280_do": {
+    "message0": "CircuitPython BMP280 실행 %1 인수 %2 키워드 인수 %3",
+    "tooltip": "허용 목록의 CircuitPython BMP280 함수 또는 생성자를 문으로 실행합니다.",
+    "args0": [
+      {
+        "options": [
+          [
+            "Adafruit_BMP280_I2C",
+            "Adafruit_BMP280_I2C"
+          ],
+          [
+            "Adafruit_BMP280_SPI",
+            "Adafruit_BMP280_SPI"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_bmp280_attribute": {
+    "message0": "CircuitPython BMP280 객체 %1 속성 %2",
+    "tooltip": "허용 목록의 CircuitPython BMP280 객체 또는 모듈 속성을 읽습니다.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "temperature",
+            "temperature"
+          ],
+          [
+            "pressure",
+            "pressure"
+          ],
+          [
+            "altitude",
+            "altitude"
+          ],
+          [
+            "sea_level_pressure",
+            "sea_level_pressure"
+          ],
+          [
+            "mode",
+            "mode"
+          ],
+          [
+            "standby_period",
+            "standby_period"
+          ],
+          [
+            "iir_filter",
+            "iir_filter"
+          ]
+        ]
+      }
+    ]
+  }
+}

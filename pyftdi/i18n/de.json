@@ -1,0 +1,142 @@
+{
+  "toolbox_name": "PyFtdi GPIO",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "linux_pyftdi_call": {
+    "message0": "PyFtdi GPIO aufrufen oder erzeugen %1 Argumente %2 Schlüsselwortargumente %3",
+    "tooltip": "Eine freigegebene PyFtdi GPIO-Funktion oder einen Konstruktor aufrufen und das Ergebnis zurückgeben.",
+    "args0": [
+      {
+        "options": [
+          [
+            "GpioController",
+            "GpioController"
+          ],
+          [
+            "GpioAsyncController",
+            "GpioAsyncController"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "linux_pyftdi_do": {
+    "message0": "PyFtdi GPIO ausführen %1 Argumente %2 Schlüsselwortargumente %3",
+    "tooltip": "Eine freigegebene PyFtdi GPIO-Funktion oder einen Konstruktor als Anweisung ausführen.",
+    "args0": [
+      {
+        "options": [
+          [
+            "GpioController",
+            "GpioController"
+          ],
+          [
+            "GpioAsyncController",
+            "GpioAsyncController"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "linux_pyftdi_method": {
+    "message0": "PyFtdi GPIO-Objekt %1 Methode %2 Argumente %3 Schlüsselwortargumente %4",
+    "tooltip": "Eine freigegebene Methode eines PyFtdi GPIO-Objekts aufrufen und das Ergebnis zurückgeben.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "configure",
+            "configure"
+          ],
+          [
+            "set_direction",
+            "set_direction"
+          ],
+          [
+            "write",
+            "write"
+          ],
+          [
+            "read",
+            "read"
+          ],
+          [
+            "exchange",
+            "exchange"
+          ],
+          [
+            "close",
+            "close"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "linux_pyftdi_do_method": {
+    "message0": "PyFtdi GPIO-Objekt %1 Methode %2 ausführen Argumente %3 Schlüsselwortargumente %4",
+    "tooltip": "Eine freigegebene Methode eines PyFtdi GPIO-Objekts als Anweisung ausführen.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "configure",
+            "configure"
+          ],
+          [
+            "set_direction",
+            "set_direction"
+          ],
+          [
+            "write",
+            "write"
+          ],
+          [
+            "read",
+            "read"
+          ],
+          [
+            "exchange",
+            "exchange"
+          ],
+          [
+            "close",
+            "close"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "linux_pyftdi_attribute": {
+    "message0": "PyFtdi GPIO-Objekt %1 Attribut %2",
+    "tooltip": "Ein freigegebenes Attribut eines PyFtdi GPIO-Objekts oder Moduls lesen.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "frequency",
+            "frequency"
+          ],
+          [
+            "direction",
+            "direction"
+          ],
+          [
+            "pins",
+            "pins"
+          ]
+        ]
+      }
+    ]
+  }
+}

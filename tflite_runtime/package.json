@@ -1,0 +1,47 @@
+{
+  "name": "@aily-project/lib-tflite-runtime",
+  "nickname": "LiteRT / TFLite Runtime",
+  "nickname_zh_cn": "LiteRT / TFLite Runtime",
+  "nickname_en": "LiteRT / TFLite Runtime",
+  "nickname_zh_hk": "LiteRT / TFLite Runtime",
+  "nickname_ja": "LiteRT / TFLite Runtime",
+  "nickname_ko": "LiteRT / TFLite Runtime",
+  "nickname_de": "LiteRT / TFLite Runtime",
+  "nickname_fr": "LiteRT / TFLite Runtime",
+  "nickname_es": "LiteRT / TFLite Runtime",
+  "nickname_pt": "LiteRT / TFLite Runtime",
+  "nickname_ru": "LiteRT / TFLite Runtime",
+  "nickname_ar": "LiteRT / TFLite Runtime",
+  "version": "0.0.1",
+  "description": "面向树莓派与 Linux 开发板的 LiteRT / TFLite Runtime 常用 Python API 白名单积木。",
+  "description_zh_cn": "面向树莓派与 Linux 开发板的 LiteRT / TFLite Runtime 常用 Python API 白名单积木。",
+  "description_en": "Allowlisted LiteRT / TFLite Runtime Python API blocks for Raspberry Pi and Linux single-board computers.",
+  "spec": true,
+  "compatibility": {
+    "type": [
+      "canaan:k230:cybercam",
+      "broadcom:bcm2712:raspberrypi_5",
+      "allwinner:t527:walnutpi_2b"
+    ],
+    "voltage": [
+      3.3
+    ]
+  },
+  "keywords": [
+    "aily",
+    "blockly",
+    "python",
+    "linux",
+    "raspberry-pi",
+    "tflite-runtime",
+    "tflite_runtime.interpreter"
+  ],
+  "tags": [
+    "display"
+  ],
+  "author": "ailyProject",
+  "license": "MIT",
+  "homepage": "https://ai.google.dev/edge/litert",
+  "dependencies": {},
+  "devDependencies": {}
+}

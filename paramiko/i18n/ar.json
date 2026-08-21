@@ -1,0 +1,223 @@
+{
+  "toolbox_name": "Paramiko",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_paramiko_call": {
+    "message0": "Paramiko استدعاء أو إنشاء %1 الوسائط %2 وسائط الكلمات المفتاحية %3",
+    "tooltip": "استدعاء دالة أو مُنشئ مسموح من Paramiko وإرجاع النتيجة.",
+    "args0": [
+      {
+        "options": [
+          [
+            "SSHClient",
+            "SSHClient"
+          ],
+          [
+            "Transport",
+            "Transport"
+          ],
+          [
+            "SFTPClient",
+            "SFTPClient"
+          ],
+          [
+            "AutoAddPolicy",
+            "AutoAddPolicy"
+          ],
+          [
+            "RSAKey",
+            "RSAKey"
+          ],
+          [
+            "Ed25519Key",
+            "Ed25519Key"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_paramiko_do": {
+    "message0": "تشغيل Paramiko %1 الوسائط %2 وسائط الكلمات المفتاحية %3",
+    "tooltip": "تشغيل دالة أو مُنشئ مسموح من Paramiko كتعليمة.",
+    "args0": [
+      {
+        "options": [
+          [
+            "SSHClient",
+            "SSHClient"
+          ],
+          [
+            "Transport",
+            "Transport"
+          ],
+          [
+            "SFTPClient",
+            "SFTPClient"
+          ],
+          [
+            "AutoAddPolicy",
+            "AutoAddPolicy"
+          ],
+          [
+            "RSAKey",
+            "RSAKey"
+          ],
+          [
+            "Ed25519Key",
+            "Ed25519Key"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_paramiko_method": {
+    "message0": "كائن Paramiko %1 الطريقة %2 الوسائط %3 وسائط الكلمات المفتاحية %4",
+    "tooltip": "استدعاء طريقة مسموحة لكائن Paramiko وإرجاع النتيجة.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "connect",
+            "connect"
+          ],
+          [
+            "exec_command",
+            "exec_command"
+          ],
+          [
+            "open_sftp",
+            "open_sftp"
+          ],
+          [
+            "close",
+            "close"
+          ],
+          [
+            "set_missing_host_key_policy",
+            "set_missing_host_key_policy"
+          ],
+          [
+            "load_system_host_keys",
+            "load_system_host_keys"
+          ],
+          [
+            "load_host_keys",
+            "load_host_keys"
+          ],
+          [
+            "get_host_keys",
+            "get_host_keys"
+          ],
+          [
+            "get_transport",
+            "get_transport"
+          ],
+          [
+            "is_active",
+            "is_active"
+          ],
+          [
+            "is_authenticated",
+            "is_authenticated"
+          ],
+          [
+            "put",
+            "put"
+          ],
+          [
+            "get",
+            "get"
+          ],
+          [
+            "listdir",
+            "listdir"
+          ],
+          [
+            "open",
+            "open"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_paramiko_do_method": {
+    "message0": "تشغيل طريقة Paramiko للكائن %1 %2 الوسائط %3 وسائط الكلمات المفتاحية %4",
+    "tooltip": "تشغيل طريقة مسموحة لكائن Paramiko كتعليمة.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "connect",
+            "connect"
+          ],
+          [
+            "exec_command",
+            "exec_command"
+          ],
+          [
+            "open_sftp",
+            "open_sftp"
+          ],
+          [
+            "close",
+            "close"
+          ],
+          [
+            "set_missing_host_key_policy",
+            "set_missing_host_key_policy"
+          ],
+          [
+            "load_system_host_keys",
+            "load_system_host_keys"
+          ],
+          [
+            "load_host_keys",
+            "load_host_keys"
+          ],
+          [
+            "get_host_keys",
+            "get_host_keys"
+          ],
+          [
+            "get_transport",
+            "get_transport"
+          ],
+          [
+            "is_active",
+            "is_active"
+          ],
+          [
+            "is_authenticated",
+            "is_authenticated"
+          ],
+          [
+            "put",
+            "put"
+          ],
+          [
+            "get",
+            "get"
+          ],
+          [
+            "listdir",
+            "listdir"
+          ],
+          [
+            "open",
+            "open"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  }
+}

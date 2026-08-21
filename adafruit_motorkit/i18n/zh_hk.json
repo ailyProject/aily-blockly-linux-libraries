@@ -1,0 +1,72 @@
+{
+  "toolbox_name": "CircuitPython MotorKit",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_adafruit_motorkit_call": {
+    "message0": "CircuitPython MotorKit 呼叫或建立 %1 參數 %2 關鍵字參數 %3",
+    "tooltip": "呼叫白名單中的 CircuitPython MotorKit 函式或建構器並傳回結果。",
+    "args0": [
+      {
+        "options": [
+          [
+            "MotorKit",
+            "MotorKit"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_motorkit_do": {
+    "message0": "執行 CircuitPython MotorKit %1 參數 %2 關鍵字參數 %3",
+    "tooltip": "以敘述方式執行白名單中的 CircuitPython MotorKit 函式或建構器。",
+    "args0": [
+      {
+        "options": [
+          [
+            "MotorKit",
+            "MotorKit"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_motorkit_attribute": {
+    "message0": "CircuitPython MotorKit 物件 %1 屬性 %2",
+    "tooltip": "讀取白名單中的 CircuitPython MotorKit 物件或模組屬性。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "motor1",
+            "motor1"
+          ],
+          [
+            "motor2",
+            "motor2"
+          ],
+          [
+            "motor3",
+            "motor3"
+          ],
+          [
+            "motor4",
+            "motor4"
+          ],
+          [
+            "stepper1",
+            "stepper1"
+          ],
+          [
+            "stepper2",
+            "stepper2"
+          ]
+        ]
+      }
+    ]
+  }
+}

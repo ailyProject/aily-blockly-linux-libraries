@@ -1,0 +1,47 @@
+{
+  "name": "@aily-project/lib-pygame",
+  "nickname": "pygame",
+  "nickname_zh_cn": "pygame",
+  "nickname_en": "pygame",
+  "nickname_zh_hk": "pygame",
+  "nickname_ja": "pygame",
+  "nickname_ko": "pygame",
+  "nickname_de": "pygame",
+  "nickname_fr": "pygame",
+  "nickname_es": "pygame",
+  "nickname_pt": "pygame",
+  "nickname_ru": "pygame",
+  "nickname_ar": "pygame",
+  "version": "0.0.1",
+  "description": "面向树莓派与 Linux 开发板的 pygame 常用 Python API 白名单积木。",
+  "description_zh_cn": "面向树莓派与 Linux 开发板的 pygame 常用 Python API 白名单积木。",
+  "description_en": "Allowlisted pygame Python API blocks for Raspberry Pi and Linux single-board computers.",
+  "spec": true,
+  "compatibility": {
+    "type": [
+      "canaan:k230:cybercam",
+      "broadcom:bcm2712:raspberrypi_5",
+      "allwinner:t527:walnutpi_2b"
+    ],
+    "voltage": [
+      3.3
+    ]
+  },
+  "keywords": [
+    "aily",
+    "blockly",
+    "python",
+    "linux",
+    "raspberry-pi",
+    "pygame",
+    "pygame"
+  ],
+  "tags": [
+    "audio"
+  ],
+  "author": "ailyProject",
+  "license": "MIT",
+  "homepage": "https://www.pygame.org/docs/",
+  "dependencies": {},
+  "devDependencies": {}
+}

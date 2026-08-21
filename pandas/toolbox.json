@@ -1,0 +1,27 @@
+{
+  "kind": "category",
+  "name": "pandas",
+  "colour": "#7B1FA2",
+  "contents": [
+    {
+      "kind": "block",
+      "type": "python_pandas_call"
+    },
+    {
+      "kind": "block",
+      "type": "python_pandas_do"
+    },
+    {
+      "kind": "block",
+      "type": "python_pandas_method"
+    },
+    {
+      "kind": "block",
+      "type": "python_pandas_do_method"
+    },
+    {
+      "kind": "block",
+      "type": "python_pandas_attribute"
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "toolbox_name": "W1ThermSensor",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_w1thermsensor_call": {
+    "message0": "W1ThermSensor chamar ou criar %1 argumentos %2 argumentos nomeados %3",
+    "tooltip": "Chama uma função ou construtor permitido de W1ThermSensor e devolve o resultado.",
+    "args0": [
+      {
+        "options": [
+          [
+            "W1ThermSensor",
+            "W1ThermSensor"
+          ],
+          [
+            "Unit",
+            "Unit"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_w1thermsensor_do": {
+    "message0": "executar W1ThermSensor %1 argumentos %2 argumentos nomeados %3",
+    "tooltip": "Executa uma função ou construtor permitido de W1ThermSensor como instrução.",
+    "args0": [
+      {
+        "options": [
+          [
+            "W1ThermSensor",
+            "W1ThermSensor"
+          ],
+          [
+            "Unit",
+            "Unit"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_w1thermsensor_method": {
+    "message0": "objeto W1ThermSensor %1 método %2 argumentos %3 argumentos nomeados %4",
+    "tooltip": "Chama um método permitido de um objeto W1ThermSensor e devolve o resultado.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "get_temperature",
+            "get_temperature"
+          ],
+          [
+            "get_temperatures",
+            "get_temperatures"
+          ],
+          [
+            "get_sensor",
+            "get_sensor"
+          ],
+          [
+            "get_available_sensors",
+            "get_available_sensors"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_w1thermsensor_do_method": {
+    "message0": "executar método de W1ThermSensor objeto %1 %2 argumentos %3 argumentos nomeados %4",
+    "tooltip": "Executa um método permitido de um objeto W1ThermSensor como instrução.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "get_temperature",
+            "get_temperature"
+          ],
+          [
+            "get_temperatures",
+            "get_temperatures"
+          ],
+          [
+            "get_sensor",
+            "get_sensor"
+          ],
+          [
+            "get_available_sensors",
+            "get_available_sensors"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_w1thermsensor_attribute": {
+    "message0": "objeto W1ThermSensor %1 atributo %2",
+    "tooltip": "Lê um atributo permitido de um objeto ou módulo W1ThermSensor.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "id",
+            "id"
+          ],
+          [
+            "type",
+            "type"
+          ],
+          [
+            "slave_file",
+            "slave_file"
+          ]
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "category",
+  "name": "CircuitPython BME680",
+  "colour": "#00897B",
+  "contents": [
+    {
+      "kind": "block",
+      "type": "python_adafruit_bme680_call"
+    },
+    {
+      "kind": "block",
+      "type": "python_adafruit_bme680_do"
+    },
+    {
+      "kind": "block",
+      "type": "python_adafruit_bme680_attribute"
+    }
+  ]
+}

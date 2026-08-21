@@ -1,0 +1,214 @@
+{
+  "toolbox_name": "Build HAT",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "rpi_buildhat_call": {
+    "message0": "Build HAT استدعاء أو إنشاء %1 الوسائط %2 وسائط الكلمات المفتاحية %3",
+    "tooltip": "استدعاء دالة أو مُنشئ مسموح من Build HAT وإرجاع النتيجة.",
+    "args0": [
+      {
+        "options": [
+          [
+            "Motor",
+            "Motor"
+          ],
+          [
+            "MotorPair",
+            "MotorPair"
+          ],
+          [
+            "ColorSensor",
+            "ColorSensor"
+          ],
+          [
+            "DistanceSensor",
+            "DistanceSensor"
+          ],
+          [
+            "ForceSensor",
+            "ForceSensor"
+          ],
+          [
+            "Matrix",
+            "Matrix"
+          ],
+          [
+            "Light",
+            "Light"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "rpi_buildhat_do": {
+    "message0": "تشغيل Build HAT %1 الوسائط %2 وسائط الكلمات المفتاحية %3",
+    "tooltip": "تشغيل دالة أو مُنشئ مسموح من Build HAT كتعليمة.",
+    "args0": [
+      {
+        "options": [
+          [
+            "Motor",
+            "Motor"
+          ],
+          [
+            "MotorPair",
+            "MotorPair"
+          ],
+          [
+            "ColorSensor",
+            "ColorSensor"
+          ],
+          [
+            "DistanceSensor",
+            "DistanceSensor"
+          ],
+          [
+            "ForceSensor",
+            "ForceSensor"
+          ],
+          [
+            "Matrix",
+            "Matrix"
+          ],
+          [
+            "Light",
+            "Light"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "rpi_buildhat_method": {
+    "message0": "كائن Build HAT %1 الطريقة %2 الوسائط %3 وسائط الكلمات المفتاحية %4",
+    "tooltip": "استدعاء طريقة مسموحة لكائن Build HAT وإرجاع النتيجة.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "run_for_seconds",
+            "run_for_seconds"
+          ],
+          [
+            "run_for_degrees",
+            "run_for_degrees"
+          ],
+          [
+            "start",
+            "start"
+          ],
+          [
+            "stop",
+            "stop"
+          ],
+          [
+            "get_aposition",
+            "get_aposition"
+          ],
+          [
+            "get_color",
+            "get_color"
+          ],
+          [
+            "get_distance",
+            "get_distance"
+          ],
+          [
+            "get_force",
+            "get_force"
+          ],
+          [
+            "on",
+            "on"
+          ],
+          [
+            "off",
+            "off"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "rpi_buildhat_do_method": {
+    "message0": "تشغيل طريقة Build HAT للكائن %1 %2 الوسائط %3 وسائط الكلمات المفتاحية %4",
+    "tooltip": "تشغيل طريقة مسموحة لكائن Build HAT كتعليمة.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "run_for_seconds",
+            "run_for_seconds"
+          ],
+          [
+            "run_for_degrees",
+            "run_for_degrees"
+          ],
+          [
+            "start",
+            "start"
+          ],
+          [
+            "stop",
+            "stop"
+          ],
+          [
+            "get_aposition",
+            "get_aposition"
+          ],
+          [
+            "get_color",
+            "get_color"
+          ],
+          [
+            "get_distance",
+            "get_distance"
+          ],
+          [
+            "get_force",
+            "get_force"
+          ],
+          [
+            "on",
+            "on"
+          ],
+          [
+            "off",
+            "off"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "rpi_buildhat_attribute": {
+    "message0": "كائن Build HAT %1 السمة %2",
+    "tooltip": "قراءة سمة مسموحة لكائن أو وحدة Build HAT.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "position",
+            "position"
+          ],
+          [
+            "when_pressed",
+            "when_pressed"
+          ],
+          [
+            "when_released",
+            "when_released"
+          ]
+        ]
+      }
+    ]
+  }
+}

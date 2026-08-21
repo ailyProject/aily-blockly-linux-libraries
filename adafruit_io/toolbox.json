@@ -1,0 +1,27 @@
+{
+  "kind": "category",
+  "name": "Adafruit IO",
+  "colour": "#0288D1",
+  "contents": [
+    {
+      "kind": "block",
+      "type": "python_adafruit_io_call"
+    },
+    {
+      "kind": "block",
+      "type": "python_adafruit_io_do"
+    },
+    {
+      "kind": "block",
+      "type": "python_adafruit_io_method"
+    },
+    {
+      "kind": "block",
+      "type": "python_adafruit_io_do_method"
+    },
+    {
+      "kind": "block",
+      "type": "python_adafruit_io_attribute"
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "toolbox_name": "PyYAML",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_pyyaml_call": {
+    "message0": "PyYAML вызвать или создать %1 аргументы %2 именованные аргументы %3",
+    "tooltip": "Вызывает разрешённую функцию или конструктор PyYAML и возвращает результат.",
+    "args0": [
+      {
+        "options": [
+          [
+            "safe_load",
+            "safe_load"
+          ],
+          [
+            "safe_load_all",
+            "safe_load_all"
+          ],
+          [
+            "safe_dump",
+            "safe_dump"
+          ],
+          [
+            "safe_dump_all",
+            "safe_dump_all"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_pyyaml_do": {
+    "message0": "выполнить PyYAML %1 аргументы %2 именованные аргументы %3",
+    "tooltip": "Выполняет разрешённую функцию или конструктор PyYAML как инструкцию.",
+    "args0": [
+      {
+        "options": [
+          [
+            "safe_load",
+            "safe_load"
+          ],
+          [
+            "safe_load_all",
+            "safe_load_all"
+          ],
+          [
+            "safe_dump",
+            "safe_dump"
+          ],
+          [
+            "safe_dump_all",
+            "safe_dump_all"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_pyyaml_attribute": {
+    "message0": "объект PyYAML %1 атрибут %2",
+    "tooltip": "Читает разрешённый атрибут объекта или модуля PyYAML.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "SafeLoader",
+            "SafeLoader"
+          ],
+          [
+            "CSafeLoader",
+            "CSafeLoader"
+          ],
+          [
+            "SafeDumper",
+            "SafeDumper"
+          ],
+          [
+            "CSafeDumper",
+            "CSafeDumper"
+          ]
+        ]
+      }
+    ]
+  }
+}

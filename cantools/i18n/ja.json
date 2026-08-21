@@ -1,0 +1,154 @@
+{
+  "toolbox_name": "cantools",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_cantools_call": {
+    "message0": "cantools 呼び出しまたは作成 %1 引数 %2 キーワード引数 %3",
+    "tooltip": "許可された cantools の関数またはコンストラクターを呼び出して結果を返します。",
+    "args0": [
+      {
+        "options": [
+          [
+            "database.load_file",
+            "database.load_file"
+          ],
+          [
+            "database.load_string",
+            "database.load_string"
+          ],
+          [
+            "database.load",
+            "database.load"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_cantools_do": {
+    "message0": "cantools を実行 %1 引数 %2 キーワード引数 %3",
+    "tooltip": "許可された cantools の関数またはコンストラクターを文として実行します。",
+    "args0": [
+      {
+        "options": [
+          [
+            "database.load_file",
+            "database.load_file"
+          ],
+          [
+            "database.load_string",
+            "database.load_string"
+          ],
+          [
+            "database.load",
+            "database.load"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_cantools_method": {
+    "message0": "cantools オブジェクト %1 メソッド %2 引数 %3 キーワード引数 %4",
+    "tooltip": "許可された cantools オブジェクトのメソッドを呼び出して結果を返します。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "encode_message",
+            "encode_message"
+          ],
+          [
+            "decode_message",
+            "decode_message"
+          ],
+          [
+            "get_message_by_name",
+            "get_message_by_name"
+          ],
+          [
+            "refresh",
+            "refresh"
+          ],
+          [
+            "as_dbc_string",
+            "as_dbc_string"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_cantools_do_method": {
+    "message0": "cantools オブジェクト %1 のメソッド %2 を実行 引数 %3 キーワード引数 %4",
+    "tooltip": "許可された cantools オブジェクトのメソッドを文として実行します。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "encode_message",
+            "encode_message"
+          ],
+          [
+            "decode_message",
+            "decode_message"
+          ],
+          [
+            "get_message_by_name",
+            "get_message_by_name"
+          ],
+          [
+            "refresh",
+            "refresh"
+          ],
+          [
+            "as_dbc_string",
+            "as_dbc_string"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_cantools_attribute": {
+    "message0": "cantools オブジェクト %1 属性 %2",
+    "tooltip": "許可された cantools オブジェクトまたはモジュールの属性を読み取ります。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "messages",
+            "messages"
+          ],
+          [
+            "nodes",
+            "nodes"
+          ],
+          [
+            "buses",
+            "buses"
+          ],
+          [
+            "name",
+            "name"
+          ],
+          [
+            "frame_id",
+            "frame_id"
+          ],
+          [
+            "signals",
+            "signals"
+          ]
+        ]
+      }
+    ]
+  }
+}

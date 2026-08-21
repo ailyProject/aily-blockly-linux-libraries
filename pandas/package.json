@@ -1,0 +1,47 @@
+{
+  "name": "@aily-project/lib-pandas",
+  "nickname": "pandas",
+  "nickname_zh_cn": "pandas",
+  "nickname_en": "pandas",
+  "nickname_zh_hk": "pandas",
+  "nickname_ja": "pandas",
+  "nickname_ko": "pandas",
+  "nickname_de": "pandas",
+  "nickname_fr": "pandas",
+  "nickname_es": "pandas",
+  "nickname_pt": "pandas",
+  "nickname_ru": "pandas",
+  "nickname_ar": "pandas",
+  "version": "0.0.1",
+  "description": "面向树莓派与 Linux 开发板的 pandas 常用 Python API 白名单积木。",
+  "description_zh_cn": "面向树莓派与 Linux 开发板的 pandas 常用 Python API 白名单积木。",
+  "description_en": "Allowlisted pandas Python API blocks for Raspberry Pi and Linux single-board computers.",
+  "spec": true,
+  "compatibility": {
+    "type": [
+      "canaan:k230:cybercam",
+      "broadcom:bcm2712:raspberrypi_5",
+      "allwinner:t527:walnutpi_2b"
+    ],
+    "voltage": [
+      3.3
+    ]
+  },
+  "keywords": [
+    "aily",
+    "blockly",
+    "python",
+    "linux",
+    "raspberry-pi",
+    "pandas",
+    "pandas"
+  ],
+  "tags": [
+    "data"
+  ],
+  "author": "ailyProject",
+  "license": "MIT",
+  "homepage": "https://pandas.pydata.org/docs/",
+  "dependencies": {},
+  "devDependencies": {}
+}

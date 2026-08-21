@@ -1,0 +1,160 @@
+{
+  "toolbox_name": "SciPy Signal",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_scipy_call": {
+    "message0": "SciPy Signal call or create %1 arguments %2 keyword arguments %3",
+    "tooltip": "Call an allowlisted SciPy Signal function or constructor and return its result.",
+    "args0": [
+      {
+        "options": [
+          [
+            "butter",
+            "butter"
+          ],
+          [
+            "sosfilt",
+            "sosfilt"
+          ],
+          [
+            "sosfiltfilt",
+            "sosfiltfilt"
+          ],
+          [
+            "filtfilt",
+            "filtfilt"
+          ],
+          [
+            "find_peaks",
+            "find_peaks"
+          ],
+          [
+            "welch",
+            "welch"
+          ],
+          [
+            "periodogram",
+            "periodogram"
+          ],
+          [
+            "convolve",
+            "convolve"
+          ],
+          [
+            "correlate",
+            "correlate"
+          ],
+          [
+            "resample",
+            "resample"
+          ],
+          [
+            "spectrogram",
+            "spectrogram"
+          ],
+          [
+            "stft",
+            "stft"
+          ],
+          [
+            "istft",
+            "istft"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_scipy_do": {
+    "message0": "run SciPy Signal %1 arguments %2 keyword arguments %3",
+    "tooltip": "Run an allowlisted SciPy Signal function or constructor as a statement.",
+    "args0": [
+      {
+        "options": [
+          [
+            "butter",
+            "butter"
+          ],
+          [
+            "sosfilt",
+            "sosfilt"
+          ],
+          [
+            "sosfiltfilt",
+            "sosfiltfilt"
+          ],
+          [
+            "filtfilt",
+            "filtfilt"
+          ],
+          [
+            "find_peaks",
+            "find_peaks"
+          ],
+          [
+            "welch",
+            "welch"
+          ],
+          [
+            "periodogram",
+            "periodogram"
+          ],
+          [
+            "convolve",
+            "convolve"
+          ],
+          [
+            "correlate",
+            "correlate"
+          ],
+          [
+            "resample",
+            "resample"
+          ],
+          [
+            "spectrogram",
+            "spectrogram"
+          ],
+          [
+            "stft",
+            "stft"
+          ],
+          [
+            "istft",
+            "istft"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_scipy_attribute": {
+    "message0": "SciPy Signal object %1 attribute %2",
+    "tooltip": "Read an allowlisted SciPy Signal object or module attribute.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "shape",
+            "shape"
+          ],
+          [
+            "dtype",
+            "dtype"
+          ],
+          [
+            "ndim",
+            "ndim"
+          ],
+          [
+            "size",
+            "size"
+          ]
+        ]
+      }
+    ]
+  }
+}

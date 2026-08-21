@@ -1,0 +1,186 @@
+{
+  "toolbox_name": "ROS 2 rclpy",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_rclpy_call": {
+    "message0": "ROS 2 rclpy aufrufen oder erzeugen %1 Argumente %2 Schlüsselwortargumente %3",
+    "tooltip": "Eine freigegebene ROS 2 rclpy-Funktion oder einen Konstruktor aufrufen und das Ergebnis zurückgeben.",
+    "args0": [
+      {
+        "options": [
+          [
+            "init",
+            "init"
+          ],
+          [
+            "shutdown",
+            "shutdown"
+          ],
+          [
+            "ok",
+            "ok"
+          ],
+          [
+            "spin",
+            "spin"
+          ],
+          [
+            "spin_once",
+            "spin_once"
+          ],
+          [
+            "create_node",
+            "create_node"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_rclpy_do": {
+    "message0": "ROS 2 rclpy ausführen %1 Argumente %2 Schlüsselwortargumente %3",
+    "tooltip": "Eine freigegebene ROS 2 rclpy-Funktion oder einen Konstruktor als Anweisung ausführen.",
+    "args0": [
+      {
+        "options": [
+          [
+            "init",
+            "init"
+          ],
+          [
+            "shutdown",
+            "shutdown"
+          ],
+          [
+            "ok",
+            "ok"
+          ],
+          [
+            "spin",
+            "spin"
+          ],
+          [
+            "spin_once",
+            "spin_once"
+          ],
+          [
+            "create_node",
+            "create_node"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_rclpy_method": {
+    "message0": "ROS 2 rclpy-Objekt %1 Methode %2 Argumente %3 Schlüsselwortargumente %4",
+    "tooltip": "Eine freigegebene Methode eines ROS 2 rclpy-Objekts aufrufen und das Ergebnis zurückgeben.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "create_publisher",
+            "create_publisher"
+          ],
+          [
+            "create_subscription",
+            "create_subscription"
+          ],
+          [
+            "create_timer",
+            "create_timer"
+          ],
+          [
+            "create_client",
+            "create_client"
+          ],
+          [
+            "create_service",
+            "create_service"
+          ],
+          [
+            "get_logger",
+            "get_logger"
+          ],
+          [
+            "destroy_node",
+            "destroy_node"
+          ],
+          [
+            "publish",
+            "publish"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_rclpy_do_method": {
+    "message0": "ROS 2 rclpy-Objekt %1 Methode %2 ausführen Argumente %3 Schlüsselwortargumente %4",
+    "tooltip": "Eine freigegebene Methode eines ROS 2 rclpy-Objekts als Anweisung ausführen.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "create_publisher",
+            "create_publisher"
+          ],
+          [
+            "create_subscription",
+            "create_subscription"
+          ],
+          [
+            "create_timer",
+            "create_timer"
+          ],
+          [
+            "create_client",
+            "create_client"
+          ],
+          [
+            "create_service",
+            "create_service"
+          ],
+          [
+            "get_logger",
+            "get_logger"
+          ],
+          [
+            "destroy_node",
+            "destroy_node"
+          ],
+          [
+            "publish",
+            "publish"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_rclpy_attribute": {
+    "message0": "ROS 2 rclpy-Objekt %1 Attribut %2",
+    "tooltip": "Ein freigegebenes Attribut eines ROS 2 rclpy-Objekts oder Moduls lesen.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "context",
+            "context"
+          ],
+          [
+            "default_callback_group",
+            "default_callback_group"
+          ]
+        ]
+      }
+    ]
+  }
+}

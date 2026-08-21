@@ -1,0 +1,130 @@
+{
+  "toolbox_name": "qrcode",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_qrcode_call": {
+    "message0": "qrcode 呼び出しまたは作成 %1 引数 %2 キーワード引数 %3",
+    "tooltip": "許可された qrcode の関数またはコンストラクターを呼び出して結果を返します。",
+    "args0": [
+      {
+        "options": [
+          [
+            "make",
+            "make"
+          ],
+          [
+            "QRCode",
+            "QRCode"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_qrcode_do": {
+    "message0": "qrcode を実行 %1 引数 %2 キーワード引数 %3",
+    "tooltip": "許可された qrcode の関数またはコンストラクターを文として実行します。",
+    "args0": [
+      {
+        "options": [
+          [
+            "make",
+            "make"
+          ],
+          [
+            "QRCode",
+            "QRCode"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_qrcode_method": {
+    "message0": "qrcode オブジェクト %1 メソッド %2 引数 %3 キーワード引数 %4",
+    "tooltip": "許可された qrcode オブジェクトのメソッドを呼び出して結果を返します。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "add_data",
+            "add_data"
+          ],
+          [
+            "make",
+            "make"
+          ],
+          [
+            "make_image",
+            "make_image"
+          ],
+          [
+            "clear",
+            "clear"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_qrcode_do_method": {
+    "message0": "qrcode オブジェクト %1 のメソッド %2 を実行 引数 %3 キーワード引数 %4",
+    "tooltip": "許可された qrcode オブジェクトのメソッドを文として実行します。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "add_data",
+            "add_data"
+          ],
+          [
+            "make",
+            "make"
+          ],
+          [
+            "make_image",
+            "make_image"
+          ],
+          [
+            "clear",
+            "clear"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_qrcode_attribute": {
+    "message0": "qrcode オブジェクト %1 属性 %2",
+    "tooltip": "許可された qrcode オブジェクトまたはモジュールの属性を読み取ります。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "version",
+            "version"
+          ],
+          [
+            "error_correction",
+            "error_correction"
+          ],
+          [
+            "box_size",
+            "box_size"
+          ],
+          [
+            "border",
+            "border"
+          ]
+        ]
+      }
+    ]
+  }
+}

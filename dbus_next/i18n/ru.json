@@ -1,0 +1,142 @@
+{
+  "toolbox_name": "dbus-next",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_dbus_next_call": {
+    "message0": "dbus-next вызвать или создать %1 аргументы %2 именованные аргументы %3",
+    "tooltip": "Вызывает разрешённую функцию или конструктор dbus-next и возвращает результат.",
+    "args0": [
+      {
+        "options": [
+          [
+            "MessageBus",
+            "MessageBus"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_dbus_next_do": {
+    "message0": "выполнить dbus-next %1 аргументы %2 именованные аргументы %3",
+    "tooltip": "Выполняет разрешённую функцию или конструктор dbus-next как инструкцию.",
+    "args0": [
+      {
+        "options": [
+          [
+            "MessageBus",
+            "MessageBus"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_dbus_next_method": {
+    "message0": "объект dbus-next %1 метод %2 аргументы %3 именованные аргументы %4",
+    "tooltip": "Вызывает разрешённый метод объекта dbus-next и возвращает результат.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "connect",
+            "connect"
+          ],
+          [
+            "disconnect",
+            "disconnect"
+          ],
+          [
+            "introspect",
+            "introspect"
+          ],
+          [
+            "get_proxy_object",
+            "get_proxy_object"
+          ],
+          [
+            "call",
+            "call"
+          ],
+          [
+            "export",
+            "export"
+          ],
+          [
+            "unexport",
+            "unexport"
+          ],
+          [
+            "request_name",
+            "request_name"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_dbus_next_do_method": {
+    "message0": "выполнить метод dbus-next объекта %1 %2 аргументы %3 именованные аргументы %4",
+    "tooltip": "Выполняет разрешённый метод объекта dbus-next как инструкцию.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "connect",
+            "connect"
+          ],
+          [
+            "disconnect",
+            "disconnect"
+          ],
+          [
+            "introspect",
+            "introspect"
+          ],
+          [
+            "get_proxy_object",
+            "get_proxy_object"
+          ],
+          [
+            "call",
+            "call"
+          ],
+          [
+            "export",
+            "export"
+          ],
+          [
+            "unexport",
+            "unexport"
+          ],
+          [
+            "request_name",
+            "request_name"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_dbus_next_attribute": {
+    "message0": "объект dbus-next %1 атрибут %2",
+    "tooltip": "Читает разрешённый атрибут объекта или модуля dbus-next.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "unique_name",
+            "unique_name"
+          ]
+        ]
+      }
+    ]
+  }
+}

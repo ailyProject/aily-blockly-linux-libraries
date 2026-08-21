@@ -1,0 +1,298 @@
+{
+  "toolbox_name": "Adafruit Blinka",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_adafruit_blinka_call": {
+    "message0": "Adafruit Blinka llamar o crear %1 argumentos %2 argumentos con nombre %3",
+    "tooltip": "Llama a una función o constructor permitido de Adafruit Blinka y devuelve el resultado.",
+    "args0": [
+      {
+        "options": [
+          [
+            "I2C",
+            "I2C"
+          ],
+          [
+            "SPI",
+            "SPI"
+          ],
+          [
+            "DigitalInOut",
+            "DigitalInOut"
+          ],
+          [
+            "PWMOut",
+            "PWMOut"
+          ],
+          [
+            "UART",
+            "UART"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_blinka_do": {
+    "message0": "ejecutar Adafruit Blinka %1 argumentos %2 argumentos con nombre %3",
+    "tooltip": "Ejecuta una función o constructor permitido de Adafruit Blinka como sentencia.",
+    "args0": [
+      {
+        "options": [
+          [
+            "I2C",
+            "I2C"
+          ],
+          [
+            "SPI",
+            "SPI"
+          ],
+          [
+            "DigitalInOut",
+            "DigitalInOut"
+          ],
+          [
+            "PWMOut",
+            "PWMOut"
+          ],
+          [
+            "UART",
+            "UART"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_blinka_method": {
+    "message0": "objeto Adafruit Blinka %1 método %2 argumentos %3 argumentos con nombre %4",
+    "tooltip": "Llama a un método permitido de un objeto Adafruit Blinka y devuelve el resultado.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "try_lock",
+            "try_lock"
+          ],
+          [
+            "unlock",
+            "unlock"
+          ],
+          [
+            "scan",
+            "scan"
+          ],
+          [
+            "readfrom_into",
+            "readfrom_into"
+          ],
+          [
+            "writeto",
+            "writeto"
+          ],
+          [
+            "writeto_then_readfrom",
+            "writeto_then_readfrom"
+          ],
+          [
+            "configure",
+            "configure"
+          ],
+          [
+            "switch_to_input",
+            "switch_to_input"
+          ],
+          [
+            "switch_to_output",
+            "switch_to_output"
+          ],
+          [
+            "read",
+            "read"
+          ],
+          [
+            "readinto",
+            "readinto"
+          ],
+          [
+            "write",
+            "write"
+          ],
+          [
+            "deinit",
+            "deinit"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_blinka_do_method": {
+    "message0": "ejecutar método de Adafruit Blinka objeto %1 %2 argumentos %3 argumentos con nombre %4",
+    "tooltip": "Ejecuta un método permitido de un objeto Adafruit Blinka como sentencia.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "try_lock",
+            "try_lock"
+          ],
+          [
+            "unlock",
+            "unlock"
+          ],
+          [
+            "scan",
+            "scan"
+          ],
+          [
+            "readfrom_into",
+            "readfrom_into"
+          ],
+          [
+            "writeto",
+            "writeto"
+          ],
+          [
+            "writeto_then_readfrom",
+            "writeto_then_readfrom"
+          ],
+          [
+            "configure",
+            "configure"
+          ],
+          [
+            "switch_to_input",
+            "switch_to_input"
+          ],
+          [
+            "switch_to_output",
+            "switch_to_output"
+          ],
+          [
+            "read",
+            "read"
+          ],
+          [
+            "readinto",
+            "readinto"
+          ],
+          [
+            "write",
+            "write"
+          ],
+          [
+            "deinit",
+            "deinit"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_blinka_attribute": {
+    "message0": "objeto Adafruit Blinka %1 atributo %2",
+    "tooltip": "Lee un atributo permitido de un objeto o módulo Adafruit Blinka.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "D0",
+            "D0"
+          ],
+          [
+            "D1",
+            "D1"
+          ],
+          [
+            "D2",
+            "D2"
+          ],
+          [
+            "D3",
+            "D3"
+          ],
+          [
+            "D4",
+            "D4"
+          ],
+          [
+            "D5",
+            "D5"
+          ],
+          [
+            "D6",
+            "D6"
+          ],
+          [
+            "D17",
+            "D17"
+          ],
+          [
+            "D18",
+            "D18"
+          ],
+          [
+            "SCL",
+            "SCL"
+          ],
+          [
+            "SDA",
+            "SDA"
+          ],
+          [
+            "SCLK",
+            "SCLK"
+          ],
+          [
+            "MOSI",
+            "MOSI"
+          ],
+          [
+            "MISO",
+            "MISO"
+          ],
+          [
+            "CE0",
+            "CE0"
+          ],
+          [
+            "CE1",
+            "CE1"
+          ],
+          [
+            "value",
+            "value"
+          ],
+          [
+            "direction",
+            "direction"
+          ],
+          [
+            "pull",
+            "pull"
+          ],
+          [
+            "duty_cycle",
+            "duty_cycle"
+          ],
+          [
+            "frequency",
+            "frequency"
+          ],
+          [
+            "in_waiting",
+            "in_waiting"
+          ]
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,174 @@
+{
+  "toolbox_name": "libgpiod v2",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "linux_gpiod_call": {
+    "message0": "libgpiod v2 استدعاء أو إنشاء %1 الوسائط %2 وسائط الكلمات المفتاحية %3",
+    "tooltip": "استدعاء دالة أو مُنشئ مسموح من libgpiod v2 وإرجاع النتيجة.",
+    "args0": [
+      {
+        "options": [
+          [
+            "request_lines",
+            "request_lines"
+          ],
+          [
+            "LineSettings",
+            "LineSettings"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "linux_gpiod_do": {
+    "message0": "تشغيل libgpiod v2 %1 الوسائط %2 وسائط الكلمات المفتاحية %3",
+    "tooltip": "تشغيل دالة أو مُنشئ مسموح من libgpiod v2 كتعليمة.",
+    "args0": [
+      {
+        "options": [
+          [
+            "request_lines",
+            "request_lines"
+          ],
+          [
+            "LineSettings",
+            "LineSettings"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "linux_gpiod_method": {
+    "message0": "كائن libgpiod v2 %1 الطريقة %2 الوسائط %3 وسائط الكلمات المفتاحية %4",
+    "tooltip": "استدعاء طريقة مسموحة لكائن libgpiod v2 وإرجاع النتيجة.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "get_value",
+            "get_value"
+          ],
+          [
+            "get_values",
+            "get_values"
+          ],
+          [
+            "set_value",
+            "set_value"
+          ],
+          [
+            "set_values",
+            "set_values"
+          ],
+          [
+            "wait_edge_events",
+            "wait_edge_events"
+          ],
+          [
+            "read_edge_events",
+            "read_edge_events"
+          ],
+          [
+            "reconfigure_lines",
+            "reconfigure_lines"
+          ],
+          [
+            "release",
+            "release"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "linux_gpiod_do_method": {
+    "message0": "تشغيل طريقة libgpiod v2 للكائن %1 %2 الوسائط %3 وسائط الكلمات المفتاحية %4",
+    "tooltip": "تشغيل طريقة مسموحة لكائن libgpiod v2 كتعليمة.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "get_value",
+            "get_value"
+          ],
+          [
+            "get_values",
+            "get_values"
+          ],
+          [
+            "set_value",
+            "set_value"
+          ],
+          [
+            "set_values",
+            "set_values"
+          ],
+          [
+            "wait_edge_events",
+            "wait_edge_events"
+          ],
+          [
+            "read_edge_events",
+            "read_edge_events"
+          ],
+          [
+            "reconfigure_lines",
+            "reconfigure_lines"
+          ],
+          [
+            "release",
+            "release"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "linux_gpiod_attribute": {
+    "message0": "كائن libgpiod v2 %1 السمة %2",
+    "tooltip": "قراءة سمة مسموحة لكائن أو وحدة libgpiod v2.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "line.Direction.INPUT",
+            "line.Direction.INPUT"
+          ],
+          [
+            "line.Direction.OUTPUT",
+            "line.Direction.OUTPUT"
+          ],
+          [
+            "line.Value.ACTIVE",
+            "line.Value.ACTIVE"
+          ],
+          [
+            "line.Value.INACTIVE",
+            "line.Value.INACTIVE"
+          ],
+          [
+            "line.Edge.RISING",
+            "line.Edge.RISING"
+          ],
+          [
+            "line.Edge.FALLING",
+            "line.Edge.FALLING"
+          ],
+          [
+            "line.Edge.BOTH",
+            "line.Edge.BOTH"
+          ]
+        ]
+      }
+    ]
+  }
+}

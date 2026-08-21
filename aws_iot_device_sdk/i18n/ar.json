@@ -1,0 +1,135 @@
+{
+  "toolbox_name": "AWS IoT Device SDK v2",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_aws_iot_device_sdk_call": {
+    "message0": "AWS IoT Device SDK v2 استدعاء أو إنشاء %1 الوسائط %2 وسائط الكلمات المفتاحية %3",
+    "tooltip": "استدعاء دالة أو مُنشئ مسموح من AWS IoT Device SDK v2 وإرجاع النتيجة.",
+    "args0": [
+      {
+        "options": [
+          [
+            "mtls_from_path",
+            "mtls_from_path"
+          ],
+          [
+            "mtls_from_bytes",
+            "mtls_from_bytes"
+          ],
+          [
+            "websockets_with_default_aws_signing",
+            "websockets_with_default_aws_signing"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_aws_iot_device_sdk_do": {
+    "message0": "تشغيل AWS IoT Device SDK v2 %1 الوسائط %2 وسائط الكلمات المفتاحية %3",
+    "tooltip": "تشغيل دالة أو مُنشئ مسموح من AWS IoT Device SDK v2 كتعليمة.",
+    "args0": [
+      {
+        "options": [
+          [
+            "mtls_from_path",
+            "mtls_from_path"
+          ],
+          [
+            "mtls_from_bytes",
+            "mtls_from_bytes"
+          ],
+          [
+            "websockets_with_default_aws_signing",
+            "websockets_with_default_aws_signing"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_aws_iot_device_sdk_method": {
+    "message0": "كائن AWS IoT Device SDK v2 %1 الطريقة %2 الوسائط %3 وسائط الكلمات المفتاحية %4",
+    "tooltip": "استدعاء طريقة مسموحة لكائن AWS IoT Device SDK v2 وإرجاع النتيجة.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "connect",
+            "connect"
+          ],
+          [
+            "disconnect",
+            "disconnect"
+          ],
+          [
+            "publish",
+            "publish"
+          ],
+          [
+            "subscribe",
+            "subscribe"
+          ],
+          [
+            "unsubscribe",
+            "unsubscribe"
+          ],
+          [
+            "resubscribe_existing_topics",
+            "resubscribe_existing_topics"
+          ],
+          [
+            "result",
+            "result"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_aws_iot_device_sdk_do_method": {
+    "message0": "تشغيل طريقة AWS IoT Device SDK v2 للكائن %1 %2 الوسائط %3 وسائط الكلمات المفتاحية %4",
+    "tooltip": "تشغيل طريقة مسموحة لكائن AWS IoT Device SDK v2 كتعليمة.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "connect",
+            "connect"
+          ],
+          [
+            "disconnect",
+            "disconnect"
+          ],
+          [
+            "publish",
+            "publish"
+          ],
+          [
+            "subscribe",
+            "subscribe"
+          ],
+          [
+            "unsubscribe",
+            "unsubscribe"
+          ],
+          [
+            "resubscribe_existing_topics",
+            "resubscribe_existing_topics"
+          ],
+          [
+            "result",
+            "result"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  }
+}

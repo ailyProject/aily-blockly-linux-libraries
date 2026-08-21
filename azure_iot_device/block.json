@@ -1,0 +1,256 @@
+[
+  {
+    "type": "python_azure_iot_device_call",
+    "message0": "Azure IoT Device call or create %1 arguments %2 keyword arguments %3",
+    "args0": [
+      {
+        "type": "field_dropdown",
+        "name": "TARGET",
+        "options": [
+          [
+            "IoTHubDeviceClient.create_from_connection_string",
+            "IoTHubDeviceClient.create_from_connection_string"
+          ],
+          [
+            "IoTHubDeviceClient.create_from_symmetric_key",
+            "IoTHubDeviceClient.create_from_symmetric_key"
+          ],
+          [
+            "IoTHubModuleClient.create_from_connection_string",
+            "IoTHubModuleClient.create_from_connection_string"
+          ],
+          [
+            "Message",
+            "Message"
+          ],
+          [
+            "MethodResponse",
+            "MethodResponse"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#0288D1",
+    "tooltip": "Call an allowlisted Azure IoT Device function or constructor and return its result.",
+    "icon": "settings",
+    "output": "Any"
+  },
+  {
+    "type": "python_azure_iot_device_do",
+    "message0": "run Azure IoT Device %1 arguments %2 keyword arguments %3",
+    "args0": [
+      {
+        "type": "field_dropdown",
+        "name": "TARGET",
+        "options": [
+          [
+            "IoTHubDeviceClient.create_from_connection_string",
+            "IoTHubDeviceClient.create_from_connection_string"
+          ],
+          [
+            "IoTHubDeviceClient.create_from_symmetric_key",
+            "IoTHubDeviceClient.create_from_symmetric_key"
+          ],
+          [
+            "IoTHubModuleClient.create_from_connection_string",
+            "IoTHubModuleClient.create_from_connection_string"
+          ],
+          [
+            "Message",
+            "Message"
+          ],
+          [
+            "MethodResponse",
+            "MethodResponse"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#0288D1",
+    "tooltip": "Run an allowlisted Azure IoT Device function or constructor as a statement.",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "python_azure_iot_device_method",
+    "message0": "Azure IoT Device object %1 call method %2 arguments %3 keyword arguments %4",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "OBJECT"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "METHOD",
+        "options": [
+          [
+            "connect",
+            "connect"
+          ],
+          [
+            "disconnect",
+            "disconnect"
+          ],
+          [
+            "send_message",
+            "send_message"
+          ],
+          [
+            "receive_message",
+            "receive_message"
+          ],
+          [
+            "send_method_response",
+            "send_method_response"
+          ],
+          [
+            "patch_twin_reported_properties",
+            "patch_twin_reported_properties"
+          ],
+          [
+            "get_twin",
+            "get_twin"
+          ],
+          [
+            "shutdown",
+            "shutdown"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#0288D1",
+    "tooltip": "Call an allowlisted Azure IoT Device object method and return its result.",
+    "icon": "settings",
+    "output": "Any"
+  },
+  {
+    "type": "python_azure_iot_device_do_method",
+    "message0": "run Azure IoT Device object %1 method %2 arguments %3 keyword arguments %4",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "OBJECT"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "METHOD",
+        "options": [
+          [
+            "connect",
+            "connect"
+          ],
+          [
+            "disconnect",
+            "disconnect"
+          ],
+          [
+            "send_message",
+            "send_message"
+          ],
+          [
+            "receive_message",
+            "receive_message"
+          ],
+          [
+            "send_method_response",
+            "send_method_response"
+          ],
+          [
+            "patch_twin_reported_properties",
+            "patch_twin_reported_properties"
+          ],
+          [
+            "get_twin",
+            "get_twin"
+          ],
+          [
+            "shutdown",
+            "shutdown"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#0288D1",
+    "tooltip": "Run an allowlisted Azure IoT Device object method as a statement.",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "python_azure_iot_device_attribute",
+    "message0": "Azure IoT Device object %1 attribute %2",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "OBJECT"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "ATTRIBUTE",
+        "options": [
+          [
+            "connected",
+            "connected"
+          ],
+          [
+            "user_agent",
+            "user_agent"
+          ],
+          [
+            "custom_properties",
+            "custom_properties"
+          ],
+          [
+            "message_id",
+            "message_id"
+          ],
+          [
+            "correlation_id",
+            "correlation_id"
+          ],
+          [
+            "content_type",
+            "content_type"
+          ]
+        ]
+      }
+    ],
+    "colour": "#0288D1",
+    "tooltip": "Read an allowlisted Azure IoT Device object or module attribute.",
+    "icon": "settings",
+    "output": "Any"
+  }
+]

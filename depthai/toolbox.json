@@ -1,0 +1,27 @@
+{
+  "kind": "category",
+  "name": "DepthAI v3",
+  "colour": "#1976D2",
+  "contents": [
+    {
+      "kind": "block",
+      "type": "python_depthai_call"
+    },
+    {
+      "kind": "block",
+      "type": "python_depthai_do"
+    },
+    {
+      "kind": "block",
+      "type": "python_depthai_method"
+    },
+    {
+      "kind": "block",
+      "type": "python_depthai_do_method"
+    },
+    {
+      "kind": "block",
+      "type": "python_depthai_attribute"
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "toolbox_name": "CircuitPython ADS1x15",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_adafruit_ads1x15_call": {
+    "message0": "CircuitPython ADS1x15 استدعاء أو إنشاء %1 الوسائط %2 وسائط الكلمات المفتاحية %3",
+    "tooltip": "استدعاء دالة أو مُنشئ مسموح من CircuitPython ADS1x15 وإرجاع النتيجة.",
+    "args0": [
+      {
+        "options": [
+          [
+            "ADS1115",
+            "ADS1115"
+          ],
+          [
+            "AnalogIn",
+            "AnalogIn"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_ads1x15_do": {
+    "message0": "تشغيل CircuitPython ADS1x15 %1 الوسائط %2 وسائط الكلمات المفتاحية %3",
+    "tooltip": "تشغيل دالة أو مُنشئ مسموح من CircuitPython ADS1x15 كتعليمة.",
+    "args0": [
+      {
+        "options": [
+          [
+            "ADS1115",
+            "ADS1115"
+          ],
+          [
+            "AnalogIn",
+            "AnalogIn"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_ads1x15_method": {
+    "message0": "كائن CircuitPython ADS1x15 %1 الطريقة %2 الوسائط %3 وسائط الكلمات المفتاحية %4",
+    "tooltip": "استدعاء طريقة مسموحة لكائن CircuitPython ADS1x15 وإرجاع النتيجة.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "read",
+            "read"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_ads1x15_do_method": {
+    "message0": "تشغيل طريقة CircuitPython ADS1x15 للكائن %1 %2 الوسائط %3 وسائط الكلمات المفتاحية %4",
+    "tooltip": "تشغيل طريقة مسموحة لكائن CircuitPython ADS1x15 كتعليمة.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "read",
+            "read"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_ads1x15_attribute": {
+    "message0": "كائن CircuitPython ADS1x15 %1 السمة %2",
+    "tooltip": "قراءة سمة مسموحة لكائن أو وحدة CircuitPython ADS1x15.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "gain",
+            "gain"
+          ],
+          [
+            "mode",
+            "mode"
+          ],
+          [
+            "data_rate",
+            "data_rate"
+          ],
+          [
+            "comparator_queue_length",
+            "comparator_queue_length"
+          ],
+          [
+            "comparator_latch",
+            "comparator_latch"
+          ],
+          [
+            "comparator_polarity",
+            "comparator_polarity"
+          ],
+          [
+            "value",
+            "value"
+          ],
+          [
+            "voltage",
+            "voltage"
+          ],
+          [
+            "Pin.A0",
+            "Pin.A0"
+          ],
+          [
+            "Pin.A1",
+            "Pin.A1"
+          ],
+          [
+            "Pin.A2",
+            "Pin.A2"
+          ],
+          [
+            "Pin.A3",
+            "Pin.A3"
+          ]
+        ]
+      }
+    ]
+  }
+}

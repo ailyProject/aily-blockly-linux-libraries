@@ -78,6 +78,62 @@
       null
     ]
   },
+  "python_arguments": {
+    "message0": "argumentos posicionales %1 %2 %3 %4 %5 %6",
+    "tooltip": "Crea una lista de argumentos posicionales con los valores conectados.",
+    "args0": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "python_keyword_arguments": {
+    "message0": "argumentos con nombre %1 : %2 %3 : %4 %5 : %6 %7 : %8 %9 : %10 %11 : %12",
+    "tooltip": "Crea un diccionario de argumentos con nombre; se omiten las filas con la clave vacía.",
+    "args0": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "python_get_item": {
+    "message0": "elemento %2 del objeto %1",
+    "tooltip": "Lee un elemento de un objeto Python por clave o índice.",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_set_item": {
+    "message0": "establecer elemento %2 del objeto %1 a %3",
+    "tooltip": "Asigna un valor a un elemento de un objeto Python por clave o índice.",
+    "args0": [
+      null,
+      null,
+      null
+    ]
+  },
+  "python_set_attribute": {
+    "message0": "establecer atributo %2 del objeto %1 a %3",
+    "tooltip": "Asigna un valor a un atributo de objeto Python validado de forma segura.",
+    "args0": [
+      null,
+      null,
+      null
+    ]
+  },
   "python_set_variable": {
     "message0": "establecer variable %1 a %2",
     "tooltip": "establecer variable %1 a %2",

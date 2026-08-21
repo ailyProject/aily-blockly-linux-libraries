@@ -1,0 +1,130 @@
+{
+  "toolbox_name": "qrcode",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_qrcode_call": {
+    "message0": "qrcode استدعاء أو إنشاء %1 الوسائط %2 وسائط الكلمات المفتاحية %3",
+    "tooltip": "استدعاء دالة أو مُنشئ مسموح من qrcode وإرجاع النتيجة.",
+    "args0": [
+      {
+        "options": [
+          [
+            "make",
+            "make"
+          ],
+          [
+            "QRCode",
+            "QRCode"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_qrcode_do": {
+    "message0": "تشغيل qrcode %1 الوسائط %2 وسائط الكلمات المفتاحية %3",
+    "tooltip": "تشغيل دالة أو مُنشئ مسموح من qrcode كتعليمة.",
+    "args0": [
+      {
+        "options": [
+          [
+            "make",
+            "make"
+          ],
+          [
+            "QRCode",
+            "QRCode"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_qrcode_method": {
+    "message0": "كائن qrcode %1 الطريقة %2 الوسائط %3 وسائط الكلمات المفتاحية %4",
+    "tooltip": "استدعاء طريقة مسموحة لكائن qrcode وإرجاع النتيجة.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "add_data",
+            "add_data"
+          ],
+          [
+            "make",
+            "make"
+          ],
+          [
+            "make_image",
+            "make_image"
+          ],
+          [
+            "clear",
+            "clear"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_qrcode_do_method": {
+    "message0": "تشغيل طريقة qrcode للكائن %1 %2 الوسائط %3 وسائط الكلمات المفتاحية %4",
+    "tooltip": "تشغيل طريقة مسموحة لكائن qrcode كتعليمة.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "add_data",
+            "add_data"
+          ],
+          [
+            "make",
+            "make"
+          ],
+          [
+            "make_image",
+            "make_image"
+          ],
+          [
+            "clear",
+            "clear"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_qrcode_attribute": {
+    "message0": "كائن qrcode %1 السمة %2",
+    "tooltip": "قراءة سمة مسموحة لكائن أو وحدة qrcode.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "version",
+            "version"
+          ],
+          [
+            "error_correction",
+            "error_correction"
+          ],
+          [
+            "box_size",
+            "box_size"
+          ],
+          [
+            "border",
+            "border"
+          ]
+        ]
+      }
+    ]
+  }
+}

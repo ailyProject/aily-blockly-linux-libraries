@@ -1,0 +1,166 @@
+{
+  "toolbox_name": "SpeechRecognition",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_speech_recognition_call": {
+    "message0": "SpeechRecognition aufrufen oder erzeugen %1 Argumente %2 Schlüsselwortargumente %3",
+    "tooltip": "Eine freigegebene SpeechRecognition-Funktion oder einen Konstruktor aufrufen und das Ergebnis zurückgeben.",
+    "args0": [
+      {
+        "options": [
+          [
+            "Recognizer",
+            "Recognizer"
+          ],
+          [
+            "Microphone",
+            "Microphone"
+          ],
+          [
+            "AudioFile",
+            "AudioFile"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_speech_recognition_do": {
+    "message0": "SpeechRecognition ausführen %1 Argumente %2 Schlüsselwortargumente %3",
+    "tooltip": "Eine freigegebene SpeechRecognition-Funktion oder einen Konstruktor als Anweisung ausführen.",
+    "args0": [
+      {
+        "options": [
+          [
+            "Recognizer",
+            "Recognizer"
+          ],
+          [
+            "Microphone",
+            "Microphone"
+          ],
+          [
+            "AudioFile",
+            "AudioFile"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_speech_recognition_method": {
+    "message0": "SpeechRecognition-Objekt %1 Methode %2 Argumente %3 Schlüsselwortargumente %4",
+    "tooltip": "Eine freigegebene Methode eines SpeechRecognition-Objekts aufrufen und das Ergebnis zurückgeben.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "listen",
+            "listen"
+          ],
+          [
+            "record",
+            "record"
+          ],
+          [
+            "adjust_for_ambient_noise",
+            "adjust_for_ambient_noise"
+          ],
+          [
+            "recognize_google",
+            "recognize_google"
+          ],
+          [
+            "recognize_sphinx",
+            "recognize_sphinx"
+          ],
+          [
+            "recognize_vosk",
+            "recognize_vosk"
+          ],
+          [
+            "recognize_whisper",
+            "recognize_whisper"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_speech_recognition_do_method": {
+    "message0": "SpeechRecognition-Objekt %1 Methode %2 ausführen Argumente %3 Schlüsselwortargumente %4",
+    "tooltip": "Eine freigegebene Methode eines SpeechRecognition-Objekts als Anweisung ausführen.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "listen",
+            "listen"
+          ],
+          [
+            "record",
+            "record"
+          ],
+          [
+            "adjust_for_ambient_noise",
+            "adjust_for_ambient_noise"
+          ],
+          [
+            "recognize_google",
+            "recognize_google"
+          ],
+          [
+            "recognize_sphinx",
+            "recognize_sphinx"
+          ],
+          [
+            "recognize_vosk",
+            "recognize_vosk"
+          ],
+          [
+            "recognize_whisper",
+            "recognize_whisper"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_speech_recognition_attribute": {
+    "message0": "SpeechRecognition-Objekt %1 Attribut %2",
+    "tooltip": "Ein freigegebenes Attribut eines SpeechRecognition-Objekts oder Moduls lesen.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "energy_threshold",
+            "energy_threshold"
+          ],
+          [
+            "dynamic_energy_threshold",
+            "dynamic_energy_threshold"
+          ],
+          [
+            "pause_threshold",
+            "pause_threshold"
+          ],
+          [
+            "phrase_threshold",
+            "phrase_threshold"
+          ],
+          [
+            "non_speaking_duration",
+            "non_speaking_duration"
+          ]
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "toolbox_name": "pyttsx3",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_pyttsx3_call": {
+    "message0": "pyttsx3 呼叫或建立 %1 參數 %2 關鍵字參數 %3",
+    "tooltip": "呼叫白名單中的 pyttsx3 函式或建構器並傳回結果。",
+    "args0": [
+      {
+        "options": [
+          [
+            "init",
+            "init"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_pyttsx3_do": {
+    "message0": "執行 pyttsx3 %1 參數 %2 關鍵字參數 %3",
+    "tooltip": "以敘述方式執行白名單中的 pyttsx3 函式或建構器。",
+    "args0": [
+      {
+        "options": [
+          [
+            "init",
+            "init"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_pyttsx3_method": {
+    "message0": "pyttsx3 物件 %1 呼叫方法 %2 參數 %3 關鍵字參數 %4",
+    "tooltip": "呼叫白名單中的 pyttsx3 物件方法並傳回結果。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "say",
+            "say"
+          ],
+          [
+            "runAndWait",
+            "runAndWait"
+          ],
+          [
+            "stop",
+            "stop"
+          ],
+          [
+            "getProperty",
+            "getProperty"
+          ],
+          [
+            "setProperty",
+            "setProperty"
+          ],
+          [
+            "save_to_file",
+            "save_to_file"
+          ],
+          [
+            "connect",
+            "connect"
+          ],
+          [
+            "disconnect",
+            "disconnect"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_pyttsx3_do_method": {
+    "message0": "執行 pyttsx3 物件 %1 的方法 %2 參數 %3 關鍵字參數 %4",
+    "tooltip": "以敘述方式執行白名單中的 pyttsx3 物件方法。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "say",
+            "say"
+          ],
+          [
+            "runAndWait",
+            "runAndWait"
+          ],
+          [
+            "stop",
+            "stop"
+          ],
+          [
+            "getProperty",
+            "getProperty"
+          ],
+          [
+            "setProperty",
+            "setProperty"
+          ],
+          [
+            "save_to_file",
+            "save_to_file"
+          ],
+          [
+            "connect",
+            "connect"
+          ],
+          [
+            "disconnect",
+            "disconnect"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  }
+}

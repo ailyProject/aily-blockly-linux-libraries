@@ -1,0 +1,47 @@
+{
+  "name": "@aily-project/lib-pytesseract",
+  "nickname": "pytesseract",
+  "nickname_zh_cn": "pytesseract",
+  "nickname_en": "pytesseract",
+  "nickname_zh_hk": "pytesseract",
+  "nickname_ja": "pytesseract",
+  "nickname_ko": "pytesseract",
+  "nickname_de": "pytesseract",
+  "nickname_fr": "pytesseract",
+  "nickname_es": "pytesseract",
+  "nickname_pt": "pytesseract",
+  "nickname_ru": "pytesseract",
+  "nickname_ar": "pytesseract",
+  "version": "0.0.1",
+  "description": "面向树莓派与 Linux 开发板的 pytesseract 常用 Python API 白名单积木。",
+  "description_zh_cn": "面向树莓派与 Linux 开发板的 pytesseract 常用 Python API 白名单积木。",
+  "description_en": "Allowlisted pytesseract Python API blocks for Raspberry Pi and Linux single-board computers.",
+  "spec": true,
+  "compatibility": {
+    "type": [
+      "canaan:k230:cybercam",
+      "broadcom:bcm2712:raspberrypi_5",
+      "allwinner:t527:walnutpi_2b"
+    ],
+    "voltage": [
+      3.3
+    ]
+  },
+  "keywords": [
+    "aily",
+    "blockly",
+    "python",
+    "linux",
+    "raspberry-pi",
+    "pytesseract",
+    "pytesseract"
+  ],
+  "tags": [
+    "display"
+  ],
+  "author": "ailyProject",
+  "license": "MIT",
+  "homepage": "https://github.com/madmaze/pytesseract",
+  "dependencies": {},
+  "devDependencies": {}
+}

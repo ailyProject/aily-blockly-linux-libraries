@@ -1,0 +1,186 @@
+{
+  "toolbox_name": "pyudev",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "linux_pyudev_call": {
+    "message0": "pyudev استدعاء أو إنشاء %1 الوسائط %2 وسائط الكلمات المفتاحية %3",
+    "tooltip": "استدعاء دالة أو مُنشئ مسموح من pyudev وإرجاع النتيجة.",
+    "args0": [
+      {
+        "options": [
+          [
+            "Context",
+            "Context"
+          ],
+          [
+            "Monitor",
+            "Monitor"
+          ],
+          [
+            "MonitorObserver",
+            "MonitorObserver"
+          ],
+          [
+            "Devices.from_path",
+            "Devices.from_path"
+          ],
+          [
+            "Devices.from_device_file",
+            "Devices.from_device_file"
+          ],
+          [
+            "Devices.from_device_number",
+            "Devices.from_device_number"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "linux_pyudev_do": {
+    "message0": "تشغيل pyudev %1 الوسائط %2 وسائط الكلمات المفتاحية %3",
+    "tooltip": "تشغيل دالة أو مُنشئ مسموح من pyudev كتعليمة.",
+    "args0": [
+      {
+        "options": [
+          [
+            "Context",
+            "Context"
+          ],
+          [
+            "Monitor",
+            "Monitor"
+          ],
+          [
+            "MonitorObserver",
+            "MonitorObserver"
+          ],
+          [
+            "Devices.from_path",
+            "Devices.from_path"
+          ],
+          [
+            "Devices.from_device_file",
+            "Devices.from_device_file"
+          ],
+          [
+            "Devices.from_device_number",
+            "Devices.from_device_number"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "linux_pyudev_method": {
+    "message0": "كائن pyudev %1 الطريقة %2 الوسائط %3 وسائط الكلمات المفتاحية %4",
+    "tooltip": "استدعاء طريقة مسموحة لكائن pyudev وإرجاع النتيجة.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "list_devices",
+            "list_devices"
+          ],
+          [
+            "filter_by",
+            "filter_by"
+          ],
+          [
+            "enable_receiving",
+            "enable_receiving"
+          ],
+          [
+            "start",
+            "start"
+          ],
+          [
+            "stop",
+            "stop"
+          ],
+          [
+            "poll",
+            "poll"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "linux_pyudev_do_method": {
+    "message0": "تشغيل طريقة pyudev للكائن %1 %2 الوسائط %3 وسائط الكلمات المفتاحية %4",
+    "tooltip": "تشغيل طريقة مسموحة لكائن pyudev كتعليمة.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "list_devices",
+            "list_devices"
+          ],
+          [
+            "filter_by",
+            "filter_by"
+          ],
+          [
+            "enable_receiving",
+            "enable_receiving"
+          ],
+          [
+            "start",
+            "start"
+          ],
+          [
+            "stop",
+            "stop"
+          ],
+          [
+            "poll",
+            "poll"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "linux_pyudev_attribute": {
+    "message0": "كائن pyudev %1 السمة %2",
+    "tooltip": "قراءة سمة مسموحة لكائن أو وحدة pyudev.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "device_path",
+            "device_path"
+          ],
+          [
+            "device_node",
+            "device_node"
+          ],
+          [
+            "subsystem",
+            "subsystem"
+          ],
+          [
+            "sys_name",
+            "sys_name"
+          ],
+          [
+            "properties",
+            "properties"
+          ],
+          [
+            "parent",
+            "parent"
+          ]
+        ]
+      }
+    ]
+  }
+}

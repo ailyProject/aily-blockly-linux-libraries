@@ -1,0 +1,178 @@
+{
+  "toolbox_name": "python-can",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_python_can_call": {
+    "message0": "python-can вызвать или создать %1 аргументы %2 именованные аргументы %3",
+    "tooltip": "Вызывает разрешённую функцию или конструктор python-can и возвращает результат.",
+    "args0": [
+      {
+        "options": [
+          [
+            "Bus",
+            "Bus"
+          ],
+          [
+            "Message",
+            "Message"
+          ],
+          [
+            "Notifier",
+            "Notifier"
+          ],
+          [
+            "Listener",
+            "Listener"
+          ],
+          [
+            "BufferedReader",
+            "BufferedReader"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_python_can_do": {
+    "message0": "выполнить python-can %1 аргументы %2 именованные аргументы %3",
+    "tooltip": "Выполняет разрешённую функцию или конструктор python-can как инструкцию.",
+    "args0": [
+      {
+        "options": [
+          [
+            "Bus",
+            "Bus"
+          ],
+          [
+            "Message",
+            "Message"
+          ],
+          [
+            "Notifier",
+            "Notifier"
+          ],
+          [
+            "Listener",
+            "Listener"
+          ],
+          [
+            "BufferedReader",
+            "BufferedReader"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_python_can_method": {
+    "message0": "объект python-can %1 метод %2 аргументы %3 именованные аргументы %4",
+    "tooltip": "Вызывает разрешённый метод объекта python-can и возвращает результат.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "send",
+            "send"
+          ],
+          [
+            "recv",
+            "recv"
+          ],
+          [
+            "shutdown",
+            "shutdown"
+          ],
+          [
+            "send_periodic",
+            "send_periodic"
+          ],
+          [
+            "stop_all_periodic_tasks",
+            "stop_all_periodic_tasks"
+          ],
+          [
+            "get_message",
+            "get_message"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_python_can_do_method": {
+    "message0": "выполнить метод python-can объекта %1 %2 аргументы %3 именованные аргументы %4",
+    "tooltip": "Выполняет разрешённый метод объекта python-can как инструкцию.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "send",
+            "send"
+          ],
+          [
+            "recv",
+            "recv"
+          ],
+          [
+            "shutdown",
+            "shutdown"
+          ],
+          [
+            "send_periodic",
+            "send_periodic"
+          ],
+          [
+            "stop_all_periodic_tasks",
+            "stop_all_periodic_tasks"
+          ],
+          [
+            "get_message",
+            "get_message"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_python_can_attribute": {
+    "message0": "объект python-can %1 атрибут %2",
+    "tooltip": "Читает разрешённый атрибут объекта или модуля python-can.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "arbitration_id",
+            "arbitration_id"
+          ],
+          [
+            "data",
+            "data"
+          ],
+          [
+            "is_extended_id",
+            "is_extended_id"
+          ],
+          [
+            "is_remote_frame",
+            "is_remote_frame"
+          ],
+          [
+            "timestamp",
+            "timestamp"
+          ],
+          [
+            "channel",
+            "channel"
+          ]
+        ]
+      }
+    ]
+  }
+}

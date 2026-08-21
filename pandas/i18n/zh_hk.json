@@ -1,0 +1,242 @@
+{
+  "toolbox_name": "pandas",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_pandas_call": {
+    "message0": "pandas 呼叫或建立 %1 參數 %2 關鍵字參數 %3",
+    "tooltip": "呼叫白名單中的 pandas 函式或建構器並傳回結果。",
+    "args0": [
+      {
+        "options": [
+          [
+            "DataFrame",
+            "DataFrame"
+          ],
+          [
+            "Series",
+            "Series"
+          ],
+          [
+            "read_csv",
+            "read_csv"
+          ],
+          [
+            "read_json",
+            "read_json"
+          ],
+          [
+            "read_excel",
+            "read_excel"
+          ],
+          [
+            "concat",
+            "concat"
+          ],
+          [
+            "merge",
+            "merge"
+          ],
+          [
+            "date_range",
+            "date_range"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_pandas_do": {
+    "message0": "執行 pandas %1 參數 %2 關鍵字參數 %3",
+    "tooltip": "以敘述方式執行白名單中的 pandas 函式或建構器。",
+    "args0": [
+      {
+        "options": [
+          [
+            "DataFrame",
+            "DataFrame"
+          ],
+          [
+            "Series",
+            "Series"
+          ],
+          [
+            "read_csv",
+            "read_csv"
+          ],
+          [
+            "read_json",
+            "read_json"
+          ],
+          [
+            "read_excel",
+            "read_excel"
+          ],
+          [
+            "concat",
+            "concat"
+          ],
+          [
+            "merge",
+            "merge"
+          ],
+          [
+            "date_range",
+            "date_range"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_pandas_method": {
+    "message0": "pandas 物件 %1 呼叫方法 %2 參數 %3 關鍵字參數 %4",
+    "tooltip": "呼叫白名單中的 pandas 物件方法並傳回結果。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "head",
+            "head"
+          ],
+          [
+            "tail",
+            "tail"
+          ],
+          [
+            "describe",
+            "describe"
+          ],
+          [
+            "groupby",
+            "groupby"
+          ],
+          [
+            "merge",
+            "merge"
+          ],
+          [
+            "join",
+            "join"
+          ],
+          [
+            "to_csv",
+            "to_csv"
+          ],
+          [
+            "to_json",
+            "to_json"
+          ],
+          [
+            "dropna",
+            "dropna"
+          ],
+          [
+            "fillna",
+            "fillna"
+          ],
+          [
+            "sort_values",
+            "sort_values"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_pandas_do_method": {
+    "message0": "執行 pandas 物件 %1 的方法 %2 參數 %3 關鍵字參數 %4",
+    "tooltip": "以敘述方式執行白名單中的 pandas 物件方法。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "head",
+            "head"
+          ],
+          [
+            "tail",
+            "tail"
+          ],
+          [
+            "describe",
+            "describe"
+          ],
+          [
+            "groupby",
+            "groupby"
+          ],
+          [
+            "merge",
+            "merge"
+          ],
+          [
+            "join",
+            "join"
+          ],
+          [
+            "to_csv",
+            "to_csv"
+          ],
+          [
+            "to_json",
+            "to_json"
+          ],
+          [
+            "dropna",
+            "dropna"
+          ],
+          [
+            "fillna",
+            "fillna"
+          ],
+          [
+            "sort_values",
+            "sort_values"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_pandas_attribute": {
+    "message0": "pandas 物件 %1 屬性 %2",
+    "tooltip": "讀取白名單中的 pandas 物件或模組屬性。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "shape",
+            "shape"
+          ],
+          [
+            "columns",
+            "columns"
+          ],
+          [
+            "index",
+            "index"
+          ],
+          [
+            "dtypes",
+            "dtypes"
+          ],
+          [
+            "values",
+            "values"
+          ],
+          [
+            "empty",
+            "empty"
+          ]
+        ]
+      }
+    ]
+  }
+}

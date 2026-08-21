@@ -1,0 +1,242 @@
+{
+  "toolbox_name": "schedule",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_schedule_call": {
+    "message0": "schedule call or create %1 arguments %2 keyword arguments %3",
+    "tooltip": "Call an allowlisted schedule function or constructor and return its result.",
+    "args0": [
+      {
+        "options": [
+          [
+            "every",
+            "every"
+          ],
+          [
+            "run_pending",
+            "run_pending"
+          ],
+          [
+            "run_all",
+            "run_all"
+          ],
+          [
+            "clear",
+            "clear"
+          ],
+          [
+            "cancel_job",
+            "cancel_job"
+          ],
+          [
+            "get_jobs",
+            "get_jobs"
+          ],
+          [
+            "idle_seconds",
+            "idle_seconds"
+          ],
+          [
+            "repeat",
+            "repeat"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_schedule_do": {
+    "message0": "run schedule %1 arguments %2 keyword arguments %3",
+    "tooltip": "Run an allowlisted schedule function or constructor as a statement.",
+    "args0": [
+      {
+        "options": [
+          [
+            "every",
+            "every"
+          ],
+          [
+            "run_pending",
+            "run_pending"
+          ],
+          [
+            "run_all",
+            "run_all"
+          ],
+          [
+            "clear",
+            "clear"
+          ],
+          [
+            "cancel_job",
+            "cancel_job"
+          ],
+          [
+            "get_jobs",
+            "get_jobs"
+          ],
+          [
+            "idle_seconds",
+            "idle_seconds"
+          ],
+          [
+            "repeat",
+            "repeat"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_schedule_method": {
+    "message0": "schedule object %1 call method %2 arguments %3 keyword arguments %4",
+    "tooltip": "Call an allowlisted schedule object method and return its result.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "at",
+            "at"
+          ],
+          [
+            "until",
+            "until"
+          ],
+          [
+            "to",
+            "to"
+          ],
+          [
+            "do",
+            "do"
+          ],
+          [
+            "tag",
+            "tag"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_schedule_do_method": {
+    "message0": "run schedule object %1 method %2 arguments %3 keyword arguments %4",
+    "tooltip": "Run an allowlisted schedule object method as a statement.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "at",
+            "at"
+          ],
+          [
+            "until",
+            "until"
+          ],
+          [
+            "to",
+            "to"
+          ],
+          [
+            "do",
+            "do"
+          ],
+          [
+            "tag",
+            "tag"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_schedule_attribute": {
+    "message0": "schedule object %1 attribute %2",
+    "tooltip": "Read an allowlisted schedule object or module attribute.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "next_run",
+            "next_run"
+          ],
+          [
+            "period",
+            "period"
+          ],
+          [
+            "unit",
+            "unit"
+          ],
+          [
+            "latest",
+            "latest"
+          ],
+          [
+            "start_day",
+            "start_day"
+          ],
+          [
+            "tags",
+            "tags"
+          ],
+          [
+            "seconds",
+            "seconds"
+          ],
+          [
+            "minutes",
+            "minutes"
+          ],
+          [
+            "hours",
+            "hours"
+          ],
+          [
+            "days",
+            "days"
+          ],
+          [
+            "weeks",
+            "weeks"
+          ],
+          [
+            "monday",
+            "monday"
+          ],
+          [
+            "tuesday",
+            "tuesday"
+          ],
+          [
+            "wednesday",
+            "wednesday"
+          ],
+          [
+            "thursday",
+            "thursday"
+          ],
+          [
+            "friday",
+            "friday"
+          ],
+          [
+            "saturday",
+            "saturday"
+          ],
+          [
+            "sunday",
+            "sunday"
+          ]
+        ]
+      }
+    ]
+  }
+}

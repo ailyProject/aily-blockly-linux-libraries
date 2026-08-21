@@ -1,0 +1,95 @@
+[
+  {
+    "type": "python_adafruit_motor_call",
+    "message0": "CircuitPython Motor call or create %1 arguments %2 keyword arguments %3",
+    "args0": [
+      {
+        "type": "field_dropdown",
+        "name": "TARGET",
+        "options": [
+          [
+            "DCMotor",
+            "DCMotor"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#00897B",
+    "tooltip": "Call an allowlisted CircuitPython Motor function or constructor and return its result.",
+    "icon": "settings",
+    "output": "Any"
+  },
+  {
+    "type": "python_adafruit_motor_do",
+    "message0": "run CircuitPython Motor %1 arguments %2 keyword arguments %3",
+    "args0": [
+      {
+        "type": "field_dropdown",
+        "name": "TARGET",
+        "options": [
+          [
+            "DCMotor",
+            "DCMotor"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#00897B",
+    "tooltip": "Run an allowlisted CircuitPython Motor function or constructor as a statement.",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "python_adafruit_motor_attribute",
+    "message0": "CircuitPython Motor object %1 attribute %2",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "OBJECT"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "ATTRIBUTE",
+        "options": [
+          [
+            "throttle",
+            "throttle"
+          ],
+          [
+            "decay_mode",
+            "decay_mode"
+          ],
+          [
+            "SLOW_DECAY",
+            "SLOW_DECAY"
+          ],
+          [
+            "FAST_DECAY",
+            "FAST_DECAY"
+          ]
+        ]
+      }
+    ],
+    "colour": "#00897B",
+    "tooltip": "Read an allowlisted CircuitPython Motor object or module attribute.",
+    "icon": "settings",
+    "output": "Any"
+  }
+]

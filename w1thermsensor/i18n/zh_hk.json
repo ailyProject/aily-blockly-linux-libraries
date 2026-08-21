@@ -1,0 +1,126 @@
+{
+  "toolbox_name": "W1ThermSensor",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_w1thermsensor_call": {
+    "message0": "W1ThermSensor 呼叫或建立 %1 參數 %2 關鍵字參數 %3",
+    "tooltip": "呼叫白名單中的 W1ThermSensor 函式或建構器並傳回結果。",
+    "args0": [
+      {
+        "options": [
+          [
+            "W1ThermSensor",
+            "W1ThermSensor"
+          ],
+          [
+            "Unit",
+            "Unit"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_w1thermsensor_do": {
+    "message0": "執行 W1ThermSensor %1 參數 %2 關鍵字參數 %3",
+    "tooltip": "以敘述方式執行白名單中的 W1ThermSensor 函式或建構器。",
+    "args0": [
+      {
+        "options": [
+          [
+            "W1ThermSensor",
+            "W1ThermSensor"
+          ],
+          [
+            "Unit",
+            "Unit"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_w1thermsensor_method": {
+    "message0": "W1ThermSensor 物件 %1 呼叫方法 %2 參數 %3 關鍵字參數 %4",
+    "tooltip": "呼叫白名單中的 W1ThermSensor 物件方法並傳回結果。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "get_temperature",
+            "get_temperature"
+          ],
+          [
+            "get_temperatures",
+            "get_temperatures"
+          ],
+          [
+            "get_sensor",
+            "get_sensor"
+          ],
+          [
+            "get_available_sensors",
+            "get_available_sensors"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_w1thermsensor_do_method": {
+    "message0": "執行 W1ThermSensor 物件 %1 的方法 %2 參數 %3 關鍵字參數 %4",
+    "tooltip": "以敘述方式執行白名單中的 W1ThermSensor 物件方法。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "get_temperature",
+            "get_temperature"
+          ],
+          [
+            "get_temperatures",
+            "get_temperatures"
+          ],
+          [
+            "get_sensor",
+            "get_sensor"
+          ],
+          [
+            "get_available_sensors",
+            "get_available_sensors"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_w1thermsensor_attribute": {
+    "message0": "W1ThermSensor 物件 %1 屬性 %2",
+    "tooltip": "讀取白名單中的 W1ThermSensor 物件或模組屬性。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "id",
+            "id"
+          ],
+          [
+            "type",
+            "type"
+          ],
+          [
+            "slave_file",
+            "slave_file"
+          ]
+        ]
+      }
+    ]
+  }
+}

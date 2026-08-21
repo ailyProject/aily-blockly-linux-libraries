@@ -1,0 +1,114 @@
+{
+  "toolbox_name": "Uvicorn",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_uvicorn_call": {
+    "message0": "Uvicorn aufrufen oder erzeugen %1 Argumente %2 Schlüsselwortargumente %3",
+    "tooltip": "Eine freigegebene Uvicorn-Funktion oder einen Konstruktor aufrufen und das Ergebnis zurückgeben.",
+    "args0": [
+      {
+        "options": [
+          [
+            "run",
+            "run"
+          ],
+          [
+            "Config",
+            "Config"
+          ],
+          [
+            "Server",
+            "Server"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_uvicorn_do": {
+    "message0": "Uvicorn ausführen %1 Argumente %2 Schlüsselwortargumente %3",
+    "tooltip": "Eine freigegebene Uvicorn-Funktion oder einen Konstruktor als Anweisung ausführen.",
+    "args0": [
+      {
+        "options": [
+          [
+            "run",
+            "run"
+          ],
+          [
+            "Config",
+            "Config"
+          ],
+          [
+            "Server",
+            "Server"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_uvicorn_method": {
+    "message0": "Uvicorn-Objekt %1 Methode %2 Argumente %3 Schlüsselwortargumente %4",
+    "tooltip": "Eine freigegebene Methode eines Uvicorn-Objekts aufrufen und das Ergebnis zurückgeben.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "run",
+            "run"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_uvicorn_do_method": {
+    "message0": "Uvicorn-Objekt %1 Methode %2 ausführen Argumente %3 Schlüsselwortargumente %4",
+    "tooltip": "Eine freigegebene Methode eines Uvicorn-Objekts als Anweisung ausführen.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "run",
+            "run"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_uvicorn_attribute": {
+    "message0": "Uvicorn-Objekt %1 Attribut %2",
+    "tooltip": "Ein freigegebenes Attribut eines Uvicorn-Objekts oder Moduls lesen.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "started",
+            "started"
+          ],
+          [
+            "should_exit",
+            "should_exit"
+          ],
+          [
+            "force_exit",
+            "force_exit"
+          ],
+          [
+            "config",
+            "config"
+          ]
+        ]
+      }
+    ]
+  }
+}

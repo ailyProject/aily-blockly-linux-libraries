@@ -1,0 +1,134 @@
+{
+  "toolbox_name": "CircuitPython MCP3xxx",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_adafruit_mcp3xxx_call": {
+    "message0": "CircuitPython MCP3xxx appeler ou créer %1 arguments %2 arguments nommés %3",
+    "tooltip": "Appeler une fonction ou un constructeur CircuitPython MCP3xxx autorisé et renvoyer le résultat.",
+    "args0": [
+      {
+        "options": [
+          [
+            "MCP3008",
+            "MCP3008"
+          ],
+          [
+            "AnalogIn",
+            "AnalogIn"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_mcp3xxx_do": {
+    "message0": "exécuter CircuitPython MCP3xxx %1 arguments %2 arguments nommés %3",
+    "tooltip": "Exécuter une fonction ou un constructeur CircuitPython MCP3xxx autorisé comme instruction.",
+    "args0": [
+      {
+        "options": [
+          [
+            "MCP3008",
+            "MCP3008"
+          ],
+          [
+            "AnalogIn",
+            "AnalogIn"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_mcp3xxx_method": {
+    "message0": "objet CircuitPython MCP3xxx %1 méthode %2 arguments %3 arguments nommés %4",
+    "tooltip": "Appeler une méthode autorisée d’un objet CircuitPython MCP3xxx et renvoyer le résultat.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "read",
+            "read"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_mcp3xxx_do_method": {
+    "message0": "exécuter la méthode CircuitPython MCP3xxx de l’objet %1 %2 arguments %3 arguments nommés %4",
+    "tooltip": "Exécuter une méthode autorisée d’un objet CircuitPython MCP3xxx comme instruction.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "read",
+            "read"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_mcp3xxx_attribute": {
+    "message0": "objet CircuitPython MCP3xxx %1 attribut %2",
+    "tooltip": "Lire un attribut autorisé d’un objet ou module CircuitPython MCP3xxx.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "P0",
+            "P0"
+          ],
+          [
+            "P1",
+            "P1"
+          ],
+          [
+            "P2",
+            "P2"
+          ],
+          [
+            "P3",
+            "P3"
+          ],
+          [
+            "P4",
+            "P4"
+          ],
+          [
+            "P5",
+            "P5"
+          ],
+          [
+            "P6",
+            "P6"
+          ],
+          [
+            "P7",
+            "P7"
+          ],
+          [
+            "value",
+            "value"
+          ],
+          [
+            "voltage",
+            "voltage"
+          ],
+          [
+            "reference_voltage",
+            "reference_voltage"
+          ]
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,186 @@
+{
+  "toolbox_name": "SoundFile",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_soundfile_call": {
+    "message0": "SoundFile 呼叫或建立 %1 參數 %2 關鍵字參數 %3",
+    "tooltip": "呼叫白名單中的 SoundFile 函式或建構器並傳回結果。",
+    "args0": [
+      {
+        "options": [
+          [
+            "read",
+            "read"
+          ],
+          [
+            "write",
+            "write"
+          ],
+          [
+            "blocks",
+            "blocks"
+          ],
+          [
+            "info",
+            "info"
+          ],
+          [
+            "SoundFile",
+            "SoundFile"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_soundfile_do": {
+    "message0": "執行 SoundFile %1 參數 %2 關鍵字參數 %3",
+    "tooltip": "以敘述方式執行白名單中的 SoundFile 函式或建構器。",
+    "args0": [
+      {
+        "options": [
+          [
+            "read",
+            "read"
+          ],
+          [
+            "write",
+            "write"
+          ],
+          [
+            "blocks",
+            "blocks"
+          ],
+          [
+            "info",
+            "info"
+          ],
+          [
+            "SoundFile",
+            "SoundFile"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_soundfile_method": {
+    "message0": "SoundFile 物件 %1 呼叫方法 %2 參數 %3 關鍵字參數 %4",
+    "tooltip": "呼叫白名單中的 SoundFile 物件方法並傳回結果。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "read",
+            "read"
+          ],
+          [
+            "write",
+            "write"
+          ],
+          [
+            "seek",
+            "seek"
+          ],
+          [
+            "tell",
+            "tell"
+          ],
+          [
+            "flush",
+            "flush"
+          ],
+          [
+            "close",
+            "close"
+          ],
+          [
+            "blocks",
+            "blocks"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_soundfile_do_method": {
+    "message0": "執行 SoundFile 物件 %1 的方法 %2 參數 %3 關鍵字參數 %4",
+    "tooltip": "以敘述方式執行白名單中的 SoundFile 物件方法。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "read",
+            "read"
+          ],
+          [
+            "write",
+            "write"
+          ],
+          [
+            "seek",
+            "seek"
+          ],
+          [
+            "tell",
+            "tell"
+          ],
+          [
+            "flush",
+            "flush"
+          ],
+          [
+            "close",
+            "close"
+          ],
+          [
+            "blocks",
+            "blocks"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_soundfile_attribute": {
+    "message0": "SoundFile 物件 %1 屬性 %2",
+    "tooltip": "讀取白名單中的 SoundFile 物件或模組屬性。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "samplerate",
+            "samplerate"
+          ],
+          [
+            "channels",
+            "channels"
+          ],
+          [
+            "frames",
+            "frames"
+          ],
+          [
+            "format",
+            "format"
+          ],
+          [
+            "subtype",
+            "subtype"
+          ],
+          [
+            "closed",
+            "closed"
+          ]
+        ]
+      }
+    ]
+  }
+}

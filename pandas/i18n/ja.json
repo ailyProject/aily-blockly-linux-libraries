@@ -1,0 +1,242 @@
+{
+  "toolbox_name": "pandas",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_pandas_call": {
+    "message0": "pandas 呼び出しまたは作成 %1 引数 %2 キーワード引数 %3",
+    "tooltip": "許可された pandas の関数またはコンストラクターを呼び出して結果を返します。",
+    "args0": [
+      {
+        "options": [
+          [
+            "DataFrame",
+            "DataFrame"
+          ],
+          [
+            "Series",
+            "Series"
+          ],
+          [
+            "read_csv",
+            "read_csv"
+          ],
+          [
+            "read_json",
+            "read_json"
+          ],
+          [
+            "read_excel",
+            "read_excel"
+          ],
+          [
+            "concat",
+            "concat"
+          ],
+          [
+            "merge",
+            "merge"
+          ],
+          [
+            "date_range",
+            "date_range"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_pandas_do": {
+    "message0": "pandas を実行 %1 引数 %2 キーワード引数 %3",
+    "tooltip": "許可された pandas の関数またはコンストラクターを文として実行します。",
+    "args0": [
+      {
+        "options": [
+          [
+            "DataFrame",
+            "DataFrame"
+          ],
+          [
+            "Series",
+            "Series"
+          ],
+          [
+            "read_csv",
+            "read_csv"
+          ],
+          [
+            "read_json",
+            "read_json"
+          ],
+          [
+            "read_excel",
+            "read_excel"
+          ],
+          [
+            "concat",
+            "concat"
+          ],
+          [
+            "merge",
+            "merge"
+          ],
+          [
+            "date_range",
+            "date_range"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_pandas_method": {
+    "message0": "pandas オブジェクト %1 メソッド %2 引数 %3 キーワード引数 %4",
+    "tooltip": "許可された pandas オブジェクトのメソッドを呼び出して結果を返します。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "head",
+            "head"
+          ],
+          [
+            "tail",
+            "tail"
+          ],
+          [
+            "describe",
+            "describe"
+          ],
+          [
+            "groupby",
+            "groupby"
+          ],
+          [
+            "merge",
+            "merge"
+          ],
+          [
+            "join",
+            "join"
+          ],
+          [
+            "to_csv",
+            "to_csv"
+          ],
+          [
+            "to_json",
+            "to_json"
+          ],
+          [
+            "dropna",
+            "dropna"
+          ],
+          [
+            "fillna",
+            "fillna"
+          ],
+          [
+            "sort_values",
+            "sort_values"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_pandas_do_method": {
+    "message0": "pandas オブジェクト %1 のメソッド %2 を実行 引数 %3 キーワード引数 %4",
+    "tooltip": "許可された pandas オブジェクトのメソッドを文として実行します。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "head",
+            "head"
+          ],
+          [
+            "tail",
+            "tail"
+          ],
+          [
+            "describe",
+            "describe"
+          ],
+          [
+            "groupby",
+            "groupby"
+          ],
+          [
+            "merge",
+            "merge"
+          ],
+          [
+            "join",
+            "join"
+          ],
+          [
+            "to_csv",
+            "to_csv"
+          ],
+          [
+            "to_json",
+            "to_json"
+          ],
+          [
+            "dropna",
+            "dropna"
+          ],
+          [
+            "fillna",
+            "fillna"
+          ],
+          [
+            "sort_values",
+            "sort_values"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_pandas_attribute": {
+    "message0": "pandas オブジェクト %1 属性 %2",
+    "tooltip": "許可された pandas オブジェクトまたはモジュールの属性を読み取ります。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "shape",
+            "shape"
+          ],
+          [
+            "columns",
+            "columns"
+          ],
+          [
+            "index",
+            "index"
+          ],
+          [
+            "dtypes",
+            "dtypes"
+          ],
+          [
+            "values",
+            "values"
+          ],
+          [
+            "empty",
+            "empty"
+          ]
+        ]
+      }
+    ]
+  }
+}

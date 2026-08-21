@@ -1,0 +1,178 @@
+{
+  "toolbox_name": "python-can",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_python_can_call": {
+    "message0": "python-can aufrufen oder erzeugen %1 Argumente %2 Schlüsselwortargumente %3",
+    "tooltip": "Eine freigegebene python-can-Funktion oder einen Konstruktor aufrufen und das Ergebnis zurückgeben.",
+    "args0": [
+      {
+        "options": [
+          [
+            "Bus",
+            "Bus"
+          ],
+          [
+            "Message",
+            "Message"
+          ],
+          [
+            "Notifier",
+            "Notifier"
+          ],
+          [
+            "Listener",
+            "Listener"
+          ],
+          [
+            "BufferedReader",
+            "BufferedReader"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_python_can_do": {
+    "message0": "python-can ausführen %1 Argumente %2 Schlüsselwortargumente %3",
+    "tooltip": "Eine freigegebene python-can-Funktion oder einen Konstruktor als Anweisung ausführen.",
+    "args0": [
+      {
+        "options": [
+          [
+            "Bus",
+            "Bus"
+          ],
+          [
+            "Message",
+            "Message"
+          ],
+          [
+            "Notifier",
+            "Notifier"
+          ],
+          [
+            "Listener",
+            "Listener"
+          ],
+          [
+            "BufferedReader",
+            "BufferedReader"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_python_can_method": {
+    "message0": "python-can-Objekt %1 Methode %2 Argumente %3 Schlüsselwortargumente %4",
+    "tooltip": "Eine freigegebene Methode eines python-can-Objekts aufrufen und das Ergebnis zurückgeben.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "send",
+            "send"
+          ],
+          [
+            "recv",
+            "recv"
+          ],
+          [
+            "shutdown",
+            "shutdown"
+          ],
+          [
+            "send_periodic",
+            "send_periodic"
+          ],
+          [
+            "stop_all_periodic_tasks",
+            "stop_all_periodic_tasks"
+          ],
+          [
+            "get_message",
+            "get_message"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_python_can_do_method": {
+    "message0": "python-can-Objekt %1 Methode %2 ausführen Argumente %3 Schlüsselwortargumente %4",
+    "tooltip": "Eine freigegebene Methode eines python-can-Objekts als Anweisung ausführen.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "send",
+            "send"
+          ],
+          [
+            "recv",
+            "recv"
+          ],
+          [
+            "shutdown",
+            "shutdown"
+          ],
+          [
+            "send_periodic",
+            "send_periodic"
+          ],
+          [
+            "stop_all_periodic_tasks",
+            "stop_all_periodic_tasks"
+          ],
+          [
+            "get_message",
+            "get_message"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_python_can_attribute": {
+    "message0": "python-can-Objekt %1 Attribut %2",
+    "tooltip": "Ein freigegebenes Attribut eines python-can-Objekts oder Moduls lesen.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "arbitration_id",
+            "arbitration_id"
+          ],
+          [
+            "data",
+            "data"
+          ],
+          [
+            "is_extended_id",
+            "is_extended_id"
+          ],
+          [
+            "is_remote_frame",
+            "is_remote_frame"
+          ],
+          [
+            "timestamp",
+            "timestamp"
+          ],
+          [
+            "channel",
+            "channel"
+          ]
+        ]
+      }
+    ]
+  }
+}

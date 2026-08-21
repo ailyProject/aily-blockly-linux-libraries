@@ -1,0 +1,64 @@
+{
+  "toolbox_name": "CircuitPython Motor",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_adafruit_motor_call": {
+    "message0": "CircuitPython Motor вызвать или создать %1 аргументы %2 именованные аргументы %3",
+    "tooltip": "Вызывает разрешённую функцию или конструктор CircuitPython Motor и возвращает результат.",
+    "args0": [
+      {
+        "options": [
+          [
+            "DCMotor",
+            "DCMotor"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_motor_do": {
+    "message0": "выполнить CircuitPython Motor %1 аргументы %2 именованные аргументы %3",
+    "tooltip": "Выполняет разрешённую функцию или конструктор CircuitPython Motor как инструкцию.",
+    "args0": [
+      {
+        "options": [
+          [
+            "DCMotor",
+            "DCMotor"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_motor_attribute": {
+    "message0": "объект CircuitPython Motor %1 атрибут %2",
+    "tooltip": "Читает разрешённый атрибут объекта или модуля CircuitPython Motor.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "throttle",
+            "throttle"
+          ],
+          [
+            "decay_mode",
+            "decay_mode"
+          ],
+          [
+            "SLOW_DECAY",
+            "SLOW_DECAY"
+          ],
+          [
+            "FAST_DECAY",
+            "FAST_DECAY"
+          ]
+        ]
+      }
+    ]
+  }
+}

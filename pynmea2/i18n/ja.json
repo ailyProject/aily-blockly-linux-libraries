@@ -1,0 +1,146 @@
+{
+  "toolbox_name": "pynmea2",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_pynmea2_call": {
+    "message0": "pynmea2 呼び出しまたは作成 %1 引数 %2 キーワード引数 %3",
+    "tooltip": "許可された pynmea2 の関数またはコンストラクターを呼び出して結果を返します。",
+    "args0": [
+      {
+        "options": [
+          [
+            "parse",
+            "parse"
+          ],
+          [
+            "NMEASentence",
+            "NMEASentence"
+          ],
+          [
+            "LatLonFix",
+            "LatLonFix"
+          ],
+          [
+            "ProprietarySentence",
+            "ProprietarySentence"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_pynmea2_do": {
+    "message0": "pynmea2 を実行 %1 引数 %2 キーワード引数 %3",
+    "tooltip": "許可された pynmea2 の関数またはコンストラクターを文として実行します。",
+    "args0": [
+      {
+        "options": [
+          [
+            "parse",
+            "parse"
+          ],
+          [
+            "NMEASentence",
+            "NMEASentence"
+          ],
+          [
+            "LatLonFix",
+            "LatLonFix"
+          ],
+          [
+            "ProprietarySentence",
+            "ProprietarySentence"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_pynmea2_method": {
+    "message0": "pynmea2 オブジェクト %1 メソッド %2 引数 %3 キーワード引数 %4",
+    "tooltip": "許可された pynmea2 オブジェクトのメソッドを呼び出して結果を返します。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "render",
+            "render"
+          ],
+          [
+            "identifier",
+            "identifier"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_pynmea2_do_method": {
+    "message0": "pynmea2 オブジェクト %1 のメソッド %2 を実行 引数 %3 キーワード引数 %4",
+    "tooltip": "許可された pynmea2 オブジェクトのメソッドを文として実行します。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "render",
+            "render"
+          ],
+          [
+            "identifier",
+            "identifier"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_pynmea2_attribute": {
+    "message0": "pynmea2 オブジェクト %1 属性 %2",
+    "tooltip": "許可された pynmea2 オブジェクトまたはモジュールの属性を読み取ります。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "latitude",
+            "latitude"
+          ],
+          [
+            "longitude",
+            "longitude"
+          ],
+          [
+            "altitude",
+            "altitude"
+          ],
+          [
+            "timestamp",
+            "timestamp"
+          ],
+          [
+            "num_sats",
+            "num_sats"
+          ],
+          [
+            "gps_qual",
+            "gps_qual"
+          ],
+          [
+            "spd_over_grnd",
+            "spd_over_grnd"
+          ],
+          [
+            "true_course",
+            "true_course"
+          ]
+        ]
+      }
+    ]
+  }
+}

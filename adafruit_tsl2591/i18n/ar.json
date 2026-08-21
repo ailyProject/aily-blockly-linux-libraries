@@ -1,0 +1,72 @@
+{
+  "toolbox_name": "CircuitPython TSL2591",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_adafruit_tsl2591_call": {
+    "message0": "CircuitPython TSL2591 استدعاء أو إنشاء %1 الوسائط %2 وسائط الكلمات المفتاحية %3",
+    "tooltip": "استدعاء دالة أو مُنشئ مسموح من CircuitPython TSL2591 وإرجاع النتيجة.",
+    "args0": [
+      {
+        "options": [
+          [
+            "TSL2591",
+            "TSL2591"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_tsl2591_do": {
+    "message0": "تشغيل CircuitPython TSL2591 %1 الوسائط %2 وسائط الكلمات المفتاحية %3",
+    "tooltip": "تشغيل دالة أو مُنشئ مسموح من CircuitPython TSL2591 كتعليمة.",
+    "args0": [
+      {
+        "options": [
+          [
+            "TSL2591",
+            "TSL2591"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_tsl2591_attribute": {
+    "message0": "كائن CircuitPython TSL2591 %1 السمة %2",
+    "tooltip": "قراءة سمة مسموحة لكائن أو وحدة CircuitPython TSL2591.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "lux",
+            "lux"
+          ],
+          [
+            "infrared",
+            "infrared"
+          ],
+          [
+            "visible",
+            "visible"
+          ],
+          [
+            "full_spectrum",
+            "full_spectrum"
+          ],
+          [
+            "gain",
+            "gain"
+          ],
+          [
+            "integration_time",
+            "integration_time"
+          ]
+        ]
+      }
+    ]
+  }
+}

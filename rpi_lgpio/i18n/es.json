@@ -1,0 +1,198 @@
+{
+  "toolbox_name": "rpi-lgpio",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "rpi_lgpio_call": {
+    "message0": "rpi-lgpio llamar o crear %1 argumentos %2 argumentos con nombre %3",
+    "tooltip": "Llama a una función o constructor permitido de rpi-lgpio y devuelve el resultado.",
+    "args0": [
+      {
+        "options": [
+          [
+            "setmode",
+            "setmode"
+          ],
+          [
+            "setup",
+            "setup"
+          ],
+          [
+            "input",
+            "input"
+          ],
+          [
+            "output",
+            "output"
+          ],
+          [
+            "cleanup",
+            "cleanup"
+          ],
+          [
+            "PWM",
+            "PWM"
+          ],
+          [
+            "add_event_detect",
+            "add_event_detect"
+          ],
+          [
+            "wait_for_edge",
+            "wait_for_edge"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "rpi_lgpio_do": {
+    "message0": "ejecutar rpi-lgpio %1 argumentos %2 argumentos con nombre %3",
+    "tooltip": "Ejecuta una función o constructor permitido de rpi-lgpio como sentencia.",
+    "args0": [
+      {
+        "options": [
+          [
+            "setmode",
+            "setmode"
+          ],
+          [
+            "setup",
+            "setup"
+          ],
+          [
+            "input",
+            "input"
+          ],
+          [
+            "output",
+            "output"
+          ],
+          [
+            "cleanup",
+            "cleanup"
+          ],
+          [
+            "PWM",
+            "PWM"
+          ],
+          [
+            "add_event_detect",
+            "add_event_detect"
+          ],
+          [
+            "wait_for_edge",
+            "wait_for_edge"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "rpi_lgpio_method": {
+    "message0": "objeto rpi-lgpio %1 método %2 argumentos %3 argumentos con nombre %4",
+    "tooltip": "Llama a un método permitido de un objeto rpi-lgpio y devuelve el resultado.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "start",
+            "start"
+          ],
+          [
+            "stop",
+            "stop"
+          ],
+          [
+            "ChangeDutyCycle",
+            "ChangeDutyCycle"
+          ],
+          [
+            "ChangeFrequency",
+            "ChangeFrequency"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "rpi_lgpio_do_method": {
+    "message0": "ejecutar método de rpi-lgpio objeto %1 %2 argumentos %3 argumentos con nombre %4",
+    "tooltip": "Ejecuta un método permitido de un objeto rpi-lgpio como sentencia.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "start",
+            "start"
+          ],
+          [
+            "stop",
+            "stop"
+          ],
+          [
+            "ChangeDutyCycle",
+            "ChangeDutyCycle"
+          ],
+          [
+            "ChangeFrequency",
+            "ChangeFrequency"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "rpi_lgpio_attribute": {
+    "message0": "objeto rpi-lgpio %1 atributo %2",
+    "tooltip": "Lee un atributo permitido de un objeto o módulo rpi-lgpio.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "BCM",
+            "BCM"
+          ],
+          [
+            "BOARD",
+            "BOARD"
+          ],
+          [
+            "IN",
+            "IN"
+          ],
+          [
+            "OUT",
+            "OUT"
+          ],
+          [
+            "HIGH",
+            "HIGH"
+          ],
+          [
+            "LOW",
+            "LOW"
+          ],
+          [
+            "RISING",
+            "RISING"
+          ],
+          [
+            "FALLING",
+            "FALLING"
+          ],
+          [
+            "BOTH",
+            "BOTH"
+          ]
+        ]
+      }
+    ]
+  }
+}

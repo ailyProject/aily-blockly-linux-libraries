@@ -1,0 +1,118 @@
+{
+  "toolbox_name": "CircuitPython LIS3DH",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_adafruit_lis3dh_call": {
+    "message0": "CircuitPython LIS3DH call or create %1 arguments %2 keyword arguments %3",
+    "tooltip": "Call an allowlisted CircuitPython LIS3DH function or constructor and return its result.",
+    "args0": [
+      {
+        "options": [
+          [
+            "LIS3DH_I2C",
+            "LIS3DH_I2C"
+          ],
+          [
+            "LIS3DH_SPI",
+            "LIS3DH_SPI"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_lis3dh_do": {
+    "message0": "run CircuitPython LIS3DH %1 arguments %2 keyword arguments %3",
+    "tooltip": "Run an allowlisted CircuitPython LIS3DH function or constructor as a statement.",
+    "args0": [
+      {
+        "options": [
+          [
+            "LIS3DH_I2C",
+            "LIS3DH_I2C"
+          ],
+          [
+            "LIS3DH_SPI",
+            "LIS3DH_SPI"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_lis3dh_method": {
+    "message0": "CircuitPython LIS3DH object %1 call method %2 arguments %3 keyword arguments %4",
+    "tooltip": "Call an allowlisted CircuitPython LIS3DH object method and return its result.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "set_tap",
+            "set_tap"
+          ],
+          [
+            "unset_tap",
+            "unset_tap"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_lis3dh_do_method": {
+    "message0": "run CircuitPython LIS3DH object %1 method %2 arguments %3 keyword arguments %4",
+    "tooltip": "Run an allowlisted CircuitPython LIS3DH object method as a statement.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "set_tap",
+            "set_tap"
+          ],
+          [
+            "unset_tap",
+            "unset_tap"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_lis3dh_attribute": {
+    "message0": "CircuitPython LIS3DH object %1 attribute %2",
+    "tooltip": "Read an allowlisted CircuitPython LIS3DH object or module attribute.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "acceleration",
+            "acceleration"
+          ],
+          [
+            "range",
+            "range"
+          ],
+          [
+            "data_rate",
+            "data_rate"
+          ],
+          [
+            "click",
+            "click"
+          ],
+          [
+            "tapped",
+            "tapped"
+          ]
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,175 @@
+{
+  "toolbox_name": "HailoRT Python",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_hailo_platform_call": {
+    "message0": "HailoRT Python llamar o crear %1 argumentos %2 argumentos con nombre %3",
+    "tooltip": "Llama a una función o constructor permitido de HailoRT Python y devuelve el resultado.",
+    "args0": [
+      {
+        "options": [
+          [
+            "HEF",
+            "HEF"
+          ],
+          [
+            "VDevice",
+            "VDevice"
+          ],
+          [
+            "Device",
+            "Device"
+          ],
+          [
+            "ConfigureParams",
+            "ConfigureParams"
+          ],
+          [
+            "InferVStreams",
+            "InferVStreams"
+          ],
+          [
+            "InputVStreamParams",
+            "InputVStreamParams"
+          ],
+          [
+            "OutputVStreamParams",
+            "OutputVStreamParams"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_hailo_platform_do": {
+    "message0": "ejecutar HailoRT Python %1 argumentos %2 argumentos con nombre %3",
+    "tooltip": "Ejecuta una función o constructor permitido de HailoRT Python como sentencia.",
+    "args0": [
+      {
+        "options": [
+          [
+            "HEF",
+            "HEF"
+          ],
+          [
+            "VDevice",
+            "VDevice"
+          ],
+          [
+            "Device",
+            "Device"
+          ],
+          [
+            "ConfigureParams",
+            "ConfigureParams"
+          ],
+          [
+            "InferVStreams",
+            "InferVStreams"
+          ],
+          [
+            "InputVStreamParams",
+            "InputVStreamParams"
+          ],
+          [
+            "OutputVStreamParams",
+            "OutputVStreamParams"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_hailo_platform_method": {
+    "message0": "objeto HailoRT Python %1 método %2 argumentos %3 argumentos con nombre %4",
+    "tooltip": "Llama a un método permitido de un objeto HailoRT Python y devuelve el resultado.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "configure",
+            "configure"
+          ],
+          [
+            "create_infer_model",
+            "create_infer_model"
+          ],
+          [
+            "activate",
+            "activate"
+          ],
+          [
+            "wait_for_async_ready",
+            "wait_for_async_ready"
+          ],
+          [
+            "run_async",
+            "run_async"
+          ],
+          [
+            "infer",
+            "infer"
+          ],
+          [
+            "get_input_vstream_infos",
+            "get_input_vstream_infos"
+          ],
+          [
+            "get_output_vstream_infos",
+            "get_output_vstream_infos"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_hailo_platform_do_method": {
+    "message0": "ejecutar método de HailoRT Python objeto %1 %2 argumentos %3 argumentos con nombre %4",
+    "tooltip": "Ejecuta un método permitido de un objeto HailoRT Python como sentencia.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "configure",
+            "configure"
+          ],
+          [
+            "create_infer_model",
+            "create_infer_model"
+          ],
+          [
+            "activate",
+            "activate"
+          ],
+          [
+            "wait_for_async_ready",
+            "wait_for_async_ready"
+          ],
+          [
+            "run_async",
+            "run_async"
+          ],
+          [
+            "infer",
+            "infer"
+          ],
+          [
+            "get_input_vstream_infos",
+            "get_input_vstream_infos"
+          ],
+          [
+            "get_output_vstream_infos",
+            "get_output_vstream_infos"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  }
+}

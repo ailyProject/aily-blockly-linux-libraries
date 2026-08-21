@@ -1,0 +1,162 @@
+{
+  "toolbox_name": "watchdog Observer",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "linux_watchdog_call": {
+    "message0": "watchdog Observer استدعاء أو إنشاء %1 الوسائط %2 وسائط الكلمات المفتاحية %3",
+    "tooltip": "استدعاء دالة أو مُنشئ مسموح من watchdog Observer وإرجاع النتيجة.",
+    "args0": [
+      {
+        "options": [
+          [
+            "Observer",
+            "Observer"
+          ],
+          [
+            "LoggingEventHandler",
+            "LoggingEventHandler"
+          ],
+          [
+            "FileSystemEventHandler",
+            "FileSystemEventHandler"
+          ],
+          [
+            "PatternMatchingEventHandler",
+            "PatternMatchingEventHandler"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "linux_watchdog_do": {
+    "message0": "تشغيل watchdog Observer %1 الوسائط %2 وسائط الكلمات المفتاحية %3",
+    "tooltip": "تشغيل دالة أو مُنشئ مسموح من watchdog Observer كتعليمة.",
+    "args0": [
+      {
+        "options": [
+          [
+            "Observer",
+            "Observer"
+          ],
+          [
+            "LoggingEventHandler",
+            "LoggingEventHandler"
+          ],
+          [
+            "FileSystemEventHandler",
+            "FileSystemEventHandler"
+          ],
+          [
+            "PatternMatchingEventHandler",
+            "PatternMatchingEventHandler"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "linux_watchdog_method": {
+    "message0": "كائن watchdog Observer %1 الطريقة %2 الوسائط %3 وسائط الكلمات المفتاحية %4",
+    "tooltip": "استدعاء طريقة مسموحة لكائن watchdog Observer وإرجاع النتيجة.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "schedule",
+            "schedule"
+          ],
+          [
+            "start",
+            "start"
+          ],
+          [
+            "stop",
+            "stop"
+          ],
+          [
+            "join",
+            "join"
+          ],
+          [
+            "unschedule",
+            "unschedule"
+          ],
+          [
+            "unschedule_all",
+            "unschedule_all"
+          ],
+          [
+            "is_alive",
+            "is_alive"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "linux_watchdog_do_method": {
+    "message0": "تشغيل طريقة watchdog Observer للكائن %1 %2 الوسائط %3 وسائط الكلمات المفتاحية %4",
+    "tooltip": "تشغيل طريقة مسموحة لكائن watchdog Observer كتعليمة.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "schedule",
+            "schedule"
+          ],
+          [
+            "start",
+            "start"
+          ],
+          [
+            "stop",
+            "stop"
+          ],
+          [
+            "join",
+            "join"
+          ],
+          [
+            "unschedule",
+            "unschedule"
+          ],
+          [
+            "unschedule_all",
+            "unschedule_all"
+          ],
+          [
+            "is_alive",
+            "is_alive"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "linux_watchdog_attribute": {
+    "message0": "كائن watchdog Observer %1 السمة %2",
+    "tooltip": "قراءة سمة مسموحة لكائن أو وحدة watchdog Observer.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "daemon",
+            "daemon"
+          ],
+          [
+            "name",
+            "name"
+          ]
+        ]
+      }
+    ]
+  }
+}

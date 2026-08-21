@@ -1,0 +1,260 @@
+[
+  {
+    "type": "python_aiohttp_call",
+    "message0": "aiohttp call or create %1 arguments %2 keyword arguments %3",
+    "args0": [
+      {
+        "type": "field_dropdown",
+        "name": "TARGET",
+        "options": [
+          [
+            "ClientSession",
+            "ClientSession"
+          ],
+          [
+            "ClientTimeout",
+            "ClientTimeout"
+          ],
+          [
+            "TCPConnector",
+            "TCPConnector"
+          ],
+          [
+            "web.Application",
+            "web.Application"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#0288D1",
+    "tooltip": "Call an allowlisted aiohttp function or constructor and return its result.",
+    "icon": "settings",
+    "output": "Any"
+  },
+  {
+    "type": "python_aiohttp_do",
+    "message0": "run aiohttp %1 arguments %2 keyword arguments %3",
+    "args0": [
+      {
+        "type": "field_dropdown",
+        "name": "TARGET",
+        "options": [
+          [
+            "ClientSession",
+            "ClientSession"
+          ],
+          [
+            "ClientTimeout",
+            "ClientTimeout"
+          ],
+          [
+            "TCPConnector",
+            "TCPConnector"
+          ],
+          [
+            "web.Application",
+            "web.Application"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#0288D1",
+    "tooltip": "Run an allowlisted aiohttp function or constructor as a statement.",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "python_aiohttp_method",
+    "message0": "aiohttp object %1 call method %2 arguments %3 keyword arguments %4",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "OBJECT"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "METHOD",
+        "options": [
+          [
+            "get",
+            "get"
+          ],
+          [
+            "post",
+            "post"
+          ],
+          [
+            "put",
+            "put"
+          ],
+          [
+            "delete",
+            "delete"
+          ],
+          [
+            "request",
+            "request"
+          ],
+          [
+            "close",
+            "close"
+          ],
+          [
+            "json",
+            "json"
+          ],
+          [
+            "text",
+            "text"
+          ],
+          [
+            "read",
+            "read"
+          ],
+          [
+            "add_routes",
+            "add_routes"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#0288D1",
+    "tooltip": "Call an allowlisted aiohttp object method and return its result.",
+    "icon": "settings",
+    "output": "Any"
+  },
+  {
+    "type": "python_aiohttp_do_method",
+    "message0": "run aiohttp object %1 method %2 arguments %3 keyword arguments %4",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "OBJECT"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "METHOD",
+        "options": [
+          [
+            "get",
+            "get"
+          ],
+          [
+            "post",
+            "post"
+          ],
+          [
+            "put",
+            "put"
+          ],
+          [
+            "delete",
+            "delete"
+          ],
+          [
+            "request",
+            "request"
+          ],
+          [
+            "close",
+            "close"
+          ],
+          [
+            "json",
+            "json"
+          ],
+          [
+            "text",
+            "text"
+          ],
+          [
+            "read",
+            "read"
+          ],
+          [
+            "add_routes",
+            "add_routes"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#0288D1",
+    "tooltip": "Run an allowlisted aiohttp object method as a statement.",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "python_aiohttp_attribute",
+    "message0": "aiohttp object %1 attribute %2",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "OBJECT"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "ATTRIBUTE",
+        "options": [
+          [
+            "status",
+            "status"
+          ],
+          [
+            "headers",
+            "headers"
+          ],
+          [
+            "cookies",
+            "cookies"
+          ],
+          [
+            "url",
+            "url"
+          ],
+          [
+            "content_type",
+            "content_type"
+          ]
+        ]
+      }
+    ],
+    "colour": "#0288D1",
+    "tooltip": "Read an allowlisted aiohttp object or module attribute.",
+    "icon": "settings",
+    "output": "Any"
+  }
+]

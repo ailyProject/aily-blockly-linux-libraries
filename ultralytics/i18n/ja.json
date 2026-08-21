@@ -1,0 +1,170 @@
+{
+  "toolbox_name": "Ultralytics",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_ultralytics_call": {
+    "message0": "Ultralytics 呼び出しまたは作成 %1 引数 %2 キーワード引数 %3",
+    "tooltip": "許可された Ultralytics の関数またはコンストラクターを呼び出して結果を返します。",
+    "args0": [
+      {
+        "options": [
+          [
+            "YOLO",
+            "YOLO"
+          ],
+          [
+            "RTDETR",
+            "RTDETR"
+          ],
+          [
+            "SAM",
+            "SAM"
+          ],
+          [
+            "FastSAM",
+            "FastSAM"
+          ],
+          [
+            "NAS",
+            "NAS"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_ultralytics_do": {
+    "message0": "Ultralytics を実行 %1 引数 %2 キーワード引数 %3",
+    "tooltip": "許可された Ultralytics の関数またはコンストラクターを文として実行します。",
+    "args0": [
+      {
+        "options": [
+          [
+            "YOLO",
+            "YOLO"
+          ],
+          [
+            "RTDETR",
+            "RTDETR"
+          ],
+          [
+            "SAM",
+            "SAM"
+          ],
+          [
+            "FastSAM",
+            "FastSAM"
+          ],
+          [
+            "NAS",
+            "NAS"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_ultralytics_method": {
+    "message0": "Ultralytics オブジェクト %1 メソッド %2 引数 %3 キーワード引数 %4",
+    "tooltip": "許可された Ultralytics オブジェクトのメソッドを呼び出して結果を返します。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "train",
+            "train"
+          ],
+          [
+            "val",
+            "val"
+          ],
+          [
+            "predict",
+            "predict"
+          ],
+          [
+            "export",
+            "export"
+          ],
+          [
+            "track",
+            "track"
+          ],
+          [
+            "benchmark",
+            "benchmark"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_ultralytics_do_method": {
+    "message0": "Ultralytics オブジェクト %1 のメソッド %2 を実行 引数 %3 キーワード引数 %4",
+    "tooltip": "許可された Ultralytics オブジェクトのメソッドを文として実行します。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "train",
+            "train"
+          ],
+          [
+            "val",
+            "val"
+          ],
+          [
+            "predict",
+            "predict"
+          ],
+          [
+            "export",
+            "export"
+          ],
+          [
+            "track",
+            "track"
+          ],
+          [
+            "benchmark",
+            "benchmark"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_ultralytics_attribute": {
+    "message0": "Ultralytics オブジェクト %1 属性 %2",
+    "tooltip": "許可された Ultralytics オブジェクトまたはモジュールの属性を読み取ります。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "names",
+            "names"
+          ],
+          [
+            "model",
+            "model"
+          ],
+          [
+            "overrides",
+            "overrides"
+          ],
+          [
+            "callbacks",
+            "callbacks"
+          ]
+        ]
+      }
+    ]
+  }
+}

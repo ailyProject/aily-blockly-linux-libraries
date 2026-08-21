@@ -1,0 +1,56 @@
+{
+  "toolbox_name": "CircuitPython AHTx0",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_adafruit_ahtx0_call": {
+    "message0": "CircuitPython AHTx0 呼叫或建立 %1 參數 %2 關鍵字參數 %3",
+    "tooltip": "呼叫白名單中的 CircuitPython AHTx0 函式或建構器並傳回結果。",
+    "args0": [
+      {
+        "options": [
+          [
+            "AHTx0",
+            "AHTx0"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_ahtx0_do": {
+    "message0": "執行 CircuitPython AHTx0 %1 參數 %2 關鍵字參數 %3",
+    "tooltip": "以敘述方式執行白名單中的 CircuitPython AHTx0 函式或建構器。",
+    "args0": [
+      {
+        "options": [
+          [
+            "AHTx0",
+            "AHTx0"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_ahtx0_attribute": {
+    "message0": "CircuitPython AHTx0 物件 %1 屬性 %2",
+    "tooltip": "讀取白名單中的 CircuitPython AHTx0 物件或模組屬性。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "temperature",
+            "temperature"
+          ],
+          [
+            "relative_humidity",
+            "relative_humidity"
+          ]
+        ]
+      }
+    ]
+  }
+}

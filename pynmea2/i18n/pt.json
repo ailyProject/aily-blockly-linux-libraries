@@ -1,0 +1,146 @@
+{
+  "toolbox_name": "pynmea2",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_pynmea2_call": {
+    "message0": "pynmea2 chamar ou criar %1 argumentos %2 argumentos nomeados %3",
+    "tooltip": "Chama uma função ou construtor permitido de pynmea2 e devolve o resultado.",
+    "args0": [
+      {
+        "options": [
+          [
+            "parse",
+            "parse"
+          ],
+          [
+            "NMEASentence",
+            "NMEASentence"
+          ],
+          [
+            "LatLonFix",
+            "LatLonFix"
+          ],
+          [
+            "ProprietarySentence",
+            "ProprietarySentence"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_pynmea2_do": {
+    "message0": "executar pynmea2 %1 argumentos %2 argumentos nomeados %3",
+    "tooltip": "Executa uma função ou construtor permitido de pynmea2 como instrução.",
+    "args0": [
+      {
+        "options": [
+          [
+            "parse",
+            "parse"
+          ],
+          [
+            "NMEASentence",
+            "NMEASentence"
+          ],
+          [
+            "LatLonFix",
+            "LatLonFix"
+          ],
+          [
+            "ProprietarySentence",
+            "ProprietarySentence"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_pynmea2_method": {
+    "message0": "objeto pynmea2 %1 método %2 argumentos %3 argumentos nomeados %4",
+    "tooltip": "Chama um método permitido de um objeto pynmea2 e devolve o resultado.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "render",
+            "render"
+          ],
+          [
+            "identifier",
+            "identifier"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_pynmea2_do_method": {
+    "message0": "executar método de pynmea2 objeto %1 %2 argumentos %3 argumentos nomeados %4",
+    "tooltip": "Executa um método permitido de um objeto pynmea2 como instrução.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "render",
+            "render"
+          ],
+          [
+            "identifier",
+            "identifier"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_pynmea2_attribute": {
+    "message0": "objeto pynmea2 %1 atributo %2",
+    "tooltip": "Lê um atributo permitido de um objeto ou módulo pynmea2.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "latitude",
+            "latitude"
+          ],
+          [
+            "longitude",
+            "longitude"
+          ],
+          [
+            "altitude",
+            "altitude"
+          ],
+          [
+            "timestamp",
+            "timestamp"
+          ],
+          [
+            "num_sats",
+            "num_sats"
+          ],
+          [
+            "gps_qual",
+            "gps_qual"
+          ],
+          [
+            "spd_over_grnd",
+            "spd_over_grnd"
+          ],
+          [
+            "true_course",
+            "true_course"
+          ]
+        ]
+      }
+    ]
+  }
+}

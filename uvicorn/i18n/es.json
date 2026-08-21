@@ -1,0 +1,114 @@
+{
+  "toolbox_name": "Uvicorn",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_uvicorn_call": {
+    "message0": "Uvicorn llamar o crear %1 argumentos %2 argumentos con nombre %3",
+    "tooltip": "Llama a una función o constructor permitido de Uvicorn y devuelve el resultado.",
+    "args0": [
+      {
+        "options": [
+          [
+            "run",
+            "run"
+          ],
+          [
+            "Config",
+            "Config"
+          ],
+          [
+            "Server",
+            "Server"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_uvicorn_do": {
+    "message0": "ejecutar Uvicorn %1 argumentos %2 argumentos con nombre %3",
+    "tooltip": "Ejecuta una función o constructor permitido de Uvicorn como sentencia.",
+    "args0": [
+      {
+        "options": [
+          [
+            "run",
+            "run"
+          ],
+          [
+            "Config",
+            "Config"
+          ],
+          [
+            "Server",
+            "Server"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_uvicorn_method": {
+    "message0": "objeto Uvicorn %1 método %2 argumentos %3 argumentos con nombre %4",
+    "tooltip": "Llama a un método permitido de un objeto Uvicorn y devuelve el resultado.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "run",
+            "run"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_uvicorn_do_method": {
+    "message0": "ejecutar método de Uvicorn objeto %1 %2 argumentos %3 argumentos con nombre %4",
+    "tooltip": "Ejecuta un método permitido de un objeto Uvicorn como sentencia.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "run",
+            "run"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_uvicorn_attribute": {
+    "message0": "objeto Uvicorn %1 atributo %2",
+    "tooltip": "Lee un atributo permitido de un objeto o módulo Uvicorn.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "started",
+            "started"
+          ],
+          [
+            "should_exit",
+            "should_exit"
+          ],
+          [
+            "force_exit",
+            "force_exit"
+          ],
+          [
+            "config",
+            "config"
+          ]
+        ]
+      }
+    ]
+  }
+}

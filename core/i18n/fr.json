@@ -78,6 +78,62 @@
       null
     ]
   },
+  "python_arguments": {
+    "message0": "arguments positionnels %1 %2 %3 %4 %5 %6",
+    "tooltip": "Construit une liste d’arguments positionnels à partir des valeurs connectées.",
+    "args0": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "python_keyword_arguments": {
+    "message0": "arguments nommés %1 : %2 %3 : %4 %5 : %6 %7 : %8 %9 : %10 %11 : %12",
+    "tooltip": "Construit un dictionnaire d’arguments nommés ; les lignes dont la clé est vide sont ignorées.",
+    "args0": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "python_get_item": {
+    "message0": "élément %2 de l’objet %1",
+    "tooltip": "Lit un élément d’un objet Python par clé ou indice.",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_set_item": {
+    "message0": "mettre l’élément %2 de l’objet %1 à %3",
+    "tooltip": "Affecte une valeur à un élément d’un objet Python par clé ou indice.",
+    "args0": [
+      null,
+      null,
+      null
+    ]
+  },
+  "python_set_attribute": {
+    "message0": "mettre l’attribut %2 de l’objet %1 à %3",
+    "tooltip": "Affecte une valeur à un attribut d’objet Python validé en toute sécurité.",
+    "args0": [
+      null,
+      null,
+      null
+    ]
+  },
   "python_set_variable": {
     "message0": "définir la variable %1 à %2",
     "tooltip": "définir la variable %1 à %2",

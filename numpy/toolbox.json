@@ -1,0 +1,27 @@
+{
+  "kind": "category",
+  "name": "NumPy",
+  "colour": "#7B1FA2",
+  "contents": [
+    {
+      "kind": "block",
+      "type": "python_numpy_call"
+    },
+    {
+      "kind": "block",
+      "type": "python_numpy_do"
+    },
+    {
+      "kind": "block",
+      "type": "python_numpy_method"
+    },
+    {
+      "kind": "block",
+      "type": "python_numpy_do_method"
+    },
+    {
+      "kind": "block",
+      "type": "python_numpy_attribute"
+    }
+  ]
+}

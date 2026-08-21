@@ -1,0 +1,122 @@
+{
+  "toolbox_name": "Raspberry Pi Hardware PWM",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "rpi_hardware_pwm_call": {
+    "message0": "Raspberry Pi Hardware PWM استدعاء أو إنشاء %1 الوسائط %2 وسائط الكلمات المفتاحية %3",
+    "tooltip": "استدعاء دالة أو مُنشئ مسموح من Raspberry Pi Hardware PWM وإرجاع النتيجة.",
+    "args0": [
+      {
+        "options": [
+          [
+            "HardwarePWM",
+            "HardwarePWM"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "rpi_hardware_pwm_do": {
+    "message0": "تشغيل Raspberry Pi Hardware PWM %1 الوسائط %2 وسائط الكلمات المفتاحية %3",
+    "tooltip": "تشغيل دالة أو مُنشئ مسموح من Raspberry Pi Hardware PWM كتعليمة.",
+    "args0": [
+      {
+        "options": [
+          [
+            "HardwarePWM",
+            "HardwarePWM"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "rpi_hardware_pwm_method": {
+    "message0": "كائن Raspberry Pi Hardware PWM %1 الطريقة %2 الوسائط %3 وسائط الكلمات المفتاحية %4",
+    "tooltip": "استدعاء طريقة مسموحة لكائن Raspberry Pi Hardware PWM وإرجاع النتيجة.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "start",
+            "start"
+          ],
+          [
+            "stop",
+            "stop"
+          ],
+          [
+            "change_duty_cycle",
+            "change_duty_cycle"
+          ],
+          [
+            "change_frequency",
+            "change_frequency"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "rpi_hardware_pwm_do_method": {
+    "message0": "تشغيل طريقة Raspberry Pi Hardware PWM للكائن %1 %2 الوسائط %3 وسائط الكلمات المفتاحية %4",
+    "tooltip": "تشغيل طريقة مسموحة لكائن Raspberry Pi Hardware PWM كتعليمة.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "start",
+            "start"
+          ],
+          [
+            "stop",
+            "stop"
+          ],
+          [
+            "change_duty_cycle",
+            "change_duty_cycle"
+          ],
+          [
+            "change_frequency",
+            "change_frequency"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "rpi_hardware_pwm_attribute": {
+    "message0": "كائن Raspberry Pi Hardware PWM %1 السمة %2",
+    "tooltip": "قراءة سمة مسموحة لكائن أو وحدة Raspberry Pi Hardware PWM.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "duty_cycle",
+            "duty_cycle"
+          ],
+          [
+            "frequency_hz",
+            "frequency_hz"
+          ],
+          [
+            "pwm_channel",
+            "pwm_channel"
+          ],
+          [
+            "chip",
+            "chip"
+          ]
+        ]
+      }
+    ]
+  }
+}

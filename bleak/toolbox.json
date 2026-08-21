@@ -1,0 +1,27 @@
+{
+  "kind": "category",
+  "name": "Bleak Bluetooth LE",
+  "colour": "#0288D1",
+  "contents": [
+    {
+      "kind": "block",
+      "type": "python_bleak_call"
+    },
+    {
+      "kind": "block",
+      "type": "python_bleak_do"
+    },
+    {
+      "kind": "block",
+      "type": "python_bleak_method"
+    },
+    {
+      "kind": "block",
+      "type": "python_bleak_do_method"
+    },
+    {
+      "kind": "block",
+      "type": "python_bleak_attribute"
+    }
+  ]
+}

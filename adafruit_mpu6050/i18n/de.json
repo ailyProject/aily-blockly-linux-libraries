@@ -1,0 +1,114 @@
+{
+  "toolbox_name": "CircuitPython MPU6050",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_adafruit_mpu6050_call": {
+    "message0": "CircuitPython MPU6050 aufrufen oder erzeugen %1 Argumente %2 Schlüsselwortargumente %3",
+    "tooltip": "Eine freigegebene CircuitPython MPU6050-Funktion oder einen Konstruktor aufrufen und das Ergebnis zurückgeben.",
+    "args0": [
+      {
+        "options": [
+          [
+            "MPU6050",
+            "MPU6050"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_mpu6050_do": {
+    "message0": "CircuitPython MPU6050 ausführen %1 Argumente %2 Schlüsselwortargumente %3",
+    "tooltip": "Eine freigegebene CircuitPython MPU6050-Funktion oder einen Konstruktor als Anweisung ausführen.",
+    "args0": [
+      {
+        "options": [
+          [
+            "MPU6050",
+            "MPU6050"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_mpu6050_method": {
+    "message0": "CircuitPython MPU6050-Objekt %1 Methode %2 Argumente %3 Schlüsselwortargumente %4",
+    "tooltip": "Eine freigegebene Methode eines CircuitPython MPU6050-Objekts aufrufen und das Ergebnis zurückgeben.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "reset",
+            "reset"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_mpu6050_do_method": {
+    "message0": "CircuitPython MPU6050-Objekt %1 Methode %2 ausführen Argumente %3 Schlüsselwortargumente %4",
+    "tooltip": "Eine freigegebene Methode eines CircuitPython MPU6050-Objekts als Anweisung ausführen.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "reset",
+            "reset"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_mpu6050_attribute": {
+    "message0": "CircuitPython MPU6050-Objekt %1 Attribut %2",
+    "tooltip": "Ein freigegebenes Attribut eines CircuitPython MPU6050-Objekts oder Moduls lesen.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "acceleration",
+            "acceleration"
+          ],
+          [
+            "gyro",
+            "gyro"
+          ],
+          [
+            "temperature",
+            "temperature"
+          ],
+          [
+            "cycle_rate",
+            "cycle_rate"
+          ],
+          [
+            "filter_bandwidth",
+            "filter_bandwidth"
+          ],
+          [
+            "gyro_range",
+            "gyro_range"
+          ],
+          [
+            "accelerometer_range",
+            "accelerometer_range"
+          ],
+          [
+            "cycle",
+            "cycle"
+          ]
+        ]
+      }
+    ]
+  }
+}

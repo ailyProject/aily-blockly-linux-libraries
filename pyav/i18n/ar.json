@@ -1,0 +1,194 @@
+{
+  "toolbox_name": "PyAV",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_pyav_call": {
+    "message0": "PyAV استدعاء أو إنشاء %1 الوسائط %2 وسائط الكلمات المفتاحية %3",
+    "tooltip": "استدعاء دالة أو مُنشئ مسموح من PyAV وإرجاع النتيجة.",
+    "args0": [
+      {
+        "options": [
+          [
+            "open",
+            "open"
+          ],
+          [
+            "AudioFrame",
+            "AudioFrame"
+          ],
+          [
+            "VideoFrame",
+            "VideoFrame"
+          ],
+          [
+            "Packet",
+            "Packet"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_pyav_do": {
+    "message0": "تشغيل PyAV %1 الوسائط %2 وسائط الكلمات المفتاحية %3",
+    "tooltip": "تشغيل دالة أو مُنشئ مسموح من PyAV كتعليمة.",
+    "args0": [
+      {
+        "options": [
+          [
+            "open",
+            "open"
+          ],
+          [
+            "AudioFrame",
+            "AudioFrame"
+          ],
+          [
+            "VideoFrame",
+            "VideoFrame"
+          ],
+          [
+            "Packet",
+            "Packet"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_pyav_method": {
+    "message0": "كائن PyAV %1 الطريقة %2 الوسائط %3 وسائط الكلمات المفتاحية %4",
+    "tooltip": "استدعاء طريقة مسموحة لكائن PyAV وإرجاع النتيجة.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "demux",
+            "demux"
+          ],
+          [
+            "decode",
+            "decode"
+          ],
+          [
+            "encode",
+            "encode"
+          ],
+          [
+            "mux",
+            "mux"
+          ],
+          [
+            "close",
+            "close"
+          ],
+          [
+            "add_stream",
+            "add_stream"
+          ],
+          [
+            "to_ndarray",
+            "to_ndarray"
+          ],
+          [
+            "reformat",
+            "reformat"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_pyav_do_method": {
+    "message0": "تشغيل طريقة PyAV للكائن %1 %2 الوسائط %3 وسائط الكلمات المفتاحية %4",
+    "tooltip": "تشغيل طريقة مسموحة لكائن PyAV كتعليمة.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "demux",
+            "demux"
+          ],
+          [
+            "decode",
+            "decode"
+          ],
+          [
+            "encode",
+            "encode"
+          ],
+          [
+            "mux",
+            "mux"
+          ],
+          [
+            "close",
+            "close"
+          ],
+          [
+            "add_stream",
+            "add_stream"
+          ],
+          [
+            "to_ndarray",
+            "to_ndarray"
+          ],
+          [
+            "reformat",
+            "reformat"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_pyav_attribute": {
+    "message0": "كائن PyAV %1 السمة %2",
+    "tooltip": "قراءة سمة مسموحة لكائن أو وحدة PyAV.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "streams",
+            "streams"
+          ],
+          [
+            "duration",
+            "duration"
+          ],
+          [
+            "format",
+            "format"
+          ],
+          [
+            "metadata",
+            "metadata"
+          ],
+          [
+            "time_base",
+            "time_base"
+          ],
+          [
+            "pts",
+            "pts"
+          ],
+          [
+            "width",
+            "width"
+          ],
+          [
+            "height",
+            "height"
+          ]
+        ]
+      }
+    ]
+  }
+}

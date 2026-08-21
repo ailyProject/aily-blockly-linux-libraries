@@ -1,0 +1,206 @@
+{
+  "toolbox_name": "python-socketio",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_python_socketio_call": {
+    "message0": "python-socketio call or create %1 arguments %2 keyword arguments %3",
+    "tooltip": "Call an allowlisted python-socketio function or constructor and return its result.",
+    "args0": [
+      {
+        "options": [
+          [
+            "Client",
+            "Client"
+          ],
+          [
+            "AsyncClient",
+            "AsyncClient"
+          ],
+          [
+            "Server",
+            "Server"
+          ],
+          [
+            "AsyncServer",
+            "AsyncServer"
+          ],
+          [
+            "WSGIApp",
+            "WSGIApp"
+          ],
+          [
+            "ASGIApp",
+            "ASGIApp"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_python_socketio_do": {
+    "message0": "run python-socketio %1 arguments %2 keyword arguments %3",
+    "tooltip": "Run an allowlisted python-socketio function or constructor as a statement.",
+    "args0": [
+      {
+        "options": [
+          [
+            "Client",
+            "Client"
+          ],
+          [
+            "AsyncClient",
+            "AsyncClient"
+          ],
+          [
+            "Server",
+            "Server"
+          ],
+          [
+            "AsyncServer",
+            "AsyncServer"
+          ],
+          [
+            "WSGIApp",
+            "WSGIApp"
+          ],
+          [
+            "ASGIApp",
+            "ASGIApp"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_python_socketio_method": {
+    "message0": "python-socketio object %1 call method %2 arguments %3 keyword arguments %4",
+    "tooltip": "Call an allowlisted python-socketio object method and return its result.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "connect",
+            "connect"
+          ],
+          [
+            "disconnect",
+            "disconnect"
+          ],
+          [
+            "emit",
+            "emit"
+          ],
+          [
+            "send",
+            "send"
+          ],
+          [
+            "call",
+            "call"
+          ],
+          [
+            "on",
+            "on"
+          ],
+          [
+            "event",
+            "event"
+          ],
+          [
+            "start_background_task",
+            "start_background_task"
+          ],
+          [
+            "sleep",
+            "sleep"
+          ],
+          [
+            "transport",
+            "transport"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_python_socketio_do_method": {
+    "message0": "run python-socketio object %1 method %2 arguments %3 keyword arguments %4",
+    "tooltip": "Run an allowlisted python-socketio object method as a statement.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "connect",
+            "connect"
+          ],
+          [
+            "disconnect",
+            "disconnect"
+          ],
+          [
+            "emit",
+            "emit"
+          ],
+          [
+            "send",
+            "send"
+          ],
+          [
+            "call",
+            "call"
+          ],
+          [
+            "on",
+            "on"
+          ],
+          [
+            "event",
+            "event"
+          ],
+          [
+            "start_background_task",
+            "start_background_task"
+          ],
+          [
+            "sleep",
+            "sleep"
+          ],
+          [
+            "transport",
+            "transport"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_python_socketio_attribute": {
+    "message0": "python-socketio object %1 attribute %2",
+    "tooltip": "Read an allowlisted python-socketio object or module attribute.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "connected",
+            "connected"
+          ],
+          [
+            "sid",
+            "sid"
+          ],
+          [
+            "namespaces",
+            "namespaces"
+          ]
+        ]
+      }
+    ]
+  }
+}

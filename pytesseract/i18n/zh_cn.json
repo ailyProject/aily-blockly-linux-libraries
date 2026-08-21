@@ -1,0 +1,92 @@
+{
+  "toolbox_name": "pytesseract",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_pytesseract_call": {
+    "message0": "pytesseract 调用或创建 %1 参数 %2 关键字参数 %3",
+    "tooltip": "调用白名单中的 pytesseract 函数或构造器并返回结果。",
+    "args0": [
+      {
+        "options": [
+          [
+            "image_to_string",
+            "image_to_string"
+          ],
+          [
+            "image_to_data",
+            "image_to_data"
+          ],
+          [
+            "image_to_boxes",
+            "image_to_boxes"
+          ],
+          [
+            "image_to_osd",
+            "image_to_osd"
+          ],
+          [
+            "get_languages",
+            "get_languages"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_pytesseract_do": {
+    "message0": "运行 pytesseract %1 参数 %2 关键字参数 %3",
+    "tooltip": "以语句方式运行白名单中的 pytesseract 函数或构造器。",
+    "args0": [
+      {
+        "options": [
+          [
+            "image_to_string",
+            "image_to_string"
+          ],
+          [
+            "image_to_data",
+            "image_to_data"
+          ],
+          [
+            "image_to_boxes",
+            "image_to_boxes"
+          ],
+          [
+            "image_to_osd",
+            "image_to_osd"
+          ],
+          [
+            "get_languages",
+            "get_languages"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_pytesseract_attribute": {
+    "message0": "pytesseract 对象 %1 属性 %2",
+    "tooltip": "读取白名单中的 pytesseract 对象或模块属性。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "Output.DICT",
+            "Output.DICT"
+          ],
+          [
+            "Output.STRING",
+            "Output.STRING"
+          ],
+          [
+            "Output.DATAFRAME",
+            "Output.DATAFRAME"
+          ]
+        ]
+      }
+    ]
+  }
+}

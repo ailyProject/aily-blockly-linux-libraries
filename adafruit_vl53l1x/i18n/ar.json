@@ -1,0 +1,118 @@
+{
+  "toolbox_name": "CircuitPython VL53L1X",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_adafruit_vl53l1x_call": {
+    "message0": "CircuitPython VL53L1X استدعاء أو إنشاء %1 الوسائط %2 وسائط الكلمات المفتاحية %3",
+    "tooltip": "استدعاء دالة أو مُنشئ مسموح من CircuitPython VL53L1X وإرجاع النتيجة.",
+    "args0": [
+      {
+        "options": [
+          [
+            "VL53L1X",
+            "VL53L1X"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_vl53l1x_do": {
+    "message0": "تشغيل CircuitPython VL53L1X %1 الوسائط %2 وسائط الكلمات المفتاحية %3",
+    "tooltip": "تشغيل دالة أو مُنشئ مسموح من CircuitPython VL53L1X كتعليمة.",
+    "args0": [
+      {
+        "options": [
+          [
+            "VL53L1X",
+            "VL53L1X"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_vl53l1x_method": {
+    "message0": "كائن CircuitPython VL53L1X %1 الطريقة %2 الوسائط %3 وسائط الكلمات المفتاحية %4",
+    "tooltip": "استدعاء طريقة مسموحة لكائن CircuitPython VL53L1X وإرجاع النتيجة.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "start_ranging",
+            "start_ranging"
+          ],
+          [
+            "stop_ranging",
+            "stop_ranging"
+          ],
+          [
+            "clear_interrupt",
+            "clear_interrupt"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_vl53l1x_do_method": {
+    "message0": "تشغيل طريقة CircuitPython VL53L1X للكائن %1 %2 الوسائط %3 وسائط الكلمات المفتاحية %4",
+    "tooltip": "تشغيل طريقة مسموحة لكائن CircuitPython VL53L1X كتعليمة.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "start_ranging",
+            "start_ranging"
+          ],
+          [
+            "stop_ranging",
+            "stop_ranging"
+          ],
+          [
+            "clear_interrupt",
+            "clear_interrupt"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_vl53l1x_attribute": {
+    "message0": "كائن CircuitPython VL53L1X %1 السمة %2",
+    "tooltip": "قراءة سمة مسموحة لكائن أو وحدة CircuitPython VL53L1X.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "distance",
+            "distance"
+          ],
+          [
+            "distance_mode",
+            "distance_mode"
+          ],
+          [
+            "timing_budget",
+            "timing_budget"
+          ],
+          [
+            "data_ready",
+            "data_ready"
+          ],
+          [
+            "roi",
+            "roi"
+          ]
+        ]
+      }
+    ]
+  }
+}

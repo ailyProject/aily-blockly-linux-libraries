@@ -1,0 +1,27 @@
+{
+  "kind": "category",
+  "name": "CircuitPython NeoPixel",
+  "colour": "#00897B",
+  "contents": [
+    {
+      "kind": "block",
+      "type": "python_neopixel_call"
+    },
+    {
+      "kind": "block",
+      "type": "python_neopixel_do"
+    },
+    {
+      "kind": "block",
+      "type": "python_neopixel_method"
+    },
+    {
+      "kind": "block",
+      "type": "python_neopixel_do_method"
+    },
+    {
+      "kind": "block",
+      "type": "python_neopixel_attribute"
+    }
+  ]
+}

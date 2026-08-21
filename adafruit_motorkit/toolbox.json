@@ -1,0 +1,19 @@
+{
+  "kind": "category",
+  "name": "CircuitPython MotorKit",
+  "colour": "#00897B",
+  "contents": [
+    {
+      "kind": "block",
+      "type": "python_adafruit_motorkit_call"
+    },
+    {
+      "kind": "block",
+      "type": "python_adafruit_motorkit_do"
+    },
+    {
+      "kind": "block",
+      "type": "python_adafruit_motorkit_attribute"
+    }
+  ]
+}

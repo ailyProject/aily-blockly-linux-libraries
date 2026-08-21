@@ -1,0 +1,142 @@
+{
+  "toolbox_name": "PyFtdi GPIO",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "linux_pyftdi_call": {
+    "message0": "PyFtdi GPIO 呼び出しまたは作成 %1 引数 %2 キーワード引数 %3",
+    "tooltip": "許可された PyFtdi GPIO の関数またはコンストラクターを呼び出して結果を返します。",
+    "args0": [
+      {
+        "options": [
+          [
+            "GpioController",
+            "GpioController"
+          ],
+          [
+            "GpioAsyncController",
+            "GpioAsyncController"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "linux_pyftdi_do": {
+    "message0": "PyFtdi GPIO を実行 %1 引数 %2 キーワード引数 %3",
+    "tooltip": "許可された PyFtdi GPIO の関数またはコンストラクターを文として実行します。",
+    "args0": [
+      {
+        "options": [
+          [
+            "GpioController",
+            "GpioController"
+          ],
+          [
+            "GpioAsyncController",
+            "GpioAsyncController"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "linux_pyftdi_method": {
+    "message0": "PyFtdi GPIO オブジェクト %1 メソッド %2 引数 %3 キーワード引数 %4",
+    "tooltip": "許可された PyFtdi GPIO オブジェクトのメソッドを呼び出して結果を返します。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "configure",
+            "configure"
+          ],
+          [
+            "set_direction",
+            "set_direction"
+          ],
+          [
+            "write",
+            "write"
+          ],
+          [
+            "read",
+            "read"
+          ],
+          [
+            "exchange",
+            "exchange"
+          ],
+          [
+            "close",
+            "close"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "linux_pyftdi_do_method": {
+    "message0": "PyFtdi GPIO オブジェクト %1 のメソッド %2 を実行 引数 %3 キーワード引数 %4",
+    "tooltip": "許可された PyFtdi GPIO オブジェクトのメソッドを文として実行します。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "configure",
+            "configure"
+          ],
+          [
+            "set_direction",
+            "set_direction"
+          ],
+          [
+            "write",
+            "write"
+          ],
+          [
+            "read",
+            "read"
+          ],
+          [
+            "exchange",
+            "exchange"
+          ],
+          [
+            "close",
+            "close"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "linux_pyftdi_attribute": {
+    "message0": "PyFtdi GPIO オブジェクト %1 属性 %2",
+    "tooltip": "許可された PyFtdi GPIO オブジェクトまたはモジュールの属性を読み取ります。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "frequency",
+            "frequency"
+          ],
+          [
+            "direction",
+            "direction"
+          ],
+          [
+            "pins",
+            "pins"
+          ]
+        ]
+      }
+    ]
+  }
+}

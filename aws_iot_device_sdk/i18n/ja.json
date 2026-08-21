@@ -1,0 +1,135 @@
+{
+  "toolbox_name": "AWS IoT Device SDK v2",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_aws_iot_device_sdk_call": {
+    "message0": "AWS IoT Device SDK v2 呼び出しまたは作成 %1 引数 %2 キーワード引数 %3",
+    "tooltip": "許可された AWS IoT Device SDK v2 の関数またはコンストラクターを呼び出して結果を返します。",
+    "args0": [
+      {
+        "options": [
+          [
+            "mtls_from_path",
+            "mtls_from_path"
+          ],
+          [
+            "mtls_from_bytes",
+            "mtls_from_bytes"
+          ],
+          [
+            "websockets_with_default_aws_signing",
+            "websockets_with_default_aws_signing"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_aws_iot_device_sdk_do": {
+    "message0": "AWS IoT Device SDK v2 を実行 %1 引数 %2 キーワード引数 %3",
+    "tooltip": "許可された AWS IoT Device SDK v2 の関数またはコンストラクターを文として実行します。",
+    "args0": [
+      {
+        "options": [
+          [
+            "mtls_from_path",
+            "mtls_from_path"
+          ],
+          [
+            "mtls_from_bytes",
+            "mtls_from_bytes"
+          ],
+          [
+            "websockets_with_default_aws_signing",
+            "websockets_with_default_aws_signing"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_aws_iot_device_sdk_method": {
+    "message0": "AWS IoT Device SDK v2 オブジェクト %1 メソッド %2 引数 %3 キーワード引数 %4",
+    "tooltip": "許可された AWS IoT Device SDK v2 オブジェクトのメソッドを呼び出して結果を返します。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "connect",
+            "connect"
+          ],
+          [
+            "disconnect",
+            "disconnect"
+          ],
+          [
+            "publish",
+            "publish"
+          ],
+          [
+            "subscribe",
+            "subscribe"
+          ],
+          [
+            "unsubscribe",
+            "unsubscribe"
+          ],
+          [
+            "resubscribe_existing_topics",
+            "resubscribe_existing_topics"
+          ],
+          [
+            "result",
+            "result"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_aws_iot_device_sdk_do_method": {
+    "message0": "AWS IoT Device SDK v2 オブジェクト %1 のメソッド %2 を実行 引数 %3 キーワード引数 %4",
+    "tooltip": "許可された AWS IoT Device SDK v2 オブジェクトのメソッドを文として実行します。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "connect",
+            "connect"
+          ],
+          [
+            "disconnect",
+            "disconnect"
+          ],
+          [
+            "publish",
+            "publish"
+          ],
+          [
+            "subscribe",
+            "subscribe"
+          ],
+          [
+            "unsubscribe",
+            "unsubscribe"
+          ],
+          [
+            "resubscribe_existing_topics",
+            "resubscribe_existing_topics"
+          ],
+          [
+            "result",
+            "result"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "toolbox_name": "aiohttp",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_aiohttp_call": {
+    "message0": "aiohttp استدعاء أو إنشاء %1 الوسائط %2 وسائط الكلمات المفتاحية %3",
+    "tooltip": "استدعاء دالة أو مُنشئ مسموح من aiohttp وإرجاع النتيجة.",
+    "args0": [
+      {
+        "options": [
+          [
+            "ClientSession",
+            "ClientSession"
+          ],
+          [
+            "ClientTimeout",
+            "ClientTimeout"
+          ],
+          [
+            "TCPConnector",
+            "TCPConnector"
+          ],
+          [
+            "web.Application",
+            "web.Application"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_aiohttp_do": {
+    "message0": "تشغيل aiohttp %1 الوسائط %2 وسائط الكلمات المفتاحية %3",
+    "tooltip": "تشغيل دالة أو مُنشئ مسموح من aiohttp كتعليمة.",
+    "args0": [
+      {
+        "options": [
+          [
+            "ClientSession",
+            "ClientSession"
+          ],
+          [
+            "ClientTimeout",
+            "ClientTimeout"
+          ],
+          [
+            "TCPConnector",
+            "TCPConnector"
+          ],
+          [
+            "web.Application",
+            "web.Application"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_aiohttp_method": {
+    "message0": "كائن aiohttp %1 الطريقة %2 الوسائط %3 وسائط الكلمات المفتاحية %4",
+    "tooltip": "استدعاء طريقة مسموحة لكائن aiohttp وإرجاع النتيجة.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "get",
+            "get"
+          ],
+          [
+            "post",
+            "post"
+          ],
+          [
+            "put",
+            "put"
+          ],
+          [
+            "delete",
+            "delete"
+          ],
+          [
+            "request",
+            "request"
+          ],
+          [
+            "close",
+            "close"
+          ],
+          [
+            "json",
+            "json"
+          ],
+          [
+            "text",
+            "text"
+          ],
+          [
+            "read",
+            "read"
+          ],
+          [
+            "add_routes",
+            "add_routes"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_aiohttp_do_method": {
+    "message0": "تشغيل طريقة aiohttp للكائن %1 %2 الوسائط %3 وسائط الكلمات المفتاحية %4",
+    "tooltip": "تشغيل طريقة مسموحة لكائن aiohttp كتعليمة.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "get",
+            "get"
+          ],
+          [
+            "post",
+            "post"
+          ],
+          [
+            "put",
+            "put"
+          ],
+          [
+            "delete",
+            "delete"
+          ],
+          [
+            "request",
+            "request"
+          ],
+          [
+            "close",
+            "close"
+          ],
+          [
+            "json",
+            "json"
+          ],
+          [
+            "text",
+            "text"
+          ],
+          [
+            "read",
+            "read"
+          ],
+          [
+            "add_routes",
+            "add_routes"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_aiohttp_attribute": {
+    "message0": "كائن aiohttp %1 السمة %2",
+    "tooltip": "قراءة سمة مسموحة لكائن أو وحدة aiohttp.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "status",
+            "status"
+          ],
+          [
+            "headers",
+            "headers"
+          ],
+          [
+            "cookies",
+            "cookies"
+          ],
+          [
+            "url",
+            "url"
+          ],
+          [
+            "content_type",
+            "content_type"
+          ]
+        ]
+      }
+    ]
+  }
+}

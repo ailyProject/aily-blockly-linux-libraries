@@ -1,0 +1,242 @@
+{
+  "toolbox_name": "pandas",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_pandas_call": {
+    "message0": "pandas 호출 또는 생성 %1 인수 %2 키워드 인수 %3",
+    "tooltip": "허용 목록의 pandas 함수 또는 생성자를 호출하고 결과를 반환합니다.",
+    "args0": [
+      {
+        "options": [
+          [
+            "DataFrame",
+            "DataFrame"
+          ],
+          [
+            "Series",
+            "Series"
+          ],
+          [
+            "read_csv",
+            "read_csv"
+          ],
+          [
+            "read_json",
+            "read_json"
+          ],
+          [
+            "read_excel",
+            "read_excel"
+          ],
+          [
+            "concat",
+            "concat"
+          ],
+          [
+            "merge",
+            "merge"
+          ],
+          [
+            "date_range",
+            "date_range"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_pandas_do": {
+    "message0": "pandas 실행 %1 인수 %2 키워드 인수 %3",
+    "tooltip": "허용 목록의 pandas 함수 또는 생성자를 문으로 실행합니다.",
+    "args0": [
+      {
+        "options": [
+          [
+            "DataFrame",
+            "DataFrame"
+          ],
+          [
+            "Series",
+            "Series"
+          ],
+          [
+            "read_csv",
+            "read_csv"
+          ],
+          [
+            "read_json",
+            "read_json"
+          ],
+          [
+            "read_excel",
+            "read_excel"
+          ],
+          [
+            "concat",
+            "concat"
+          ],
+          [
+            "merge",
+            "merge"
+          ],
+          [
+            "date_range",
+            "date_range"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_pandas_method": {
+    "message0": "pandas 객체 %1 메서드 %2 인수 %3 키워드 인수 %4",
+    "tooltip": "허용 목록의 pandas 객체 메서드를 호출하고 결과를 반환합니다.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "head",
+            "head"
+          ],
+          [
+            "tail",
+            "tail"
+          ],
+          [
+            "describe",
+            "describe"
+          ],
+          [
+            "groupby",
+            "groupby"
+          ],
+          [
+            "merge",
+            "merge"
+          ],
+          [
+            "join",
+            "join"
+          ],
+          [
+            "to_csv",
+            "to_csv"
+          ],
+          [
+            "to_json",
+            "to_json"
+          ],
+          [
+            "dropna",
+            "dropna"
+          ],
+          [
+            "fillna",
+            "fillna"
+          ],
+          [
+            "sort_values",
+            "sort_values"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_pandas_do_method": {
+    "message0": "pandas 객체 %1 메서드 실행 %2 인수 %3 키워드 인수 %4",
+    "tooltip": "허용 목록의 pandas 객체 메서드를 문으로 실행합니다.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "head",
+            "head"
+          ],
+          [
+            "tail",
+            "tail"
+          ],
+          [
+            "describe",
+            "describe"
+          ],
+          [
+            "groupby",
+            "groupby"
+          ],
+          [
+            "merge",
+            "merge"
+          ],
+          [
+            "join",
+            "join"
+          ],
+          [
+            "to_csv",
+            "to_csv"
+          ],
+          [
+            "to_json",
+            "to_json"
+          ],
+          [
+            "dropna",
+            "dropna"
+          ],
+          [
+            "fillna",
+            "fillna"
+          ],
+          [
+            "sort_values",
+            "sort_values"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_pandas_attribute": {
+    "message0": "pandas 객체 %1 속성 %2",
+    "tooltip": "허용 목록의 pandas 객체 또는 모듈 속성을 읽습니다.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "shape",
+            "shape"
+          ],
+          [
+            "columns",
+            "columns"
+          ],
+          [
+            "index",
+            "index"
+          ],
+          [
+            "dtypes",
+            "dtypes"
+          ],
+          [
+            "values",
+            "values"
+          ],
+          [
+            "empty",
+            "empty"
+          ]
+        ]
+      }
+    ]
+  }
+}

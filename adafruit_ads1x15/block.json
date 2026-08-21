@@ -1,0 +1,200 @@
+[
+  {
+    "type": "python_adafruit_ads1x15_call",
+    "message0": "CircuitPython ADS1x15 call or create %1 arguments %2 keyword arguments %3",
+    "args0": [
+      {
+        "type": "field_dropdown",
+        "name": "TARGET",
+        "options": [
+          [
+            "ADS1115",
+            "ADS1115"
+          ],
+          [
+            "AnalogIn",
+            "AnalogIn"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#00897B",
+    "tooltip": "Call an allowlisted CircuitPython ADS1x15 function or constructor and return its result.",
+    "icon": "settings",
+    "output": "Any"
+  },
+  {
+    "type": "python_adafruit_ads1x15_do",
+    "message0": "run CircuitPython ADS1x15 %1 arguments %2 keyword arguments %3",
+    "args0": [
+      {
+        "type": "field_dropdown",
+        "name": "TARGET",
+        "options": [
+          [
+            "ADS1115",
+            "ADS1115"
+          ],
+          [
+            "AnalogIn",
+            "AnalogIn"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#00897B",
+    "tooltip": "Run an allowlisted CircuitPython ADS1x15 function or constructor as a statement.",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "python_adafruit_ads1x15_method",
+    "message0": "CircuitPython ADS1x15 object %1 call method %2 arguments %3 keyword arguments %4",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "OBJECT"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "METHOD",
+        "options": [
+          [
+            "read",
+            "read"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#00897B",
+    "tooltip": "Call an allowlisted CircuitPython ADS1x15 object method and return its result.",
+    "icon": "settings",
+    "output": "Any"
+  },
+  {
+    "type": "python_adafruit_ads1x15_do_method",
+    "message0": "run CircuitPython ADS1x15 object %1 method %2 arguments %3 keyword arguments %4",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "OBJECT"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "METHOD",
+        "options": [
+          [
+            "read",
+            "read"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#00897B",
+    "tooltip": "Run an allowlisted CircuitPython ADS1x15 object method as a statement.",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "python_adafruit_ads1x15_attribute",
+    "message0": "CircuitPython ADS1x15 object %1 attribute %2",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "OBJECT"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "ATTRIBUTE",
+        "options": [
+          [
+            "gain",
+            "gain"
+          ],
+          [
+            "mode",
+            "mode"
+          ],
+          [
+            "data_rate",
+            "data_rate"
+          ],
+          [
+            "comparator_queue_length",
+            "comparator_queue_length"
+          ],
+          [
+            "comparator_latch",
+            "comparator_latch"
+          ],
+          [
+            "comparator_polarity",
+            "comparator_polarity"
+          ],
+          [
+            "value",
+            "value"
+          ],
+          [
+            "voltage",
+            "voltage"
+          ],
+          [
+            "Pin.A0",
+            "Pin.A0"
+          ],
+          [
+            "Pin.A1",
+            "Pin.A1"
+          ],
+          [
+            "Pin.A2",
+            "Pin.A2"
+          ],
+          [
+            "Pin.A3",
+            "Pin.A3"
+          ]
+        ]
+      }
+    ],
+    "colour": "#00897B",
+    "tooltip": "Read an allowlisted CircuitPython ADS1x15 object or module attribute.",
+    "icon": "settings",
+    "output": "Any"
+  }
+]

@@ -1,0 +1,206 @@
+{
+  "toolbox_name": "redis-py",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_redis_call": {
+    "message0": "redis-py вызвать или создать %1 аргументы %2 именованные аргументы %3",
+    "tooltip": "Вызывает разрешённую функцию или конструктор redis-py и возвращает результат.",
+    "args0": [
+      {
+        "options": [
+          [
+            "Redis",
+            "Redis"
+          ],
+          [
+            "StrictRedis",
+            "StrictRedis"
+          ],
+          [
+            "from_url",
+            "from_url"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_redis_do": {
+    "message0": "выполнить redis-py %1 аргументы %2 именованные аргументы %3",
+    "tooltip": "Выполняет разрешённую функцию или конструктор redis-py как инструкцию.",
+    "args0": [
+      {
+        "options": [
+          [
+            "Redis",
+            "Redis"
+          ],
+          [
+            "StrictRedis",
+            "StrictRedis"
+          ],
+          [
+            "from_url",
+            "from_url"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_redis_method": {
+    "message0": "объект redis-py %1 метод %2 аргументы %3 именованные аргументы %4",
+    "tooltip": "Вызывает разрешённый метод объекта redis-py и возвращает результат.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "get",
+            "get"
+          ],
+          [
+            "set",
+            "set"
+          ],
+          [
+            "delete",
+            "delete"
+          ],
+          [
+            "incr",
+            "incr"
+          ],
+          [
+            "decr",
+            "decr"
+          ],
+          [
+            "publish",
+            "publish"
+          ],
+          [
+            "subscribe",
+            "subscribe"
+          ],
+          [
+            "hset",
+            "hset"
+          ],
+          [
+            "hget",
+            "hget"
+          ],
+          [
+            "lpush",
+            "lpush"
+          ],
+          [
+            "rpop",
+            "rpop"
+          ],
+          [
+            "scan_iter",
+            "scan_iter"
+          ],
+          [
+            "ping",
+            "ping"
+          ],
+          [
+            "close",
+            "close"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_redis_do_method": {
+    "message0": "выполнить метод redis-py объекта %1 %2 аргументы %3 именованные аргументы %4",
+    "tooltip": "Выполняет разрешённый метод объекта redis-py как инструкцию.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "get",
+            "get"
+          ],
+          [
+            "set",
+            "set"
+          ],
+          [
+            "delete",
+            "delete"
+          ],
+          [
+            "incr",
+            "incr"
+          ],
+          [
+            "decr",
+            "decr"
+          ],
+          [
+            "publish",
+            "publish"
+          ],
+          [
+            "subscribe",
+            "subscribe"
+          ],
+          [
+            "hset",
+            "hset"
+          ],
+          [
+            "hget",
+            "hget"
+          ],
+          [
+            "lpush",
+            "lpush"
+          ],
+          [
+            "rpop",
+            "rpop"
+          ],
+          [
+            "scan_iter",
+            "scan_iter"
+          ],
+          [
+            "ping",
+            "ping"
+          ],
+          [
+            "close",
+            "close"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_redis_attribute": {
+    "message0": "объект redis-py %1 атрибут %2",
+    "tooltip": "Читает разрешённый атрибут объекта или модуля redis-py.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "connection_pool",
+            "connection_pool"
+          ]
+        ]
+      }
+    ]
+  }
+}

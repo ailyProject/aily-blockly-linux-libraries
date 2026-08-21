@@ -1,0 +1,160 @@
+{
+  "toolbox_name": "SciPy Signal",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_scipy_call": {
+    "message0": "SciPy Signal 呼び出しまたは作成 %1 引数 %2 キーワード引数 %3",
+    "tooltip": "許可された SciPy Signal の関数またはコンストラクターを呼び出して結果を返します。",
+    "args0": [
+      {
+        "options": [
+          [
+            "butter",
+            "butter"
+          ],
+          [
+            "sosfilt",
+            "sosfilt"
+          ],
+          [
+            "sosfiltfilt",
+            "sosfiltfilt"
+          ],
+          [
+            "filtfilt",
+            "filtfilt"
+          ],
+          [
+            "find_peaks",
+            "find_peaks"
+          ],
+          [
+            "welch",
+            "welch"
+          ],
+          [
+            "periodogram",
+            "periodogram"
+          ],
+          [
+            "convolve",
+            "convolve"
+          ],
+          [
+            "correlate",
+            "correlate"
+          ],
+          [
+            "resample",
+            "resample"
+          ],
+          [
+            "spectrogram",
+            "spectrogram"
+          ],
+          [
+            "stft",
+            "stft"
+          ],
+          [
+            "istft",
+            "istft"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_scipy_do": {
+    "message0": "SciPy Signal を実行 %1 引数 %2 キーワード引数 %3",
+    "tooltip": "許可された SciPy Signal の関数またはコンストラクターを文として実行します。",
+    "args0": [
+      {
+        "options": [
+          [
+            "butter",
+            "butter"
+          ],
+          [
+            "sosfilt",
+            "sosfilt"
+          ],
+          [
+            "sosfiltfilt",
+            "sosfiltfilt"
+          ],
+          [
+            "filtfilt",
+            "filtfilt"
+          ],
+          [
+            "find_peaks",
+            "find_peaks"
+          ],
+          [
+            "welch",
+            "welch"
+          ],
+          [
+            "periodogram",
+            "periodogram"
+          ],
+          [
+            "convolve",
+            "convolve"
+          ],
+          [
+            "correlate",
+            "correlate"
+          ],
+          [
+            "resample",
+            "resample"
+          ],
+          [
+            "spectrogram",
+            "spectrogram"
+          ],
+          [
+            "stft",
+            "stft"
+          ],
+          [
+            "istft",
+            "istft"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_scipy_attribute": {
+    "message0": "SciPy Signal オブジェクト %1 属性 %2",
+    "tooltip": "許可された SciPy Signal オブジェクトまたはモジュールの属性を読み取ります。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "shape",
+            "shape"
+          ],
+          [
+            "dtype",
+            "dtype"
+          ],
+          [
+            "ndim",
+            "ndim"
+          ],
+          [
+            "size",
+            "size"
+          ]
+        ]
+      }
+    ]
+  }
+}

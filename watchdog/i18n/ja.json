@@ -1,0 +1,162 @@
+{
+  "toolbox_name": "watchdog Observer",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "linux_watchdog_call": {
+    "message0": "watchdog Observer 呼び出しまたは作成 %1 引数 %2 キーワード引数 %3",
+    "tooltip": "許可された watchdog Observer の関数またはコンストラクターを呼び出して結果を返します。",
+    "args0": [
+      {
+        "options": [
+          [
+            "Observer",
+            "Observer"
+          ],
+          [
+            "LoggingEventHandler",
+            "LoggingEventHandler"
+          ],
+          [
+            "FileSystemEventHandler",
+            "FileSystemEventHandler"
+          ],
+          [
+            "PatternMatchingEventHandler",
+            "PatternMatchingEventHandler"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "linux_watchdog_do": {
+    "message0": "watchdog Observer を実行 %1 引数 %2 キーワード引数 %3",
+    "tooltip": "許可された watchdog Observer の関数またはコンストラクターを文として実行します。",
+    "args0": [
+      {
+        "options": [
+          [
+            "Observer",
+            "Observer"
+          ],
+          [
+            "LoggingEventHandler",
+            "LoggingEventHandler"
+          ],
+          [
+            "FileSystemEventHandler",
+            "FileSystemEventHandler"
+          ],
+          [
+            "PatternMatchingEventHandler",
+            "PatternMatchingEventHandler"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "linux_watchdog_method": {
+    "message0": "watchdog Observer オブジェクト %1 メソッド %2 引数 %3 キーワード引数 %4",
+    "tooltip": "許可された watchdog Observer オブジェクトのメソッドを呼び出して結果を返します。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "schedule",
+            "schedule"
+          ],
+          [
+            "start",
+            "start"
+          ],
+          [
+            "stop",
+            "stop"
+          ],
+          [
+            "join",
+            "join"
+          ],
+          [
+            "unschedule",
+            "unschedule"
+          ],
+          [
+            "unschedule_all",
+            "unschedule_all"
+          ],
+          [
+            "is_alive",
+            "is_alive"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "linux_watchdog_do_method": {
+    "message0": "watchdog Observer オブジェクト %1 のメソッド %2 を実行 引数 %3 キーワード引数 %4",
+    "tooltip": "許可された watchdog Observer オブジェクトのメソッドを文として実行します。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "schedule",
+            "schedule"
+          ],
+          [
+            "start",
+            "start"
+          ],
+          [
+            "stop",
+            "stop"
+          ],
+          [
+            "join",
+            "join"
+          ],
+          [
+            "unschedule",
+            "unschedule"
+          ],
+          [
+            "unschedule_all",
+            "unschedule_all"
+          ],
+          [
+            "is_alive",
+            "is_alive"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "linux_watchdog_attribute": {
+    "message0": "watchdog Observer オブジェクト %1 属性 %2",
+    "tooltip": "許可された watchdog Observer オブジェクトまたはモジュールの属性を読み取ります。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "daemon",
+            "daemon"
+          ],
+          [
+            "name",
+            "name"
+          ]
+        ]
+      }
+    ]
+  }
+}

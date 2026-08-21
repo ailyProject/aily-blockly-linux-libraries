@@ -1,0 +1,151 @@
+{
+  "toolbox_name": "Vosk",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_vosk_call": {
+    "message0": "Vosk вызвать или создать %1 аргументы %2 именованные аргументы %3",
+    "tooltip": "Вызывает разрешённую функцию или конструктор Vosk и возвращает результат.",
+    "args0": [
+      {
+        "options": [
+          [
+            "Model",
+            "Model"
+          ],
+          [
+            "KaldiRecognizer",
+            "KaldiRecognizer"
+          ],
+          [
+            "SetLogLevel",
+            "SetLogLevel"
+          ],
+          [
+            "SpkModel",
+            "SpkModel"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_vosk_do": {
+    "message0": "выполнить Vosk %1 аргументы %2 именованные аргументы %3",
+    "tooltip": "Выполняет разрешённую функцию или конструктор Vosk как инструкцию.",
+    "args0": [
+      {
+        "options": [
+          [
+            "Model",
+            "Model"
+          ],
+          [
+            "KaldiRecognizer",
+            "KaldiRecognizer"
+          ],
+          [
+            "SetLogLevel",
+            "SetLogLevel"
+          ],
+          [
+            "SpkModel",
+            "SpkModel"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_vosk_method": {
+    "message0": "объект Vosk %1 метод %2 аргументы %3 именованные аргументы %4",
+    "tooltip": "Вызывает разрешённый метод объекта Vosk и возвращает результат.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "AcceptWaveform",
+            "AcceptWaveform"
+          ],
+          [
+            "Result",
+            "Result"
+          ],
+          [
+            "PartialResult",
+            "PartialResult"
+          ],
+          [
+            "FinalResult",
+            "FinalResult"
+          ],
+          [
+            "Reset",
+            "Reset"
+          ],
+          [
+            "SetWords",
+            "SetWords"
+          ],
+          [
+            "SetPartialWords",
+            "SetPartialWords"
+          ],
+          [
+            "SetGrammar",
+            "SetGrammar"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_vosk_do_method": {
+    "message0": "выполнить метод Vosk объекта %1 %2 аргументы %3 именованные аргументы %4",
+    "tooltip": "Выполняет разрешённый метод объекта Vosk как инструкцию.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "AcceptWaveform",
+            "AcceptWaveform"
+          ],
+          [
+            "Result",
+            "Result"
+          ],
+          [
+            "PartialResult",
+            "PartialResult"
+          ],
+          [
+            "FinalResult",
+            "FinalResult"
+          ],
+          [
+            "Reset",
+            "Reset"
+          ],
+          [
+            "SetWords",
+            "SetWords"
+          ],
+          [
+            "SetPartialWords",
+            "SetPartialWords"
+          ],
+          [
+            "SetGrammar",
+            "SetGrammar"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  }
+}

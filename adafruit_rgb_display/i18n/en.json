@@ -1,0 +1,94 @@
+{
+  "toolbox_name": "CircuitPython RGB Display",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_adafruit_rgb_display_call": {
+    "message0": "CircuitPython RGB Display call or create %1 arguments %2 keyword arguments %3",
+    "tooltip": "Call an allowlisted CircuitPython RGB Display function or constructor and return its result.",
+    "args0": [
+      {
+        "options": [
+          [
+            "ST7789",
+            "ST7789"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_rgb_display_do": {
+    "message0": "run CircuitPython RGB Display %1 arguments %2 keyword arguments %3",
+    "tooltip": "Run an allowlisted CircuitPython RGB Display function or constructor as a statement.",
+    "args0": [
+      {
+        "options": [
+          [
+            "ST7789",
+            "ST7789"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_rgb_display_method": {
+    "message0": "CircuitPython RGB Display object %1 call method %2 arguments %3 keyword arguments %4",
+    "tooltip": "Call an allowlisted CircuitPython RGB Display object method and return its result.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "image",
+            "image"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_rgb_display_do_method": {
+    "message0": "run CircuitPython RGB Display object %1 method %2 arguments %3 keyword arguments %4",
+    "tooltip": "Run an allowlisted CircuitPython RGB Display object method as a statement.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "image",
+            "image"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_rgb_display_attribute": {
+    "message0": "CircuitPython RGB Display object %1 attribute %2",
+    "tooltip": "Read an allowlisted CircuitPython RGB Display object or module attribute.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "width",
+            "width"
+          ],
+          [
+            "height",
+            "height"
+          ],
+          [
+            "rotation",
+            "rotation"
+          ]
+        ]
+      }
+    ]
+  }
+}

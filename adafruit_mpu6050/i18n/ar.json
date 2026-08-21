@@ -1,0 +1,114 @@
+{
+  "toolbox_name": "CircuitPython MPU6050",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_adafruit_mpu6050_call": {
+    "message0": "CircuitPython MPU6050 استدعاء أو إنشاء %1 الوسائط %2 وسائط الكلمات المفتاحية %3",
+    "tooltip": "استدعاء دالة أو مُنشئ مسموح من CircuitPython MPU6050 وإرجاع النتيجة.",
+    "args0": [
+      {
+        "options": [
+          [
+            "MPU6050",
+            "MPU6050"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_mpu6050_do": {
+    "message0": "تشغيل CircuitPython MPU6050 %1 الوسائط %2 وسائط الكلمات المفتاحية %3",
+    "tooltip": "تشغيل دالة أو مُنشئ مسموح من CircuitPython MPU6050 كتعليمة.",
+    "args0": [
+      {
+        "options": [
+          [
+            "MPU6050",
+            "MPU6050"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_mpu6050_method": {
+    "message0": "كائن CircuitPython MPU6050 %1 الطريقة %2 الوسائط %3 وسائط الكلمات المفتاحية %4",
+    "tooltip": "استدعاء طريقة مسموحة لكائن CircuitPython MPU6050 وإرجاع النتيجة.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "reset",
+            "reset"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_mpu6050_do_method": {
+    "message0": "تشغيل طريقة CircuitPython MPU6050 للكائن %1 %2 الوسائط %3 وسائط الكلمات المفتاحية %4",
+    "tooltip": "تشغيل طريقة مسموحة لكائن CircuitPython MPU6050 كتعليمة.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "reset",
+            "reset"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_mpu6050_attribute": {
+    "message0": "كائن CircuitPython MPU6050 %1 السمة %2",
+    "tooltip": "قراءة سمة مسموحة لكائن أو وحدة CircuitPython MPU6050.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "acceleration",
+            "acceleration"
+          ],
+          [
+            "gyro",
+            "gyro"
+          ],
+          [
+            "temperature",
+            "temperature"
+          ],
+          [
+            "cycle_rate",
+            "cycle_rate"
+          ],
+          [
+            "filter_bandwidth",
+            "filter_bandwidth"
+          ],
+          [
+            "gyro_range",
+            "gyro_range"
+          ],
+          [
+            "accelerometer_range",
+            "accelerometer_range"
+          ],
+          [
+            "cycle",
+            "cycle"
+          ]
+        ]
+      }
+    ]
+  }
+}

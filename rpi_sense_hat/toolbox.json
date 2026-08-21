@@ -1,0 +1,27 @@
+{
+  "kind": "category",
+  "name": "Sense HAT",
+  "colour": "#C51A4A",
+  "contents": [
+    {
+      "kind": "block",
+      "type": "rpi_sense_hat_call"
+    },
+    {
+      "kind": "block",
+      "type": "rpi_sense_hat_do"
+    },
+    {
+      "kind": "block",
+      "type": "rpi_sense_hat_method"
+    },
+    {
+      "kind": "block",
+      "type": "rpi_sense_hat_do_method"
+    },
+    {
+      "kind": "block",
+      "type": "rpi_sense_hat_attribute"
+    }
+  ]
+}

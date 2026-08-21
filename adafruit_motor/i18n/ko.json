@@ -1,0 +1,64 @@
+{
+  "toolbox_name": "CircuitPython Motor",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_adafruit_motor_call": {
+    "message0": "CircuitPython Motor 호출 또는 생성 %1 인수 %2 키워드 인수 %3",
+    "tooltip": "허용 목록의 CircuitPython Motor 함수 또는 생성자를 호출하고 결과를 반환합니다.",
+    "args0": [
+      {
+        "options": [
+          [
+            "DCMotor",
+            "DCMotor"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_motor_do": {
+    "message0": "CircuitPython Motor 실행 %1 인수 %2 키워드 인수 %3",
+    "tooltip": "허용 목록의 CircuitPython Motor 함수 또는 생성자를 문으로 실행합니다.",
+    "args0": [
+      {
+        "options": [
+          [
+            "DCMotor",
+            "DCMotor"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_motor_attribute": {
+    "message0": "CircuitPython Motor 객체 %1 속성 %2",
+    "tooltip": "허용 목록의 CircuitPython Motor 객체 또는 모듈 속성을 읽습니다.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "throttle",
+            "throttle"
+          ],
+          [
+            "decay_mode",
+            "decay_mode"
+          ],
+          [
+            "SLOW_DECAY",
+            "SLOW_DECAY"
+          ],
+          [
+            "FAST_DECAY",
+            "FAST_DECAY"
+          ]
+        ]
+      }
+    ]
+  }
+}

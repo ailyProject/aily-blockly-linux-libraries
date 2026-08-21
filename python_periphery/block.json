@@ -1,0 +1,268 @@
+[
+  {
+    "type": "linux_periphery_call",
+    "message0": "python-periphery call or create %1 arguments %2 keyword arguments %3",
+    "args0": [
+      {
+        "type": "field_dropdown",
+        "name": "TARGET",
+        "options": [
+          [
+            "GPIO",
+            "GPIO"
+          ],
+          [
+            "LED",
+            "LED"
+          ],
+          [
+            "PWM",
+            "PWM"
+          ],
+          [
+            "SPI",
+            "SPI"
+          ],
+          [
+            "I2C",
+            "I2C"
+          ],
+          [
+            "Serial",
+            "Serial"
+          ],
+          [
+            "MMIO",
+            "MMIO"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#00897B",
+    "tooltip": "Call an allowlisted python-periphery function or constructor and return its result.",
+    "icon": "settings",
+    "output": "Any"
+  },
+  {
+    "type": "linux_periphery_do",
+    "message0": "run python-periphery %1 arguments %2 keyword arguments %3",
+    "args0": [
+      {
+        "type": "field_dropdown",
+        "name": "TARGET",
+        "options": [
+          [
+            "GPIO",
+            "GPIO"
+          ],
+          [
+            "LED",
+            "LED"
+          ],
+          [
+            "PWM",
+            "PWM"
+          ],
+          [
+            "SPI",
+            "SPI"
+          ],
+          [
+            "I2C",
+            "I2C"
+          ],
+          [
+            "Serial",
+            "Serial"
+          ],
+          [
+            "MMIO",
+            "MMIO"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#00897B",
+    "tooltip": "Run an allowlisted python-periphery function or constructor as a statement.",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "linux_periphery_method",
+    "message0": "python-periphery object %1 call method %2 arguments %3 keyword arguments %4",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "OBJECT"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "METHOD",
+        "options": [
+          [
+            "open",
+            "open"
+          ],
+          [
+            "read",
+            "read"
+          ],
+          [
+            "write",
+            "write"
+          ],
+          [
+            "poll",
+            "poll"
+          ],
+          [
+            "transfer",
+            "transfer"
+          ],
+          [
+            "read_event",
+            "read_event"
+          ],
+          [
+            "close",
+            "close"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#00897B",
+    "tooltip": "Call an allowlisted python-periphery object method and return its result.",
+    "icon": "settings",
+    "output": "Any"
+  },
+  {
+    "type": "linux_periphery_do_method",
+    "message0": "run python-periphery object %1 method %2 arguments %3 keyword arguments %4",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "OBJECT"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "METHOD",
+        "options": [
+          [
+            "open",
+            "open"
+          ],
+          [
+            "read",
+            "read"
+          ],
+          [
+            "write",
+            "write"
+          ],
+          [
+            "poll",
+            "poll"
+          ],
+          [
+            "transfer",
+            "transfer"
+          ],
+          [
+            "read_event",
+            "read_event"
+          ],
+          [
+            "close",
+            "close"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#00897B",
+    "tooltip": "Run an allowlisted python-periphery object method as a statement.",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "linux_periphery_attribute",
+    "message0": "python-periphery object %1 attribute %2",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "OBJECT"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "ATTRIBUTE",
+        "options": [
+          [
+            "direction",
+            "direction"
+          ],
+          [
+            "edge",
+            "edge"
+          ],
+          [
+            "bias",
+            "bias"
+          ],
+          [
+            "frequency",
+            "frequency"
+          ],
+          [
+            "duty_cycle",
+            "duty_cycle"
+          ],
+          [
+            "period",
+            "period"
+          ],
+          [
+            "fd",
+            "fd"
+          ]
+        ]
+      }
+    ],
+    "colour": "#00897B",
+    "tooltip": "Read an allowlisted python-periphery object or module attribute.",
+    "icon": "settings",
+    "output": "Any"
+  }
+]

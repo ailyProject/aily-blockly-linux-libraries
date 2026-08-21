@@ -1,0 +1,27 @@
+{
+  "kind": "category",
+  "name": "Scapy",
+  "colour": "#0288D1",
+  "contents": [
+    {
+      "kind": "block",
+      "type": "python_scapy_call"
+    },
+    {
+      "kind": "block",
+      "type": "python_scapy_do"
+    },
+    {
+      "kind": "block",
+      "type": "python_scapy_method"
+    },
+    {
+      "kind": "block",
+      "type": "python_scapy_do_method"
+    },
+    {
+      "kind": "block",
+      "type": "python_scapy_attribute"
+    }
+  ]
+}

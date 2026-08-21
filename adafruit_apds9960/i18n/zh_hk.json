@@ -1,0 +1,102 @@
+{
+  "toolbox_name": "CircuitPython APDS9960",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_adafruit_apds9960_call": {
+    "message0": "CircuitPython APDS9960 呼叫或建立 %1 參數 %2 關鍵字參數 %3",
+    "tooltip": "呼叫白名單中的 CircuitPython APDS9960 函式或建構器並傳回結果。",
+    "args0": [
+      {
+        "options": [
+          [
+            "APDS9960",
+            "APDS9960"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_apds9960_do": {
+    "message0": "執行 CircuitPython APDS9960 %1 參數 %2 關鍵字參數 %3",
+    "tooltip": "以敘述方式執行白名單中的 CircuitPython APDS9960 函式或建構器。",
+    "args0": [
+      {
+        "options": [
+          [
+            "APDS9960",
+            "APDS9960"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_apds9960_method": {
+    "message0": "CircuitPython APDS9960 物件 %1 呼叫方法 %2 參數 %3 關鍵字參數 %4",
+    "tooltip": "呼叫白名單中的 CircuitPython APDS9960 物件方法並傳回結果。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "gesture",
+            "gesture"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_apds9960_do_method": {
+    "message0": "執行 CircuitPython APDS9960 物件 %1 的方法 %2 參數 %3 關鍵字參數 %4",
+    "tooltip": "以敘述方式執行白名單中的 CircuitPython APDS9960 物件方法。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "gesture",
+            "gesture"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_apds9960_attribute": {
+    "message0": "CircuitPython APDS9960 物件 %1 屬性 %2",
+    "tooltip": "讀取白名單中的 CircuitPython APDS9960 物件或模組屬性。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "enable_proximity",
+            "enable_proximity"
+          ],
+          [
+            "enable_gesture",
+            "enable_gesture"
+          ],
+          [
+            "enable_color",
+            "enable_color"
+          ],
+          [
+            "color_data",
+            "color_data"
+          ],
+          [
+            "proximity",
+            "proximity"
+          ]
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "toolbox_name": "Uvicorn",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_uvicorn_call": {
+    "message0": "Uvicorn call or create %1 arguments %2 keyword arguments %3",
+    "tooltip": "Call an allowlisted Uvicorn function or constructor and return its result.",
+    "args0": [
+      {
+        "options": [
+          [
+            "run",
+            "run"
+          ],
+          [
+            "Config",
+            "Config"
+          ],
+          [
+            "Server",
+            "Server"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_uvicorn_do": {
+    "message0": "run Uvicorn %1 arguments %2 keyword arguments %3",
+    "tooltip": "Run an allowlisted Uvicorn function or constructor as a statement.",
+    "args0": [
+      {
+        "options": [
+          [
+            "run",
+            "run"
+          ],
+          [
+            "Config",
+            "Config"
+          ],
+          [
+            "Server",
+            "Server"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_uvicorn_method": {
+    "message0": "Uvicorn object %1 call method %2 arguments %3 keyword arguments %4",
+    "tooltip": "Call an allowlisted Uvicorn object method and return its result.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "run",
+            "run"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_uvicorn_do_method": {
+    "message0": "run Uvicorn object %1 method %2 arguments %3 keyword arguments %4",
+    "tooltip": "Run an allowlisted Uvicorn object method as a statement.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "run",
+            "run"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_uvicorn_attribute": {
+    "message0": "Uvicorn object %1 attribute %2",
+    "tooltip": "Read an allowlisted Uvicorn object or module attribute.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "started",
+            "started"
+          ],
+          [
+            "should_exit",
+            "should_exit"
+          ],
+          [
+            "force_exit",
+            "force_exit"
+          ],
+          [
+            "config",
+            "config"
+          ]
+        ]
+      }
+    ]
+  }
+}

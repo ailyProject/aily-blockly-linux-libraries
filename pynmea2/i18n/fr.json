@@ -1,0 +1,146 @@
+{
+  "toolbox_name": "pynmea2",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_pynmea2_call": {
+    "message0": "pynmea2 appeler ou créer %1 arguments %2 arguments nommés %3",
+    "tooltip": "Appeler une fonction ou un constructeur pynmea2 autorisé et renvoyer le résultat.",
+    "args0": [
+      {
+        "options": [
+          [
+            "parse",
+            "parse"
+          ],
+          [
+            "NMEASentence",
+            "NMEASentence"
+          ],
+          [
+            "LatLonFix",
+            "LatLonFix"
+          ],
+          [
+            "ProprietarySentence",
+            "ProprietarySentence"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_pynmea2_do": {
+    "message0": "exécuter pynmea2 %1 arguments %2 arguments nommés %3",
+    "tooltip": "Exécuter une fonction ou un constructeur pynmea2 autorisé comme instruction.",
+    "args0": [
+      {
+        "options": [
+          [
+            "parse",
+            "parse"
+          ],
+          [
+            "NMEASentence",
+            "NMEASentence"
+          ],
+          [
+            "LatLonFix",
+            "LatLonFix"
+          ],
+          [
+            "ProprietarySentence",
+            "ProprietarySentence"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_pynmea2_method": {
+    "message0": "objet pynmea2 %1 méthode %2 arguments %3 arguments nommés %4",
+    "tooltip": "Appeler une méthode autorisée d’un objet pynmea2 et renvoyer le résultat.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "render",
+            "render"
+          ],
+          [
+            "identifier",
+            "identifier"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_pynmea2_do_method": {
+    "message0": "exécuter la méthode pynmea2 de l’objet %1 %2 arguments %3 arguments nommés %4",
+    "tooltip": "Exécuter une méthode autorisée d’un objet pynmea2 comme instruction.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "render",
+            "render"
+          ],
+          [
+            "identifier",
+            "identifier"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_pynmea2_attribute": {
+    "message0": "objet pynmea2 %1 attribut %2",
+    "tooltip": "Lire un attribut autorisé d’un objet ou module pynmea2.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "latitude",
+            "latitude"
+          ],
+          [
+            "longitude",
+            "longitude"
+          ],
+          [
+            "altitude",
+            "altitude"
+          ],
+          [
+            "timestamp",
+            "timestamp"
+          ],
+          [
+            "num_sats",
+            "num_sats"
+          ],
+          [
+            "gps_qual",
+            "gps_qual"
+          ],
+          [
+            "spd_over_grnd",
+            "spd_over_grnd"
+          ],
+          [
+            "true_course",
+            "true_course"
+          ]
+        ]
+      }
+    ]
+  }
+}

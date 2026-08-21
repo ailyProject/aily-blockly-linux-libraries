@@ -1,0 +1,23 @@
+{
+  "kind": "category",
+  "name": "Vosk",
+  "colour": "#EF6C00",
+  "contents": [
+    {
+      "kind": "block",
+      "type": "python_vosk_call"
+    },
+    {
+      "kind": "block",
+      "type": "python_vosk_do"
+    },
+    {
+      "kind": "block",
+      "type": "python_vosk_method"
+    },
+    {
+      "kind": "block",
+      "type": "python_vosk_do_method"
+    }
+  ]
+}

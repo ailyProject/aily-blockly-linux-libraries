@@ -1,0 +1,194 @@
+{
+  "toolbox_name": "Azure IoT Device",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_azure_iot_device_call": {
+    "message0": "Azure IoT Device llamar o crear %1 argumentos %2 argumentos con nombre %3",
+    "tooltip": "Llama a una función o constructor permitido de Azure IoT Device y devuelve el resultado.",
+    "args0": [
+      {
+        "options": [
+          [
+            "IoTHubDeviceClient.create_from_connection_string",
+            "IoTHubDeviceClient.create_from_connection_string"
+          ],
+          [
+            "IoTHubDeviceClient.create_from_symmetric_key",
+            "IoTHubDeviceClient.create_from_symmetric_key"
+          ],
+          [
+            "IoTHubModuleClient.create_from_connection_string",
+            "IoTHubModuleClient.create_from_connection_string"
+          ],
+          [
+            "Message",
+            "Message"
+          ],
+          [
+            "MethodResponse",
+            "MethodResponse"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_azure_iot_device_do": {
+    "message0": "ejecutar Azure IoT Device %1 argumentos %2 argumentos con nombre %3",
+    "tooltip": "Ejecuta una función o constructor permitido de Azure IoT Device como sentencia.",
+    "args0": [
+      {
+        "options": [
+          [
+            "IoTHubDeviceClient.create_from_connection_string",
+            "IoTHubDeviceClient.create_from_connection_string"
+          ],
+          [
+            "IoTHubDeviceClient.create_from_symmetric_key",
+            "IoTHubDeviceClient.create_from_symmetric_key"
+          ],
+          [
+            "IoTHubModuleClient.create_from_connection_string",
+            "IoTHubModuleClient.create_from_connection_string"
+          ],
+          [
+            "Message",
+            "Message"
+          ],
+          [
+            "MethodResponse",
+            "MethodResponse"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_azure_iot_device_method": {
+    "message0": "objeto Azure IoT Device %1 método %2 argumentos %3 argumentos con nombre %4",
+    "tooltip": "Llama a un método permitido de un objeto Azure IoT Device y devuelve el resultado.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "connect",
+            "connect"
+          ],
+          [
+            "disconnect",
+            "disconnect"
+          ],
+          [
+            "send_message",
+            "send_message"
+          ],
+          [
+            "receive_message",
+            "receive_message"
+          ],
+          [
+            "send_method_response",
+            "send_method_response"
+          ],
+          [
+            "patch_twin_reported_properties",
+            "patch_twin_reported_properties"
+          ],
+          [
+            "get_twin",
+            "get_twin"
+          ],
+          [
+            "shutdown",
+            "shutdown"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_azure_iot_device_do_method": {
+    "message0": "ejecutar método de Azure IoT Device objeto %1 %2 argumentos %3 argumentos con nombre %4",
+    "tooltip": "Ejecuta un método permitido de un objeto Azure IoT Device como sentencia.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "connect",
+            "connect"
+          ],
+          [
+            "disconnect",
+            "disconnect"
+          ],
+          [
+            "send_message",
+            "send_message"
+          ],
+          [
+            "receive_message",
+            "receive_message"
+          ],
+          [
+            "send_method_response",
+            "send_method_response"
+          ],
+          [
+            "patch_twin_reported_properties",
+            "patch_twin_reported_properties"
+          ],
+          [
+            "get_twin",
+            "get_twin"
+          ],
+          [
+            "shutdown",
+            "shutdown"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_azure_iot_device_attribute": {
+    "message0": "objeto Azure IoT Device %1 atributo %2",
+    "tooltip": "Lee un atributo permitido de un objeto o módulo Azure IoT Device.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "connected",
+            "connected"
+          ],
+          [
+            "user_agent",
+            "user_agent"
+          ],
+          [
+            "custom_properties",
+            "custom_properties"
+          ],
+          [
+            "message_id",
+            "message_id"
+          ],
+          [
+            "correlation_id",
+            "correlation_id"
+          ],
+          [
+            "content_type",
+            "content_type"
+          ]
+        ]
+      }
+    ]
+  }
+}

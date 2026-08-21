@@ -1,0 +1,194 @@
+{
+  "toolbox_name": "Sense HAT",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "rpi_sense_hat_call": {
+    "message0": "Sense HAT appeler ou créer %1 arguments %2 arguments nommés %3",
+    "tooltip": "Appeler une fonction ou un constructeur Sense HAT autorisé et renvoyer le résultat.",
+    "args0": [
+      {
+        "options": [
+          [
+            "SenseHat",
+            "SenseHat"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "rpi_sense_hat_do": {
+    "message0": "exécuter Sense HAT %1 arguments %2 arguments nommés %3",
+    "tooltip": "Exécuter une fonction ou un constructeur Sense HAT autorisé comme instruction.",
+    "args0": [
+      {
+        "options": [
+          [
+            "SenseHat",
+            "SenseHat"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "rpi_sense_hat_method": {
+    "message0": "objet Sense HAT %1 méthode %2 arguments %3 arguments nommés %4",
+    "tooltip": "Appeler une méthode autorisée d’un objet Sense HAT et renvoyer le résultat.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "show_message",
+            "show_message"
+          ],
+          [
+            "show_letter",
+            "show_letter"
+          ],
+          [
+            "clear",
+            "clear"
+          ],
+          [
+            "set_pixel",
+            "set_pixel"
+          ],
+          [
+            "get_pixel",
+            "get_pixel"
+          ],
+          [
+            "set_pixels",
+            "set_pixels"
+          ],
+          [
+            "get_pixels",
+            "get_pixels"
+          ],
+          [
+            "get_temperature",
+            "get_temperature"
+          ],
+          [
+            "get_humidity",
+            "get_humidity"
+          ],
+          [
+            "get_pressure",
+            "get_pressure"
+          ],
+          [
+            "get_orientation",
+            "get_orientation"
+          ],
+          [
+            "get_accelerometer_raw",
+            "get_accelerometer_raw"
+          ],
+          [
+            "get_gyroscope_raw",
+            "get_gyroscope_raw"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "rpi_sense_hat_do_method": {
+    "message0": "exécuter la méthode Sense HAT de l’objet %1 %2 arguments %3 arguments nommés %4",
+    "tooltip": "Exécuter une méthode autorisée d’un objet Sense HAT comme instruction.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "show_message",
+            "show_message"
+          ],
+          [
+            "show_letter",
+            "show_letter"
+          ],
+          [
+            "clear",
+            "clear"
+          ],
+          [
+            "set_pixel",
+            "set_pixel"
+          ],
+          [
+            "get_pixel",
+            "get_pixel"
+          ],
+          [
+            "set_pixels",
+            "set_pixels"
+          ],
+          [
+            "get_pixels",
+            "get_pixels"
+          ],
+          [
+            "get_temperature",
+            "get_temperature"
+          ],
+          [
+            "get_humidity",
+            "get_humidity"
+          ],
+          [
+            "get_pressure",
+            "get_pressure"
+          ],
+          [
+            "get_orientation",
+            "get_orientation"
+          ],
+          [
+            "get_accelerometer_raw",
+            "get_accelerometer_raw"
+          ],
+          [
+            "get_gyroscope_raw",
+            "get_gyroscope_raw"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "rpi_sense_hat_attribute": {
+    "message0": "objet Sense HAT %1 attribut %2",
+    "tooltip": "Lire un attribut autorisé d’un objet ou module Sense HAT.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "low_light",
+            "low_light"
+          ],
+          [
+            "rotation",
+            "rotation"
+          ],
+          [
+            "gamma",
+            "gamma"
+          ],
+          [
+            "stick",
+            "stick"
+          ]
+        ]
+      }
+    ]
+  }
+}

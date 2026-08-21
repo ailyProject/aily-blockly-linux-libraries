@@ -1,0 +1,182 @@
+{
+  "toolbox_name": "PyModbus",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_pymodbus_call": {
+    "message0": "PyModbus aufrufen oder erzeugen %1 Argumente %2 Schlüsselwortargumente %3",
+    "tooltip": "Eine freigegebene PyModbus-Funktion oder einen Konstruktor aufrufen und das Ergebnis zurückgeben.",
+    "args0": [
+      {
+        "options": [
+          [
+            "ModbusTcpClient",
+            "ModbusTcpClient"
+          ],
+          [
+            "ModbusSerialClient",
+            "ModbusSerialClient"
+          ],
+          [
+            "ModbusUdpClient",
+            "ModbusUdpClient"
+          ],
+          [
+            "AsyncModbusTcpClient",
+            "AsyncModbusTcpClient"
+          ],
+          [
+            "AsyncModbusSerialClient",
+            "AsyncModbusSerialClient"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_pymodbus_do": {
+    "message0": "PyModbus ausführen %1 Argumente %2 Schlüsselwortargumente %3",
+    "tooltip": "Eine freigegebene PyModbus-Funktion oder einen Konstruktor als Anweisung ausführen.",
+    "args0": [
+      {
+        "options": [
+          [
+            "ModbusTcpClient",
+            "ModbusTcpClient"
+          ],
+          [
+            "ModbusSerialClient",
+            "ModbusSerialClient"
+          ],
+          [
+            "ModbusUdpClient",
+            "ModbusUdpClient"
+          ],
+          [
+            "AsyncModbusTcpClient",
+            "AsyncModbusTcpClient"
+          ],
+          [
+            "AsyncModbusSerialClient",
+            "AsyncModbusSerialClient"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_pymodbus_method": {
+    "message0": "PyModbus-Objekt %1 Methode %2 Argumente %3 Schlüsselwortargumente %4",
+    "tooltip": "Eine freigegebene Methode eines PyModbus-Objekts aufrufen und das Ergebnis zurückgeben.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "connect",
+            "connect"
+          ],
+          [
+            "close",
+            "close"
+          ],
+          [
+            "read_coils",
+            "read_coils"
+          ],
+          [
+            "read_discrete_inputs",
+            "read_discrete_inputs"
+          ],
+          [
+            "read_holding_registers",
+            "read_holding_registers"
+          ],
+          [
+            "read_input_registers",
+            "read_input_registers"
+          ],
+          [
+            "write_coil",
+            "write_coil"
+          ],
+          [
+            "write_register",
+            "write_register"
+          ],
+          [
+            "write_registers",
+            "write_registers"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_pymodbus_do_method": {
+    "message0": "PyModbus-Objekt %1 Methode %2 ausführen Argumente %3 Schlüsselwortargumente %4",
+    "tooltip": "Eine freigegebene Methode eines PyModbus-Objekts als Anweisung ausführen.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "connect",
+            "connect"
+          ],
+          [
+            "close",
+            "close"
+          ],
+          [
+            "read_coils",
+            "read_coils"
+          ],
+          [
+            "read_discrete_inputs",
+            "read_discrete_inputs"
+          ],
+          [
+            "read_holding_registers",
+            "read_holding_registers"
+          ],
+          [
+            "read_input_registers",
+            "read_input_registers"
+          ],
+          [
+            "write_coil",
+            "write_coil"
+          ],
+          [
+            "write_register",
+            "write_register"
+          ],
+          [
+            "write_registers",
+            "write_registers"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_pymodbus_attribute": {
+    "message0": "PyModbus-Objekt %1 Attribut %2",
+    "tooltip": "Ein freigegebenes Attribut eines PyModbus-Objekts oder Moduls lesen.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "connected",
+            "connected"
+          ]
+        ]
+      }
+    ]
+  }
+}

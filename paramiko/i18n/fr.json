@@ -1,0 +1,223 @@
+{
+  "toolbox_name": "Paramiko",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_paramiko_call": {
+    "message0": "Paramiko appeler ou créer %1 arguments %2 arguments nommés %3",
+    "tooltip": "Appeler une fonction ou un constructeur Paramiko autorisé et renvoyer le résultat.",
+    "args0": [
+      {
+        "options": [
+          [
+            "SSHClient",
+            "SSHClient"
+          ],
+          [
+            "Transport",
+            "Transport"
+          ],
+          [
+            "SFTPClient",
+            "SFTPClient"
+          ],
+          [
+            "AutoAddPolicy",
+            "AutoAddPolicy"
+          ],
+          [
+            "RSAKey",
+            "RSAKey"
+          ],
+          [
+            "Ed25519Key",
+            "Ed25519Key"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_paramiko_do": {
+    "message0": "exécuter Paramiko %1 arguments %2 arguments nommés %3",
+    "tooltip": "Exécuter une fonction ou un constructeur Paramiko autorisé comme instruction.",
+    "args0": [
+      {
+        "options": [
+          [
+            "SSHClient",
+            "SSHClient"
+          ],
+          [
+            "Transport",
+            "Transport"
+          ],
+          [
+            "SFTPClient",
+            "SFTPClient"
+          ],
+          [
+            "AutoAddPolicy",
+            "AutoAddPolicy"
+          ],
+          [
+            "RSAKey",
+            "RSAKey"
+          ],
+          [
+            "Ed25519Key",
+            "Ed25519Key"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_paramiko_method": {
+    "message0": "objet Paramiko %1 méthode %2 arguments %3 arguments nommés %4",
+    "tooltip": "Appeler une méthode autorisée d’un objet Paramiko et renvoyer le résultat.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "connect",
+            "connect"
+          ],
+          [
+            "exec_command",
+            "exec_command"
+          ],
+          [
+            "open_sftp",
+            "open_sftp"
+          ],
+          [
+            "close",
+            "close"
+          ],
+          [
+            "set_missing_host_key_policy",
+            "set_missing_host_key_policy"
+          ],
+          [
+            "load_system_host_keys",
+            "load_system_host_keys"
+          ],
+          [
+            "load_host_keys",
+            "load_host_keys"
+          ],
+          [
+            "get_host_keys",
+            "get_host_keys"
+          ],
+          [
+            "get_transport",
+            "get_transport"
+          ],
+          [
+            "is_active",
+            "is_active"
+          ],
+          [
+            "is_authenticated",
+            "is_authenticated"
+          ],
+          [
+            "put",
+            "put"
+          ],
+          [
+            "get",
+            "get"
+          ],
+          [
+            "listdir",
+            "listdir"
+          ],
+          [
+            "open",
+            "open"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_paramiko_do_method": {
+    "message0": "exécuter la méthode Paramiko de l’objet %1 %2 arguments %3 arguments nommés %4",
+    "tooltip": "Exécuter une méthode autorisée d’un objet Paramiko comme instruction.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "connect",
+            "connect"
+          ],
+          [
+            "exec_command",
+            "exec_command"
+          ],
+          [
+            "open_sftp",
+            "open_sftp"
+          ],
+          [
+            "close",
+            "close"
+          ],
+          [
+            "set_missing_host_key_policy",
+            "set_missing_host_key_policy"
+          ],
+          [
+            "load_system_host_keys",
+            "load_system_host_keys"
+          ],
+          [
+            "load_host_keys",
+            "load_host_keys"
+          ],
+          [
+            "get_host_keys",
+            "get_host_keys"
+          ],
+          [
+            "get_transport",
+            "get_transport"
+          ],
+          [
+            "is_active",
+            "is_active"
+          ],
+          [
+            "is_authenticated",
+            "is_authenticated"
+          ],
+          [
+            "put",
+            "put"
+          ],
+          [
+            "get",
+            "get"
+          ],
+          [
+            "listdir",
+            "listdir"
+          ],
+          [
+            "open",
+            "open"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  }
+}

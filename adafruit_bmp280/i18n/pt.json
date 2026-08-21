@@ -1,0 +1,84 @@
+{
+  "toolbox_name": "CircuitPython BMP280",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_adafruit_bmp280_call": {
+    "message0": "CircuitPython BMP280 chamar ou criar %1 argumentos %2 argumentos nomeados %3",
+    "tooltip": "Chama uma função ou construtor permitido de CircuitPython BMP280 e devolve o resultado.",
+    "args0": [
+      {
+        "options": [
+          [
+            "Adafruit_BMP280_I2C",
+            "Adafruit_BMP280_I2C"
+          ],
+          [
+            "Adafruit_BMP280_SPI",
+            "Adafruit_BMP280_SPI"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_bmp280_do": {
+    "message0": "executar CircuitPython BMP280 %1 argumentos %2 argumentos nomeados %3",
+    "tooltip": "Executa uma função ou construtor permitido de CircuitPython BMP280 como instrução.",
+    "args0": [
+      {
+        "options": [
+          [
+            "Adafruit_BMP280_I2C",
+            "Adafruit_BMP280_I2C"
+          ],
+          [
+            "Adafruit_BMP280_SPI",
+            "Adafruit_BMP280_SPI"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_bmp280_attribute": {
+    "message0": "objeto CircuitPython BMP280 %1 atributo %2",
+    "tooltip": "Lê um atributo permitido de um objeto ou módulo CircuitPython BMP280.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "temperature",
+            "temperature"
+          ],
+          [
+            "pressure",
+            "pressure"
+          ],
+          [
+            "altitude",
+            "altitude"
+          ],
+          [
+            "sea_level_pressure",
+            "sea_level_pressure"
+          ],
+          [
+            "mode",
+            "mode"
+          ],
+          [
+            "standby_period",
+            "standby_period"
+          ],
+          [
+            "iir_filter",
+            "iir_filter"
+          ]
+        ]
+      }
+    ]
+  }
+}

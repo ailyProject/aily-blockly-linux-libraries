@@ -1,0 +1,254 @@
+{
+  "toolbox_name": "HTTPX",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_httpx_call": {
+    "message0": "HTTPX appeler ou créer %1 arguments %2 arguments nommés %3",
+    "tooltip": "Appeler une fonction ou un constructeur HTTPX autorisé et renvoyer le résultat.",
+    "args0": [
+      {
+        "options": [
+          [
+            "Client",
+            "Client"
+          ],
+          [
+            "AsyncClient",
+            "AsyncClient"
+          ],
+          [
+            "get",
+            "get"
+          ],
+          [
+            "post",
+            "post"
+          ],
+          [
+            "put",
+            "put"
+          ],
+          [
+            "delete",
+            "delete"
+          ],
+          [
+            "request",
+            "request"
+          ],
+          [
+            "Timeout",
+            "Timeout"
+          ],
+          [
+            "Limits",
+            "Limits"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_httpx_do": {
+    "message0": "exécuter HTTPX %1 arguments %2 arguments nommés %3",
+    "tooltip": "Exécuter une fonction ou un constructeur HTTPX autorisé comme instruction.",
+    "args0": [
+      {
+        "options": [
+          [
+            "Client",
+            "Client"
+          ],
+          [
+            "AsyncClient",
+            "AsyncClient"
+          ],
+          [
+            "get",
+            "get"
+          ],
+          [
+            "post",
+            "post"
+          ],
+          [
+            "put",
+            "put"
+          ],
+          [
+            "delete",
+            "delete"
+          ],
+          [
+            "request",
+            "request"
+          ],
+          [
+            "Timeout",
+            "Timeout"
+          ],
+          [
+            "Limits",
+            "Limits"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_httpx_method": {
+    "message0": "objet HTTPX %1 méthode %2 arguments %3 arguments nommés %4",
+    "tooltip": "Appeler une méthode autorisée d’un objet HTTPX et renvoyer le résultat.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "get",
+            "get"
+          ],
+          [
+            "post",
+            "post"
+          ],
+          [
+            "put",
+            "put"
+          ],
+          [
+            "delete",
+            "delete"
+          ],
+          [
+            "request",
+            "request"
+          ],
+          [
+            "close",
+            "close"
+          ],
+          [
+            "aclose",
+            "aclose"
+          ],
+          [
+            "json",
+            "json"
+          ],
+          [
+            "raise_for_status",
+            "raise_for_status"
+          ],
+          [
+            "iter_bytes",
+            "iter_bytes"
+          ],
+          [
+            "aiter_bytes",
+            "aiter_bytes"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_httpx_do_method": {
+    "message0": "exécuter la méthode HTTPX de l’objet %1 %2 arguments %3 arguments nommés %4",
+    "tooltip": "Exécuter une méthode autorisée d’un objet HTTPX comme instruction.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "get",
+            "get"
+          ],
+          [
+            "post",
+            "post"
+          ],
+          [
+            "put",
+            "put"
+          ],
+          [
+            "delete",
+            "delete"
+          ],
+          [
+            "request",
+            "request"
+          ],
+          [
+            "close",
+            "close"
+          ],
+          [
+            "aclose",
+            "aclose"
+          ],
+          [
+            "json",
+            "json"
+          ],
+          [
+            "raise_for_status",
+            "raise_for_status"
+          ],
+          [
+            "iter_bytes",
+            "iter_bytes"
+          ],
+          [
+            "aiter_bytes",
+            "aiter_bytes"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_httpx_attribute": {
+    "message0": "objet HTTPX %1 attribut %2",
+    "tooltip": "Lire un attribut autorisé d’un objet ou module HTTPX.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "status_code",
+            "status_code"
+          ],
+          [
+            "text",
+            "text"
+          ],
+          [
+            "content",
+            "content"
+          ],
+          [
+            "headers",
+            "headers"
+          ],
+          [
+            "cookies",
+            "cookies"
+          ],
+          [
+            "url",
+            "url"
+          ],
+          [
+            "is_success",
+            "is_success"
+          ]
+        ]
+      }
+    ]
+  }
+}

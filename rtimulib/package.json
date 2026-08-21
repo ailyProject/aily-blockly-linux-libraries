@@ -1,0 +1,45 @@
+{
+  "name": "@aily-project/lib-rtimulib",
+  "nickname": "RTIMULib",
+  "nickname_zh_cn": "RTIMULib",
+  "nickname_en": "RTIMULib",
+  "nickname_zh_hk": "RTIMULib",
+  "nickname_ja": "RTIMULib",
+  "nickname_ko": "RTIMULib",
+  "nickname_de": "RTIMULib",
+  "nickname_fr": "RTIMULib",
+  "nickname_es": "RTIMULib",
+  "nickname_pt": "RTIMULib",
+  "nickname_ru": "RTIMULib",
+  "nickname_ar": "RTIMULib",
+  "version": "0.0.1",
+  "description": "面向树莓派与 Linux 开发板的 RTIMULib 常用 Python API 白名单积木。",
+  "description_zh_cn": "面向树莓派与 Linux 开发板的 RTIMULib 常用 Python API 白名单积木。",
+  "description_en": "Allowlisted RTIMULib Python API blocks for Raspberry Pi and Linux single-board computers.",
+  "spec": true,
+  "compatibility": {
+    "type": [
+      "broadcom:bcm2712:raspberrypi_5"
+    ],
+    "voltage": [
+      3.3
+    ]
+  },
+  "keywords": [
+    "aily",
+    "blockly",
+    "python",
+    "linux",
+    "raspberry-pi",
+    "RTIMULib",
+    "RTIMU"
+  ],
+  "tags": [
+    "io"
+  ],
+  "author": "ailyProject",
+  "license": "MIT",
+  "homepage": "https://github.com/RPi-Distro/RTIMULib",
+  "dependencies": {},
+  "devDependencies": {}
+}

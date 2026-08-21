@@ -1,0 +1,27 @@
+{
+  "kind": "category",
+  "name": "Ultralytics",
+  "colour": "#1976D2",
+  "contents": [
+    {
+      "kind": "block",
+      "type": "python_ultralytics_call"
+    },
+    {
+      "kind": "block",
+      "type": "python_ultralytics_do"
+    },
+    {
+      "kind": "block",
+      "type": "python_ultralytics_method"
+    },
+    {
+      "kind": "block",
+      "type": "python_ultralytics_do_method"
+    },
+    {
+      "kind": "block",
+      "type": "python_ultralytics_attribute"
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "toolbox_name": "CircuitPython MPU6050",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_adafruit_mpu6050_call": {
+    "message0": "CircuitPython MPU6050 呼び出しまたは作成 %1 引数 %2 キーワード引数 %3",
+    "tooltip": "許可された CircuitPython MPU6050 の関数またはコンストラクターを呼び出して結果を返します。",
+    "args0": [
+      {
+        "options": [
+          [
+            "MPU6050",
+            "MPU6050"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_mpu6050_do": {
+    "message0": "CircuitPython MPU6050 を実行 %1 引数 %2 キーワード引数 %3",
+    "tooltip": "許可された CircuitPython MPU6050 の関数またはコンストラクターを文として実行します。",
+    "args0": [
+      {
+        "options": [
+          [
+            "MPU6050",
+            "MPU6050"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_mpu6050_method": {
+    "message0": "CircuitPython MPU6050 オブジェクト %1 メソッド %2 引数 %3 キーワード引数 %4",
+    "tooltip": "許可された CircuitPython MPU6050 オブジェクトのメソッドを呼び出して結果を返します。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "reset",
+            "reset"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_mpu6050_do_method": {
+    "message0": "CircuitPython MPU6050 オブジェクト %1 のメソッド %2 を実行 引数 %3 キーワード引数 %4",
+    "tooltip": "許可された CircuitPython MPU6050 オブジェクトのメソッドを文として実行します。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "reset",
+            "reset"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_mpu6050_attribute": {
+    "message0": "CircuitPython MPU6050 オブジェクト %1 属性 %2",
+    "tooltip": "許可された CircuitPython MPU6050 オブジェクトまたはモジュールの属性を読み取ります。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "acceleration",
+            "acceleration"
+          ],
+          [
+            "gyro",
+            "gyro"
+          ],
+          [
+            "temperature",
+            "temperature"
+          ],
+          [
+            "cycle_rate",
+            "cycle_rate"
+          ],
+          [
+            "filter_bandwidth",
+            "filter_bandwidth"
+          ],
+          [
+            "gyro_range",
+            "gyro_range"
+          ],
+          [
+            "accelerometer_range",
+            "accelerometer_range"
+          ],
+          [
+            "cycle",
+            "cycle"
+          ]
+        ]
+      }
+    ]
+  }
+}

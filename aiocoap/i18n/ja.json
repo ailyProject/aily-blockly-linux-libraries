@@ -1,0 +1,166 @@
+{
+  "toolbox_name": "aiocoap",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_aiocoap_call": {
+    "message0": "aiocoap 呼び出しまたは作成 %1 引数 %2 キーワード引数 %3",
+    "tooltip": "許可された aiocoap の関数またはコンストラクターを呼び出して結果を返します。",
+    "args0": [
+      {
+        "options": [
+          [
+            "Context.create_client_context",
+            "Context.create_client_context"
+          ],
+          [
+            "Context.create_server_context",
+            "Context.create_server_context"
+          ],
+          [
+            "Message",
+            "Message"
+          ],
+          [
+            "resource.Site",
+            "resource.Site"
+          ],
+          [
+            "resource.Resource",
+            "resource.Resource"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_aiocoap_do": {
+    "message0": "aiocoap を実行 %1 引数 %2 キーワード引数 %3",
+    "tooltip": "許可された aiocoap の関数またはコンストラクターを文として実行します。",
+    "args0": [
+      {
+        "options": [
+          [
+            "Context.create_client_context",
+            "Context.create_client_context"
+          ],
+          [
+            "Context.create_server_context",
+            "Context.create_server_context"
+          ],
+          [
+            "Message",
+            "Message"
+          ],
+          [
+            "resource.Site",
+            "resource.Site"
+          ],
+          [
+            "resource.Resource",
+            "resource.Resource"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_aiocoap_method": {
+    "message0": "aiocoap オブジェクト %1 メソッド %2 引数 %3 キーワード引数 %4",
+    "tooltip": "許可された aiocoap オブジェクトのメソッドを呼び出して結果を返します。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "request",
+            "request"
+          ],
+          [
+            "render_get",
+            "render_get"
+          ],
+          [
+            "render_post",
+            "render_post"
+          ],
+          [
+            "add_resource",
+            "add_resource"
+          ],
+          [
+            "shutdown",
+            "shutdown"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_aiocoap_do_method": {
+    "message0": "aiocoap オブジェクト %1 のメソッド %2 を実行 引数 %3 キーワード引数 %4",
+    "tooltip": "許可された aiocoap オブジェクトのメソッドを文として実行します。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "request",
+            "request"
+          ],
+          [
+            "render_get",
+            "render_get"
+          ],
+          [
+            "render_post",
+            "render_post"
+          ],
+          [
+            "add_resource",
+            "add_resource"
+          ],
+          [
+            "shutdown",
+            "shutdown"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_aiocoap_attribute": {
+    "message0": "aiocoap オブジェクト %1 属性 %2",
+    "tooltip": "許可された aiocoap オブジェクトまたはモジュールの属性を読み取ります。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "code",
+            "code"
+          ],
+          [
+            "payload",
+            "payload"
+          ],
+          [
+            "uri",
+            "uri"
+          ],
+          [
+            "remote",
+            "remote"
+          ],
+          [
+            "opt",
+            "opt"
+          ]
+        ]
+      }
+    ]
+  }
+}

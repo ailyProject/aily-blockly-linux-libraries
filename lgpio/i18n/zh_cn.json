@@ -1,0 +1,162 @@
+{
+  "toolbox_name": "lgpio",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "linux_lgpio_call": {
+    "message0": "lgpio 调用或创建 %1 参数 %2 关键字参数 %3",
+    "tooltip": "调用白名单中的 lgpio 函数或构造器并返回结果。",
+    "args0": [
+      {
+        "options": [
+          [
+            "gpiochip_open",
+            "gpiochip_open"
+          ],
+          [
+            "gpiochip_close",
+            "gpiochip_close"
+          ],
+          [
+            "gpio_claim_input",
+            "gpio_claim_input"
+          ],
+          [
+            "gpio_claim_output",
+            "gpio_claim_output"
+          ],
+          [
+            "gpio_read",
+            "gpio_read"
+          ],
+          [
+            "gpio_write",
+            "gpio_write"
+          ],
+          [
+            "tx_pwm",
+            "tx_pwm"
+          ],
+          [
+            "callback",
+            "callback"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "linux_lgpio_do": {
+    "message0": "运行 lgpio %1 参数 %2 关键字参数 %3",
+    "tooltip": "以语句方式运行白名单中的 lgpio 函数或构造器。",
+    "args0": [
+      {
+        "options": [
+          [
+            "gpiochip_open",
+            "gpiochip_open"
+          ],
+          [
+            "gpiochip_close",
+            "gpiochip_close"
+          ],
+          [
+            "gpio_claim_input",
+            "gpio_claim_input"
+          ],
+          [
+            "gpio_claim_output",
+            "gpio_claim_output"
+          ],
+          [
+            "gpio_read",
+            "gpio_read"
+          ],
+          [
+            "gpio_write",
+            "gpio_write"
+          ],
+          [
+            "tx_pwm",
+            "tx_pwm"
+          ],
+          [
+            "callback",
+            "callback"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "linux_lgpio_method": {
+    "message0": "lgpio 对象 %1 调用方法 %2 参数 %3 关键字参数 %4",
+    "tooltip": "调用白名单中的 lgpio 对象方法并返回结果。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "cancel",
+            "cancel"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "linux_lgpio_do_method": {
+    "message0": "运行 lgpio 对象 %1 的方法 %2 参数 %3 关键字参数 %4",
+    "tooltip": "以语句方式运行白名单中的 lgpio 对象方法。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "cancel",
+            "cancel"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "linux_lgpio_attribute": {
+    "message0": "lgpio 对象 %1 属性 %2",
+    "tooltip": "读取白名单中的 lgpio 对象或模块属性。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "RISING_EDGE",
+            "RISING_EDGE"
+          ],
+          [
+            "FALLING_EDGE",
+            "FALLING_EDGE"
+          ],
+          [
+            "BOTH_EDGES",
+            "BOTH_EDGES"
+          ],
+          [
+            "SET_PULL_UP",
+            "SET_PULL_UP"
+          ],
+          [
+            "SET_PULL_DOWN",
+            "SET_PULL_DOWN"
+          ],
+          [
+            "SET_PULL_NONE",
+            "SET_PULL_NONE"
+          ]
+        ]
+      }
+    ]
+  }
+}

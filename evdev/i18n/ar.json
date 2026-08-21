@@ -1,0 +1,174 @@
+{
+  "toolbox_name": "python-evdev",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "linux_evdev_call": {
+    "message0": "python-evdev استدعاء أو إنشاء %1 الوسائط %2 وسائط الكلمات المفتاحية %3",
+    "tooltip": "استدعاء دالة أو مُنشئ مسموح من python-evdev وإرجاع النتيجة.",
+    "args0": [
+      {
+        "options": [
+          [
+            "InputDevice",
+            "InputDevice"
+          ],
+          [
+            "UInput",
+            "UInput"
+          ],
+          [
+            "list_devices",
+            "list_devices"
+          ],
+          [
+            "categorize",
+            "categorize"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "linux_evdev_do": {
+    "message0": "تشغيل python-evdev %1 الوسائط %2 وسائط الكلمات المفتاحية %3",
+    "tooltip": "تشغيل دالة أو مُنشئ مسموح من python-evdev كتعليمة.",
+    "args0": [
+      {
+        "options": [
+          [
+            "InputDevice",
+            "InputDevice"
+          ],
+          [
+            "UInput",
+            "UInput"
+          ],
+          [
+            "list_devices",
+            "list_devices"
+          ],
+          [
+            "categorize",
+            "categorize"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "linux_evdev_method": {
+    "message0": "كائن python-evdev %1 الطريقة %2 الوسائط %3 وسائط الكلمات المفتاحية %4",
+    "tooltip": "استدعاء طريقة مسموحة لكائن python-evdev وإرجاع النتيجة.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "read",
+            "read"
+          ],
+          [
+            "read_loop",
+            "read_loop"
+          ],
+          [
+            "async_read_loop",
+            "async_read_loop"
+          ],
+          [
+            "grab",
+            "grab"
+          ],
+          [
+            "ungrab",
+            "ungrab"
+          ],
+          [
+            "close",
+            "close"
+          ],
+          [
+            "write",
+            "write"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "linux_evdev_do_method": {
+    "message0": "تشغيل طريقة python-evdev للكائن %1 %2 الوسائط %3 وسائط الكلمات المفتاحية %4",
+    "tooltip": "تشغيل طريقة مسموحة لكائن python-evdev كتعليمة.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "read",
+            "read"
+          ],
+          [
+            "read_loop",
+            "read_loop"
+          ],
+          [
+            "async_read_loop",
+            "async_read_loop"
+          ],
+          [
+            "grab",
+            "grab"
+          ],
+          [
+            "ungrab",
+            "ungrab"
+          ],
+          [
+            "close",
+            "close"
+          ],
+          [
+            "write",
+            "write"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "linux_evdev_attribute": {
+    "message0": "كائن python-evdev %1 السمة %2",
+    "tooltip": "قراءة سمة مسموحة لكائن أو وحدة python-evdev.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "path",
+            "path"
+          ],
+          [
+            "name",
+            "name"
+          ],
+          [
+            "phys",
+            "phys"
+          ],
+          [
+            "uniq",
+            "uniq"
+          ],
+          [
+            "fd",
+            "fd"
+          ]
+        ]
+      }
+    ]
+  }
+}

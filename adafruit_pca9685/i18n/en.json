@@ -1,0 +1,98 @@
+{
+  "toolbox_name": "CircuitPython PCA9685",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_adafruit_pca9685_call": {
+    "message0": "CircuitPython PCA9685 call or create %1 arguments %2 keyword arguments %3",
+    "tooltip": "Call an allowlisted CircuitPython PCA9685 function or constructor and return its result.",
+    "args0": [
+      {
+        "options": [
+          [
+            "PCA9685",
+            "PCA9685"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_pca9685_do": {
+    "message0": "run CircuitPython PCA9685 %1 arguments %2 keyword arguments %3",
+    "tooltip": "Run an allowlisted CircuitPython PCA9685 function or constructor as a statement.",
+    "args0": [
+      {
+        "options": [
+          [
+            "PCA9685",
+            "PCA9685"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_pca9685_method": {
+    "message0": "CircuitPython PCA9685 object %1 call method %2 arguments %3 keyword arguments %4",
+    "tooltip": "Call an allowlisted CircuitPython PCA9685 object method and return its result.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "reset",
+            "reset"
+          ],
+          [
+            "deinit",
+            "deinit"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_pca9685_do_method": {
+    "message0": "run CircuitPython PCA9685 object %1 method %2 arguments %3 keyword arguments %4",
+    "tooltip": "Run an allowlisted CircuitPython PCA9685 object method as a statement.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "reset",
+            "reset"
+          ],
+          [
+            "deinit",
+            "deinit"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_pca9685_attribute": {
+    "message0": "CircuitPython PCA9685 object %1 attribute %2",
+    "tooltip": "Read an allowlisted CircuitPython PCA9685 object or module attribute.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "frequency",
+            "frequency"
+          ],
+          [
+            "channels",
+            "channels"
+          ]
+        ]
+      }
+    ]
+  }
+}

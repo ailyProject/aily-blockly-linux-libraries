@@ -1,0 +1,186 @@
+{
+  "toolbox_name": "pyudev",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "linux_pyudev_call": {
+    "message0": "pyudev 呼び出しまたは作成 %1 引数 %2 キーワード引数 %3",
+    "tooltip": "許可された pyudev の関数またはコンストラクターを呼び出して結果を返します。",
+    "args0": [
+      {
+        "options": [
+          [
+            "Context",
+            "Context"
+          ],
+          [
+            "Monitor",
+            "Monitor"
+          ],
+          [
+            "MonitorObserver",
+            "MonitorObserver"
+          ],
+          [
+            "Devices.from_path",
+            "Devices.from_path"
+          ],
+          [
+            "Devices.from_device_file",
+            "Devices.from_device_file"
+          ],
+          [
+            "Devices.from_device_number",
+            "Devices.from_device_number"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "linux_pyudev_do": {
+    "message0": "pyudev を実行 %1 引数 %2 キーワード引数 %3",
+    "tooltip": "許可された pyudev の関数またはコンストラクターを文として実行します。",
+    "args0": [
+      {
+        "options": [
+          [
+            "Context",
+            "Context"
+          ],
+          [
+            "Monitor",
+            "Monitor"
+          ],
+          [
+            "MonitorObserver",
+            "MonitorObserver"
+          ],
+          [
+            "Devices.from_path",
+            "Devices.from_path"
+          ],
+          [
+            "Devices.from_device_file",
+            "Devices.from_device_file"
+          ],
+          [
+            "Devices.from_device_number",
+            "Devices.from_device_number"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "linux_pyudev_method": {
+    "message0": "pyudev オブジェクト %1 メソッド %2 引数 %3 キーワード引数 %4",
+    "tooltip": "許可された pyudev オブジェクトのメソッドを呼び出して結果を返します。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "list_devices",
+            "list_devices"
+          ],
+          [
+            "filter_by",
+            "filter_by"
+          ],
+          [
+            "enable_receiving",
+            "enable_receiving"
+          ],
+          [
+            "start",
+            "start"
+          ],
+          [
+            "stop",
+            "stop"
+          ],
+          [
+            "poll",
+            "poll"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "linux_pyudev_do_method": {
+    "message0": "pyudev オブジェクト %1 のメソッド %2 を実行 引数 %3 キーワード引数 %4",
+    "tooltip": "許可された pyudev オブジェクトのメソッドを文として実行します。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "list_devices",
+            "list_devices"
+          ],
+          [
+            "filter_by",
+            "filter_by"
+          ],
+          [
+            "enable_receiving",
+            "enable_receiving"
+          ],
+          [
+            "start",
+            "start"
+          ],
+          [
+            "stop",
+            "stop"
+          ],
+          [
+            "poll",
+            "poll"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "linux_pyudev_attribute": {
+    "message0": "pyudev オブジェクト %1 属性 %2",
+    "tooltip": "許可された pyudev オブジェクトまたはモジュールの属性を読み取ります。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "device_path",
+            "device_path"
+          ],
+          [
+            "device_node",
+            "device_node"
+          ],
+          [
+            "subsystem",
+            "subsystem"
+          ],
+          [
+            "sys_name",
+            "sys_name"
+          ],
+          [
+            "properties",
+            "properties"
+          ],
+          [
+            "parent",
+            "parent"
+          ]
+        ]
+      }
+    ]
+  }
+}

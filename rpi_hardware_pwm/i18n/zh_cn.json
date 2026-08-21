@@ -1,0 +1,122 @@
+{
+  "toolbox_name": "Raspberry Pi Hardware PWM",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "rpi_hardware_pwm_call": {
+    "message0": "Raspberry Pi Hardware PWM 调用或创建 %1 参数 %2 关键字参数 %3",
+    "tooltip": "调用白名单中的 Raspberry Pi Hardware PWM 函数或构造器并返回结果。",
+    "args0": [
+      {
+        "options": [
+          [
+            "HardwarePWM",
+            "HardwarePWM"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "rpi_hardware_pwm_do": {
+    "message0": "运行 Raspberry Pi Hardware PWM %1 参数 %2 关键字参数 %3",
+    "tooltip": "以语句方式运行白名单中的 Raspberry Pi Hardware PWM 函数或构造器。",
+    "args0": [
+      {
+        "options": [
+          [
+            "HardwarePWM",
+            "HardwarePWM"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "rpi_hardware_pwm_method": {
+    "message0": "Raspberry Pi Hardware PWM 对象 %1 调用方法 %2 参数 %3 关键字参数 %4",
+    "tooltip": "调用白名单中的 Raspberry Pi Hardware PWM 对象方法并返回结果。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "start",
+            "start"
+          ],
+          [
+            "stop",
+            "stop"
+          ],
+          [
+            "change_duty_cycle",
+            "change_duty_cycle"
+          ],
+          [
+            "change_frequency",
+            "change_frequency"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "rpi_hardware_pwm_do_method": {
+    "message0": "运行 Raspberry Pi Hardware PWM 对象 %1 的方法 %2 参数 %3 关键字参数 %4",
+    "tooltip": "以语句方式运行白名单中的 Raspberry Pi Hardware PWM 对象方法。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "start",
+            "start"
+          ],
+          [
+            "stop",
+            "stop"
+          ],
+          [
+            "change_duty_cycle",
+            "change_duty_cycle"
+          ],
+          [
+            "change_frequency",
+            "change_frequency"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "rpi_hardware_pwm_attribute": {
+    "message0": "Raspberry Pi Hardware PWM 对象 %1 属性 %2",
+    "tooltip": "读取白名单中的 Raspberry Pi Hardware PWM 对象或模块属性。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "duty_cycle",
+            "duty_cycle"
+          ],
+          [
+            "frequency_hz",
+            "frequency_hz"
+          ],
+          [
+            "pwm_channel",
+            "pwm_channel"
+          ],
+          [
+            "chip",
+            "chip"
+          ]
+        ]
+      }
+    ]
+  }
+}

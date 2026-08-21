@@ -1,0 +1,127 @@
+{
+  "toolbox_name": "pyttsx3",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_pyttsx3_call": {
+    "message0": "pyttsx3 호출 또는 생성 %1 인수 %2 키워드 인수 %3",
+    "tooltip": "허용 목록의 pyttsx3 함수 또는 생성자를 호출하고 결과를 반환합니다.",
+    "args0": [
+      {
+        "options": [
+          [
+            "init",
+            "init"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_pyttsx3_do": {
+    "message0": "pyttsx3 실행 %1 인수 %2 키워드 인수 %3",
+    "tooltip": "허용 목록의 pyttsx3 함수 또는 생성자를 문으로 실행합니다.",
+    "args0": [
+      {
+        "options": [
+          [
+            "init",
+            "init"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_pyttsx3_method": {
+    "message0": "pyttsx3 객체 %1 메서드 %2 인수 %3 키워드 인수 %4",
+    "tooltip": "허용 목록의 pyttsx3 객체 메서드를 호출하고 결과를 반환합니다.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "say",
+            "say"
+          ],
+          [
+            "runAndWait",
+            "runAndWait"
+          ],
+          [
+            "stop",
+            "stop"
+          ],
+          [
+            "getProperty",
+            "getProperty"
+          ],
+          [
+            "setProperty",
+            "setProperty"
+          ],
+          [
+            "save_to_file",
+            "save_to_file"
+          ],
+          [
+            "connect",
+            "connect"
+          ],
+          [
+            "disconnect",
+            "disconnect"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_pyttsx3_do_method": {
+    "message0": "pyttsx3 객체 %1 메서드 실행 %2 인수 %3 키워드 인수 %4",
+    "tooltip": "허용 목록의 pyttsx3 객체 메서드를 문으로 실행합니다.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "say",
+            "say"
+          ],
+          [
+            "runAndWait",
+            "runAndWait"
+          ],
+          [
+            "stop",
+            "stop"
+          ],
+          [
+            "getProperty",
+            "getProperty"
+          ],
+          [
+            "setProperty",
+            "setProperty"
+          ],
+          [
+            "save_to_file",
+            "save_to_file"
+          ],
+          [
+            "connect",
+            "connect"
+          ],
+          [
+            "disconnect",
+            "disconnect"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  }
+}

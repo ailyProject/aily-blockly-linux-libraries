@@ -1,0 +1,151 @@
+{
+  "toolbox_name": "Vosk",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_vosk_call": {
+    "message0": "Vosk 呼び出しまたは作成 %1 引数 %2 キーワード引数 %3",
+    "tooltip": "許可された Vosk の関数またはコンストラクターを呼び出して結果を返します。",
+    "args0": [
+      {
+        "options": [
+          [
+            "Model",
+            "Model"
+          ],
+          [
+            "KaldiRecognizer",
+            "KaldiRecognizer"
+          ],
+          [
+            "SetLogLevel",
+            "SetLogLevel"
+          ],
+          [
+            "SpkModel",
+            "SpkModel"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_vosk_do": {
+    "message0": "Vosk を実行 %1 引数 %2 キーワード引数 %3",
+    "tooltip": "許可された Vosk の関数またはコンストラクターを文として実行します。",
+    "args0": [
+      {
+        "options": [
+          [
+            "Model",
+            "Model"
+          ],
+          [
+            "KaldiRecognizer",
+            "KaldiRecognizer"
+          ],
+          [
+            "SetLogLevel",
+            "SetLogLevel"
+          ],
+          [
+            "SpkModel",
+            "SpkModel"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_vosk_method": {
+    "message0": "Vosk オブジェクト %1 メソッド %2 引数 %3 キーワード引数 %4",
+    "tooltip": "許可された Vosk オブジェクトのメソッドを呼び出して結果を返します。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "AcceptWaveform",
+            "AcceptWaveform"
+          ],
+          [
+            "Result",
+            "Result"
+          ],
+          [
+            "PartialResult",
+            "PartialResult"
+          ],
+          [
+            "FinalResult",
+            "FinalResult"
+          ],
+          [
+            "Reset",
+            "Reset"
+          ],
+          [
+            "SetWords",
+            "SetWords"
+          ],
+          [
+            "SetPartialWords",
+            "SetPartialWords"
+          ],
+          [
+            "SetGrammar",
+            "SetGrammar"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_vosk_do_method": {
+    "message0": "Vosk オブジェクト %1 のメソッド %2 を実行 引数 %3 キーワード引数 %4",
+    "tooltip": "許可された Vosk オブジェクトのメソッドを文として実行します。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "AcceptWaveform",
+            "AcceptWaveform"
+          ],
+          [
+            "Result",
+            "Result"
+          ],
+          [
+            "PartialResult",
+            "PartialResult"
+          ],
+          [
+            "FinalResult",
+            "FinalResult"
+          ],
+          [
+            "Reset",
+            "Reset"
+          ],
+          [
+            "SetWords",
+            "SetWords"
+          ],
+          [
+            "SetPartialWords",
+            "SetPartialWords"
+          ],
+          [
+            "SetGrammar",
+            "SetGrammar"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  }
+}

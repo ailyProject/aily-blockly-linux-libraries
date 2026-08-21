@@ -1,0 +1,254 @@
+{
+  "toolbox_name": "HTTPX",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_httpx_call": {
+    "message0": "HTTPX استدعاء أو إنشاء %1 الوسائط %2 وسائط الكلمات المفتاحية %3",
+    "tooltip": "استدعاء دالة أو مُنشئ مسموح من HTTPX وإرجاع النتيجة.",
+    "args0": [
+      {
+        "options": [
+          [
+            "Client",
+            "Client"
+          ],
+          [
+            "AsyncClient",
+            "AsyncClient"
+          ],
+          [
+            "get",
+            "get"
+          ],
+          [
+            "post",
+            "post"
+          ],
+          [
+            "put",
+            "put"
+          ],
+          [
+            "delete",
+            "delete"
+          ],
+          [
+            "request",
+            "request"
+          ],
+          [
+            "Timeout",
+            "Timeout"
+          ],
+          [
+            "Limits",
+            "Limits"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_httpx_do": {
+    "message0": "تشغيل HTTPX %1 الوسائط %2 وسائط الكلمات المفتاحية %3",
+    "tooltip": "تشغيل دالة أو مُنشئ مسموح من HTTPX كتعليمة.",
+    "args0": [
+      {
+        "options": [
+          [
+            "Client",
+            "Client"
+          ],
+          [
+            "AsyncClient",
+            "AsyncClient"
+          ],
+          [
+            "get",
+            "get"
+          ],
+          [
+            "post",
+            "post"
+          ],
+          [
+            "put",
+            "put"
+          ],
+          [
+            "delete",
+            "delete"
+          ],
+          [
+            "request",
+            "request"
+          ],
+          [
+            "Timeout",
+            "Timeout"
+          ],
+          [
+            "Limits",
+            "Limits"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_httpx_method": {
+    "message0": "كائن HTTPX %1 الطريقة %2 الوسائط %3 وسائط الكلمات المفتاحية %4",
+    "tooltip": "استدعاء طريقة مسموحة لكائن HTTPX وإرجاع النتيجة.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "get",
+            "get"
+          ],
+          [
+            "post",
+            "post"
+          ],
+          [
+            "put",
+            "put"
+          ],
+          [
+            "delete",
+            "delete"
+          ],
+          [
+            "request",
+            "request"
+          ],
+          [
+            "close",
+            "close"
+          ],
+          [
+            "aclose",
+            "aclose"
+          ],
+          [
+            "json",
+            "json"
+          ],
+          [
+            "raise_for_status",
+            "raise_for_status"
+          ],
+          [
+            "iter_bytes",
+            "iter_bytes"
+          ],
+          [
+            "aiter_bytes",
+            "aiter_bytes"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_httpx_do_method": {
+    "message0": "تشغيل طريقة HTTPX للكائن %1 %2 الوسائط %3 وسائط الكلمات المفتاحية %4",
+    "tooltip": "تشغيل طريقة مسموحة لكائن HTTPX كتعليمة.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "get",
+            "get"
+          ],
+          [
+            "post",
+            "post"
+          ],
+          [
+            "put",
+            "put"
+          ],
+          [
+            "delete",
+            "delete"
+          ],
+          [
+            "request",
+            "request"
+          ],
+          [
+            "close",
+            "close"
+          ],
+          [
+            "aclose",
+            "aclose"
+          ],
+          [
+            "json",
+            "json"
+          ],
+          [
+            "raise_for_status",
+            "raise_for_status"
+          ],
+          [
+            "iter_bytes",
+            "iter_bytes"
+          ],
+          [
+            "aiter_bytes",
+            "aiter_bytes"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_httpx_attribute": {
+    "message0": "كائن HTTPX %1 السمة %2",
+    "tooltip": "قراءة سمة مسموحة لكائن أو وحدة HTTPX.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "status_code",
+            "status_code"
+          ],
+          [
+            "text",
+            "text"
+          ],
+          [
+            "content",
+            "content"
+          ],
+          [
+            "headers",
+            "headers"
+          ],
+          [
+            "cookies",
+            "cookies"
+          ],
+          [
+            "url",
+            "url"
+          ],
+          [
+            "is_success",
+            "is_success"
+          ]
+        ]
+      }
+    ]
+  }
+}

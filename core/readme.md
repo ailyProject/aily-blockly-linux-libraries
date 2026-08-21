@@ -3,7 +3,7 @@
 Python 基础语法、程序结构、变量和基础数据。
 
 - npm 包：`@aily-project/lib-core`
-- Blockly 积木：13 个（工具箱可见 11 个）
+- Blockly 积木：18 个（工具箱可见 16 个）
 - 运行环境：`devmode: "python"`，并加载独立 CPython generator runtime
 - 目标端依赖：CPython 标准库（仅使用 time）
 
@@ -18,6 +18,11 @@ Python 基础语法、程序结构、变量和基础数据。
 - `python_boolean`
 - `python_tuple`
 - `python_list`
+- `python_arguments`：将最多 6 个已连接值紧凑地组成位置参数列表
+- `python_keyword_arguments`：将最多 6 组键值组成关键字参数字典；空键会被跳过
+- `python_get_item`：按键或索引读取对象元素
+- `python_set_item`：按键或索引设置对象元素
+- `python_set_attribute`：设置经过安全校验的对象属性
 - `python_set_variable`
 - `python_get_variable`
 - `python_if`

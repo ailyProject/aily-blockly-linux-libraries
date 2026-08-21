@@ -1,0 +1,114 @@
+{
+  "toolbox_name": "CircuitPython NeoPixel",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_neopixel_call": {
+    "message0": "CircuitPython NeoPixel 呼び出しまたは作成 %1 引数 %2 キーワード引数 %3",
+    "tooltip": "許可された CircuitPython NeoPixel の関数またはコンストラクターを呼び出して結果を返します。",
+    "args0": [
+      {
+        "options": [
+          [
+            "NeoPixel",
+            "NeoPixel"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_neopixel_do": {
+    "message0": "CircuitPython NeoPixel を実行 %1 引数 %2 キーワード引数 %3",
+    "tooltip": "許可された CircuitPython NeoPixel の関数またはコンストラクターを文として実行します。",
+    "args0": [
+      {
+        "options": [
+          [
+            "NeoPixel",
+            "NeoPixel"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_neopixel_method": {
+    "message0": "CircuitPython NeoPixel オブジェクト %1 メソッド %2 引数 %3 キーワード引数 %4",
+    "tooltip": "許可された CircuitPython NeoPixel オブジェクトのメソッドを呼び出して結果を返します。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "fill",
+            "fill"
+          ],
+          [
+            "show",
+            "show"
+          ],
+          [
+            "deinit",
+            "deinit"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_neopixel_do_method": {
+    "message0": "CircuitPython NeoPixel オブジェクト %1 のメソッド %2 を実行 引数 %3 キーワード引数 %4",
+    "tooltip": "許可された CircuitPython NeoPixel オブジェクトのメソッドを文として実行します。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "fill",
+            "fill"
+          ],
+          [
+            "show",
+            "show"
+          ],
+          [
+            "deinit",
+            "deinit"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_neopixel_attribute": {
+    "message0": "CircuitPython NeoPixel オブジェクト %1 属性 %2",
+    "tooltip": "許可された CircuitPython NeoPixel オブジェクトまたはモジュールの属性を読み取ります。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "brightness",
+            "brightness"
+          ],
+          [
+            "auto_write",
+            "auto_write"
+          ],
+          [
+            "n",
+            "n"
+          ],
+          [
+            "bpp",
+            "bpp"
+          ]
+        ]
+      }
+    ]
+  }
+}

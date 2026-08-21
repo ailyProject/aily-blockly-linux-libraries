@@ -1,0 +1,154 @@
+{
+  "toolbox_name": "cantools",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_cantools_call": {
+    "message0": "cantools llamar o crear %1 argumentos %2 argumentos con nombre %3",
+    "tooltip": "Llama a una función o constructor permitido de cantools y devuelve el resultado.",
+    "args0": [
+      {
+        "options": [
+          [
+            "database.load_file",
+            "database.load_file"
+          ],
+          [
+            "database.load_string",
+            "database.load_string"
+          ],
+          [
+            "database.load",
+            "database.load"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_cantools_do": {
+    "message0": "ejecutar cantools %1 argumentos %2 argumentos con nombre %3",
+    "tooltip": "Ejecuta una función o constructor permitido de cantools como sentencia.",
+    "args0": [
+      {
+        "options": [
+          [
+            "database.load_file",
+            "database.load_file"
+          ],
+          [
+            "database.load_string",
+            "database.load_string"
+          ],
+          [
+            "database.load",
+            "database.load"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_cantools_method": {
+    "message0": "objeto cantools %1 método %2 argumentos %3 argumentos con nombre %4",
+    "tooltip": "Llama a un método permitido de un objeto cantools y devuelve el resultado.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "encode_message",
+            "encode_message"
+          ],
+          [
+            "decode_message",
+            "decode_message"
+          ],
+          [
+            "get_message_by_name",
+            "get_message_by_name"
+          ],
+          [
+            "refresh",
+            "refresh"
+          ],
+          [
+            "as_dbc_string",
+            "as_dbc_string"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_cantools_do_method": {
+    "message0": "ejecutar método de cantools objeto %1 %2 argumentos %3 argumentos con nombre %4",
+    "tooltip": "Ejecuta un método permitido de un objeto cantools como sentencia.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "encode_message",
+            "encode_message"
+          ],
+          [
+            "decode_message",
+            "decode_message"
+          ],
+          [
+            "get_message_by_name",
+            "get_message_by_name"
+          ],
+          [
+            "refresh",
+            "refresh"
+          ],
+          [
+            "as_dbc_string",
+            "as_dbc_string"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_cantools_attribute": {
+    "message0": "objeto cantools %1 atributo %2",
+    "tooltip": "Lee un atributo permitido de un objeto o módulo cantools.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "messages",
+            "messages"
+          ],
+          [
+            "nodes",
+            "nodes"
+          ],
+          [
+            "buses",
+            "buses"
+          ],
+          [
+            "name",
+            "name"
+          ],
+          [
+            "frame_id",
+            "frame_id"
+          ],
+          [
+            "signals",
+            "signals"
+          ]
+        ]
+      }
+    ]
+  }
+}

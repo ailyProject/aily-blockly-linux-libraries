@@ -1,0 +1,114 @@
+{
+  "toolbox_name": "CircuitPython NeoPixel",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_neopixel_call": {
+    "message0": "CircuitPython NeoPixel вызвать или создать %1 аргументы %2 именованные аргументы %3",
+    "tooltip": "Вызывает разрешённую функцию или конструктор CircuitPython NeoPixel и возвращает результат.",
+    "args0": [
+      {
+        "options": [
+          [
+            "NeoPixel",
+            "NeoPixel"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_neopixel_do": {
+    "message0": "выполнить CircuitPython NeoPixel %1 аргументы %2 именованные аргументы %3",
+    "tooltip": "Выполняет разрешённую функцию или конструктор CircuitPython NeoPixel как инструкцию.",
+    "args0": [
+      {
+        "options": [
+          [
+            "NeoPixel",
+            "NeoPixel"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_neopixel_method": {
+    "message0": "объект CircuitPython NeoPixel %1 метод %2 аргументы %3 именованные аргументы %4",
+    "tooltip": "Вызывает разрешённый метод объекта CircuitPython NeoPixel и возвращает результат.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "fill",
+            "fill"
+          ],
+          [
+            "show",
+            "show"
+          ],
+          [
+            "deinit",
+            "deinit"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_neopixel_do_method": {
+    "message0": "выполнить метод CircuitPython NeoPixel объекта %1 %2 аргументы %3 именованные аргументы %4",
+    "tooltip": "Выполняет разрешённый метод объекта CircuitPython NeoPixel как инструкцию.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "fill",
+            "fill"
+          ],
+          [
+            "show",
+            "show"
+          ],
+          [
+            "deinit",
+            "deinit"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_neopixel_attribute": {
+    "message0": "объект CircuitPython NeoPixel %1 атрибут %2",
+    "tooltip": "Читает разрешённый атрибут объекта или модуля CircuitPython NeoPixel.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "brightness",
+            "brightness"
+          ],
+          [
+            "auto_write",
+            "auto_write"
+          ],
+          [
+            "n",
+            "n"
+          ],
+          [
+            "bpp",
+            "bpp"
+          ]
+        ]
+      }
+    ]
+  }
+}

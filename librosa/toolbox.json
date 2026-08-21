@@ -1,0 +1,15 @@
+{
+  "kind": "category",
+  "name": "librosa",
+  "colour": "#EF6C00",
+  "contents": [
+    {
+      "kind": "block",
+      "type": "python_librosa_call"
+    },
+    {
+      "kind": "block",
+      "type": "python_librosa_do"
+    }
+  ]
+}

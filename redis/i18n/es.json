@@ -1,0 +1,206 @@
+{
+  "toolbox_name": "redis-py",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_redis_call": {
+    "message0": "redis-py llamar o crear %1 argumentos %2 argumentos con nombre %3",
+    "tooltip": "Llama a una función o constructor permitido de redis-py y devuelve el resultado.",
+    "args0": [
+      {
+        "options": [
+          [
+            "Redis",
+            "Redis"
+          ],
+          [
+            "StrictRedis",
+            "StrictRedis"
+          ],
+          [
+            "from_url",
+            "from_url"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_redis_do": {
+    "message0": "ejecutar redis-py %1 argumentos %2 argumentos con nombre %3",
+    "tooltip": "Ejecuta una función o constructor permitido de redis-py como sentencia.",
+    "args0": [
+      {
+        "options": [
+          [
+            "Redis",
+            "Redis"
+          ],
+          [
+            "StrictRedis",
+            "StrictRedis"
+          ],
+          [
+            "from_url",
+            "from_url"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_redis_method": {
+    "message0": "objeto redis-py %1 método %2 argumentos %3 argumentos con nombre %4",
+    "tooltip": "Llama a un método permitido de un objeto redis-py y devuelve el resultado.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "get",
+            "get"
+          ],
+          [
+            "set",
+            "set"
+          ],
+          [
+            "delete",
+            "delete"
+          ],
+          [
+            "incr",
+            "incr"
+          ],
+          [
+            "decr",
+            "decr"
+          ],
+          [
+            "publish",
+            "publish"
+          ],
+          [
+            "subscribe",
+            "subscribe"
+          ],
+          [
+            "hset",
+            "hset"
+          ],
+          [
+            "hget",
+            "hget"
+          ],
+          [
+            "lpush",
+            "lpush"
+          ],
+          [
+            "rpop",
+            "rpop"
+          ],
+          [
+            "scan_iter",
+            "scan_iter"
+          ],
+          [
+            "ping",
+            "ping"
+          ],
+          [
+            "close",
+            "close"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_redis_do_method": {
+    "message0": "ejecutar método de redis-py objeto %1 %2 argumentos %3 argumentos con nombre %4",
+    "tooltip": "Ejecuta un método permitido de un objeto redis-py como sentencia.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "get",
+            "get"
+          ],
+          [
+            "set",
+            "set"
+          ],
+          [
+            "delete",
+            "delete"
+          ],
+          [
+            "incr",
+            "incr"
+          ],
+          [
+            "decr",
+            "decr"
+          ],
+          [
+            "publish",
+            "publish"
+          ],
+          [
+            "subscribe",
+            "subscribe"
+          ],
+          [
+            "hset",
+            "hset"
+          ],
+          [
+            "hget",
+            "hget"
+          ],
+          [
+            "lpush",
+            "lpush"
+          ],
+          [
+            "rpop",
+            "rpop"
+          ],
+          [
+            "scan_iter",
+            "scan_iter"
+          ],
+          [
+            "ping",
+            "ping"
+          ],
+          [
+            "close",
+            "close"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_redis_attribute": {
+    "message0": "objeto redis-py %1 atributo %2",
+    "tooltip": "Lee un atributo permitido de un objeto o módulo redis-py.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "connection_pool",
+            "connection_pool"
+          ]
+        ]
+      }
+    ]
+  }
+}

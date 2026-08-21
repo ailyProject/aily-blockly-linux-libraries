@@ -1,0 +1,27 @@
+{
+  "kind": "category",
+  "name": "aiohttp",
+  "colour": "#0288D1",
+  "contents": [
+    {
+      "kind": "block",
+      "type": "python_aiohttp_call"
+    },
+    {
+      "kind": "block",
+      "type": "python_aiohttp_do"
+    },
+    {
+      "kind": "block",
+      "type": "python_aiohttp_method"
+    },
+    {
+      "kind": "block",
+      "type": "python_aiohttp_do_method"
+    },
+    {
+      "kind": "block",
+      "type": "python_aiohttp_attribute"
+    }
+  ]
+}

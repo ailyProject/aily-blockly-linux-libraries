@@ -1,0 +1,178 @@
+{
+  "toolbox_name": "python-zeroconf",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_zeroconf_call": {
+    "message0": "python-zeroconf 呼び出しまたは作成 %1 引数 %2 キーワード引数 %3",
+    "tooltip": "許可された python-zeroconf の関数またはコンストラクターを呼び出して結果を返します。",
+    "args0": [
+      {
+        "options": [
+          [
+            "Zeroconf",
+            "Zeroconf"
+          ],
+          [
+            "ServiceInfo",
+            "ServiceInfo"
+          ],
+          [
+            "ServiceBrowser",
+            "ServiceBrowser"
+          ],
+          [
+            "ServiceStateChange",
+            "ServiceStateChange"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_zeroconf_do": {
+    "message0": "python-zeroconf を実行 %1 引数 %2 キーワード引数 %3",
+    "tooltip": "許可された python-zeroconf の関数またはコンストラクターを文として実行します。",
+    "args0": [
+      {
+        "options": [
+          [
+            "Zeroconf",
+            "Zeroconf"
+          ],
+          [
+            "ServiceInfo",
+            "ServiceInfo"
+          ],
+          [
+            "ServiceBrowser",
+            "ServiceBrowser"
+          ],
+          [
+            "ServiceStateChange",
+            "ServiceStateChange"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_zeroconf_method": {
+    "message0": "python-zeroconf オブジェクト %1 メソッド %2 引数 %3 キーワード引数 %4",
+    "tooltip": "許可された python-zeroconf オブジェクトのメソッドを呼び出して結果を返します。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "register_service",
+            "register_service"
+          ],
+          [
+            "update_service",
+            "update_service"
+          ],
+          [
+            "unregister_service",
+            "unregister_service"
+          ],
+          [
+            "unregister_all_services",
+            "unregister_all_services"
+          ],
+          [
+            "close",
+            "close"
+          ],
+          [
+            "get_service_info",
+            "get_service_info"
+          ],
+          [
+            "add_service_listener",
+            "add_service_listener"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_zeroconf_do_method": {
+    "message0": "python-zeroconf オブジェクト %1 のメソッド %2 を実行 引数 %3 キーワード引数 %4",
+    "tooltip": "許可された python-zeroconf オブジェクトのメソッドを文として実行します。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "register_service",
+            "register_service"
+          ],
+          [
+            "update_service",
+            "update_service"
+          ],
+          [
+            "unregister_service",
+            "unregister_service"
+          ],
+          [
+            "unregister_all_services",
+            "unregister_all_services"
+          ],
+          [
+            "close",
+            "close"
+          ],
+          [
+            "get_service_info",
+            "get_service_info"
+          ],
+          [
+            "add_service_listener",
+            "add_service_listener"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_zeroconf_attribute": {
+    "message0": "python-zeroconf オブジェクト %1 属性 %2",
+    "tooltip": "許可された python-zeroconf オブジェクトまたはモジュールの属性を読み取ります。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "name",
+            "name"
+          ],
+          [
+            "type",
+            "type"
+          ],
+          [
+            "addresses",
+            "addresses"
+          ],
+          [
+            "port",
+            "port"
+          ],
+          [
+            "properties",
+            "properties"
+          ],
+          [
+            "server",
+            "server"
+          ]
+        ]
+      }
+    ]
+  }
+}

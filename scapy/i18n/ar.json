@@ -1,0 +1,250 @@
+{
+  "toolbox_name": "Scapy",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_scapy_call": {
+    "message0": "Scapy استدعاء أو إنشاء %1 الوسائط %2 وسائط الكلمات المفتاحية %3",
+    "tooltip": "استدعاء دالة أو مُنشئ مسموح من Scapy وإرجاع النتيجة.",
+    "args0": [
+      {
+        "options": [
+          [
+            "sniff",
+            "sniff"
+          ],
+          [
+            "send",
+            "send"
+          ],
+          [
+            "sendp",
+            "sendp"
+          ],
+          [
+            "sr",
+            "sr"
+          ],
+          [
+            "sr1",
+            "sr1"
+          ],
+          [
+            "rdpcap",
+            "rdpcap"
+          ],
+          [
+            "wrpcap",
+            "wrpcap"
+          ],
+          [
+            "Ether",
+            "Ether"
+          ],
+          [
+            "IP",
+            "IP"
+          ],
+          [
+            "IPv6",
+            "IPv6"
+          ],
+          [
+            "TCP",
+            "TCP"
+          ],
+          [
+            "UDP",
+            "UDP"
+          ],
+          [
+            "ARP",
+            "ARP"
+          ],
+          [
+            "ICMP",
+            "ICMP"
+          ],
+          [
+            "Raw",
+            "Raw"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_scapy_do": {
+    "message0": "تشغيل Scapy %1 الوسائط %2 وسائط الكلمات المفتاحية %3",
+    "tooltip": "تشغيل دالة أو مُنشئ مسموح من Scapy كتعليمة.",
+    "args0": [
+      {
+        "options": [
+          [
+            "sniff",
+            "sniff"
+          ],
+          [
+            "send",
+            "send"
+          ],
+          [
+            "sendp",
+            "sendp"
+          ],
+          [
+            "sr",
+            "sr"
+          ],
+          [
+            "sr1",
+            "sr1"
+          ],
+          [
+            "rdpcap",
+            "rdpcap"
+          ],
+          [
+            "wrpcap",
+            "wrpcap"
+          ],
+          [
+            "Ether",
+            "Ether"
+          ],
+          [
+            "IP",
+            "IP"
+          ],
+          [
+            "IPv6",
+            "IPv6"
+          ],
+          [
+            "TCP",
+            "TCP"
+          ],
+          [
+            "UDP",
+            "UDP"
+          ],
+          [
+            "ARP",
+            "ARP"
+          ],
+          [
+            "ICMP",
+            "ICMP"
+          ],
+          [
+            "Raw",
+            "Raw"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_scapy_method": {
+    "message0": "كائن Scapy %1 الطريقة %2 الوسائط %3 وسائط الكلمات المفتاحية %4",
+    "tooltip": "استدعاء طريقة مسموحة لكائن Scapy وإرجاع النتيجة.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "show",
+            "show"
+          ],
+          [
+            "summary",
+            "summary"
+          ],
+          [
+            "haslayer",
+            "haslayer"
+          ],
+          [
+            "getlayer",
+            "getlayer"
+          ],
+          [
+            "sprintf",
+            "sprintf"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_scapy_do_method": {
+    "message0": "تشغيل طريقة Scapy للكائن %1 %2 الوسائط %3 وسائط الكلمات المفتاحية %4",
+    "tooltip": "تشغيل طريقة مسموحة لكائن Scapy كتعليمة.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "show",
+            "show"
+          ],
+          [
+            "summary",
+            "summary"
+          ],
+          [
+            "haslayer",
+            "haslayer"
+          ],
+          [
+            "getlayer",
+            "getlayer"
+          ],
+          [
+            "sprintf",
+            "sprintf"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_scapy_attribute": {
+    "message0": "كائن Scapy %1 السمة %2",
+    "tooltip": "قراءة سمة مسموحة لكائن أو وحدة Scapy.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "src",
+            "src"
+          ],
+          [
+            "dst",
+            "dst"
+          ],
+          [
+            "sport",
+            "sport"
+          ],
+          [
+            "dport",
+            "dport"
+          ],
+          [
+            "payload",
+            "payload"
+          ],
+          [
+            "time",
+            "time"
+          ]
+        ]
+      }
+    ]
+  }
+}

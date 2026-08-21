@@ -1,0 +1,166 @@
+{
+  "toolbox_name": "luma.lcd",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_luma_lcd_call": {
+    "message0": "luma.lcd appeler ou créer %1 arguments %2 arguments nommés %3",
+    "tooltip": "Appeler une fonction ou un constructeur luma.lcd autorisé et renvoyer le résultat.",
+    "args0": [
+      {
+        "options": [
+          [
+            "st7735",
+            "st7735"
+          ],
+          [
+            "st7789",
+            "st7789"
+          ],
+          [
+            "ili9341",
+            "ili9341"
+          ],
+          [
+            "pcd8544",
+            "pcd8544"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_luma_lcd_do": {
+    "message0": "exécuter luma.lcd %1 arguments %2 arguments nommés %3",
+    "tooltip": "Exécuter une fonction ou un constructeur luma.lcd autorisé comme instruction.",
+    "args0": [
+      {
+        "options": [
+          [
+            "st7735",
+            "st7735"
+          ],
+          [
+            "st7789",
+            "st7789"
+          ],
+          [
+            "ili9341",
+            "ili9341"
+          ],
+          [
+            "pcd8544",
+            "pcd8544"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_luma_lcd_method": {
+    "message0": "objet luma.lcd %1 méthode %2 arguments %3 arguments nommés %4",
+    "tooltip": "Appeler une méthode autorisée d’un objet luma.lcd et renvoyer le résultat.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "display",
+            "display"
+          ],
+          [
+            "clear",
+            "clear"
+          ],
+          [
+            "show",
+            "show"
+          ],
+          [
+            "hide",
+            "hide"
+          ],
+          [
+            "contrast",
+            "contrast"
+          ],
+          [
+            "cleanup",
+            "cleanup"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_luma_lcd_do_method": {
+    "message0": "exécuter la méthode luma.lcd de l’objet %1 %2 arguments %3 arguments nommés %4",
+    "tooltip": "Exécuter une méthode autorisée d’un objet luma.lcd comme instruction.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "display",
+            "display"
+          ],
+          [
+            "clear",
+            "clear"
+          ],
+          [
+            "show",
+            "show"
+          ],
+          [
+            "hide",
+            "hide"
+          ],
+          [
+            "contrast",
+            "contrast"
+          ],
+          [
+            "cleanup",
+            "cleanup"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_luma_lcd_attribute": {
+    "message0": "objet luma.lcd %1 attribut %2",
+    "tooltip": "Lire un attribut autorisé d’un objet ou module luma.lcd.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "width",
+            "width"
+          ],
+          [
+            "height",
+            "height"
+          ],
+          [
+            "size",
+            "size"
+          ],
+          [
+            "mode",
+            "mode"
+          ],
+          [
+            "bounding_box",
+            "bounding_box"
+          ]
+        ]
+      }
+    ]
+  }
+}

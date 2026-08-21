@@ -1,0 +1,151 @@
+{
+  "toolbox_name": "ONNX Runtime",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_onnxruntime_call": {
+    "message0": "ONNX Runtime aufrufen oder erzeugen %1 Argumente %2 Schlüsselwortargumente %3",
+    "tooltip": "Eine freigegebene ONNX Runtime-Funktion oder einen Konstruktor aufrufen und das Ergebnis zurückgeben.",
+    "args0": [
+      {
+        "options": [
+          [
+            "InferenceSession",
+            "InferenceSession"
+          ],
+          [
+            "SessionOptions",
+            "SessionOptions"
+          ],
+          [
+            "get_available_providers",
+            "get_available_providers"
+          ],
+          [
+            "get_device",
+            "get_device"
+          ],
+          [
+            "set_default_logger_severity",
+            "set_default_logger_severity"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_onnxruntime_do": {
+    "message0": "ONNX Runtime ausführen %1 Argumente %2 Schlüsselwortargumente %3",
+    "tooltip": "Eine freigegebene ONNX Runtime-Funktion oder einen Konstruktor als Anweisung ausführen.",
+    "args0": [
+      {
+        "options": [
+          [
+            "InferenceSession",
+            "InferenceSession"
+          ],
+          [
+            "SessionOptions",
+            "SessionOptions"
+          ],
+          [
+            "get_available_providers",
+            "get_available_providers"
+          ],
+          [
+            "get_device",
+            "get_device"
+          ],
+          [
+            "set_default_logger_severity",
+            "set_default_logger_severity"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_onnxruntime_method": {
+    "message0": "ONNX Runtime-Objekt %1 Methode %2 Argumente %3 Schlüsselwortargumente %4",
+    "tooltip": "Eine freigegebene Methode eines ONNX Runtime-Objekts aufrufen und das Ergebnis zurückgeben.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "run",
+            "run"
+          ],
+          [
+            "run_with_iobinding",
+            "run_with_iobinding"
+          ],
+          [
+            "get_inputs",
+            "get_inputs"
+          ],
+          [
+            "get_outputs",
+            "get_outputs"
+          ],
+          [
+            "get_providers",
+            "get_providers"
+          ],
+          [
+            "set_providers",
+            "set_providers"
+          ],
+          [
+            "end_profiling",
+            "end_profiling"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_onnxruntime_do_method": {
+    "message0": "ONNX Runtime-Objekt %1 Methode %2 ausführen Argumente %3 Schlüsselwortargumente %4",
+    "tooltip": "Eine freigegebene Methode eines ONNX Runtime-Objekts als Anweisung ausführen.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "run",
+            "run"
+          ],
+          [
+            "run_with_iobinding",
+            "run_with_iobinding"
+          ],
+          [
+            "get_inputs",
+            "get_inputs"
+          ],
+          [
+            "get_outputs",
+            "get_outputs"
+          ],
+          [
+            "get_providers",
+            "get_providers"
+          ],
+          [
+            "set_providers",
+            "set_providers"
+          ],
+          [
+            "end_profiling",
+            "end_profiling"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  }
+}

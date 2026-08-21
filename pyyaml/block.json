@@ -1,0 +1,119 @@
+[
+  {
+    "type": "python_pyyaml_call",
+    "message0": "PyYAML call or create %1 arguments %2 keyword arguments %3",
+    "args0": [
+      {
+        "type": "field_dropdown",
+        "name": "TARGET",
+        "options": [
+          [
+            "safe_load",
+            "safe_load"
+          ],
+          [
+            "safe_load_all",
+            "safe_load_all"
+          ],
+          [
+            "safe_dump",
+            "safe_dump"
+          ],
+          [
+            "safe_dump_all",
+            "safe_dump_all"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#455A64",
+    "tooltip": "Call an allowlisted PyYAML function or constructor and return its result.",
+    "icon": "settings",
+    "output": "Any"
+  },
+  {
+    "type": "python_pyyaml_do",
+    "message0": "run PyYAML %1 arguments %2 keyword arguments %3",
+    "args0": [
+      {
+        "type": "field_dropdown",
+        "name": "TARGET",
+        "options": [
+          [
+            "safe_load",
+            "safe_load"
+          ],
+          [
+            "safe_load_all",
+            "safe_load_all"
+          ],
+          [
+            "safe_dump",
+            "safe_dump"
+          ],
+          [
+            "safe_dump_all",
+            "safe_dump_all"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#455A64",
+    "tooltip": "Run an allowlisted PyYAML function or constructor as a statement.",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "python_pyyaml_attribute",
+    "message0": "PyYAML object %1 attribute %2",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "OBJECT"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "ATTRIBUTE",
+        "options": [
+          [
+            "SafeLoader",
+            "SafeLoader"
+          ],
+          [
+            "CSafeLoader",
+            "CSafeLoader"
+          ],
+          [
+            "SafeDumper",
+            "SafeDumper"
+          ],
+          [
+            "CSafeDumper",
+            "CSafeDumper"
+          ]
+        ]
+      }
+    ],
+    "colour": "#455A64",
+    "tooltip": "Read an allowlisted PyYAML object or module attribute.",
+    "icon": "settings",
+    "output": "Any"
+  }
+]

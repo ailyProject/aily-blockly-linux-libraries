@@ -1,0 +1,45 @@
+{
+  "name": "@aily-project/lib-adafruit-blinka",
+  "nickname": "Adafruit Blinka",
+  "nickname_zh_cn": "Adafruit Blinka",
+  "nickname_en": "Adafruit Blinka",
+  "nickname_zh_hk": "Adafruit Blinka",
+  "nickname_ja": "Adafruit Blinka",
+  "nickname_ko": "Adafruit Blinka",
+  "nickname_de": "Adafruit Blinka",
+  "nickname_fr": "Adafruit Blinka",
+  "nickname_es": "Adafruit Blinka",
+  "nickname_pt": "Adafruit Blinka",
+  "nickname_ru": "Adafruit Blinka",
+  "nickname_ar": "Adafruit Blinka",
+  "version": "0.0.1",
+  "description": "面向树莓派与 Linux 开发板的 Adafruit Blinka 常用 Python API 白名单积木。",
+  "description_zh_cn": "面向树莓派与 Linux 开发板的 Adafruit Blinka 常用 Python API 白名单积木。",
+  "description_en": "Allowlisted Adafruit Blinka Python API blocks for Raspberry Pi and Linux single-board computers.",
+  "spec": true,
+  "compatibility": {
+    "type": [
+      "broadcom:bcm2712:raspberrypi_5"
+    ],
+    "voltage": [
+      3.3
+    ]
+  },
+  "keywords": [
+    "aily",
+    "blockly",
+    "python",
+    "linux",
+    "raspberry-pi",
+    "Adafruit-Blinka",
+    "board"
+  ],
+  "tags": [
+    "io"
+  ],
+  "author": "ailyProject",
+  "license": "MIT",
+  "homepage": "https://learn.adafruit.com/circuitpython-on-raspberrypi-linux",
+  "dependencies": {},
+  "devDependencies": {}
+}

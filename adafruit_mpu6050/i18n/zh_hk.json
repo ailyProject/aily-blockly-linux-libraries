@@ -1,0 +1,114 @@
+{
+  "toolbox_name": "CircuitPython MPU6050",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_adafruit_mpu6050_call": {
+    "message0": "CircuitPython MPU6050 呼叫或建立 %1 參數 %2 關鍵字參數 %3",
+    "tooltip": "呼叫白名單中的 CircuitPython MPU6050 函式或建構器並傳回結果。",
+    "args0": [
+      {
+        "options": [
+          [
+            "MPU6050",
+            "MPU6050"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_mpu6050_do": {
+    "message0": "執行 CircuitPython MPU6050 %1 參數 %2 關鍵字參數 %3",
+    "tooltip": "以敘述方式執行白名單中的 CircuitPython MPU6050 函式或建構器。",
+    "args0": [
+      {
+        "options": [
+          [
+            "MPU6050",
+            "MPU6050"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_mpu6050_method": {
+    "message0": "CircuitPython MPU6050 物件 %1 呼叫方法 %2 參數 %3 關鍵字參數 %4",
+    "tooltip": "呼叫白名單中的 CircuitPython MPU6050 物件方法並傳回結果。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "reset",
+            "reset"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_mpu6050_do_method": {
+    "message0": "執行 CircuitPython MPU6050 物件 %1 的方法 %2 參數 %3 關鍵字參數 %4",
+    "tooltip": "以敘述方式執行白名單中的 CircuitPython MPU6050 物件方法。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "reset",
+            "reset"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_mpu6050_attribute": {
+    "message0": "CircuitPython MPU6050 物件 %1 屬性 %2",
+    "tooltip": "讀取白名單中的 CircuitPython MPU6050 物件或模組屬性。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "acceleration",
+            "acceleration"
+          ],
+          [
+            "gyro",
+            "gyro"
+          ],
+          [
+            "temperature",
+            "temperature"
+          ],
+          [
+            "cycle_rate",
+            "cycle_rate"
+          ],
+          [
+            "filter_bandwidth",
+            "filter_bandwidth"
+          ],
+          [
+            "gyro_range",
+            "gyro_range"
+          ],
+          [
+            "accelerometer_range",
+            "accelerometer_range"
+          ],
+          [
+            "cycle",
+            "cycle"
+          ]
+        ]
+      }
+    ]
+  }
+}

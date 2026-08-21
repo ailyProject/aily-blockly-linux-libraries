@@ -1,0 +1,206 @@
+{
+  "toolbox_name": "python-socketio",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_python_socketio_call": {
+    "message0": "python-socketio llamar o crear %1 argumentos %2 argumentos con nombre %3",
+    "tooltip": "Llama a una función o constructor permitido de python-socketio y devuelve el resultado.",
+    "args0": [
+      {
+        "options": [
+          [
+            "Client",
+            "Client"
+          ],
+          [
+            "AsyncClient",
+            "AsyncClient"
+          ],
+          [
+            "Server",
+            "Server"
+          ],
+          [
+            "AsyncServer",
+            "AsyncServer"
+          ],
+          [
+            "WSGIApp",
+            "WSGIApp"
+          ],
+          [
+            "ASGIApp",
+            "ASGIApp"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_python_socketio_do": {
+    "message0": "ejecutar python-socketio %1 argumentos %2 argumentos con nombre %3",
+    "tooltip": "Ejecuta una función o constructor permitido de python-socketio como sentencia.",
+    "args0": [
+      {
+        "options": [
+          [
+            "Client",
+            "Client"
+          ],
+          [
+            "AsyncClient",
+            "AsyncClient"
+          ],
+          [
+            "Server",
+            "Server"
+          ],
+          [
+            "AsyncServer",
+            "AsyncServer"
+          ],
+          [
+            "WSGIApp",
+            "WSGIApp"
+          ],
+          [
+            "ASGIApp",
+            "ASGIApp"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_python_socketio_method": {
+    "message0": "objeto python-socketio %1 método %2 argumentos %3 argumentos con nombre %4",
+    "tooltip": "Llama a un método permitido de un objeto python-socketio y devuelve el resultado.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "connect",
+            "connect"
+          ],
+          [
+            "disconnect",
+            "disconnect"
+          ],
+          [
+            "emit",
+            "emit"
+          ],
+          [
+            "send",
+            "send"
+          ],
+          [
+            "call",
+            "call"
+          ],
+          [
+            "on",
+            "on"
+          ],
+          [
+            "event",
+            "event"
+          ],
+          [
+            "start_background_task",
+            "start_background_task"
+          ],
+          [
+            "sleep",
+            "sleep"
+          ],
+          [
+            "transport",
+            "transport"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_python_socketio_do_method": {
+    "message0": "ejecutar método de python-socketio objeto %1 %2 argumentos %3 argumentos con nombre %4",
+    "tooltip": "Ejecuta un método permitido de un objeto python-socketio como sentencia.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "connect",
+            "connect"
+          ],
+          [
+            "disconnect",
+            "disconnect"
+          ],
+          [
+            "emit",
+            "emit"
+          ],
+          [
+            "send",
+            "send"
+          ],
+          [
+            "call",
+            "call"
+          ],
+          [
+            "on",
+            "on"
+          ],
+          [
+            "event",
+            "event"
+          ],
+          [
+            "start_background_task",
+            "start_background_task"
+          ],
+          [
+            "sleep",
+            "sleep"
+          ],
+          [
+            "transport",
+            "transport"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_python_socketio_attribute": {
+    "message0": "objeto python-socketio %1 atributo %2",
+    "tooltip": "Lee un atributo permitido de un objeto o módulo python-socketio.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "connected",
+            "connected"
+          ],
+          [
+            "sid",
+            "sid"
+          ],
+          [
+            "namespaces",
+            "namespaces"
+          ]
+        ]
+      }
+    ]
+  }
+}

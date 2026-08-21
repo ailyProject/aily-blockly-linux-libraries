@@ -1,0 +1,138 @@
+{
+  "toolbox_name": "CircuitPython ADS1x15",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_adafruit_ads1x15_call": {
+    "message0": "CircuitPython ADS1x15 вызвать или создать %1 аргументы %2 именованные аргументы %3",
+    "tooltip": "Вызывает разрешённую функцию или конструктор CircuitPython ADS1x15 и возвращает результат.",
+    "args0": [
+      {
+        "options": [
+          [
+            "ADS1115",
+            "ADS1115"
+          ],
+          [
+            "AnalogIn",
+            "AnalogIn"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_ads1x15_do": {
+    "message0": "выполнить CircuitPython ADS1x15 %1 аргументы %2 именованные аргументы %3",
+    "tooltip": "Выполняет разрешённую функцию или конструктор CircuitPython ADS1x15 как инструкцию.",
+    "args0": [
+      {
+        "options": [
+          [
+            "ADS1115",
+            "ADS1115"
+          ],
+          [
+            "AnalogIn",
+            "AnalogIn"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_ads1x15_method": {
+    "message0": "объект CircuitPython ADS1x15 %1 метод %2 аргументы %3 именованные аргументы %4",
+    "tooltip": "Вызывает разрешённый метод объекта CircuitPython ADS1x15 и возвращает результат.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "read",
+            "read"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_ads1x15_do_method": {
+    "message0": "выполнить метод CircuitPython ADS1x15 объекта %1 %2 аргументы %3 именованные аргументы %4",
+    "tooltip": "Выполняет разрешённый метод объекта CircuitPython ADS1x15 как инструкцию.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "read",
+            "read"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_ads1x15_attribute": {
+    "message0": "объект CircuitPython ADS1x15 %1 атрибут %2",
+    "tooltip": "Читает разрешённый атрибут объекта или модуля CircuitPython ADS1x15.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "gain",
+            "gain"
+          ],
+          [
+            "mode",
+            "mode"
+          ],
+          [
+            "data_rate",
+            "data_rate"
+          ],
+          [
+            "comparator_queue_length",
+            "comparator_queue_length"
+          ],
+          [
+            "comparator_latch",
+            "comparator_latch"
+          ],
+          [
+            "comparator_polarity",
+            "comparator_polarity"
+          ],
+          [
+            "value",
+            "value"
+          ],
+          [
+            "voltage",
+            "voltage"
+          ],
+          [
+            "Pin.A0",
+            "Pin.A0"
+          ],
+          [
+            "Pin.A1",
+            "Pin.A1"
+          ],
+          [
+            "Pin.A2",
+            "Pin.A2"
+          ],
+          [
+            "Pin.A3",
+            "Pin.A3"
+          ]
+        ]
+      }
+    ]
+  }
+}

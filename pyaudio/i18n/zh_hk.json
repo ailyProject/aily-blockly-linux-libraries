@@ -1,0 +1,174 @@
+{
+  "toolbox_name": "PyAudio",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_pyaudio_call": {
+    "message0": "PyAudio 呼叫或建立 %1 參數 %2 關鍵字參數 %3",
+    "tooltip": "呼叫白名單中的 PyAudio 函式或建構器並傳回結果。",
+    "args0": [
+      {
+        "options": [
+          [
+            "PyAudio",
+            "PyAudio"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_pyaudio_do": {
+    "message0": "執行 PyAudio %1 參數 %2 關鍵字參數 %3",
+    "tooltip": "以敘述方式執行白名單中的 PyAudio 函式或建構器。",
+    "args0": [
+      {
+        "options": [
+          [
+            "PyAudio",
+            "PyAudio"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_pyaudio_method": {
+    "message0": "PyAudio 物件 %1 呼叫方法 %2 參數 %3 關鍵字參數 %4",
+    "tooltip": "呼叫白名單中的 PyAudio 物件方法並傳回結果。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "open",
+            "open"
+          ],
+          [
+            "terminate",
+            "terminate"
+          ],
+          [
+            "get_device_count",
+            "get_device_count"
+          ],
+          [
+            "get_device_info_by_index",
+            "get_device_info_by_index"
+          ],
+          [
+            "get_default_input_device_info",
+            "get_default_input_device_info"
+          ],
+          [
+            "is_format_supported",
+            "is_format_supported"
+          ],
+          [
+            "read",
+            "read"
+          ],
+          [
+            "write",
+            "write"
+          ],
+          [
+            "start_stream",
+            "start_stream"
+          ],
+          [
+            "stop_stream",
+            "stop_stream"
+          ],
+          [
+            "close",
+            "close"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_pyaudio_do_method": {
+    "message0": "執行 PyAudio 物件 %1 的方法 %2 參數 %3 關鍵字參數 %4",
+    "tooltip": "以敘述方式執行白名單中的 PyAudio 物件方法。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "open",
+            "open"
+          ],
+          [
+            "terminate",
+            "terminate"
+          ],
+          [
+            "get_device_count",
+            "get_device_count"
+          ],
+          [
+            "get_device_info_by_index",
+            "get_device_info_by_index"
+          ],
+          [
+            "get_default_input_device_info",
+            "get_default_input_device_info"
+          ],
+          [
+            "is_format_supported",
+            "is_format_supported"
+          ],
+          [
+            "read",
+            "read"
+          ],
+          [
+            "write",
+            "write"
+          ],
+          [
+            "start_stream",
+            "start_stream"
+          ],
+          [
+            "stop_stream",
+            "stop_stream"
+          ],
+          [
+            "close",
+            "close"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_pyaudio_attribute": {
+    "message0": "PyAudio 物件 %1 屬性 %2",
+    "tooltip": "讀取白名單中的 PyAudio 物件或模組屬性。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "paInt16",
+            "paInt16"
+          ],
+          [
+            "paFloat32",
+            "paFloat32"
+          ],
+          [
+            "paUInt8",
+            "paUInt8"
+          ]
+        ]
+      }
+    ]
+  }
+}

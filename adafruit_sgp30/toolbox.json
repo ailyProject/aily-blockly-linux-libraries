@@ -1,0 +1,27 @@
+{
+  "kind": "category",
+  "name": "CircuitPython SGP30",
+  "colour": "#00897B",
+  "contents": [
+    {
+      "kind": "block",
+      "type": "python_adafruit_sgp30_call"
+    },
+    {
+      "kind": "block",
+      "type": "python_adafruit_sgp30_do"
+    },
+    {
+      "kind": "block",
+      "type": "python_adafruit_sgp30_method"
+    },
+    {
+      "kind": "block",
+      "type": "python_adafruit_sgp30_do_method"
+    },
+    {
+      "kind": "block",
+      "type": "python_adafruit_sgp30_attribute"
+    }
+  ]
+}

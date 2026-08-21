@@ -1,0 +1,166 @@
+{
+  "toolbox_name": "luma.oled",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_luma_oled_call": {
+    "message0": "luma.oled 호출 또는 생성 %1 인수 %2 키워드 인수 %3",
+    "tooltip": "허용 목록의 luma.oled 함수 또는 생성자를 호출하고 결과를 반환합니다.",
+    "args0": [
+      {
+        "options": [
+          [
+            "ssd1306",
+            "ssd1306"
+          ],
+          [
+            "ssd1325",
+            "ssd1325"
+          ],
+          [
+            "ssd1331",
+            "ssd1331"
+          ],
+          [
+            "sh1106",
+            "sh1106"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_luma_oled_do": {
+    "message0": "luma.oled 실행 %1 인수 %2 키워드 인수 %3",
+    "tooltip": "허용 목록의 luma.oled 함수 또는 생성자를 문으로 실행합니다.",
+    "args0": [
+      {
+        "options": [
+          [
+            "ssd1306",
+            "ssd1306"
+          ],
+          [
+            "ssd1325",
+            "ssd1325"
+          ],
+          [
+            "ssd1331",
+            "ssd1331"
+          ],
+          [
+            "sh1106",
+            "sh1106"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_luma_oled_method": {
+    "message0": "luma.oled 객체 %1 메서드 %2 인수 %3 키워드 인수 %4",
+    "tooltip": "허용 목록의 luma.oled 객체 메서드를 호출하고 결과를 반환합니다.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "display",
+            "display"
+          ],
+          [
+            "clear",
+            "clear"
+          ],
+          [
+            "show",
+            "show"
+          ],
+          [
+            "hide",
+            "hide"
+          ],
+          [
+            "contrast",
+            "contrast"
+          ],
+          [
+            "cleanup",
+            "cleanup"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_luma_oled_do_method": {
+    "message0": "luma.oled 객체 %1 메서드 실행 %2 인수 %3 키워드 인수 %4",
+    "tooltip": "허용 목록의 luma.oled 객체 메서드를 문으로 실행합니다.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "display",
+            "display"
+          ],
+          [
+            "clear",
+            "clear"
+          ],
+          [
+            "show",
+            "show"
+          ],
+          [
+            "hide",
+            "hide"
+          ],
+          [
+            "contrast",
+            "contrast"
+          ],
+          [
+            "cleanup",
+            "cleanup"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_luma_oled_attribute": {
+    "message0": "luma.oled 객체 %1 속성 %2",
+    "tooltip": "허용 목록의 luma.oled 객체 또는 모듈 속성을 읽습니다.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "width",
+            "width"
+          ],
+          [
+            "height",
+            "height"
+          ],
+          [
+            "size",
+            "size"
+          ],
+          [
+            "mode",
+            "mode"
+          ],
+          [
+            "bounding_box",
+            "bounding_box"
+          ]
+        ]
+      }
+    ]
+  }
+}

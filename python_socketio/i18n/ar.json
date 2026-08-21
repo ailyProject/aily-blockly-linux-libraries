@@ -1,0 +1,206 @@
+{
+  "toolbox_name": "python-socketio",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_python_socketio_call": {
+    "message0": "python-socketio استدعاء أو إنشاء %1 الوسائط %2 وسائط الكلمات المفتاحية %3",
+    "tooltip": "استدعاء دالة أو مُنشئ مسموح من python-socketio وإرجاع النتيجة.",
+    "args0": [
+      {
+        "options": [
+          [
+            "Client",
+            "Client"
+          ],
+          [
+            "AsyncClient",
+            "AsyncClient"
+          ],
+          [
+            "Server",
+            "Server"
+          ],
+          [
+            "AsyncServer",
+            "AsyncServer"
+          ],
+          [
+            "WSGIApp",
+            "WSGIApp"
+          ],
+          [
+            "ASGIApp",
+            "ASGIApp"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_python_socketio_do": {
+    "message0": "تشغيل python-socketio %1 الوسائط %2 وسائط الكلمات المفتاحية %3",
+    "tooltip": "تشغيل دالة أو مُنشئ مسموح من python-socketio كتعليمة.",
+    "args0": [
+      {
+        "options": [
+          [
+            "Client",
+            "Client"
+          ],
+          [
+            "AsyncClient",
+            "AsyncClient"
+          ],
+          [
+            "Server",
+            "Server"
+          ],
+          [
+            "AsyncServer",
+            "AsyncServer"
+          ],
+          [
+            "WSGIApp",
+            "WSGIApp"
+          ],
+          [
+            "ASGIApp",
+            "ASGIApp"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_python_socketio_method": {
+    "message0": "كائن python-socketio %1 الطريقة %2 الوسائط %3 وسائط الكلمات المفتاحية %4",
+    "tooltip": "استدعاء طريقة مسموحة لكائن python-socketio وإرجاع النتيجة.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "connect",
+            "connect"
+          ],
+          [
+            "disconnect",
+            "disconnect"
+          ],
+          [
+            "emit",
+            "emit"
+          ],
+          [
+            "send",
+            "send"
+          ],
+          [
+            "call",
+            "call"
+          ],
+          [
+            "on",
+            "on"
+          ],
+          [
+            "event",
+            "event"
+          ],
+          [
+            "start_background_task",
+            "start_background_task"
+          ],
+          [
+            "sleep",
+            "sleep"
+          ],
+          [
+            "transport",
+            "transport"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_python_socketio_do_method": {
+    "message0": "تشغيل طريقة python-socketio للكائن %1 %2 الوسائط %3 وسائط الكلمات المفتاحية %4",
+    "tooltip": "تشغيل طريقة مسموحة لكائن python-socketio كتعليمة.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "connect",
+            "connect"
+          ],
+          [
+            "disconnect",
+            "disconnect"
+          ],
+          [
+            "emit",
+            "emit"
+          ],
+          [
+            "send",
+            "send"
+          ],
+          [
+            "call",
+            "call"
+          ],
+          [
+            "on",
+            "on"
+          ],
+          [
+            "event",
+            "event"
+          ],
+          [
+            "start_background_task",
+            "start_background_task"
+          ],
+          [
+            "sleep",
+            "sleep"
+          ],
+          [
+            "transport",
+            "transport"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_python_socketio_attribute": {
+    "message0": "كائن python-socketio %1 السمة %2",
+    "tooltip": "قراءة سمة مسموحة لكائن أو وحدة python-socketio.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "connected",
+            "connected"
+          ],
+          [
+            "sid",
+            "sid"
+          ],
+          [
+            "namespaces",
+            "namespaces"
+          ]
+        ]
+      }
+    ]
+  }
+}

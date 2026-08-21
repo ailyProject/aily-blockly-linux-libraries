@@ -1,0 +1,19 @@
+{
+  "kind": "category",
+  "name": "pytesseract",
+  "colour": "#1976D2",
+  "contents": [
+    {
+      "kind": "block",
+      "type": "python_pytesseract_call"
+    },
+    {
+      "kind": "block",
+      "type": "python_pytesseract_do"
+    },
+    {
+      "kind": "block",
+      "type": "python_pytesseract_attribute"
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "toolbox_name": "python-periphery",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "linux_periphery_call": {
+    "message0": "python-periphery chamar ou criar %1 argumentos %2 argumentos nomeados %3",
+    "tooltip": "Chama uma função ou construtor permitido de python-periphery e devolve o resultado.",
+    "args0": [
+      {
+        "options": [
+          [
+            "GPIO",
+            "GPIO"
+          ],
+          [
+            "LED",
+            "LED"
+          ],
+          [
+            "PWM",
+            "PWM"
+          ],
+          [
+            "SPI",
+            "SPI"
+          ],
+          [
+            "I2C",
+            "I2C"
+          ],
+          [
+            "Serial",
+            "Serial"
+          ],
+          [
+            "MMIO",
+            "MMIO"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "linux_periphery_do": {
+    "message0": "executar python-periphery %1 argumentos %2 argumentos nomeados %3",
+    "tooltip": "Executa uma função ou construtor permitido de python-periphery como instrução.",
+    "args0": [
+      {
+        "options": [
+          [
+            "GPIO",
+            "GPIO"
+          ],
+          [
+            "LED",
+            "LED"
+          ],
+          [
+            "PWM",
+            "PWM"
+          ],
+          [
+            "SPI",
+            "SPI"
+          ],
+          [
+            "I2C",
+            "I2C"
+          ],
+          [
+            "Serial",
+            "Serial"
+          ],
+          [
+            "MMIO",
+            "MMIO"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "linux_periphery_method": {
+    "message0": "objeto python-periphery %1 método %2 argumentos %3 argumentos nomeados %4",
+    "tooltip": "Chama um método permitido de um objeto python-periphery e devolve o resultado.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "open",
+            "open"
+          ],
+          [
+            "read",
+            "read"
+          ],
+          [
+            "write",
+            "write"
+          ],
+          [
+            "poll",
+            "poll"
+          ],
+          [
+            "transfer",
+            "transfer"
+          ],
+          [
+            "read_event",
+            "read_event"
+          ],
+          [
+            "close",
+            "close"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "linux_periphery_do_method": {
+    "message0": "executar método de python-periphery objeto %1 %2 argumentos %3 argumentos nomeados %4",
+    "tooltip": "Executa um método permitido de um objeto python-periphery como instrução.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "open",
+            "open"
+          ],
+          [
+            "read",
+            "read"
+          ],
+          [
+            "write",
+            "write"
+          ],
+          [
+            "poll",
+            "poll"
+          ],
+          [
+            "transfer",
+            "transfer"
+          ],
+          [
+            "read_event",
+            "read_event"
+          ],
+          [
+            "close",
+            "close"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "linux_periphery_attribute": {
+    "message0": "objeto python-periphery %1 atributo %2",
+    "tooltip": "Lê um atributo permitido de um objeto ou módulo python-periphery.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "direction",
+            "direction"
+          ],
+          [
+            "edge",
+            "edge"
+          ],
+          [
+            "bias",
+            "bias"
+          ],
+          [
+            "frequency",
+            "frequency"
+          ],
+          [
+            "duty_cycle",
+            "duty_cycle"
+          ],
+          [
+            "period",
+            "period"
+          ],
+          [
+            "fd",
+            "fd"
+          ]
+        ]
+      }
+    ]
+  }
+}

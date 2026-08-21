@@ -1,0 +1,166 @@
+{
+  "toolbox_name": "SpeechRecognition",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_speech_recognition_call": {
+    "message0": "SpeechRecognition استدعاء أو إنشاء %1 الوسائط %2 وسائط الكلمات المفتاحية %3",
+    "tooltip": "استدعاء دالة أو مُنشئ مسموح من SpeechRecognition وإرجاع النتيجة.",
+    "args0": [
+      {
+        "options": [
+          [
+            "Recognizer",
+            "Recognizer"
+          ],
+          [
+            "Microphone",
+            "Microphone"
+          ],
+          [
+            "AudioFile",
+            "AudioFile"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_speech_recognition_do": {
+    "message0": "تشغيل SpeechRecognition %1 الوسائط %2 وسائط الكلمات المفتاحية %3",
+    "tooltip": "تشغيل دالة أو مُنشئ مسموح من SpeechRecognition كتعليمة.",
+    "args0": [
+      {
+        "options": [
+          [
+            "Recognizer",
+            "Recognizer"
+          ],
+          [
+            "Microphone",
+            "Microphone"
+          ],
+          [
+            "AudioFile",
+            "AudioFile"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_speech_recognition_method": {
+    "message0": "كائن SpeechRecognition %1 الطريقة %2 الوسائط %3 وسائط الكلمات المفتاحية %4",
+    "tooltip": "استدعاء طريقة مسموحة لكائن SpeechRecognition وإرجاع النتيجة.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "listen",
+            "listen"
+          ],
+          [
+            "record",
+            "record"
+          ],
+          [
+            "adjust_for_ambient_noise",
+            "adjust_for_ambient_noise"
+          ],
+          [
+            "recognize_google",
+            "recognize_google"
+          ],
+          [
+            "recognize_sphinx",
+            "recognize_sphinx"
+          ],
+          [
+            "recognize_vosk",
+            "recognize_vosk"
+          ],
+          [
+            "recognize_whisper",
+            "recognize_whisper"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_speech_recognition_do_method": {
+    "message0": "تشغيل طريقة SpeechRecognition للكائن %1 %2 الوسائط %3 وسائط الكلمات المفتاحية %4",
+    "tooltip": "تشغيل طريقة مسموحة لكائن SpeechRecognition كتعليمة.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "listen",
+            "listen"
+          ],
+          [
+            "record",
+            "record"
+          ],
+          [
+            "adjust_for_ambient_noise",
+            "adjust_for_ambient_noise"
+          ],
+          [
+            "recognize_google",
+            "recognize_google"
+          ],
+          [
+            "recognize_sphinx",
+            "recognize_sphinx"
+          ],
+          [
+            "recognize_vosk",
+            "recognize_vosk"
+          ],
+          [
+            "recognize_whisper",
+            "recognize_whisper"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_speech_recognition_attribute": {
+    "message0": "كائن SpeechRecognition %1 السمة %2",
+    "tooltip": "قراءة سمة مسموحة لكائن أو وحدة SpeechRecognition.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "energy_threshold",
+            "energy_threshold"
+          ],
+          [
+            "dynamic_energy_threshold",
+            "dynamic_energy_threshold"
+          ],
+          [
+            "pause_threshold",
+            "pause_threshold"
+          ],
+          [
+            "phrase_threshold",
+            "phrase_threshold"
+          ],
+          [
+            "non_speaking_duration",
+            "non_speaking_duration"
+          ]
+        ]
+      }
+    ]
+  }
+}

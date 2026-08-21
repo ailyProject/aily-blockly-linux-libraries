@@ -1,0 +1,248 @@
+[
+  {
+    "type": "python_rclpy_call",
+    "message0": "ROS 2 rclpy call or create %1 arguments %2 keyword arguments %3",
+    "args0": [
+      {
+        "type": "field_dropdown",
+        "name": "TARGET",
+        "options": [
+          [
+            "init",
+            "init"
+          ],
+          [
+            "shutdown",
+            "shutdown"
+          ],
+          [
+            "ok",
+            "ok"
+          ],
+          [
+            "spin",
+            "spin"
+          ],
+          [
+            "spin_once",
+            "spin_once"
+          ],
+          [
+            "create_node",
+            "create_node"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#00897B",
+    "tooltip": "Call an allowlisted ROS 2 rclpy function or constructor and return its result.",
+    "icon": "settings",
+    "output": "Any"
+  },
+  {
+    "type": "python_rclpy_do",
+    "message0": "run ROS 2 rclpy %1 arguments %2 keyword arguments %3",
+    "args0": [
+      {
+        "type": "field_dropdown",
+        "name": "TARGET",
+        "options": [
+          [
+            "init",
+            "init"
+          ],
+          [
+            "shutdown",
+            "shutdown"
+          ],
+          [
+            "ok",
+            "ok"
+          ],
+          [
+            "spin",
+            "spin"
+          ],
+          [
+            "spin_once",
+            "spin_once"
+          ],
+          [
+            "create_node",
+            "create_node"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#00897B",
+    "tooltip": "Run an allowlisted ROS 2 rclpy function or constructor as a statement.",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "python_rclpy_method",
+    "message0": "ROS 2 rclpy object %1 call method %2 arguments %3 keyword arguments %4",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "OBJECT"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "METHOD",
+        "options": [
+          [
+            "create_publisher",
+            "create_publisher"
+          ],
+          [
+            "create_subscription",
+            "create_subscription"
+          ],
+          [
+            "create_timer",
+            "create_timer"
+          ],
+          [
+            "create_client",
+            "create_client"
+          ],
+          [
+            "create_service",
+            "create_service"
+          ],
+          [
+            "get_logger",
+            "get_logger"
+          ],
+          [
+            "destroy_node",
+            "destroy_node"
+          ],
+          [
+            "publish",
+            "publish"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#00897B",
+    "tooltip": "Call an allowlisted ROS 2 rclpy object method and return its result.",
+    "icon": "settings",
+    "output": "Any"
+  },
+  {
+    "type": "python_rclpy_do_method",
+    "message0": "run ROS 2 rclpy object %1 method %2 arguments %3 keyword arguments %4",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "OBJECT"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "METHOD",
+        "options": [
+          [
+            "create_publisher",
+            "create_publisher"
+          ],
+          [
+            "create_subscription",
+            "create_subscription"
+          ],
+          [
+            "create_timer",
+            "create_timer"
+          ],
+          [
+            "create_client",
+            "create_client"
+          ],
+          [
+            "create_service",
+            "create_service"
+          ],
+          [
+            "get_logger",
+            "get_logger"
+          ],
+          [
+            "destroy_node",
+            "destroy_node"
+          ],
+          [
+            "publish",
+            "publish"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#00897B",
+    "tooltip": "Run an allowlisted ROS 2 rclpy object method as a statement.",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "python_rclpy_attribute",
+    "message0": "ROS 2 rclpy object %1 attribute %2",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "OBJECT"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "ATTRIBUTE",
+        "options": [
+          [
+            "context",
+            "context"
+          ],
+          [
+            "default_callback_group",
+            "default_callback_group"
+          ]
+        ]
+      }
+    ],
+    "colour": "#00897B",
+    "tooltip": "Read an allowlisted ROS 2 rclpy object or module attribute.",
+    "icon": "settings",
+    "output": "Any"
+  }
+]

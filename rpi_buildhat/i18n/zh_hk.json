@@ -1,0 +1,214 @@
+{
+  "toolbox_name": "Build HAT",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "rpi_buildhat_call": {
+    "message0": "Build HAT 呼叫或建立 %1 參數 %2 關鍵字參數 %3",
+    "tooltip": "呼叫白名單中的 Build HAT 函式或建構器並傳回結果。",
+    "args0": [
+      {
+        "options": [
+          [
+            "Motor",
+            "Motor"
+          ],
+          [
+            "MotorPair",
+            "MotorPair"
+          ],
+          [
+            "ColorSensor",
+            "ColorSensor"
+          ],
+          [
+            "DistanceSensor",
+            "DistanceSensor"
+          ],
+          [
+            "ForceSensor",
+            "ForceSensor"
+          ],
+          [
+            "Matrix",
+            "Matrix"
+          ],
+          [
+            "Light",
+            "Light"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "rpi_buildhat_do": {
+    "message0": "執行 Build HAT %1 參數 %2 關鍵字參數 %3",
+    "tooltip": "以敘述方式執行白名單中的 Build HAT 函式或建構器。",
+    "args0": [
+      {
+        "options": [
+          [
+            "Motor",
+            "Motor"
+          ],
+          [
+            "MotorPair",
+            "MotorPair"
+          ],
+          [
+            "ColorSensor",
+            "ColorSensor"
+          ],
+          [
+            "DistanceSensor",
+            "DistanceSensor"
+          ],
+          [
+            "ForceSensor",
+            "ForceSensor"
+          ],
+          [
+            "Matrix",
+            "Matrix"
+          ],
+          [
+            "Light",
+            "Light"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "rpi_buildhat_method": {
+    "message0": "Build HAT 物件 %1 呼叫方法 %2 參數 %3 關鍵字參數 %4",
+    "tooltip": "呼叫白名單中的 Build HAT 物件方法並傳回結果。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "run_for_seconds",
+            "run_for_seconds"
+          ],
+          [
+            "run_for_degrees",
+            "run_for_degrees"
+          ],
+          [
+            "start",
+            "start"
+          ],
+          [
+            "stop",
+            "stop"
+          ],
+          [
+            "get_aposition",
+            "get_aposition"
+          ],
+          [
+            "get_color",
+            "get_color"
+          ],
+          [
+            "get_distance",
+            "get_distance"
+          ],
+          [
+            "get_force",
+            "get_force"
+          ],
+          [
+            "on",
+            "on"
+          ],
+          [
+            "off",
+            "off"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "rpi_buildhat_do_method": {
+    "message0": "執行 Build HAT 物件 %1 的方法 %2 參數 %3 關鍵字參數 %4",
+    "tooltip": "以敘述方式執行白名單中的 Build HAT 物件方法。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "run_for_seconds",
+            "run_for_seconds"
+          ],
+          [
+            "run_for_degrees",
+            "run_for_degrees"
+          ],
+          [
+            "start",
+            "start"
+          ],
+          [
+            "stop",
+            "stop"
+          ],
+          [
+            "get_aposition",
+            "get_aposition"
+          ],
+          [
+            "get_color",
+            "get_color"
+          ],
+          [
+            "get_distance",
+            "get_distance"
+          ],
+          [
+            "get_force",
+            "get_force"
+          ],
+          [
+            "on",
+            "on"
+          ],
+          [
+            "off",
+            "off"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "rpi_buildhat_attribute": {
+    "message0": "Build HAT 物件 %1 屬性 %2",
+    "tooltip": "讀取白名單中的 Build HAT 物件或模組屬性。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "position",
+            "position"
+          ],
+          [
+            "when_pressed",
+            "when_pressed"
+          ],
+          [
+            "when_released",
+            "when_released"
+          ]
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "toolbox_name": "CircuitPython MLX90614",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_adafruit_mlx90614_call": {
+    "message0": "CircuitPython MLX90614 استدعاء أو إنشاء %1 الوسائط %2 وسائط الكلمات المفتاحية %3",
+    "tooltip": "استدعاء دالة أو مُنشئ مسموح من CircuitPython MLX90614 وإرجاع النتيجة.",
+    "args0": [
+      {
+        "options": [
+          [
+            "MLX90614",
+            "MLX90614"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_mlx90614_do": {
+    "message0": "تشغيل CircuitPython MLX90614 %1 الوسائط %2 وسائط الكلمات المفتاحية %3",
+    "tooltip": "تشغيل دالة أو مُنشئ مسموح من CircuitPython MLX90614 كتعليمة.",
+    "args0": [
+      {
+        "options": [
+          [
+            "MLX90614",
+            "MLX90614"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_mlx90614_attribute": {
+    "message0": "كائن CircuitPython MLX90614 %1 السمة %2",
+    "tooltip": "قراءة سمة مسموحة لكائن أو وحدة CircuitPython MLX90614.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "ambient_temperature",
+            "ambient_temperature"
+          ],
+          [
+            "object_temperature",
+            "object_temperature"
+          ]
+        ]
+      }
+    ]
+  }
+}

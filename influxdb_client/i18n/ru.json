@@ -1,0 +1,202 @@
+{
+  "toolbox_name": "InfluxDB Client",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_influxdb_client_call": {
+    "message0": "InfluxDB Client вызвать или создать %1 аргументы %2 именованные аргументы %3",
+    "tooltip": "Вызывает разрешённую функцию или конструктор InfluxDB Client и возвращает результат.",
+    "args0": [
+      {
+        "options": [
+          [
+            "InfluxDBClient",
+            "InfluxDBClient"
+          ],
+          [
+            "Point",
+            "Point"
+          ],
+          [
+            "WriteOptions",
+            "WriteOptions"
+          ],
+          [
+            "Dialect",
+            "Dialect"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_influxdb_client_do": {
+    "message0": "выполнить InfluxDB Client %1 аргументы %2 именованные аргументы %3",
+    "tooltip": "Выполняет разрешённую функцию или конструктор InfluxDB Client как инструкцию.",
+    "args0": [
+      {
+        "options": [
+          [
+            "InfluxDBClient",
+            "InfluxDBClient"
+          ],
+          [
+            "Point",
+            "Point"
+          ],
+          [
+            "WriteOptions",
+            "WriteOptions"
+          ],
+          [
+            "Dialect",
+            "Dialect"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_influxdb_client_method": {
+    "message0": "объект InfluxDB Client %1 метод %2 аргументы %3 именованные аргументы %4",
+    "tooltip": "Вызывает разрешённый метод объекта InfluxDB Client и возвращает результат.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "write_api",
+            "write_api"
+          ],
+          [
+            "query_api",
+            "query_api"
+          ],
+          [
+            "delete_api",
+            "delete_api"
+          ],
+          [
+            "write",
+            "write"
+          ],
+          [
+            "query",
+            "query"
+          ],
+          [
+            "query_data_frame",
+            "query_data_frame"
+          ],
+          [
+            "health",
+            "health"
+          ],
+          [
+            "ready",
+            "ready"
+          ],
+          [
+            "close",
+            "close"
+          ],
+          [
+            "delete",
+            "delete"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_influxdb_client_do_method": {
+    "message0": "выполнить метод InfluxDB Client объекта %1 %2 аргументы %3 именованные аргументы %4",
+    "tooltip": "Выполняет разрешённый метод объекта InfluxDB Client как инструкцию.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "write_api",
+            "write_api"
+          ],
+          [
+            "query_api",
+            "query_api"
+          ],
+          [
+            "delete_api",
+            "delete_api"
+          ],
+          [
+            "write",
+            "write"
+          ],
+          [
+            "query",
+            "query"
+          ],
+          [
+            "query_data_frame",
+            "query_data_frame"
+          ],
+          [
+            "health",
+            "health"
+          ],
+          [
+            "ready",
+            "ready"
+          ],
+          [
+            "close",
+            "close"
+          ],
+          [
+            "delete",
+            "delete"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_influxdb_client_attribute": {
+    "message0": "объект InfluxDB Client %1 атрибут %2",
+    "tooltip": "Читает разрешённый атрибут объекта или модуля InfluxDB Client.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "version",
+            "version"
+          ],
+          [
+            "status",
+            "status"
+          ],
+          [
+            "message",
+            "message"
+          ],
+          [
+            "name",
+            "name"
+          ],
+          [
+            "tags",
+            "tags"
+          ],
+          [
+            "fields",
+            "fields"
+          ]
+        ]
+      }
+    ]
+  }
+}

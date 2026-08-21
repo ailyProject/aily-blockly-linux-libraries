@@ -1,0 +1,60 @@
+{
+  "toolbox_name": "CircuitPython ServoKit",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_adafruit_servokit_call": {
+    "message0": "CircuitPython ServoKit استدعاء أو إنشاء %1 الوسائط %2 وسائط الكلمات المفتاحية %3",
+    "tooltip": "استدعاء دالة أو مُنشئ مسموح من CircuitPython ServoKit وإرجاع النتيجة.",
+    "args0": [
+      {
+        "options": [
+          [
+            "ServoKit",
+            "ServoKit"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_servokit_do": {
+    "message0": "تشغيل CircuitPython ServoKit %1 الوسائط %2 وسائط الكلمات المفتاحية %3",
+    "tooltip": "تشغيل دالة أو مُنشئ مسموح من CircuitPython ServoKit كتعليمة.",
+    "args0": [
+      {
+        "options": [
+          [
+            "ServoKit",
+            "ServoKit"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_servokit_attribute": {
+    "message0": "كائن CircuitPython ServoKit %1 السمة %2",
+    "tooltip": "قراءة سمة مسموحة لكائن أو وحدة CircuitPython ServoKit.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "servo",
+            "servo"
+          ],
+          [
+            "continuous_servo",
+            "continuous_servo"
+          ],
+          [
+            "frequency",
+            "frequency"
+          ]
+        ]
+      }
+    ]
+  }
+}

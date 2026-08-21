@@ -1,0 +1,98 @@
+{
+  "toolbox_name": "CircuitPython DHT",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_adafruit_dht_call": {
+    "message0": "CircuitPython DHT appeler ou créer %1 arguments %2 arguments nommés %3",
+    "tooltip": "Appeler une fonction ou un constructeur CircuitPython DHT autorisé et renvoyer le résultat.",
+    "args0": [
+      {
+        "options": [
+          [
+            "DHT11",
+            "DHT11"
+          ],
+          [
+            "DHT22",
+            "DHT22"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_dht_do": {
+    "message0": "exécuter CircuitPython DHT %1 arguments %2 arguments nommés %3",
+    "tooltip": "Exécuter une fonction ou un constructeur CircuitPython DHT autorisé comme instruction.",
+    "args0": [
+      {
+        "options": [
+          [
+            "DHT11",
+            "DHT11"
+          ],
+          [
+            "DHT22",
+            "DHT22"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_dht_method": {
+    "message0": "objet CircuitPython DHT %1 méthode %2 arguments %3 arguments nommés %4",
+    "tooltip": "Appeler une méthode autorisée d’un objet CircuitPython DHT et renvoyer le résultat.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "exit",
+            "exit"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_dht_do_method": {
+    "message0": "exécuter la méthode CircuitPython DHT de l’objet %1 %2 arguments %3 arguments nommés %4",
+    "tooltip": "Exécuter une méthode autorisée d’un objet CircuitPython DHT comme instruction.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "exit",
+            "exit"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_dht_attribute": {
+    "message0": "objet CircuitPython DHT %1 attribut %2",
+    "tooltip": "Lire un attribut autorisé d’un objet ou module CircuitPython DHT.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "temperature",
+            "temperature"
+          ],
+          [
+            "humidity",
+            "humidity"
+          ]
+        ]
+      }
+    ]
+  }
+}

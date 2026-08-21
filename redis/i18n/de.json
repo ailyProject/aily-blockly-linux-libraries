@@ -1,0 +1,206 @@
+{
+  "toolbox_name": "redis-py",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_redis_call": {
+    "message0": "redis-py aufrufen oder erzeugen %1 Argumente %2 Schlüsselwortargumente %3",
+    "tooltip": "Eine freigegebene redis-py-Funktion oder einen Konstruktor aufrufen und das Ergebnis zurückgeben.",
+    "args0": [
+      {
+        "options": [
+          [
+            "Redis",
+            "Redis"
+          ],
+          [
+            "StrictRedis",
+            "StrictRedis"
+          ],
+          [
+            "from_url",
+            "from_url"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_redis_do": {
+    "message0": "redis-py ausführen %1 Argumente %2 Schlüsselwortargumente %3",
+    "tooltip": "Eine freigegebene redis-py-Funktion oder einen Konstruktor als Anweisung ausführen.",
+    "args0": [
+      {
+        "options": [
+          [
+            "Redis",
+            "Redis"
+          ],
+          [
+            "StrictRedis",
+            "StrictRedis"
+          ],
+          [
+            "from_url",
+            "from_url"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_redis_method": {
+    "message0": "redis-py-Objekt %1 Methode %2 Argumente %3 Schlüsselwortargumente %4",
+    "tooltip": "Eine freigegebene Methode eines redis-py-Objekts aufrufen und das Ergebnis zurückgeben.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "get",
+            "get"
+          ],
+          [
+            "set",
+            "set"
+          ],
+          [
+            "delete",
+            "delete"
+          ],
+          [
+            "incr",
+            "incr"
+          ],
+          [
+            "decr",
+            "decr"
+          ],
+          [
+            "publish",
+            "publish"
+          ],
+          [
+            "subscribe",
+            "subscribe"
+          ],
+          [
+            "hset",
+            "hset"
+          ],
+          [
+            "hget",
+            "hget"
+          ],
+          [
+            "lpush",
+            "lpush"
+          ],
+          [
+            "rpop",
+            "rpop"
+          ],
+          [
+            "scan_iter",
+            "scan_iter"
+          ],
+          [
+            "ping",
+            "ping"
+          ],
+          [
+            "close",
+            "close"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_redis_do_method": {
+    "message0": "redis-py-Objekt %1 Methode %2 ausführen Argumente %3 Schlüsselwortargumente %4",
+    "tooltip": "Eine freigegebene Methode eines redis-py-Objekts als Anweisung ausführen.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "get",
+            "get"
+          ],
+          [
+            "set",
+            "set"
+          ],
+          [
+            "delete",
+            "delete"
+          ],
+          [
+            "incr",
+            "incr"
+          ],
+          [
+            "decr",
+            "decr"
+          ],
+          [
+            "publish",
+            "publish"
+          ],
+          [
+            "subscribe",
+            "subscribe"
+          ],
+          [
+            "hset",
+            "hset"
+          ],
+          [
+            "hget",
+            "hget"
+          ],
+          [
+            "lpush",
+            "lpush"
+          ],
+          [
+            "rpop",
+            "rpop"
+          ],
+          [
+            "scan_iter",
+            "scan_iter"
+          ],
+          [
+            "ping",
+            "ping"
+          ],
+          [
+            "close",
+            "close"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_redis_attribute": {
+    "message0": "redis-py-Objekt %1 Attribut %2",
+    "tooltip": "Ein freigegebenes Attribut eines redis-py-Objekts oder Moduls lesen.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "connection_pool",
+            "connection_pool"
+          ]
+        ]
+      }
+    ]
+  }
+}

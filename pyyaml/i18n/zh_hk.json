@@ -1,0 +1,88 @@
+{
+  "toolbox_name": "PyYAML",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_pyyaml_call": {
+    "message0": "PyYAML 呼叫或建立 %1 參數 %2 關鍵字參數 %3",
+    "tooltip": "呼叫白名單中的 PyYAML 函式或建構器並傳回結果。",
+    "args0": [
+      {
+        "options": [
+          [
+            "safe_load",
+            "safe_load"
+          ],
+          [
+            "safe_load_all",
+            "safe_load_all"
+          ],
+          [
+            "safe_dump",
+            "safe_dump"
+          ],
+          [
+            "safe_dump_all",
+            "safe_dump_all"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_pyyaml_do": {
+    "message0": "執行 PyYAML %1 參數 %2 關鍵字參數 %3",
+    "tooltip": "以敘述方式執行白名單中的 PyYAML 函式或建構器。",
+    "args0": [
+      {
+        "options": [
+          [
+            "safe_load",
+            "safe_load"
+          ],
+          [
+            "safe_load_all",
+            "safe_load_all"
+          ],
+          [
+            "safe_dump",
+            "safe_dump"
+          ],
+          [
+            "safe_dump_all",
+            "safe_dump_all"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_pyyaml_attribute": {
+    "message0": "PyYAML 物件 %1 屬性 %2",
+    "tooltip": "讀取白名單中的 PyYAML 物件或模組屬性。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "SafeLoader",
+            "SafeLoader"
+          ],
+          [
+            "CSafeLoader",
+            "CSafeLoader"
+          ],
+          [
+            "SafeDumper",
+            "SafeDumper"
+          ],
+          [
+            "CSafeDumper",
+            "CSafeDumper"
+          ]
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,242 @@
+{
+  "toolbox_name": "schedule",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_schedule_call": {
+    "message0": "schedule 呼叫或建立 %1 參數 %2 關鍵字參數 %3",
+    "tooltip": "呼叫白名單中的 schedule 函式或建構器並傳回結果。",
+    "args0": [
+      {
+        "options": [
+          [
+            "every",
+            "every"
+          ],
+          [
+            "run_pending",
+            "run_pending"
+          ],
+          [
+            "run_all",
+            "run_all"
+          ],
+          [
+            "clear",
+            "clear"
+          ],
+          [
+            "cancel_job",
+            "cancel_job"
+          ],
+          [
+            "get_jobs",
+            "get_jobs"
+          ],
+          [
+            "idle_seconds",
+            "idle_seconds"
+          ],
+          [
+            "repeat",
+            "repeat"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_schedule_do": {
+    "message0": "執行 schedule %1 參數 %2 關鍵字參數 %3",
+    "tooltip": "以敘述方式執行白名單中的 schedule 函式或建構器。",
+    "args0": [
+      {
+        "options": [
+          [
+            "every",
+            "every"
+          ],
+          [
+            "run_pending",
+            "run_pending"
+          ],
+          [
+            "run_all",
+            "run_all"
+          ],
+          [
+            "clear",
+            "clear"
+          ],
+          [
+            "cancel_job",
+            "cancel_job"
+          ],
+          [
+            "get_jobs",
+            "get_jobs"
+          ],
+          [
+            "idle_seconds",
+            "idle_seconds"
+          ],
+          [
+            "repeat",
+            "repeat"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_schedule_method": {
+    "message0": "schedule 物件 %1 呼叫方法 %2 參數 %3 關鍵字參數 %4",
+    "tooltip": "呼叫白名單中的 schedule 物件方法並傳回結果。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "at",
+            "at"
+          ],
+          [
+            "until",
+            "until"
+          ],
+          [
+            "to",
+            "to"
+          ],
+          [
+            "do",
+            "do"
+          ],
+          [
+            "tag",
+            "tag"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_schedule_do_method": {
+    "message0": "執行 schedule 物件 %1 的方法 %2 參數 %3 關鍵字參數 %4",
+    "tooltip": "以敘述方式執行白名單中的 schedule 物件方法。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "at",
+            "at"
+          ],
+          [
+            "until",
+            "until"
+          ],
+          [
+            "to",
+            "to"
+          ],
+          [
+            "do",
+            "do"
+          ],
+          [
+            "tag",
+            "tag"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_schedule_attribute": {
+    "message0": "schedule 物件 %1 屬性 %2",
+    "tooltip": "讀取白名單中的 schedule 物件或模組屬性。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "next_run",
+            "next_run"
+          ],
+          [
+            "period",
+            "period"
+          ],
+          [
+            "unit",
+            "unit"
+          ],
+          [
+            "latest",
+            "latest"
+          ],
+          [
+            "start_day",
+            "start_day"
+          ],
+          [
+            "tags",
+            "tags"
+          ],
+          [
+            "seconds",
+            "seconds"
+          ],
+          [
+            "minutes",
+            "minutes"
+          ],
+          [
+            "hours",
+            "hours"
+          ],
+          [
+            "days",
+            "days"
+          ],
+          [
+            "weeks",
+            "weeks"
+          ],
+          [
+            "monday",
+            "monday"
+          ],
+          [
+            "tuesday",
+            "tuesday"
+          ],
+          [
+            "wednesday",
+            "wednesday"
+          ],
+          [
+            "thursday",
+            "thursday"
+          ],
+          [
+            "friday",
+            "friday"
+          ],
+          [
+            "saturday",
+            "saturday"
+          ],
+          [
+            "sunday",
+            "sunday"
+          ]
+        ]
+      }
+    ]
+  }
+}

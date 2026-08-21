@@ -1,0 +1,202 @@
+{
+  "toolbox_name": "FastAPI",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_fastapi_call": {
+    "message0": "FastAPI llamar o crear %1 argumentos %2 argumentos con nombre %3",
+    "tooltip": "Llama a una función o constructor permitido de FastAPI y devuelve el resultado.",
+    "args0": [
+      {
+        "options": [
+          [
+            "FastAPI",
+            "FastAPI"
+          ],
+          [
+            "APIRouter",
+            "APIRouter"
+          ],
+          [
+            "Depends",
+            "Depends"
+          ],
+          [
+            "HTTPException",
+            "HTTPException"
+          ],
+          [
+            "WebSocket",
+            "WebSocket"
+          ],
+          [
+            "BackgroundTasks",
+            "BackgroundTasks"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_fastapi_do": {
+    "message0": "ejecutar FastAPI %1 argumentos %2 argumentos con nombre %3",
+    "tooltip": "Ejecuta una función o constructor permitido de FastAPI como sentencia.",
+    "args0": [
+      {
+        "options": [
+          [
+            "FastAPI",
+            "FastAPI"
+          ],
+          [
+            "APIRouter",
+            "APIRouter"
+          ],
+          [
+            "Depends",
+            "Depends"
+          ],
+          [
+            "HTTPException",
+            "HTTPException"
+          ],
+          [
+            "WebSocket",
+            "WebSocket"
+          ],
+          [
+            "BackgroundTasks",
+            "BackgroundTasks"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_fastapi_method": {
+    "message0": "objeto FastAPI %1 método %2 argumentos %3 argumentos con nombre %4",
+    "tooltip": "Llama a un método permitido de un objeto FastAPI y devuelve el resultado.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "get",
+            "get"
+          ],
+          [
+            "post",
+            "post"
+          ],
+          [
+            "put",
+            "put"
+          ],
+          [
+            "delete",
+            "delete"
+          ],
+          [
+            "patch",
+            "patch"
+          ],
+          [
+            "websocket",
+            "websocket"
+          ],
+          [
+            "include_router",
+            "include_router"
+          ],
+          [
+            "add_middleware",
+            "add_middleware"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_fastapi_do_method": {
+    "message0": "ejecutar método de FastAPI objeto %1 %2 argumentos %3 argumentos con nombre %4",
+    "tooltip": "Ejecuta un método permitido de un objeto FastAPI como sentencia.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "get",
+            "get"
+          ],
+          [
+            "post",
+            "post"
+          ],
+          [
+            "put",
+            "put"
+          ],
+          [
+            "delete",
+            "delete"
+          ],
+          [
+            "patch",
+            "patch"
+          ],
+          [
+            "websocket",
+            "websocket"
+          ],
+          [
+            "include_router",
+            "include_router"
+          ],
+          [
+            "add_middleware",
+            "add_middleware"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_fastapi_attribute": {
+    "message0": "objeto FastAPI %1 atributo %2",
+    "tooltip": "Lee un atributo permitido de un objeto o módulo FastAPI.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "routes",
+            "routes"
+          ],
+          [
+            "openapi_url",
+            "openapi_url"
+          ],
+          [
+            "docs_url",
+            "docs_url"
+          ],
+          [
+            "title",
+            "title"
+          ],
+          [
+            "version",
+            "version"
+          ],
+          [
+            "state",
+            "state"
+          ]
+        ]
+      }
+    ]
+  }
+}

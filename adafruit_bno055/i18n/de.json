@@ -1,0 +1,100 @@
+{
+  "toolbox_name": "CircuitPython BNO055",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_adafruit_bno055_call": {
+    "message0": "CircuitPython BNO055 aufrufen oder erzeugen %1 Argumente %2 Schlüsselwortargumente %3",
+    "tooltip": "Eine freigegebene CircuitPython BNO055-Funktion oder einen Konstruktor aufrufen und das Ergebnis zurückgeben.",
+    "args0": [
+      {
+        "options": [
+          [
+            "BNO055_I2C",
+            "BNO055_I2C"
+          ],
+          [
+            "BNO055_UART",
+            "BNO055_UART"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_bno055_do": {
+    "message0": "CircuitPython BNO055 ausführen %1 Argumente %2 Schlüsselwortargumente %3",
+    "tooltip": "Eine freigegebene CircuitPython BNO055-Funktion oder einen Konstruktor als Anweisung ausführen.",
+    "args0": [
+      {
+        "options": [
+          [
+            "BNO055_I2C",
+            "BNO055_I2C"
+          ],
+          [
+            "BNO055_UART",
+            "BNO055_UART"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_bno055_attribute": {
+    "message0": "CircuitPython BNO055-Objekt %1 Attribut %2",
+    "tooltip": "Ein freigegebenes Attribut eines CircuitPython BNO055-Objekts oder Moduls lesen.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "sensor_mode",
+            "sensor_mode"
+          ],
+          [
+            "temperature",
+            "temperature"
+          ],
+          [
+            "acceleration",
+            "acceleration"
+          ],
+          [
+            "magnetic",
+            "magnetic"
+          ],
+          [
+            "gyro",
+            "gyro"
+          ],
+          [
+            "euler",
+            "euler"
+          ],
+          [
+            "quaternion",
+            "quaternion"
+          ],
+          [
+            "linear_acceleration",
+            "linear_acceleration"
+          ],
+          [
+            "gravity",
+            "gravity"
+          ],
+          [
+            "calibration_status",
+            "calibration_status"
+          ],
+          [
+            "calibrated",
+            "calibrated"
+          ]
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "toolbox_name": "pytesseract",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_pytesseract_call": {
+    "message0": "pytesseract call or create %1 arguments %2 keyword arguments %3",
+    "tooltip": "Call an allowlisted pytesseract function or constructor and return its result.",
+    "args0": [
+      {
+        "options": [
+          [
+            "image_to_string",
+            "image_to_string"
+          ],
+          [
+            "image_to_data",
+            "image_to_data"
+          ],
+          [
+            "image_to_boxes",
+            "image_to_boxes"
+          ],
+          [
+            "image_to_osd",
+            "image_to_osd"
+          ],
+          [
+            "get_languages",
+            "get_languages"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_pytesseract_do": {
+    "message0": "run pytesseract %1 arguments %2 keyword arguments %3",
+    "tooltip": "Run an allowlisted pytesseract function or constructor as a statement.",
+    "args0": [
+      {
+        "options": [
+          [
+            "image_to_string",
+            "image_to_string"
+          ],
+          [
+            "image_to_data",
+            "image_to_data"
+          ],
+          [
+            "image_to_boxes",
+            "image_to_boxes"
+          ],
+          [
+            "image_to_osd",
+            "image_to_osd"
+          ],
+          [
+            "get_languages",
+            "get_languages"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_pytesseract_attribute": {
+    "message0": "pytesseract object %1 attribute %2",
+    "tooltip": "Read an allowlisted pytesseract object or module attribute.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "Output.DICT",
+            "Output.DICT"
+          ],
+          [
+            "Output.STRING",
+            "Output.STRING"
+          ],
+          [
+            "Output.DATAFRAME",
+            "Output.DATAFRAME"
+          ]
+        ]
+      }
+    ]
+  }
+}

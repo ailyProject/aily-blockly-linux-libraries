@@ -1,0 +1,142 @@
+{
+  "toolbox_name": "dbus-next",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_dbus_next_call": {
+    "message0": "dbus-next call or create %1 arguments %2 keyword arguments %3",
+    "tooltip": "Call an allowlisted dbus-next function or constructor and return its result.",
+    "args0": [
+      {
+        "options": [
+          [
+            "MessageBus",
+            "MessageBus"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_dbus_next_do": {
+    "message0": "run dbus-next %1 arguments %2 keyword arguments %3",
+    "tooltip": "Run an allowlisted dbus-next function or constructor as a statement.",
+    "args0": [
+      {
+        "options": [
+          [
+            "MessageBus",
+            "MessageBus"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_dbus_next_method": {
+    "message0": "dbus-next object %1 call method %2 arguments %3 keyword arguments %4",
+    "tooltip": "Call an allowlisted dbus-next object method and return its result.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "connect",
+            "connect"
+          ],
+          [
+            "disconnect",
+            "disconnect"
+          ],
+          [
+            "introspect",
+            "introspect"
+          ],
+          [
+            "get_proxy_object",
+            "get_proxy_object"
+          ],
+          [
+            "call",
+            "call"
+          ],
+          [
+            "export",
+            "export"
+          ],
+          [
+            "unexport",
+            "unexport"
+          ],
+          [
+            "request_name",
+            "request_name"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_dbus_next_do_method": {
+    "message0": "run dbus-next object %1 method %2 arguments %3 keyword arguments %4",
+    "tooltip": "Run an allowlisted dbus-next object method as a statement.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "connect",
+            "connect"
+          ],
+          [
+            "disconnect",
+            "disconnect"
+          ],
+          [
+            "introspect",
+            "introspect"
+          ],
+          [
+            "get_proxy_object",
+            "get_proxy_object"
+          ],
+          [
+            "call",
+            "call"
+          ],
+          [
+            "export",
+            "export"
+          ],
+          [
+            "unexport",
+            "unexport"
+          ],
+          [
+            "request_name",
+            "request_name"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_dbus_next_attribute": {
+    "message0": "dbus-next object %1 attribute %2",
+    "tooltip": "Read an allowlisted dbus-next object or module attribute.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "unique_name",
+            "unique_name"
+          ]
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "toolbox_name": "CircuitPython NeoPixel",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_neopixel_call": {
+    "message0": "CircuitPython NeoPixel استدعاء أو إنشاء %1 الوسائط %2 وسائط الكلمات المفتاحية %3",
+    "tooltip": "استدعاء دالة أو مُنشئ مسموح من CircuitPython NeoPixel وإرجاع النتيجة.",
+    "args0": [
+      {
+        "options": [
+          [
+            "NeoPixel",
+            "NeoPixel"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_neopixel_do": {
+    "message0": "تشغيل CircuitPython NeoPixel %1 الوسائط %2 وسائط الكلمات المفتاحية %3",
+    "tooltip": "تشغيل دالة أو مُنشئ مسموح من CircuitPython NeoPixel كتعليمة.",
+    "args0": [
+      {
+        "options": [
+          [
+            "NeoPixel",
+            "NeoPixel"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_neopixel_method": {
+    "message0": "كائن CircuitPython NeoPixel %1 الطريقة %2 الوسائط %3 وسائط الكلمات المفتاحية %4",
+    "tooltip": "استدعاء طريقة مسموحة لكائن CircuitPython NeoPixel وإرجاع النتيجة.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "fill",
+            "fill"
+          ],
+          [
+            "show",
+            "show"
+          ],
+          [
+            "deinit",
+            "deinit"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_neopixel_do_method": {
+    "message0": "تشغيل طريقة CircuitPython NeoPixel للكائن %1 %2 الوسائط %3 وسائط الكلمات المفتاحية %4",
+    "tooltip": "تشغيل طريقة مسموحة لكائن CircuitPython NeoPixel كتعليمة.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "fill",
+            "fill"
+          ],
+          [
+            "show",
+            "show"
+          ],
+          [
+            "deinit",
+            "deinit"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_neopixel_attribute": {
+    "message0": "كائن CircuitPython NeoPixel %1 السمة %2",
+    "tooltip": "قراءة سمة مسموحة لكائن أو وحدة CircuitPython NeoPixel.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "brightness",
+            "brightness"
+          ],
+          [
+            "auto_write",
+            "auto_write"
+          ],
+          [
+            "n",
+            "n"
+          ],
+          [
+            "bpp",
+            "bpp"
+          ]
+        ]
+      }
+    ]
+  }
+}

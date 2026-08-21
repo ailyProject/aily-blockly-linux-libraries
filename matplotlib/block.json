@@ -1,0 +1,328 @@
+[
+  {
+    "type": "python_matplotlib_call",
+    "message0": "Matplotlib pyplot call or create %1 arguments %2 keyword arguments %3",
+    "args0": [
+      {
+        "type": "field_dropdown",
+        "name": "TARGET",
+        "options": [
+          [
+            "figure",
+            "figure"
+          ],
+          [
+            "subplots",
+            "subplots"
+          ],
+          [
+            "plot",
+            "plot"
+          ],
+          [
+            "scatter",
+            "scatter"
+          ],
+          [
+            "bar",
+            "bar"
+          ],
+          [
+            "imshow",
+            "imshow"
+          ],
+          [
+            "hist",
+            "hist"
+          ],
+          [
+            "title",
+            "title"
+          ],
+          [
+            "xlabel",
+            "xlabel"
+          ],
+          [
+            "ylabel",
+            "ylabel"
+          ],
+          [
+            "legend",
+            "legend"
+          ],
+          [
+            "savefig",
+            "savefig"
+          ],
+          [
+            "show",
+            "show"
+          ],
+          [
+            "close",
+            "close"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#7B1FA2",
+    "tooltip": "Call an allowlisted Matplotlib pyplot function or constructor and return its result.",
+    "icon": "settings",
+    "output": "Any"
+  },
+  {
+    "type": "python_matplotlib_do",
+    "message0": "run Matplotlib pyplot %1 arguments %2 keyword arguments %3",
+    "args0": [
+      {
+        "type": "field_dropdown",
+        "name": "TARGET",
+        "options": [
+          [
+            "figure",
+            "figure"
+          ],
+          [
+            "subplots",
+            "subplots"
+          ],
+          [
+            "plot",
+            "plot"
+          ],
+          [
+            "scatter",
+            "scatter"
+          ],
+          [
+            "bar",
+            "bar"
+          ],
+          [
+            "imshow",
+            "imshow"
+          ],
+          [
+            "hist",
+            "hist"
+          ],
+          [
+            "title",
+            "title"
+          ],
+          [
+            "xlabel",
+            "xlabel"
+          ],
+          [
+            "ylabel",
+            "ylabel"
+          ],
+          [
+            "legend",
+            "legend"
+          ],
+          [
+            "savefig",
+            "savefig"
+          ],
+          [
+            "show",
+            "show"
+          ],
+          [
+            "close",
+            "close"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#7B1FA2",
+    "tooltip": "Run an allowlisted Matplotlib pyplot function or constructor as a statement.",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "python_matplotlib_method",
+    "message0": "Matplotlib pyplot object %1 call method %2 arguments %3 keyword arguments %4",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "OBJECT"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "METHOD",
+        "options": [
+          [
+            "plot",
+            "plot"
+          ],
+          [
+            "scatter",
+            "scatter"
+          ],
+          [
+            "bar",
+            "bar"
+          ],
+          [
+            "imshow",
+            "imshow"
+          ],
+          [
+            "set_title",
+            "set_title"
+          ],
+          [
+            "set_xlabel",
+            "set_xlabel"
+          ],
+          [
+            "set_ylabel",
+            "set_ylabel"
+          ],
+          [
+            "legend",
+            "legend"
+          ],
+          [
+            "grid",
+            "grid"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#7B1FA2",
+    "tooltip": "Call an allowlisted Matplotlib pyplot object method and return its result.",
+    "icon": "settings",
+    "output": "Any"
+  },
+  {
+    "type": "python_matplotlib_do_method",
+    "message0": "run Matplotlib pyplot object %1 method %2 arguments %3 keyword arguments %4",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "OBJECT"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "METHOD",
+        "options": [
+          [
+            "plot",
+            "plot"
+          ],
+          [
+            "scatter",
+            "scatter"
+          ],
+          [
+            "bar",
+            "bar"
+          ],
+          [
+            "imshow",
+            "imshow"
+          ],
+          [
+            "set_title",
+            "set_title"
+          ],
+          [
+            "set_xlabel",
+            "set_xlabel"
+          ],
+          [
+            "set_ylabel",
+            "set_ylabel"
+          ],
+          [
+            "legend",
+            "legend"
+          ],
+          [
+            "grid",
+            "grid"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#7B1FA2",
+    "tooltip": "Run an allowlisted Matplotlib pyplot object method as a statement.",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "python_matplotlib_attribute",
+    "message0": "Matplotlib pyplot object %1 attribute %2",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "OBJECT"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "ATTRIBUTE",
+        "options": [
+          [
+            "figure",
+            "figure"
+          ],
+          [
+            "axes",
+            "axes"
+          ],
+          [
+            "lines",
+            "lines"
+          ],
+          [
+            "images",
+            "images"
+          ]
+        ]
+      }
+    ],
+    "colour": "#7B1FA2",
+    "tooltip": "Read an allowlisted Matplotlib pyplot object or module attribute.",
+    "icon": "settings",
+    "output": "Any"
+  }
+]

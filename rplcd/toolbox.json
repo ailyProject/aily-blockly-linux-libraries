@@ -1,0 +1,27 @@
+{
+  "kind": "category",
+  "name": "RPLCD",
+  "colour": "#1976D2",
+  "contents": [
+    {
+      "kind": "block",
+      "type": "python_rplcd_call"
+    },
+    {
+      "kind": "block",
+      "type": "python_rplcd_do"
+    },
+    {
+      "kind": "block",
+      "type": "python_rplcd_method"
+    },
+    {
+      "kind": "block",
+      "type": "python_rplcd_do_method"
+    },
+    {
+      "kind": "block",
+      "type": "python_rplcd_attribute"
+    }
+  ]
+}

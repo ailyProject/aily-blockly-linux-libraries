@@ -1,0 +1,250 @@
+{
+  "toolbox_name": "psutil",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "linux_psutil_call": {
+    "message0": "psutil aufrufen oder erzeugen %1 Argumente %2 Schlüsselwortargumente %3",
+    "tooltip": "Eine freigegebene psutil-Funktion oder einen Konstruktor aufrufen und das Ergebnis zurückgeben.",
+    "args0": [
+      {
+        "options": [
+          [
+            "cpu_percent",
+            "cpu_percent"
+          ],
+          [
+            "cpu_count",
+            "cpu_count"
+          ],
+          [
+            "virtual_memory",
+            "virtual_memory"
+          ],
+          [
+            "disk_usage",
+            "disk_usage"
+          ],
+          [
+            "disk_partitions",
+            "disk_partitions"
+          ],
+          [
+            "net_if_addrs",
+            "net_if_addrs"
+          ],
+          [
+            "net_io_counters",
+            "net_io_counters"
+          ],
+          [
+            "sensors_temperatures",
+            "sensors_temperatures"
+          ],
+          [
+            "boot_time",
+            "boot_time"
+          ],
+          [
+            "pids",
+            "pids"
+          ],
+          [
+            "Process",
+            "Process"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "linux_psutil_do": {
+    "message0": "psutil ausführen %1 Argumente %2 Schlüsselwortargumente %3",
+    "tooltip": "Eine freigegebene psutil-Funktion oder einen Konstruktor als Anweisung ausführen.",
+    "args0": [
+      {
+        "options": [
+          [
+            "cpu_percent",
+            "cpu_percent"
+          ],
+          [
+            "cpu_count",
+            "cpu_count"
+          ],
+          [
+            "virtual_memory",
+            "virtual_memory"
+          ],
+          [
+            "disk_usage",
+            "disk_usage"
+          ],
+          [
+            "disk_partitions",
+            "disk_partitions"
+          ],
+          [
+            "net_if_addrs",
+            "net_if_addrs"
+          ],
+          [
+            "net_io_counters",
+            "net_io_counters"
+          ],
+          [
+            "sensors_temperatures",
+            "sensors_temperatures"
+          ],
+          [
+            "boot_time",
+            "boot_time"
+          ],
+          [
+            "pids",
+            "pids"
+          ],
+          [
+            "Process",
+            "Process"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "linux_psutil_method": {
+    "message0": "psutil-Objekt %1 Methode %2 Argumente %3 Schlüsselwortargumente %4",
+    "tooltip": "Eine freigegebene Methode eines psutil-Objekts aufrufen und das Ergebnis zurückgeben.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "cpu_percent",
+            "cpu_percent"
+          ],
+          [
+            "memory_info",
+            "memory_info"
+          ],
+          [
+            "io_counters",
+            "io_counters"
+          ],
+          [
+            "open_files",
+            "open_files"
+          ],
+          [
+            "connections",
+            "connections"
+          ],
+          [
+            "terminate",
+            "terminate"
+          ],
+          [
+            "kill",
+            "kill"
+          ],
+          [
+            "wait",
+            "wait"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "linux_psutil_do_method": {
+    "message0": "psutil-Objekt %1 Methode %2 ausführen Argumente %3 Schlüsselwortargumente %4",
+    "tooltip": "Eine freigegebene Methode eines psutil-Objekts als Anweisung ausführen.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "cpu_percent",
+            "cpu_percent"
+          ],
+          [
+            "memory_info",
+            "memory_info"
+          ],
+          [
+            "io_counters",
+            "io_counters"
+          ],
+          [
+            "open_files",
+            "open_files"
+          ],
+          [
+            "connections",
+            "connections"
+          ],
+          [
+            "terminate",
+            "terminate"
+          ],
+          [
+            "kill",
+            "kill"
+          ],
+          [
+            "wait",
+            "wait"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "linux_psutil_attribute": {
+    "message0": "psutil-Objekt %1 Attribut %2",
+    "tooltip": "Ein freigegebenes Attribut eines psutil-Objekts oder Moduls lesen.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "pid",
+            "pid"
+          ],
+          [
+            "total",
+            "total"
+          ],
+          [
+            "available",
+            "available"
+          ],
+          [
+            "percent",
+            "percent"
+          ],
+          [
+            "used",
+            "used"
+          ],
+          [
+            "free",
+            "free"
+          ],
+          [
+            "rss",
+            "rss"
+          ],
+          [
+            "vms",
+            "vms"
+          ]
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,175 @@
+{
+  "toolbox_name": "HailoRT Python",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_hailo_platform_call": {
+    "message0": "HailoRT Python 호출 또는 생성 %1 인수 %2 키워드 인수 %3",
+    "tooltip": "허용 목록의 HailoRT Python 함수 또는 생성자를 호출하고 결과를 반환합니다.",
+    "args0": [
+      {
+        "options": [
+          [
+            "HEF",
+            "HEF"
+          ],
+          [
+            "VDevice",
+            "VDevice"
+          ],
+          [
+            "Device",
+            "Device"
+          ],
+          [
+            "ConfigureParams",
+            "ConfigureParams"
+          ],
+          [
+            "InferVStreams",
+            "InferVStreams"
+          ],
+          [
+            "InputVStreamParams",
+            "InputVStreamParams"
+          ],
+          [
+            "OutputVStreamParams",
+            "OutputVStreamParams"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_hailo_platform_do": {
+    "message0": "HailoRT Python 실행 %1 인수 %2 키워드 인수 %3",
+    "tooltip": "허용 목록의 HailoRT Python 함수 또는 생성자를 문으로 실행합니다.",
+    "args0": [
+      {
+        "options": [
+          [
+            "HEF",
+            "HEF"
+          ],
+          [
+            "VDevice",
+            "VDevice"
+          ],
+          [
+            "Device",
+            "Device"
+          ],
+          [
+            "ConfigureParams",
+            "ConfigureParams"
+          ],
+          [
+            "InferVStreams",
+            "InferVStreams"
+          ],
+          [
+            "InputVStreamParams",
+            "InputVStreamParams"
+          ],
+          [
+            "OutputVStreamParams",
+            "OutputVStreamParams"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_hailo_platform_method": {
+    "message0": "HailoRT Python 객체 %1 메서드 %2 인수 %3 키워드 인수 %4",
+    "tooltip": "허용 목록의 HailoRT Python 객체 메서드를 호출하고 결과를 반환합니다.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "configure",
+            "configure"
+          ],
+          [
+            "create_infer_model",
+            "create_infer_model"
+          ],
+          [
+            "activate",
+            "activate"
+          ],
+          [
+            "wait_for_async_ready",
+            "wait_for_async_ready"
+          ],
+          [
+            "run_async",
+            "run_async"
+          ],
+          [
+            "infer",
+            "infer"
+          ],
+          [
+            "get_input_vstream_infos",
+            "get_input_vstream_infos"
+          ],
+          [
+            "get_output_vstream_infos",
+            "get_output_vstream_infos"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_hailo_platform_do_method": {
+    "message0": "HailoRT Python 객체 %1 메서드 실행 %2 인수 %3 키워드 인수 %4",
+    "tooltip": "허용 목록의 HailoRT Python 객체 메서드를 문으로 실행합니다.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "configure",
+            "configure"
+          ],
+          [
+            "create_infer_model",
+            "create_infer_model"
+          ],
+          [
+            "activate",
+            "activate"
+          ],
+          [
+            "wait_for_async_ready",
+            "wait_for_async_ready"
+          ],
+          [
+            "run_async",
+            "run_async"
+          ],
+          [
+            "infer",
+            "infer"
+          ],
+          [
+            "get_input_vstream_infos",
+            "get_input_vstream_infos"
+          ],
+          [
+            "get_output_vstream_infos",
+            "get_output_vstream_infos"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "name": "@aily-project/lib-rplcd",
+  "nickname": "RPLCD",
+  "nickname_zh_cn": "RPLCD",
+  "nickname_en": "RPLCD",
+  "nickname_zh_hk": "RPLCD",
+  "nickname_ja": "RPLCD",
+  "nickname_ko": "RPLCD",
+  "nickname_de": "RPLCD",
+  "nickname_fr": "RPLCD",
+  "nickname_es": "RPLCD",
+  "nickname_pt": "RPLCD",
+  "nickname_ru": "RPLCD",
+  "nickname_ar": "RPLCD",
+  "version": "0.0.1",
+  "description": "面向树莓派与 Linux 开发板的 RPLCD 常用 Python API 白名单积木。",
+  "description_zh_cn": "面向树莓派与 Linux 开发板的 RPLCD 常用 Python API 白名单积木。",
+  "description_en": "Allowlisted RPLCD Python API blocks for Raspberry Pi and Linux single-board computers.",
+  "spec": true,
+  "compatibility": {
+    "type": [
+      "canaan:k230:cybercam",
+      "broadcom:bcm2712:raspberrypi_5",
+      "allwinner:t527:walnutpi_2b"
+    ],
+    "voltage": [
+      3.3
+    ]
+  },
+  "keywords": [
+    "aily",
+    "blockly",
+    "python",
+    "linux",
+    "raspberry-pi",
+    "RPLCD",
+    "RPLCD.i2c"
+  ],
+  "tags": [
+    "display"
+  ],
+  "author": "ailyProject",
+  "license": "MIT",
+  "homepage": "https://rplcd.readthedocs.io/",
+  "dependencies": {},
+  "devDependencies": {}
+}

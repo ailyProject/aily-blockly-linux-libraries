@@ -1,0 +1,272 @@
+[
+  {
+    "type": "python_depthai_call",
+    "message0": "DepthAI v3 call or create %1 arguments %2 keyword arguments %3",
+    "args0": [
+      {
+        "type": "field_dropdown",
+        "name": "TARGET",
+        "options": [
+          [
+            "Pipeline",
+            "Pipeline"
+          ],
+          [
+            "Device",
+            "Device"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#1976D2",
+    "tooltip": "Call an allowlisted DepthAI v3 function or constructor and return its result.",
+    "icon": "settings",
+    "output": "Any"
+  },
+  {
+    "type": "python_depthai_do",
+    "message0": "run DepthAI v3 %1 arguments %2 keyword arguments %3",
+    "args0": [
+      {
+        "type": "field_dropdown",
+        "name": "TARGET",
+        "options": [
+          [
+            "Pipeline",
+            "Pipeline"
+          ],
+          [
+            "Device",
+            "Device"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#1976D2",
+    "tooltip": "Run an allowlisted DepthAI v3 function or constructor as a statement.",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "python_depthai_method",
+    "message0": "DepthAI v3 object %1 call method %2 arguments %3 keyword arguments %4",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "OBJECT"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "METHOD",
+        "options": [
+          [
+            "create",
+            "create"
+          ],
+          [
+            "build",
+            "build"
+          ],
+          [
+            "start",
+            "start"
+          ],
+          [
+            "stop",
+            "stop"
+          ],
+          [
+            "run",
+            "run"
+          ],
+          [
+            "wait",
+            "wait"
+          ],
+          [
+            "requestOutput",
+            "requestOutput"
+          ],
+          [
+            "createOutputQueue",
+            "createOutputQueue"
+          ],
+          [
+            "get",
+            "get"
+          ],
+          [
+            "tryGet",
+            "tryGet"
+          ],
+          [
+            "send",
+            "send"
+          ],
+          [
+            "close",
+            "close"
+          ],
+          [
+            "isRunning",
+            "isRunning"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#1976D2",
+    "tooltip": "Call an allowlisted DepthAI v3 object method and return its result.",
+    "icon": "settings",
+    "output": "Any"
+  },
+  {
+    "type": "python_depthai_do_method",
+    "message0": "run DepthAI v3 object %1 method %2 arguments %3 keyword arguments %4",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "OBJECT"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "METHOD",
+        "options": [
+          [
+            "create",
+            "create"
+          ],
+          [
+            "build",
+            "build"
+          ],
+          [
+            "start",
+            "start"
+          ],
+          [
+            "stop",
+            "stop"
+          ],
+          [
+            "run",
+            "run"
+          ],
+          [
+            "wait",
+            "wait"
+          ],
+          [
+            "requestOutput",
+            "requestOutput"
+          ],
+          [
+            "createOutputQueue",
+            "createOutputQueue"
+          ],
+          [
+            "get",
+            "get"
+          ],
+          [
+            "tryGet",
+            "tryGet"
+          ],
+          [
+            "send",
+            "send"
+          ],
+          [
+            "close",
+            "close"
+          ],
+          [
+            "isRunning",
+            "isRunning"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#1976D2",
+    "tooltip": "Run an allowlisted DepthAI v3 object method as a statement.",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "python_depthai_attribute",
+    "message0": "DepthAI v3 object %1 attribute %2",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "OBJECT"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "ATTRIBUTE",
+        "options": [
+          [
+            "node.Camera",
+            "node.Camera"
+          ],
+          [
+            "node.ColorCamera",
+            "node.ColorCamera"
+          ],
+          [
+            "node.MonoCamera",
+            "node.MonoCamera"
+          ],
+          [
+            "node.ImageManip",
+            "node.ImageManip"
+          ],
+          [
+            "node.NeuralNetwork",
+            "node.NeuralNetwork"
+          ],
+          [
+            "node.StereoDepth",
+            "node.StereoDepth"
+          ]
+        ]
+      }
+    ],
+    "colour": "#1976D2",
+    "tooltip": "Read an allowlisted DepthAI v3 object or module attribute.",
+    "icon": "settings",
+    "output": "Any"
+  }
+]

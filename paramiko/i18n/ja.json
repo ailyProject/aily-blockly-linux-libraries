@@ -1,0 +1,223 @@
+{
+  "toolbox_name": "Paramiko",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_paramiko_call": {
+    "message0": "Paramiko 呼び出しまたは作成 %1 引数 %2 キーワード引数 %3",
+    "tooltip": "許可された Paramiko の関数またはコンストラクターを呼び出して結果を返します。",
+    "args0": [
+      {
+        "options": [
+          [
+            "SSHClient",
+            "SSHClient"
+          ],
+          [
+            "Transport",
+            "Transport"
+          ],
+          [
+            "SFTPClient",
+            "SFTPClient"
+          ],
+          [
+            "AutoAddPolicy",
+            "AutoAddPolicy"
+          ],
+          [
+            "RSAKey",
+            "RSAKey"
+          ],
+          [
+            "Ed25519Key",
+            "Ed25519Key"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_paramiko_do": {
+    "message0": "Paramiko を実行 %1 引数 %2 キーワード引数 %3",
+    "tooltip": "許可された Paramiko の関数またはコンストラクターを文として実行します。",
+    "args0": [
+      {
+        "options": [
+          [
+            "SSHClient",
+            "SSHClient"
+          ],
+          [
+            "Transport",
+            "Transport"
+          ],
+          [
+            "SFTPClient",
+            "SFTPClient"
+          ],
+          [
+            "AutoAddPolicy",
+            "AutoAddPolicy"
+          ],
+          [
+            "RSAKey",
+            "RSAKey"
+          ],
+          [
+            "Ed25519Key",
+            "Ed25519Key"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_paramiko_method": {
+    "message0": "Paramiko オブジェクト %1 メソッド %2 引数 %3 キーワード引数 %4",
+    "tooltip": "許可された Paramiko オブジェクトのメソッドを呼び出して結果を返します。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "connect",
+            "connect"
+          ],
+          [
+            "exec_command",
+            "exec_command"
+          ],
+          [
+            "open_sftp",
+            "open_sftp"
+          ],
+          [
+            "close",
+            "close"
+          ],
+          [
+            "set_missing_host_key_policy",
+            "set_missing_host_key_policy"
+          ],
+          [
+            "load_system_host_keys",
+            "load_system_host_keys"
+          ],
+          [
+            "load_host_keys",
+            "load_host_keys"
+          ],
+          [
+            "get_host_keys",
+            "get_host_keys"
+          ],
+          [
+            "get_transport",
+            "get_transport"
+          ],
+          [
+            "is_active",
+            "is_active"
+          ],
+          [
+            "is_authenticated",
+            "is_authenticated"
+          ],
+          [
+            "put",
+            "put"
+          ],
+          [
+            "get",
+            "get"
+          ],
+          [
+            "listdir",
+            "listdir"
+          ],
+          [
+            "open",
+            "open"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_paramiko_do_method": {
+    "message0": "Paramiko オブジェクト %1 のメソッド %2 を実行 引数 %3 キーワード引数 %4",
+    "tooltip": "許可された Paramiko オブジェクトのメソッドを文として実行します。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "connect",
+            "connect"
+          ],
+          [
+            "exec_command",
+            "exec_command"
+          ],
+          [
+            "open_sftp",
+            "open_sftp"
+          ],
+          [
+            "close",
+            "close"
+          ],
+          [
+            "set_missing_host_key_policy",
+            "set_missing_host_key_policy"
+          ],
+          [
+            "load_system_host_keys",
+            "load_system_host_keys"
+          ],
+          [
+            "load_host_keys",
+            "load_host_keys"
+          ],
+          [
+            "get_host_keys",
+            "get_host_keys"
+          ],
+          [
+            "get_transport",
+            "get_transport"
+          ],
+          [
+            "is_active",
+            "is_active"
+          ],
+          [
+            "is_authenticated",
+            "is_authenticated"
+          ],
+          [
+            "put",
+            "put"
+          ],
+          [
+            "get",
+            "get"
+          ],
+          [
+            "listdir",
+            "listdir"
+          ],
+          [
+            "open",
+            "open"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  }
+}

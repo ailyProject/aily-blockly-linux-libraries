@@ -1,0 +1,118 @@
+{
+  "toolbox_name": "CircuitPython LIS3DH",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_adafruit_lis3dh_call": {
+    "message0": "CircuitPython LIS3DH вызвать или создать %1 аргументы %2 именованные аргументы %3",
+    "tooltip": "Вызывает разрешённую функцию или конструктор CircuitPython LIS3DH и возвращает результат.",
+    "args0": [
+      {
+        "options": [
+          [
+            "LIS3DH_I2C",
+            "LIS3DH_I2C"
+          ],
+          [
+            "LIS3DH_SPI",
+            "LIS3DH_SPI"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_lis3dh_do": {
+    "message0": "выполнить CircuitPython LIS3DH %1 аргументы %2 именованные аргументы %3",
+    "tooltip": "Выполняет разрешённую функцию или конструктор CircuitPython LIS3DH как инструкцию.",
+    "args0": [
+      {
+        "options": [
+          [
+            "LIS3DH_I2C",
+            "LIS3DH_I2C"
+          ],
+          [
+            "LIS3DH_SPI",
+            "LIS3DH_SPI"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_lis3dh_method": {
+    "message0": "объект CircuitPython LIS3DH %1 метод %2 аргументы %3 именованные аргументы %4",
+    "tooltip": "Вызывает разрешённый метод объекта CircuitPython LIS3DH и возвращает результат.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "set_tap",
+            "set_tap"
+          ],
+          [
+            "unset_tap",
+            "unset_tap"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_lis3dh_do_method": {
+    "message0": "выполнить метод CircuitPython LIS3DH объекта %1 %2 аргументы %3 именованные аргументы %4",
+    "tooltip": "Выполняет разрешённый метод объекта CircuitPython LIS3DH как инструкцию.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "set_tap",
+            "set_tap"
+          ],
+          [
+            "unset_tap",
+            "unset_tap"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_lis3dh_attribute": {
+    "message0": "объект CircuitPython LIS3DH %1 атрибут %2",
+    "tooltip": "Читает разрешённый атрибут объекта или модуля CircuitPython LIS3DH.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "acceleration",
+            "acceleration"
+          ],
+          [
+            "range",
+            "range"
+          ],
+          [
+            "data_rate",
+            "data_rate"
+          ],
+          [
+            "click",
+            "click"
+          ],
+          [
+            "tapped",
+            "tapped"
+          ]
+        ]
+      }
+    ]
+  }
+}

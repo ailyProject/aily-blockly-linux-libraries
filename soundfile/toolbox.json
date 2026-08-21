@@ -1,0 +1,27 @@
+{
+  "kind": "category",
+  "name": "SoundFile",
+  "colour": "#EF6C00",
+  "contents": [
+    {
+      "kind": "block",
+      "type": "python_soundfile_call"
+    },
+    {
+      "kind": "block",
+      "type": "python_soundfile_do"
+    },
+    {
+      "kind": "block",
+      "type": "python_soundfile_method"
+    },
+    {
+      "kind": "block",
+      "type": "python_soundfile_do_method"
+    },
+    {
+      "kind": "block",
+      "type": "python_soundfile_attribute"
+    }
+  ]
+}

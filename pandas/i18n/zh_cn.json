@@ -1,0 +1,242 @@
+{
+  "toolbox_name": "pandas",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_pandas_call": {
+    "message0": "pandas 调用或创建 %1 参数 %2 关键字参数 %3",
+    "tooltip": "调用白名单中的 pandas 函数或构造器并返回结果。",
+    "args0": [
+      {
+        "options": [
+          [
+            "DataFrame",
+            "DataFrame"
+          ],
+          [
+            "Series",
+            "Series"
+          ],
+          [
+            "read_csv",
+            "read_csv"
+          ],
+          [
+            "read_json",
+            "read_json"
+          ],
+          [
+            "read_excel",
+            "read_excel"
+          ],
+          [
+            "concat",
+            "concat"
+          ],
+          [
+            "merge",
+            "merge"
+          ],
+          [
+            "date_range",
+            "date_range"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_pandas_do": {
+    "message0": "运行 pandas %1 参数 %2 关键字参数 %3",
+    "tooltip": "以语句方式运行白名单中的 pandas 函数或构造器。",
+    "args0": [
+      {
+        "options": [
+          [
+            "DataFrame",
+            "DataFrame"
+          ],
+          [
+            "Series",
+            "Series"
+          ],
+          [
+            "read_csv",
+            "read_csv"
+          ],
+          [
+            "read_json",
+            "read_json"
+          ],
+          [
+            "read_excel",
+            "read_excel"
+          ],
+          [
+            "concat",
+            "concat"
+          ],
+          [
+            "merge",
+            "merge"
+          ],
+          [
+            "date_range",
+            "date_range"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_pandas_method": {
+    "message0": "pandas 对象 %1 调用方法 %2 参数 %3 关键字参数 %4",
+    "tooltip": "调用白名单中的 pandas 对象方法并返回结果。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "head",
+            "head"
+          ],
+          [
+            "tail",
+            "tail"
+          ],
+          [
+            "describe",
+            "describe"
+          ],
+          [
+            "groupby",
+            "groupby"
+          ],
+          [
+            "merge",
+            "merge"
+          ],
+          [
+            "join",
+            "join"
+          ],
+          [
+            "to_csv",
+            "to_csv"
+          ],
+          [
+            "to_json",
+            "to_json"
+          ],
+          [
+            "dropna",
+            "dropna"
+          ],
+          [
+            "fillna",
+            "fillna"
+          ],
+          [
+            "sort_values",
+            "sort_values"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_pandas_do_method": {
+    "message0": "运行 pandas 对象 %1 的方法 %2 参数 %3 关键字参数 %4",
+    "tooltip": "以语句方式运行白名单中的 pandas 对象方法。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "head",
+            "head"
+          ],
+          [
+            "tail",
+            "tail"
+          ],
+          [
+            "describe",
+            "describe"
+          ],
+          [
+            "groupby",
+            "groupby"
+          ],
+          [
+            "merge",
+            "merge"
+          ],
+          [
+            "join",
+            "join"
+          ],
+          [
+            "to_csv",
+            "to_csv"
+          ],
+          [
+            "to_json",
+            "to_json"
+          ],
+          [
+            "dropna",
+            "dropna"
+          ],
+          [
+            "fillna",
+            "fillna"
+          ],
+          [
+            "sort_values",
+            "sort_values"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_pandas_attribute": {
+    "message0": "pandas 对象 %1 属性 %2",
+    "tooltip": "读取白名单中的 pandas 对象或模块属性。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "shape",
+            "shape"
+          ],
+          [
+            "columns",
+            "columns"
+          ],
+          [
+            "index",
+            "index"
+          ],
+          [
+            "dtypes",
+            "dtypes"
+          ],
+          [
+            "values",
+            "values"
+          ],
+          [
+            "empty",
+            "empty"
+          ]
+        ]
+      }
+    ]
+  }
+}

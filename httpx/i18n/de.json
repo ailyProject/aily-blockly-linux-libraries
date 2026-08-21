@@ -1,0 +1,254 @@
+{
+  "toolbox_name": "HTTPX",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_httpx_call": {
+    "message0": "HTTPX aufrufen oder erzeugen %1 Argumente %2 Schlüsselwortargumente %3",
+    "tooltip": "Eine freigegebene HTTPX-Funktion oder einen Konstruktor aufrufen und das Ergebnis zurückgeben.",
+    "args0": [
+      {
+        "options": [
+          [
+            "Client",
+            "Client"
+          ],
+          [
+            "AsyncClient",
+            "AsyncClient"
+          ],
+          [
+            "get",
+            "get"
+          ],
+          [
+            "post",
+            "post"
+          ],
+          [
+            "put",
+            "put"
+          ],
+          [
+            "delete",
+            "delete"
+          ],
+          [
+            "request",
+            "request"
+          ],
+          [
+            "Timeout",
+            "Timeout"
+          ],
+          [
+            "Limits",
+            "Limits"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_httpx_do": {
+    "message0": "HTTPX ausführen %1 Argumente %2 Schlüsselwortargumente %3",
+    "tooltip": "Eine freigegebene HTTPX-Funktion oder einen Konstruktor als Anweisung ausführen.",
+    "args0": [
+      {
+        "options": [
+          [
+            "Client",
+            "Client"
+          ],
+          [
+            "AsyncClient",
+            "AsyncClient"
+          ],
+          [
+            "get",
+            "get"
+          ],
+          [
+            "post",
+            "post"
+          ],
+          [
+            "put",
+            "put"
+          ],
+          [
+            "delete",
+            "delete"
+          ],
+          [
+            "request",
+            "request"
+          ],
+          [
+            "Timeout",
+            "Timeout"
+          ],
+          [
+            "Limits",
+            "Limits"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_httpx_method": {
+    "message0": "HTTPX-Objekt %1 Methode %2 Argumente %3 Schlüsselwortargumente %4",
+    "tooltip": "Eine freigegebene Methode eines HTTPX-Objekts aufrufen und das Ergebnis zurückgeben.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "get",
+            "get"
+          ],
+          [
+            "post",
+            "post"
+          ],
+          [
+            "put",
+            "put"
+          ],
+          [
+            "delete",
+            "delete"
+          ],
+          [
+            "request",
+            "request"
+          ],
+          [
+            "close",
+            "close"
+          ],
+          [
+            "aclose",
+            "aclose"
+          ],
+          [
+            "json",
+            "json"
+          ],
+          [
+            "raise_for_status",
+            "raise_for_status"
+          ],
+          [
+            "iter_bytes",
+            "iter_bytes"
+          ],
+          [
+            "aiter_bytes",
+            "aiter_bytes"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_httpx_do_method": {
+    "message0": "HTTPX-Objekt %1 Methode %2 ausführen Argumente %3 Schlüsselwortargumente %4",
+    "tooltip": "Eine freigegebene Methode eines HTTPX-Objekts als Anweisung ausführen.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "get",
+            "get"
+          ],
+          [
+            "post",
+            "post"
+          ],
+          [
+            "put",
+            "put"
+          ],
+          [
+            "delete",
+            "delete"
+          ],
+          [
+            "request",
+            "request"
+          ],
+          [
+            "close",
+            "close"
+          ],
+          [
+            "aclose",
+            "aclose"
+          ],
+          [
+            "json",
+            "json"
+          ],
+          [
+            "raise_for_status",
+            "raise_for_status"
+          ],
+          [
+            "iter_bytes",
+            "iter_bytes"
+          ],
+          [
+            "aiter_bytes",
+            "aiter_bytes"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_httpx_attribute": {
+    "message0": "HTTPX-Objekt %1 Attribut %2",
+    "tooltip": "Ein freigegebenes Attribut eines HTTPX-Objekts oder Moduls lesen.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "status_code",
+            "status_code"
+          ],
+          [
+            "text",
+            "text"
+          ],
+          [
+            "content",
+            "content"
+          ],
+          [
+            "headers",
+            "headers"
+          ],
+          [
+            "cookies",
+            "cookies"
+          ],
+          [
+            "url",
+            "url"
+          ],
+          [
+            "is_success",
+            "is_success"
+          ]
+        ]
+      }
+    ]
+  }
+}

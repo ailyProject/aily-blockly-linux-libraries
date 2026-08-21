@@ -1,0 +1,56 @@
+{
+  "toolbox_name": "CircuitPython AHTx0",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_adafruit_ahtx0_call": {
+    "message0": "CircuitPython AHTx0 appeler ou créer %1 arguments %2 arguments nommés %3",
+    "tooltip": "Appeler une fonction ou un constructeur CircuitPython AHTx0 autorisé et renvoyer le résultat.",
+    "args0": [
+      {
+        "options": [
+          [
+            "AHTx0",
+            "AHTx0"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_ahtx0_do": {
+    "message0": "exécuter CircuitPython AHTx0 %1 arguments %2 arguments nommés %3",
+    "tooltip": "Exécuter une fonction ou un constructeur CircuitPython AHTx0 autorisé comme instruction.",
+    "args0": [
+      {
+        "options": [
+          [
+            "AHTx0",
+            "AHTx0"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_ahtx0_attribute": {
+    "message0": "objet CircuitPython AHTx0 %1 attribut %2",
+    "tooltip": "Lire un attribut autorisé d’un objet ou module CircuitPython AHTx0.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "temperature",
+            "temperature"
+          ],
+          [
+            "relative_humidity",
+            "relative_humidity"
+          ]
+        ]
+      }
+    ]
+  }
+}

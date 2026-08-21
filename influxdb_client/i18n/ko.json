@@ -1,0 +1,202 @@
+{
+  "toolbox_name": "InfluxDB Client",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_influxdb_client_call": {
+    "message0": "InfluxDB Client 호출 또는 생성 %1 인수 %2 키워드 인수 %3",
+    "tooltip": "허용 목록의 InfluxDB Client 함수 또는 생성자를 호출하고 결과를 반환합니다.",
+    "args0": [
+      {
+        "options": [
+          [
+            "InfluxDBClient",
+            "InfluxDBClient"
+          ],
+          [
+            "Point",
+            "Point"
+          ],
+          [
+            "WriteOptions",
+            "WriteOptions"
+          ],
+          [
+            "Dialect",
+            "Dialect"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_influxdb_client_do": {
+    "message0": "InfluxDB Client 실행 %1 인수 %2 키워드 인수 %3",
+    "tooltip": "허용 목록의 InfluxDB Client 함수 또는 생성자를 문으로 실행합니다.",
+    "args0": [
+      {
+        "options": [
+          [
+            "InfluxDBClient",
+            "InfluxDBClient"
+          ],
+          [
+            "Point",
+            "Point"
+          ],
+          [
+            "WriteOptions",
+            "WriteOptions"
+          ],
+          [
+            "Dialect",
+            "Dialect"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_influxdb_client_method": {
+    "message0": "InfluxDB Client 객체 %1 메서드 %2 인수 %3 키워드 인수 %4",
+    "tooltip": "허용 목록의 InfluxDB Client 객체 메서드를 호출하고 결과를 반환합니다.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "write_api",
+            "write_api"
+          ],
+          [
+            "query_api",
+            "query_api"
+          ],
+          [
+            "delete_api",
+            "delete_api"
+          ],
+          [
+            "write",
+            "write"
+          ],
+          [
+            "query",
+            "query"
+          ],
+          [
+            "query_data_frame",
+            "query_data_frame"
+          ],
+          [
+            "health",
+            "health"
+          ],
+          [
+            "ready",
+            "ready"
+          ],
+          [
+            "close",
+            "close"
+          ],
+          [
+            "delete",
+            "delete"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_influxdb_client_do_method": {
+    "message0": "InfluxDB Client 객체 %1 메서드 실행 %2 인수 %3 키워드 인수 %4",
+    "tooltip": "허용 목록의 InfluxDB Client 객체 메서드를 문으로 실행합니다.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "write_api",
+            "write_api"
+          ],
+          [
+            "query_api",
+            "query_api"
+          ],
+          [
+            "delete_api",
+            "delete_api"
+          ],
+          [
+            "write",
+            "write"
+          ],
+          [
+            "query",
+            "query"
+          ],
+          [
+            "query_data_frame",
+            "query_data_frame"
+          ],
+          [
+            "health",
+            "health"
+          ],
+          [
+            "ready",
+            "ready"
+          ],
+          [
+            "close",
+            "close"
+          ],
+          [
+            "delete",
+            "delete"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_influxdb_client_attribute": {
+    "message0": "InfluxDB Client 객체 %1 속성 %2",
+    "tooltip": "허용 목록의 InfluxDB Client 객체 또는 모듈 속성을 읽습니다.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "version",
+            "version"
+          ],
+          [
+            "status",
+            "status"
+          ],
+          [
+            "message",
+            "message"
+          ],
+          [
+            "name",
+            "name"
+          ],
+          [
+            "tags",
+            "tags"
+          ],
+          [
+            "fields",
+            "fields"
+          ]
+        ]
+      }
+    ]
+  }
+}

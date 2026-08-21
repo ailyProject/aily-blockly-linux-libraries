@@ -1,0 +1,114 @@
+{
+  "toolbox_name": "Uvicorn",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_uvicorn_call": {
+    "message0": "Uvicorn appeler ou créer %1 arguments %2 arguments nommés %3",
+    "tooltip": "Appeler une fonction ou un constructeur Uvicorn autorisé et renvoyer le résultat.",
+    "args0": [
+      {
+        "options": [
+          [
+            "run",
+            "run"
+          ],
+          [
+            "Config",
+            "Config"
+          ],
+          [
+            "Server",
+            "Server"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_uvicorn_do": {
+    "message0": "exécuter Uvicorn %1 arguments %2 arguments nommés %3",
+    "tooltip": "Exécuter une fonction ou un constructeur Uvicorn autorisé comme instruction.",
+    "args0": [
+      {
+        "options": [
+          [
+            "run",
+            "run"
+          ],
+          [
+            "Config",
+            "Config"
+          ],
+          [
+            "Server",
+            "Server"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_uvicorn_method": {
+    "message0": "objet Uvicorn %1 méthode %2 arguments %3 arguments nommés %4",
+    "tooltip": "Appeler une méthode autorisée d’un objet Uvicorn et renvoyer le résultat.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "run",
+            "run"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_uvicorn_do_method": {
+    "message0": "exécuter la méthode Uvicorn de l’objet %1 %2 arguments %3 arguments nommés %4",
+    "tooltip": "Exécuter une méthode autorisée d’un objet Uvicorn comme instruction.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "run",
+            "run"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_uvicorn_attribute": {
+    "message0": "objet Uvicorn %1 attribut %2",
+    "tooltip": "Lire un attribut autorisé d’un objet ou module Uvicorn.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "started",
+            "started"
+          ],
+          [
+            "should_exit",
+            "should_exit"
+          ],
+          [
+            "force_exit",
+            "force_exit"
+          ],
+          [
+            "config",
+            "config"
+          ]
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "kind": "category",
+  "name": "luma.led_matrix",
+  "colour": "#1976D2",
+  "contents": [
+    {
+      "kind": "block",
+      "type": "python_luma_led_matrix_call"
+    },
+    {
+      "kind": "block",
+      "type": "python_luma_led_matrix_do"
+    },
+    {
+      "kind": "block",
+      "type": "python_luma_led_matrix_method"
+    },
+    {
+      "kind": "block",
+      "type": "python_luma_led_matrix_do_method"
+    },
+    {
+      "kind": "block",
+      "type": "python_luma_led_matrix_attribute"
+    }
+  ]
+}

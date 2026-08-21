@@ -1,0 +1,174 @@
+{
+  "toolbox_name": "websockets",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_websockets_call": {
+    "message0": "websockets call or create %1 arguments %2 keyword arguments %3",
+    "tooltip": "Call an allowlisted websockets function or constructor and return its result.",
+    "args0": [
+      {
+        "options": [
+          [
+            "connect",
+            "connect"
+          ],
+          [
+            "serve",
+            "serve"
+          ],
+          [
+            "broadcast",
+            "broadcast"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_websockets_do": {
+    "message0": "run websockets %1 arguments %2 keyword arguments %3",
+    "tooltip": "Run an allowlisted websockets function or constructor as a statement.",
+    "args0": [
+      {
+        "options": [
+          [
+            "connect",
+            "connect"
+          ],
+          [
+            "serve",
+            "serve"
+          ],
+          [
+            "broadcast",
+            "broadcast"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_websockets_method": {
+    "message0": "websockets object %1 call method %2 arguments %3 keyword arguments %4",
+    "tooltip": "Call an allowlisted websockets object method and return its result.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "send",
+            "send"
+          ],
+          [
+            "recv",
+            "recv"
+          ],
+          [
+            "close",
+            "close"
+          ],
+          [
+            "ping",
+            "ping"
+          ],
+          [
+            "pong",
+            "pong"
+          ],
+          [
+            "wait_closed",
+            "wait_closed"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_websockets_do_method": {
+    "message0": "run websockets object %1 method %2 arguments %3 keyword arguments %4",
+    "tooltip": "Run an allowlisted websockets object method as a statement.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "send",
+            "send"
+          ],
+          [
+            "recv",
+            "recv"
+          ],
+          [
+            "close",
+            "close"
+          ],
+          [
+            "ping",
+            "ping"
+          ],
+          [
+            "pong",
+            "pong"
+          ],
+          [
+            "wait_closed",
+            "wait_closed"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_websockets_attribute": {
+    "message0": "websockets object %1 attribute %2",
+    "tooltip": "Read an allowlisted websockets object or module attribute.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "remote_address",
+            "remote_address"
+          ],
+          [
+            "local_address",
+            "local_address"
+          ],
+          [
+            "state",
+            "state"
+          ],
+          [
+            "close_code",
+            "close_code"
+          ],
+          [
+            "close_reason",
+            "close_reason"
+          ],
+          [
+            "subprotocol",
+            "subprotocol"
+          ],
+          [
+            "latency",
+            "latency"
+          ],
+          [
+            "request",
+            "request"
+          ],
+          [
+            "response",
+            "response"
+          ]
+        ]
+      }
+    ]
+  }
+}

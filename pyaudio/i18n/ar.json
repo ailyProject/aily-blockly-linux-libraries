@@ -1,0 +1,174 @@
+{
+  "toolbox_name": "PyAudio",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_pyaudio_call": {
+    "message0": "PyAudio استدعاء أو إنشاء %1 الوسائط %2 وسائط الكلمات المفتاحية %3",
+    "tooltip": "استدعاء دالة أو مُنشئ مسموح من PyAudio وإرجاع النتيجة.",
+    "args0": [
+      {
+        "options": [
+          [
+            "PyAudio",
+            "PyAudio"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_pyaudio_do": {
+    "message0": "تشغيل PyAudio %1 الوسائط %2 وسائط الكلمات المفتاحية %3",
+    "tooltip": "تشغيل دالة أو مُنشئ مسموح من PyAudio كتعليمة.",
+    "args0": [
+      {
+        "options": [
+          [
+            "PyAudio",
+            "PyAudio"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_pyaudio_method": {
+    "message0": "كائن PyAudio %1 الطريقة %2 الوسائط %3 وسائط الكلمات المفتاحية %4",
+    "tooltip": "استدعاء طريقة مسموحة لكائن PyAudio وإرجاع النتيجة.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "open",
+            "open"
+          ],
+          [
+            "terminate",
+            "terminate"
+          ],
+          [
+            "get_device_count",
+            "get_device_count"
+          ],
+          [
+            "get_device_info_by_index",
+            "get_device_info_by_index"
+          ],
+          [
+            "get_default_input_device_info",
+            "get_default_input_device_info"
+          ],
+          [
+            "is_format_supported",
+            "is_format_supported"
+          ],
+          [
+            "read",
+            "read"
+          ],
+          [
+            "write",
+            "write"
+          ],
+          [
+            "start_stream",
+            "start_stream"
+          ],
+          [
+            "stop_stream",
+            "stop_stream"
+          ],
+          [
+            "close",
+            "close"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_pyaudio_do_method": {
+    "message0": "تشغيل طريقة PyAudio للكائن %1 %2 الوسائط %3 وسائط الكلمات المفتاحية %4",
+    "tooltip": "تشغيل طريقة مسموحة لكائن PyAudio كتعليمة.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "open",
+            "open"
+          ],
+          [
+            "terminate",
+            "terminate"
+          ],
+          [
+            "get_device_count",
+            "get_device_count"
+          ],
+          [
+            "get_device_info_by_index",
+            "get_device_info_by_index"
+          ],
+          [
+            "get_default_input_device_info",
+            "get_default_input_device_info"
+          ],
+          [
+            "is_format_supported",
+            "is_format_supported"
+          ],
+          [
+            "read",
+            "read"
+          ],
+          [
+            "write",
+            "write"
+          ],
+          [
+            "start_stream",
+            "start_stream"
+          ],
+          [
+            "stop_stream",
+            "stop_stream"
+          ],
+          [
+            "close",
+            "close"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_pyaudio_attribute": {
+    "message0": "كائن PyAudio %1 السمة %2",
+    "tooltip": "قراءة سمة مسموحة لكائن أو وحدة PyAudio.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "paInt16",
+            "paInt16"
+          ],
+          [
+            "paFloat32",
+            "paFloat32"
+          ],
+          [
+            "paUInt8",
+            "paUInt8"
+          ]
+        ]
+      }
+    ]
+  }
+}

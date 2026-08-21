@@ -1,0 +1,47 @@
+{
+  "name": "@aily-project/lib-vosk",
+  "nickname": "Vosk",
+  "nickname_zh_cn": "Vosk",
+  "nickname_en": "Vosk",
+  "nickname_zh_hk": "Vosk",
+  "nickname_ja": "Vosk",
+  "nickname_ko": "Vosk",
+  "nickname_de": "Vosk",
+  "nickname_fr": "Vosk",
+  "nickname_es": "Vosk",
+  "nickname_pt": "Vosk",
+  "nickname_ru": "Vosk",
+  "nickname_ar": "Vosk",
+  "version": "0.0.1",
+  "description": "面向树莓派与 Linux 开发板的 Vosk 常用 Python API 白名单积木。",
+  "description_zh_cn": "面向树莓派与 Linux 开发板的 Vosk 常用 Python API 白名单积木。",
+  "description_en": "Allowlisted Vosk Python API blocks for Raspberry Pi and Linux single-board computers.",
+  "spec": true,
+  "compatibility": {
+    "type": [
+      "canaan:k230:cybercam",
+      "broadcom:bcm2712:raspberrypi_5",
+      "allwinner:t527:walnutpi_2b"
+    ],
+    "voltage": [
+      3.3
+    ]
+  },
+  "keywords": [
+    "aily",
+    "blockly",
+    "python",
+    "linux",
+    "raspberry-pi",
+    "vosk",
+    "vosk"
+  ],
+  "tags": [
+    "audio"
+  ],
+  "author": "ailyProject",
+  "license": "MIT",
+  "homepage": "https://alphacephei.com/vosk/",
+  "dependencies": {},
+  "devDependencies": {}
+}

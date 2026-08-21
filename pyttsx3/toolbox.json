@@ -1,0 +1,23 @@
+{
+  "kind": "category",
+  "name": "pyttsx3",
+  "colour": "#EF6C00",
+  "contents": [
+    {
+      "kind": "block",
+      "type": "python_pyttsx3_call"
+    },
+    {
+      "kind": "block",
+      "type": "python_pyttsx3_do"
+    },
+    {
+      "kind": "block",
+      "type": "python_pyttsx3_method"
+    },
+    {
+      "kind": "block",
+      "type": "python_pyttsx3_do_method"
+    }
+  ]
+}

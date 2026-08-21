@@ -1,0 +1,92 @@
+{
+  "toolbox_name": "pytesseract",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_pytesseract_call": {
+    "message0": "pytesseract 呼び出しまたは作成 %1 引数 %2 キーワード引数 %3",
+    "tooltip": "許可された pytesseract の関数またはコンストラクターを呼び出して結果を返します。",
+    "args0": [
+      {
+        "options": [
+          [
+            "image_to_string",
+            "image_to_string"
+          ],
+          [
+            "image_to_data",
+            "image_to_data"
+          ],
+          [
+            "image_to_boxes",
+            "image_to_boxes"
+          ],
+          [
+            "image_to_osd",
+            "image_to_osd"
+          ],
+          [
+            "get_languages",
+            "get_languages"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_pytesseract_do": {
+    "message0": "pytesseract を実行 %1 引数 %2 キーワード引数 %3",
+    "tooltip": "許可された pytesseract の関数またはコンストラクターを文として実行します。",
+    "args0": [
+      {
+        "options": [
+          [
+            "image_to_string",
+            "image_to_string"
+          ],
+          [
+            "image_to_data",
+            "image_to_data"
+          ],
+          [
+            "image_to_boxes",
+            "image_to_boxes"
+          ],
+          [
+            "image_to_osd",
+            "image_to_osd"
+          ],
+          [
+            "get_languages",
+            "get_languages"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_pytesseract_attribute": {
+    "message0": "pytesseract オブジェクト %1 属性 %2",
+    "tooltip": "許可された pytesseract オブジェクトまたはモジュールの属性を読み取ります。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "Output.DICT",
+            "Output.DICT"
+          ],
+          [
+            "Output.STRING",
+            "Output.STRING"
+          ],
+          [
+            "Output.DATAFRAME",
+            "Output.DATAFRAME"
+          ]
+        ]
+      }
+    ]
+  }
+}

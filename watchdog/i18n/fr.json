@@ -1,0 +1,162 @@
+{
+  "toolbox_name": "watchdog Observer",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "linux_watchdog_call": {
+    "message0": "watchdog Observer appeler ou créer %1 arguments %2 arguments nommés %3",
+    "tooltip": "Appeler une fonction ou un constructeur watchdog Observer autorisé et renvoyer le résultat.",
+    "args0": [
+      {
+        "options": [
+          [
+            "Observer",
+            "Observer"
+          ],
+          [
+            "LoggingEventHandler",
+            "LoggingEventHandler"
+          ],
+          [
+            "FileSystemEventHandler",
+            "FileSystemEventHandler"
+          ],
+          [
+            "PatternMatchingEventHandler",
+            "PatternMatchingEventHandler"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "linux_watchdog_do": {
+    "message0": "exécuter watchdog Observer %1 arguments %2 arguments nommés %3",
+    "tooltip": "Exécuter une fonction ou un constructeur watchdog Observer autorisé comme instruction.",
+    "args0": [
+      {
+        "options": [
+          [
+            "Observer",
+            "Observer"
+          ],
+          [
+            "LoggingEventHandler",
+            "LoggingEventHandler"
+          ],
+          [
+            "FileSystemEventHandler",
+            "FileSystemEventHandler"
+          ],
+          [
+            "PatternMatchingEventHandler",
+            "PatternMatchingEventHandler"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "linux_watchdog_method": {
+    "message0": "objet watchdog Observer %1 méthode %2 arguments %3 arguments nommés %4",
+    "tooltip": "Appeler une méthode autorisée d’un objet watchdog Observer et renvoyer le résultat.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "schedule",
+            "schedule"
+          ],
+          [
+            "start",
+            "start"
+          ],
+          [
+            "stop",
+            "stop"
+          ],
+          [
+            "join",
+            "join"
+          ],
+          [
+            "unschedule",
+            "unschedule"
+          ],
+          [
+            "unschedule_all",
+            "unschedule_all"
+          ],
+          [
+            "is_alive",
+            "is_alive"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "linux_watchdog_do_method": {
+    "message0": "exécuter la méthode watchdog Observer de l’objet %1 %2 arguments %3 arguments nommés %4",
+    "tooltip": "Exécuter une méthode autorisée d’un objet watchdog Observer comme instruction.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "schedule",
+            "schedule"
+          ],
+          [
+            "start",
+            "start"
+          ],
+          [
+            "stop",
+            "stop"
+          ],
+          [
+            "join",
+            "join"
+          ],
+          [
+            "unschedule",
+            "unschedule"
+          ],
+          [
+            "unschedule_all",
+            "unschedule_all"
+          ],
+          [
+            "is_alive",
+            "is_alive"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "linux_watchdog_attribute": {
+    "message0": "objet watchdog Observer %1 attribut %2",
+    "tooltip": "Lire un attribut autorisé d’un objet ou module watchdog Observer.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "daemon",
+            "daemon"
+          ],
+          [
+            "name",
+            "name"
+          ]
+        ]
+      }
+    ]
+  }
+}

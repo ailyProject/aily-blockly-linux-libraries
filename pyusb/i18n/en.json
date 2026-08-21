@@ -1,0 +1,166 @@
+{
+  "toolbox_name": "PyUSB",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "linux_pyusb_call": {
+    "message0": "PyUSB call or create %1 arguments %2 keyword arguments %3",
+    "tooltip": "Call an allowlisted PyUSB function or constructor and return its result.",
+    "args0": [
+      {
+        "options": [
+          [
+            "find",
+            "find"
+          ],
+          [
+            "show_devices",
+            "show_devices"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "linux_pyusb_do": {
+    "message0": "run PyUSB %1 arguments %2 keyword arguments %3",
+    "tooltip": "Run an allowlisted PyUSB function or constructor as a statement.",
+    "args0": [
+      {
+        "options": [
+          [
+            "find",
+            "find"
+          ],
+          [
+            "show_devices",
+            "show_devices"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "linux_pyusb_method": {
+    "message0": "PyUSB object %1 call method %2 arguments %3 keyword arguments %4",
+    "tooltip": "Call an allowlisted PyUSB object method and return its result.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "set_configuration",
+            "set_configuration"
+          ],
+          [
+            "write",
+            "write"
+          ],
+          [
+            "read",
+            "read"
+          ],
+          [
+            "ctrl_transfer",
+            "ctrl_transfer"
+          ],
+          [
+            "reset",
+            "reset"
+          ],
+          [
+            "is_kernel_driver_active",
+            "is_kernel_driver_active"
+          ],
+          [
+            "detach_kernel_driver",
+            "detach_kernel_driver"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "linux_pyusb_do_method": {
+    "message0": "run PyUSB object %1 method %2 arguments %3 keyword arguments %4",
+    "tooltip": "Run an allowlisted PyUSB object method as a statement.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "set_configuration",
+            "set_configuration"
+          ],
+          [
+            "write",
+            "write"
+          ],
+          [
+            "read",
+            "read"
+          ],
+          [
+            "ctrl_transfer",
+            "ctrl_transfer"
+          ],
+          [
+            "reset",
+            "reset"
+          ],
+          [
+            "is_kernel_driver_active",
+            "is_kernel_driver_active"
+          ],
+          [
+            "detach_kernel_driver",
+            "detach_kernel_driver"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "linux_pyusb_attribute": {
+    "message0": "PyUSB object %1 attribute %2",
+    "tooltip": "Read an allowlisted PyUSB object or module attribute.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "idVendor",
+            "idVendor"
+          ],
+          [
+            "idProduct",
+            "idProduct"
+          ],
+          [
+            "bus",
+            "bus"
+          ],
+          [
+            "address",
+            "address"
+          ],
+          [
+            "manufacturer",
+            "manufacturer"
+          ],
+          [
+            "product",
+            "product"
+          ],
+          [
+            "serial_number",
+            "serial_number"
+          ]
+        ]
+      }
+    ]
+  }
+}

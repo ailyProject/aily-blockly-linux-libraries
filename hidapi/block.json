@@ -1,0 +1,212 @@
+[
+  {
+    "type": "linux_hidapi_call",
+    "message0": "hidapi call or create %1 arguments %2 keyword arguments %3",
+    "args0": [
+      {
+        "type": "field_dropdown",
+        "name": "TARGET",
+        "options": [
+          [
+            "device",
+            "device"
+          ],
+          [
+            "enumerate",
+            "enumerate"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#00897B",
+    "tooltip": "Call an allowlisted hidapi function or constructor and return its result.",
+    "icon": "settings",
+    "output": "Any"
+  },
+  {
+    "type": "linux_hidapi_do",
+    "message0": "run hidapi %1 arguments %2 keyword arguments %3",
+    "args0": [
+      {
+        "type": "field_dropdown",
+        "name": "TARGET",
+        "options": [
+          [
+            "device",
+            "device"
+          ],
+          [
+            "enumerate",
+            "enumerate"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#00897B",
+    "tooltip": "Run an allowlisted hidapi function or constructor as a statement.",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "linux_hidapi_method",
+    "message0": "hidapi object %1 call method %2 arguments %3 keyword arguments %4",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "OBJECT"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "METHOD",
+        "options": [
+          [
+            "open",
+            "open"
+          ],
+          [
+            "open_path",
+            "open_path"
+          ],
+          [
+            "write",
+            "write"
+          ],
+          [
+            "read",
+            "read"
+          ],
+          [
+            "send_feature_report",
+            "send_feature_report"
+          ],
+          [
+            "get_feature_report",
+            "get_feature_report"
+          ],
+          [
+            "get_manufacturer_string",
+            "get_manufacturer_string"
+          ],
+          [
+            "get_product_string",
+            "get_product_string"
+          ],
+          [
+            "get_serial_number_string",
+            "get_serial_number_string"
+          ],
+          [
+            "close",
+            "close"
+          ],
+          [
+            "set_nonblocking",
+            "set_nonblocking"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#00897B",
+    "tooltip": "Call an allowlisted hidapi object method and return its result.",
+    "icon": "settings",
+    "output": "Any"
+  },
+  {
+    "type": "linux_hidapi_do_method",
+    "message0": "run hidapi object %1 method %2 arguments %3 keyword arguments %4",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "OBJECT"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "METHOD",
+        "options": [
+          [
+            "open",
+            "open"
+          ],
+          [
+            "open_path",
+            "open_path"
+          ],
+          [
+            "write",
+            "write"
+          ],
+          [
+            "read",
+            "read"
+          ],
+          [
+            "send_feature_report",
+            "send_feature_report"
+          ],
+          [
+            "get_feature_report",
+            "get_feature_report"
+          ],
+          [
+            "get_manufacturer_string",
+            "get_manufacturer_string"
+          ],
+          [
+            "get_product_string",
+            "get_product_string"
+          ],
+          [
+            "get_serial_number_string",
+            "get_serial_number_string"
+          ],
+          [
+            "close",
+            "close"
+          ],
+          [
+            "set_nonblocking",
+            "set_nonblocking"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#00897B",
+    "tooltip": "Run an allowlisted hidapi object method as a statement.",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  }
+]

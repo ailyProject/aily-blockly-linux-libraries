@@ -1,0 +1,186 @@
+{
+  "toolbox_name": "ROS 2 rclpy",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_rclpy_call": {
+    "message0": "ROS 2 rclpy استدعاء أو إنشاء %1 الوسائط %2 وسائط الكلمات المفتاحية %3",
+    "tooltip": "استدعاء دالة أو مُنشئ مسموح من ROS 2 rclpy وإرجاع النتيجة.",
+    "args0": [
+      {
+        "options": [
+          [
+            "init",
+            "init"
+          ],
+          [
+            "shutdown",
+            "shutdown"
+          ],
+          [
+            "ok",
+            "ok"
+          ],
+          [
+            "spin",
+            "spin"
+          ],
+          [
+            "spin_once",
+            "spin_once"
+          ],
+          [
+            "create_node",
+            "create_node"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_rclpy_do": {
+    "message0": "تشغيل ROS 2 rclpy %1 الوسائط %2 وسائط الكلمات المفتاحية %3",
+    "tooltip": "تشغيل دالة أو مُنشئ مسموح من ROS 2 rclpy كتعليمة.",
+    "args0": [
+      {
+        "options": [
+          [
+            "init",
+            "init"
+          ],
+          [
+            "shutdown",
+            "shutdown"
+          ],
+          [
+            "ok",
+            "ok"
+          ],
+          [
+            "spin",
+            "spin"
+          ],
+          [
+            "spin_once",
+            "spin_once"
+          ],
+          [
+            "create_node",
+            "create_node"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_rclpy_method": {
+    "message0": "كائن ROS 2 rclpy %1 الطريقة %2 الوسائط %3 وسائط الكلمات المفتاحية %4",
+    "tooltip": "استدعاء طريقة مسموحة لكائن ROS 2 rclpy وإرجاع النتيجة.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "create_publisher",
+            "create_publisher"
+          ],
+          [
+            "create_subscription",
+            "create_subscription"
+          ],
+          [
+            "create_timer",
+            "create_timer"
+          ],
+          [
+            "create_client",
+            "create_client"
+          ],
+          [
+            "create_service",
+            "create_service"
+          ],
+          [
+            "get_logger",
+            "get_logger"
+          ],
+          [
+            "destroy_node",
+            "destroy_node"
+          ],
+          [
+            "publish",
+            "publish"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_rclpy_do_method": {
+    "message0": "تشغيل طريقة ROS 2 rclpy للكائن %1 %2 الوسائط %3 وسائط الكلمات المفتاحية %4",
+    "tooltip": "تشغيل طريقة مسموحة لكائن ROS 2 rclpy كتعليمة.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "create_publisher",
+            "create_publisher"
+          ],
+          [
+            "create_subscription",
+            "create_subscription"
+          ],
+          [
+            "create_timer",
+            "create_timer"
+          ],
+          [
+            "create_client",
+            "create_client"
+          ],
+          [
+            "create_service",
+            "create_service"
+          ],
+          [
+            "get_logger",
+            "get_logger"
+          ],
+          [
+            "destroy_node",
+            "destroy_node"
+          ],
+          [
+            "publish",
+            "publish"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_rclpy_attribute": {
+    "message0": "كائن ROS 2 rclpy %1 السمة %2",
+    "tooltip": "قراءة سمة مسموحة لكائن أو وحدة ROS 2 rclpy.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "context",
+            "context"
+          ],
+          [
+            "default_callback_group",
+            "default_callback_group"
+          ]
+        ]
+      }
+    ]
+  }
+}

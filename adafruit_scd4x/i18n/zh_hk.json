@@ -1,0 +1,138 @@
+{
+  "toolbox_name": "CircuitPython SCD4x",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_adafruit_scd4x_call": {
+    "message0": "CircuitPython SCD4x 呼叫或建立 %1 參數 %2 關鍵字參數 %3",
+    "tooltip": "呼叫白名單中的 CircuitPython SCD4x 函式或建構器並傳回結果。",
+    "args0": [
+      {
+        "options": [
+          [
+            "SCD4X",
+            "SCD4X"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_scd4x_do": {
+    "message0": "執行 CircuitPython SCD4x %1 參數 %2 關鍵字參數 %3",
+    "tooltip": "以敘述方式執行白名單中的 CircuitPython SCD4x 函式或建構器。",
+    "args0": [
+      {
+        "options": [
+          [
+            "SCD4X",
+            "SCD4X"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_scd4x_method": {
+    "message0": "CircuitPython SCD4x 物件 %1 呼叫方法 %2 參數 %3 關鍵字參數 %4",
+    "tooltip": "呼叫白名單中的 CircuitPython SCD4x 物件方法並傳回結果。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "start_periodic_measurement",
+            "start_periodic_measurement"
+          ],
+          [
+            "stop_periodic_measurement",
+            "stop_periodic_measurement"
+          ],
+          [
+            "reinit",
+            "reinit"
+          ],
+          [
+            "persist_settings",
+            "persist_settings"
+          ],
+          [
+            "force_calibration",
+            "force_calibration"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_scd4x_do_method": {
+    "message0": "執行 CircuitPython SCD4x 物件 %1 的方法 %2 參數 %3 關鍵字參數 %4",
+    "tooltip": "以敘述方式執行白名單中的 CircuitPython SCD4x 物件方法。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "start_periodic_measurement",
+            "start_periodic_measurement"
+          ],
+          [
+            "stop_periodic_measurement",
+            "stop_periodic_measurement"
+          ],
+          [
+            "reinit",
+            "reinit"
+          ],
+          [
+            "persist_settings",
+            "persist_settings"
+          ],
+          [
+            "force_calibration",
+            "force_calibration"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_scd4x_attribute": {
+    "message0": "CircuitPython SCD4x 物件 %1 屬性 %2",
+    "tooltip": "讀取白名單中的 CircuitPython SCD4x 物件或模組屬性。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "CO2",
+            "CO2"
+          ],
+          [
+            "temperature",
+            "temperature"
+          ],
+          [
+            "relative_humidity",
+            "relative_humidity"
+          ],
+          [
+            "data_ready",
+            "data_ready"
+          ],
+          [
+            "measurement_period",
+            "measurement_period"
+          ],
+          [
+            "self_calibration_enabled",
+            "self_calibration_enabled"
+          ]
+        ]
+      }
+    ]
+  }
+}

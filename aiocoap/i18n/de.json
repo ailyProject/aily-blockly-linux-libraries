@@ -1,0 +1,166 @@
+{
+  "toolbox_name": "aiocoap",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_aiocoap_call": {
+    "message0": "aiocoap aufrufen oder erzeugen %1 Argumente %2 Schlüsselwortargumente %3",
+    "tooltip": "Eine freigegebene aiocoap-Funktion oder einen Konstruktor aufrufen und das Ergebnis zurückgeben.",
+    "args0": [
+      {
+        "options": [
+          [
+            "Context.create_client_context",
+            "Context.create_client_context"
+          ],
+          [
+            "Context.create_server_context",
+            "Context.create_server_context"
+          ],
+          [
+            "Message",
+            "Message"
+          ],
+          [
+            "resource.Site",
+            "resource.Site"
+          ],
+          [
+            "resource.Resource",
+            "resource.Resource"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_aiocoap_do": {
+    "message0": "aiocoap ausführen %1 Argumente %2 Schlüsselwortargumente %3",
+    "tooltip": "Eine freigegebene aiocoap-Funktion oder einen Konstruktor als Anweisung ausführen.",
+    "args0": [
+      {
+        "options": [
+          [
+            "Context.create_client_context",
+            "Context.create_client_context"
+          ],
+          [
+            "Context.create_server_context",
+            "Context.create_server_context"
+          ],
+          [
+            "Message",
+            "Message"
+          ],
+          [
+            "resource.Site",
+            "resource.Site"
+          ],
+          [
+            "resource.Resource",
+            "resource.Resource"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_aiocoap_method": {
+    "message0": "aiocoap-Objekt %1 Methode %2 Argumente %3 Schlüsselwortargumente %4",
+    "tooltip": "Eine freigegebene Methode eines aiocoap-Objekts aufrufen und das Ergebnis zurückgeben.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "request",
+            "request"
+          ],
+          [
+            "render_get",
+            "render_get"
+          ],
+          [
+            "render_post",
+            "render_post"
+          ],
+          [
+            "add_resource",
+            "add_resource"
+          ],
+          [
+            "shutdown",
+            "shutdown"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_aiocoap_do_method": {
+    "message0": "aiocoap-Objekt %1 Methode %2 ausführen Argumente %3 Schlüsselwortargumente %4",
+    "tooltip": "Eine freigegebene Methode eines aiocoap-Objekts als Anweisung ausführen.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "request",
+            "request"
+          ],
+          [
+            "render_get",
+            "render_get"
+          ],
+          [
+            "render_post",
+            "render_post"
+          ],
+          [
+            "add_resource",
+            "add_resource"
+          ],
+          [
+            "shutdown",
+            "shutdown"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_aiocoap_attribute": {
+    "message0": "aiocoap-Objekt %1 Attribut %2",
+    "tooltip": "Ein freigegebenes Attribut eines aiocoap-Objekts oder Moduls lesen.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "code",
+            "code"
+          ],
+          [
+            "payload",
+            "payload"
+          ],
+          [
+            "uri",
+            "uri"
+          ],
+          [
+            "remote",
+            "remote"
+          ],
+          [
+            "opt",
+            "opt"
+          ]
+        ]
+      }
+    ]
+  }
+}

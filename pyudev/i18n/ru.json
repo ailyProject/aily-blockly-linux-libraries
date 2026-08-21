@@ -1,0 +1,186 @@
+{
+  "toolbox_name": "pyudev",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "linux_pyudev_call": {
+    "message0": "pyudev вызвать или создать %1 аргументы %2 именованные аргументы %3",
+    "tooltip": "Вызывает разрешённую функцию или конструктор pyudev и возвращает результат.",
+    "args0": [
+      {
+        "options": [
+          [
+            "Context",
+            "Context"
+          ],
+          [
+            "Monitor",
+            "Monitor"
+          ],
+          [
+            "MonitorObserver",
+            "MonitorObserver"
+          ],
+          [
+            "Devices.from_path",
+            "Devices.from_path"
+          ],
+          [
+            "Devices.from_device_file",
+            "Devices.from_device_file"
+          ],
+          [
+            "Devices.from_device_number",
+            "Devices.from_device_number"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "linux_pyudev_do": {
+    "message0": "выполнить pyudev %1 аргументы %2 именованные аргументы %3",
+    "tooltip": "Выполняет разрешённую функцию или конструктор pyudev как инструкцию.",
+    "args0": [
+      {
+        "options": [
+          [
+            "Context",
+            "Context"
+          ],
+          [
+            "Monitor",
+            "Monitor"
+          ],
+          [
+            "MonitorObserver",
+            "MonitorObserver"
+          ],
+          [
+            "Devices.from_path",
+            "Devices.from_path"
+          ],
+          [
+            "Devices.from_device_file",
+            "Devices.from_device_file"
+          ],
+          [
+            "Devices.from_device_number",
+            "Devices.from_device_number"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "linux_pyudev_method": {
+    "message0": "объект pyudev %1 метод %2 аргументы %3 именованные аргументы %4",
+    "tooltip": "Вызывает разрешённый метод объекта pyudev и возвращает результат.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "list_devices",
+            "list_devices"
+          ],
+          [
+            "filter_by",
+            "filter_by"
+          ],
+          [
+            "enable_receiving",
+            "enable_receiving"
+          ],
+          [
+            "start",
+            "start"
+          ],
+          [
+            "stop",
+            "stop"
+          ],
+          [
+            "poll",
+            "poll"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "linux_pyudev_do_method": {
+    "message0": "выполнить метод pyudev объекта %1 %2 аргументы %3 именованные аргументы %4",
+    "tooltip": "Выполняет разрешённый метод объекта pyudev как инструкцию.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "list_devices",
+            "list_devices"
+          ],
+          [
+            "filter_by",
+            "filter_by"
+          ],
+          [
+            "enable_receiving",
+            "enable_receiving"
+          ],
+          [
+            "start",
+            "start"
+          ],
+          [
+            "stop",
+            "stop"
+          ],
+          [
+            "poll",
+            "poll"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "linux_pyudev_attribute": {
+    "message0": "объект pyudev %1 атрибут %2",
+    "tooltip": "Читает разрешённый атрибут объекта или модуля pyudev.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "device_path",
+            "device_path"
+          ],
+          [
+            "device_node",
+            "device_node"
+          ],
+          [
+            "subsystem",
+            "subsystem"
+          ],
+          [
+            "sys_name",
+            "sys_name"
+          ],
+          [
+            "properties",
+            "properties"
+          ],
+          [
+            "parent",
+            "parent"
+          ]
+        ]
+      }
+    ]
+  }
+}

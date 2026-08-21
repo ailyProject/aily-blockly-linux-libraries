@@ -75,6 +75,36 @@
     return output(items ? `(${items},)` : '()', ORDER_ATOMIC);
   });
   define('python_list', (block, generator) => output(`[${value(generator, block, 'ITEMS', '')}]`, ORDER_ATOMIC));
+  define('python_arguments', (block, generator) => {
+    const values = [];
+    for (let index = 0; index < 6; index++) {
+      const code = value(generator, block, `VALUE${index}`, '');
+      if (code) values.push(code);
+    }
+    return output(`[${values.join(', ')}]`, ORDER_ATOMIC);
+  });
+  define('python_keyword_arguments', (block, generator) => {
+    const pairs = [];
+    for (let index = 0; index < 6; index++) {
+      const key = String(field(block, `KEY${index}`, '')).trim();
+      if (!key) continue;
+      const code = value(generator, block, `VALUE${index}`, 'None');
+      pairs.push(`${generator.quote_(key)}: ${code}`);
+    }
+    return output(`{${pairs.join(', ')}}`, ORDER_ATOMIC);
+  });
+  define('python_get_item', (block, generator) => output(
+    `(${value(generator, block, 'OBJECT')})[${value(generator, block, 'KEY')}]`,
+    ORDER_ATOMIC,
+  ));
+  define('python_set_item', (block, generator) => (
+    `(${value(generator, block, 'OBJECT')})[${value(generator, block, 'KEY')}] = ${value(generator, block, 'VALUE')}\n`
+  ));
+  define('python_set_attribute', (block, generator) => {
+    const requested = field(block, 'ATTRIBUTE', 'value');
+    const attribute = /^[A-Za-z][A-Za-z0-9_]*$/.test(requested) ? requested : 'value';
+    return `(${value(generator, block, 'OBJECT')}).${attribute} = ${value(generator, block, 'VALUE')}\n`;
+  });
   define('python_set_variable', (block, generator) => `${resolveName(generator, field(block, 'NAME', 'value'), 'value')} = ${value(generator, block, 'VALUE')}\n`);
   define('python_get_variable', (block, generator) => output(resolveName(generator, field(block, 'NAME', 'value'), 'value'), ORDER_ATOMIC));
   define('python_if', (block, generator) => {

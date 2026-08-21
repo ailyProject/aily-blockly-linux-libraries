@@ -1,0 +1,154 @@
+{
+  "toolbox_name": "MinimalModbus",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_minimalmodbus_call": {
+    "message0": "MinimalModbus aufrufen oder erzeugen %1 Argumente %2 Schlüsselwortargumente %3",
+    "tooltip": "Eine freigegebene MinimalModbus-Funktion oder einen Konstruktor aufrufen und das Ergebnis zurückgeben.",
+    "args0": [
+      {
+        "options": [
+          [
+            "Instrument",
+            "Instrument"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_minimalmodbus_do": {
+    "message0": "MinimalModbus ausführen %1 Argumente %2 Schlüsselwortargumente %3",
+    "tooltip": "Eine freigegebene MinimalModbus-Funktion oder einen Konstruktor als Anweisung ausführen.",
+    "args0": [
+      {
+        "options": [
+          [
+            "Instrument",
+            "Instrument"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_minimalmodbus_method": {
+    "message0": "MinimalModbus-Objekt %1 Methode %2 Argumente %3 Schlüsselwortargumente %4",
+    "tooltip": "Eine freigegebene Methode eines MinimalModbus-Objekts aufrufen und das Ergebnis zurückgeben.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "read_register",
+            "read_register"
+          ],
+          [
+            "write_register",
+            "write_register"
+          ],
+          [
+            "read_registers",
+            "read_registers"
+          ],
+          [
+            "write_registers",
+            "write_registers"
+          ],
+          [
+            "read_bit",
+            "read_bit"
+          ],
+          [
+            "write_bit",
+            "write_bit"
+          ],
+          [
+            "read_string",
+            "read_string"
+          ],
+          [
+            "write_string",
+            "write_string"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_minimalmodbus_do_method": {
+    "message0": "MinimalModbus-Objekt %1 Methode %2 ausführen Argumente %3 Schlüsselwortargumente %4",
+    "tooltip": "Eine freigegebene Methode eines MinimalModbus-Objekts als Anweisung ausführen.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "read_register",
+            "read_register"
+          ],
+          [
+            "write_register",
+            "write_register"
+          ],
+          [
+            "read_registers",
+            "read_registers"
+          ],
+          [
+            "write_registers",
+            "write_registers"
+          ],
+          [
+            "read_bit",
+            "read_bit"
+          ],
+          [
+            "write_bit",
+            "write_bit"
+          ],
+          [
+            "read_string",
+            "read_string"
+          ],
+          [
+            "write_string",
+            "write_string"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_minimalmodbus_attribute": {
+    "message0": "MinimalModbus-Objekt %1 Attribut %2",
+    "tooltip": "Ein freigegebenes Attribut eines MinimalModbus-Objekts oder Moduls lesen.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "address",
+            "address"
+          ],
+          [
+            "mode",
+            "mode"
+          ],
+          [
+            "serial",
+            "serial"
+          ],
+          [
+            "clear_buffers_before_each_transaction",
+            "clear_buffers_before_each_transaction"
+          ]
+        ]
+      }
+    ]
+  }
+}

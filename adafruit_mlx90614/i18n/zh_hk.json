@@ -1,0 +1,56 @@
+{
+  "toolbox_name": "CircuitPython MLX90614",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_adafruit_mlx90614_call": {
+    "message0": "CircuitPython MLX90614 呼叫或建立 %1 參數 %2 關鍵字參數 %3",
+    "tooltip": "呼叫白名單中的 CircuitPython MLX90614 函式或建構器並傳回結果。",
+    "args0": [
+      {
+        "options": [
+          [
+            "MLX90614",
+            "MLX90614"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_mlx90614_do": {
+    "message0": "執行 CircuitPython MLX90614 %1 參數 %2 關鍵字參數 %3",
+    "tooltip": "以敘述方式執行白名單中的 CircuitPython MLX90614 函式或建構器。",
+    "args0": [
+      {
+        "options": [
+          [
+            "MLX90614",
+            "MLX90614"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_mlx90614_attribute": {
+    "message0": "CircuitPython MLX90614 物件 %1 屬性 %2",
+    "tooltip": "讀取白名單中的 CircuitPython MLX90614 物件或模組屬性。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "ambient_temperature",
+            "ambient_temperature"
+          ],
+          [
+            "object_temperature",
+            "object_temperature"
+          ]
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "toolbox_name": "CircuitPython TSL2591",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_adafruit_tsl2591_call": {
+    "message0": "CircuitPython TSL2591 呼叫或建立 %1 參數 %2 關鍵字參數 %3",
+    "tooltip": "呼叫白名單中的 CircuitPython TSL2591 函式或建構器並傳回結果。",
+    "args0": [
+      {
+        "options": [
+          [
+            "TSL2591",
+            "TSL2591"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_tsl2591_do": {
+    "message0": "執行 CircuitPython TSL2591 %1 參數 %2 關鍵字參數 %3",
+    "tooltip": "以敘述方式執行白名單中的 CircuitPython TSL2591 函式或建構器。",
+    "args0": [
+      {
+        "options": [
+          [
+            "TSL2591",
+            "TSL2591"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_tsl2591_attribute": {
+    "message0": "CircuitPython TSL2591 物件 %1 屬性 %2",
+    "tooltip": "讀取白名單中的 CircuitPython TSL2591 物件或模組屬性。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "lux",
+            "lux"
+          ],
+          [
+            "infrared",
+            "infrared"
+          ],
+          [
+            "visible",
+            "visible"
+          ],
+          [
+            "full_spectrum",
+            "full_spectrum"
+          ],
+          [
+            "gain",
+            "gain"
+          ],
+          [
+            "integration_time",
+            "integration_time"
+          ]
+        ]
+      }
+    ]
+  }
+}

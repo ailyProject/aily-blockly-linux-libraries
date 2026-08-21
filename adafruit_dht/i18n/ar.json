@@ -1,0 +1,98 @@
+{
+  "toolbox_name": "CircuitPython DHT",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_adafruit_dht_call": {
+    "message0": "CircuitPython DHT استدعاء أو إنشاء %1 الوسائط %2 وسائط الكلمات المفتاحية %3",
+    "tooltip": "استدعاء دالة أو مُنشئ مسموح من CircuitPython DHT وإرجاع النتيجة.",
+    "args0": [
+      {
+        "options": [
+          [
+            "DHT11",
+            "DHT11"
+          ],
+          [
+            "DHT22",
+            "DHT22"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_dht_do": {
+    "message0": "تشغيل CircuitPython DHT %1 الوسائط %2 وسائط الكلمات المفتاحية %3",
+    "tooltip": "تشغيل دالة أو مُنشئ مسموح من CircuitPython DHT كتعليمة.",
+    "args0": [
+      {
+        "options": [
+          [
+            "DHT11",
+            "DHT11"
+          ],
+          [
+            "DHT22",
+            "DHT22"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_dht_method": {
+    "message0": "كائن CircuitPython DHT %1 الطريقة %2 الوسائط %3 وسائط الكلمات المفتاحية %4",
+    "tooltip": "استدعاء طريقة مسموحة لكائن CircuitPython DHT وإرجاع النتيجة.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "exit",
+            "exit"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_dht_do_method": {
+    "message0": "تشغيل طريقة CircuitPython DHT للكائن %1 %2 الوسائط %3 وسائط الكلمات المفتاحية %4",
+    "tooltip": "تشغيل طريقة مسموحة لكائن CircuitPython DHT كتعليمة.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "exit",
+            "exit"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_dht_attribute": {
+    "message0": "كائن CircuitPython DHT %1 السمة %2",
+    "tooltip": "قراءة سمة مسموحة لكائن أو وحدة CircuitPython DHT.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "temperature",
+            "temperature"
+          ],
+          [
+            "humidity",
+            "humidity"
+          ]
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,162 @@
+{
+  "toolbox_name": "lgpio",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "linux_lgpio_call": {
+    "message0": "lgpio aufrufen oder erzeugen %1 Argumente %2 Schlüsselwortargumente %3",
+    "tooltip": "Eine freigegebene lgpio-Funktion oder einen Konstruktor aufrufen und das Ergebnis zurückgeben.",
+    "args0": [
+      {
+        "options": [
+          [
+            "gpiochip_open",
+            "gpiochip_open"
+          ],
+          [
+            "gpiochip_close",
+            "gpiochip_close"
+          ],
+          [
+            "gpio_claim_input",
+            "gpio_claim_input"
+          ],
+          [
+            "gpio_claim_output",
+            "gpio_claim_output"
+          ],
+          [
+            "gpio_read",
+            "gpio_read"
+          ],
+          [
+            "gpio_write",
+            "gpio_write"
+          ],
+          [
+            "tx_pwm",
+            "tx_pwm"
+          ],
+          [
+            "callback",
+            "callback"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "linux_lgpio_do": {
+    "message0": "lgpio ausführen %1 Argumente %2 Schlüsselwortargumente %3",
+    "tooltip": "Eine freigegebene lgpio-Funktion oder einen Konstruktor als Anweisung ausführen.",
+    "args0": [
+      {
+        "options": [
+          [
+            "gpiochip_open",
+            "gpiochip_open"
+          ],
+          [
+            "gpiochip_close",
+            "gpiochip_close"
+          ],
+          [
+            "gpio_claim_input",
+            "gpio_claim_input"
+          ],
+          [
+            "gpio_claim_output",
+            "gpio_claim_output"
+          ],
+          [
+            "gpio_read",
+            "gpio_read"
+          ],
+          [
+            "gpio_write",
+            "gpio_write"
+          ],
+          [
+            "tx_pwm",
+            "tx_pwm"
+          ],
+          [
+            "callback",
+            "callback"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "linux_lgpio_method": {
+    "message0": "lgpio-Objekt %1 Methode %2 Argumente %3 Schlüsselwortargumente %4",
+    "tooltip": "Eine freigegebene Methode eines lgpio-Objekts aufrufen und das Ergebnis zurückgeben.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "cancel",
+            "cancel"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "linux_lgpio_do_method": {
+    "message0": "lgpio-Objekt %1 Methode %2 ausführen Argumente %3 Schlüsselwortargumente %4",
+    "tooltip": "Eine freigegebene Methode eines lgpio-Objekts als Anweisung ausführen.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "cancel",
+            "cancel"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "linux_lgpio_attribute": {
+    "message0": "lgpio-Objekt %1 Attribut %2",
+    "tooltip": "Ein freigegebenes Attribut eines lgpio-Objekts oder Moduls lesen.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "RISING_EDGE",
+            "RISING_EDGE"
+          ],
+          [
+            "FALLING_EDGE",
+            "FALLING_EDGE"
+          ],
+          [
+            "BOTH_EDGES",
+            "BOTH_EDGES"
+          ],
+          [
+            "SET_PULL_UP",
+            "SET_PULL_UP"
+          ],
+          [
+            "SET_PULL_DOWN",
+            "SET_PULL_DOWN"
+          ],
+          [
+            "SET_PULL_NONE",
+            "SET_PULL_NONE"
+          ]
+        ]
+      }
+    ]
+  }
+}

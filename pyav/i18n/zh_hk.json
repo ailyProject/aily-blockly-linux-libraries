@@ -1,0 +1,194 @@
+{
+  "toolbox_name": "PyAV",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_pyav_call": {
+    "message0": "PyAV 呼叫或建立 %1 參數 %2 關鍵字參數 %3",
+    "tooltip": "呼叫白名單中的 PyAV 函式或建構器並傳回結果。",
+    "args0": [
+      {
+        "options": [
+          [
+            "open",
+            "open"
+          ],
+          [
+            "AudioFrame",
+            "AudioFrame"
+          ],
+          [
+            "VideoFrame",
+            "VideoFrame"
+          ],
+          [
+            "Packet",
+            "Packet"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_pyav_do": {
+    "message0": "執行 PyAV %1 參數 %2 關鍵字參數 %3",
+    "tooltip": "以敘述方式執行白名單中的 PyAV 函式或建構器。",
+    "args0": [
+      {
+        "options": [
+          [
+            "open",
+            "open"
+          ],
+          [
+            "AudioFrame",
+            "AudioFrame"
+          ],
+          [
+            "VideoFrame",
+            "VideoFrame"
+          ],
+          [
+            "Packet",
+            "Packet"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_pyav_method": {
+    "message0": "PyAV 物件 %1 呼叫方法 %2 參數 %3 關鍵字參數 %4",
+    "tooltip": "呼叫白名單中的 PyAV 物件方法並傳回結果。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "demux",
+            "demux"
+          ],
+          [
+            "decode",
+            "decode"
+          ],
+          [
+            "encode",
+            "encode"
+          ],
+          [
+            "mux",
+            "mux"
+          ],
+          [
+            "close",
+            "close"
+          ],
+          [
+            "add_stream",
+            "add_stream"
+          ],
+          [
+            "to_ndarray",
+            "to_ndarray"
+          ],
+          [
+            "reformat",
+            "reformat"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_pyav_do_method": {
+    "message0": "執行 PyAV 物件 %1 的方法 %2 參數 %3 關鍵字參數 %4",
+    "tooltip": "以敘述方式執行白名單中的 PyAV 物件方法。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "demux",
+            "demux"
+          ],
+          [
+            "decode",
+            "decode"
+          ],
+          [
+            "encode",
+            "encode"
+          ],
+          [
+            "mux",
+            "mux"
+          ],
+          [
+            "close",
+            "close"
+          ],
+          [
+            "add_stream",
+            "add_stream"
+          ],
+          [
+            "to_ndarray",
+            "to_ndarray"
+          ],
+          [
+            "reformat",
+            "reformat"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_pyav_attribute": {
+    "message0": "PyAV 物件 %1 屬性 %2",
+    "tooltip": "讀取白名單中的 PyAV 物件或模組屬性。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "streams",
+            "streams"
+          ],
+          [
+            "duration",
+            "duration"
+          ],
+          [
+            "format",
+            "format"
+          ],
+          [
+            "metadata",
+            "metadata"
+          ],
+          [
+            "time_base",
+            "time_base"
+          ],
+          [
+            "pts",
+            "pts"
+          ],
+          [
+            "width",
+            "width"
+          ],
+          [
+            "height",
+            "height"
+          ]
+        ]
+      }
+    ]
+  }
+}

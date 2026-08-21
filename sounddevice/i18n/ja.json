@@ -1,0 +1,218 @@
+{
+  "toolbox_name": "python-sounddevice",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_sounddevice_call": {
+    "message0": "python-sounddevice 呼び出しまたは作成 %1 引数 %2 キーワード引数 %3",
+    "tooltip": "許可された python-sounddevice の関数またはコンストラクターを呼び出して結果を返します。",
+    "args0": [
+      {
+        "options": [
+          [
+            "play",
+            "play"
+          ],
+          [
+            "rec",
+            "rec"
+          ],
+          [
+            "playrec",
+            "playrec"
+          ],
+          [
+            "wait",
+            "wait"
+          ],
+          [
+            "stop",
+            "stop"
+          ],
+          [
+            "query_devices",
+            "query_devices"
+          ],
+          [
+            "query_hostapis",
+            "query_hostapis"
+          ],
+          [
+            "InputStream",
+            "InputStream"
+          ],
+          [
+            "OutputStream",
+            "OutputStream"
+          ],
+          [
+            "Stream",
+            "Stream"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_sounddevice_do": {
+    "message0": "python-sounddevice を実行 %1 引数 %2 キーワード引数 %3",
+    "tooltip": "許可された python-sounddevice の関数またはコンストラクターを文として実行します。",
+    "args0": [
+      {
+        "options": [
+          [
+            "play",
+            "play"
+          ],
+          [
+            "rec",
+            "rec"
+          ],
+          [
+            "playrec",
+            "playrec"
+          ],
+          [
+            "wait",
+            "wait"
+          ],
+          [
+            "stop",
+            "stop"
+          ],
+          [
+            "query_devices",
+            "query_devices"
+          ],
+          [
+            "query_hostapis",
+            "query_hostapis"
+          ],
+          [
+            "InputStream",
+            "InputStream"
+          ],
+          [
+            "OutputStream",
+            "OutputStream"
+          ],
+          [
+            "Stream",
+            "Stream"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_sounddevice_method": {
+    "message0": "python-sounddevice オブジェクト %1 メソッド %2 引数 %3 キーワード引数 %4",
+    "tooltip": "許可された python-sounddevice オブジェクトのメソッドを呼び出して結果を返します。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "start",
+            "start"
+          ],
+          [
+            "stop",
+            "stop"
+          ],
+          [
+            "abort",
+            "abort"
+          ],
+          [
+            "close",
+            "close"
+          ],
+          [
+            "read",
+            "read"
+          ],
+          [
+            "write",
+            "write"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_sounddevice_do_method": {
+    "message0": "python-sounddevice オブジェクト %1 のメソッド %2 を実行 引数 %3 キーワード引数 %4",
+    "tooltip": "許可された python-sounddevice オブジェクトのメソッドを文として実行します。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "start",
+            "start"
+          ],
+          [
+            "stop",
+            "stop"
+          ],
+          [
+            "abort",
+            "abort"
+          ],
+          [
+            "close",
+            "close"
+          ],
+          [
+            "read",
+            "read"
+          ],
+          [
+            "write",
+            "write"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_sounddevice_attribute": {
+    "message0": "python-sounddevice オブジェクト %1 属性 %2",
+    "tooltip": "許可された python-sounddevice オブジェクトまたはモジュールの属性を読み取ります。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "active",
+            "active"
+          ],
+          [
+            "closed",
+            "closed"
+          ],
+          [
+            "latency",
+            "latency"
+          ],
+          [
+            "samplerate",
+            "samplerate"
+          ],
+          [
+            "channels",
+            "channels"
+          ],
+          [
+            "dtype",
+            "dtype"
+          ]
+        ]
+      }
+    ]
+  }
+}

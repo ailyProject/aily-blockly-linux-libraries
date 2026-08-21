@@ -1,0 +1,130 @@
+{
+  "toolbox_name": "RPLCD",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_rplcd_call": {
+    "message0": "RPLCD aufrufen oder erzeugen %1 Argumente %2 Schlüsselwortargumente %3",
+    "tooltip": "Eine freigegebene RPLCD-Funktion oder einen Konstruktor aufrufen und das Ergebnis zurückgeben.",
+    "args0": [
+      {
+        "options": [
+          [
+            "CharLCD",
+            "CharLCD"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_rplcd_do": {
+    "message0": "RPLCD ausführen %1 Argumente %2 Schlüsselwortargumente %3",
+    "tooltip": "Eine freigegebene RPLCD-Funktion oder einen Konstruktor als Anweisung ausführen.",
+    "args0": [
+      {
+        "options": [
+          [
+            "CharLCD",
+            "CharLCD"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_rplcd_method": {
+    "message0": "RPLCD-Objekt %1 Methode %2 Argumente %3 Schlüsselwortargumente %4",
+    "tooltip": "Eine freigegebene Methode eines RPLCD-Objekts aufrufen und das Ergebnis zurückgeben.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "write_string",
+            "write_string"
+          ],
+          [
+            "clear",
+            "clear"
+          ],
+          [
+            "create_char",
+            "create_char"
+          ],
+          [
+            "home",
+            "home"
+          ],
+          [
+            "close",
+            "close"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_rplcd_do_method": {
+    "message0": "RPLCD-Objekt %1 Methode %2 ausführen Argumente %3 Schlüsselwortargumente %4",
+    "tooltip": "Eine freigegebene Methode eines RPLCD-Objekts als Anweisung ausführen.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "write_string",
+            "write_string"
+          ],
+          [
+            "clear",
+            "clear"
+          ],
+          [
+            "create_char",
+            "create_char"
+          ],
+          [
+            "home",
+            "home"
+          ],
+          [
+            "close",
+            "close"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_rplcd_attribute": {
+    "message0": "RPLCD-Objekt %1 Attribut %2",
+    "tooltip": "Ein freigegebenes Attribut eines RPLCD-Objekts oder Moduls lesen.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "cursor_pos",
+            "cursor_pos"
+          ],
+          [
+            "backlight_enabled",
+            "backlight_enabled"
+          ],
+          [
+            "cursor_mode",
+            "cursor_mode"
+          ],
+          [
+            "display_enabled",
+            "display_enabled"
+          ]
+        ]
+      }
+    ]
+  }
+}

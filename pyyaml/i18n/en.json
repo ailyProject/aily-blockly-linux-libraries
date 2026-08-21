@@ -1,0 +1,88 @@
+{
+  "toolbox_name": "PyYAML",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_pyyaml_call": {
+    "message0": "PyYAML call or create %1 arguments %2 keyword arguments %3",
+    "tooltip": "Call an allowlisted PyYAML function or constructor and return its result.",
+    "args0": [
+      {
+        "options": [
+          [
+            "safe_load",
+            "safe_load"
+          ],
+          [
+            "safe_load_all",
+            "safe_load_all"
+          ],
+          [
+            "safe_dump",
+            "safe_dump"
+          ],
+          [
+            "safe_dump_all",
+            "safe_dump_all"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_pyyaml_do": {
+    "message0": "run PyYAML %1 arguments %2 keyword arguments %3",
+    "tooltip": "Run an allowlisted PyYAML function or constructor as a statement.",
+    "args0": [
+      {
+        "options": [
+          [
+            "safe_load",
+            "safe_load"
+          ],
+          [
+            "safe_load_all",
+            "safe_load_all"
+          ],
+          [
+            "safe_dump",
+            "safe_dump"
+          ],
+          [
+            "safe_dump_all",
+            "safe_dump_all"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_pyyaml_attribute": {
+    "message0": "PyYAML object %1 attribute %2",
+    "tooltip": "Read an allowlisted PyYAML object or module attribute.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "SafeLoader",
+            "SafeLoader"
+          ],
+          [
+            "CSafeLoader",
+            "CSafeLoader"
+          ],
+          [
+            "SafeDumper",
+            "SafeDumper"
+          ],
+          [
+            "CSafeDumper",
+            "CSafeDumper"
+          ]
+        ]
+      }
+    ]
+  }
+}

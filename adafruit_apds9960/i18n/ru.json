@@ -1,0 +1,102 @@
+{
+  "toolbox_name": "CircuitPython APDS9960",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_adafruit_apds9960_call": {
+    "message0": "CircuitPython APDS9960 вызвать или создать %1 аргументы %2 именованные аргументы %3",
+    "tooltip": "Вызывает разрешённую функцию или конструктор CircuitPython APDS9960 и возвращает результат.",
+    "args0": [
+      {
+        "options": [
+          [
+            "APDS9960",
+            "APDS9960"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_apds9960_do": {
+    "message0": "выполнить CircuitPython APDS9960 %1 аргументы %2 именованные аргументы %3",
+    "tooltip": "Выполняет разрешённую функцию или конструктор CircuitPython APDS9960 как инструкцию.",
+    "args0": [
+      {
+        "options": [
+          [
+            "APDS9960",
+            "APDS9960"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_apds9960_method": {
+    "message0": "объект CircuitPython APDS9960 %1 метод %2 аргументы %3 именованные аргументы %4",
+    "tooltip": "Вызывает разрешённый метод объекта CircuitPython APDS9960 и возвращает результат.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "gesture",
+            "gesture"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_apds9960_do_method": {
+    "message0": "выполнить метод CircuitPython APDS9960 объекта %1 %2 аргументы %3 именованные аргументы %4",
+    "tooltip": "Выполняет разрешённый метод объекта CircuitPython APDS9960 как инструкцию.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "gesture",
+            "gesture"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_apds9960_attribute": {
+    "message0": "объект CircuitPython APDS9960 %1 атрибут %2",
+    "tooltip": "Читает разрешённый атрибут объекта или модуля CircuitPython APDS9960.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "enable_proximity",
+            "enable_proximity"
+          ],
+          [
+            "enable_gesture",
+            "enable_gesture"
+          ],
+          [
+            "enable_color",
+            "enable_color"
+          ],
+          [
+            "color_data",
+            "color_data"
+          ],
+          [
+            "proximity",
+            "proximity"
+          ]
+        ]
+      }
+    ]
+  }
+}

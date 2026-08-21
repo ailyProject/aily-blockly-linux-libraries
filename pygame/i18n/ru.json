@@ -1,0 +1,238 @@
+{
+  "toolbox_name": "pygame",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_pygame_call": {
+    "message0": "pygame вызвать или создать %1 аргументы %2 именованные аргументы %3",
+    "tooltip": "Вызывает разрешённую функцию или конструктор pygame и возвращает результат.",
+    "args0": [
+      {
+        "options": [
+          [
+            "init",
+            "init"
+          ],
+          [
+            "quit",
+            "quit"
+          ],
+          [
+            "display.set_mode",
+            "display.set_mode"
+          ],
+          [
+            "display.flip",
+            "display.flip"
+          ],
+          [
+            "event.get",
+            "event.get"
+          ],
+          [
+            "time.Clock",
+            "time.Clock"
+          ],
+          [
+            "image.load",
+            "image.load"
+          ],
+          [
+            "mixer.Sound",
+            "mixer.Sound"
+          ],
+          [
+            "font.Font",
+            "font.Font"
+          ],
+          [
+            "draw.line",
+            "draw.line"
+          ],
+          [
+            "draw.rect",
+            "draw.rect"
+          ],
+          [
+            "draw.circle",
+            "draw.circle"
+          ],
+          [
+            "transform.scale",
+            "transform.scale"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_pygame_do": {
+    "message0": "выполнить pygame %1 аргументы %2 именованные аргументы %3",
+    "tooltip": "Выполняет разрешённую функцию или конструктор pygame как инструкцию.",
+    "args0": [
+      {
+        "options": [
+          [
+            "init",
+            "init"
+          ],
+          [
+            "quit",
+            "quit"
+          ],
+          [
+            "display.set_mode",
+            "display.set_mode"
+          ],
+          [
+            "display.flip",
+            "display.flip"
+          ],
+          [
+            "event.get",
+            "event.get"
+          ],
+          [
+            "time.Clock",
+            "time.Clock"
+          ],
+          [
+            "image.load",
+            "image.load"
+          ],
+          [
+            "mixer.Sound",
+            "mixer.Sound"
+          ],
+          [
+            "font.Font",
+            "font.Font"
+          ],
+          [
+            "draw.line",
+            "draw.line"
+          ],
+          [
+            "draw.rect",
+            "draw.rect"
+          ],
+          [
+            "draw.circle",
+            "draw.circle"
+          ],
+          [
+            "transform.scale",
+            "transform.scale"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_pygame_method": {
+    "message0": "объект pygame %1 метод %2 аргументы %3 именованные аргументы %4",
+    "tooltip": "Вызывает разрешённый метод объекта pygame и возвращает результат.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "fill",
+            "fill"
+          ],
+          [
+            "blit",
+            "blit"
+          ],
+          [
+            "get_rect",
+            "get_rect"
+          ],
+          [
+            "play",
+            "play"
+          ],
+          [
+            "stop",
+            "stop"
+          ],
+          [
+            "tick",
+            "tick"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_pygame_do_method": {
+    "message0": "выполнить метод pygame объекта %1 %2 аргументы %3 именованные аргументы %4",
+    "tooltip": "Выполняет разрешённый метод объекта pygame как инструкцию.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "fill",
+            "fill"
+          ],
+          [
+            "blit",
+            "blit"
+          ],
+          [
+            "get_rect",
+            "get_rect"
+          ],
+          [
+            "play",
+            "play"
+          ],
+          [
+            "stop",
+            "stop"
+          ],
+          [
+            "tick",
+            "tick"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_pygame_attribute": {
+    "message0": "объект pygame %1 атрибут %2",
+    "tooltip": "Читает разрешённый атрибут объекта или модуля pygame.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "type",
+            "type"
+          ],
+          [
+            "key",
+            "key"
+          ],
+          [
+            "pos",
+            "pos"
+          ],
+          [
+            "button",
+            "button"
+          ],
+          [
+            "size",
+            "size"
+          ]
+        ]
+      }
+    ]
+  }
+}

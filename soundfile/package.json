@@ -1,0 +1,47 @@
+{
+  "name": "@aily-project/lib-soundfile",
+  "nickname": "SoundFile",
+  "nickname_zh_cn": "SoundFile",
+  "nickname_en": "SoundFile",
+  "nickname_zh_hk": "SoundFile",
+  "nickname_ja": "SoundFile",
+  "nickname_ko": "SoundFile",
+  "nickname_de": "SoundFile",
+  "nickname_fr": "SoundFile",
+  "nickname_es": "SoundFile",
+  "nickname_pt": "SoundFile",
+  "nickname_ru": "SoundFile",
+  "nickname_ar": "SoundFile",
+  "version": "0.0.1",
+  "description": "面向树莓派与 Linux 开发板的 SoundFile 常用 Python API 白名单积木。",
+  "description_zh_cn": "面向树莓派与 Linux 开发板的 SoundFile 常用 Python API 白名单积木。",
+  "description_en": "Allowlisted SoundFile Python API blocks for Raspberry Pi and Linux single-board computers.",
+  "spec": true,
+  "compatibility": {
+    "type": [
+      "canaan:k230:cybercam",
+      "broadcom:bcm2712:raspberrypi_5",
+      "allwinner:t527:walnutpi_2b"
+    ],
+    "voltage": [
+      3.3
+    ]
+  },
+  "keywords": [
+    "aily",
+    "blockly",
+    "python",
+    "linux",
+    "raspberry-pi",
+    "soundfile",
+    "soundfile"
+  ],
+  "tags": [
+    "audio"
+  ],
+  "author": "ailyProject",
+  "license": "MIT",
+  "homepage": "https://python-soundfile.readthedocs.io/",
+  "dependencies": {},
+  "devDependencies": {}
+}

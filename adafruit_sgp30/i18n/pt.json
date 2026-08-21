@@ -1,0 +1,138 @@
+{
+  "toolbox_name": "CircuitPython SGP30",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_adafruit_sgp30_call": {
+    "message0": "CircuitPython SGP30 chamar ou criar %1 argumentos %2 argumentos nomeados %3",
+    "tooltip": "Chama uma função ou construtor permitido de CircuitPython SGP30 e devolve o resultado.",
+    "args0": [
+      {
+        "options": [
+          [
+            "Adafruit_SGP30",
+            "Adafruit_SGP30"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_sgp30_do": {
+    "message0": "executar CircuitPython SGP30 %1 argumentos %2 argumentos nomeados %3",
+    "tooltip": "Executa uma função ou construtor permitido de CircuitPython SGP30 como instrução.",
+    "args0": [
+      {
+        "options": [
+          [
+            "Adafruit_SGP30",
+            "Adafruit_SGP30"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_sgp30_method": {
+    "message0": "objeto CircuitPython SGP30 %1 método %2 argumentos %3 argumentos nomeados %4",
+    "tooltip": "Chama um método permitido de um objeto CircuitPython SGP30 e devolve o resultado.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "iaq_init",
+            "iaq_init"
+          ],
+          [
+            "iaq_measure",
+            "iaq_measure"
+          ],
+          [
+            "raw_measure",
+            "raw_measure"
+          ],
+          [
+            "set_iaq_baseline",
+            "set_iaq_baseline"
+          ],
+          [
+            "get_iaq_baseline",
+            "get_iaq_baseline"
+          ],
+          [
+            "set_iaq_relative_humidity",
+            "set_iaq_relative_humidity"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_sgp30_do_method": {
+    "message0": "executar método de CircuitPython SGP30 objeto %1 %2 argumentos %3 argumentos nomeados %4",
+    "tooltip": "Executa um método permitido de um objeto CircuitPython SGP30 como instrução.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "iaq_init",
+            "iaq_init"
+          ],
+          [
+            "iaq_measure",
+            "iaq_measure"
+          ],
+          [
+            "raw_measure",
+            "raw_measure"
+          ],
+          [
+            "set_iaq_baseline",
+            "set_iaq_baseline"
+          ],
+          [
+            "get_iaq_baseline",
+            "get_iaq_baseline"
+          ],
+          [
+            "set_iaq_relative_humidity",
+            "set_iaq_relative_humidity"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_sgp30_attribute": {
+    "message0": "objeto CircuitPython SGP30 %1 atributo %2",
+    "tooltip": "Lê um atributo permitido de um objeto ou módulo CircuitPython SGP30.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "eCO2",
+            "eCO2"
+          ],
+          [
+            "TVOC",
+            "TVOC"
+          ],
+          [
+            "raw_h2",
+            "raw_h2"
+          ],
+          [
+            "raw_ethanol",
+            "raw_ethanol"
+          ]
+        ]
+      }
+    ]
+  }
+}

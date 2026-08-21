@@ -1,0 +1,200 @@
+[
+  {
+    "type": "python_adafruit_sgp30_call",
+    "message0": "CircuitPython SGP30 call or create %1 arguments %2 keyword arguments %3",
+    "args0": [
+      {
+        "type": "field_dropdown",
+        "name": "TARGET",
+        "options": [
+          [
+            "Adafruit_SGP30",
+            "Adafruit_SGP30"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#00897B",
+    "tooltip": "Call an allowlisted CircuitPython SGP30 function or constructor and return its result.",
+    "icon": "settings",
+    "output": "Any"
+  },
+  {
+    "type": "python_adafruit_sgp30_do",
+    "message0": "run CircuitPython SGP30 %1 arguments %2 keyword arguments %3",
+    "args0": [
+      {
+        "type": "field_dropdown",
+        "name": "TARGET",
+        "options": [
+          [
+            "Adafruit_SGP30",
+            "Adafruit_SGP30"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#00897B",
+    "tooltip": "Run an allowlisted CircuitPython SGP30 function or constructor as a statement.",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "python_adafruit_sgp30_method",
+    "message0": "CircuitPython SGP30 object %1 call method %2 arguments %3 keyword arguments %4",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "OBJECT"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "METHOD",
+        "options": [
+          [
+            "iaq_init",
+            "iaq_init"
+          ],
+          [
+            "iaq_measure",
+            "iaq_measure"
+          ],
+          [
+            "raw_measure",
+            "raw_measure"
+          ],
+          [
+            "set_iaq_baseline",
+            "set_iaq_baseline"
+          ],
+          [
+            "get_iaq_baseline",
+            "get_iaq_baseline"
+          ],
+          [
+            "set_iaq_relative_humidity",
+            "set_iaq_relative_humidity"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#00897B",
+    "tooltip": "Call an allowlisted CircuitPython SGP30 object method and return its result.",
+    "icon": "settings",
+    "output": "Any"
+  },
+  {
+    "type": "python_adafruit_sgp30_do_method",
+    "message0": "run CircuitPython SGP30 object %1 method %2 arguments %3 keyword arguments %4",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "OBJECT"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "METHOD",
+        "options": [
+          [
+            "iaq_init",
+            "iaq_init"
+          ],
+          [
+            "iaq_measure",
+            "iaq_measure"
+          ],
+          [
+            "raw_measure",
+            "raw_measure"
+          ],
+          [
+            "set_iaq_baseline",
+            "set_iaq_baseline"
+          ],
+          [
+            "get_iaq_baseline",
+            "get_iaq_baseline"
+          ],
+          [
+            "set_iaq_relative_humidity",
+            "set_iaq_relative_humidity"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#00897B",
+    "tooltip": "Run an allowlisted CircuitPython SGP30 object method as a statement.",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "python_adafruit_sgp30_attribute",
+    "message0": "CircuitPython SGP30 object %1 attribute %2",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "OBJECT"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "ATTRIBUTE",
+        "options": [
+          [
+            "eCO2",
+            "eCO2"
+          ],
+          [
+            "TVOC",
+            "TVOC"
+          ],
+          [
+            "raw_h2",
+            "raw_h2"
+          ],
+          [
+            "raw_ethanol",
+            "raw_ethanol"
+          ]
+        ]
+      }
+    ],
+    "colour": "#00897B",
+    "tooltip": "Read an allowlisted CircuitPython SGP30 object or module attribute.",
+    "icon": "settings",
+    "output": "Any"
+  }
+]

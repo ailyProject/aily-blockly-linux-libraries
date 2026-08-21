@@ -1,0 +1,27 @@
+{
+  "kind": "category",
+  "name": "dbus-next",
+  "colour": "#455A64",
+  "contents": [
+    {
+      "kind": "block",
+      "type": "python_dbus_next_call"
+    },
+    {
+      "kind": "block",
+      "type": "python_dbus_next_do"
+    },
+    {
+      "kind": "block",
+      "type": "python_dbus_next_method"
+    },
+    {
+      "kind": "block",
+      "type": "python_dbus_next_do_method"
+    },
+    {
+      "kind": "block",
+      "type": "python_dbus_next_attribute"
+    }
+  ]
+}

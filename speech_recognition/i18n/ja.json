@@ -1,0 +1,166 @@
+{
+  "toolbox_name": "SpeechRecognition",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_speech_recognition_call": {
+    "message0": "SpeechRecognition 呼び出しまたは作成 %1 引数 %2 キーワード引数 %3",
+    "tooltip": "許可された SpeechRecognition の関数またはコンストラクターを呼び出して結果を返します。",
+    "args0": [
+      {
+        "options": [
+          [
+            "Recognizer",
+            "Recognizer"
+          ],
+          [
+            "Microphone",
+            "Microphone"
+          ],
+          [
+            "AudioFile",
+            "AudioFile"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_speech_recognition_do": {
+    "message0": "SpeechRecognition を実行 %1 引数 %2 キーワード引数 %3",
+    "tooltip": "許可された SpeechRecognition の関数またはコンストラクターを文として実行します。",
+    "args0": [
+      {
+        "options": [
+          [
+            "Recognizer",
+            "Recognizer"
+          ],
+          [
+            "Microphone",
+            "Microphone"
+          ],
+          [
+            "AudioFile",
+            "AudioFile"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_speech_recognition_method": {
+    "message0": "SpeechRecognition オブジェクト %1 メソッド %2 引数 %3 キーワード引数 %4",
+    "tooltip": "許可された SpeechRecognition オブジェクトのメソッドを呼び出して結果を返します。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "listen",
+            "listen"
+          ],
+          [
+            "record",
+            "record"
+          ],
+          [
+            "adjust_for_ambient_noise",
+            "adjust_for_ambient_noise"
+          ],
+          [
+            "recognize_google",
+            "recognize_google"
+          ],
+          [
+            "recognize_sphinx",
+            "recognize_sphinx"
+          ],
+          [
+            "recognize_vosk",
+            "recognize_vosk"
+          ],
+          [
+            "recognize_whisper",
+            "recognize_whisper"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_speech_recognition_do_method": {
+    "message0": "SpeechRecognition オブジェクト %1 のメソッド %2 を実行 引数 %3 キーワード引数 %4",
+    "tooltip": "許可された SpeechRecognition オブジェクトのメソッドを文として実行します。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "listen",
+            "listen"
+          ],
+          [
+            "record",
+            "record"
+          ],
+          [
+            "adjust_for_ambient_noise",
+            "adjust_for_ambient_noise"
+          ],
+          [
+            "recognize_google",
+            "recognize_google"
+          ],
+          [
+            "recognize_sphinx",
+            "recognize_sphinx"
+          ],
+          [
+            "recognize_vosk",
+            "recognize_vosk"
+          ],
+          [
+            "recognize_whisper",
+            "recognize_whisper"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_speech_recognition_attribute": {
+    "message0": "SpeechRecognition オブジェクト %1 属性 %2",
+    "tooltip": "許可された SpeechRecognition オブジェクトまたはモジュールの属性を読み取ります。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "energy_threshold",
+            "energy_threshold"
+          ],
+          [
+            "dynamic_energy_threshold",
+            "dynamic_energy_threshold"
+          ],
+          [
+            "pause_threshold",
+            "pause_threshold"
+          ],
+          [
+            "phrase_threshold",
+            "phrase_threshold"
+          ],
+          [
+            "non_speaking_duration",
+            "non_speaking_duration"
+          ]
+        ]
+      }
+    ]
+  }
+}

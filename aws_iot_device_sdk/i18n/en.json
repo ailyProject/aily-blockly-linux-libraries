@@ -1,0 +1,135 @@
+{
+  "toolbox_name": "AWS IoT Device SDK v2",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_aws_iot_device_sdk_call": {
+    "message0": "AWS IoT Device SDK v2 call or create %1 arguments %2 keyword arguments %3",
+    "tooltip": "Call an allowlisted AWS IoT Device SDK v2 function or constructor and return its result.",
+    "args0": [
+      {
+        "options": [
+          [
+            "mtls_from_path",
+            "mtls_from_path"
+          ],
+          [
+            "mtls_from_bytes",
+            "mtls_from_bytes"
+          ],
+          [
+            "websockets_with_default_aws_signing",
+            "websockets_with_default_aws_signing"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_aws_iot_device_sdk_do": {
+    "message0": "run AWS IoT Device SDK v2 %1 arguments %2 keyword arguments %3",
+    "tooltip": "Run an allowlisted AWS IoT Device SDK v2 function or constructor as a statement.",
+    "args0": [
+      {
+        "options": [
+          [
+            "mtls_from_path",
+            "mtls_from_path"
+          ],
+          [
+            "mtls_from_bytes",
+            "mtls_from_bytes"
+          ],
+          [
+            "websockets_with_default_aws_signing",
+            "websockets_with_default_aws_signing"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_aws_iot_device_sdk_method": {
+    "message0": "AWS IoT Device SDK v2 object %1 call method %2 arguments %3 keyword arguments %4",
+    "tooltip": "Call an allowlisted AWS IoT Device SDK v2 object method and return its result.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "connect",
+            "connect"
+          ],
+          [
+            "disconnect",
+            "disconnect"
+          ],
+          [
+            "publish",
+            "publish"
+          ],
+          [
+            "subscribe",
+            "subscribe"
+          ],
+          [
+            "unsubscribe",
+            "unsubscribe"
+          ],
+          [
+            "resubscribe_existing_topics",
+            "resubscribe_existing_topics"
+          ],
+          [
+            "result",
+            "result"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_aws_iot_device_sdk_do_method": {
+    "message0": "run AWS IoT Device SDK v2 object %1 method %2 arguments %3 keyword arguments %4",
+    "tooltip": "Run an allowlisted AWS IoT Device SDK v2 object method as a statement.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "connect",
+            "connect"
+          ],
+          [
+            "disconnect",
+            "disconnect"
+          ],
+          [
+            "publish",
+            "publish"
+          ],
+          [
+            "subscribe",
+            "subscribe"
+          ],
+          [
+            "unsubscribe",
+            "unsubscribe"
+          ],
+          [
+            "resubscribe_existing_topics",
+            "resubscribe_existing_topics"
+          ],
+          [
+            "result",
+            "result"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  }
+}

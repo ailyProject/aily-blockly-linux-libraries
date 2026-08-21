@@ -1,0 +1,47 @@
+{
+  "name": "@aily-project/lib-psutil",
+  "nickname": "psutil",
+  "nickname_zh_cn": "psutil",
+  "nickname_en": "psutil",
+  "nickname_zh_hk": "psutil",
+  "nickname_ja": "psutil",
+  "nickname_ko": "psutil",
+  "nickname_de": "psutil",
+  "nickname_fr": "psutil",
+  "nickname_es": "psutil",
+  "nickname_pt": "psutil",
+  "nickname_ru": "psutil",
+  "nickname_ar": "psutil",
+  "version": "0.0.1",
+  "description": "面向树莓派与 Linux 开发板的 psutil 常用 Python API 白名单积木。",
+  "description_zh_cn": "面向树莓派与 Linux 开发板的 psutil 常用 Python API 白名单积木。",
+  "description_en": "Allowlisted psutil Python API blocks for Raspberry Pi and Linux single-board computers.",
+  "spec": true,
+  "compatibility": {
+    "type": [
+      "canaan:k230:cybercam",
+      "broadcom:bcm2712:raspberrypi_5",
+      "allwinner:t527:walnutpi_2b"
+    ],
+    "voltage": [
+      3.3
+    ]
+  },
+  "keywords": [
+    "aily",
+    "blockly",
+    "python",
+    "linux",
+    "raspberry-pi",
+    "psutil",
+    "psutil"
+  ],
+  "tags": [
+    "system"
+  ],
+  "author": "ailyProject",
+  "license": "MIT",
+  "homepage": "https://psutil.readthedocs.io/",
+  "dependencies": {},
+  "devDependencies": {}
+}

@@ -1,0 +1,166 @@
+{
+  "toolbox_name": "pydub",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_pydub_call": {
+    "message0": "pydub 呼叫或建立 %1 參數 %2 關鍵字參數 %3",
+    "tooltip": "呼叫白名單中的 pydub 函式或建構器並傳回結果。",
+    "args0": [
+      {
+        "options": [
+          [
+            "AudioSegment.silent",
+            "AudioSegment.silent"
+          ],
+          [
+            "AudioSegment.from_file",
+            "AudioSegment.from_file"
+          ],
+          [
+            "AudioSegment.from_wav",
+            "AudioSegment.from_wav"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_pydub_do": {
+    "message0": "執行 pydub %1 參數 %2 關鍵字參數 %3",
+    "tooltip": "以敘述方式執行白名單中的 pydub 函式或建構器。",
+    "args0": [
+      {
+        "options": [
+          [
+            "AudioSegment.silent",
+            "AudioSegment.silent"
+          ],
+          [
+            "AudioSegment.from_file",
+            "AudioSegment.from_file"
+          ],
+          [
+            "AudioSegment.from_wav",
+            "AudioSegment.from_wav"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_pydub_method": {
+    "message0": "pydub 物件 %1 呼叫方法 %2 參數 %3 關鍵字參數 %4",
+    "tooltip": "呼叫白名單中的 pydub 物件方法並傳回結果。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "export",
+            "export"
+          ],
+          [
+            "overlay",
+            "overlay"
+          ],
+          [
+            "append",
+            "append"
+          ],
+          [
+            "fade_in",
+            "fade_in"
+          ],
+          [
+            "fade_out",
+            "fade_out"
+          ],
+          [
+            "set_frame_rate",
+            "set_frame_rate"
+          ],
+          [
+            "set_channels",
+            "set_channels"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_pydub_do_method": {
+    "message0": "執行 pydub 物件 %1 的方法 %2 參數 %3 關鍵字參數 %4",
+    "tooltip": "以敘述方式執行白名單中的 pydub 物件方法。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "export",
+            "export"
+          ],
+          [
+            "overlay",
+            "overlay"
+          ],
+          [
+            "append",
+            "append"
+          ],
+          [
+            "fade_in",
+            "fade_in"
+          ],
+          [
+            "fade_out",
+            "fade_out"
+          ],
+          [
+            "set_frame_rate",
+            "set_frame_rate"
+          ],
+          [
+            "set_channels",
+            "set_channels"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_pydub_attribute": {
+    "message0": "pydub 物件 %1 屬性 %2",
+    "tooltip": "讀取白名單中的 pydub 物件或模組屬性。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "duration_seconds",
+            "duration_seconds"
+          ],
+          [
+            "frame_rate",
+            "frame_rate"
+          ],
+          [
+            "channels",
+            "channels"
+          ],
+          [
+            "sample_width",
+            "sample_width"
+          ],
+          [
+            "raw_data",
+            "raw_data"
+          ]
+        ]
+      }
+    ]
+  }
+}

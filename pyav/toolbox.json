@@ -1,0 +1,27 @@
+{
+  "kind": "category",
+  "name": "PyAV",
+  "colour": "#1976D2",
+  "contents": [
+    {
+      "kind": "block",
+      "type": "python_pyav_call"
+    },
+    {
+      "kind": "block",
+      "type": "python_pyav_do"
+    },
+    {
+      "kind": "block",
+      "type": "python_pyav_method"
+    },
+    {
+      "kind": "block",
+      "type": "python_pyav_do_method"
+    },
+    {
+      "kind": "block",
+      "type": "python_pyav_attribute"
+    }
+  ]
+}

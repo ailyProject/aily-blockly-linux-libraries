@@ -1,0 +1,118 @@
+{
+  "toolbox_name": "CircuitPython INA219",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_adafruit_ina219_call": {
+    "message0": "CircuitPython INA219 aufrufen oder erzeugen %1 Argumente %2 Schlüsselwortargumente %3",
+    "tooltip": "Eine freigegebene CircuitPython INA219-Funktion oder einen Konstruktor aufrufen und das Ergebnis zurückgeben.",
+    "args0": [
+      {
+        "options": [
+          [
+            "INA219",
+            "INA219"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_ina219_do": {
+    "message0": "CircuitPython INA219 ausführen %1 Argumente %2 Schlüsselwortargumente %3",
+    "tooltip": "Eine freigegebene CircuitPython INA219-Funktion oder einen Konstruktor als Anweisung ausführen.",
+    "args0": [
+      {
+        "options": [
+          [
+            "INA219",
+            "INA219"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_ina219_method": {
+    "message0": "CircuitPython INA219-Objekt %1 Methode %2 Argumente %3 Schlüsselwortargumente %4",
+    "tooltip": "Eine freigegebene Methode eines CircuitPython INA219-Objekts aufrufen und das Ergebnis zurückgeben.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "reset",
+            "reset"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_ina219_do_method": {
+    "message0": "CircuitPython INA219-Objekt %1 Methode %2 ausführen Argumente %3 Schlüsselwortargumente %4",
+    "tooltip": "Eine freigegebene Methode eines CircuitPython INA219-Objekts als Anweisung ausführen.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "reset",
+            "reset"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_ina219_attribute": {
+    "message0": "CircuitPython INA219-Objekt %1 Attribut %2",
+    "tooltip": "Ein freigegebenes Attribut eines CircuitPython INA219-Objekts oder Moduls lesen.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "bus_voltage",
+            "bus_voltage"
+          ],
+          [
+            "current",
+            "current"
+          ],
+          [
+            "power",
+            "power"
+          ],
+          [
+            "shunt_voltage",
+            "shunt_voltage"
+          ],
+          [
+            "conversion_ready",
+            "conversion_ready"
+          ],
+          [
+            "overflow",
+            "overflow"
+          ],
+          [
+            "bus_adc_resolution",
+            "bus_adc_resolution"
+          ],
+          [
+            "shunt_adc_resolution",
+            "shunt_adc_resolution"
+          ],
+          [
+            "mode",
+            "mode"
+          ]
+        ]
+      }
+    ]
+  }
+}

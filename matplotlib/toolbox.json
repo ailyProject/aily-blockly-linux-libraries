@@ -1,0 +1,27 @@
+{
+  "kind": "category",
+  "name": "Matplotlib pyplot",
+  "colour": "#7B1FA2",
+  "contents": [
+    {
+      "kind": "block",
+      "type": "python_matplotlib_call"
+    },
+    {
+      "kind": "block",
+      "type": "python_matplotlib_do"
+    },
+    {
+      "kind": "block",
+      "type": "python_matplotlib_method"
+    },
+    {
+      "kind": "block",
+      "type": "python_matplotlib_do_method"
+    },
+    {
+      "kind": "block",
+      "type": "python_matplotlib_attribute"
+    }
+  ]
+}

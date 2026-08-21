@@ -1,0 +1,218 @@
+{
+  "toolbox_name": "python-sounddevice",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_sounddevice_call": {
+    "message0": "python-sounddevice вызвать или создать %1 аргументы %2 именованные аргументы %3",
+    "tooltip": "Вызывает разрешённую функцию или конструктор python-sounddevice и возвращает результат.",
+    "args0": [
+      {
+        "options": [
+          [
+            "play",
+            "play"
+          ],
+          [
+            "rec",
+            "rec"
+          ],
+          [
+            "playrec",
+            "playrec"
+          ],
+          [
+            "wait",
+            "wait"
+          ],
+          [
+            "stop",
+            "stop"
+          ],
+          [
+            "query_devices",
+            "query_devices"
+          ],
+          [
+            "query_hostapis",
+            "query_hostapis"
+          ],
+          [
+            "InputStream",
+            "InputStream"
+          ],
+          [
+            "OutputStream",
+            "OutputStream"
+          ],
+          [
+            "Stream",
+            "Stream"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_sounddevice_do": {
+    "message0": "выполнить python-sounddevice %1 аргументы %2 именованные аргументы %3",
+    "tooltip": "Выполняет разрешённую функцию или конструктор python-sounddevice как инструкцию.",
+    "args0": [
+      {
+        "options": [
+          [
+            "play",
+            "play"
+          ],
+          [
+            "rec",
+            "rec"
+          ],
+          [
+            "playrec",
+            "playrec"
+          ],
+          [
+            "wait",
+            "wait"
+          ],
+          [
+            "stop",
+            "stop"
+          ],
+          [
+            "query_devices",
+            "query_devices"
+          ],
+          [
+            "query_hostapis",
+            "query_hostapis"
+          ],
+          [
+            "InputStream",
+            "InputStream"
+          ],
+          [
+            "OutputStream",
+            "OutputStream"
+          ],
+          [
+            "Stream",
+            "Stream"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_sounddevice_method": {
+    "message0": "объект python-sounddevice %1 метод %2 аргументы %3 именованные аргументы %4",
+    "tooltip": "Вызывает разрешённый метод объекта python-sounddevice и возвращает результат.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "start",
+            "start"
+          ],
+          [
+            "stop",
+            "stop"
+          ],
+          [
+            "abort",
+            "abort"
+          ],
+          [
+            "close",
+            "close"
+          ],
+          [
+            "read",
+            "read"
+          ],
+          [
+            "write",
+            "write"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_sounddevice_do_method": {
+    "message0": "выполнить метод python-sounddevice объекта %1 %2 аргументы %3 именованные аргументы %4",
+    "tooltip": "Выполняет разрешённый метод объекта python-sounddevice как инструкцию.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "start",
+            "start"
+          ],
+          [
+            "stop",
+            "stop"
+          ],
+          [
+            "abort",
+            "abort"
+          ],
+          [
+            "close",
+            "close"
+          ],
+          [
+            "read",
+            "read"
+          ],
+          [
+            "write",
+            "write"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_sounddevice_attribute": {
+    "message0": "объект python-sounddevice %1 атрибут %2",
+    "tooltip": "Читает разрешённый атрибут объекта или модуля python-sounddevice.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "active",
+            "active"
+          ],
+          [
+            "closed",
+            "closed"
+          ],
+          [
+            "latency",
+            "latency"
+          ],
+          [
+            "samplerate",
+            "samplerate"
+          ],
+          [
+            "channels",
+            "channels"
+          ],
+          [
+            "dtype",
+            "dtype"
+          ]
+        ]
+      }
+    ]
+  }
+}

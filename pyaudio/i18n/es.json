@@ -1,0 +1,174 @@
+{
+  "toolbox_name": "PyAudio",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_pyaudio_call": {
+    "message0": "PyAudio llamar o crear %1 argumentos %2 argumentos con nombre %3",
+    "tooltip": "Llama a una función o constructor permitido de PyAudio y devuelve el resultado.",
+    "args0": [
+      {
+        "options": [
+          [
+            "PyAudio",
+            "PyAudio"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_pyaudio_do": {
+    "message0": "ejecutar PyAudio %1 argumentos %2 argumentos con nombre %3",
+    "tooltip": "Ejecuta una función o constructor permitido de PyAudio como sentencia.",
+    "args0": [
+      {
+        "options": [
+          [
+            "PyAudio",
+            "PyAudio"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_pyaudio_method": {
+    "message0": "objeto PyAudio %1 método %2 argumentos %3 argumentos con nombre %4",
+    "tooltip": "Llama a un método permitido de un objeto PyAudio y devuelve el resultado.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "open",
+            "open"
+          ],
+          [
+            "terminate",
+            "terminate"
+          ],
+          [
+            "get_device_count",
+            "get_device_count"
+          ],
+          [
+            "get_device_info_by_index",
+            "get_device_info_by_index"
+          ],
+          [
+            "get_default_input_device_info",
+            "get_default_input_device_info"
+          ],
+          [
+            "is_format_supported",
+            "is_format_supported"
+          ],
+          [
+            "read",
+            "read"
+          ],
+          [
+            "write",
+            "write"
+          ],
+          [
+            "start_stream",
+            "start_stream"
+          ],
+          [
+            "stop_stream",
+            "stop_stream"
+          ],
+          [
+            "close",
+            "close"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_pyaudio_do_method": {
+    "message0": "ejecutar método de PyAudio objeto %1 %2 argumentos %3 argumentos con nombre %4",
+    "tooltip": "Ejecuta un método permitido de un objeto PyAudio como sentencia.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "open",
+            "open"
+          ],
+          [
+            "terminate",
+            "terminate"
+          ],
+          [
+            "get_device_count",
+            "get_device_count"
+          ],
+          [
+            "get_device_info_by_index",
+            "get_device_info_by_index"
+          ],
+          [
+            "get_default_input_device_info",
+            "get_default_input_device_info"
+          ],
+          [
+            "is_format_supported",
+            "is_format_supported"
+          ],
+          [
+            "read",
+            "read"
+          ],
+          [
+            "write",
+            "write"
+          ],
+          [
+            "start_stream",
+            "start_stream"
+          ],
+          [
+            "stop_stream",
+            "stop_stream"
+          ],
+          [
+            "close",
+            "close"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_pyaudio_attribute": {
+    "message0": "objeto PyAudio %1 atributo %2",
+    "tooltip": "Lee un atributo permitido de un objeto o módulo PyAudio.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "paInt16",
+            "paInt16"
+          ],
+          [
+            "paFloat32",
+            "paFloat32"
+          ],
+          [
+            "paUInt8",
+            "paUInt8"
+          ]
+        ]
+      }
+    ]
+  }
+}

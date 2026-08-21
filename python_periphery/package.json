@@ -1,0 +1,47 @@
+{
+  "name": "@aily-project/lib-python-periphery",
+  "nickname": "python-periphery",
+  "nickname_zh_cn": "python-periphery",
+  "nickname_en": "python-periphery",
+  "nickname_zh_hk": "python-periphery",
+  "nickname_ja": "python-periphery",
+  "nickname_ko": "python-periphery",
+  "nickname_de": "python-periphery",
+  "nickname_fr": "python-periphery",
+  "nickname_es": "python-periphery",
+  "nickname_pt": "python-periphery",
+  "nickname_ru": "python-periphery",
+  "nickname_ar": "python-periphery",
+  "version": "0.0.1",
+  "description": "面向树莓派与 Linux 开发板的 python-periphery 常用 Python API 白名单积木。",
+  "description_zh_cn": "面向树莓派与 Linux 开发板的 python-periphery 常用 Python API 白名单积木。",
+  "description_en": "Allowlisted python-periphery Python API blocks for Raspberry Pi and Linux single-board computers.",
+  "spec": true,
+  "compatibility": {
+    "type": [
+      "canaan:k230:cybercam",
+      "broadcom:bcm2712:raspberrypi_5",
+      "allwinner:t527:walnutpi_2b"
+    ],
+    "voltage": [
+      3.3
+    ]
+  },
+  "keywords": [
+    "aily",
+    "blockly",
+    "python",
+    "linux",
+    "raspberry-pi",
+    "python-periphery",
+    "periphery"
+  ],
+  "tags": [
+    "io"
+  ],
+  "author": "ailyProject",
+  "license": "MIT",
+  "homepage": "https://python-periphery.readthedocs.io/",
+  "dependencies": {},
+  "devDependencies": {}
+}

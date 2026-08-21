@@ -1,0 +1,150 @@
+{
+  "toolbox_name": "luma.led_matrix",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_luma_led_matrix_call": {
+    "message0": "luma.led_matrix aufrufen oder erzeugen %1 Argumente %2 Schlüsselwortargumente %3",
+    "tooltip": "Eine freigegebene luma.led_matrix-Funktion oder einen Konstruktor aufrufen und das Ergebnis zurückgeben.",
+    "args0": [
+      {
+        "options": [
+          [
+            "max7219",
+            "max7219"
+          ],
+          [
+            "ws2812",
+            "ws2812"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_luma_led_matrix_do": {
+    "message0": "luma.led_matrix ausführen %1 Argumente %2 Schlüsselwortargumente %3",
+    "tooltip": "Eine freigegebene luma.led_matrix-Funktion oder einen Konstruktor als Anweisung ausführen.",
+    "args0": [
+      {
+        "options": [
+          [
+            "max7219",
+            "max7219"
+          ],
+          [
+            "ws2812",
+            "ws2812"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_luma_led_matrix_method": {
+    "message0": "luma.led_matrix-Objekt %1 Methode %2 Argumente %3 Schlüsselwortargumente %4",
+    "tooltip": "Eine freigegebene Methode eines luma.led_matrix-Objekts aufrufen und das Ergebnis zurückgeben.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "display",
+            "display"
+          ],
+          [
+            "clear",
+            "clear"
+          ],
+          [
+            "show",
+            "show"
+          ],
+          [
+            "hide",
+            "hide"
+          ],
+          [
+            "contrast",
+            "contrast"
+          ],
+          [
+            "cleanup",
+            "cleanup"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_luma_led_matrix_do_method": {
+    "message0": "luma.led_matrix-Objekt %1 Methode %2 ausführen Argumente %3 Schlüsselwortargumente %4",
+    "tooltip": "Eine freigegebene Methode eines luma.led_matrix-Objekts als Anweisung ausführen.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "display",
+            "display"
+          ],
+          [
+            "clear",
+            "clear"
+          ],
+          [
+            "show",
+            "show"
+          ],
+          [
+            "hide",
+            "hide"
+          ],
+          [
+            "contrast",
+            "contrast"
+          ],
+          [
+            "cleanup",
+            "cleanup"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_luma_led_matrix_attribute": {
+    "message0": "luma.led_matrix-Objekt %1 Attribut %2",
+    "tooltip": "Ein freigegebenes Attribut eines luma.led_matrix-Objekts oder Moduls lesen.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "width",
+            "width"
+          ],
+          [
+            "height",
+            "height"
+          ],
+          [
+            "size",
+            "size"
+          ],
+          [
+            "mode",
+            "mode"
+          ],
+          [
+            "bounding_box",
+            "bounding_box"
+          ]
+        ]
+      }
+    ]
+  }
+}

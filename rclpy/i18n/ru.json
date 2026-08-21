@@ -1,0 +1,186 @@
+{
+  "toolbox_name": "ROS 2 rclpy",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_rclpy_call": {
+    "message0": "ROS 2 rclpy вызвать или создать %1 аргументы %2 именованные аргументы %3",
+    "tooltip": "Вызывает разрешённую функцию или конструктор ROS 2 rclpy и возвращает результат.",
+    "args0": [
+      {
+        "options": [
+          [
+            "init",
+            "init"
+          ],
+          [
+            "shutdown",
+            "shutdown"
+          ],
+          [
+            "ok",
+            "ok"
+          ],
+          [
+            "spin",
+            "spin"
+          ],
+          [
+            "spin_once",
+            "spin_once"
+          ],
+          [
+            "create_node",
+            "create_node"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_rclpy_do": {
+    "message0": "выполнить ROS 2 rclpy %1 аргументы %2 именованные аргументы %3",
+    "tooltip": "Выполняет разрешённую функцию или конструктор ROS 2 rclpy как инструкцию.",
+    "args0": [
+      {
+        "options": [
+          [
+            "init",
+            "init"
+          ],
+          [
+            "shutdown",
+            "shutdown"
+          ],
+          [
+            "ok",
+            "ok"
+          ],
+          [
+            "spin",
+            "spin"
+          ],
+          [
+            "spin_once",
+            "spin_once"
+          ],
+          [
+            "create_node",
+            "create_node"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_rclpy_method": {
+    "message0": "объект ROS 2 rclpy %1 метод %2 аргументы %3 именованные аргументы %4",
+    "tooltip": "Вызывает разрешённый метод объекта ROS 2 rclpy и возвращает результат.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "create_publisher",
+            "create_publisher"
+          ],
+          [
+            "create_subscription",
+            "create_subscription"
+          ],
+          [
+            "create_timer",
+            "create_timer"
+          ],
+          [
+            "create_client",
+            "create_client"
+          ],
+          [
+            "create_service",
+            "create_service"
+          ],
+          [
+            "get_logger",
+            "get_logger"
+          ],
+          [
+            "destroy_node",
+            "destroy_node"
+          ],
+          [
+            "publish",
+            "publish"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_rclpy_do_method": {
+    "message0": "выполнить метод ROS 2 rclpy объекта %1 %2 аргументы %3 именованные аргументы %4",
+    "tooltip": "Выполняет разрешённый метод объекта ROS 2 rclpy как инструкцию.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "create_publisher",
+            "create_publisher"
+          ],
+          [
+            "create_subscription",
+            "create_subscription"
+          ],
+          [
+            "create_timer",
+            "create_timer"
+          ],
+          [
+            "create_client",
+            "create_client"
+          ],
+          [
+            "create_service",
+            "create_service"
+          ],
+          [
+            "get_logger",
+            "get_logger"
+          ],
+          [
+            "destroy_node",
+            "destroy_node"
+          ],
+          [
+            "publish",
+            "publish"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_rclpy_attribute": {
+    "message0": "объект ROS 2 rclpy %1 атрибут %2",
+    "tooltip": "Читает разрешённый атрибут объекта или модуля ROS 2 rclpy.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "context",
+            "context"
+          ],
+          [
+            "default_callback_group",
+            "default_callback_group"
+          ]
+        ]
+      }
+    ]
+  }
+}

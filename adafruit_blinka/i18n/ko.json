@@ -1,0 +1,298 @@
+{
+  "toolbox_name": "Adafruit Blinka",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_adafruit_blinka_call": {
+    "message0": "Adafruit Blinka 호출 또는 생성 %1 인수 %2 키워드 인수 %3",
+    "tooltip": "허용 목록의 Adafruit Blinka 함수 또는 생성자를 호출하고 결과를 반환합니다.",
+    "args0": [
+      {
+        "options": [
+          [
+            "I2C",
+            "I2C"
+          ],
+          [
+            "SPI",
+            "SPI"
+          ],
+          [
+            "DigitalInOut",
+            "DigitalInOut"
+          ],
+          [
+            "PWMOut",
+            "PWMOut"
+          ],
+          [
+            "UART",
+            "UART"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_blinka_do": {
+    "message0": "Adafruit Blinka 실행 %1 인수 %2 키워드 인수 %3",
+    "tooltip": "허용 목록의 Adafruit Blinka 함수 또는 생성자를 문으로 실행합니다.",
+    "args0": [
+      {
+        "options": [
+          [
+            "I2C",
+            "I2C"
+          ],
+          [
+            "SPI",
+            "SPI"
+          ],
+          [
+            "DigitalInOut",
+            "DigitalInOut"
+          ],
+          [
+            "PWMOut",
+            "PWMOut"
+          ],
+          [
+            "UART",
+            "UART"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_blinka_method": {
+    "message0": "Adafruit Blinka 객체 %1 메서드 %2 인수 %3 키워드 인수 %4",
+    "tooltip": "허용 목록의 Adafruit Blinka 객체 메서드를 호출하고 결과를 반환합니다.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "try_lock",
+            "try_lock"
+          ],
+          [
+            "unlock",
+            "unlock"
+          ],
+          [
+            "scan",
+            "scan"
+          ],
+          [
+            "readfrom_into",
+            "readfrom_into"
+          ],
+          [
+            "writeto",
+            "writeto"
+          ],
+          [
+            "writeto_then_readfrom",
+            "writeto_then_readfrom"
+          ],
+          [
+            "configure",
+            "configure"
+          ],
+          [
+            "switch_to_input",
+            "switch_to_input"
+          ],
+          [
+            "switch_to_output",
+            "switch_to_output"
+          ],
+          [
+            "read",
+            "read"
+          ],
+          [
+            "readinto",
+            "readinto"
+          ],
+          [
+            "write",
+            "write"
+          ],
+          [
+            "deinit",
+            "deinit"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_blinka_do_method": {
+    "message0": "Adafruit Blinka 객체 %1 메서드 실행 %2 인수 %3 키워드 인수 %4",
+    "tooltip": "허용 목록의 Adafruit Blinka 객체 메서드를 문으로 실행합니다.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "try_lock",
+            "try_lock"
+          ],
+          [
+            "unlock",
+            "unlock"
+          ],
+          [
+            "scan",
+            "scan"
+          ],
+          [
+            "readfrom_into",
+            "readfrom_into"
+          ],
+          [
+            "writeto",
+            "writeto"
+          ],
+          [
+            "writeto_then_readfrom",
+            "writeto_then_readfrom"
+          ],
+          [
+            "configure",
+            "configure"
+          ],
+          [
+            "switch_to_input",
+            "switch_to_input"
+          ],
+          [
+            "switch_to_output",
+            "switch_to_output"
+          ],
+          [
+            "read",
+            "read"
+          ],
+          [
+            "readinto",
+            "readinto"
+          ],
+          [
+            "write",
+            "write"
+          ],
+          [
+            "deinit",
+            "deinit"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_blinka_attribute": {
+    "message0": "Adafruit Blinka 객체 %1 속성 %2",
+    "tooltip": "허용 목록의 Adafruit Blinka 객체 또는 모듈 속성을 읽습니다.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "D0",
+            "D0"
+          ],
+          [
+            "D1",
+            "D1"
+          ],
+          [
+            "D2",
+            "D2"
+          ],
+          [
+            "D3",
+            "D3"
+          ],
+          [
+            "D4",
+            "D4"
+          ],
+          [
+            "D5",
+            "D5"
+          ],
+          [
+            "D6",
+            "D6"
+          ],
+          [
+            "D17",
+            "D17"
+          ],
+          [
+            "D18",
+            "D18"
+          ],
+          [
+            "SCL",
+            "SCL"
+          ],
+          [
+            "SDA",
+            "SDA"
+          ],
+          [
+            "SCLK",
+            "SCLK"
+          ],
+          [
+            "MOSI",
+            "MOSI"
+          ],
+          [
+            "MISO",
+            "MISO"
+          ],
+          [
+            "CE0",
+            "CE0"
+          ],
+          [
+            "CE1",
+            "CE1"
+          ],
+          [
+            "value",
+            "value"
+          ],
+          [
+            "direction",
+            "direction"
+          ],
+          [
+            "pull",
+            "pull"
+          ],
+          [
+            "duty_cycle",
+            "duty_cycle"
+          ],
+          [
+            "frequency",
+            "frequency"
+          ],
+          [
+            "in_waiting",
+            "in_waiting"
+          ]
+        ]
+      }
+    ]
+  }
+}

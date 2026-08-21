@@ -1,0 +1,238 @@
+{
+  "toolbox_name": "pygame",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_pygame_call": {
+    "message0": "pygame aufrufen oder erzeugen %1 Argumente %2 Schlüsselwortargumente %3",
+    "tooltip": "Eine freigegebene pygame-Funktion oder einen Konstruktor aufrufen und das Ergebnis zurückgeben.",
+    "args0": [
+      {
+        "options": [
+          [
+            "init",
+            "init"
+          ],
+          [
+            "quit",
+            "quit"
+          ],
+          [
+            "display.set_mode",
+            "display.set_mode"
+          ],
+          [
+            "display.flip",
+            "display.flip"
+          ],
+          [
+            "event.get",
+            "event.get"
+          ],
+          [
+            "time.Clock",
+            "time.Clock"
+          ],
+          [
+            "image.load",
+            "image.load"
+          ],
+          [
+            "mixer.Sound",
+            "mixer.Sound"
+          ],
+          [
+            "font.Font",
+            "font.Font"
+          ],
+          [
+            "draw.line",
+            "draw.line"
+          ],
+          [
+            "draw.rect",
+            "draw.rect"
+          ],
+          [
+            "draw.circle",
+            "draw.circle"
+          ],
+          [
+            "transform.scale",
+            "transform.scale"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_pygame_do": {
+    "message0": "pygame ausführen %1 Argumente %2 Schlüsselwortargumente %3",
+    "tooltip": "Eine freigegebene pygame-Funktion oder einen Konstruktor als Anweisung ausführen.",
+    "args0": [
+      {
+        "options": [
+          [
+            "init",
+            "init"
+          ],
+          [
+            "quit",
+            "quit"
+          ],
+          [
+            "display.set_mode",
+            "display.set_mode"
+          ],
+          [
+            "display.flip",
+            "display.flip"
+          ],
+          [
+            "event.get",
+            "event.get"
+          ],
+          [
+            "time.Clock",
+            "time.Clock"
+          ],
+          [
+            "image.load",
+            "image.load"
+          ],
+          [
+            "mixer.Sound",
+            "mixer.Sound"
+          ],
+          [
+            "font.Font",
+            "font.Font"
+          ],
+          [
+            "draw.line",
+            "draw.line"
+          ],
+          [
+            "draw.rect",
+            "draw.rect"
+          ],
+          [
+            "draw.circle",
+            "draw.circle"
+          ],
+          [
+            "transform.scale",
+            "transform.scale"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_pygame_method": {
+    "message0": "pygame-Objekt %1 Methode %2 Argumente %3 Schlüsselwortargumente %4",
+    "tooltip": "Eine freigegebene Methode eines pygame-Objekts aufrufen und das Ergebnis zurückgeben.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "fill",
+            "fill"
+          ],
+          [
+            "blit",
+            "blit"
+          ],
+          [
+            "get_rect",
+            "get_rect"
+          ],
+          [
+            "play",
+            "play"
+          ],
+          [
+            "stop",
+            "stop"
+          ],
+          [
+            "tick",
+            "tick"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_pygame_do_method": {
+    "message0": "pygame-Objekt %1 Methode %2 ausführen Argumente %3 Schlüsselwortargumente %4",
+    "tooltip": "Eine freigegebene Methode eines pygame-Objekts als Anweisung ausführen.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "fill",
+            "fill"
+          ],
+          [
+            "blit",
+            "blit"
+          ],
+          [
+            "get_rect",
+            "get_rect"
+          ],
+          [
+            "play",
+            "play"
+          ],
+          [
+            "stop",
+            "stop"
+          ],
+          [
+            "tick",
+            "tick"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_pygame_attribute": {
+    "message0": "pygame-Objekt %1 Attribut %2",
+    "tooltip": "Ein freigegebenes Attribut eines pygame-Objekts oder Moduls lesen.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "type",
+            "type"
+          ],
+          [
+            "key",
+            "key"
+          ],
+          [
+            "pos",
+            "pos"
+          ],
+          [
+            "button",
+            "button"
+          ],
+          [
+            "size",
+            "size"
+          ]
+        ]
+      }
+    ]
+  }
+}

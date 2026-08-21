@@ -1,0 +1,127 @@
+{
+  "toolbox_name": "pyttsx3",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_pyttsx3_call": {
+    "message0": "pyttsx3 استدعاء أو إنشاء %1 الوسائط %2 وسائط الكلمات المفتاحية %3",
+    "tooltip": "استدعاء دالة أو مُنشئ مسموح من pyttsx3 وإرجاع النتيجة.",
+    "args0": [
+      {
+        "options": [
+          [
+            "init",
+            "init"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_pyttsx3_do": {
+    "message0": "تشغيل pyttsx3 %1 الوسائط %2 وسائط الكلمات المفتاحية %3",
+    "tooltip": "تشغيل دالة أو مُنشئ مسموح من pyttsx3 كتعليمة.",
+    "args0": [
+      {
+        "options": [
+          [
+            "init",
+            "init"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_pyttsx3_method": {
+    "message0": "كائن pyttsx3 %1 الطريقة %2 الوسائط %3 وسائط الكلمات المفتاحية %4",
+    "tooltip": "استدعاء طريقة مسموحة لكائن pyttsx3 وإرجاع النتيجة.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "say",
+            "say"
+          ],
+          [
+            "runAndWait",
+            "runAndWait"
+          ],
+          [
+            "stop",
+            "stop"
+          ],
+          [
+            "getProperty",
+            "getProperty"
+          ],
+          [
+            "setProperty",
+            "setProperty"
+          ],
+          [
+            "save_to_file",
+            "save_to_file"
+          ],
+          [
+            "connect",
+            "connect"
+          ],
+          [
+            "disconnect",
+            "disconnect"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_pyttsx3_do_method": {
+    "message0": "تشغيل طريقة pyttsx3 للكائن %1 %2 الوسائط %3 وسائط الكلمات المفتاحية %4",
+    "tooltip": "تشغيل طريقة مسموحة لكائن pyttsx3 كتعليمة.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "say",
+            "say"
+          ],
+          [
+            "runAndWait",
+            "runAndWait"
+          ],
+          [
+            "stop",
+            "stop"
+          ],
+          [
+            "getProperty",
+            "getProperty"
+          ],
+          [
+            "setProperty",
+            "setProperty"
+          ],
+          [
+            "save_to_file",
+            "save_to_file"
+          ],
+          [
+            "connect",
+            "connect"
+          ],
+          [
+            "disconnect",
+            "disconnect"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  }
+}

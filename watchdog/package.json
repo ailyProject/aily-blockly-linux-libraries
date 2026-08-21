@@ -1,0 +1,47 @@
+{
+  "name": "@aily-project/lib-watchdog",
+  "nickname": "watchdog Observer",
+  "nickname_zh_cn": "watchdog Observer",
+  "nickname_en": "watchdog Observer",
+  "nickname_zh_hk": "watchdog Observer",
+  "nickname_ja": "watchdog Observer",
+  "nickname_ko": "watchdog Observer",
+  "nickname_de": "watchdog Observer",
+  "nickname_fr": "watchdog Observer",
+  "nickname_es": "watchdog Observer",
+  "nickname_pt": "watchdog Observer",
+  "nickname_ru": "watchdog Observer",
+  "nickname_ar": "watchdog Observer",
+  "version": "0.0.1",
+  "description": "面向树莓派与 Linux 开发板的 watchdog Observer 常用 Python API 白名单积木。",
+  "description_zh_cn": "面向树莓派与 Linux 开发板的 watchdog Observer 常用 Python API 白名单积木。",
+  "description_en": "Allowlisted watchdog Observer Python API blocks for Raspberry Pi and Linux single-board computers.",
+  "spec": true,
+  "compatibility": {
+    "type": [
+      "canaan:k230:cybercam",
+      "broadcom:bcm2712:raspberrypi_5",
+      "allwinner:t527:walnutpi_2b"
+    ],
+    "voltage": [
+      3.3
+    ]
+  },
+  "keywords": [
+    "aily",
+    "blockly",
+    "python",
+    "linux",
+    "raspberry-pi",
+    "watchdog",
+    "watchdog.observers"
+  ],
+  "tags": [
+    "system"
+  ],
+  "author": "ailyProject",
+  "license": "MIT",
+  "homepage": "https://python-watchdog.readthedocs.io/",
+  "dependencies": {},
+  "devDependencies": {}
+}

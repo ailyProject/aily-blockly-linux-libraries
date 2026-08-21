@@ -1,0 +1,27 @@
+{
+  "kind": "category",
+  "name": "ROS 2 rclpy",
+  "colour": "#00897B",
+  "contents": [
+    {
+      "kind": "block",
+      "type": "python_rclpy_call"
+    },
+    {
+      "kind": "block",
+      "type": "python_rclpy_do"
+    },
+    {
+      "kind": "block",
+      "type": "python_rclpy_method"
+    },
+    {
+      "kind": "block",
+      "type": "python_rclpy_do_method"
+    },
+    {
+      "kind": "block",
+      "type": "python_rclpy_attribute"
+    }
+  ]
+}

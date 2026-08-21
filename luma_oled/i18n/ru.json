@@ -1,0 +1,166 @@
+{
+  "toolbox_name": "luma.oled",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_luma_oled_call": {
+    "message0": "luma.oled вызвать или создать %1 аргументы %2 именованные аргументы %3",
+    "tooltip": "Вызывает разрешённую функцию или конструктор luma.oled и возвращает результат.",
+    "args0": [
+      {
+        "options": [
+          [
+            "ssd1306",
+            "ssd1306"
+          ],
+          [
+            "ssd1325",
+            "ssd1325"
+          ],
+          [
+            "ssd1331",
+            "ssd1331"
+          ],
+          [
+            "sh1106",
+            "sh1106"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_luma_oled_do": {
+    "message0": "выполнить luma.oled %1 аргументы %2 именованные аргументы %3",
+    "tooltip": "Выполняет разрешённую функцию или конструктор luma.oled как инструкцию.",
+    "args0": [
+      {
+        "options": [
+          [
+            "ssd1306",
+            "ssd1306"
+          ],
+          [
+            "ssd1325",
+            "ssd1325"
+          ],
+          [
+            "ssd1331",
+            "ssd1331"
+          ],
+          [
+            "sh1106",
+            "sh1106"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_luma_oled_method": {
+    "message0": "объект luma.oled %1 метод %2 аргументы %3 именованные аргументы %4",
+    "tooltip": "Вызывает разрешённый метод объекта luma.oled и возвращает результат.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "display",
+            "display"
+          ],
+          [
+            "clear",
+            "clear"
+          ],
+          [
+            "show",
+            "show"
+          ],
+          [
+            "hide",
+            "hide"
+          ],
+          [
+            "contrast",
+            "contrast"
+          ],
+          [
+            "cleanup",
+            "cleanup"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_luma_oled_do_method": {
+    "message0": "выполнить метод luma.oled объекта %1 %2 аргументы %3 именованные аргументы %4",
+    "tooltip": "Выполняет разрешённый метод объекта luma.oled как инструкцию.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "display",
+            "display"
+          ],
+          [
+            "clear",
+            "clear"
+          ],
+          [
+            "show",
+            "show"
+          ],
+          [
+            "hide",
+            "hide"
+          ],
+          [
+            "contrast",
+            "contrast"
+          ],
+          [
+            "cleanup",
+            "cleanup"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_luma_oled_attribute": {
+    "message0": "объект luma.oled %1 атрибут %2",
+    "tooltip": "Читает разрешённый атрибут объекта или модуля luma.oled.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "width",
+            "width"
+          ],
+          [
+            "height",
+            "height"
+          ],
+          [
+            "size",
+            "size"
+          ],
+          [
+            "mode",
+            "mode"
+          ],
+          [
+            "bounding_box",
+            "bounding_box"
+          ]
+        ]
+      }
+    ]
+  }
+}

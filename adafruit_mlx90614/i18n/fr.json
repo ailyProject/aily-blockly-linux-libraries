@@ -1,0 +1,56 @@
+{
+  "toolbox_name": "CircuitPython MLX90614",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_adafruit_mlx90614_call": {
+    "message0": "CircuitPython MLX90614 appeler ou créer %1 arguments %2 arguments nommés %3",
+    "tooltip": "Appeler une fonction ou un constructeur CircuitPython MLX90614 autorisé et renvoyer le résultat.",
+    "args0": [
+      {
+        "options": [
+          [
+            "MLX90614",
+            "MLX90614"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_mlx90614_do": {
+    "message0": "exécuter CircuitPython MLX90614 %1 arguments %2 arguments nommés %3",
+    "tooltip": "Exécuter une fonction ou un constructeur CircuitPython MLX90614 autorisé comme instruction.",
+    "args0": [
+      {
+        "options": [
+          [
+            "MLX90614",
+            "MLX90614"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_mlx90614_attribute": {
+    "message0": "objet CircuitPython MLX90614 %1 attribut %2",
+    "tooltip": "Lire un attribut autorisé d’un objet ou module CircuitPython MLX90614.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "ambient_temperature",
+            "ambient_temperature"
+          ],
+          [
+            "object_temperature",
+            "object_temperature"
+          ]
+        ]
+      }
+    ]
+  }
+}

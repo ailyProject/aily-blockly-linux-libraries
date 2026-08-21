@@ -1,0 +1,202 @@
+{
+  "toolbox_name": "FastAPI",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_fastapi_call": {
+    "message0": "FastAPI 呼び出しまたは作成 %1 引数 %2 キーワード引数 %3",
+    "tooltip": "許可された FastAPI の関数またはコンストラクターを呼び出して結果を返します。",
+    "args0": [
+      {
+        "options": [
+          [
+            "FastAPI",
+            "FastAPI"
+          ],
+          [
+            "APIRouter",
+            "APIRouter"
+          ],
+          [
+            "Depends",
+            "Depends"
+          ],
+          [
+            "HTTPException",
+            "HTTPException"
+          ],
+          [
+            "WebSocket",
+            "WebSocket"
+          ],
+          [
+            "BackgroundTasks",
+            "BackgroundTasks"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_fastapi_do": {
+    "message0": "FastAPI を実行 %1 引数 %2 キーワード引数 %3",
+    "tooltip": "許可された FastAPI の関数またはコンストラクターを文として実行します。",
+    "args0": [
+      {
+        "options": [
+          [
+            "FastAPI",
+            "FastAPI"
+          ],
+          [
+            "APIRouter",
+            "APIRouter"
+          ],
+          [
+            "Depends",
+            "Depends"
+          ],
+          [
+            "HTTPException",
+            "HTTPException"
+          ],
+          [
+            "WebSocket",
+            "WebSocket"
+          ],
+          [
+            "BackgroundTasks",
+            "BackgroundTasks"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_fastapi_method": {
+    "message0": "FastAPI オブジェクト %1 メソッド %2 引数 %3 キーワード引数 %4",
+    "tooltip": "許可された FastAPI オブジェクトのメソッドを呼び出して結果を返します。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "get",
+            "get"
+          ],
+          [
+            "post",
+            "post"
+          ],
+          [
+            "put",
+            "put"
+          ],
+          [
+            "delete",
+            "delete"
+          ],
+          [
+            "patch",
+            "patch"
+          ],
+          [
+            "websocket",
+            "websocket"
+          ],
+          [
+            "include_router",
+            "include_router"
+          ],
+          [
+            "add_middleware",
+            "add_middleware"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_fastapi_do_method": {
+    "message0": "FastAPI オブジェクト %1 のメソッド %2 を実行 引数 %3 キーワード引数 %4",
+    "tooltip": "許可された FastAPI オブジェクトのメソッドを文として実行します。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "get",
+            "get"
+          ],
+          [
+            "post",
+            "post"
+          ],
+          [
+            "put",
+            "put"
+          ],
+          [
+            "delete",
+            "delete"
+          ],
+          [
+            "patch",
+            "patch"
+          ],
+          [
+            "websocket",
+            "websocket"
+          ],
+          [
+            "include_router",
+            "include_router"
+          ],
+          [
+            "add_middleware",
+            "add_middleware"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_fastapi_attribute": {
+    "message0": "FastAPI オブジェクト %1 属性 %2",
+    "tooltip": "許可された FastAPI オブジェクトまたはモジュールの属性を読み取ります。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "routes",
+            "routes"
+          ],
+          [
+            "openapi_url",
+            "openapi_url"
+          ],
+          [
+            "docs_url",
+            "docs_url"
+          ],
+          [
+            "title",
+            "title"
+          ],
+          [
+            "version",
+            "version"
+          ],
+          [
+            "state",
+            "state"
+          ]
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,166 @@
+{
+  "toolbox_name": "PyUSB",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "linux_pyusb_call": {
+    "message0": "PyUSB appeler ou créer %1 arguments %2 arguments nommés %3",
+    "tooltip": "Appeler une fonction ou un constructeur PyUSB autorisé et renvoyer le résultat.",
+    "args0": [
+      {
+        "options": [
+          [
+            "find",
+            "find"
+          ],
+          [
+            "show_devices",
+            "show_devices"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "linux_pyusb_do": {
+    "message0": "exécuter PyUSB %1 arguments %2 arguments nommés %3",
+    "tooltip": "Exécuter une fonction ou un constructeur PyUSB autorisé comme instruction.",
+    "args0": [
+      {
+        "options": [
+          [
+            "find",
+            "find"
+          ],
+          [
+            "show_devices",
+            "show_devices"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "linux_pyusb_method": {
+    "message0": "objet PyUSB %1 méthode %2 arguments %3 arguments nommés %4",
+    "tooltip": "Appeler une méthode autorisée d’un objet PyUSB et renvoyer le résultat.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "set_configuration",
+            "set_configuration"
+          ],
+          [
+            "write",
+            "write"
+          ],
+          [
+            "read",
+            "read"
+          ],
+          [
+            "ctrl_transfer",
+            "ctrl_transfer"
+          ],
+          [
+            "reset",
+            "reset"
+          ],
+          [
+            "is_kernel_driver_active",
+            "is_kernel_driver_active"
+          ],
+          [
+            "detach_kernel_driver",
+            "detach_kernel_driver"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "linux_pyusb_do_method": {
+    "message0": "exécuter la méthode PyUSB de l’objet %1 %2 arguments %3 arguments nommés %4",
+    "tooltip": "Exécuter une méthode autorisée d’un objet PyUSB comme instruction.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "set_configuration",
+            "set_configuration"
+          ],
+          [
+            "write",
+            "write"
+          ],
+          [
+            "read",
+            "read"
+          ],
+          [
+            "ctrl_transfer",
+            "ctrl_transfer"
+          ],
+          [
+            "reset",
+            "reset"
+          ],
+          [
+            "is_kernel_driver_active",
+            "is_kernel_driver_active"
+          ],
+          [
+            "detach_kernel_driver",
+            "detach_kernel_driver"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "linux_pyusb_attribute": {
+    "message0": "objet PyUSB %1 attribut %2",
+    "tooltip": "Lire un attribut autorisé d’un objet ou module PyUSB.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "idVendor",
+            "idVendor"
+          ],
+          [
+            "idProduct",
+            "idProduct"
+          ],
+          [
+            "bus",
+            "bus"
+          ],
+          [
+            "address",
+            "address"
+          ],
+          [
+            "manufacturer",
+            "manufacturer"
+          ],
+          [
+            "product",
+            "product"
+          ],
+          [
+            "serial_number",
+            "serial_number"
+          ]
+        ]
+      }
+    ]
+  }
+}

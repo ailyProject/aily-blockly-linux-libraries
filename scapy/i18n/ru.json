@@ -1,0 +1,250 @@
+{
+  "toolbox_name": "Scapy",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_scapy_call": {
+    "message0": "Scapy вызвать или создать %1 аргументы %2 именованные аргументы %3",
+    "tooltip": "Вызывает разрешённую функцию или конструктор Scapy и возвращает результат.",
+    "args0": [
+      {
+        "options": [
+          [
+            "sniff",
+            "sniff"
+          ],
+          [
+            "send",
+            "send"
+          ],
+          [
+            "sendp",
+            "sendp"
+          ],
+          [
+            "sr",
+            "sr"
+          ],
+          [
+            "sr1",
+            "sr1"
+          ],
+          [
+            "rdpcap",
+            "rdpcap"
+          ],
+          [
+            "wrpcap",
+            "wrpcap"
+          ],
+          [
+            "Ether",
+            "Ether"
+          ],
+          [
+            "IP",
+            "IP"
+          ],
+          [
+            "IPv6",
+            "IPv6"
+          ],
+          [
+            "TCP",
+            "TCP"
+          ],
+          [
+            "UDP",
+            "UDP"
+          ],
+          [
+            "ARP",
+            "ARP"
+          ],
+          [
+            "ICMP",
+            "ICMP"
+          ],
+          [
+            "Raw",
+            "Raw"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_scapy_do": {
+    "message0": "выполнить Scapy %1 аргументы %2 именованные аргументы %3",
+    "tooltip": "Выполняет разрешённую функцию или конструктор Scapy как инструкцию.",
+    "args0": [
+      {
+        "options": [
+          [
+            "sniff",
+            "sniff"
+          ],
+          [
+            "send",
+            "send"
+          ],
+          [
+            "sendp",
+            "sendp"
+          ],
+          [
+            "sr",
+            "sr"
+          ],
+          [
+            "sr1",
+            "sr1"
+          ],
+          [
+            "rdpcap",
+            "rdpcap"
+          ],
+          [
+            "wrpcap",
+            "wrpcap"
+          ],
+          [
+            "Ether",
+            "Ether"
+          ],
+          [
+            "IP",
+            "IP"
+          ],
+          [
+            "IPv6",
+            "IPv6"
+          ],
+          [
+            "TCP",
+            "TCP"
+          ],
+          [
+            "UDP",
+            "UDP"
+          ],
+          [
+            "ARP",
+            "ARP"
+          ],
+          [
+            "ICMP",
+            "ICMP"
+          ],
+          [
+            "Raw",
+            "Raw"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_scapy_method": {
+    "message0": "объект Scapy %1 метод %2 аргументы %3 именованные аргументы %4",
+    "tooltip": "Вызывает разрешённый метод объекта Scapy и возвращает результат.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "show",
+            "show"
+          ],
+          [
+            "summary",
+            "summary"
+          ],
+          [
+            "haslayer",
+            "haslayer"
+          ],
+          [
+            "getlayer",
+            "getlayer"
+          ],
+          [
+            "sprintf",
+            "sprintf"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_scapy_do_method": {
+    "message0": "выполнить метод Scapy объекта %1 %2 аргументы %3 именованные аргументы %4",
+    "tooltip": "Выполняет разрешённый метод объекта Scapy как инструкцию.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "show",
+            "show"
+          ],
+          [
+            "summary",
+            "summary"
+          ],
+          [
+            "haslayer",
+            "haslayer"
+          ],
+          [
+            "getlayer",
+            "getlayer"
+          ],
+          [
+            "sprintf",
+            "sprintf"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_scapy_attribute": {
+    "message0": "объект Scapy %1 атрибут %2",
+    "tooltip": "Читает разрешённый атрибут объекта или модуля Scapy.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "src",
+            "src"
+          ],
+          [
+            "dst",
+            "dst"
+          ],
+          [
+            "sport",
+            "sport"
+          ],
+          [
+            "dport",
+            "dport"
+          ],
+          [
+            "payload",
+            "payload"
+          ],
+          [
+            "time",
+            "time"
+          ]
+        ]
+      }
+    ]
+  }
+}

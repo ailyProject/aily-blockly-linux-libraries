@@ -1,0 +1,186 @@
+{
+  "toolbox_name": "SoundFile",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_soundfile_call": {
+    "message0": "SoundFile استدعاء أو إنشاء %1 الوسائط %2 وسائط الكلمات المفتاحية %3",
+    "tooltip": "استدعاء دالة أو مُنشئ مسموح من SoundFile وإرجاع النتيجة.",
+    "args0": [
+      {
+        "options": [
+          [
+            "read",
+            "read"
+          ],
+          [
+            "write",
+            "write"
+          ],
+          [
+            "blocks",
+            "blocks"
+          ],
+          [
+            "info",
+            "info"
+          ],
+          [
+            "SoundFile",
+            "SoundFile"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_soundfile_do": {
+    "message0": "تشغيل SoundFile %1 الوسائط %2 وسائط الكلمات المفتاحية %3",
+    "tooltip": "تشغيل دالة أو مُنشئ مسموح من SoundFile كتعليمة.",
+    "args0": [
+      {
+        "options": [
+          [
+            "read",
+            "read"
+          ],
+          [
+            "write",
+            "write"
+          ],
+          [
+            "blocks",
+            "blocks"
+          ],
+          [
+            "info",
+            "info"
+          ],
+          [
+            "SoundFile",
+            "SoundFile"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_soundfile_method": {
+    "message0": "كائن SoundFile %1 الطريقة %2 الوسائط %3 وسائط الكلمات المفتاحية %4",
+    "tooltip": "استدعاء طريقة مسموحة لكائن SoundFile وإرجاع النتيجة.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "read",
+            "read"
+          ],
+          [
+            "write",
+            "write"
+          ],
+          [
+            "seek",
+            "seek"
+          ],
+          [
+            "tell",
+            "tell"
+          ],
+          [
+            "flush",
+            "flush"
+          ],
+          [
+            "close",
+            "close"
+          ],
+          [
+            "blocks",
+            "blocks"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_soundfile_do_method": {
+    "message0": "تشغيل طريقة SoundFile للكائن %1 %2 الوسائط %3 وسائط الكلمات المفتاحية %4",
+    "tooltip": "تشغيل طريقة مسموحة لكائن SoundFile كتعليمة.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "read",
+            "read"
+          ],
+          [
+            "write",
+            "write"
+          ],
+          [
+            "seek",
+            "seek"
+          ],
+          [
+            "tell",
+            "tell"
+          ],
+          [
+            "flush",
+            "flush"
+          ],
+          [
+            "close",
+            "close"
+          ],
+          [
+            "blocks",
+            "blocks"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_soundfile_attribute": {
+    "message0": "كائن SoundFile %1 السمة %2",
+    "tooltip": "قراءة سمة مسموحة لكائن أو وحدة SoundFile.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "samplerate",
+            "samplerate"
+          ],
+          [
+            "channels",
+            "channels"
+          ],
+          [
+            "frames",
+            "frames"
+          ],
+          [
+            "format",
+            "format"
+          ],
+          [
+            "subtype",
+            "subtype"
+          ],
+          [
+            "closed",
+            "closed"
+          ]
+        ]
+      }
+    ]
+  }
+}

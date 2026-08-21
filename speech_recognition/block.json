@@ -1,0 +1,228 @@
+[
+  {
+    "type": "python_speech_recognition_call",
+    "message0": "SpeechRecognition call or create %1 arguments %2 keyword arguments %3",
+    "args0": [
+      {
+        "type": "field_dropdown",
+        "name": "TARGET",
+        "options": [
+          [
+            "Recognizer",
+            "Recognizer"
+          ],
+          [
+            "Microphone",
+            "Microphone"
+          ],
+          [
+            "AudioFile",
+            "AudioFile"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#EF6C00",
+    "tooltip": "Call an allowlisted SpeechRecognition function or constructor and return its result.",
+    "icon": "settings",
+    "output": "Any"
+  },
+  {
+    "type": "python_speech_recognition_do",
+    "message0": "run SpeechRecognition %1 arguments %2 keyword arguments %3",
+    "args0": [
+      {
+        "type": "field_dropdown",
+        "name": "TARGET",
+        "options": [
+          [
+            "Recognizer",
+            "Recognizer"
+          ],
+          [
+            "Microphone",
+            "Microphone"
+          ],
+          [
+            "AudioFile",
+            "AudioFile"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#EF6C00",
+    "tooltip": "Run an allowlisted SpeechRecognition function or constructor as a statement.",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "python_speech_recognition_method",
+    "message0": "SpeechRecognition object %1 call method %2 arguments %3 keyword arguments %4",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "OBJECT"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "METHOD",
+        "options": [
+          [
+            "listen",
+            "listen"
+          ],
+          [
+            "record",
+            "record"
+          ],
+          [
+            "adjust_for_ambient_noise",
+            "adjust_for_ambient_noise"
+          ],
+          [
+            "recognize_google",
+            "recognize_google"
+          ],
+          [
+            "recognize_sphinx",
+            "recognize_sphinx"
+          ],
+          [
+            "recognize_vosk",
+            "recognize_vosk"
+          ],
+          [
+            "recognize_whisper",
+            "recognize_whisper"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#EF6C00",
+    "tooltip": "Call an allowlisted SpeechRecognition object method and return its result.",
+    "icon": "settings",
+    "output": "Any"
+  },
+  {
+    "type": "python_speech_recognition_do_method",
+    "message0": "run SpeechRecognition object %1 method %2 arguments %3 keyword arguments %4",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "OBJECT"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "METHOD",
+        "options": [
+          [
+            "listen",
+            "listen"
+          ],
+          [
+            "record",
+            "record"
+          ],
+          [
+            "adjust_for_ambient_noise",
+            "adjust_for_ambient_noise"
+          ],
+          [
+            "recognize_google",
+            "recognize_google"
+          ],
+          [
+            "recognize_sphinx",
+            "recognize_sphinx"
+          ],
+          [
+            "recognize_vosk",
+            "recognize_vosk"
+          ],
+          [
+            "recognize_whisper",
+            "recognize_whisper"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#EF6C00",
+    "tooltip": "Run an allowlisted SpeechRecognition object method as a statement.",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "python_speech_recognition_attribute",
+    "message0": "SpeechRecognition object %1 attribute %2",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "OBJECT"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "ATTRIBUTE",
+        "options": [
+          [
+            "energy_threshold",
+            "energy_threshold"
+          ],
+          [
+            "dynamic_energy_threshold",
+            "dynamic_energy_threshold"
+          ],
+          [
+            "pause_threshold",
+            "pause_threshold"
+          ],
+          [
+            "phrase_threshold",
+            "phrase_threshold"
+          ],
+          [
+            "non_speaking_duration",
+            "non_speaking_duration"
+          ]
+        ]
+      }
+    ],
+    "colour": "#EF6C00",
+    "tooltip": "Read an allowlisted SpeechRecognition object or module attribute.",
+    "icon": "settings",
+    "output": "Any"
+  }
+]

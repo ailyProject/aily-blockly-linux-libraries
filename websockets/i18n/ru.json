@@ -1,0 +1,174 @@
+{
+  "toolbox_name": "websockets",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_websockets_call": {
+    "message0": "websockets вызвать или создать %1 аргументы %2 именованные аргументы %3",
+    "tooltip": "Вызывает разрешённую функцию или конструктор websockets и возвращает результат.",
+    "args0": [
+      {
+        "options": [
+          [
+            "connect",
+            "connect"
+          ],
+          [
+            "serve",
+            "serve"
+          ],
+          [
+            "broadcast",
+            "broadcast"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_websockets_do": {
+    "message0": "выполнить websockets %1 аргументы %2 именованные аргументы %3",
+    "tooltip": "Выполняет разрешённую функцию или конструктор websockets как инструкцию.",
+    "args0": [
+      {
+        "options": [
+          [
+            "connect",
+            "connect"
+          ],
+          [
+            "serve",
+            "serve"
+          ],
+          [
+            "broadcast",
+            "broadcast"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_websockets_method": {
+    "message0": "объект websockets %1 метод %2 аргументы %3 именованные аргументы %4",
+    "tooltip": "Вызывает разрешённый метод объекта websockets и возвращает результат.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "send",
+            "send"
+          ],
+          [
+            "recv",
+            "recv"
+          ],
+          [
+            "close",
+            "close"
+          ],
+          [
+            "ping",
+            "ping"
+          ],
+          [
+            "pong",
+            "pong"
+          ],
+          [
+            "wait_closed",
+            "wait_closed"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_websockets_do_method": {
+    "message0": "выполнить метод websockets объекта %1 %2 аргументы %3 именованные аргументы %4",
+    "tooltip": "Выполняет разрешённый метод объекта websockets как инструкцию.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "send",
+            "send"
+          ],
+          [
+            "recv",
+            "recv"
+          ],
+          [
+            "close",
+            "close"
+          ],
+          [
+            "ping",
+            "ping"
+          ],
+          [
+            "pong",
+            "pong"
+          ],
+          [
+            "wait_closed",
+            "wait_closed"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_websockets_attribute": {
+    "message0": "объект websockets %1 атрибут %2",
+    "tooltip": "Читает разрешённый атрибут объекта или модуля websockets.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "remote_address",
+            "remote_address"
+          ],
+          [
+            "local_address",
+            "local_address"
+          ],
+          [
+            "state",
+            "state"
+          ],
+          [
+            "close_code",
+            "close_code"
+          ],
+          [
+            "close_reason",
+            "close_reason"
+          ],
+          [
+            "subprotocol",
+            "subprotocol"
+          ],
+          [
+            "latency",
+            "latency"
+          ],
+          [
+            "request",
+            "request"
+          ],
+          [
+            "response",
+            "response"
+          ]
+        ]
+      }
+    ]
+  }
+}

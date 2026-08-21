@@ -1,0 +1,134 @@
+{
+  "toolbox_name": "CircuitPython MCP3xxx",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_adafruit_mcp3xxx_call": {
+    "message0": "CircuitPython MCP3xxx вызвать или создать %1 аргументы %2 именованные аргументы %3",
+    "tooltip": "Вызывает разрешённую функцию или конструктор CircuitPython MCP3xxx и возвращает результат.",
+    "args0": [
+      {
+        "options": [
+          [
+            "MCP3008",
+            "MCP3008"
+          ],
+          [
+            "AnalogIn",
+            "AnalogIn"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_mcp3xxx_do": {
+    "message0": "выполнить CircuitPython MCP3xxx %1 аргументы %2 именованные аргументы %3",
+    "tooltip": "Выполняет разрешённую функцию или конструктор CircuitPython MCP3xxx как инструкцию.",
+    "args0": [
+      {
+        "options": [
+          [
+            "MCP3008",
+            "MCP3008"
+          ],
+          [
+            "AnalogIn",
+            "AnalogIn"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_mcp3xxx_method": {
+    "message0": "объект CircuitPython MCP3xxx %1 метод %2 аргументы %3 именованные аргументы %4",
+    "tooltip": "Вызывает разрешённый метод объекта CircuitPython MCP3xxx и возвращает результат.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "read",
+            "read"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_mcp3xxx_do_method": {
+    "message0": "выполнить метод CircuitPython MCP3xxx объекта %1 %2 аргументы %3 именованные аргументы %4",
+    "tooltip": "Выполняет разрешённый метод объекта CircuitPython MCP3xxx как инструкцию.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "read",
+            "read"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_mcp3xxx_attribute": {
+    "message0": "объект CircuitPython MCP3xxx %1 атрибут %2",
+    "tooltip": "Читает разрешённый атрибут объекта или модуля CircuitPython MCP3xxx.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "P0",
+            "P0"
+          ],
+          [
+            "P1",
+            "P1"
+          ],
+          [
+            "P2",
+            "P2"
+          ],
+          [
+            "P3",
+            "P3"
+          ],
+          [
+            "P4",
+            "P4"
+          ],
+          [
+            "P5",
+            "P5"
+          ],
+          [
+            "P6",
+            "P6"
+          ],
+          [
+            "P7",
+            "P7"
+          ],
+          [
+            "value",
+            "value"
+          ],
+          [
+            "voltage",
+            "voltage"
+          ],
+          [
+            "reference_voltage",
+            "reference_voltage"
+          ]
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "toolbox_name": "CircuitPython BMP280",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_adafruit_bmp280_call": {
+    "message0": "CircuitPython BMP280 呼び出しまたは作成 %1 引数 %2 キーワード引数 %3",
+    "tooltip": "許可された CircuitPython BMP280 の関数またはコンストラクターを呼び出して結果を返します。",
+    "args0": [
+      {
+        "options": [
+          [
+            "Adafruit_BMP280_I2C",
+            "Adafruit_BMP280_I2C"
+          ],
+          [
+            "Adafruit_BMP280_SPI",
+            "Adafruit_BMP280_SPI"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_bmp280_do": {
+    "message0": "CircuitPython BMP280 を実行 %1 引数 %2 キーワード引数 %3",
+    "tooltip": "許可された CircuitPython BMP280 の関数またはコンストラクターを文として実行します。",
+    "args0": [
+      {
+        "options": [
+          [
+            "Adafruit_BMP280_I2C",
+            "Adafruit_BMP280_I2C"
+          ],
+          [
+            "Adafruit_BMP280_SPI",
+            "Adafruit_BMP280_SPI"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_bmp280_attribute": {
+    "message0": "CircuitPython BMP280 オブジェクト %1 属性 %2",
+    "tooltip": "許可された CircuitPython BMP280 オブジェクトまたはモジュールの属性を読み取ります。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "temperature",
+            "temperature"
+          ],
+          [
+            "pressure",
+            "pressure"
+          ],
+          [
+            "altitude",
+            "altitude"
+          ],
+          [
+            "sea_level_pressure",
+            "sea_level_pressure"
+          ],
+          [
+            "mode",
+            "mode"
+          ],
+          [
+            "standby_period",
+            "standby_period"
+          ],
+          [
+            "iir_filter",
+            "iir_filter"
+          ]
+        ]
+      }
+    ]
+  }
+}

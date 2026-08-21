@@ -1,0 +1,23 @@
+{
+  "kind": "category",
+  "name": "AWS IoT Device SDK v2",
+  "colour": "#0288D1",
+  "contents": [
+    {
+      "kind": "block",
+      "type": "python_aws_iot_device_sdk_call"
+    },
+    {
+      "kind": "block",
+      "type": "python_aws_iot_device_sdk_do"
+    },
+    {
+      "kind": "block",
+      "type": "python_aws_iot_device_sdk_method"
+    },
+    {
+      "kind": "block",
+      "type": "python_aws_iot_device_sdk_do_method"
+    }
+  ]
+}

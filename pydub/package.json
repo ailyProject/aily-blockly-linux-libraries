@@ -1,0 +1,47 @@
+{
+  "name": "@aily-project/lib-pydub",
+  "nickname": "pydub",
+  "nickname_zh_cn": "pydub",
+  "nickname_en": "pydub",
+  "nickname_zh_hk": "pydub",
+  "nickname_ja": "pydub",
+  "nickname_ko": "pydub",
+  "nickname_de": "pydub",
+  "nickname_fr": "pydub",
+  "nickname_es": "pydub",
+  "nickname_pt": "pydub",
+  "nickname_ru": "pydub",
+  "nickname_ar": "pydub",
+  "version": "0.0.1",
+  "description": "面向树莓派与 Linux 开发板的 pydub 常用 Python API 白名单积木。",
+  "description_zh_cn": "面向树莓派与 Linux 开发板的 pydub 常用 Python API 白名单积木。",
+  "description_en": "Allowlisted pydub Python API blocks for Raspberry Pi and Linux single-board computers.",
+  "spec": true,
+  "compatibility": {
+    "type": [
+      "canaan:k230:cybercam",
+      "broadcom:bcm2712:raspberrypi_5",
+      "allwinner:t527:walnutpi_2b"
+    ],
+    "voltage": [
+      3.3
+    ]
+  },
+  "keywords": [
+    "aily",
+    "blockly",
+    "python",
+    "linux",
+    "raspberry-pi",
+    "pydub",
+    "pydub"
+  ],
+  "tags": [
+    "audio"
+  ],
+  "author": "ailyProject",
+  "license": "MIT",
+  "homepage": "https://github.com/jiaaro/pydub",
+  "dependencies": {},
+  "devDependencies": {}
+}

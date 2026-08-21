@@ -1,0 +1,264 @@
+[
+  {
+    "type": "python_influxdb_client_call",
+    "message0": "InfluxDB Client call or create %1 arguments %2 keyword arguments %3",
+    "args0": [
+      {
+        "type": "field_dropdown",
+        "name": "TARGET",
+        "options": [
+          [
+            "InfluxDBClient",
+            "InfluxDBClient"
+          ],
+          [
+            "Point",
+            "Point"
+          ],
+          [
+            "WriteOptions",
+            "WriteOptions"
+          ],
+          [
+            "Dialect",
+            "Dialect"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#0288D1",
+    "tooltip": "Call an allowlisted InfluxDB Client function or constructor and return its result.",
+    "icon": "settings",
+    "output": "Any"
+  },
+  {
+    "type": "python_influxdb_client_do",
+    "message0": "run InfluxDB Client %1 arguments %2 keyword arguments %3",
+    "args0": [
+      {
+        "type": "field_dropdown",
+        "name": "TARGET",
+        "options": [
+          [
+            "InfluxDBClient",
+            "InfluxDBClient"
+          ],
+          [
+            "Point",
+            "Point"
+          ],
+          [
+            "WriteOptions",
+            "WriteOptions"
+          ],
+          [
+            "Dialect",
+            "Dialect"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#0288D1",
+    "tooltip": "Run an allowlisted InfluxDB Client function or constructor as a statement.",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "python_influxdb_client_method",
+    "message0": "InfluxDB Client object %1 call method %2 arguments %3 keyword arguments %4",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "OBJECT"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "METHOD",
+        "options": [
+          [
+            "write_api",
+            "write_api"
+          ],
+          [
+            "query_api",
+            "query_api"
+          ],
+          [
+            "delete_api",
+            "delete_api"
+          ],
+          [
+            "write",
+            "write"
+          ],
+          [
+            "query",
+            "query"
+          ],
+          [
+            "query_data_frame",
+            "query_data_frame"
+          ],
+          [
+            "health",
+            "health"
+          ],
+          [
+            "ready",
+            "ready"
+          ],
+          [
+            "close",
+            "close"
+          ],
+          [
+            "delete",
+            "delete"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#0288D1",
+    "tooltip": "Call an allowlisted InfluxDB Client object method and return its result.",
+    "icon": "settings",
+    "output": "Any"
+  },
+  {
+    "type": "python_influxdb_client_do_method",
+    "message0": "run InfluxDB Client object %1 method %2 arguments %3 keyword arguments %4",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "OBJECT"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "METHOD",
+        "options": [
+          [
+            "write_api",
+            "write_api"
+          ],
+          [
+            "query_api",
+            "query_api"
+          ],
+          [
+            "delete_api",
+            "delete_api"
+          ],
+          [
+            "write",
+            "write"
+          ],
+          [
+            "query",
+            "query"
+          ],
+          [
+            "query_data_frame",
+            "query_data_frame"
+          ],
+          [
+            "health",
+            "health"
+          ],
+          [
+            "ready",
+            "ready"
+          ],
+          [
+            "close",
+            "close"
+          ],
+          [
+            "delete",
+            "delete"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#0288D1",
+    "tooltip": "Run an allowlisted InfluxDB Client object method as a statement.",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "python_influxdb_client_attribute",
+    "message0": "InfluxDB Client object %1 attribute %2",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "OBJECT"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "ATTRIBUTE",
+        "options": [
+          [
+            "version",
+            "version"
+          ],
+          [
+            "status",
+            "status"
+          ],
+          [
+            "message",
+            "message"
+          ],
+          [
+            "name",
+            "name"
+          ],
+          [
+            "tags",
+            "tags"
+          ],
+          [
+            "fields",
+            "fields"
+          ]
+        ]
+      }
+    ],
+    "colour": "#0288D1",
+    "tooltip": "Read an allowlisted InfluxDB Client object or module attribute.",
+    "icon": "settings",
+    "output": "Any"
+  }
+]

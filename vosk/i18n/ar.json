@@ -1,0 +1,151 @@
+{
+  "toolbox_name": "Vosk",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_vosk_call": {
+    "message0": "Vosk استدعاء أو إنشاء %1 الوسائط %2 وسائط الكلمات المفتاحية %3",
+    "tooltip": "استدعاء دالة أو مُنشئ مسموح من Vosk وإرجاع النتيجة.",
+    "args0": [
+      {
+        "options": [
+          [
+            "Model",
+            "Model"
+          ],
+          [
+            "KaldiRecognizer",
+            "KaldiRecognizer"
+          ],
+          [
+            "SetLogLevel",
+            "SetLogLevel"
+          ],
+          [
+            "SpkModel",
+            "SpkModel"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_vosk_do": {
+    "message0": "تشغيل Vosk %1 الوسائط %2 وسائط الكلمات المفتاحية %3",
+    "tooltip": "تشغيل دالة أو مُنشئ مسموح من Vosk كتعليمة.",
+    "args0": [
+      {
+        "options": [
+          [
+            "Model",
+            "Model"
+          ],
+          [
+            "KaldiRecognizer",
+            "KaldiRecognizer"
+          ],
+          [
+            "SetLogLevel",
+            "SetLogLevel"
+          ],
+          [
+            "SpkModel",
+            "SpkModel"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_vosk_method": {
+    "message0": "كائن Vosk %1 الطريقة %2 الوسائط %3 وسائط الكلمات المفتاحية %4",
+    "tooltip": "استدعاء طريقة مسموحة لكائن Vosk وإرجاع النتيجة.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "AcceptWaveform",
+            "AcceptWaveform"
+          ],
+          [
+            "Result",
+            "Result"
+          ],
+          [
+            "PartialResult",
+            "PartialResult"
+          ],
+          [
+            "FinalResult",
+            "FinalResult"
+          ],
+          [
+            "Reset",
+            "Reset"
+          ],
+          [
+            "SetWords",
+            "SetWords"
+          ],
+          [
+            "SetPartialWords",
+            "SetPartialWords"
+          ],
+          [
+            "SetGrammar",
+            "SetGrammar"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_vosk_do_method": {
+    "message0": "تشغيل طريقة Vosk للكائن %1 %2 الوسائط %3 وسائط الكلمات المفتاحية %4",
+    "tooltip": "تشغيل طريقة مسموحة لكائن Vosk كتعليمة.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "AcceptWaveform",
+            "AcceptWaveform"
+          ],
+          [
+            "Result",
+            "Result"
+          ],
+          [
+            "PartialResult",
+            "PartialResult"
+          ],
+          [
+            "FinalResult",
+            "FinalResult"
+          ],
+          [
+            "Reset",
+            "Reset"
+          ],
+          [
+            "SetWords",
+            "SetWords"
+          ],
+          [
+            "SetPartialWords",
+            "SetPartialWords"
+          ],
+          [
+            "SetGrammar",
+            "SetGrammar"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  }
+}

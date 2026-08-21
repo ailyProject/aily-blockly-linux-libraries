@@ -1,0 +1,118 @@
+{
+  "toolbox_name": "CircuitPython LIS3DH",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_adafruit_lis3dh_call": {
+    "message0": "CircuitPython LIS3DH استدعاء أو إنشاء %1 الوسائط %2 وسائط الكلمات المفتاحية %3",
+    "tooltip": "استدعاء دالة أو مُنشئ مسموح من CircuitPython LIS3DH وإرجاع النتيجة.",
+    "args0": [
+      {
+        "options": [
+          [
+            "LIS3DH_I2C",
+            "LIS3DH_I2C"
+          ],
+          [
+            "LIS3DH_SPI",
+            "LIS3DH_SPI"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_lis3dh_do": {
+    "message0": "تشغيل CircuitPython LIS3DH %1 الوسائط %2 وسائط الكلمات المفتاحية %3",
+    "tooltip": "تشغيل دالة أو مُنشئ مسموح من CircuitPython LIS3DH كتعليمة.",
+    "args0": [
+      {
+        "options": [
+          [
+            "LIS3DH_I2C",
+            "LIS3DH_I2C"
+          ],
+          [
+            "LIS3DH_SPI",
+            "LIS3DH_SPI"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_lis3dh_method": {
+    "message0": "كائن CircuitPython LIS3DH %1 الطريقة %2 الوسائط %3 وسائط الكلمات المفتاحية %4",
+    "tooltip": "استدعاء طريقة مسموحة لكائن CircuitPython LIS3DH وإرجاع النتيجة.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "set_tap",
+            "set_tap"
+          ],
+          [
+            "unset_tap",
+            "unset_tap"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_lis3dh_do_method": {
+    "message0": "تشغيل طريقة CircuitPython LIS3DH للكائن %1 %2 الوسائط %3 وسائط الكلمات المفتاحية %4",
+    "tooltip": "تشغيل طريقة مسموحة لكائن CircuitPython LIS3DH كتعليمة.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "set_tap",
+            "set_tap"
+          ],
+          [
+            "unset_tap",
+            "unset_tap"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_lis3dh_attribute": {
+    "message0": "كائن CircuitPython LIS3DH %1 السمة %2",
+    "tooltip": "قراءة سمة مسموحة لكائن أو وحدة CircuitPython LIS3DH.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "acceleration",
+            "acceleration"
+          ],
+          [
+            "range",
+            "range"
+          ],
+          [
+            "data_rate",
+            "data_rate"
+          ],
+          [
+            "click",
+            "click"
+          ],
+          [
+            "tapped",
+            "tapped"
+          ]
+        ]
+      }
+    ]
+  }
+}

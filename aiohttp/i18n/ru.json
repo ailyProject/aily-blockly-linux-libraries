@@ -1,0 +1,198 @@
+{
+  "toolbox_name": "aiohttp",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_aiohttp_call": {
+    "message0": "aiohttp вызвать или создать %1 аргументы %2 именованные аргументы %3",
+    "tooltip": "Вызывает разрешённую функцию или конструктор aiohttp и возвращает результат.",
+    "args0": [
+      {
+        "options": [
+          [
+            "ClientSession",
+            "ClientSession"
+          ],
+          [
+            "ClientTimeout",
+            "ClientTimeout"
+          ],
+          [
+            "TCPConnector",
+            "TCPConnector"
+          ],
+          [
+            "web.Application",
+            "web.Application"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_aiohttp_do": {
+    "message0": "выполнить aiohttp %1 аргументы %2 именованные аргументы %3",
+    "tooltip": "Выполняет разрешённую функцию или конструктор aiohttp как инструкцию.",
+    "args0": [
+      {
+        "options": [
+          [
+            "ClientSession",
+            "ClientSession"
+          ],
+          [
+            "ClientTimeout",
+            "ClientTimeout"
+          ],
+          [
+            "TCPConnector",
+            "TCPConnector"
+          ],
+          [
+            "web.Application",
+            "web.Application"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_aiohttp_method": {
+    "message0": "объект aiohttp %1 метод %2 аргументы %3 именованные аргументы %4",
+    "tooltip": "Вызывает разрешённый метод объекта aiohttp и возвращает результат.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "get",
+            "get"
+          ],
+          [
+            "post",
+            "post"
+          ],
+          [
+            "put",
+            "put"
+          ],
+          [
+            "delete",
+            "delete"
+          ],
+          [
+            "request",
+            "request"
+          ],
+          [
+            "close",
+            "close"
+          ],
+          [
+            "json",
+            "json"
+          ],
+          [
+            "text",
+            "text"
+          ],
+          [
+            "read",
+            "read"
+          ],
+          [
+            "add_routes",
+            "add_routes"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_aiohttp_do_method": {
+    "message0": "выполнить метод aiohttp объекта %1 %2 аргументы %3 именованные аргументы %4",
+    "tooltip": "Выполняет разрешённый метод объекта aiohttp как инструкцию.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "get",
+            "get"
+          ],
+          [
+            "post",
+            "post"
+          ],
+          [
+            "put",
+            "put"
+          ],
+          [
+            "delete",
+            "delete"
+          ],
+          [
+            "request",
+            "request"
+          ],
+          [
+            "close",
+            "close"
+          ],
+          [
+            "json",
+            "json"
+          ],
+          [
+            "text",
+            "text"
+          ],
+          [
+            "read",
+            "read"
+          ],
+          [
+            "add_routes",
+            "add_routes"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_aiohttp_attribute": {
+    "message0": "объект aiohttp %1 атрибут %2",
+    "tooltip": "Читает разрешённый атрибут объекта или модуля aiohttp.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "status",
+            "status"
+          ],
+          [
+            "headers",
+            "headers"
+          ],
+          [
+            "cookies",
+            "cookies"
+          ],
+          [
+            "url",
+            "url"
+          ],
+          [
+            "content_type",
+            "content_type"
+          ]
+        ]
+      }
+    ]
+  }
+}

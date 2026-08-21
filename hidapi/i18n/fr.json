@@ -1,0 +1,159 @@
+{
+  "toolbox_name": "hidapi",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "linux_hidapi_call": {
+    "message0": "hidapi appeler ou créer %1 arguments %2 arguments nommés %3",
+    "tooltip": "Appeler une fonction ou un constructeur hidapi autorisé et renvoyer le résultat.",
+    "args0": [
+      {
+        "options": [
+          [
+            "device",
+            "device"
+          ],
+          [
+            "enumerate",
+            "enumerate"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "linux_hidapi_do": {
+    "message0": "exécuter hidapi %1 arguments %2 arguments nommés %3",
+    "tooltip": "Exécuter une fonction ou un constructeur hidapi autorisé comme instruction.",
+    "args0": [
+      {
+        "options": [
+          [
+            "device",
+            "device"
+          ],
+          [
+            "enumerate",
+            "enumerate"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "linux_hidapi_method": {
+    "message0": "objet hidapi %1 méthode %2 arguments %3 arguments nommés %4",
+    "tooltip": "Appeler une méthode autorisée d’un objet hidapi et renvoyer le résultat.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "open",
+            "open"
+          ],
+          [
+            "open_path",
+            "open_path"
+          ],
+          [
+            "write",
+            "write"
+          ],
+          [
+            "read",
+            "read"
+          ],
+          [
+            "send_feature_report",
+            "send_feature_report"
+          ],
+          [
+            "get_feature_report",
+            "get_feature_report"
+          ],
+          [
+            "get_manufacturer_string",
+            "get_manufacturer_string"
+          ],
+          [
+            "get_product_string",
+            "get_product_string"
+          ],
+          [
+            "get_serial_number_string",
+            "get_serial_number_string"
+          ],
+          [
+            "close",
+            "close"
+          ],
+          [
+            "set_nonblocking",
+            "set_nonblocking"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "linux_hidapi_do_method": {
+    "message0": "exécuter la méthode hidapi de l’objet %1 %2 arguments %3 arguments nommés %4",
+    "tooltip": "Exécuter une méthode autorisée d’un objet hidapi comme instruction.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "open",
+            "open"
+          ],
+          [
+            "open_path",
+            "open_path"
+          ],
+          [
+            "write",
+            "write"
+          ],
+          [
+            "read",
+            "read"
+          ],
+          [
+            "send_feature_report",
+            "send_feature_report"
+          ],
+          [
+            "get_feature_report",
+            "get_feature_report"
+          ],
+          [
+            "get_manufacturer_string",
+            "get_manufacturer_string"
+          ],
+          [
+            "get_product_string",
+            "get_product_string"
+          ],
+          [
+            "get_serial_number_string",
+            "get_serial_number_string"
+          ],
+          [
+            "close",
+            "close"
+          ],
+          [
+            "set_nonblocking",
+            "set_nonblocking"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  }
+}

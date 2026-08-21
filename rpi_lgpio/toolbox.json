@@ -1,0 +1,27 @@
+{
+  "kind": "category",
+  "name": "rpi-lgpio",
+  "colour": "#C51A4A",
+  "contents": [
+    {
+      "kind": "block",
+      "type": "rpi_lgpio_call"
+    },
+    {
+      "kind": "block",
+      "type": "rpi_lgpio_do"
+    },
+    {
+      "kind": "block",
+      "type": "rpi_lgpio_method"
+    },
+    {
+      "kind": "block",
+      "type": "rpi_lgpio_do_method"
+    },
+    {
+      "kind": "block",
+      "type": "rpi_lgpio_attribute"
+    }
+  ]
+}

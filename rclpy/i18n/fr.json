@@ -1,0 +1,186 @@
+{
+  "toolbox_name": "ROS 2 rclpy",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_rclpy_call": {
+    "message0": "ROS 2 rclpy appeler ou créer %1 arguments %2 arguments nommés %3",
+    "tooltip": "Appeler une fonction ou un constructeur ROS 2 rclpy autorisé et renvoyer le résultat.",
+    "args0": [
+      {
+        "options": [
+          [
+            "init",
+            "init"
+          ],
+          [
+            "shutdown",
+            "shutdown"
+          ],
+          [
+            "ok",
+            "ok"
+          ],
+          [
+            "spin",
+            "spin"
+          ],
+          [
+            "spin_once",
+            "spin_once"
+          ],
+          [
+            "create_node",
+            "create_node"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_rclpy_do": {
+    "message0": "exécuter ROS 2 rclpy %1 arguments %2 arguments nommés %3",
+    "tooltip": "Exécuter une fonction ou un constructeur ROS 2 rclpy autorisé comme instruction.",
+    "args0": [
+      {
+        "options": [
+          [
+            "init",
+            "init"
+          ],
+          [
+            "shutdown",
+            "shutdown"
+          ],
+          [
+            "ok",
+            "ok"
+          ],
+          [
+            "spin",
+            "spin"
+          ],
+          [
+            "spin_once",
+            "spin_once"
+          ],
+          [
+            "create_node",
+            "create_node"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_rclpy_method": {
+    "message0": "objet ROS 2 rclpy %1 méthode %2 arguments %3 arguments nommés %4",
+    "tooltip": "Appeler une méthode autorisée d’un objet ROS 2 rclpy et renvoyer le résultat.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "create_publisher",
+            "create_publisher"
+          ],
+          [
+            "create_subscription",
+            "create_subscription"
+          ],
+          [
+            "create_timer",
+            "create_timer"
+          ],
+          [
+            "create_client",
+            "create_client"
+          ],
+          [
+            "create_service",
+            "create_service"
+          ],
+          [
+            "get_logger",
+            "get_logger"
+          ],
+          [
+            "destroy_node",
+            "destroy_node"
+          ],
+          [
+            "publish",
+            "publish"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_rclpy_do_method": {
+    "message0": "exécuter la méthode ROS 2 rclpy de l’objet %1 %2 arguments %3 arguments nommés %4",
+    "tooltip": "Exécuter une méthode autorisée d’un objet ROS 2 rclpy comme instruction.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "create_publisher",
+            "create_publisher"
+          ],
+          [
+            "create_subscription",
+            "create_subscription"
+          ],
+          [
+            "create_timer",
+            "create_timer"
+          ],
+          [
+            "create_client",
+            "create_client"
+          ],
+          [
+            "create_service",
+            "create_service"
+          ],
+          [
+            "get_logger",
+            "get_logger"
+          ],
+          [
+            "destroy_node",
+            "destroy_node"
+          ],
+          [
+            "publish",
+            "publish"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_rclpy_attribute": {
+    "message0": "objet ROS 2 rclpy %1 attribut %2",
+    "tooltip": "Lire un attribut autorisé d’un objet ou module ROS 2 rclpy.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "context",
+            "context"
+          ],
+          [
+            "default_callback_group",
+            "default_callback_group"
+          ]
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "toolbox_name": "CircuitPython VL53L1X",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_adafruit_vl53l1x_call": {
+    "message0": "CircuitPython VL53L1X aufrufen oder erzeugen %1 Argumente %2 Schlüsselwortargumente %3",
+    "tooltip": "Eine freigegebene CircuitPython VL53L1X-Funktion oder einen Konstruktor aufrufen und das Ergebnis zurückgeben.",
+    "args0": [
+      {
+        "options": [
+          [
+            "VL53L1X",
+            "VL53L1X"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_vl53l1x_do": {
+    "message0": "CircuitPython VL53L1X ausführen %1 Argumente %2 Schlüsselwortargumente %3",
+    "tooltip": "Eine freigegebene CircuitPython VL53L1X-Funktion oder einen Konstruktor als Anweisung ausführen.",
+    "args0": [
+      {
+        "options": [
+          [
+            "VL53L1X",
+            "VL53L1X"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_vl53l1x_method": {
+    "message0": "CircuitPython VL53L1X-Objekt %1 Methode %2 Argumente %3 Schlüsselwortargumente %4",
+    "tooltip": "Eine freigegebene Methode eines CircuitPython VL53L1X-Objekts aufrufen und das Ergebnis zurückgeben.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "start_ranging",
+            "start_ranging"
+          ],
+          [
+            "stop_ranging",
+            "stop_ranging"
+          ],
+          [
+            "clear_interrupt",
+            "clear_interrupt"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_vl53l1x_do_method": {
+    "message0": "CircuitPython VL53L1X-Objekt %1 Methode %2 ausführen Argumente %3 Schlüsselwortargumente %4",
+    "tooltip": "Eine freigegebene Methode eines CircuitPython VL53L1X-Objekts als Anweisung ausführen.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "start_ranging",
+            "start_ranging"
+          ],
+          [
+            "stop_ranging",
+            "stop_ranging"
+          ],
+          [
+            "clear_interrupt",
+            "clear_interrupt"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_vl53l1x_attribute": {
+    "message0": "CircuitPython VL53L1X-Objekt %1 Attribut %2",
+    "tooltip": "Ein freigegebenes Attribut eines CircuitPython VL53L1X-Objekts oder Moduls lesen.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "distance",
+            "distance"
+          ],
+          [
+            "distance_mode",
+            "distance_mode"
+          ],
+          [
+            "timing_budget",
+            "timing_budget"
+          ],
+          [
+            "data_ready",
+            "data_ready"
+          ],
+          [
+            "roi",
+            "roi"
+          ]
+        ]
+      }
+    ]
+  }
+}

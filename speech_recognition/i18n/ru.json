@@ -1,0 +1,166 @@
+{
+  "toolbox_name": "SpeechRecognition",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_speech_recognition_call": {
+    "message0": "SpeechRecognition вызвать или создать %1 аргументы %2 именованные аргументы %3",
+    "tooltip": "Вызывает разрешённую функцию или конструктор SpeechRecognition и возвращает результат.",
+    "args0": [
+      {
+        "options": [
+          [
+            "Recognizer",
+            "Recognizer"
+          ],
+          [
+            "Microphone",
+            "Microphone"
+          ],
+          [
+            "AudioFile",
+            "AudioFile"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_speech_recognition_do": {
+    "message0": "выполнить SpeechRecognition %1 аргументы %2 именованные аргументы %3",
+    "tooltip": "Выполняет разрешённую функцию или конструктор SpeechRecognition как инструкцию.",
+    "args0": [
+      {
+        "options": [
+          [
+            "Recognizer",
+            "Recognizer"
+          ],
+          [
+            "Microphone",
+            "Microphone"
+          ],
+          [
+            "AudioFile",
+            "AudioFile"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_speech_recognition_method": {
+    "message0": "объект SpeechRecognition %1 метод %2 аргументы %3 именованные аргументы %4",
+    "tooltip": "Вызывает разрешённый метод объекта SpeechRecognition и возвращает результат.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "listen",
+            "listen"
+          ],
+          [
+            "record",
+            "record"
+          ],
+          [
+            "adjust_for_ambient_noise",
+            "adjust_for_ambient_noise"
+          ],
+          [
+            "recognize_google",
+            "recognize_google"
+          ],
+          [
+            "recognize_sphinx",
+            "recognize_sphinx"
+          ],
+          [
+            "recognize_vosk",
+            "recognize_vosk"
+          ],
+          [
+            "recognize_whisper",
+            "recognize_whisper"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_speech_recognition_do_method": {
+    "message0": "выполнить метод SpeechRecognition объекта %1 %2 аргументы %3 именованные аргументы %4",
+    "tooltip": "Выполняет разрешённый метод объекта SpeechRecognition как инструкцию.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "listen",
+            "listen"
+          ],
+          [
+            "record",
+            "record"
+          ],
+          [
+            "adjust_for_ambient_noise",
+            "adjust_for_ambient_noise"
+          ],
+          [
+            "recognize_google",
+            "recognize_google"
+          ],
+          [
+            "recognize_sphinx",
+            "recognize_sphinx"
+          ],
+          [
+            "recognize_vosk",
+            "recognize_vosk"
+          ],
+          [
+            "recognize_whisper",
+            "recognize_whisper"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_speech_recognition_attribute": {
+    "message0": "объект SpeechRecognition %1 атрибут %2",
+    "tooltip": "Читает разрешённый атрибут объекта или модуля SpeechRecognition.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "energy_threshold",
+            "energy_threshold"
+          ],
+          [
+            "dynamic_energy_threshold",
+            "dynamic_energy_threshold"
+          ],
+          [
+            "pause_threshold",
+            "pause_threshold"
+          ],
+          [
+            "phrase_threshold",
+            "phrase_threshold"
+          ],
+          [
+            "non_speaking_duration",
+            "non_speaking_duration"
+          ]
+        ]
+      }
+    ]
+  }
+}

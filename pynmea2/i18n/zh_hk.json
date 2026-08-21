@@ -1,0 +1,146 @@
+{
+  "toolbox_name": "pynmea2",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_pynmea2_call": {
+    "message0": "pynmea2 呼叫或建立 %1 參數 %2 關鍵字參數 %3",
+    "tooltip": "呼叫白名單中的 pynmea2 函式或建構器並傳回結果。",
+    "args0": [
+      {
+        "options": [
+          [
+            "parse",
+            "parse"
+          ],
+          [
+            "NMEASentence",
+            "NMEASentence"
+          ],
+          [
+            "LatLonFix",
+            "LatLonFix"
+          ],
+          [
+            "ProprietarySentence",
+            "ProprietarySentence"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_pynmea2_do": {
+    "message0": "執行 pynmea2 %1 參數 %2 關鍵字參數 %3",
+    "tooltip": "以敘述方式執行白名單中的 pynmea2 函式或建構器。",
+    "args0": [
+      {
+        "options": [
+          [
+            "parse",
+            "parse"
+          ],
+          [
+            "NMEASentence",
+            "NMEASentence"
+          ],
+          [
+            "LatLonFix",
+            "LatLonFix"
+          ],
+          [
+            "ProprietarySentence",
+            "ProprietarySentence"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_pynmea2_method": {
+    "message0": "pynmea2 物件 %1 呼叫方法 %2 參數 %3 關鍵字參數 %4",
+    "tooltip": "呼叫白名單中的 pynmea2 物件方法並傳回結果。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "render",
+            "render"
+          ],
+          [
+            "identifier",
+            "identifier"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_pynmea2_do_method": {
+    "message0": "執行 pynmea2 物件 %1 的方法 %2 參數 %3 關鍵字參數 %4",
+    "tooltip": "以敘述方式執行白名單中的 pynmea2 物件方法。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "render",
+            "render"
+          ],
+          [
+            "identifier",
+            "identifier"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_pynmea2_attribute": {
+    "message0": "pynmea2 物件 %1 屬性 %2",
+    "tooltip": "讀取白名單中的 pynmea2 物件或模組屬性。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "latitude",
+            "latitude"
+          ],
+          [
+            "longitude",
+            "longitude"
+          ],
+          [
+            "altitude",
+            "altitude"
+          ],
+          [
+            "timestamp",
+            "timestamp"
+          ],
+          [
+            "num_sats",
+            "num_sats"
+          ],
+          [
+            "gps_qual",
+            "gps_qual"
+          ],
+          [
+            "spd_over_grnd",
+            "spd_over_grnd"
+          ],
+          [
+            "true_course",
+            "true_course"
+          ]
+        ]
+      }
+    ]
+  }
+}

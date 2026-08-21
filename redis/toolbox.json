@@ -1,0 +1,27 @@
+{
+  "kind": "category",
+  "name": "redis-py",
+  "colour": "#0288D1",
+  "contents": [
+    {
+      "kind": "block",
+      "type": "python_redis_call"
+    },
+    {
+      "kind": "block",
+      "type": "python_redis_do"
+    },
+    {
+      "kind": "block",
+      "type": "python_redis_method"
+    },
+    {
+      "kind": "block",
+      "type": "python_redis_do_method"
+    },
+    {
+      "kind": "block",
+      "type": "python_redis_attribute"
+    }
+  ]
+}

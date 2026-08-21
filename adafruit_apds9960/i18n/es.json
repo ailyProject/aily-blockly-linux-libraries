@@ -1,0 +1,102 @@
+{
+  "toolbox_name": "CircuitPython APDS9960",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_adafruit_apds9960_call": {
+    "message0": "CircuitPython APDS9960 llamar o crear %1 argumentos %2 argumentos con nombre %3",
+    "tooltip": "Llama a una función o constructor permitido de CircuitPython APDS9960 y devuelve el resultado.",
+    "args0": [
+      {
+        "options": [
+          [
+            "APDS9960",
+            "APDS9960"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_apds9960_do": {
+    "message0": "ejecutar CircuitPython APDS9960 %1 argumentos %2 argumentos con nombre %3",
+    "tooltip": "Ejecuta una función o constructor permitido de CircuitPython APDS9960 como sentencia.",
+    "args0": [
+      {
+        "options": [
+          [
+            "APDS9960",
+            "APDS9960"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_apds9960_method": {
+    "message0": "objeto CircuitPython APDS9960 %1 método %2 argumentos %3 argumentos con nombre %4",
+    "tooltip": "Llama a un método permitido de un objeto CircuitPython APDS9960 y devuelve el resultado.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "gesture",
+            "gesture"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_apds9960_do_method": {
+    "message0": "ejecutar método de CircuitPython APDS9960 objeto %1 %2 argumentos %3 argumentos con nombre %4",
+    "tooltip": "Ejecuta un método permitido de un objeto CircuitPython APDS9960 como sentencia.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "gesture",
+            "gesture"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_apds9960_attribute": {
+    "message0": "objeto CircuitPython APDS9960 %1 atributo %2",
+    "tooltip": "Lee un atributo permitido de un objeto o módulo CircuitPython APDS9960.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "enable_proximity",
+            "enable_proximity"
+          ],
+          [
+            "enable_gesture",
+            "enable_gesture"
+          ],
+          [
+            "enable_color",
+            "enable_color"
+          ],
+          [
+            "color_data",
+            "color_data"
+          ],
+          [
+            "proximity",
+            "proximity"
+          ]
+        ]
+      }
+    ]
+  }
+}

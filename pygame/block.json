@@ -1,0 +1,300 @@
+[
+  {
+    "type": "python_pygame_call",
+    "message0": "pygame call or create %1 arguments %2 keyword arguments %3",
+    "args0": [
+      {
+        "type": "field_dropdown",
+        "name": "TARGET",
+        "options": [
+          [
+            "init",
+            "init"
+          ],
+          [
+            "quit",
+            "quit"
+          ],
+          [
+            "display.set_mode",
+            "display.set_mode"
+          ],
+          [
+            "display.flip",
+            "display.flip"
+          ],
+          [
+            "event.get",
+            "event.get"
+          ],
+          [
+            "time.Clock",
+            "time.Clock"
+          ],
+          [
+            "image.load",
+            "image.load"
+          ],
+          [
+            "mixer.Sound",
+            "mixer.Sound"
+          ],
+          [
+            "font.Font",
+            "font.Font"
+          ],
+          [
+            "draw.line",
+            "draw.line"
+          ],
+          [
+            "draw.rect",
+            "draw.rect"
+          ],
+          [
+            "draw.circle",
+            "draw.circle"
+          ],
+          [
+            "transform.scale",
+            "transform.scale"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#EF6C00",
+    "tooltip": "Call an allowlisted pygame function or constructor and return its result.",
+    "icon": "settings",
+    "output": "Any"
+  },
+  {
+    "type": "python_pygame_do",
+    "message0": "run pygame %1 arguments %2 keyword arguments %3",
+    "args0": [
+      {
+        "type": "field_dropdown",
+        "name": "TARGET",
+        "options": [
+          [
+            "init",
+            "init"
+          ],
+          [
+            "quit",
+            "quit"
+          ],
+          [
+            "display.set_mode",
+            "display.set_mode"
+          ],
+          [
+            "display.flip",
+            "display.flip"
+          ],
+          [
+            "event.get",
+            "event.get"
+          ],
+          [
+            "time.Clock",
+            "time.Clock"
+          ],
+          [
+            "image.load",
+            "image.load"
+          ],
+          [
+            "mixer.Sound",
+            "mixer.Sound"
+          ],
+          [
+            "font.Font",
+            "font.Font"
+          ],
+          [
+            "draw.line",
+            "draw.line"
+          ],
+          [
+            "draw.rect",
+            "draw.rect"
+          ],
+          [
+            "draw.circle",
+            "draw.circle"
+          ],
+          [
+            "transform.scale",
+            "transform.scale"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#EF6C00",
+    "tooltip": "Run an allowlisted pygame function or constructor as a statement.",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "python_pygame_method",
+    "message0": "pygame object %1 call method %2 arguments %3 keyword arguments %4",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "OBJECT"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "METHOD",
+        "options": [
+          [
+            "fill",
+            "fill"
+          ],
+          [
+            "blit",
+            "blit"
+          ],
+          [
+            "get_rect",
+            "get_rect"
+          ],
+          [
+            "play",
+            "play"
+          ],
+          [
+            "stop",
+            "stop"
+          ],
+          [
+            "tick",
+            "tick"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#EF6C00",
+    "tooltip": "Call an allowlisted pygame object method and return its result.",
+    "icon": "settings",
+    "output": "Any"
+  },
+  {
+    "type": "python_pygame_do_method",
+    "message0": "run pygame object %1 method %2 arguments %3 keyword arguments %4",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "OBJECT"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "METHOD",
+        "options": [
+          [
+            "fill",
+            "fill"
+          ],
+          [
+            "blit",
+            "blit"
+          ],
+          [
+            "get_rect",
+            "get_rect"
+          ],
+          [
+            "play",
+            "play"
+          ],
+          [
+            "stop",
+            "stop"
+          ],
+          [
+            "tick",
+            "tick"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#EF6C00",
+    "tooltip": "Run an allowlisted pygame object method as a statement.",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "python_pygame_attribute",
+    "message0": "pygame object %1 attribute %2",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "OBJECT"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "ATTRIBUTE",
+        "options": [
+          [
+            "type",
+            "type"
+          ],
+          [
+            "key",
+            "key"
+          ],
+          [
+            "pos",
+            "pos"
+          ],
+          [
+            "button",
+            "button"
+          ],
+          [
+            "size",
+            "size"
+          ]
+        ]
+      }
+    ],
+    "colour": "#EF6C00",
+    "tooltip": "Read an allowlisted pygame object or module attribute.",
+    "icon": "settings",
+    "output": "Any"
+  }
+]

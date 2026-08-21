@@ -1,0 +1,47 @@
+{
+  "name": "@aily-project/lib-luma-lcd",
+  "nickname": "luma.lcd",
+  "nickname_zh_cn": "luma.lcd",
+  "nickname_en": "luma.lcd",
+  "nickname_zh_hk": "luma.lcd",
+  "nickname_ja": "luma.lcd",
+  "nickname_ko": "luma.lcd",
+  "nickname_de": "luma.lcd",
+  "nickname_fr": "luma.lcd",
+  "nickname_es": "luma.lcd",
+  "nickname_pt": "luma.lcd",
+  "nickname_ru": "luma.lcd",
+  "nickname_ar": "luma.lcd",
+  "version": "0.0.1",
+  "description": "面向树莓派与 Linux 开发板的 luma.lcd 常用 Python API 白名单积木。",
+  "description_zh_cn": "面向树莓派与 Linux 开发板的 luma.lcd 常用 Python API 白名单积木。",
+  "description_en": "Allowlisted luma.lcd Python API blocks for Raspberry Pi and Linux single-board computers.",
+  "spec": true,
+  "compatibility": {
+    "type": [
+      "canaan:k230:cybercam",
+      "broadcom:bcm2712:raspberrypi_5",
+      "allwinner:t527:walnutpi_2b"
+    ],
+    "voltage": [
+      3.3
+    ]
+  },
+  "keywords": [
+    "aily",
+    "blockly",
+    "python",
+    "linux",
+    "raspberry-pi",
+    "luma.lcd",
+    "luma.lcd.device"
+  ],
+  "tags": [
+    "display"
+  ],
+  "author": "ailyProject",
+  "license": "MIT",
+  "homepage": "https://luma-lcd.readthedocs.io/",
+  "dependencies": {},
+  "devDependencies": {}
+}

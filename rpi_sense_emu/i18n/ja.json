@@ -1,0 +1,178 @@
+{
+  "toolbox_name": "Sense HAT Emulator",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "rpi_sense_emu_call": {
+    "message0": "Sense HAT Emulator 呼び出しまたは作成 %1 引数 %2 キーワード引数 %3",
+    "tooltip": "許可された Sense HAT Emulator の関数またはコンストラクターを呼び出して結果を返します。",
+    "args0": [
+      {
+        "options": [
+          [
+            "SenseHat",
+            "SenseHat"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "rpi_sense_emu_do": {
+    "message0": "Sense HAT Emulator を実行 %1 引数 %2 キーワード引数 %3",
+    "tooltip": "許可された Sense HAT Emulator の関数またはコンストラクターを文として実行します。",
+    "args0": [
+      {
+        "options": [
+          [
+            "SenseHat",
+            "SenseHat"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "rpi_sense_emu_method": {
+    "message0": "Sense HAT Emulator オブジェクト %1 メソッド %2 引数 %3 キーワード引数 %4",
+    "tooltip": "許可された Sense HAT Emulator オブジェクトのメソッドを呼び出して結果を返します。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "show_message",
+            "show_message"
+          ],
+          [
+            "show_letter",
+            "show_letter"
+          ],
+          [
+            "clear",
+            "clear"
+          ],
+          [
+            "set_pixel",
+            "set_pixel"
+          ],
+          [
+            "get_pixel",
+            "get_pixel"
+          ],
+          [
+            "set_pixels",
+            "set_pixels"
+          ],
+          [
+            "get_pixels",
+            "get_pixels"
+          ],
+          [
+            "get_temperature",
+            "get_temperature"
+          ],
+          [
+            "get_humidity",
+            "get_humidity"
+          ],
+          [
+            "get_pressure",
+            "get_pressure"
+          ],
+          [
+            "get_orientation",
+            "get_orientation"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "rpi_sense_emu_do_method": {
+    "message0": "Sense HAT Emulator オブジェクト %1 のメソッド %2 を実行 引数 %3 キーワード引数 %4",
+    "tooltip": "許可された Sense HAT Emulator オブジェクトのメソッドを文として実行します。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "show_message",
+            "show_message"
+          ],
+          [
+            "show_letter",
+            "show_letter"
+          ],
+          [
+            "clear",
+            "clear"
+          ],
+          [
+            "set_pixel",
+            "set_pixel"
+          ],
+          [
+            "get_pixel",
+            "get_pixel"
+          ],
+          [
+            "set_pixels",
+            "set_pixels"
+          ],
+          [
+            "get_pixels",
+            "get_pixels"
+          ],
+          [
+            "get_temperature",
+            "get_temperature"
+          ],
+          [
+            "get_humidity",
+            "get_humidity"
+          ],
+          [
+            "get_pressure",
+            "get_pressure"
+          ],
+          [
+            "get_orientation",
+            "get_orientation"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "rpi_sense_emu_attribute": {
+    "message0": "Sense HAT Emulator オブジェクト %1 属性 %2",
+    "tooltip": "許可された Sense HAT Emulator オブジェクトまたはモジュールの属性を読み取ります。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "low_light",
+            "low_light"
+          ],
+          [
+            "rotation",
+            "rotation"
+          ],
+          [
+            "gamma",
+            "gamma"
+          ],
+          [
+            "stick",
+            "stick"
+          ]
+        ]
+      }
+    ]
+  }
+}

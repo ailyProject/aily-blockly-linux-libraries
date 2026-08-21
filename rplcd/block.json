@@ -1,0 +1,192 @@
+[
+  {
+    "type": "python_rplcd_call",
+    "message0": "RPLCD call or create %1 arguments %2 keyword arguments %3",
+    "args0": [
+      {
+        "type": "field_dropdown",
+        "name": "TARGET",
+        "options": [
+          [
+            "CharLCD",
+            "CharLCD"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#1976D2",
+    "tooltip": "Call an allowlisted RPLCD function or constructor and return its result.",
+    "icon": "settings",
+    "output": "Any"
+  },
+  {
+    "type": "python_rplcd_do",
+    "message0": "run RPLCD %1 arguments %2 keyword arguments %3",
+    "args0": [
+      {
+        "type": "field_dropdown",
+        "name": "TARGET",
+        "options": [
+          [
+            "CharLCD",
+            "CharLCD"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#1976D2",
+    "tooltip": "Run an allowlisted RPLCD function or constructor as a statement.",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "python_rplcd_method",
+    "message0": "RPLCD object %1 call method %2 arguments %3 keyword arguments %4",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "OBJECT"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "METHOD",
+        "options": [
+          [
+            "write_string",
+            "write_string"
+          ],
+          [
+            "clear",
+            "clear"
+          ],
+          [
+            "create_char",
+            "create_char"
+          ],
+          [
+            "home",
+            "home"
+          ],
+          [
+            "close",
+            "close"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#1976D2",
+    "tooltip": "Call an allowlisted RPLCD object method and return its result.",
+    "icon": "settings",
+    "output": "Any"
+  },
+  {
+    "type": "python_rplcd_do_method",
+    "message0": "run RPLCD object %1 method %2 arguments %3 keyword arguments %4",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "OBJECT"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "METHOD",
+        "options": [
+          [
+            "write_string",
+            "write_string"
+          ],
+          [
+            "clear",
+            "clear"
+          ],
+          [
+            "create_char",
+            "create_char"
+          ],
+          [
+            "home",
+            "home"
+          ],
+          [
+            "close",
+            "close"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#1976D2",
+    "tooltip": "Run an allowlisted RPLCD object method as a statement.",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "python_rplcd_attribute",
+    "message0": "RPLCD object %1 attribute %2",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "OBJECT"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "ATTRIBUTE",
+        "options": [
+          [
+            "cursor_pos",
+            "cursor_pos"
+          ],
+          [
+            "backlight_enabled",
+            "backlight_enabled"
+          ],
+          [
+            "cursor_mode",
+            "cursor_mode"
+          ],
+          [
+            "display_enabled",
+            "display_enabled"
+          ]
+        ]
+      }
+    ],
+    "colour": "#1976D2",
+    "tooltip": "Read an allowlisted RPLCD object or module attribute.",
+    "icon": "settings",
+    "output": "Any"
+  }
+]

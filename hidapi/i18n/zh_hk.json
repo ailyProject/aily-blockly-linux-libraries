@@ -1,0 +1,159 @@
+{
+  "toolbox_name": "hidapi",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "linux_hidapi_call": {
+    "message0": "hidapi 呼叫或建立 %1 參數 %2 關鍵字參數 %3",
+    "tooltip": "呼叫白名單中的 hidapi 函式或建構器並傳回結果。",
+    "args0": [
+      {
+        "options": [
+          [
+            "device",
+            "device"
+          ],
+          [
+            "enumerate",
+            "enumerate"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "linux_hidapi_do": {
+    "message0": "執行 hidapi %1 參數 %2 關鍵字參數 %3",
+    "tooltip": "以敘述方式執行白名單中的 hidapi 函式或建構器。",
+    "args0": [
+      {
+        "options": [
+          [
+            "device",
+            "device"
+          ],
+          [
+            "enumerate",
+            "enumerate"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "linux_hidapi_method": {
+    "message0": "hidapi 物件 %1 呼叫方法 %2 參數 %3 關鍵字參數 %4",
+    "tooltip": "呼叫白名單中的 hidapi 物件方法並傳回結果。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "open",
+            "open"
+          ],
+          [
+            "open_path",
+            "open_path"
+          ],
+          [
+            "write",
+            "write"
+          ],
+          [
+            "read",
+            "read"
+          ],
+          [
+            "send_feature_report",
+            "send_feature_report"
+          ],
+          [
+            "get_feature_report",
+            "get_feature_report"
+          ],
+          [
+            "get_manufacturer_string",
+            "get_manufacturer_string"
+          ],
+          [
+            "get_product_string",
+            "get_product_string"
+          ],
+          [
+            "get_serial_number_string",
+            "get_serial_number_string"
+          ],
+          [
+            "close",
+            "close"
+          ],
+          [
+            "set_nonblocking",
+            "set_nonblocking"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "linux_hidapi_do_method": {
+    "message0": "執行 hidapi 物件 %1 的方法 %2 參數 %3 關鍵字參數 %4",
+    "tooltip": "以敘述方式執行白名單中的 hidapi 物件方法。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "open",
+            "open"
+          ],
+          [
+            "open_path",
+            "open_path"
+          ],
+          [
+            "write",
+            "write"
+          ],
+          [
+            "read",
+            "read"
+          ],
+          [
+            "send_feature_report",
+            "send_feature_report"
+          ],
+          [
+            "get_feature_report",
+            "get_feature_report"
+          ],
+          [
+            "get_manufacturer_string",
+            "get_manufacturer_string"
+          ],
+          [
+            "get_product_string",
+            "get_product_string"
+          ],
+          [
+            "get_serial_number_string",
+            "get_serial_number_string"
+          ],
+          [
+            "close",
+            "close"
+          ],
+          [
+            "set_nonblocking",
+            "set_nonblocking"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  }
+}

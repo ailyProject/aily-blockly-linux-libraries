@@ -1,0 +1,206 @@
+{
+  "toolbox_name": "Adafruit IO",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_adafruit_io_call": {
+    "message0": "Adafruit IO appeler ou créer %1 arguments %2 arguments nommés %3",
+    "tooltip": "Appeler une fonction ou un constructeur Adafruit IO autorisé et renvoyer le résultat.",
+    "args0": [
+      {
+        "options": [
+          [
+            "Client",
+            "Client"
+          ],
+          [
+            "MQTTClient",
+            "MQTTClient"
+          ],
+          [
+            "Feed",
+            "Feed"
+          ],
+          [
+            "Data",
+            "Data"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_io_do": {
+    "message0": "exécuter Adafruit IO %1 arguments %2 arguments nommés %3",
+    "tooltip": "Exécuter une fonction ou un constructeur Adafruit IO autorisé comme instruction.",
+    "args0": [
+      {
+        "options": [
+          [
+            "Client",
+            "Client"
+          ],
+          [
+            "MQTTClient",
+            "MQTTClient"
+          ],
+          [
+            "Feed",
+            "Feed"
+          ],
+          [
+            "Data",
+            "Data"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_io_method": {
+    "message0": "objet Adafruit IO %1 méthode %2 arguments %3 arguments nommés %4",
+    "tooltip": "Appeler une méthode autorisée d’un objet Adafruit IO et renvoyer le résultat.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "feeds",
+            "feeds"
+          ],
+          [
+            "create_feed",
+            "create_feed"
+          ],
+          [
+            "send",
+            "send"
+          ],
+          [
+            "receive",
+            "receive"
+          ],
+          [
+            "data",
+            "data"
+          ],
+          [
+            "delete",
+            "delete"
+          ],
+          [
+            "connect",
+            "connect"
+          ],
+          [
+            "disconnect",
+            "disconnect"
+          ],
+          [
+            "loop_background",
+            "loop_background"
+          ],
+          [
+            "subscribe",
+            "subscribe"
+          ],
+          [
+            "publish",
+            "publish"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_io_do_method": {
+    "message0": "exécuter la méthode Adafruit IO de l’objet %1 %2 arguments %3 arguments nommés %4",
+    "tooltip": "Exécuter une méthode autorisée d’un objet Adafruit IO comme instruction.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "feeds",
+            "feeds"
+          ],
+          [
+            "create_feed",
+            "create_feed"
+          ],
+          [
+            "send",
+            "send"
+          ],
+          [
+            "receive",
+            "receive"
+          ],
+          [
+            "data",
+            "data"
+          ],
+          [
+            "delete",
+            "delete"
+          ],
+          [
+            "connect",
+            "connect"
+          ],
+          [
+            "disconnect",
+            "disconnect"
+          ],
+          [
+            "loop_background",
+            "loop_background"
+          ],
+          [
+            "subscribe",
+            "subscribe"
+          ],
+          [
+            "publish",
+            "publish"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_io_attribute": {
+    "message0": "objet Adafruit IO %1 attribut %2",
+    "tooltip": "Lire un attribut autorisé d’un objet ou module Adafruit IO.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "key",
+            "key"
+          ],
+          [
+            "name",
+            "name"
+          ],
+          [
+            "id",
+            "id"
+          ],
+          [
+            "value",
+            "value"
+          ],
+          [
+            "created_at",
+            "created_at"
+          ]
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "toolbox_name": "CircuitPython ServoKit",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_adafruit_servokit_call": {
+    "message0": "CircuitPython ServoKit llamar o crear %1 argumentos %2 argumentos con nombre %3",
+    "tooltip": "Llama a una función o constructor permitido de CircuitPython ServoKit y devuelve el resultado.",
+    "args0": [
+      {
+        "options": [
+          [
+            "ServoKit",
+            "ServoKit"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_servokit_do": {
+    "message0": "ejecutar CircuitPython ServoKit %1 argumentos %2 argumentos con nombre %3",
+    "tooltip": "Ejecuta una función o constructor permitido de CircuitPython ServoKit como sentencia.",
+    "args0": [
+      {
+        "options": [
+          [
+            "ServoKit",
+            "ServoKit"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_servokit_attribute": {
+    "message0": "objeto CircuitPython ServoKit %1 atributo %2",
+    "tooltip": "Lee un atributo permitido de un objeto o módulo CircuitPython ServoKit.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "servo",
+            "servo"
+          ],
+          [
+            "continuous_servo",
+            "continuous_servo"
+          ],
+          [
+            "frequency",
+            "frequency"
+          ]
+        ]
+      }
+    ]
+  }
+}

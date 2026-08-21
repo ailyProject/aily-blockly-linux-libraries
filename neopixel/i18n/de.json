@@ -1,0 +1,114 @@
+{
+  "toolbox_name": "CircuitPython NeoPixel",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_neopixel_call": {
+    "message0": "CircuitPython NeoPixel aufrufen oder erzeugen %1 Argumente %2 Schlüsselwortargumente %3",
+    "tooltip": "Eine freigegebene CircuitPython NeoPixel-Funktion oder einen Konstruktor aufrufen und das Ergebnis zurückgeben.",
+    "args0": [
+      {
+        "options": [
+          [
+            "NeoPixel",
+            "NeoPixel"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_neopixel_do": {
+    "message0": "CircuitPython NeoPixel ausführen %1 Argumente %2 Schlüsselwortargumente %3",
+    "tooltip": "Eine freigegebene CircuitPython NeoPixel-Funktion oder einen Konstruktor als Anweisung ausführen.",
+    "args0": [
+      {
+        "options": [
+          [
+            "NeoPixel",
+            "NeoPixel"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_neopixel_method": {
+    "message0": "CircuitPython NeoPixel-Objekt %1 Methode %2 Argumente %3 Schlüsselwortargumente %4",
+    "tooltip": "Eine freigegebene Methode eines CircuitPython NeoPixel-Objekts aufrufen und das Ergebnis zurückgeben.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "fill",
+            "fill"
+          ],
+          [
+            "show",
+            "show"
+          ],
+          [
+            "deinit",
+            "deinit"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_neopixel_do_method": {
+    "message0": "CircuitPython NeoPixel-Objekt %1 Methode %2 ausführen Argumente %3 Schlüsselwortargumente %4",
+    "tooltip": "Eine freigegebene Methode eines CircuitPython NeoPixel-Objekts als Anweisung ausführen.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "fill",
+            "fill"
+          ],
+          [
+            "show",
+            "show"
+          ],
+          [
+            "deinit",
+            "deinit"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_neopixel_attribute": {
+    "message0": "CircuitPython NeoPixel-Objekt %1 Attribut %2",
+    "tooltip": "Ein freigegebenes Attribut eines CircuitPython NeoPixel-Objekts oder Moduls lesen.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "brightness",
+            "brightness"
+          ],
+          [
+            "auto_write",
+            "auto_write"
+          ],
+          [
+            "n",
+            "n"
+          ],
+          [
+            "bpp",
+            "bpp"
+          ]
+        ]
+      }
+    ]
+  }
+}

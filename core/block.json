@@ -145,6 +145,169 @@
     "output": "Any"
   },
   {
+    "type": "python_arguments",
+    "message0": "arguments %1 %2 %3 %4 %5 %6",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "VALUE0"
+      },
+      {
+        "type": "input_value",
+        "name": "VALUE1"
+      },
+      {
+        "type": "input_value",
+        "name": "VALUE2"
+      },
+      {
+        "type": "input_value",
+        "name": "VALUE3"
+      },
+      {
+        "type": "input_value",
+        "name": "VALUE4"
+      },
+      {
+        "type": "input_value",
+        "name": "VALUE5"
+      }
+    ],
+    "colour": "#455A64",
+    "tooltip": "Build a positional argument list from the connected values.",
+    "icon": "settings",
+    "output": "Any"
+  },
+  {
+    "type": "python_keyword_arguments",
+    "message0": "keyword arguments %1 : %2 %3 : %4 %5 : %6 %7 : %8 %9 : %10 %11 : %12",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "KEY0",
+        "text": ""
+      },
+      {
+        "type": "input_value",
+        "name": "VALUE0"
+      },
+      {
+        "type": "field_input",
+        "name": "KEY1",
+        "text": ""
+      },
+      {
+        "type": "input_value",
+        "name": "VALUE1"
+      },
+      {
+        "type": "field_input",
+        "name": "KEY2",
+        "text": ""
+      },
+      {
+        "type": "input_value",
+        "name": "VALUE2"
+      },
+      {
+        "type": "field_input",
+        "name": "KEY3",
+        "text": ""
+      },
+      {
+        "type": "input_value",
+        "name": "VALUE3"
+      },
+      {
+        "type": "field_input",
+        "name": "KEY4",
+        "text": ""
+      },
+      {
+        "type": "input_value",
+        "name": "VALUE4"
+      },
+      {
+        "type": "field_input",
+        "name": "KEY5",
+        "text": ""
+      },
+      {
+        "type": "input_value",
+        "name": "VALUE5"
+      }
+    ],
+    "colour": "#455A64",
+    "tooltip": "Build a keyword argument dictionary; rows with an empty key are skipped.",
+    "icon": "settings",
+    "output": "Any"
+  },
+  {
+    "type": "python_get_item",
+    "message0": "object %1 item %2",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "OBJECT"
+      },
+      {
+        "type": "input_value",
+        "name": "KEY"
+      }
+    ],
+    "colour": "#455A64",
+    "tooltip": "Read an item from a Python object by key or index.",
+    "icon": "settings",
+    "output": "Any"
+  },
+  {
+    "type": "python_set_item",
+    "message0": "set object %1 item %2 to %3",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "OBJECT"
+      },
+      {
+        "type": "input_value",
+        "name": "KEY"
+      },
+      {
+        "type": "input_value",
+        "name": "VALUE"
+      }
+    ],
+    "colour": "#455A64",
+    "tooltip": "Assign a value to an item of a Python object by key or index.",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "python_set_attribute",
+    "message0": "set object %1 attribute %2 to %3",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "OBJECT"
+      },
+      {
+        "type": "field_input",
+        "name": "ATTRIBUTE",
+        "text": "value"
+      },
+      {
+        "type": "input_value",
+        "name": "VALUE"
+      }
+    ],
+    "colour": "#455A64",
+    "tooltip": "Assign a value to a safely validated Python object attribute.",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
     "type": "python_set_variable",
     "message0": "set variable %1 to %2",
     "args0": [

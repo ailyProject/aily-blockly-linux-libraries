@@ -1,0 +1,218 @@
+{
+  "toolbox_name": "python-sounddevice",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_sounddevice_call": {
+    "message0": "python-sounddevice 호출 또는 생성 %1 인수 %2 키워드 인수 %3",
+    "tooltip": "허용 목록의 python-sounddevice 함수 또는 생성자를 호출하고 결과를 반환합니다.",
+    "args0": [
+      {
+        "options": [
+          [
+            "play",
+            "play"
+          ],
+          [
+            "rec",
+            "rec"
+          ],
+          [
+            "playrec",
+            "playrec"
+          ],
+          [
+            "wait",
+            "wait"
+          ],
+          [
+            "stop",
+            "stop"
+          ],
+          [
+            "query_devices",
+            "query_devices"
+          ],
+          [
+            "query_hostapis",
+            "query_hostapis"
+          ],
+          [
+            "InputStream",
+            "InputStream"
+          ],
+          [
+            "OutputStream",
+            "OutputStream"
+          ],
+          [
+            "Stream",
+            "Stream"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_sounddevice_do": {
+    "message0": "python-sounddevice 실행 %1 인수 %2 키워드 인수 %3",
+    "tooltip": "허용 목록의 python-sounddevice 함수 또는 생성자를 문으로 실행합니다.",
+    "args0": [
+      {
+        "options": [
+          [
+            "play",
+            "play"
+          ],
+          [
+            "rec",
+            "rec"
+          ],
+          [
+            "playrec",
+            "playrec"
+          ],
+          [
+            "wait",
+            "wait"
+          ],
+          [
+            "stop",
+            "stop"
+          ],
+          [
+            "query_devices",
+            "query_devices"
+          ],
+          [
+            "query_hostapis",
+            "query_hostapis"
+          ],
+          [
+            "InputStream",
+            "InputStream"
+          ],
+          [
+            "OutputStream",
+            "OutputStream"
+          ],
+          [
+            "Stream",
+            "Stream"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_sounddevice_method": {
+    "message0": "python-sounddevice 객체 %1 메서드 %2 인수 %3 키워드 인수 %4",
+    "tooltip": "허용 목록의 python-sounddevice 객체 메서드를 호출하고 결과를 반환합니다.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "start",
+            "start"
+          ],
+          [
+            "stop",
+            "stop"
+          ],
+          [
+            "abort",
+            "abort"
+          ],
+          [
+            "close",
+            "close"
+          ],
+          [
+            "read",
+            "read"
+          ],
+          [
+            "write",
+            "write"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_sounddevice_do_method": {
+    "message0": "python-sounddevice 객체 %1 메서드 실행 %2 인수 %3 키워드 인수 %4",
+    "tooltip": "허용 목록의 python-sounddevice 객체 메서드를 문으로 실행합니다.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "start",
+            "start"
+          ],
+          [
+            "stop",
+            "stop"
+          ],
+          [
+            "abort",
+            "abort"
+          ],
+          [
+            "close",
+            "close"
+          ],
+          [
+            "read",
+            "read"
+          ],
+          [
+            "write",
+            "write"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_sounddevice_attribute": {
+    "message0": "python-sounddevice 객체 %1 속성 %2",
+    "tooltip": "허용 목록의 python-sounddevice 객체 또는 모듈 속성을 읽습니다.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "active",
+            "active"
+          ],
+          [
+            "closed",
+            "closed"
+          ],
+          [
+            "latency",
+            "latency"
+          ],
+          [
+            "samplerate",
+            "samplerate"
+          ],
+          [
+            "channels",
+            "channels"
+          ],
+          [
+            "dtype",
+            "dtype"
+          ]
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "name": "@aily-project/lib-adafruit-rgb-display",
+  "nickname": "CircuitPython RGB Display",
+  "nickname_zh_cn": "CircuitPython RGB Display",
+  "nickname_en": "CircuitPython RGB Display",
+  "nickname_zh_hk": "CircuitPython RGB Display",
+  "nickname_ja": "CircuitPython RGB Display",
+  "nickname_ko": "CircuitPython RGB Display",
+  "nickname_de": "CircuitPython RGB Display",
+  "nickname_fr": "CircuitPython RGB Display",
+  "nickname_es": "CircuitPython RGB Display",
+  "nickname_pt": "CircuitPython RGB Display",
+  "nickname_ru": "CircuitPython RGB Display",
+  "nickname_ar": "CircuitPython RGB Display",
+  "version": "0.0.1",
+  "description": "面向树莓派与 Linux 开发板的 CircuitPython RGB Display 常用 Python API 白名单积木。",
+  "description_zh_cn": "面向树莓派与 Linux 开发板的 CircuitPython RGB Display 常用 Python API 白名单积木。",
+  "description_en": "Allowlisted CircuitPython RGB Display Python API blocks for Raspberry Pi and Linux single-board computers.",
+  "spec": true,
+  "compatibility": {
+    "type": [
+      "broadcom:bcm2712:raspberrypi_5"
+    ],
+    "voltage": [
+      3.3
+    ]
+  },
+  "keywords": [
+    "aily",
+    "blockly",
+    "python",
+    "linux",
+    "raspberry-pi",
+    "adafruit-circuitpython-rgb-display",
+    "adafruit_rgb_display.st7789"
+  ],
+  "tags": [
+    "display"
+  ],
+  "author": "ailyProject",
+  "license": "MIT",
+  "homepage": "https://docs.circuitpython.org/projects/rgb_display/en/latest/",
+  "dependencies": {},
+  "devDependencies": {}
+}

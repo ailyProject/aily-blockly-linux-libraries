@@ -1,0 +1,27 @@
+{
+  "kind": "category",
+  "name": "PyFtdi GPIO",
+  "colour": "#00897B",
+  "contents": [
+    {
+      "kind": "block",
+      "type": "linux_pyftdi_call"
+    },
+    {
+      "kind": "block",
+      "type": "linux_pyftdi_do"
+    },
+    {
+      "kind": "block",
+      "type": "linux_pyftdi_method"
+    },
+    {
+      "kind": "block",
+      "type": "linux_pyftdi_do_method"
+    },
+    {
+      "kind": "block",
+      "type": "linux_pyftdi_attribute"
+    }
+  ]
+}

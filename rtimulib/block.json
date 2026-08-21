@@ -1,0 +1,204 @@
+[
+  {
+    "type": "rpi_rtimulib_call",
+    "message0": "RTIMULib call or create %1 arguments %2 keyword arguments %3",
+    "args0": [
+      {
+        "type": "field_dropdown",
+        "name": "TARGET",
+        "options": [
+          [
+            "Settings",
+            "Settings"
+          ],
+          [
+            "RTIMU",
+            "RTIMU"
+          ],
+          [
+            "RTPressure",
+            "RTPressure"
+          ],
+          [
+            "RTHumidity",
+            "RTHumidity"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#C51A4A",
+    "tooltip": "Call an allowlisted RTIMULib function or constructor and return its result.",
+    "icon": "settings",
+    "output": "Any"
+  },
+  {
+    "type": "rpi_rtimulib_do",
+    "message0": "run RTIMULib %1 arguments %2 keyword arguments %3",
+    "args0": [
+      {
+        "type": "field_dropdown",
+        "name": "TARGET",
+        "options": [
+          [
+            "Settings",
+            "Settings"
+          ],
+          [
+            "RTIMU",
+            "RTIMU"
+          ],
+          [
+            "RTPressure",
+            "RTPressure"
+          ],
+          [
+            "RTHumidity",
+            "RTHumidity"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#C51A4A",
+    "tooltip": "Run an allowlisted RTIMULib function or constructor as a statement.",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "rpi_rtimulib_method",
+    "message0": "RTIMULib object %1 call method %2 arguments %3 keyword arguments %4",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "OBJECT"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "METHOD",
+        "options": [
+          [
+            "IMUInit",
+            "IMUInit"
+          ],
+          [
+            "IMURead",
+            "IMURead"
+          ],
+          [
+            "getIMUData",
+            "getIMUData"
+          ],
+          [
+            "IMUGetPollInterval",
+            "IMUGetPollInterval"
+          ],
+          [
+            "pressureInit",
+            "pressureInit"
+          ],
+          [
+            "pressureRead",
+            "pressureRead"
+          ],
+          [
+            "humidityInit",
+            "humidityInit"
+          ],
+          [
+            "humidityRead",
+            "humidityRead"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#C51A4A",
+    "tooltip": "Call an allowlisted RTIMULib object method and return its result.",
+    "icon": "settings",
+    "output": "Any"
+  },
+  {
+    "type": "rpi_rtimulib_do_method",
+    "message0": "run RTIMULib object %1 method %2 arguments %3 keyword arguments %4",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "OBJECT"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "METHOD",
+        "options": [
+          [
+            "IMUInit",
+            "IMUInit"
+          ],
+          [
+            "IMURead",
+            "IMURead"
+          ],
+          [
+            "getIMUData",
+            "getIMUData"
+          ],
+          [
+            "IMUGetPollInterval",
+            "IMUGetPollInterval"
+          ],
+          [
+            "pressureInit",
+            "pressureInit"
+          ],
+          [
+            "pressureRead",
+            "pressureRead"
+          ],
+          [
+            "humidityInit",
+            "humidityInit"
+          ],
+          [
+            "humidityRead",
+            "humidityRead"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#C51A4A",
+    "tooltip": "Run an allowlisted RTIMULib object method as a statement.",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  }
+]

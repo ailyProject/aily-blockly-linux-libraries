@@ -78,6 +78,62 @@
       null
     ]
   },
+  "python_arguments": {
+    "message0": "位置参数 %1 %2 %3 %4 %5 %6",
+    "tooltip": "将已连接的值组成位置参数列表。",
+    "args0": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "python_keyword_arguments": {
+    "message0": "关键字参数 %1 : %2 %3 : %4 %5 : %6 %7 : %8 %9 : %10 %11 : %12",
+    "tooltip": "组成关键字参数字典；键为空的行会被跳过。",
+    "args0": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "python_get_item": {
+    "message0": "对象 %1 的元素 %2",
+    "tooltip": "按键或索引读取 Python 对象的元素。",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_set_item": {
+    "message0": "将对象 %1 的元素 %2 设为 %3",
+    "tooltip": "按键或索引设置 Python 对象的元素。",
+    "args0": [
+      null,
+      null,
+      null
+    ]
+  },
+  "python_set_attribute": {
+    "message0": "将对象 %1 的属性 %2 设为 %3",
+    "tooltip": "设置经过安全校验的 Python 对象属性。",
+    "args0": [
+      null,
+      null,
+      null
+    ]
+  },
   "python_set_variable": {
     "message0": "将变量 %1 设为 %2",
     "tooltip": "将变量 %1 设为 %2",

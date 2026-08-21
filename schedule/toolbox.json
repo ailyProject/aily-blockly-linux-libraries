@@ -1,0 +1,27 @@
+{
+  "kind": "category",
+  "name": "schedule",
+  "colour": "#455A64",
+  "contents": [
+    {
+      "kind": "block",
+      "type": "python_schedule_call"
+    },
+    {
+      "kind": "block",
+      "type": "python_schedule_do"
+    },
+    {
+      "kind": "block",
+      "type": "python_schedule_method"
+    },
+    {
+      "kind": "block",
+      "type": "python_schedule_do_method"
+    },
+    {
+      "kind": "block",
+      "type": "python_schedule_attribute"
+    }
+  ]
+}

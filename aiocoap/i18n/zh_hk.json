@@ -1,0 +1,166 @@
+{
+  "toolbox_name": "aiocoap",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_aiocoap_call": {
+    "message0": "aiocoap 呼叫或建立 %1 參數 %2 關鍵字參數 %3",
+    "tooltip": "呼叫白名單中的 aiocoap 函式或建構器並傳回結果。",
+    "args0": [
+      {
+        "options": [
+          [
+            "Context.create_client_context",
+            "Context.create_client_context"
+          ],
+          [
+            "Context.create_server_context",
+            "Context.create_server_context"
+          ],
+          [
+            "Message",
+            "Message"
+          ],
+          [
+            "resource.Site",
+            "resource.Site"
+          ],
+          [
+            "resource.Resource",
+            "resource.Resource"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_aiocoap_do": {
+    "message0": "執行 aiocoap %1 參數 %2 關鍵字參數 %3",
+    "tooltip": "以敘述方式執行白名單中的 aiocoap 函式或建構器。",
+    "args0": [
+      {
+        "options": [
+          [
+            "Context.create_client_context",
+            "Context.create_client_context"
+          ],
+          [
+            "Context.create_server_context",
+            "Context.create_server_context"
+          ],
+          [
+            "Message",
+            "Message"
+          ],
+          [
+            "resource.Site",
+            "resource.Site"
+          ],
+          [
+            "resource.Resource",
+            "resource.Resource"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_aiocoap_method": {
+    "message0": "aiocoap 物件 %1 呼叫方法 %2 參數 %3 關鍵字參數 %4",
+    "tooltip": "呼叫白名單中的 aiocoap 物件方法並傳回結果。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "request",
+            "request"
+          ],
+          [
+            "render_get",
+            "render_get"
+          ],
+          [
+            "render_post",
+            "render_post"
+          ],
+          [
+            "add_resource",
+            "add_resource"
+          ],
+          [
+            "shutdown",
+            "shutdown"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_aiocoap_do_method": {
+    "message0": "執行 aiocoap 物件 %1 的方法 %2 參數 %3 關鍵字參數 %4",
+    "tooltip": "以敘述方式執行白名單中的 aiocoap 物件方法。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "request",
+            "request"
+          ],
+          [
+            "render_get",
+            "render_get"
+          ],
+          [
+            "render_post",
+            "render_post"
+          ],
+          [
+            "add_resource",
+            "add_resource"
+          ],
+          [
+            "shutdown",
+            "shutdown"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_aiocoap_attribute": {
+    "message0": "aiocoap 物件 %1 屬性 %2",
+    "tooltip": "讀取白名單中的 aiocoap 物件或模組屬性。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "code",
+            "code"
+          ],
+          [
+            "payload",
+            "payload"
+          ],
+          [
+            "uri",
+            "uri"
+          ],
+          [
+            "remote",
+            "remote"
+          ],
+          [
+            "opt",
+            "opt"
+          ]
+        ]
+      }
+    ]
+  }
+}

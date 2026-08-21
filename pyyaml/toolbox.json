@@ -1,0 +1,19 @@
+{
+  "kind": "category",
+  "name": "PyYAML",
+  "colour": "#455A64",
+  "contents": [
+    {
+      "kind": "block",
+      "type": "python_pyyaml_call"
+    },
+    {
+      "kind": "block",
+      "type": "python_pyyaml_do"
+    },
+    {
+      "kind": "block",
+      "type": "python_pyyaml_attribute"
+    }
+  ]
+}

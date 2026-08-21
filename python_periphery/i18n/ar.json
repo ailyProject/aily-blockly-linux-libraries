@@ -1,0 +1,206 @@
+{
+  "toolbox_name": "python-periphery",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "linux_periphery_call": {
+    "message0": "python-periphery استدعاء أو إنشاء %1 الوسائط %2 وسائط الكلمات المفتاحية %3",
+    "tooltip": "استدعاء دالة أو مُنشئ مسموح من python-periphery وإرجاع النتيجة.",
+    "args0": [
+      {
+        "options": [
+          [
+            "GPIO",
+            "GPIO"
+          ],
+          [
+            "LED",
+            "LED"
+          ],
+          [
+            "PWM",
+            "PWM"
+          ],
+          [
+            "SPI",
+            "SPI"
+          ],
+          [
+            "I2C",
+            "I2C"
+          ],
+          [
+            "Serial",
+            "Serial"
+          ],
+          [
+            "MMIO",
+            "MMIO"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "linux_periphery_do": {
+    "message0": "تشغيل python-periphery %1 الوسائط %2 وسائط الكلمات المفتاحية %3",
+    "tooltip": "تشغيل دالة أو مُنشئ مسموح من python-periphery كتعليمة.",
+    "args0": [
+      {
+        "options": [
+          [
+            "GPIO",
+            "GPIO"
+          ],
+          [
+            "LED",
+            "LED"
+          ],
+          [
+            "PWM",
+            "PWM"
+          ],
+          [
+            "SPI",
+            "SPI"
+          ],
+          [
+            "I2C",
+            "I2C"
+          ],
+          [
+            "Serial",
+            "Serial"
+          ],
+          [
+            "MMIO",
+            "MMIO"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "linux_periphery_method": {
+    "message0": "كائن python-periphery %1 الطريقة %2 الوسائط %3 وسائط الكلمات المفتاحية %4",
+    "tooltip": "استدعاء طريقة مسموحة لكائن python-periphery وإرجاع النتيجة.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "open",
+            "open"
+          ],
+          [
+            "read",
+            "read"
+          ],
+          [
+            "write",
+            "write"
+          ],
+          [
+            "poll",
+            "poll"
+          ],
+          [
+            "transfer",
+            "transfer"
+          ],
+          [
+            "read_event",
+            "read_event"
+          ],
+          [
+            "close",
+            "close"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "linux_periphery_do_method": {
+    "message0": "تشغيل طريقة python-periphery للكائن %1 %2 الوسائط %3 وسائط الكلمات المفتاحية %4",
+    "tooltip": "تشغيل طريقة مسموحة لكائن python-periphery كتعليمة.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "open",
+            "open"
+          ],
+          [
+            "read",
+            "read"
+          ],
+          [
+            "write",
+            "write"
+          ],
+          [
+            "poll",
+            "poll"
+          ],
+          [
+            "transfer",
+            "transfer"
+          ],
+          [
+            "read_event",
+            "read_event"
+          ],
+          [
+            "close",
+            "close"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "linux_periphery_attribute": {
+    "message0": "كائن python-periphery %1 السمة %2",
+    "tooltip": "قراءة سمة مسموحة لكائن أو وحدة python-periphery.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "direction",
+            "direction"
+          ],
+          [
+            "edge",
+            "edge"
+          ],
+          [
+            "bias",
+            "bias"
+          ],
+          [
+            "frequency",
+            "frequency"
+          ],
+          [
+            "duty_cycle",
+            "duty_cycle"
+          ],
+          [
+            "period",
+            "period"
+          ],
+          [
+            "fd",
+            "fd"
+          ]
+        ]
+      }
+    ]
+  }
+}

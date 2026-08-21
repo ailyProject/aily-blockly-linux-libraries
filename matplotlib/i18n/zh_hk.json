@@ -1,0 +1,266 @@
+{
+  "toolbox_name": "Matplotlib pyplot",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_matplotlib_call": {
+    "message0": "Matplotlib pyplot 呼叫或建立 %1 參數 %2 關鍵字參數 %3",
+    "tooltip": "呼叫白名單中的 Matplotlib pyplot 函式或建構器並傳回結果。",
+    "args0": [
+      {
+        "options": [
+          [
+            "figure",
+            "figure"
+          ],
+          [
+            "subplots",
+            "subplots"
+          ],
+          [
+            "plot",
+            "plot"
+          ],
+          [
+            "scatter",
+            "scatter"
+          ],
+          [
+            "bar",
+            "bar"
+          ],
+          [
+            "imshow",
+            "imshow"
+          ],
+          [
+            "hist",
+            "hist"
+          ],
+          [
+            "title",
+            "title"
+          ],
+          [
+            "xlabel",
+            "xlabel"
+          ],
+          [
+            "ylabel",
+            "ylabel"
+          ],
+          [
+            "legend",
+            "legend"
+          ],
+          [
+            "savefig",
+            "savefig"
+          ],
+          [
+            "show",
+            "show"
+          ],
+          [
+            "close",
+            "close"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_matplotlib_do": {
+    "message0": "執行 Matplotlib pyplot %1 參數 %2 關鍵字參數 %3",
+    "tooltip": "以敘述方式執行白名單中的 Matplotlib pyplot 函式或建構器。",
+    "args0": [
+      {
+        "options": [
+          [
+            "figure",
+            "figure"
+          ],
+          [
+            "subplots",
+            "subplots"
+          ],
+          [
+            "plot",
+            "plot"
+          ],
+          [
+            "scatter",
+            "scatter"
+          ],
+          [
+            "bar",
+            "bar"
+          ],
+          [
+            "imshow",
+            "imshow"
+          ],
+          [
+            "hist",
+            "hist"
+          ],
+          [
+            "title",
+            "title"
+          ],
+          [
+            "xlabel",
+            "xlabel"
+          ],
+          [
+            "ylabel",
+            "ylabel"
+          ],
+          [
+            "legend",
+            "legend"
+          ],
+          [
+            "savefig",
+            "savefig"
+          ],
+          [
+            "show",
+            "show"
+          ],
+          [
+            "close",
+            "close"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_matplotlib_method": {
+    "message0": "Matplotlib pyplot 物件 %1 呼叫方法 %2 參數 %3 關鍵字參數 %4",
+    "tooltip": "呼叫白名單中的 Matplotlib pyplot 物件方法並傳回結果。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "plot",
+            "plot"
+          ],
+          [
+            "scatter",
+            "scatter"
+          ],
+          [
+            "bar",
+            "bar"
+          ],
+          [
+            "imshow",
+            "imshow"
+          ],
+          [
+            "set_title",
+            "set_title"
+          ],
+          [
+            "set_xlabel",
+            "set_xlabel"
+          ],
+          [
+            "set_ylabel",
+            "set_ylabel"
+          ],
+          [
+            "legend",
+            "legend"
+          ],
+          [
+            "grid",
+            "grid"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_matplotlib_do_method": {
+    "message0": "執行 Matplotlib pyplot 物件 %1 的方法 %2 參數 %3 關鍵字參數 %4",
+    "tooltip": "以敘述方式執行白名單中的 Matplotlib pyplot 物件方法。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "plot",
+            "plot"
+          ],
+          [
+            "scatter",
+            "scatter"
+          ],
+          [
+            "bar",
+            "bar"
+          ],
+          [
+            "imshow",
+            "imshow"
+          ],
+          [
+            "set_title",
+            "set_title"
+          ],
+          [
+            "set_xlabel",
+            "set_xlabel"
+          ],
+          [
+            "set_ylabel",
+            "set_ylabel"
+          ],
+          [
+            "legend",
+            "legend"
+          ],
+          [
+            "grid",
+            "grid"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_matplotlib_attribute": {
+    "message0": "Matplotlib pyplot 物件 %1 屬性 %2",
+    "tooltip": "讀取白名單中的 Matplotlib pyplot 物件或模組屬性。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "figure",
+            "figure"
+          ],
+          [
+            "axes",
+            "axes"
+          ],
+          [
+            "lines",
+            "lines"
+          ],
+          [
+            "images",
+            "images"
+          ]
+        ]
+      }
+    ]
+  }
+}

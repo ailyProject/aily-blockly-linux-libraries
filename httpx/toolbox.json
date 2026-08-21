@@ -1,0 +1,27 @@
+{
+  "kind": "category",
+  "name": "HTTPX",
+  "colour": "#0288D1",
+  "contents": [
+    {
+      "kind": "block",
+      "type": "python_httpx_call"
+    },
+    {
+      "kind": "block",
+      "type": "python_httpx_do"
+    },
+    {
+      "kind": "block",
+      "type": "python_httpx_method"
+    },
+    {
+      "kind": "block",
+      "type": "python_httpx_do_method"
+    },
+    {
+      "kind": "block",
+      "type": "python_httpx_attribute"
+    }
+  ]
+}

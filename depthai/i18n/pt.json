@@ -1,0 +1,210 @@
+{
+  "toolbox_name": "DepthAI v3",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_depthai_call": {
+    "message0": "DepthAI v3 chamar ou criar %1 argumentos %2 argumentos nomeados %3",
+    "tooltip": "Chama uma função ou construtor permitido de DepthAI v3 e devolve o resultado.",
+    "args0": [
+      {
+        "options": [
+          [
+            "Pipeline",
+            "Pipeline"
+          ],
+          [
+            "Device",
+            "Device"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_depthai_do": {
+    "message0": "executar DepthAI v3 %1 argumentos %2 argumentos nomeados %3",
+    "tooltip": "Executa uma função ou construtor permitido de DepthAI v3 como instrução.",
+    "args0": [
+      {
+        "options": [
+          [
+            "Pipeline",
+            "Pipeline"
+          ],
+          [
+            "Device",
+            "Device"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_depthai_method": {
+    "message0": "objeto DepthAI v3 %1 método %2 argumentos %3 argumentos nomeados %4",
+    "tooltip": "Chama um método permitido de um objeto DepthAI v3 e devolve o resultado.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "create",
+            "create"
+          ],
+          [
+            "build",
+            "build"
+          ],
+          [
+            "start",
+            "start"
+          ],
+          [
+            "stop",
+            "stop"
+          ],
+          [
+            "run",
+            "run"
+          ],
+          [
+            "wait",
+            "wait"
+          ],
+          [
+            "requestOutput",
+            "requestOutput"
+          ],
+          [
+            "createOutputQueue",
+            "createOutputQueue"
+          ],
+          [
+            "get",
+            "get"
+          ],
+          [
+            "tryGet",
+            "tryGet"
+          ],
+          [
+            "send",
+            "send"
+          ],
+          [
+            "close",
+            "close"
+          ],
+          [
+            "isRunning",
+            "isRunning"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_depthai_do_method": {
+    "message0": "executar método de DepthAI v3 objeto %1 %2 argumentos %3 argumentos nomeados %4",
+    "tooltip": "Executa um método permitido de um objeto DepthAI v3 como instrução.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "create",
+            "create"
+          ],
+          [
+            "build",
+            "build"
+          ],
+          [
+            "start",
+            "start"
+          ],
+          [
+            "stop",
+            "stop"
+          ],
+          [
+            "run",
+            "run"
+          ],
+          [
+            "wait",
+            "wait"
+          ],
+          [
+            "requestOutput",
+            "requestOutput"
+          ],
+          [
+            "createOutputQueue",
+            "createOutputQueue"
+          ],
+          [
+            "get",
+            "get"
+          ],
+          [
+            "tryGet",
+            "tryGet"
+          ],
+          [
+            "send",
+            "send"
+          ],
+          [
+            "close",
+            "close"
+          ],
+          [
+            "isRunning",
+            "isRunning"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_depthai_attribute": {
+    "message0": "objeto DepthAI v3 %1 atributo %2",
+    "tooltip": "Lê um atributo permitido de um objeto ou módulo DepthAI v3.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "node.Camera",
+            "node.Camera"
+          ],
+          [
+            "node.ColorCamera",
+            "node.ColorCamera"
+          ],
+          [
+            "node.MonoCamera",
+            "node.MonoCamera"
+          ],
+          [
+            "node.ImageManip",
+            "node.ImageManip"
+          ],
+          [
+            "node.NeuralNetwork",
+            "node.NeuralNetwork"
+          ],
+          [
+            "node.StereoDepth",
+            "node.StereoDepth"
+          ]
+        ]
+      }
+    ]
+  }
+}

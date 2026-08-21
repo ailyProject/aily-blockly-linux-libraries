@@ -1,0 +1,45 @@
+{
+  "name": "@aily-project/lib-rpi-hardware-pwm",
+  "nickname": "Raspberry Pi Hardware PWM",
+  "nickname_zh_cn": "Raspberry Pi Hardware PWM",
+  "nickname_en": "Raspberry Pi Hardware PWM",
+  "nickname_zh_hk": "Raspberry Pi Hardware PWM",
+  "nickname_ja": "Raspberry Pi Hardware PWM",
+  "nickname_ko": "Raspberry Pi Hardware PWM",
+  "nickname_de": "Raspberry Pi Hardware PWM",
+  "nickname_fr": "Raspberry Pi Hardware PWM",
+  "nickname_es": "Raspberry Pi Hardware PWM",
+  "nickname_pt": "Raspberry Pi Hardware PWM",
+  "nickname_ru": "Raspberry Pi Hardware PWM",
+  "nickname_ar": "Raspberry Pi Hardware PWM",
+  "version": "0.0.1",
+  "description": "面向树莓派与 Linux 开发板的 Raspberry Pi Hardware PWM 常用 Python API 白名单积木。",
+  "description_zh_cn": "面向树莓派与 Linux 开发板的 Raspberry Pi Hardware PWM 常用 Python API 白名单积木。",
+  "description_en": "Allowlisted Raspberry Pi Hardware PWM Python API blocks for Raspberry Pi and Linux single-board computers.",
+  "spec": true,
+  "compatibility": {
+    "type": [
+      "broadcom:bcm2712:raspberrypi_5"
+    ],
+    "voltage": [
+      3.3
+    ]
+  },
+  "keywords": [
+    "aily",
+    "blockly",
+    "python",
+    "linux",
+    "raspberry-pi",
+    "rpi-hardware-pwm",
+    "rpi_hardware_pwm"
+  ],
+  "tags": [
+    "io"
+  ],
+  "author": "ailyProject",
+  "license": "MIT",
+  "homepage": "https://github.com/Pioreactor/rpi_hardware_pwm",
+  "dependencies": {},
+  "devDependencies": {}
+}

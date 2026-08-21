@@ -1,0 +1,23 @@
+{
+  "kind": "category",
+  "name": "RTIMULib",
+  "colour": "#C51A4A",
+  "contents": [
+    {
+      "kind": "block",
+      "type": "rpi_rtimulib_call"
+    },
+    {
+      "kind": "block",
+      "type": "rpi_rtimulib_do"
+    },
+    {
+      "kind": "block",
+      "type": "rpi_rtimulib_method"
+    },
+    {
+      "kind": "block",
+      "type": "rpi_rtimulib_do_method"
+    }
+  ]
+}

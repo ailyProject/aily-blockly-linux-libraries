@@ -78,6 +78,62 @@
       null
     ]
   },
+  "python_arguments": {
+    "message0": "位置引数 %1 %2 %3 %4 %5 %6",
+    "tooltip": "接続された値から位置引数のリストを作成します。",
+    "args0": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "python_keyword_arguments": {
+    "message0": "キーワード引数 %1 : %2 %3 : %4 %5 : %6 %7 : %8 %9 : %10 %11 : %12",
+    "tooltip": "キーワード引数の辞書を作成します。キーが空の行は無視されます。",
+    "args0": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "python_get_item": {
+    "message0": "オブジェクト %1 の要素 %2",
+    "tooltip": "キーまたはインデックスで Python オブジェクトの要素を読み取ります。",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_set_item": {
+    "message0": "オブジェクト %1 の要素 %2 を %3 にする",
+    "tooltip": "キーまたはインデックスで Python オブジェクトの要素に値を設定します。",
+    "args0": [
+      null,
+      null,
+      null
+    ]
+  },
+  "python_set_attribute": {
+    "message0": "オブジェクト %1 の属性 %2 を %3 にする",
+    "tooltip": "安全に検証された Python オブジェクト属性に値を設定します。",
+    "args0": [
+      null,
+      null,
+      null
+    ]
+  },
   "python_set_variable": {
     "message0": "変数 %1 を %2 にする",
     "tooltip": "変数 %1 を %2 にする",

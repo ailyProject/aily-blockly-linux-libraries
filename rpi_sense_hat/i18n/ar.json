@@ -1,0 +1,194 @@
+{
+  "toolbox_name": "Sense HAT",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "rpi_sense_hat_call": {
+    "message0": "Sense HAT استدعاء أو إنشاء %1 الوسائط %2 وسائط الكلمات المفتاحية %3",
+    "tooltip": "استدعاء دالة أو مُنشئ مسموح من Sense HAT وإرجاع النتيجة.",
+    "args0": [
+      {
+        "options": [
+          [
+            "SenseHat",
+            "SenseHat"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "rpi_sense_hat_do": {
+    "message0": "تشغيل Sense HAT %1 الوسائط %2 وسائط الكلمات المفتاحية %3",
+    "tooltip": "تشغيل دالة أو مُنشئ مسموح من Sense HAT كتعليمة.",
+    "args0": [
+      {
+        "options": [
+          [
+            "SenseHat",
+            "SenseHat"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "rpi_sense_hat_method": {
+    "message0": "كائن Sense HAT %1 الطريقة %2 الوسائط %3 وسائط الكلمات المفتاحية %4",
+    "tooltip": "استدعاء طريقة مسموحة لكائن Sense HAT وإرجاع النتيجة.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "show_message",
+            "show_message"
+          ],
+          [
+            "show_letter",
+            "show_letter"
+          ],
+          [
+            "clear",
+            "clear"
+          ],
+          [
+            "set_pixel",
+            "set_pixel"
+          ],
+          [
+            "get_pixel",
+            "get_pixel"
+          ],
+          [
+            "set_pixels",
+            "set_pixels"
+          ],
+          [
+            "get_pixels",
+            "get_pixels"
+          ],
+          [
+            "get_temperature",
+            "get_temperature"
+          ],
+          [
+            "get_humidity",
+            "get_humidity"
+          ],
+          [
+            "get_pressure",
+            "get_pressure"
+          ],
+          [
+            "get_orientation",
+            "get_orientation"
+          ],
+          [
+            "get_accelerometer_raw",
+            "get_accelerometer_raw"
+          ],
+          [
+            "get_gyroscope_raw",
+            "get_gyroscope_raw"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "rpi_sense_hat_do_method": {
+    "message0": "تشغيل طريقة Sense HAT للكائن %1 %2 الوسائط %3 وسائط الكلمات المفتاحية %4",
+    "tooltip": "تشغيل طريقة مسموحة لكائن Sense HAT كتعليمة.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "show_message",
+            "show_message"
+          ],
+          [
+            "show_letter",
+            "show_letter"
+          ],
+          [
+            "clear",
+            "clear"
+          ],
+          [
+            "set_pixel",
+            "set_pixel"
+          ],
+          [
+            "get_pixel",
+            "get_pixel"
+          ],
+          [
+            "set_pixels",
+            "set_pixels"
+          ],
+          [
+            "get_pixels",
+            "get_pixels"
+          ],
+          [
+            "get_temperature",
+            "get_temperature"
+          ],
+          [
+            "get_humidity",
+            "get_humidity"
+          ],
+          [
+            "get_pressure",
+            "get_pressure"
+          ],
+          [
+            "get_orientation",
+            "get_orientation"
+          ],
+          [
+            "get_accelerometer_raw",
+            "get_accelerometer_raw"
+          ],
+          [
+            "get_gyroscope_raw",
+            "get_gyroscope_raw"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "rpi_sense_hat_attribute": {
+    "message0": "كائن Sense HAT %1 السمة %2",
+    "tooltip": "قراءة سمة مسموحة لكائن أو وحدة Sense HAT.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "low_light",
+            "low_light"
+          ],
+          [
+            "rotation",
+            "rotation"
+          ],
+          [
+            "gamma",
+            "gamma"
+          ],
+          [
+            "stick",
+            "stick"
+          ]
+        ]
+      }
+    ]
+  }
+}

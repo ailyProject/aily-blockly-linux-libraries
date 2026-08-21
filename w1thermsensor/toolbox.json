@@ -1,0 +1,27 @@
+{
+  "kind": "category",
+  "name": "W1ThermSensor",
+  "colour": "#00897B",
+  "contents": [
+    {
+      "kind": "block",
+      "type": "python_w1thermsensor_call"
+    },
+    {
+      "kind": "block",
+      "type": "python_w1thermsensor_do"
+    },
+    {
+      "kind": "block",
+      "type": "python_w1thermsensor_method"
+    },
+    {
+      "kind": "block",
+      "type": "python_w1thermsensor_do_method"
+    },
+    {
+      "kind": "block",
+      "type": "python_w1thermsensor_attribute"
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "toolbox_name": "python-periphery",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "linux_periphery_call": {
+    "message0": "python-periphery 呼叫或建立 %1 參數 %2 關鍵字參數 %3",
+    "tooltip": "呼叫白名單中的 python-periphery 函式或建構器並傳回結果。",
+    "args0": [
+      {
+        "options": [
+          [
+            "GPIO",
+            "GPIO"
+          ],
+          [
+            "LED",
+            "LED"
+          ],
+          [
+            "PWM",
+            "PWM"
+          ],
+          [
+            "SPI",
+            "SPI"
+          ],
+          [
+            "I2C",
+            "I2C"
+          ],
+          [
+            "Serial",
+            "Serial"
+          ],
+          [
+            "MMIO",
+            "MMIO"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "linux_periphery_do": {
+    "message0": "執行 python-periphery %1 參數 %2 關鍵字參數 %3",
+    "tooltip": "以敘述方式執行白名單中的 python-periphery 函式或建構器。",
+    "args0": [
+      {
+        "options": [
+          [
+            "GPIO",
+            "GPIO"
+          ],
+          [
+            "LED",
+            "LED"
+          ],
+          [
+            "PWM",
+            "PWM"
+          ],
+          [
+            "SPI",
+            "SPI"
+          ],
+          [
+            "I2C",
+            "I2C"
+          ],
+          [
+            "Serial",
+            "Serial"
+          ],
+          [
+            "MMIO",
+            "MMIO"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "linux_periphery_method": {
+    "message0": "python-periphery 物件 %1 呼叫方法 %2 參數 %3 關鍵字參數 %4",
+    "tooltip": "呼叫白名單中的 python-periphery 物件方法並傳回結果。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "open",
+            "open"
+          ],
+          [
+            "read",
+            "read"
+          ],
+          [
+            "write",
+            "write"
+          ],
+          [
+            "poll",
+            "poll"
+          ],
+          [
+            "transfer",
+            "transfer"
+          ],
+          [
+            "read_event",
+            "read_event"
+          ],
+          [
+            "close",
+            "close"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "linux_periphery_do_method": {
+    "message0": "執行 python-periphery 物件 %1 的方法 %2 參數 %3 關鍵字參數 %4",
+    "tooltip": "以敘述方式執行白名單中的 python-periphery 物件方法。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "open",
+            "open"
+          ],
+          [
+            "read",
+            "read"
+          ],
+          [
+            "write",
+            "write"
+          ],
+          [
+            "poll",
+            "poll"
+          ],
+          [
+            "transfer",
+            "transfer"
+          ],
+          [
+            "read_event",
+            "read_event"
+          ],
+          [
+            "close",
+            "close"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "linux_periphery_attribute": {
+    "message0": "python-periphery 物件 %1 屬性 %2",
+    "tooltip": "讀取白名單中的 python-periphery 物件或模組屬性。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "direction",
+            "direction"
+          ],
+          [
+            "edge",
+            "edge"
+          ],
+          [
+            "bias",
+            "bias"
+          ],
+          [
+            "frequency",
+            "frequency"
+          ],
+          [
+            "duty_cycle",
+            "duty_cycle"
+          ],
+          [
+            "period",
+            "period"
+          ],
+          [
+            "fd",
+            "fd"
+          ]
+        ]
+      }
+    ]
+  }
+}

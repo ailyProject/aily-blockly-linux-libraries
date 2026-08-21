@@ -1,0 +1,206 @@
+{
+  "toolbox_name": "Bleak Bluetooth LE",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_bleak_call": {
+    "message0": "Bleak Bluetooth LE 调用或创建 %1 参数 %2 关键字参数 %3",
+    "tooltip": "调用白名单中的 Bleak Bluetooth LE 函数或构造器并返回结果。",
+    "args0": [
+      {
+        "options": [
+          [
+            "BleakScanner",
+            "BleakScanner"
+          ],
+          [
+            "BleakScanner.discover",
+            "BleakScanner.discover"
+          ],
+          [
+            "BleakScanner.find_device_by_address",
+            "BleakScanner.find_device_by_address"
+          ],
+          [
+            "BleakScanner.find_device_by_name",
+            "BleakScanner.find_device_by_name"
+          ],
+          [
+            "BleakClient",
+            "BleakClient"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_bleak_do": {
+    "message0": "运行 Bleak Bluetooth LE %1 参数 %2 关键字参数 %3",
+    "tooltip": "以语句方式运行白名单中的 Bleak Bluetooth LE 函数或构造器。",
+    "args0": [
+      {
+        "options": [
+          [
+            "BleakScanner",
+            "BleakScanner"
+          ],
+          [
+            "BleakScanner.discover",
+            "BleakScanner.discover"
+          ],
+          [
+            "BleakScanner.find_device_by_address",
+            "BleakScanner.find_device_by_address"
+          ],
+          [
+            "BleakScanner.find_device_by_name",
+            "BleakScanner.find_device_by_name"
+          ],
+          [
+            "BleakClient",
+            "BleakClient"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_bleak_method": {
+    "message0": "Bleak Bluetooth LE 对象 %1 调用方法 %2 参数 %3 关键字参数 %4",
+    "tooltip": "调用白名单中的 Bleak Bluetooth LE 对象方法并返回结果。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "connect",
+            "connect"
+          ],
+          [
+            "disconnect",
+            "disconnect"
+          ],
+          [
+            "read_gatt_char",
+            "read_gatt_char"
+          ],
+          [
+            "write_gatt_char",
+            "write_gatt_char"
+          ],
+          [
+            "start_notify",
+            "start_notify"
+          ],
+          [
+            "stop_notify",
+            "stop_notify"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_bleak_do_method": {
+    "message0": "运行 Bleak Bluetooth LE 对象 %1 的方法 %2 参数 %3 关键字参数 %4",
+    "tooltip": "以语句方式运行白名单中的 Bleak Bluetooth LE 对象方法。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "connect",
+            "connect"
+          ],
+          [
+            "disconnect",
+            "disconnect"
+          ],
+          [
+            "read_gatt_char",
+            "read_gatt_char"
+          ],
+          [
+            "write_gatt_char",
+            "write_gatt_char"
+          ],
+          [
+            "start_notify",
+            "start_notify"
+          ],
+          [
+            "stop_notify",
+            "stop_notify"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_bleak_attribute": {
+    "message0": "Bleak Bluetooth LE 对象 %1 属性 %2",
+    "tooltip": "读取白名单中的 Bleak Bluetooth LE 对象或模块属性。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "is_connected",
+            "is_connected"
+          ],
+          [
+            "address",
+            "address"
+          ],
+          [
+            "name",
+            "name"
+          ],
+          [
+            "details",
+            "details"
+          ],
+          [
+            "mtu_size",
+            "mtu_size"
+          ],
+          [
+            "services",
+            "services"
+          ],
+          [
+            "backend_id",
+            "backend_id"
+          ],
+          [
+            "rssi",
+            "rssi"
+          ],
+          [
+            "local_name",
+            "local_name"
+          ],
+          [
+            "manufacturer_data",
+            "manufacturer_data"
+          ],
+          [
+            "service_data",
+            "service_data"
+          ],
+          [
+            "service_uuids",
+            "service_uuids"
+          ],
+          [
+            "tx_power",
+            "tx_power"
+          ]
+        ]
+      }
+    ]
+  }
+}

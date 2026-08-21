@@ -1,0 +1,182 @@
+{
+  "toolbox_name": "Pillow Image",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_pillow_call": {
+    "message0": "Pillow Image 呼び出しまたは作成 %1 引数 %2 キーワード引数 %3",
+    "tooltip": "許可された Pillow Image の関数またはコンストラクターを呼び出して結果を返します。",
+    "args0": [
+      {
+        "options": [
+          [
+            "open",
+            "open"
+          ],
+          [
+            "new",
+            "new"
+          ],
+          [
+            "fromarray",
+            "fromarray"
+          ],
+          [
+            "merge",
+            "merge"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_pillow_do": {
+    "message0": "Pillow Image を実行 %1 引数 %2 キーワード引数 %3",
+    "tooltip": "許可された Pillow Image の関数またはコンストラクターを文として実行します。",
+    "args0": [
+      {
+        "options": [
+          [
+            "open",
+            "open"
+          ],
+          [
+            "new",
+            "new"
+          ],
+          [
+            "fromarray",
+            "fromarray"
+          ],
+          [
+            "merge",
+            "merge"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_pillow_method": {
+    "message0": "Pillow Image オブジェクト %1 メソッド %2 引数 %3 キーワード引数 %4",
+    "tooltip": "許可された Pillow Image オブジェクトのメソッドを呼び出して結果を返します。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "save",
+            "save"
+          ],
+          [
+            "resize",
+            "resize"
+          ],
+          [
+            "crop",
+            "crop"
+          ],
+          [
+            "rotate",
+            "rotate"
+          ],
+          [
+            "transpose",
+            "transpose"
+          ],
+          [
+            "convert",
+            "convert"
+          ],
+          [
+            "filter",
+            "filter"
+          ],
+          [
+            "show",
+            "show"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_pillow_do_method": {
+    "message0": "Pillow Image オブジェクト %1 のメソッド %2 を実行 引数 %3 キーワード引数 %4",
+    "tooltip": "許可された Pillow Image オブジェクトのメソッドを文として実行します。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "save",
+            "save"
+          ],
+          [
+            "resize",
+            "resize"
+          ],
+          [
+            "crop",
+            "crop"
+          ],
+          [
+            "rotate",
+            "rotate"
+          ],
+          [
+            "transpose",
+            "transpose"
+          ],
+          [
+            "convert",
+            "convert"
+          ],
+          [
+            "filter",
+            "filter"
+          ],
+          [
+            "show",
+            "show"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_pillow_attribute": {
+    "message0": "Pillow Image オブジェクト %1 属性 %2",
+    "tooltip": "許可された Pillow Image オブジェクトまたはモジュールの属性を読み取ります。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "size",
+            "size"
+          ],
+          [
+            "mode",
+            "mode"
+          ],
+          [
+            "width",
+            "width"
+          ],
+          [
+            "height",
+            "height"
+          ],
+          [
+            "format",
+            "format"
+          ]
+        ]
+      }
+    ]
+  }
+}

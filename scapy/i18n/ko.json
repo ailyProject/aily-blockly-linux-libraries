@@ -1,0 +1,250 @@
+{
+  "toolbox_name": "Scapy",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_scapy_call": {
+    "message0": "Scapy 호출 또는 생성 %1 인수 %2 키워드 인수 %3",
+    "tooltip": "허용 목록의 Scapy 함수 또는 생성자를 호출하고 결과를 반환합니다.",
+    "args0": [
+      {
+        "options": [
+          [
+            "sniff",
+            "sniff"
+          ],
+          [
+            "send",
+            "send"
+          ],
+          [
+            "sendp",
+            "sendp"
+          ],
+          [
+            "sr",
+            "sr"
+          ],
+          [
+            "sr1",
+            "sr1"
+          ],
+          [
+            "rdpcap",
+            "rdpcap"
+          ],
+          [
+            "wrpcap",
+            "wrpcap"
+          ],
+          [
+            "Ether",
+            "Ether"
+          ],
+          [
+            "IP",
+            "IP"
+          ],
+          [
+            "IPv6",
+            "IPv6"
+          ],
+          [
+            "TCP",
+            "TCP"
+          ],
+          [
+            "UDP",
+            "UDP"
+          ],
+          [
+            "ARP",
+            "ARP"
+          ],
+          [
+            "ICMP",
+            "ICMP"
+          ],
+          [
+            "Raw",
+            "Raw"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_scapy_do": {
+    "message0": "Scapy 실행 %1 인수 %2 키워드 인수 %3",
+    "tooltip": "허용 목록의 Scapy 함수 또는 생성자를 문으로 실행합니다.",
+    "args0": [
+      {
+        "options": [
+          [
+            "sniff",
+            "sniff"
+          ],
+          [
+            "send",
+            "send"
+          ],
+          [
+            "sendp",
+            "sendp"
+          ],
+          [
+            "sr",
+            "sr"
+          ],
+          [
+            "sr1",
+            "sr1"
+          ],
+          [
+            "rdpcap",
+            "rdpcap"
+          ],
+          [
+            "wrpcap",
+            "wrpcap"
+          ],
+          [
+            "Ether",
+            "Ether"
+          ],
+          [
+            "IP",
+            "IP"
+          ],
+          [
+            "IPv6",
+            "IPv6"
+          ],
+          [
+            "TCP",
+            "TCP"
+          ],
+          [
+            "UDP",
+            "UDP"
+          ],
+          [
+            "ARP",
+            "ARP"
+          ],
+          [
+            "ICMP",
+            "ICMP"
+          ],
+          [
+            "Raw",
+            "Raw"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_scapy_method": {
+    "message0": "Scapy 객체 %1 메서드 %2 인수 %3 키워드 인수 %4",
+    "tooltip": "허용 목록의 Scapy 객체 메서드를 호출하고 결과를 반환합니다.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "show",
+            "show"
+          ],
+          [
+            "summary",
+            "summary"
+          ],
+          [
+            "haslayer",
+            "haslayer"
+          ],
+          [
+            "getlayer",
+            "getlayer"
+          ],
+          [
+            "sprintf",
+            "sprintf"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_scapy_do_method": {
+    "message0": "Scapy 객체 %1 메서드 실행 %2 인수 %3 키워드 인수 %4",
+    "tooltip": "허용 목록의 Scapy 객체 메서드를 문으로 실행합니다.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "show",
+            "show"
+          ],
+          [
+            "summary",
+            "summary"
+          ],
+          [
+            "haslayer",
+            "haslayer"
+          ],
+          [
+            "getlayer",
+            "getlayer"
+          ],
+          [
+            "sprintf",
+            "sprintf"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_scapy_attribute": {
+    "message0": "Scapy 객체 %1 속성 %2",
+    "tooltip": "허용 목록의 Scapy 객체 또는 모듈 속성을 읽습니다.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "src",
+            "src"
+          ],
+          [
+            "dst",
+            "dst"
+          ],
+          [
+            "sport",
+            "sport"
+          ],
+          [
+            "dport",
+            "dport"
+          ],
+          [
+            "payload",
+            "payload"
+          ],
+          [
+            "time",
+            "time"
+          ]
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,206 @@
+{
+  "toolbox_name": "Bleak Bluetooth LE",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_bleak_call": {
+    "message0": "Bleak Bluetooth LE استدعاء أو إنشاء %1 الوسائط %2 وسائط الكلمات المفتاحية %3",
+    "tooltip": "استدعاء دالة أو مُنشئ مسموح من Bleak Bluetooth LE وإرجاع النتيجة.",
+    "args0": [
+      {
+        "options": [
+          [
+            "BleakScanner",
+            "BleakScanner"
+          ],
+          [
+            "BleakScanner.discover",
+            "BleakScanner.discover"
+          ],
+          [
+            "BleakScanner.find_device_by_address",
+            "BleakScanner.find_device_by_address"
+          ],
+          [
+            "BleakScanner.find_device_by_name",
+            "BleakScanner.find_device_by_name"
+          ],
+          [
+            "BleakClient",
+            "BleakClient"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_bleak_do": {
+    "message0": "تشغيل Bleak Bluetooth LE %1 الوسائط %2 وسائط الكلمات المفتاحية %3",
+    "tooltip": "تشغيل دالة أو مُنشئ مسموح من Bleak Bluetooth LE كتعليمة.",
+    "args0": [
+      {
+        "options": [
+          [
+            "BleakScanner",
+            "BleakScanner"
+          ],
+          [
+            "BleakScanner.discover",
+            "BleakScanner.discover"
+          ],
+          [
+            "BleakScanner.find_device_by_address",
+            "BleakScanner.find_device_by_address"
+          ],
+          [
+            "BleakScanner.find_device_by_name",
+            "BleakScanner.find_device_by_name"
+          ],
+          [
+            "BleakClient",
+            "BleakClient"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_bleak_method": {
+    "message0": "كائن Bleak Bluetooth LE %1 الطريقة %2 الوسائط %3 وسائط الكلمات المفتاحية %4",
+    "tooltip": "استدعاء طريقة مسموحة لكائن Bleak Bluetooth LE وإرجاع النتيجة.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "connect",
+            "connect"
+          ],
+          [
+            "disconnect",
+            "disconnect"
+          ],
+          [
+            "read_gatt_char",
+            "read_gatt_char"
+          ],
+          [
+            "write_gatt_char",
+            "write_gatt_char"
+          ],
+          [
+            "start_notify",
+            "start_notify"
+          ],
+          [
+            "stop_notify",
+            "stop_notify"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_bleak_do_method": {
+    "message0": "تشغيل طريقة Bleak Bluetooth LE للكائن %1 %2 الوسائط %3 وسائط الكلمات المفتاحية %4",
+    "tooltip": "تشغيل طريقة مسموحة لكائن Bleak Bluetooth LE كتعليمة.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "connect",
+            "connect"
+          ],
+          [
+            "disconnect",
+            "disconnect"
+          ],
+          [
+            "read_gatt_char",
+            "read_gatt_char"
+          ],
+          [
+            "write_gatt_char",
+            "write_gatt_char"
+          ],
+          [
+            "start_notify",
+            "start_notify"
+          ],
+          [
+            "stop_notify",
+            "stop_notify"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_bleak_attribute": {
+    "message0": "كائن Bleak Bluetooth LE %1 السمة %2",
+    "tooltip": "قراءة سمة مسموحة لكائن أو وحدة Bleak Bluetooth LE.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "is_connected",
+            "is_connected"
+          ],
+          [
+            "address",
+            "address"
+          ],
+          [
+            "name",
+            "name"
+          ],
+          [
+            "details",
+            "details"
+          ],
+          [
+            "mtu_size",
+            "mtu_size"
+          ],
+          [
+            "services",
+            "services"
+          ],
+          [
+            "backend_id",
+            "backend_id"
+          ],
+          [
+            "rssi",
+            "rssi"
+          ],
+          [
+            "local_name",
+            "local_name"
+          ],
+          [
+            "manufacturer_data",
+            "manufacturer_data"
+          ],
+          [
+            "service_data",
+            "service_data"
+          ],
+          [
+            "service_uuids",
+            "service_uuids"
+          ],
+          [
+            "tx_power",
+            "tx_power"
+          ]
+        ]
+      }
+    ]
+  }
+}

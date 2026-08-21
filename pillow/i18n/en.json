@@ -1,0 +1,182 @@
+{
+  "toolbox_name": "Pillow Image",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_pillow_call": {
+    "message0": "Pillow Image call or create %1 arguments %2 keyword arguments %3",
+    "tooltip": "Call an allowlisted Pillow Image function or constructor and return its result.",
+    "args0": [
+      {
+        "options": [
+          [
+            "open",
+            "open"
+          ],
+          [
+            "new",
+            "new"
+          ],
+          [
+            "fromarray",
+            "fromarray"
+          ],
+          [
+            "merge",
+            "merge"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_pillow_do": {
+    "message0": "run Pillow Image %1 arguments %2 keyword arguments %3",
+    "tooltip": "Run an allowlisted Pillow Image function or constructor as a statement.",
+    "args0": [
+      {
+        "options": [
+          [
+            "open",
+            "open"
+          ],
+          [
+            "new",
+            "new"
+          ],
+          [
+            "fromarray",
+            "fromarray"
+          ],
+          [
+            "merge",
+            "merge"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_pillow_method": {
+    "message0": "Pillow Image object %1 call method %2 arguments %3 keyword arguments %4",
+    "tooltip": "Call an allowlisted Pillow Image object method and return its result.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "save",
+            "save"
+          ],
+          [
+            "resize",
+            "resize"
+          ],
+          [
+            "crop",
+            "crop"
+          ],
+          [
+            "rotate",
+            "rotate"
+          ],
+          [
+            "transpose",
+            "transpose"
+          ],
+          [
+            "convert",
+            "convert"
+          ],
+          [
+            "filter",
+            "filter"
+          ],
+          [
+            "show",
+            "show"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_pillow_do_method": {
+    "message0": "run Pillow Image object %1 method %2 arguments %3 keyword arguments %4",
+    "tooltip": "Run an allowlisted Pillow Image object method as a statement.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "save",
+            "save"
+          ],
+          [
+            "resize",
+            "resize"
+          ],
+          [
+            "crop",
+            "crop"
+          ],
+          [
+            "rotate",
+            "rotate"
+          ],
+          [
+            "transpose",
+            "transpose"
+          ],
+          [
+            "convert",
+            "convert"
+          ],
+          [
+            "filter",
+            "filter"
+          ],
+          [
+            "show",
+            "show"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_pillow_attribute": {
+    "message0": "Pillow Image object %1 attribute %2",
+    "tooltip": "Read an allowlisted Pillow Image object or module attribute.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "size",
+            "size"
+          ],
+          [
+            "mode",
+            "mode"
+          ],
+          [
+            "width",
+            "width"
+          ],
+          [
+            "height",
+            "height"
+          ],
+          [
+            "format",
+            "format"
+          ]
+        ]
+      }
+    ]
+  }
+}

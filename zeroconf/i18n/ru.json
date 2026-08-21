@@ -1,0 +1,178 @@
+{
+  "toolbox_name": "python-zeroconf",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_zeroconf_call": {
+    "message0": "python-zeroconf вызвать или создать %1 аргументы %2 именованные аргументы %3",
+    "tooltip": "Вызывает разрешённую функцию или конструктор python-zeroconf и возвращает результат.",
+    "args0": [
+      {
+        "options": [
+          [
+            "Zeroconf",
+            "Zeroconf"
+          ],
+          [
+            "ServiceInfo",
+            "ServiceInfo"
+          ],
+          [
+            "ServiceBrowser",
+            "ServiceBrowser"
+          ],
+          [
+            "ServiceStateChange",
+            "ServiceStateChange"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_zeroconf_do": {
+    "message0": "выполнить python-zeroconf %1 аргументы %2 именованные аргументы %3",
+    "tooltip": "Выполняет разрешённую функцию или конструктор python-zeroconf как инструкцию.",
+    "args0": [
+      {
+        "options": [
+          [
+            "Zeroconf",
+            "Zeroconf"
+          ],
+          [
+            "ServiceInfo",
+            "ServiceInfo"
+          ],
+          [
+            "ServiceBrowser",
+            "ServiceBrowser"
+          ],
+          [
+            "ServiceStateChange",
+            "ServiceStateChange"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_zeroconf_method": {
+    "message0": "объект python-zeroconf %1 метод %2 аргументы %3 именованные аргументы %4",
+    "tooltip": "Вызывает разрешённый метод объекта python-zeroconf и возвращает результат.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "register_service",
+            "register_service"
+          ],
+          [
+            "update_service",
+            "update_service"
+          ],
+          [
+            "unregister_service",
+            "unregister_service"
+          ],
+          [
+            "unregister_all_services",
+            "unregister_all_services"
+          ],
+          [
+            "close",
+            "close"
+          ],
+          [
+            "get_service_info",
+            "get_service_info"
+          ],
+          [
+            "add_service_listener",
+            "add_service_listener"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_zeroconf_do_method": {
+    "message0": "выполнить метод python-zeroconf объекта %1 %2 аргументы %3 именованные аргументы %4",
+    "tooltip": "Выполняет разрешённый метод объекта python-zeroconf как инструкцию.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "register_service",
+            "register_service"
+          ],
+          [
+            "update_service",
+            "update_service"
+          ],
+          [
+            "unregister_service",
+            "unregister_service"
+          ],
+          [
+            "unregister_all_services",
+            "unregister_all_services"
+          ],
+          [
+            "close",
+            "close"
+          ],
+          [
+            "get_service_info",
+            "get_service_info"
+          ],
+          [
+            "add_service_listener",
+            "add_service_listener"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_zeroconf_attribute": {
+    "message0": "объект python-zeroconf %1 атрибут %2",
+    "tooltip": "Читает разрешённый атрибут объекта или модуля python-zeroconf.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "name",
+            "name"
+          ],
+          [
+            "type",
+            "type"
+          ],
+          [
+            "addresses",
+            "addresses"
+          ],
+          [
+            "port",
+            "port"
+          ],
+          [
+            "properties",
+            "properties"
+          ],
+          [
+            "server",
+            "server"
+          ]
+        ]
+      }
+    ]
+  }
+}

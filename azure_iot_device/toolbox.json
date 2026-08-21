@@ -1,0 +1,27 @@
+{
+  "kind": "category",
+  "name": "Azure IoT Device",
+  "colour": "#0288D1",
+  "contents": [
+    {
+      "kind": "block",
+      "type": "python_azure_iot_device_call"
+    },
+    {
+      "kind": "block",
+      "type": "python_azure_iot_device_do"
+    },
+    {
+      "kind": "block",
+      "type": "python_azure_iot_device_method"
+    },
+    {
+      "kind": "block",
+      "type": "python_azure_iot_device_do_method"
+    },
+    {
+      "kind": "block",
+      "type": "python_azure_iot_device_attribute"
+    }
+  ]
+}

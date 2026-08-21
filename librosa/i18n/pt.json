@@ -1,0 +1,117 @@
+{
+  "toolbox_name": "librosa",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_librosa_call": {
+    "message0": "librosa chamar ou criar %1 argumentos %2 argumentos nomeados %3",
+    "tooltip": "Chama uma função ou construtor permitido de librosa e devolve o resultado.",
+    "args0": [
+      {
+        "options": [
+          [
+            "load",
+            "load"
+          ],
+          [
+            "stream",
+            "stream"
+          ],
+          [
+            "get_duration",
+            "get_duration"
+          ],
+          [
+            "resample",
+            "resample"
+          ],
+          [
+            "stft",
+            "stft"
+          ],
+          [
+            "istft",
+            "istft"
+          ],
+          [
+            "amplitude_to_db",
+            "amplitude_to_db"
+          ],
+          [
+            "db_to_amplitude",
+            "db_to_amplitude"
+          ],
+          [
+            "beat.beat_track",
+            "beat.beat_track"
+          ],
+          [
+            "feature.melspectrogram",
+            "feature.melspectrogram"
+          ],
+          [
+            "feature.mfcc",
+            "feature.mfcc"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_librosa_do": {
+    "message0": "executar librosa %1 argumentos %2 argumentos nomeados %3",
+    "tooltip": "Executa uma função ou construtor permitido de librosa como instrução.",
+    "args0": [
+      {
+        "options": [
+          [
+            "load",
+            "load"
+          ],
+          [
+            "stream",
+            "stream"
+          ],
+          [
+            "get_duration",
+            "get_duration"
+          ],
+          [
+            "resample",
+            "resample"
+          ],
+          [
+            "stft",
+            "stft"
+          ],
+          [
+            "istft",
+            "istft"
+          ],
+          [
+            "amplitude_to_db",
+            "amplitude_to_db"
+          ],
+          [
+            "db_to_amplitude",
+            "db_to_amplitude"
+          ],
+          [
+            "beat.beat_track",
+            "beat.beat_track"
+          ],
+          [
+            "feature.melspectrogram",
+            "feature.melspectrogram"
+          ],
+          [
+            "feature.mfcc",
+            "feature.mfcc"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  }
+}

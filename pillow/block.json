@@ -1,0 +1,244 @@
+[
+  {
+    "type": "python_pillow_call",
+    "message0": "Pillow Image call or create %1 arguments %2 keyword arguments %3",
+    "args0": [
+      {
+        "type": "field_dropdown",
+        "name": "TARGET",
+        "options": [
+          [
+            "open",
+            "open"
+          ],
+          [
+            "new",
+            "new"
+          ],
+          [
+            "fromarray",
+            "fromarray"
+          ],
+          [
+            "merge",
+            "merge"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#1976D2",
+    "tooltip": "Call an allowlisted Pillow Image function or constructor and return its result.",
+    "icon": "settings",
+    "output": "Any"
+  },
+  {
+    "type": "python_pillow_do",
+    "message0": "run Pillow Image %1 arguments %2 keyword arguments %3",
+    "args0": [
+      {
+        "type": "field_dropdown",
+        "name": "TARGET",
+        "options": [
+          [
+            "open",
+            "open"
+          ],
+          [
+            "new",
+            "new"
+          ],
+          [
+            "fromarray",
+            "fromarray"
+          ],
+          [
+            "merge",
+            "merge"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#1976D2",
+    "tooltip": "Run an allowlisted Pillow Image function or constructor as a statement.",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "python_pillow_method",
+    "message0": "Pillow Image object %1 call method %2 arguments %3 keyword arguments %4",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "OBJECT"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "METHOD",
+        "options": [
+          [
+            "save",
+            "save"
+          ],
+          [
+            "resize",
+            "resize"
+          ],
+          [
+            "crop",
+            "crop"
+          ],
+          [
+            "rotate",
+            "rotate"
+          ],
+          [
+            "transpose",
+            "transpose"
+          ],
+          [
+            "convert",
+            "convert"
+          ],
+          [
+            "filter",
+            "filter"
+          ],
+          [
+            "show",
+            "show"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#1976D2",
+    "tooltip": "Call an allowlisted Pillow Image object method and return its result.",
+    "icon": "settings",
+    "output": "Any"
+  },
+  {
+    "type": "python_pillow_do_method",
+    "message0": "run Pillow Image object %1 method %2 arguments %3 keyword arguments %4",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "OBJECT"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "METHOD",
+        "options": [
+          [
+            "save",
+            "save"
+          ],
+          [
+            "resize",
+            "resize"
+          ],
+          [
+            "crop",
+            "crop"
+          ],
+          [
+            "rotate",
+            "rotate"
+          ],
+          [
+            "transpose",
+            "transpose"
+          ],
+          [
+            "convert",
+            "convert"
+          ],
+          [
+            "filter",
+            "filter"
+          ],
+          [
+            "show",
+            "show"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#1976D2",
+    "tooltip": "Run an allowlisted Pillow Image object method as a statement.",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "python_pillow_attribute",
+    "message0": "Pillow Image object %1 attribute %2",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "OBJECT"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "ATTRIBUTE",
+        "options": [
+          [
+            "size",
+            "size"
+          ],
+          [
+            "mode",
+            "mode"
+          ],
+          [
+            "width",
+            "width"
+          ],
+          [
+            "height",
+            "height"
+          ],
+          [
+            "format",
+            "format"
+          ]
+        ]
+      }
+    ],
+    "colour": "#1976D2",
+    "tooltip": "Read an allowlisted Pillow Image object or module attribute.",
+    "icon": "settings",
+    "output": "Any"
+  }
+]

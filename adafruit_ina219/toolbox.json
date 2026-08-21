@@ -1,0 +1,27 @@
+{
+  "kind": "category",
+  "name": "CircuitPython INA219",
+  "colour": "#00897B",
+  "contents": [
+    {
+      "kind": "block",
+      "type": "python_adafruit_ina219_call"
+    },
+    {
+      "kind": "block",
+      "type": "python_adafruit_ina219_do"
+    },
+    {
+      "kind": "block",
+      "type": "python_adafruit_ina219_method"
+    },
+    {
+      "kind": "block",
+      "type": "python_adafruit_ina219_do_method"
+    },
+    {
+      "kind": "block",
+      "type": "python_adafruit_ina219_attribute"
+    }
+  ]
+}

@@ -1,0 +1,223 @@
+{
+  "toolbox_name": "Paramiko",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_paramiko_call": {
+    "message0": "Paramiko call or create %1 arguments %2 keyword arguments %3",
+    "tooltip": "Call an allowlisted Paramiko function or constructor and return its result.",
+    "args0": [
+      {
+        "options": [
+          [
+            "SSHClient",
+            "SSHClient"
+          ],
+          [
+            "Transport",
+            "Transport"
+          ],
+          [
+            "SFTPClient",
+            "SFTPClient"
+          ],
+          [
+            "AutoAddPolicy",
+            "AutoAddPolicy"
+          ],
+          [
+            "RSAKey",
+            "RSAKey"
+          ],
+          [
+            "Ed25519Key",
+            "Ed25519Key"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_paramiko_do": {
+    "message0": "run Paramiko %1 arguments %2 keyword arguments %3",
+    "tooltip": "Run an allowlisted Paramiko function or constructor as a statement.",
+    "args0": [
+      {
+        "options": [
+          [
+            "SSHClient",
+            "SSHClient"
+          ],
+          [
+            "Transport",
+            "Transport"
+          ],
+          [
+            "SFTPClient",
+            "SFTPClient"
+          ],
+          [
+            "AutoAddPolicy",
+            "AutoAddPolicy"
+          ],
+          [
+            "RSAKey",
+            "RSAKey"
+          ],
+          [
+            "Ed25519Key",
+            "Ed25519Key"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_paramiko_method": {
+    "message0": "Paramiko object %1 call method %2 arguments %3 keyword arguments %4",
+    "tooltip": "Call an allowlisted Paramiko object method and return its result.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "connect",
+            "connect"
+          ],
+          [
+            "exec_command",
+            "exec_command"
+          ],
+          [
+            "open_sftp",
+            "open_sftp"
+          ],
+          [
+            "close",
+            "close"
+          ],
+          [
+            "set_missing_host_key_policy",
+            "set_missing_host_key_policy"
+          ],
+          [
+            "load_system_host_keys",
+            "load_system_host_keys"
+          ],
+          [
+            "load_host_keys",
+            "load_host_keys"
+          ],
+          [
+            "get_host_keys",
+            "get_host_keys"
+          ],
+          [
+            "get_transport",
+            "get_transport"
+          ],
+          [
+            "is_active",
+            "is_active"
+          ],
+          [
+            "is_authenticated",
+            "is_authenticated"
+          ],
+          [
+            "put",
+            "put"
+          ],
+          [
+            "get",
+            "get"
+          ],
+          [
+            "listdir",
+            "listdir"
+          ],
+          [
+            "open",
+            "open"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_paramiko_do_method": {
+    "message0": "run Paramiko object %1 method %2 arguments %3 keyword arguments %4",
+    "tooltip": "Run an allowlisted Paramiko object method as a statement.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "connect",
+            "connect"
+          ],
+          [
+            "exec_command",
+            "exec_command"
+          ],
+          [
+            "open_sftp",
+            "open_sftp"
+          ],
+          [
+            "close",
+            "close"
+          ],
+          [
+            "set_missing_host_key_policy",
+            "set_missing_host_key_policy"
+          ],
+          [
+            "load_system_host_keys",
+            "load_system_host_keys"
+          ],
+          [
+            "load_host_keys",
+            "load_host_keys"
+          ],
+          [
+            "get_host_keys",
+            "get_host_keys"
+          ],
+          [
+            "get_transport",
+            "get_transport"
+          ],
+          [
+            "is_active",
+            "is_active"
+          ],
+          [
+            "is_authenticated",
+            "is_authenticated"
+          ],
+          [
+            "put",
+            "put"
+          ],
+          [
+            "get",
+            "get"
+          ],
+          [
+            "listdir",
+            "listdir"
+          ],
+          [
+            "open",
+            "open"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  }
+}

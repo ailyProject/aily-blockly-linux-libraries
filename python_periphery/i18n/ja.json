@@ -1,0 +1,206 @@
+{
+  "toolbox_name": "python-periphery",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "linux_periphery_call": {
+    "message0": "python-periphery 呼び出しまたは作成 %1 引数 %2 キーワード引数 %3",
+    "tooltip": "許可された python-periphery の関数またはコンストラクターを呼び出して結果を返します。",
+    "args0": [
+      {
+        "options": [
+          [
+            "GPIO",
+            "GPIO"
+          ],
+          [
+            "LED",
+            "LED"
+          ],
+          [
+            "PWM",
+            "PWM"
+          ],
+          [
+            "SPI",
+            "SPI"
+          ],
+          [
+            "I2C",
+            "I2C"
+          ],
+          [
+            "Serial",
+            "Serial"
+          ],
+          [
+            "MMIO",
+            "MMIO"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "linux_periphery_do": {
+    "message0": "python-periphery を実行 %1 引数 %2 キーワード引数 %3",
+    "tooltip": "許可された python-periphery の関数またはコンストラクターを文として実行します。",
+    "args0": [
+      {
+        "options": [
+          [
+            "GPIO",
+            "GPIO"
+          ],
+          [
+            "LED",
+            "LED"
+          ],
+          [
+            "PWM",
+            "PWM"
+          ],
+          [
+            "SPI",
+            "SPI"
+          ],
+          [
+            "I2C",
+            "I2C"
+          ],
+          [
+            "Serial",
+            "Serial"
+          ],
+          [
+            "MMIO",
+            "MMIO"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "linux_periphery_method": {
+    "message0": "python-periphery オブジェクト %1 メソッド %2 引数 %3 キーワード引数 %4",
+    "tooltip": "許可された python-periphery オブジェクトのメソッドを呼び出して結果を返します。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "open",
+            "open"
+          ],
+          [
+            "read",
+            "read"
+          ],
+          [
+            "write",
+            "write"
+          ],
+          [
+            "poll",
+            "poll"
+          ],
+          [
+            "transfer",
+            "transfer"
+          ],
+          [
+            "read_event",
+            "read_event"
+          ],
+          [
+            "close",
+            "close"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "linux_periphery_do_method": {
+    "message0": "python-periphery オブジェクト %1 のメソッド %2 を実行 引数 %3 キーワード引数 %4",
+    "tooltip": "許可された python-periphery オブジェクトのメソッドを文として実行します。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "open",
+            "open"
+          ],
+          [
+            "read",
+            "read"
+          ],
+          [
+            "write",
+            "write"
+          ],
+          [
+            "poll",
+            "poll"
+          ],
+          [
+            "transfer",
+            "transfer"
+          ],
+          [
+            "read_event",
+            "read_event"
+          ],
+          [
+            "close",
+            "close"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "linux_periphery_attribute": {
+    "message0": "python-periphery オブジェクト %1 属性 %2",
+    "tooltip": "許可された python-periphery オブジェクトまたはモジュールの属性を読み取ります。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "direction",
+            "direction"
+          ],
+          [
+            "edge",
+            "edge"
+          ],
+          [
+            "bias",
+            "bias"
+          ],
+          [
+            "frequency",
+            "frequency"
+          ],
+          [
+            "duty_cycle",
+            "duty_cycle"
+          ],
+          [
+            "period",
+            "period"
+          ],
+          [
+            "fd",
+            "fd"
+          ]
+        ]
+      }
+    ]
+  }
+}

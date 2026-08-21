@@ -1,0 +1,194 @@
+{
+  "toolbox_name": "PyAV",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_pyav_call": {
+    "message0": "PyAV aufrufen oder erzeugen %1 Argumente %2 Schlüsselwortargumente %3",
+    "tooltip": "Eine freigegebene PyAV-Funktion oder einen Konstruktor aufrufen und das Ergebnis zurückgeben.",
+    "args0": [
+      {
+        "options": [
+          [
+            "open",
+            "open"
+          ],
+          [
+            "AudioFrame",
+            "AudioFrame"
+          ],
+          [
+            "VideoFrame",
+            "VideoFrame"
+          ],
+          [
+            "Packet",
+            "Packet"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_pyav_do": {
+    "message0": "PyAV ausführen %1 Argumente %2 Schlüsselwortargumente %3",
+    "tooltip": "Eine freigegebene PyAV-Funktion oder einen Konstruktor als Anweisung ausführen.",
+    "args0": [
+      {
+        "options": [
+          [
+            "open",
+            "open"
+          ],
+          [
+            "AudioFrame",
+            "AudioFrame"
+          ],
+          [
+            "VideoFrame",
+            "VideoFrame"
+          ],
+          [
+            "Packet",
+            "Packet"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_pyav_method": {
+    "message0": "PyAV-Objekt %1 Methode %2 Argumente %3 Schlüsselwortargumente %4",
+    "tooltip": "Eine freigegebene Methode eines PyAV-Objekts aufrufen und das Ergebnis zurückgeben.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "demux",
+            "demux"
+          ],
+          [
+            "decode",
+            "decode"
+          ],
+          [
+            "encode",
+            "encode"
+          ],
+          [
+            "mux",
+            "mux"
+          ],
+          [
+            "close",
+            "close"
+          ],
+          [
+            "add_stream",
+            "add_stream"
+          ],
+          [
+            "to_ndarray",
+            "to_ndarray"
+          ],
+          [
+            "reformat",
+            "reformat"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_pyav_do_method": {
+    "message0": "PyAV-Objekt %1 Methode %2 ausführen Argumente %3 Schlüsselwortargumente %4",
+    "tooltip": "Eine freigegebene Methode eines PyAV-Objekts als Anweisung ausführen.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "demux",
+            "demux"
+          ],
+          [
+            "decode",
+            "decode"
+          ],
+          [
+            "encode",
+            "encode"
+          ],
+          [
+            "mux",
+            "mux"
+          ],
+          [
+            "close",
+            "close"
+          ],
+          [
+            "add_stream",
+            "add_stream"
+          ],
+          [
+            "to_ndarray",
+            "to_ndarray"
+          ],
+          [
+            "reformat",
+            "reformat"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_pyav_attribute": {
+    "message0": "PyAV-Objekt %1 Attribut %2",
+    "tooltip": "Ein freigegebenes Attribut eines PyAV-Objekts oder Moduls lesen.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "streams",
+            "streams"
+          ],
+          [
+            "duration",
+            "duration"
+          ],
+          [
+            "format",
+            "format"
+          ],
+          [
+            "metadata",
+            "metadata"
+          ],
+          [
+            "time_base",
+            "time_base"
+          ],
+          [
+            "pts",
+            "pts"
+          ],
+          [
+            "width",
+            "width"
+          ],
+          [
+            "height",
+            "height"
+          ]
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "toolbox_name": "CircuitPython CCS811",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_adafruit_ccs811_call": {
+    "message0": "CircuitPython CCS811 调用或创建 %1 参数 %2 关键字参数 %3",
+    "tooltip": "调用白名单中的 CircuitPython CCS811 函数或构造器并返回结果。",
+    "args0": [
+      {
+        "options": [
+          [
+            "CCS811",
+            "CCS811"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_ccs811_do": {
+    "message0": "运行 CircuitPython CCS811 %1 参数 %2 关键字参数 %3",
+    "tooltip": "以语句方式运行白名单中的 CircuitPython CCS811 函数或构造器。",
+    "args0": [
+      {
+        "options": [
+          [
+            "CCS811",
+            "CCS811"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_ccs811_method": {
+    "message0": "CircuitPython CCS811 对象 %1 调用方法 %2 参数 %3 关键字参数 %4",
+    "tooltip": "调用白名单中的 CircuitPython CCS811 对象方法并返回结果。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "reset",
+            "reset"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_ccs811_do_method": {
+    "message0": "运行 CircuitPython CCS811 对象 %1 的方法 %2 参数 %3 关键字参数 %4",
+    "tooltip": "以语句方式运行白名单中的 CircuitPython CCS811 对象方法。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "reset",
+            "reset"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_ccs811_attribute": {
+    "message0": "CircuitPython CCS811 对象 %1 属性 %2",
+    "tooltip": "读取白名单中的 CircuitPython CCS811 对象或模块属性。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "eco2",
+            "eco2"
+          ],
+          [
+            "tvoc",
+            "tvoc"
+          ],
+          [
+            "data_ready",
+            "data_ready"
+          ],
+          [
+            "baseline",
+            "baseline"
+          ],
+          [
+            "temperature",
+            "temperature"
+          ],
+          [
+            "drive_mode",
+            "drive_mode"
+          ]
+        ]
+      }
+    ]
+  }
+}

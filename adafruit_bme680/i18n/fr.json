@@ -1,0 +1,80 @@
+{
+  "toolbox_name": "CircuitPython BME680",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_adafruit_bme680_call": {
+    "message0": "CircuitPython BME680 appeler ou créer %1 arguments %2 arguments nommés %3",
+    "tooltip": "Appeler une fonction ou un constructeur CircuitPython BME680 autorisé et renvoyer le résultat.",
+    "args0": [
+      {
+        "options": [
+          [
+            "Adafruit_BME680_I2C",
+            "Adafruit_BME680_I2C"
+          ],
+          [
+            "Adafruit_BME680_SPI",
+            "Adafruit_BME680_SPI"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_bme680_do": {
+    "message0": "exécuter CircuitPython BME680 %1 arguments %2 arguments nommés %3",
+    "tooltip": "Exécuter une fonction ou un constructeur CircuitPython BME680 autorisé comme instruction.",
+    "args0": [
+      {
+        "options": [
+          [
+            "Adafruit_BME680_I2C",
+            "Adafruit_BME680_I2C"
+          ],
+          [
+            "Adafruit_BME680_SPI",
+            "Adafruit_BME680_SPI"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_bme680_attribute": {
+    "message0": "objet CircuitPython BME680 %1 attribut %2",
+    "tooltip": "Lire un attribut autorisé d’un objet ou module CircuitPython BME680.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "temperature",
+            "temperature"
+          ],
+          [
+            "pressure",
+            "pressure"
+          ],
+          [
+            "humidity",
+            "humidity"
+          ],
+          [
+            "altitude",
+            "altitude"
+          ],
+          [
+            "gas",
+            "gas"
+          ],
+          [
+            "sea_level_pressure",
+            "sea_level_pressure"
+          ]
+        ]
+      }
+    ]
+  }
+}

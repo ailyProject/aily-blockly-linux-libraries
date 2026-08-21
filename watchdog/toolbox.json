@@ -1,0 +1,27 @@
+{
+  "kind": "category",
+  "name": "watchdog Observer",
+  "colour": "#455A64",
+  "contents": [
+    {
+      "kind": "block",
+      "type": "linux_watchdog_call"
+    },
+    {
+      "kind": "block",
+      "type": "linux_watchdog_do"
+    },
+    {
+      "kind": "block",
+      "type": "linux_watchdog_method"
+    },
+    {
+      "kind": "block",
+      "type": "linux_watchdog_do_method"
+    },
+    {
+      "kind": "block",
+      "type": "linux_watchdog_attribute"
+    }
+  ]
+}

@@ -73,6 +73,26 @@
     },
     {
       "kind": "block",
+      "type": "python_arguments"
+    },
+    {
+      "kind": "block",
+      "type": "python_keyword_arguments"
+    },
+    {
+      "kind": "block",
+      "type": "python_get_item"
+    },
+    {
+      "kind": "block",
+      "type": "python_set_item"
+    },
+    {
+      "kind": "block",
+      "type": "python_set_attribute"
+    },
+    {
+      "kind": "block",
       "type": "python_set_variable",
       "inputs": {
         "VALUE": {

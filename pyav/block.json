@@ -1,0 +1,256 @@
+[
+  {
+    "type": "python_pyav_call",
+    "message0": "PyAV call or create %1 arguments %2 keyword arguments %3",
+    "args0": [
+      {
+        "type": "field_dropdown",
+        "name": "TARGET",
+        "options": [
+          [
+            "open",
+            "open"
+          ],
+          [
+            "AudioFrame",
+            "AudioFrame"
+          ],
+          [
+            "VideoFrame",
+            "VideoFrame"
+          ],
+          [
+            "Packet",
+            "Packet"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#1976D2",
+    "tooltip": "Call an allowlisted PyAV function or constructor and return its result.",
+    "icon": "settings",
+    "output": "Any"
+  },
+  {
+    "type": "python_pyav_do",
+    "message0": "run PyAV %1 arguments %2 keyword arguments %3",
+    "args0": [
+      {
+        "type": "field_dropdown",
+        "name": "TARGET",
+        "options": [
+          [
+            "open",
+            "open"
+          ],
+          [
+            "AudioFrame",
+            "AudioFrame"
+          ],
+          [
+            "VideoFrame",
+            "VideoFrame"
+          ],
+          [
+            "Packet",
+            "Packet"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#1976D2",
+    "tooltip": "Run an allowlisted PyAV function or constructor as a statement.",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "python_pyav_method",
+    "message0": "PyAV object %1 call method %2 arguments %3 keyword arguments %4",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "OBJECT"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "METHOD",
+        "options": [
+          [
+            "demux",
+            "demux"
+          ],
+          [
+            "decode",
+            "decode"
+          ],
+          [
+            "encode",
+            "encode"
+          ],
+          [
+            "mux",
+            "mux"
+          ],
+          [
+            "close",
+            "close"
+          ],
+          [
+            "add_stream",
+            "add_stream"
+          ],
+          [
+            "to_ndarray",
+            "to_ndarray"
+          ],
+          [
+            "reformat",
+            "reformat"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#1976D2",
+    "tooltip": "Call an allowlisted PyAV object method and return its result.",
+    "icon": "settings",
+    "output": "Any"
+  },
+  {
+    "type": "python_pyav_do_method",
+    "message0": "run PyAV object %1 method %2 arguments %3 keyword arguments %4",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "OBJECT"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "METHOD",
+        "options": [
+          [
+            "demux",
+            "demux"
+          ],
+          [
+            "decode",
+            "decode"
+          ],
+          [
+            "encode",
+            "encode"
+          ],
+          [
+            "mux",
+            "mux"
+          ],
+          [
+            "close",
+            "close"
+          ],
+          [
+            "add_stream",
+            "add_stream"
+          ],
+          [
+            "to_ndarray",
+            "to_ndarray"
+          ],
+          [
+            "reformat",
+            "reformat"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#1976D2",
+    "tooltip": "Run an allowlisted PyAV object method as a statement.",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "python_pyav_attribute",
+    "message0": "PyAV object %1 attribute %2",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "OBJECT"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "ATTRIBUTE",
+        "options": [
+          [
+            "streams",
+            "streams"
+          ],
+          [
+            "duration",
+            "duration"
+          ],
+          [
+            "format",
+            "format"
+          ],
+          [
+            "metadata",
+            "metadata"
+          ],
+          [
+            "time_base",
+            "time_base"
+          ],
+          [
+            "pts",
+            "pts"
+          ],
+          [
+            "width",
+            "width"
+          ],
+          [
+            "height",
+            "height"
+          ]
+        ]
+      }
+    ],
+    "colour": "#1976D2",
+    "tooltip": "Read an allowlisted PyAV object or module attribute.",
+    "icon": "settings",
+    "output": "Any"
+  }
+]

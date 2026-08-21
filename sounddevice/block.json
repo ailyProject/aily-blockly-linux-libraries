@@ -1,0 +1,280 @@
+[
+  {
+    "type": "python_sounddevice_call",
+    "message0": "python-sounddevice call or create %1 arguments %2 keyword arguments %3",
+    "args0": [
+      {
+        "type": "field_dropdown",
+        "name": "TARGET",
+        "options": [
+          [
+            "play",
+            "play"
+          ],
+          [
+            "rec",
+            "rec"
+          ],
+          [
+            "playrec",
+            "playrec"
+          ],
+          [
+            "wait",
+            "wait"
+          ],
+          [
+            "stop",
+            "stop"
+          ],
+          [
+            "query_devices",
+            "query_devices"
+          ],
+          [
+            "query_hostapis",
+            "query_hostapis"
+          ],
+          [
+            "InputStream",
+            "InputStream"
+          ],
+          [
+            "OutputStream",
+            "OutputStream"
+          ],
+          [
+            "Stream",
+            "Stream"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#EF6C00",
+    "tooltip": "Call an allowlisted python-sounddevice function or constructor and return its result.",
+    "icon": "settings",
+    "output": "Any"
+  },
+  {
+    "type": "python_sounddevice_do",
+    "message0": "run python-sounddevice %1 arguments %2 keyword arguments %3",
+    "args0": [
+      {
+        "type": "field_dropdown",
+        "name": "TARGET",
+        "options": [
+          [
+            "play",
+            "play"
+          ],
+          [
+            "rec",
+            "rec"
+          ],
+          [
+            "playrec",
+            "playrec"
+          ],
+          [
+            "wait",
+            "wait"
+          ],
+          [
+            "stop",
+            "stop"
+          ],
+          [
+            "query_devices",
+            "query_devices"
+          ],
+          [
+            "query_hostapis",
+            "query_hostapis"
+          ],
+          [
+            "InputStream",
+            "InputStream"
+          ],
+          [
+            "OutputStream",
+            "OutputStream"
+          ],
+          [
+            "Stream",
+            "Stream"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#EF6C00",
+    "tooltip": "Run an allowlisted python-sounddevice function or constructor as a statement.",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "python_sounddevice_method",
+    "message0": "python-sounddevice object %1 call method %2 arguments %3 keyword arguments %4",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "OBJECT"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "METHOD",
+        "options": [
+          [
+            "start",
+            "start"
+          ],
+          [
+            "stop",
+            "stop"
+          ],
+          [
+            "abort",
+            "abort"
+          ],
+          [
+            "close",
+            "close"
+          ],
+          [
+            "read",
+            "read"
+          ],
+          [
+            "write",
+            "write"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#EF6C00",
+    "tooltip": "Call an allowlisted python-sounddevice object method and return its result.",
+    "icon": "settings",
+    "output": "Any"
+  },
+  {
+    "type": "python_sounddevice_do_method",
+    "message0": "run python-sounddevice object %1 method %2 arguments %3 keyword arguments %4",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "OBJECT"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "METHOD",
+        "options": [
+          [
+            "start",
+            "start"
+          ],
+          [
+            "stop",
+            "stop"
+          ],
+          [
+            "abort",
+            "abort"
+          ],
+          [
+            "close",
+            "close"
+          ],
+          [
+            "read",
+            "read"
+          ],
+          [
+            "write",
+            "write"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#EF6C00",
+    "tooltip": "Run an allowlisted python-sounddevice object method as a statement.",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "python_sounddevice_attribute",
+    "message0": "python-sounddevice object %1 attribute %2",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "OBJECT"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "ATTRIBUTE",
+        "options": [
+          [
+            "active",
+            "active"
+          ],
+          [
+            "closed",
+            "closed"
+          ],
+          [
+            "latency",
+            "latency"
+          ],
+          [
+            "samplerate",
+            "samplerate"
+          ],
+          [
+            "channels",
+            "channels"
+          ],
+          [
+            "dtype",
+            "dtype"
+          ]
+        ]
+      }
+    ],
+    "colour": "#EF6C00",
+    "tooltip": "Read an allowlisted python-sounddevice object or module attribute.",
+    "icon": "settings",
+    "output": "Any"
+  }
+]

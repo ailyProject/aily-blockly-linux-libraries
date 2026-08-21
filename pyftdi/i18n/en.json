@@ -1,0 +1,142 @@
+{
+  "toolbox_name": "PyFtdi GPIO",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "linux_pyftdi_call": {
+    "message0": "PyFtdi GPIO call or create %1 arguments %2 keyword arguments %3",
+    "tooltip": "Call an allowlisted PyFtdi GPIO function or constructor and return its result.",
+    "args0": [
+      {
+        "options": [
+          [
+            "GpioController",
+            "GpioController"
+          ],
+          [
+            "GpioAsyncController",
+            "GpioAsyncController"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "linux_pyftdi_do": {
+    "message0": "run PyFtdi GPIO %1 arguments %2 keyword arguments %3",
+    "tooltip": "Run an allowlisted PyFtdi GPIO function or constructor as a statement.",
+    "args0": [
+      {
+        "options": [
+          [
+            "GpioController",
+            "GpioController"
+          ],
+          [
+            "GpioAsyncController",
+            "GpioAsyncController"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "linux_pyftdi_method": {
+    "message0": "PyFtdi GPIO object %1 call method %2 arguments %3 keyword arguments %4",
+    "tooltip": "Call an allowlisted PyFtdi GPIO object method and return its result.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "configure",
+            "configure"
+          ],
+          [
+            "set_direction",
+            "set_direction"
+          ],
+          [
+            "write",
+            "write"
+          ],
+          [
+            "read",
+            "read"
+          ],
+          [
+            "exchange",
+            "exchange"
+          ],
+          [
+            "close",
+            "close"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "linux_pyftdi_do_method": {
+    "message0": "run PyFtdi GPIO object %1 method %2 arguments %3 keyword arguments %4",
+    "tooltip": "Run an allowlisted PyFtdi GPIO object method as a statement.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "configure",
+            "configure"
+          ],
+          [
+            "set_direction",
+            "set_direction"
+          ],
+          [
+            "write",
+            "write"
+          ],
+          [
+            "read",
+            "read"
+          ],
+          [
+            "exchange",
+            "exchange"
+          ],
+          [
+            "close",
+            "close"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "linux_pyftdi_attribute": {
+    "message0": "PyFtdi GPIO object %1 attribute %2",
+    "tooltip": "Read an allowlisted PyFtdi GPIO object or module attribute.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "frequency",
+            "frequency"
+          ],
+          [
+            "direction",
+            "direction"
+          ],
+          [
+            "pins",
+            "pins"
+          ]
+        ]
+      }
+    ]
+  }
+}

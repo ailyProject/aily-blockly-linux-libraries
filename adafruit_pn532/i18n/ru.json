@@ -1,0 +1,142 @@
+{
+  "toolbox_name": "CircuitPython PN532",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_adafruit_pn532_call": {
+    "message0": "CircuitPython PN532 вызвать или создать %1 аргументы %2 именованные аргументы %3",
+    "tooltip": "Вызывает разрешённую функцию или конструктор CircuitPython PN532 и возвращает результат.",
+    "args0": [
+      {
+        "options": [
+          [
+            "PN532_I2C",
+            "PN532_I2C"
+          ],
+          [
+            "PN532_SPI",
+            "PN532_SPI"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_pn532_do": {
+    "message0": "выполнить CircuitPython PN532 %1 аргументы %2 именованные аргументы %3",
+    "tooltip": "Выполняет разрешённую функцию или конструктор CircuitPython PN532 как инструкцию.",
+    "args0": [
+      {
+        "options": [
+          [
+            "PN532_I2C",
+            "PN532_I2C"
+          ],
+          [
+            "PN532_SPI",
+            "PN532_SPI"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_pn532_method": {
+    "message0": "объект CircuitPython PN532 %1 метод %2 аргументы %3 именованные аргументы %4",
+    "tooltip": "Вызывает разрешённый метод объекта CircuitPython PN532 и возвращает результат.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "SAM_configuration",
+            "SAM_configuration"
+          ],
+          [
+            "read_passive_target",
+            "read_passive_target"
+          ],
+          [
+            "listen_for_passive_target",
+            "listen_for_passive_target"
+          ],
+          [
+            "call_function",
+            "call_function"
+          ],
+          [
+            "mifare_classic_read_block",
+            "mifare_classic_read_block"
+          ],
+          [
+            "mifare_classic_write_block",
+            "mifare_classic_write_block"
+          ],
+          [
+            "ntag2xx_read_block",
+            "ntag2xx_read_block"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_pn532_do_method": {
+    "message0": "выполнить метод CircuitPython PN532 объекта %1 %2 аргументы %3 именованные аргументы %4",
+    "tooltip": "Выполняет разрешённый метод объекта CircuitPython PN532 как инструкцию.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "SAM_configuration",
+            "SAM_configuration"
+          ],
+          [
+            "read_passive_target",
+            "read_passive_target"
+          ],
+          [
+            "listen_for_passive_target",
+            "listen_for_passive_target"
+          ],
+          [
+            "call_function",
+            "call_function"
+          ],
+          [
+            "mifare_classic_read_block",
+            "mifare_classic_read_block"
+          ],
+          [
+            "mifare_classic_write_block",
+            "mifare_classic_write_block"
+          ],
+          [
+            "ntag2xx_read_block",
+            "ntag2xx_read_block"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_pn532_attribute": {
+    "message0": "объект CircuitPython PN532 %1 атрибут %2",
+    "tooltip": "Читает разрешённый атрибут объекта или модуля CircuitPython PN532.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "firmware_version",
+            "firmware_version"
+          ]
+        ]
+      }
+    ]
+  }
+}

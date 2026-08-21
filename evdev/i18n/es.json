@@ -1,0 +1,174 @@
+{
+  "toolbox_name": "python-evdev",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "linux_evdev_call": {
+    "message0": "python-evdev llamar o crear %1 argumentos %2 argumentos con nombre %3",
+    "tooltip": "Llama a una función o constructor permitido de python-evdev y devuelve el resultado.",
+    "args0": [
+      {
+        "options": [
+          [
+            "InputDevice",
+            "InputDevice"
+          ],
+          [
+            "UInput",
+            "UInput"
+          ],
+          [
+            "list_devices",
+            "list_devices"
+          ],
+          [
+            "categorize",
+            "categorize"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "linux_evdev_do": {
+    "message0": "ejecutar python-evdev %1 argumentos %2 argumentos con nombre %3",
+    "tooltip": "Ejecuta una función o constructor permitido de python-evdev como sentencia.",
+    "args0": [
+      {
+        "options": [
+          [
+            "InputDevice",
+            "InputDevice"
+          ],
+          [
+            "UInput",
+            "UInput"
+          ],
+          [
+            "list_devices",
+            "list_devices"
+          ],
+          [
+            "categorize",
+            "categorize"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "linux_evdev_method": {
+    "message0": "objeto python-evdev %1 método %2 argumentos %3 argumentos con nombre %4",
+    "tooltip": "Llama a un método permitido de un objeto python-evdev y devuelve el resultado.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "read",
+            "read"
+          ],
+          [
+            "read_loop",
+            "read_loop"
+          ],
+          [
+            "async_read_loop",
+            "async_read_loop"
+          ],
+          [
+            "grab",
+            "grab"
+          ],
+          [
+            "ungrab",
+            "ungrab"
+          ],
+          [
+            "close",
+            "close"
+          ],
+          [
+            "write",
+            "write"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "linux_evdev_do_method": {
+    "message0": "ejecutar método de python-evdev objeto %1 %2 argumentos %3 argumentos con nombre %4",
+    "tooltip": "Ejecuta un método permitido de un objeto python-evdev como sentencia.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "read",
+            "read"
+          ],
+          [
+            "read_loop",
+            "read_loop"
+          ],
+          [
+            "async_read_loop",
+            "async_read_loop"
+          ],
+          [
+            "grab",
+            "grab"
+          ],
+          [
+            "ungrab",
+            "ungrab"
+          ],
+          [
+            "close",
+            "close"
+          ],
+          [
+            "write",
+            "write"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "linux_evdev_attribute": {
+    "message0": "objeto python-evdev %1 atributo %2",
+    "tooltip": "Lee un atributo permitido de un objeto o módulo python-evdev.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "path",
+            "path"
+          ],
+          [
+            "name",
+            "name"
+          ],
+          [
+            "phys",
+            "phys"
+          ],
+          [
+            "uniq",
+            "uniq"
+          ],
+          [
+            "fd",
+            "fd"
+          ]
+        ]
+      }
+    ]
+  }
+}

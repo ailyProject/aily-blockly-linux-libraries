@@ -1,0 +1,138 @@
+{
+  "toolbox_name": "CircuitPython SCD4x",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_adafruit_scd4x_call": {
+    "message0": "CircuitPython SCD4x استدعاء أو إنشاء %1 الوسائط %2 وسائط الكلمات المفتاحية %3",
+    "tooltip": "استدعاء دالة أو مُنشئ مسموح من CircuitPython SCD4x وإرجاع النتيجة.",
+    "args0": [
+      {
+        "options": [
+          [
+            "SCD4X",
+            "SCD4X"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_scd4x_do": {
+    "message0": "تشغيل CircuitPython SCD4x %1 الوسائط %2 وسائط الكلمات المفتاحية %3",
+    "tooltip": "تشغيل دالة أو مُنشئ مسموح من CircuitPython SCD4x كتعليمة.",
+    "args0": [
+      {
+        "options": [
+          [
+            "SCD4X",
+            "SCD4X"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_scd4x_method": {
+    "message0": "كائن CircuitPython SCD4x %1 الطريقة %2 الوسائط %3 وسائط الكلمات المفتاحية %4",
+    "tooltip": "استدعاء طريقة مسموحة لكائن CircuitPython SCD4x وإرجاع النتيجة.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "start_periodic_measurement",
+            "start_periodic_measurement"
+          ],
+          [
+            "stop_periodic_measurement",
+            "stop_periodic_measurement"
+          ],
+          [
+            "reinit",
+            "reinit"
+          ],
+          [
+            "persist_settings",
+            "persist_settings"
+          ],
+          [
+            "force_calibration",
+            "force_calibration"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_scd4x_do_method": {
+    "message0": "تشغيل طريقة CircuitPython SCD4x للكائن %1 %2 الوسائط %3 وسائط الكلمات المفتاحية %4",
+    "tooltip": "تشغيل طريقة مسموحة لكائن CircuitPython SCD4x كتعليمة.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "start_periodic_measurement",
+            "start_periodic_measurement"
+          ],
+          [
+            "stop_periodic_measurement",
+            "stop_periodic_measurement"
+          ],
+          [
+            "reinit",
+            "reinit"
+          ],
+          [
+            "persist_settings",
+            "persist_settings"
+          ],
+          [
+            "force_calibration",
+            "force_calibration"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_scd4x_attribute": {
+    "message0": "كائن CircuitPython SCD4x %1 السمة %2",
+    "tooltip": "قراءة سمة مسموحة لكائن أو وحدة CircuitPython SCD4x.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "CO2",
+            "CO2"
+          ],
+          [
+            "temperature",
+            "temperature"
+          ],
+          [
+            "relative_humidity",
+            "relative_humidity"
+          ],
+          [
+            "data_ready",
+            "data_ready"
+          ],
+          [
+            "measurement_period",
+            "measurement_period"
+          ],
+          [
+            "self_calibration_enabled",
+            "self_calibration_enabled"
+          ]
+        ]
+      }
+    ]
+  }
+}

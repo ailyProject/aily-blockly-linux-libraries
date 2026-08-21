@@ -1,0 +1,202 @@
+{
+  "toolbox_name": "FastAPI",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_fastapi_call": {
+    "message0": "FastAPI استدعاء أو إنشاء %1 الوسائط %2 وسائط الكلمات المفتاحية %3",
+    "tooltip": "استدعاء دالة أو مُنشئ مسموح من FastAPI وإرجاع النتيجة.",
+    "args0": [
+      {
+        "options": [
+          [
+            "FastAPI",
+            "FastAPI"
+          ],
+          [
+            "APIRouter",
+            "APIRouter"
+          ],
+          [
+            "Depends",
+            "Depends"
+          ],
+          [
+            "HTTPException",
+            "HTTPException"
+          ],
+          [
+            "WebSocket",
+            "WebSocket"
+          ],
+          [
+            "BackgroundTasks",
+            "BackgroundTasks"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_fastapi_do": {
+    "message0": "تشغيل FastAPI %1 الوسائط %2 وسائط الكلمات المفتاحية %3",
+    "tooltip": "تشغيل دالة أو مُنشئ مسموح من FastAPI كتعليمة.",
+    "args0": [
+      {
+        "options": [
+          [
+            "FastAPI",
+            "FastAPI"
+          ],
+          [
+            "APIRouter",
+            "APIRouter"
+          ],
+          [
+            "Depends",
+            "Depends"
+          ],
+          [
+            "HTTPException",
+            "HTTPException"
+          ],
+          [
+            "WebSocket",
+            "WebSocket"
+          ],
+          [
+            "BackgroundTasks",
+            "BackgroundTasks"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_fastapi_method": {
+    "message0": "كائن FastAPI %1 الطريقة %2 الوسائط %3 وسائط الكلمات المفتاحية %4",
+    "tooltip": "استدعاء طريقة مسموحة لكائن FastAPI وإرجاع النتيجة.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "get",
+            "get"
+          ],
+          [
+            "post",
+            "post"
+          ],
+          [
+            "put",
+            "put"
+          ],
+          [
+            "delete",
+            "delete"
+          ],
+          [
+            "patch",
+            "patch"
+          ],
+          [
+            "websocket",
+            "websocket"
+          ],
+          [
+            "include_router",
+            "include_router"
+          ],
+          [
+            "add_middleware",
+            "add_middleware"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_fastapi_do_method": {
+    "message0": "تشغيل طريقة FastAPI للكائن %1 %2 الوسائط %3 وسائط الكلمات المفتاحية %4",
+    "tooltip": "تشغيل طريقة مسموحة لكائن FastAPI كتعليمة.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "get",
+            "get"
+          ],
+          [
+            "post",
+            "post"
+          ],
+          [
+            "put",
+            "put"
+          ],
+          [
+            "delete",
+            "delete"
+          ],
+          [
+            "patch",
+            "patch"
+          ],
+          [
+            "websocket",
+            "websocket"
+          ],
+          [
+            "include_router",
+            "include_router"
+          ],
+          [
+            "add_middleware",
+            "add_middleware"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_fastapi_attribute": {
+    "message0": "كائن FastAPI %1 السمة %2",
+    "tooltip": "قراءة سمة مسموحة لكائن أو وحدة FastAPI.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "routes",
+            "routes"
+          ],
+          [
+            "openapi_url",
+            "openapi_url"
+          ],
+          [
+            "docs_url",
+            "docs_url"
+          ],
+          [
+            "title",
+            "title"
+          ],
+          [
+            "version",
+            "version"
+          ],
+          [
+            "state",
+            "state"
+          ]
+        ]
+      }
+    ]
+  }
+}

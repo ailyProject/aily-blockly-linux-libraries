@@ -1,0 +1,166 @@
+{
+  "toolbox_name": "aiocoap",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_aiocoap_call": {
+    "message0": "aiocoap appeler ou créer %1 arguments %2 arguments nommés %3",
+    "tooltip": "Appeler une fonction ou un constructeur aiocoap autorisé et renvoyer le résultat.",
+    "args0": [
+      {
+        "options": [
+          [
+            "Context.create_client_context",
+            "Context.create_client_context"
+          ],
+          [
+            "Context.create_server_context",
+            "Context.create_server_context"
+          ],
+          [
+            "Message",
+            "Message"
+          ],
+          [
+            "resource.Site",
+            "resource.Site"
+          ],
+          [
+            "resource.Resource",
+            "resource.Resource"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_aiocoap_do": {
+    "message0": "exécuter aiocoap %1 arguments %2 arguments nommés %3",
+    "tooltip": "Exécuter une fonction ou un constructeur aiocoap autorisé comme instruction.",
+    "args0": [
+      {
+        "options": [
+          [
+            "Context.create_client_context",
+            "Context.create_client_context"
+          ],
+          [
+            "Context.create_server_context",
+            "Context.create_server_context"
+          ],
+          [
+            "Message",
+            "Message"
+          ],
+          [
+            "resource.Site",
+            "resource.Site"
+          ],
+          [
+            "resource.Resource",
+            "resource.Resource"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_aiocoap_method": {
+    "message0": "objet aiocoap %1 méthode %2 arguments %3 arguments nommés %4",
+    "tooltip": "Appeler une méthode autorisée d’un objet aiocoap et renvoyer le résultat.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "request",
+            "request"
+          ],
+          [
+            "render_get",
+            "render_get"
+          ],
+          [
+            "render_post",
+            "render_post"
+          ],
+          [
+            "add_resource",
+            "add_resource"
+          ],
+          [
+            "shutdown",
+            "shutdown"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_aiocoap_do_method": {
+    "message0": "exécuter la méthode aiocoap de l’objet %1 %2 arguments %3 arguments nommés %4",
+    "tooltip": "Exécuter une méthode autorisée d’un objet aiocoap comme instruction.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "request",
+            "request"
+          ],
+          [
+            "render_get",
+            "render_get"
+          ],
+          [
+            "render_post",
+            "render_post"
+          ],
+          [
+            "add_resource",
+            "add_resource"
+          ],
+          [
+            "shutdown",
+            "shutdown"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_aiocoap_attribute": {
+    "message0": "objet aiocoap %1 attribut %2",
+    "tooltip": "Lire un attribut autorisé d’un objet ou module aiocoap.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "code",
+            "code"
+          ],
+          [
+            "payload",
+            "payload"
+          ],
+          [
+            "uri",
+            "uri"
+          ],
+          [
+            "remote",
+            "remote"
+          ],
+          [
+            "opt",
+            "opt"
+          ]
+        ]
+      }
+    ]
+  }
+}

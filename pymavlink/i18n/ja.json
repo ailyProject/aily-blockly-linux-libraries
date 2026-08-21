@@ -1,0 +1,174 @@
+{
+  "toolbox_name": "pymavlink",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_pymavlink_call": {
+    "message0": "pymavlink 呼び出しまたは作成 %1 引数 %2 キーワード引数 %3",
+    "tooltip": "許可された pymavlink の関数またはコンストラクターを呼び出して結果を返します。",
+    "args0": [
+      {
+        "options": [
+          [
+            "mavlink_connection",
+            "mavlink_connection"
+          ],
+          [
+            "mode_string_v10",
+            "mode_string_v10"
+          ],
+          [
+            "all_printable",
+            "all_printable"
+          ],
+          [
+            "periodic_event",
+            "periodic_event"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_pymavlink_do": {
+    "message0": "pymavlink を実行 %1 引数 %2 キーワード引数 %3",
+    "tooltip": "許可された pymavlink の関数またはコンストラクターを文として実行します。",
+    "args0": [
+      {
+        "options": [
+          [
+            "mavlink_connection",
+            "mavlink_connection"
+          ],
+          [
+            "mode_string_v10",
+            "mode_string_v10"
+          ],
+          [
+            "all_printable",
+            "all_printable"
+          ],
+          [
+            "periodic_event",
+            "periodic_event"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_pymavlink_method": {
+    "message0": "pymavlink オブジェクト %1 メソッド %2 引数 %3 キーワード引数 %4",
+    "tooltip": "許可された pymavlink オブジェクトのメソッドを呼び出して結果を返します。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "wait_heartbeat",
+            "wait_heartbeat"
+          ],
+          [
+            "recv_match",
+            "recv_match"
+          ],
+          [
+            "mode_mapping",
+            "mode_mapping"
+          ],
+          [
+            "set_mode",
+            "set_mode"
+          ],
+          [
+            "close",
+            "close"
+          ],
+          [
+            "write",
+            "write"
+          ],
+          [
+            "param_fetch_all",
+            "param_fetch_all"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_pymavlink_do_method": {
+    "message0": "pymavlink オブジェクト %1 のメソッド %2 を実行 引数 %3 キーワード引数 %4",
+    "tooltip": "許可された pymavlink オブジェクトのメソッドを文として実行します。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "wait_heartbeat",
+            "wait_heartbeat"
+          ],
+          [
+            "recv_match",
+            "recv_match"
+          ],
+          [
+            "mode_mapping",
+            "mode_mapping"
+          ],
+          [
+            "set_mode",
+            "set_mode"
+          ],
+          [
+            "close",
+            "close"
+          ],
+          [
+            "write",
+            "write"
+          ],
+          [
+            "param_fetch_all",
+            "param_fetch_all"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_pymavlink_attribute": {
+    "message0": "pymavlink オブジェクト %1 属性 %2",
+    "tooltip": "許可された pymavlink オブジェクトまたはモジュールの属性を読み取ります。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "target_system",
+            "target_system"
+          ],
+          [
+            "target_component",
+            "target_component"
+          ],
+          [
+            "mav",
+            "mav"
+          ],
+          [
+            "flightmode",
+            "flightmode"
+          ],
+          [
+            "messages",
+            "messages"
+          ]
+        ]
+      }
+    ]
+  }
+}

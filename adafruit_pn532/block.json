@@ -1,0 +1,204 @@
+[
+  {
+    "type": "python_adafruit_pn532_call",
+    "message0": "CircuitPython PN532 call or create %1 arguments %2 keyword arguments %3",
+    "args0": [
+      {
+        "type": "field_dropdown",
+        "name": "TARGET",
+        "options": [
+          [
+            "PN532_I2C",
+            "PN532_I2C"
+          ],
+          [
+            "PN532_SPI",
+            "PN532_SPI"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#00897B",
+    "tooltip": "Call an allowlisted CircuitPython PN532 function or constructor and return its result.",
+    "icon": "settings",
+    "output": "Any"
+  },
+  {
+    "type": "python_adafruit_pn532_do",
+    "message0": "run CircuitPython PN532 %1 arguments %2 keyword arguments %3",
+    "args0": [
+      {
+        "type": "field_dropdown",
+        "name": "TARGET",
+        "options": [
+          [
+            "PN532_I2C",
+            "PN532_I2C"
+          ],
+          [
+            "PN532_SPI",
+            "PN532_SPI"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#00897B",
+    "tooltip": "Run an allowlisted CircuitPython PN532 function or constructor as a statement.",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "python_adafruit_pn532_method",
+    "message0": "CircuitPython PN532 object %1 call method %2 arguments %3 keyword arguments %4",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "OBJECT"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "METHOD",
+        "options": [
+          [
+            "SAM_configuration",
+            "SAM_configuration"
+          ],
+          [
+            "read_passive_target",
+            "read_passive_target"
+          ],
+          [
+            "listen_for_passive_target",
+            "listen_for_passive_target"
+          ],
+          [
+            "call_function",
+            "call_function"
+          ],
+          [
+            "mifare_classic_read_block",
+            "mifare_classic_read_block"
+          ],
+          [
+            "mifare_classic_write_block",
+            "mifare_classic_write_block"
+          ],
+          [
+            "ntag2xx_read_block",
+            "ntag2xx_read_block"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#00897B",
+    "tooltip": "Call an allowlisted CircuitPython PN532 object method and return its result.",
+    "icon": "settings",
+    "output": "Any"
+  },
+  {
+    "type": "python_adafruit_pn532_do_method",
+    "message0": "run CircuitPython PN532 object %1 method %2 arguments %3 keyword arguments %4",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "OBJECT"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "METHOD",
+        "options": [
+          [
+            "SAM_configuration",
+            "SAM_configuration"
+          ],
+          [
+            "read_passive_target",
+            "read_passive_target"
+          ],
+          [
+            "listen_for_passive_target",
+            "listen_for_passive_target"
+          ],
+          [
+            "call_function",
+            "call_function"
+          ],
+          [
+            "mifare_classic_read_block",
+            "mifare_classic_read_block"
+          ],
+          [
+            "mifare_classic_write_block",
+            "mifare_classic_write_block"
+          ],
+          [
+            "ntag2xx_read_block",
+            "ntag2xx_read_block"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#00897B",
+    "tooltip": "Run an allowlisted CircuitPython PN532 object method as a statement.",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "python_adafruit_pn532_attribute",
+    "message0": "CircuitPython PN532 object %1 attribute %2",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "OBJECT"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "ATTRIBUTE",
+        "options": [
+          [
+            "firmware_version",
+            "firmware_version"
+          ]
+        ]
+      }
+    ],
+    "colour": "#00897B",
+    "tooltip": "Read an allowlisted CircuitPython PN532 object or module attribute.",
+    "icon": "settings",
+    "output": "Any"
+  }
+]

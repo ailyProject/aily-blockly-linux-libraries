@@ -1,0 +1,236 @@
+[
+  {
+    "type": "python_pyaudio_call",
+    "message0": "PyAudio call or create %1 arguments %2 keyword arguments %3",
+    "args0": [
+      {
+        "type": "field_dropdown",
+        "name": "TARGET",
+        "options": [
+          [
+            "PyAudio",
+            "PyAudio"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#EF6C00",
+    "tooltip": "Call an allowlisted PyAudio function or constructor and return its result.",
+    "icon": "settings",
+    "output": "Any"
+  },
+  {
+    "type": "python_pyaudio_do",
+    "message0": "run PyAudio %1 arguments %2 keyword arguments %3",
+    "args0": [
+      {
+        "type": "field_dropdown",
+        "name": "TARGET",
+        "options": [
+          [
+            "PyAudio",
+            "PyAudio"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#EF6C00",
+    "tooltip": "Run an allowlisted PyAudio function or constructor as a statement.",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "python_pyaudio_method",
+    "message0": "PyAudio object %1 call method %2 arguments %3 keyword arguments %4",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "OBJECT"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "METHOD",
+        "options": [
+          [
+            "open",
+            "open"
+          ],
+          [
+            "terminate",
+            "terminate"
+          ],
+          [
+            "get_device_count",
+            "get_device_count"
+          ],
+          [
+            "get_device_info_by_index",
+            "get_device_info_by_index"
+          ],
+          [
+            "get_default_input_device_info",
+            "get_default_input_device_info"
+          ],
+          [
+            "is_format_supported",
+            "is_format_supported"
+          ],
+          [
+            "read",
+            "read"
+          ],
+          [
+            "write",
+            "write"
+          ],
+          [
+            "start_stream",
+            "start_stream"
+          ],
+          [
+            "stop_stream",
+            "stop_stream"
+          ],
+          [
+            "close",
+            "close"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#EF6C00",
+    "tooltip": "Call an allowlisted PyAudio object method and return its result.",
+    "icon": "settings",
+    "output": "Any"
+  },
+  {
+    "type": "python_pyaudio_do_method",
+    "message0": "run PyAudio object %1 method %2 arguments %3 keyword arguments %4",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "OBJECT"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "METHOD",
+        "options": [
+          [
+            "open",
+            "open"
+          ],
+          [
+            "terminate",
+            "terminate"
+          ],
+          [
+            "get_device_count",
+            "get_device_count"
+          ],
+          [
+            "get_device_info_by_index",
+            "get_device_info_by_index"
+          ],
+          [
+            "get_default_input_device_info",
+            "get_default_input_device_info"
+          ],
+          [
+            "is_format_supported",
+            "is_format_supported"
+          ],
+          [
+            "read",
+            "read"
+          ],
+          [
+            "write",
+            "write"
+          ],
+          [
+            "start_stream",
+            "start_stream"
+          ],
+          [
+            "stop_stream",
+            "stop_stream"
+          ],
+          [
+            "close",
+            "close"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#EF6C00",
+    "tooltip": "Run an allowlisted PyAudio object method as a statement.",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "python_pyaudio_attribute",
+    "message0": "PyAudio object %1 attribute %2",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "OBJECT"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "ATTRIBUTE",
+        "options": [
+          [
+            "paInt16",
+            "paInt16"
+          ],
+          [
+            "paFloat32",
+            "paFloat32"
+          ],
+          [
+            "paUInt8",
+            "paUInt8"
+          ]
+        ]
+      }
+    ],
+    "colour": "#EF6C00",
+    "tooltip": "Read an allowlisted PyAudio object or module attribute.",
+    "icon": "settings",
+    "output": "Any"
+  }
+]

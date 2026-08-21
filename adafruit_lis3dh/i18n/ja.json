@@ -1,0 +1,118 @@
+{
+  "toolbox_name": "CircuitPython LIS3DH",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_adafruit_lis3dh_call": {
+    "message0": "CircuitPython LIS3DH 呼び出しまたは作成 %1 引数 %2 キーワード引数 %3",
+    "tooltip": "許可された CircuitPython LIS3DH の関数またはコンストラクターを呼び出して結果を返します。",
+    "args0": [
+      {
+        "options": [
+          [
+            "LIS3DH_I2C",
+            "LIS3DH_I2C"
+          ],
+          [
+            "LIS3DH_SPI",
+            "LIS3DH_SPI"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_lis3dh_do": {
+    "message0": "CircuitPython LIS3DH を実行 %1 引数 %2 キーワード引数 %3",
+    "tooltip": "許可された CircuitPython LIS3DH の関数またはコンストラクターを文として実行します。",
+    "args0": [
+      {
+        "options": [
+          [
+            "LIS3DH_I2C",
+            "LIS3DH_I2C"
+          ],
+          [
+            "LIS3DH_SPI",
+            "LIS3DH_SPI"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_lis3dh_method": {
+    "message0": "CircuitPython LIS3DH オブジェクト %1 メソッド %2 引数 %3 キーワード引数 %4",
+    "tooltip": "許可された CircuitPython LIS3DH オブジェクトのメソッドを呼び出して結果を返します。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "set_tap",
+            "set_tap"
+          ],
+          [
+            "unset_tap",
+            "unset_tap"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_lis3dh_do_method": {
+    "message0": "CircuitPython LIS3DH オブジェクト %1 のメソッド %2 を実行 引数 %3 キーワード引数 %4",
+    "tooltip": "許可された CircuitPython LIS3DH オブジェクトのメソッドを文として実行します。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "set_tap",
+            "set_tap"
+          ],
+          [
+            "unset_tap",
+            "unset_tap"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_lis3dh_attribute": {
+    "message0": "CircuitPython LIS3DH オブジェクト %1 属性 %2",
+    "tooltip": "許可された CircuitPython LIS3DH オブジェクトまたはモジュールの属性を読み取ります。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "acceleration",
+            "acceleration"
+          ],
+          [
+            "range",
+            "range"
+          ],
+          [
+            "data_rate",
+            "data_rate"
+          ],
+          [
+            "click",
+            "click"
+          ],
+          [
+            "tapped",
+            "tapped"
+          ]
+        ]
+      }
+    ]
+  }
+}

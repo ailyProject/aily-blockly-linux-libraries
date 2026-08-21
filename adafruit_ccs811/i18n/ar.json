@@ -1,0 +1,106 @@
+{
+  "toolbox_name": "CircuitPython CCS811",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_adafruit_ccs811_call": {
+    "message0": "CircuitPython CCS811 استدعاء أو إنشاء %1 الوسائط %2 وسائط الكلمات المفتاحية %3",
+    "tooltip": "استدعاء دالة أو مُنشئ مسموح من CircuitPython CCS811 وإرجاع النتيجة.",
+    "args0": [
+      {
+        "options": [
+          [
+            "CCS811",
+            "CCS811"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_ccs811_do": {
+    "message0": "تشغيل CircuitPython CCS811 %1 الوسائط %2 وسائط الكلمات المفتاحية %3",
+    "tooltip": "تشغيل دالة أو مُنشئ مسموح من CircuitPython CCS811 كتعليمة.",
+    "args0": [
+      {
+        "options": [
+          [
+            "CCS811",
+            "CCS811"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_ccs811_method": {
+    "message0": "كائن CircuitPython CCS811 %1 الطريقة %2 الوسائط %3 وسائط الكلمات المفتاحية %4",
+    "tooltip": "استدعاء طريقة مسموحة لكائن CircuitPython CCS811 وإرجاع النتيجة.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "reset",
+            "reset"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_ccs811_do_method": {
+    "message0": "تشغيل طريقة CircuitPython CCS811 للكائن %1 %2 الوسائط %3 وسائط الكلمات المفتاحية %4",
+    "tooltip": "تشغيل طريقة مسموحة لكائن CircuitPython CCS811 كتعليمة.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "reset",
+            "reset"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_ccs811_attribute": {
+    "message0": "كائن CircuitPython CCS811 %1 السمة %2",
+    "tooltip": "قراءة سمة مسموحة لكائن أو وحدة CircuitPython CCS811.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "eco2",
+            "eco2"
+          ],
+          [
+            "tvoc",
+            "tvoc"
+          ],
+          [
+            "data_ready",
+            "data_ready"
+          ],
+          [
+            "baseline",
+            "baseline"
+          ],
+          [
+            "temperature",
+            "temperature"
+          ],
+          [
+            "drive_mode",
+            "drive_mode"
+          ]
+        ]
+      }
+    ]
+  }
+}

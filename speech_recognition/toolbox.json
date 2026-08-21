@@ -1,0 +1,27 @@
+{
+  "kind": "category",
+  "name": "SpeechRecognition",
+  "colour": "#EF6C00",
+  "contents": [
+    {
+      "kind": "block",
+      "type": "python_speech_recognition_call"
+    },
+    {
+      "kind": "block",
+      "type": "python_speech_recognition_do"
+    },
+    {
+      "kind": "block",
+      "type": "python_speech_recognition_method"
+    },
+    {
+      "kind": "block",
+      "type": "python_speech_recognition_do_method"
+    },
+    {
+      "kind": "block",
+      "type": "python_speech_recognition_attribute"
+    }
+  ]
+}

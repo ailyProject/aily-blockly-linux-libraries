@@ -1,0 +1,130 @@
+{
+  "toolbox_name": "RPLCD",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_rplcd_call": {
+    "message0": "RPLCD appeler ou créer %1 arguments %2 arguments nommés %3",
+    "tooltip": "Appeler une fonction ou un constructeur RPLCD autorisé et renvoyer le résultat.",
+    "args0": [
+      {
+        "options": [
+          [
+            "CharLCD",
+            "CharLCD"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_rplcd_do": {
+    "message0": "exécuter RPLCD %1 arguments %2 arguments nommés %3",
+    "tooltip": "Exécuter une fonction ou un constructeur RPLCD autorisé comme instruction.",
+    "args0": [
+      {
+        "options": [
+          [
+            "CharLCD",
+            "CharLCD"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_rplcd_method": {
+    "message0": "objet RPLCD %1 méthode %2 arguments %3 arguments nommés %4",
+    "tooltip": "Appeler une méthode autorisée d’un objet RPLCD et renvoyer le résultat.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "write_string",
+            "write_string"
+          ],
+          [
+            "clear",
+            "clear"
+          ],
+          [
+            "create_char",
+            "create_char"
+          ],
+          [
+            "home",
+            "home"
+          ],
+          [
+            "close",
+            "close"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_rplcd_do_method": {
+    "message0": "exécuter la méthode RPLCD de l’objet %1 %2 arguments %3 arguments nommés %4",
+    "tooltip": "Exécuter une méthode autorisée d’un objet RPLCD comme instruction.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "write_string",
+            "write_string"
+          ],
+          [
+            "clear",
+            "clear"
+          ],
+          [
+            "create_char",
+            "create_char"
+          ],
+          [
+            "home",
+            "home"
+          ],
+          [
+            "close",
+            "close"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_rplcd_attribute": {
+    "message0": "objet RPLCD %1 attribut %2",
+    "tooltip": "Lire un attribut autorisé d’un objet ou module RPLCD.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "cursor_pos",
+            "cursor_pos"
+          ],
+          [
+            "backlight_enabled",
+            "backlight_enabled"
+          ],
+          [
+            "cursor_mode",
+            "cursor_mode"
+          ],
+          [
+            "display_enabled",
+            "display_enabled"
+          ]
+        ]
+      }
+    ]
+  }
+}

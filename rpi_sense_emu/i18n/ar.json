@@ -1,0 +1,178 @@
+{
+  "toolbox_name": "Sense HAT Emulator",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "rpi_sense_emu_call": {
+    "message0": "Sense HAT Emulator استدعاء أو إنشاء %1 الوسائط %2 وسائط الكلمات المفتاحية %3",
+    "tooltip": "استدعاء دالة أو مُنشئ مسموح من Sense HAT Emulator وإرجاع النتيجة.",
+    "args0": [
+      {
+        "options": [
+          [
+            "SenseHat",
+            "SenseHat"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "rpi_sense_emu_do": {
+    "message0": "تشغيل Sense HAT Emulator %1 الوسائط %2 وسائط الكلمات المفتاحية %3",
+    "tooltip": "تشغيل دالة أو مُنشئ مسموح من Sense HAT Emulator كتعليمة.",
+    "args0": [
+      {
+        "options": [
+          [
+            "SenseHat",
+            "SenseHat"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "rpi_sense_emu_method": {
+    "message0": "كائن Sense HAT Emulator %1 الطريقة %2 الوسائط %3 وسائط الكلمات المفتاحية %4",
+    "tooltip": "استدعاء طريقة مسموحة لكائن Sense HAT Emulator وإرجاع النتيجة.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "show_message",
+            "show_message"
+          ],
+          [
+            "show_letter",
+            "show_letter"
+          ],
+          [
+            "clear",
+            "clear"
+          ],
+          [
+            "set_pixel",
+            "set_pixel"
+          ],
+          [
+            "get_pixel",
+            "get_pixel"
+          ],
+          [
+            "set_pixels",
+            "set_pixels"
+          ],
+          [
+            "get_pixels",
+            "get_pixels"
+          ],
+          [
+            "get_temperature",
+            "get_temperature"
+          ],
+          [
+            "get_humidity",
+            "get_humidity"
+          ],
+          [
+            "get_pressure",
+            "get_pressure"
+          ],
+          [
+            "get_orientation",
+            "get_orientation"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "rpi_sense_emu_do_method": {
+    "message0": "تشغيل طريقة Sense HAT Emulator للكائن %1 %2 الوسائط %3 وسائط الكلمات المفتاحية %4",
+    "tooltip": "تشغيل طريقة مسموحة لكائن Sense HAT Emulator كتعليمة.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "show_message",
+            "show_message"
+          ],
+          [
+            "show_letter",
+            "show_letter"
+          ],
+          [
+            "clear",
+            "clear"
+          ],
+          [
+            "set_pixel",
+            "set_pixel"
+          ],
+          [
+            "get_pixel",
+            "get_pixel"
+          ],
+          [
+            "set_pixels",
+            "set_pixels"
+          ],
+          [
+            "get_pixels",
+            "get_pixels"
+          ],
+          [
+            "get_temperature",
+            "get_temperature"
+          ],
+          [
+            "get_humidity",
+            "get_humidity"
+          ],
+          [
+            "get_pressure",
+            "get_pressure"
+          ],
+          [
+            "get_orientation",
+            "get_orientation"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "rpi_sense_emu_attribute": {
+    "message0": "كائن Sense HAT Emulator %1 السمة %2",
+    "tooltip": "قراءة سمة مسموحة لكائن أو وحدة Sense HAT Emulator.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "low_light",
+            "low_light"
+          ],
+          [
+            "rotation",
+            "rotation"
+          ],
+          [
+            "gamma",
+            "gamma"
+          ],
+          [
+            "stick",
+            "stick"
+          ]
+        ]
+      }
+    ]
+  }
+}

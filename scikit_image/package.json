@@ -1,0 +1,47 @@
+{
+  "name": "@aily-project/lib-scikit-image",
+  "nickname": "scikit-image I/O",
+  "nickname_zh_cn": "scikit-image I/O",
+  "nickname_en": "scikit-image I/O",
+  "nickname_zh_hk": "scikit-image I/O",
+  "nickname_ja": "scikit-image I/O",
+  "nickname_ko": "scikit-image I/O",
+  "nickname_de": "scikit-image I/O",
+  "nickname_fr": "scikit-image I/O",
+  "nickname_es": "scikit-image I/O",
+  "nickname_pt": "scikit-image I/O",
+  "nickname_ru": "scikit-image I/O",
+  "nickname_ar": "scikit-image I/O",
+  "version": "0.0.1",
+  "description": "面向树莓派与 Linux 开发板的 scikit-image I/O 常用 Python API 白名单积木。",
+  "description_zh_cn": "面向树莓派与 Linux 开发板的 scikit-image I/O 常用 Python API 白名单积木。",
+  "description_en": "Allowlisted scikit-image I/O Python API blocks for Raspberry Pi and Linux single-board computers.",
+  "spec": true,
+  "compatibility": {
+    "type": [
+      "canaan:k230:cybercam",
+      "broadcom:bcm2712:raspberrypi_5",
+      "allwinner:t527:walnutpi_2b"
+    ],
+    "voltage": [
+      3.3
+    ]
+  },
+  "keywords": [
+    "aily",
+    "blockly",
+    "python",
+    "linux",
+    "raspberry-pi",
+    "scikit-image",
+    "skimage.io"
+  ],
+  "tags": [
+    "display"
+  ],
+  "author": "ailyProject",
+  "license": "MIT",
+  "homepage": "https://scikit-image.org/docs/stable/",
+  "dependencies": {},
+  "devDependencies": {}
+}

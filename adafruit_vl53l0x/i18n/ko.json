@@ -1,0 +1,98 @@
+{
+  "toolbox_name": "CircuitPython VL53L0X",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_adafruit_vl53l0x_call": {
+    "message0": "CircuitPython VL53L0X 호출 또는 생성 %1 인수 %2 키워드 인수 %3",
+    "tooltip": "허용 목록의 CircuitPython VL53L0X 함수 또는 생성자를 호출하고 결과를 반환합니다.",
+    "args0": [
+      {
+        "options": [
+          [
+            "VL53L0X",
+            "VL53L0X"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_vl53l0x_do": {
+    "message0": "CircuitPython VL53L0X 실행 %1 인수 %2 키워드 인수 %3",
+    "tooltip": "허용 목록의 CircuitPython VL53L0X 함수 또는 생성자를 문으로 실행합니다.",
+    "args0": [
+      {
+        "options": [
+          [
+            "VL53L0X",
+            "VL53L0X"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_vl53l0x_method": {
+    "message0": "CircuitPython VL53L0X 객체 %1 메서드 %2 인수 %3 키워드 인수 %4",
+    "tooltip": "허용 목록의 CircuitPython VL53L0X 객체 메서드를 호출하고 결과를 반환합니다.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "start_continuous",
+            "start_continuous"
+          ],
+          [
+            "stop_continuous",
+            "stop_continuous"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_vl53l0x_do_method": {
+    "message0": "CircuitPython VL53L0X 객체 %1 메서드 실행 %2 인수 %3 키워드 인수 %4",
+    "tooltip": "허용 목록의 CircuitPython VL53L0X 객체 메서드를 문으로 실행합니다.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "start_continuous",
+            "start_continuous"
+          ],
+          [
+            "stop_continuous",
+            "stop_continuous"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_vl53l0x_attribute": {
+    "message0": "CircuitPython VL53L0X 객체 %1 속성 %2",
+    "tooltip": "허용 목록의 CircuitPython VL53L0X 객체 또는 모듈 속성을 읽습니다.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "range",
+            "range"
+          ],
+          [
+            "measurement_timing_budget",
+            "measurement_timing_budget"
+          ]
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "kind": "category",
+  "name": "InfluxDB Client",
+  "colour": "#0288D1",
+  "contents": [
+    {
+      "kind": "block",
+      "type": "python_influxdb_client_call"
+    },
+    {
+      "kind": "block",
+      "type": "python_influxdb_client_do"
+    },
+    {
+      "kind": "block",
+      "type": "python_influxdb_client_method"
+    },
+    {
+      "kind": "block",
+      "type": "python_influxdb_client_do_method"
+    },
+    {
+      "kind": "block",
+      "type": "python_influxdb_client_attribute"
+    }
+  ]
+}

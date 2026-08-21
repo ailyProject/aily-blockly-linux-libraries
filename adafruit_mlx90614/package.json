@@ -1,0 +1,45 @@
+{
+  "name": "@aily-project/lib-adafruit-mlx90614",
+  "nickname": "CircuitPython MLX90614",
+  "nickname_zh_cn": "CircuitPython MLX90614",
+  "nickname_en": "CircuitPython MLX90614",
+  "nickname_zh_hk": "CircuitPython MLX90614",
+  "nickname_ja": "CircuitPython MLX90614",
+  "nickname_ko": "CircuitPython MLX90614",
+  "nickname_de": "CircuitPython MLX90614",
+  "nickname_fr": "CircuitPython MLX90614",
+  "nickname_es": "CircuitPython MLX90614",
+  "nickname_pt": "CircuitPython MLX90614",
+  "nickname_ru": "CircuitPython MLX90614",
+  "nickname_ar": "CircuitPython MLX90614",
+  "version": "0.0.1",
+  "description": "面向树莓派与 Linux 开发板的 CircuitPython MLX90614 常用 Python API 白名单积木。",
+  "description_zh_cn": "面向树莓派与 Linux 开发板的 CircuitPython MLX90614 常用 Python API 白名单积木。",
+  "description_en": "Allowlisted CircuitPython MLX90614 Python API blocks for Raspberry Pi and Linux single-board computers.",
+  "spec": true,
+  "compatibility": {
+    "type": [
+      "broadcom:bcm2712:raspberrypi_5"
+    ],
+    "voltage": [
+      3.3
+    ]
+  },
+  "keywords": [
+    "aily",
+    "blockly",
+    "python",
+    "linux",
+    "raspberry-pi",
+    "adafruit-circuitpython-mlx90614",
+    "adafruit_mlx90614"
+  ],
+  "tags": [
+    "io"
+  ],
+  "author": "ailyProject",
+  "license": "MIT",
+  "homepage": "https://docs.circuitpython.org/projects/mlx90614/en/latest/",
+  "dependencies": {},
+  "devDependencies": {}
+}

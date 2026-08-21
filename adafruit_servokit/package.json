@@ -1,0 +1,45 @@
+{
+  "name": "@aily-project/lib-adafruit-servokit",
+  "nickname": "CircuitPython ServoKit",
+  "nickname_zh_cn": "CircuitPython ServoKit",
+  "nickname_en": "CircuitPython ServoKit",
+  "nickname_zh_hk": "CircuitPython ServoKit",
+  "nickname_ja": "CircuitPython ServoKit",
+  "nickname_ko": "CircuitPython ServoKit",
+  "nickname_de": "CircuitPython ServoKit",
+  "nickname_fr": "CircuitPython ServoKit",
+  "nickname_es": "CircuitPython ServoKit",
+  "nickname_pt": "CircuitPython ServoKit",
+  "nickname_ru": "CircuitPython ServoKit",
+  "nickname_ar": "CircuitPython ServoKit",
+  "version": "0.0.1",
+  "description": "面向树莓派与 Linux 开发板的 CircuitPython ServoKit 常用 Python API 白名单积木。",
+  "description_zh_cn": "面向树莓派与 Linux 开发板的 CircuitPython ServoKit 常用 Python API 白名单积木。",
+  "description_en": "Allowlisted CircuitPython ServoKit Python API blocks for Raspberry Pi and Linux single-board computers.",
+  "spec": true,
+  "compatibility": {
+    "type": [
+      "broadcom:bcm2712:raspberrypi_5"
+    ],
+    "voltage": [
+      3.3
+    ]
+  },
+  "keywords": [
+    "aily",
+    "blockly",
+    "python",
+    "linux",
+    "raspberry-pi",
+    "adafruit-circuitpython-servokit",
+    "adafruit_servokit"
+  ],
+  "tags": [
+    "io"
+  ],
+  "author": "ailyProject",
+  "license": "MIT",
+  "homepage": "https://docs.circuitpython.org/projects/servokit/en/latest/",
+  "dependencies": {},
+  "devDependencies": {}
+}

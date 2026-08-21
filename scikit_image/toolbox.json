@@ -1,0 +1,27 @@
+{
+  "kind": "category",
+  "name": "scikit-image I/O",
+  "colour": "#1976D2",
+  "contents": [
+    {
+      "kind": "block",
+      "type": "python_scikit_image_call"
+    },
+    {
+      "kind": "block",
+      "type": "python_scikit_image_do"
+    },
+    {
+      "kind": "block",
+      "type": "python_scikit_image_method"
+    },
+    {
+      "kind": "block",
+      "type": "python_scikit_image_do_method"
+    },
+    {
+      "kind": "block",
+      "type": "python_scikit_image_attribute"
+    }
+  ]
+}

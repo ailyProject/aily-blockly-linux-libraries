@@ -1,0 +1,126 @@
+{
+  "toolbox_name": "W1ThermSensor",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_w1thermsensor_call": {
+    "message0": "W1ThermSensor 호출 또는 생성 %1 인수 %2 키워드 인수 %3",
+    "tooltip": "허용 목록의 W1ThermSensor 함수 또는 생성자를 호출하고 결과를 반환합니다.",
+    "args0": [
+      {
+        "options": [
+          [
+            "W1ThermSensor",
+            "W1ThermSensor"
+          ],
+          [
+            "Unit",
+            "Unit"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_w1thermsensor_do": {
+    "message0": "W1ThermSensor 실행 %1 인수 %2 키워드 인수 %3",
+    "tooltip": "허용 목록의 W1ThermSensor 함수 또는 생성자를 문으로 실행합니다.",
+    "args0": [
+      {
+        "options": [
+          [
+            "W1ThermSensor",
+            "W1ThermSensor"
+          ],
+          [
+            "Unit",
+            "Unit"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_w1thermsensor_method": {
+    "message0": "W1ThermSensor 객체 %1 메서드 %2 인수 %3 키워드 인수 %4",
+    "tooltip": "허용 목록의 W1ThermSensor 객체 메서드를 호출하고 결과를 반환합니다.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "get_temperature",
+            "get_temperature"
+          ],
+          [
+            "get_temperatures",
+            "get_temperatures"
+          ],
+          [
+            "get_sensor",
+            "get_sensor"
+          ],
+          [
+            "get_available_sensors",
+            "get_available_sensors"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_w1thermsensor_do_method": {
+    "message0": "W1ThermSensor 객체 %1 메서드 실행 %2 인수 %3 키워드 인수 %4",
+    "tooltip": "허용 목록의 W1ThermSensor 객체 메서드를 문으로 실행합니다.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "get_temperature",
+            "get_temperature"
+          ],
+          [
+            "get_temperatures",
+            "get_temperatures"
+          ],
+          [
+            "get_sensor",
+            "get_sensor"
+          ],
+          [
+            "get_available_sensors",
+            "get_available_sensors"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_w1thermsensor_attribute": {
+    "message0": "W1ThermSensor 객체 %1 속성 %2",
+    "tooltip": "허용 목록의 W1ThermSensor 객체 또는 모듈 속성을 읽습니다.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "id",
+            "id"
+          ],
+          [
+            "type",
+            "type"
+          ],
+          [
+            "slave_file",
+            "slave_file"
+          ]
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "toolbox_name": "CircuitPython NeoPixel",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_neopixel_call": {
+    "message0": "CircuitPython NeoPixel 调用或创建 %1 参数 %2 关键字参数 %3",
+    "tooltip": "调用白名单中的 CircuitPython NeoPixel 函数或构造器并返回结果。",
+    "args0": [
+      {
+        "options": [
+          [
+            "NeoPixel",
+            "NeoPixel"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_neopixel_do": {
+    "message0": "运行 CircuitPython NeoPixel %1 参数 %2 关键字参数 %3",
+    "tooltip": "以语句方式运行白名单中的 CircuitPython NeoPixel 函数或构造器。",
+    "args0": [
+      {
+        "options": [
+          [
+            "NeoPixel",
+            "NeoPixel"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_neopixel_method": {
+    "message0": "CircuitPython NeoPixel 对象 %1 调用方法 %2 参数 %3 关键字参数 %4",
+    "tooltip": "调用白名单中的 CircuitPython NeoPixel 对象方法并返回结果。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "fill",
+            "fill"
+          ],
+          [
+            "show",
+            "show"
+          ],
+          [
+            "deinit",
+            "deinit"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_neopixel_do_method": {
+    "message0": "运行 CircuitPython NeoPixel 对象 %1 的方法 %2 参数 %3 关键字参数 %4",
+    "tooltip": "以语句方式运行白名单中的 CircuitPython NeoPixel 对象方法。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "fill",
+            "fill"
+          ],
+          [
+            "show",
+            "show"
+          ],
+          [
+            "deinit",
+            "deinit"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_neopixel_attribute": {
+    "message0": "CircuitPython NeoPixel 对象 %1 属性 %2",
+    "tooltip": "读取白名单中的 CircuitPython NeoPixel 对象或模块属性。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "brightness",
+            "brightness"
+          ],
+          [
+            "auto_write",
+            "auto_write"
+          ],
+          [
+            "n",
+            "n"
+          ],
+          [
+            "bpp",
+            "bpp"
+          ]
+        ]
+      }
+    ]
+  }
+}

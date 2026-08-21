@@ -1,0 +1,198 @@
+{
+  "toolbox_name": "aiohttp",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_aiohttp_call": {
+    "message0": "aiohttp llamar o crear %1 argumentos %2 argumentos con nombre %3",
+    "tooltip": "Llama a una función o constructor permitido de aiohttp y devuelve el resultado.",
+    "args0": [
+      {
+        "options": [
+          [
+            "ClientSession",
+            "ClientSession"
+          ],
+          [
+            "ClientTimeout",
+            "ClientTimeout"
+          ],
+          [
+            "TCPConnector",
+            "TCPConnector"
+          ],
+          [
+            "web.Application",
+            "web.Application"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_aiohttp_do": {
+    "message0": "ejecutar aiohttp %1 argumentos %2 argumentos con nombre %3",
+    "tooltip": "Ejecuta una función o constructor permitido de aiohttp como sentencia.",
+    "args0": [
+      {
+        "options": [
+          [
+            "ClientSession",
+            "ClientSession"
+          ],
+          [
+            "ClientTimeout",
+            "ClientTimeout"
+          ],
+          [
+            "TCPConnector",
+            "TCPConnector"
+          ],
+          [
+            "web.Application",
+            "web.Application"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_aiohttp_method": {
+    "message0": "objeto aiohttp %1 método %2 argumentos %3 argumentos con nombre %4",
+    "tooltip": "Llama a un método permitido de un objeto aiohttp y devuelve el resultado.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "get",
+            "get"
+          ],
+          [
+            "post",
+            "post"
+          ],
+          [
+            "put",
+            "put"
+          ],
+          [
+            "delete",
+            "delete"
+          ],
+          [
+            "request",
+            "request"
+          ],
+          [
+            "close",
+            "close"
+          ],
+          [
+            "json",
+            "json"
+          ],
+          [
+            "text",
+            "text"
+          ],
+          [
+            "read",
+            "read"
+          ],
+          [
+            "add_routes",
+            "add_routes"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_aiohttp_do_method": {
+    "message0": "ejecutar método de aiohttp objeto %1 %2 argumentos %3 argumentos con nombre %4",
+    "tooltip": "Ejecuta un método permitido de un objeto aiohttp como sentencia.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "get",
+            "get"
+          ],
+          [
+            "post",
+            "post"
+          ],
+          [
+            "put",
+            "put"
+          ],
+          [
+            "delete",
+            "delete"
+          ],
+          [
+            "request",
+            "request"
+          ],
+          [
+            "close",
+            "close"
+          ],
+          [
+            "json",
+            "json"
+          ],
+          [
+            "text",
+            "text"
+          ],
+          [
+            "read",
+            "read"
+          ],
+          [
+            "add_routes",
+            "add_routes"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_aiohttp_attribute": {
+    "message0": "objeto aiohttp %1 atributo %2",
+    "tooltip": "Lee un atributo permitido de un objeto o módulo aiohttp.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "status",
+            "status"
+          ],
+          [
+            "headers",
+            "headers"
+          ],
+          [
+            "cookies",
+            "cookies"
+          ],
+          [
+            "url",
+            "url"
+          ],
+          [
+            "content_type",
+            "content_type"
+          ]
+        ]
+      }
+    ]
+  }
+}

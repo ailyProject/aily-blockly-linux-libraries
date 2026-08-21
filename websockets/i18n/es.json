@@ -1,0 +1,174 @@
+{
+  "toolbox_name": "websockets",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_websockets_call": {
+    "message0": "websockets llamar o crear %1 argumentos %2 argumentos con nombre %3",
+    "tooltip": "Llama a una función o constructor permitido de websockets y devuelve el resultado.",
+    "args0": [
+      {
+        "options": [
+          [
+            "connect",
+            "connect"
+          ],
+          [
+            "serve",
+            "serve"
+          ],
+          [
+            "broadcast",
+            "broadcast"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_websockets_do": {
+    "message0": "ejecutar websockets %1 argumentos %2 argumentos con nombre %3",
+    "tooltip": "Ejecuta una función o constructor permitido de websockets como sentencia.",
+    "args0": [
+      {
+        "options": [
+          [
+            "connect",
+            "connect"
+          ],
+          [
+            "serve",
+            "serve"
+          ],
+          [
+            "broadcast",
+            "broadcast"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_websockets_method": {
+    "message0": "objeto websockets %1 método %2 argumentos %3 argumentos con nombre %4",
+    "tooltip": "Llama a un método permitido de un objeto websockets y devuelve el resultado.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "send",
+            "send"
+          ],
+          [
+            "recv",
+            "recv"
+          ],
+          [
+            "close",
+            "close"
+          ],
+          [
+            "ping",
+            "ping"
+          ],
+          [
+            "pong",
+            "pong"
+          ],
+          [
+            "wait_closed",
+            "wait_closed"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_websockets_do_method": {
+    "message0": "ejecutar método de websockets objeto %1 %2 argumentos %3 argumentos con nombre %4",
+    "tooltip": "Ejecuta un método permitido de un objeto websockets como sentencia.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "send",
+            "send"
+          ],
+          [
+            "recv",
+            "recv"
+          ],
+          [
+            "close",
+            "close"
+          ],
+          [
+            "ping",
+            "ping"
+          ],
+          [
+            "pong",
+            "pong"
+          ],
+          [
+            "wait_closed",
+            "wait_closed"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_websockets_attribute": {
+    "message0": "objeto websockets %1 atributo %2",
+    "tooltip": "Lee un atributo permitido de un objeto o módulo websockets.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "remote_address",
+            "remote_address"
+          ],
+          [
+            "local_address",
+            "local_address"
+          ],
+          [
+            "state",
+            "state"
+          ],
+          [
+            "close_code",
+            "close_code"
+          ],
+          [
+            "close_reason",
+            "close_reason"
+          ],
+          [
+            "subprotocol",
+            "subprotocol"
+          ],
+          [
+            "latency",
+            "latency"
+          ],
+          [
+            "request",
+            "request"
+          ],
+          [
+            "response",
+            "response"
+          ]
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "kind": "category",
+  "name": "Munkres",
+  "colour": "#7B1FA2",
+  "contents": [
+    {
+      "kind": "block",
+      "type": "python_munkres_call"
+    },
+    {
+      "kind": "block",
+      "type": "python_munkres_do"
+    },
+    {
+      "kind": "block",
+      "type": "python_munkres_method"
+    },
+    {
+      "kind": "block",
+      "type": "python_munkres_do_method"
+    },
+    {
+      "kind": "block",
+      "type": "python_munkres_attribute"
+    }
+  ]
+}

@@ -1,0 +1,266 @@
+{
+  "toolbox_name": "Matplotlib pyplot",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_matplotlib_call": {
+    "message0": "Matplotlib pyplot вызвать или создать %1 аргументы %2 именованные аргументы %3",
+    "tooltip": "Вызывает разрешённую функцию или конструктор Matplotlib pyplot и возвращает результат.",
+    "args0": [
+      {
+        "options": [
+          [
+            "figure",
+            "figure"
+          ],
+          [
+            "subplots",
+            "subplots"
+          ],
+          [
+            "plot",
+            "plot"
+          ],
+          [
+            "scatter",
+            "scatter"
+          ],
+          [
+            "bar",
+            "bar"
+          ],
+          [
+            "imshow",
+            "imshow"
+          ],
+          [
+            "hist",
+            "hist"
+          ],
+          [
+            "title",
+            "title"
+          ],
+          [
+            "xlabel",
+            "xlabel"
+          ],
+          [
+            "ylabel",
+            "ylabel"
+          ],
+          [
+            "legend",
+            "legend"
+          ],
+          [
+            "savefig",
+            "savefig"
+          ],
+          [
+            "show",
+            "show"
+          ],
+          [
+            "close",
+            "close"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_matplotlib_do": {
+    "message0": "выполнить Matplotlib pyplot %1 аргументы %2 именованные аргументы %3",
+    "tooltip": "Выполняет разрешённую функцию или конструктор Matplotlib pyplot как инструкцию.",
+    "args0": [
+      {
+        "options": [
+          [
+            "figure",
+            "figure"
+          ],
+          [
+            "subplots",
+            "subplots"
+          ],
+          [
+            "plot",
+            "plot"
+          ],
+          [
+            "scatter",
+            "scatter"
+          ],
+          [
+            "bar",
+            "bar"
+          ],
+          [
+            "imshow",
+            "imshow"
+          ],
+          [
+            "hist",
+            "hist"
+          ],
+          [
+            "title",
+            "title"
+          ],
+          [
+            "xlabel",
+            "xlabel"
+          ],
+          [
+            "ylabel",
+            "ylabel"
+          ],
+          [
+            "legend",
+            "legend"
+          ],
+          [
+            "savefig",
+            "savefig"
+          ],
+          [
+            "show",
+            "show"
+          ],
+          [
+            "close",
+            "close"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_matplotlib_method": {
+    "message0": "объект Matplotlib pyplot %1 метод %2 аргументы %3 именованные аргументы %4",
+    "tooltip": "Вызывает разрешённый метод объекта Matplotlib pyplot и возвращает результат.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "plot",
+            "plot"
+          ],
+          [
+            "scatter",
+            "scatter"
+          ],
+          [
+            "bar",
+            "bar"
+          ],
+          [
+            "imshow",
+            "imshow"
+          ],
+          [
+            "set_title",
+            "set_title"
+          ],
+          [
+            "set_xlabel",
+            "set_xlabel"
+          ],
+          [
+            "set_ylabel",
+            "set_ylabel"
+          ],
+          [
+            "legend",
+            "legend"
+          ],
+          [
+            "grid",
+            "grid"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_matplotlib_do_method": {
+    "message0": "выполнить метод Matplotlib pyplot объекта %1 %2 аргументы %3 именованные аргументы %4",
+    "tooltip": "Выполняет разрешённый метод объекта Matplotlib pyplot как инструкцию.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "plot",
+            "plot"
+          ],
+          [
+            "scatter",
+            "scatter"
+          ],
+          [
+            "bar",
+            "bar"
+          ],
+          [
+            "imshow",
+            "imshow"
+          ],
+          [
+            "set_title",
+            "set_title"
+          ],
+          [
+            "set_xlabel",
+            "set_xlabel"
+          ],
+          [
+            "set_ylabel",
+            "set_ylabel"
+          ],
+          [
+            "legend",
+            "legend"
+          ],
+          [
+            "grid",
+            "grid"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_matplotlib_attribute": {
+    "message0": "объект Matplotlib pyplot %1 атрибут %2",
+    "tooltip": "Читает разрешённый атрибут объекта или модуля Matplotlib pyplot.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "figure",
+            "figure"
+          ],
+          [
+            "axes",
+            "axes"
+          ],
+          [
+            "lines",
+            "lines"
+          ],
+          [
+            "images",
+            "images"
+          ]
+        ]
+      }
+    ]
+  }
+}

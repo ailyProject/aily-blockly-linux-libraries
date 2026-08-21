@@ -1,0 +1,47 @@
+{
+  "name": "@aily-project/lib-fastapi",
+  "nickname": "FastAPI",
+  "nickname_zh_cn": "FastAPI",
+  "nickname_en": "FastAPI",
+  "nickname_zh_hk": "FastAPI",
+  "nickname_ja": "FastAPI",
+  "nickname_ko": "FastAPI",
+  "nickname_de": "FastAPI",
+  "nickname_fr": "FastAPI",
+  "nickname_es": "FastAPI",
+  "nickname_pt": "FastAPI",
+  "nickname_ru": "FastAPI",
+  "nickname_ar": "FastAPI",
+  "version": "0.0.1",
+  "description": "面向树莓派与 Linux 开发板的 FastAPI 常用 Python API 白名单积木。",
+  "description_zh_cn": "面向树莓派与 Linux 开发板的 FastAPI 常用 Python API 白名单积木。",
+  "description_en": "Allowlisted FastAPI Python API blocks for Raspberry Pi and Linux single-board computers.",
+  "spec": true,
+  "compatibility": {
+    "type": [
+      "canaan:k230:cybercam",
+      "broadcom:bcm2712:raspberrypi_5",
+      "allwinner:t527:walnutpi_2b"
+    ],
+    "voltage": [
+      3.3
+    ]
+  },
+  "keywords": [
+    "aily",
+    "blockly",
+    "python",
+    "linux",
+    "raspberry-pi",
+    "fastapi",
+    "fastapi"
+  ],
+  "tags": [
+    "communication"
+  ],
+  "author": "ailyProject",
+  "license": "MIT",
+  "homepage": "https://fastapi.tiangolo.com/",
+  "dependencies": {},
+  "devDependencies": {}
+}

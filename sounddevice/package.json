@@ -1,0 +1,47 @@
+{
+  "name": "@aily-project/lib-sounddevice",
+  "nickname": "python-sounddevice",
+  "nickname_zh_cn": "python-sounddevice",
+  "nickname_en": "python-sounddevice",
+  "nickname_zh_hk": "python-sounddevice",
+  "nickname_ja": "python-sounddevice",
+  "nickname_ko": "python-sounddevice",
+  "nickname_de": "python-sounddevice",
+  "nickname_fr": "python-sounddevice",
+  "nickname_es": "python-sounddevice",
+  "nickname_pt": "python-sounddevice",
+  "nickname_ru": "python-sounddevice",
+  "nickname_ar": "python-sounddevice",
+  "version": "0.0.1",
+  "description": "面向树莓派与 Linux 开发板的 python-sounddevice 常用 Python API 白名单积木。",
+  "description_zh_cn": "面向树莓派与 Linux 开发板的 python-sounddevice 常用 Python API 白名单积木。",
+  "description_en": "Allowlisted python-sounddevice Python API blocks for Raspberry Pi and Linux single-board computers.",
+  "spec": true,
+  "compatibility": {
+    "type": [
+      "canaan:k230:cybercam",
+      "broadcom:bcm2712:raspberrypi_5",
+      "allwinner:t527:walnutpi_2b"
+    ],
+    "voltage": [
+      3.3
+    ]
+  },
+  "keywords": [
+    "aily",
+    "blockly",
+    "python",
+    "linux",
+    "raspberry-pi",
+    "sounddevice",
+    "sounddevice"
+  ],
+  "tags": [
+    "audio"
+  ],
+  "author": "ailyProject",
+  "license": "MIT",
+  "homepage": "https://python-sounddevice.readthedocs.io/",
+  "dependencies": {},
+  "devDependencies": {}
+}

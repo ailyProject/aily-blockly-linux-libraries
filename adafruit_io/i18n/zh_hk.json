@@ -1,0 +1,206 @@
+{
+  "toolbox_name": "Adafruit IO",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_adafruit_io_call": {
+    "message0": "Adafruit IO 呼叫或建立 %1 參數 %2 關鍵字參數 %3",
+    "tooltip": "呼叫白名單中的 Adafruit IO 函式或建構器並傳回結果。",
+    "args0": [
+      {
+        "options": [
+          [
+            "Client",
+            "Client"
+          ],
+          [
+            "MQTTClient",
+            "MQTTClient"
+          ],
+          [
+            "Feed",
+            "Feed"
+          ],
+          [
+            "Data",
+            "Data"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_io_do": {
+    "message0": "執行 Adafruit IO %1 參數 %2 關鍵字參數 %3",
+    "tooltip": "以敘述方式執行白名單中的 Adafruit IO 函式或建構器。",
+    "args0": [
+      {
+        "options": [
+          [
+            "Client",
+            "Client"
+          ],
+          [
+            "MQTTClient",
+            "MQTTClient"
+          ],
+          [
+            "Feed",
+            "Feed"
+          ],
+          [
+            "Data",
+            "Data"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_io_method": {
+    "message0": "Adafruit IO 物件 %1 呼叫方法 %2 參數 %3 關鍵字參數 %4",
+    "tooltip": "呼叫白名單中的 Adafruit IO 物件方法並傳回結果。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "feeds",
+            "feeds"
+          ],
+          [
+            "create_feed",
+            "create_feed"
+          ],
+          [
+            "send",
+            "send"
+          ],
+          [
+            "receive",
+            "receive"
+          ],
+          [
+            "data",
+            "data"
+          ],
+          [
+            "delete",
+            "delete"
+          ],
+          [
+            "connect",
+            "connect"
+          ],
+          [
+            "disconnect",
+            "disconnect"
+          ],
+          [
+            "loop_background",
+            "loop_background"
+          ],
+          [
+            "subscribe",
+            "subscribe"
+          ],
+          [
+            "publish",
+            "publish"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_io_do_method": {
+    "message0": "執行 Adafruit IO 物件 %1 的方法 %2 參數 %3 關鍵字參數 %4",
+    "tooltip": "以敘述方式執行白名單中的 Adafruit IO 物件方法。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "feeds",
+            "feeds"
+          ],
+          [
+            "create_feed",
+            "create_feed"
+          ],
+          [
+            "send",
+            "send"
+          ],
+          [
+            "receive",
+            "receive"
+          ],
+          [
+            "data",
+            "data"
+          ],
+          [
+            "delete",
+            "delete"
+          ],
+          [
+            "connect",
+            "connect"
+          ],
+          [
+            "disconnect",
+            "disconnect"
+          ],
+          [
+            "loop_background",
+            "loop_background"
+          ],
+          [
+            "subscribe",
+            "subscribe"
+          ],
+          [
+            "publish",
+            "publish"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_io_attribute": {
+    "message0": "Adafruit IO 物件 %1 屬性 %2",
+    "tooltip": "讀取白名單中的 Adafruit IO 物件或模組屬性。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "key",
+            "key"
+          ],
+          [
+            "name",
+            "name"
+          ],
+          [
+            "id",
+            "id"
+          ],
+          [
+            "value",
+            "value"
+          ],
+          [
+            "created_at",
+            "created_at"
+          ]
+        ]
+      }
+    ]
+  }
+}

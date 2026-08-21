@@ -1,0 +1,88 @@
+{
+  "toolbox_name": "PyYAML",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_pyyaml_call": {
+    "message0": "PyYAML استدعاء أو إنشاء %1 الوسائط %2 وسائط الكلمات المفتاحية %3",
+    "tooltip": "استدعاء دالة أو مُنشئ مسموح من PyYAML وإرجاع النتيجة.",
+    "args0": [
+      {
+        "options": [
+          [
+            "safe_load",
+            "safe_load"
+          ],
+          [
+            "safe_load_all",
+            "safe_load_all"
+          ],
+          [
+            "safe_dump",
+            "safe_dump"
+          ],
+          [
+            "safe_dump_all",
+            "safe_dump_all"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_pyyaml_do": {
+    "message0": "تشغيل PyYAML %1 الوسائط %2 وسائط الكلمات المفتاحية %3",
+    "tooltip": "تشغيل دالة أو مُنشئ مسموح من PyYAML كتعليمة.",
+    "args0": [
+      {
+        "options": [
+          [
+            "safe_load",
+            "safe_load"
+          ],
+          [
+            "safe_load_all",
+            "safe_load_all"
+          ],
+          [
+            "safe_dump",
+            "safe_dump"
+          ],
+          [
+            "safe_dump_all",
+            "safe_dump_all"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_pyyaml_attribute": {
+    "message0": "كائن PyYAML %1 السمة %2",
+    "tooltip": "قراءة سمة مسموحة لكائن أو وحدة PyYAML.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "SafeLoader",
+            "SafeLoader"
+          ],
+          [
+            "CSafeLoader",
+            "CSafeLoader"
+          ],
+          [
+            "SafeDumper",
+            "SafeDumper"
+          ],
+          [
+            "CSafeDumper",
+            "CSafeDumper"
+          ]
+        ]
+      }
+    ]
+  }
+}

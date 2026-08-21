@@ -1,0 +1,98 @@
+{
+  "toolbox_name": "CircuitPython PCA9685",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_adafruit_pca9685_call": {
+    "message0": "CircuitPython PCA9685 chamar ou criar %1 argumentos %2 argumentos nomeados %3",
+    "tooltip": "Chama uma função ou construtor permitido de CircuitPython PCA9685 e devolve o resultado.",
+    "args0": [
+      {
+        "options": [
+          [
+            "PCA9685",
+            "PCA9685"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_pca9685_do": {
+    "message0": "executar CircuitPython PCA9685 %1 argumentos %2 argumentos nomeados %3",
+    "tooltip": "Executa uma função ou construtor permitido de CircuitPython PCA9685 como instrução.",
+    "args0": [
+      {
+        "options": [
+          [
+            "PCA9685",
+            "PCA9685"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_pca9685_method": {
+    "message0": "objeto CircuitPython PCA9685 %1 método %2 argumentos %3 argumentos nomeados %4",
+    "tooltip": "Chama um método permitido de um objeto CircuitPython PCA9685 e devolve o resultado.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "reset",
+            "reset"
+          ],
+          [
+            "deinit",
+            "deinit"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_pca9685_do_method": {
+    "message0": "executar método de CircuitPython PCA9685 objeto %1 %2 argumentos %3 argumentos nomeados %4",
+    "tooltip": "Executa um método permitido de um objeto CircuitPython PCA9685 como instrução.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "reset",
+            "reset"
+          ],
+          [
+            "deinit",
+            "deinit"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_pca9685_attribute": {
+    "message0": "objeto CircuitPython PCA9685 %1 atributo %2",
+    "tooltip": "Lê um atributo permitido de um objeto ou módulo CircuitPython PCA9685.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "frequency",
+            "frequency"
+          ],
+          [
+            "channels",
+            "channels"
+          ]
+        ]
+      }
+    ]
+  }
+}

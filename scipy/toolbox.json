@@ -1,0 +1,19 @@
+{
+  "kind": "category",
+  "name": "SciPy Signal",
+  "colour": "#7B1FA2",
+  "contents": [
+    {
+      "kind": "block",
+      "type": "python_scipy_call"
+    },
+    {
+      "kind": "block",
+      "type": "python_scipy_do"
+    },
+    {
+      "kind": "block",
+      "type": "python_scipy_attribute"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "name": "@aily-project/lib-pillow",
+  "nickname": "Pillow Image",
+  "nickname_zh_cn": "Pillow Image",
+  "nickname_en": "Pillow Image",
+  "nickname_zh_hk": "Pillow Image",
+  "nickname_ja": "Pillow Image",
+  "nickname_ko": "Pillow Image",
+  "nickname_de": "Pillow Image",
+  "nickname_fr": "Pillow Image",
+  "nickname_es": "Pillow Image",
+  "nickname_pt": "Pillow Image",
+  "nickname_ru": "Pillow Image",
+  "nickname_ar": "Pillow Image",
+  "version": "0.0.1",
+  "description": "面向树莓派与 Linux 开发板的 Pillow Image 常用 Python API 白名单积木。",
+  "description_zh_cn": "面向树莓派与 Linux 开发板的 Pillow Image 常用 Python API 白名单积木。",
+  "description_en": "Allowlisted Pillow Image Python API blocks for Raspberry Pi and Linux single-board computers.",
+  "spec": true,
+  "compatibility": {
+    "type": [
+      "canaan:k230:cybercam",
+      "broadcom:bcm2712:raspberrypi_5",
+      "allwinner:t527:walnutpi_2b"
+    ],
+    "voltage": [
+      3.3
+    ]
+  },
+  "keywords": [
+    "aily",
+    "blockly",
+    "python",
+    "linux",
+    "raspberry-pi",
+    "Pillow",
+    "PIL.Image"
+  ],
+  "tags": [
+    "display"
+  ],
+  "author": "ailyProject",
+  "license": "MIT",
+  "homepage": "https://pillow.readthedocs.io/",
+  "dependencies": {},
+  "devDependencies": {}
+}

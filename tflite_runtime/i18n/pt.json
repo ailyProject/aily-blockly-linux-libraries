@@ -1,0 +1,135 @@
+{
+  "toolbox_name": "LiteRT / TFLite Runtime",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_tflite_runtime_call": {
+    "message0": "LiteRT / TFLite Runtime chamar ou criar %1 argumentos %2 argumentos nomeados %3",
+    "tooltip": "Chama uma função ou construtor permitido de LiteRT / TFLite Runtime e devolve o resultado.",
+    "args0": [
+      {
+        "options": [
+          [
+            "Interpreter",
+            "Interpreter"
+          ],
+          [
+            "load_delegate",
+            "load_delegate"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_tflite_runtime_do": {
+    "message0": "executar LiteRT / TFLite Runtime %1 argumentos %2 argumentos nomeados %3",
+    "tooltip": "Executa uma função ou construtor permitido de LiteRT / TFLite Runtime como instrução.",
+    "args0": [
+      {
+        "options": [
+          [
+            "Interpreter",
+            "Interpreter"
+          ],
+          [
+            "load_delegate",
+            "load_delegate"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_tflite_runtime_method": {
+    "message0": "objeto LiteRT / TFLite Runtime %1 método %2 argumentos %3 argumentos nomeados %4",
+    "tooltip": "Chama um método permitido de um objeto LiteRT / TFLite Runtime e devolve o resultado.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "allocate_tensors",
+            "allocate_tensors"
+          ],
+          [
+            "get_input_details",
+            "get_input_details"
+          ],
+          [
+            "get_output_details",
+            "get_output_details"
+          ],
+          [
+            "set_tensor",
+            "set_tensor"
+          ],
+          [
+            "get_tensor",
+            "get_tensor"
+          ],
+          [
+            "invoke",
+            "invoke"
+          ],
+          [
+            "resize_tensor_input",
+            "resize_tensor_input"
+          ],
+          [
+            "get_signature_runner",
+            "get_signature_runner"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_tflite_runtime_do_method": {
+    "message0": "executar método de LiteRT / TFLite Runtime objeto %1 %2 argumentos %3 argumentos nomeados %4",
+    "tooltip": "Executa um método permitido de um objeto LiteRT / TFLite Runtime como instrução.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "allocate_tensors",
+            "allocate_tensors"
+          ],
+          [
+            "get_input_details",
+            "get_input_details"
+          ],
+          [
+            "get_output_details",
+            "get_output_details"
+          ],
+          [
+            "set_tensor",
+            "set_tensor"
+          ],
+          [
+            "get_tensor",
+            "get_tensor"
+          ],
+          [
+            "invoke",
+            "invoke"
+          ],
+          [
+            "resize_tensor_input",
+            "resize_tensor_input"
+          ],
+          [
+            "get_signature_runner",
+            "get_signature_runner"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  }
+}

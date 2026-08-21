@@ -1,0 +1,102 @@
+{
+  "toolbox_name": "CircuitPython APDS9960",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_adafruit_apds9960_call": {
+    "message0": "CircuitPython APDS9960 aufrufen oder erzeugen %1 Argumente %2 Schlüsselwortargumente %3",
+    "tooltip": "Eine freigegebene CircuitPython APDS9960-Funktion oder einen Konstruktor aufrufen und das Ergebnis zurückgeben.",
+    "args0": [
+      {
+        "options": [
+          [
+            "APDS9960",
+            "APDS9960"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_apds9960_do": {
+    "message0": "CircuitPython APDS9960 ausführen %1 Argumente %2 Schlüsselwortargumente %3",
+    "tooltip": "Eine freigegebene CircuitPython APDS9960-Funktion oder einen Konstruktor als Anweisung ausführen.",
+    "args0": [
+      {
+        "options": [
+          [
+            "APDS9960",
+            "APDS9960"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_apds9960_method": {
+    "message0": "CircuitPython APDS9960-Objekt %1 Methode %2 Argumente %3 Schlüsselwortargumente %4",
+    "tooltip": "Eine freigegebene Methode eines CircuitPython APDS9960-Objekts aufrufen und das Ergebnis zurückgeben.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "gesture",
+            "gesture"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_apds9960_do_method": {
+    "message0": "CircuitPython APDS9960-Objekt %1 Methode %2 ausführen Argumente %3 Schlüsselwortargumente %4",
+    "tooltip": "Eine freigegebene Methode eines CircuitPython APDS9960-Objekts als Anweisung ausführen.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "gesture",
+            "gesture"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_apds9960_attribute": {
+    "message0": "CircuitPython APDS9960-Objekt %1 Attribut %2",
+    "tooltip": "Ein freigegebenes Attribut eines CircuitPython APDS9960-Objekts oder Moduls lesen.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "enable_proximity",
+            "enable_proximity"
+          ],
+          [
+            "enable_gesture",
+            "enable_gesture"
+          ],
+          [
+            "enable_color",
+            "enable_color"
+          ],
+          [
+            "color_data",
+            "color_data"
+          ],
+          [
+            "proximity",
+            "proximity"
+          ]
+        ]
+      }
+    ]
+  }
+}

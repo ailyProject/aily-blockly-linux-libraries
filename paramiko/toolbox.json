@@ -1,0 +1,23 @@
+{
+  "kind": "category",
+  "name": "Paramiko",
+  "colour": "#0288D1",
+  "contents": [
+    {
+      "kind": "block",
+      "type": "python_paramiko_call"
+    },
+    {
+      "kind": "block",
+      "type": "python_paramiko_do"
+    },
+    {
+      "kind": "block",
+      "type": "python_paramiko_method"
+    },
+    {
+      "kind": "block",
+      "type": "python_paramiko_do_method"
+    }
+  ]
+}

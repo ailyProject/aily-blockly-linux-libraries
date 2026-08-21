@@ -1,0 +1,98 @@
+{
+  "toolbox_name": "CircuitPython DHT",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_adafruit_dht_call": {
+    "message0": "CircuitPython DHT aufrufen oder erzeugen %1 Argumente %2 Schlüsselwortargumente %3",
+    "tooltip": "Eine freigegebene CircuitPython DHT-Funktion oder einen Konstruktor aufrufen und das Ergebnis zurückgeben.",
+    "args0": [
+      {
+        "options": [
+          [
+            "DHT11",
+            "DHT11"
+          ],
+          [
+            "DHT22",
+            "DHT22"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_dht_do": {
+    "message0": "CircuitPython DHT ausführen %1 Argumente %2 Schlüsselwortargumente %3",
+    "tooltip": "Eine freigegebene CircuitPython DHT-Funktion oder einen Konstruktor als Anweisung ausführen.",
+    "args0": [
+      {
+        "options": [
+          [
+            "DHT11",
+            "DHT11"
+          ],
+          [
+            "DHT22",
+            "DHT22"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_dht_method": {
+    "message0": "CircuitPython DHT-Objekt %1 Methode %2 Argumente %3 Schlüsselwortargumente %4",
+    "tooltip": "Eine freigegebene Methode eines CircuitPython DHT-Objekts aufrufen und das Ergebnis zurückgeben.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "exit",
+            "exit"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_dht_do_method": {
+    "message0": "CircuitPython DHT-Objekt %1 Methode %2 ausführen Argumente %3 Schlüsselwortargumente %4",
+    "tooltip": "Eine freigegebene Methode eines CircuitPython DHT-Objekts als Anweisung ausführen.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "exit",
+            "exit"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_dht_attribute": {
+    "message0": "CircuitPython DHT-Objekt %1 Attribut %2",
+    "tooltip": "Ein freigegebenes Attribut eines CircuitPython DHT-Objekts oder Moduls lesen.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "temperature",
+            "temperature"
+          ],
+          [
+            "humidity",
+            "humidity"
+          ]
+        ]
+      }
+    ]
+  }
+}

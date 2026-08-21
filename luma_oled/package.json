@@ -1,0 +1,47 @@
+{
+  "name": "@aily-project/lib-luma-oled",
+  "nickname": "luma.oled",
+  "nickname_zh_cn": "luma.oled",
+  "nickname_en": "luma.oled",
+  "nickname_zh_hk": "luma.oled",
+  "nickname_ja": "luma.oled",
+  "nickname_ko": "luma.oled",
+  "nickname_de": "luma.oled",
+  "nickname_fr": "luma.oled",
+  "nickname_es": "luma.oled",
+  "nickname_pt": "luma.oled",
+  "nickname_ru": "luma.oled",
+  "nickname_ar": "luma.oled",
+  "version": "0.0.1",
+  "description": "面向树莓派与 Linux 开发板的 luma.oled 常用 Python API 白名单积木。",
+  "description_zh_cn": "面向树莓派与 Linux 开发板的 luma.oled 常用 Python API 白名单积木。",
+  "description_en": "Allowlisted luma.oled Python API blocks for Raspberry Pi and Linux single-board computers.",
+  "spec": true,
+  "compatibility": {
+    "type": [
+      "canaan:k230:cybercam",
+      "broadcom:bcm2712:raspberrypi_5",
+      "allwinner:t527:walnutpi_2b"
+    ],
+    "voltage": [
+      3.3
+    ]
+  },
+  "keywords": [
+    "aily",
+    "blockly",
+    "python",
+    "linux",
+    "raspberry-pi",
+    "luma.oled",
+    "luma.oled.device"
+  ],
+  "tags": [
+    "display"
+  ],
+  "author": "ailyProject",
+  "license": "MIT",
+  "homepage": "https://luma-oled.readthedocs.io/",
+  "dependencies": {},
+  "devDependencies": {}
+}

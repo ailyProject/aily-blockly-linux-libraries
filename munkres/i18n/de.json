@@ -1,0 +1,102 @@
+{
+  "toolbox_name": "Munkres",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_munkres_call": {
+    "message0": "Munkres aufrufen oder erzeugen %1 Argumente %2 Schlüsselwortargumente %3",
+    "tooltip": "Eine freigegebene Munkres-Funktion oder einen Konstruktor aufrufen und das Ergebnis zurückgeben.",
+    "args0": [
+      {
+        "options": [
+          [
+            "Munkres",
+            "Munkres"
+          ],
+          [
+            "make_cost_matrix",
+            "make_cost_matrix"
+          ],
+          [
+            "print_matrix",
+            "print_matrix"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_munkres_do": {
+    "message0": "Munkres ausführen %1 Argumente %2 Schlüsselwortargumente %3",
+    "tooltip": "Eine freigegebene Munkres-Funktion oder einen Konstruktor als Anweisung ausführen.",
+    "args0": [
+      {
+        "options": [
+          [
+            "Munkres",
+            "Munkres"
+          ],
+          [
+            "make_cost_matrix",
+            "make_cost_matrix"
+          ],
+          [
+            "print_matrix",
+            "print_matrix"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_munkres_method": {
+    "message0": "Munkres-Objekt %1 Methode %2 Argumente %3 Schlüsselwortargumente %4",
+    "tooltip": "Eine freigegebene Methode eines Munkres-Objekts aufrufen und das Ergebnis zurückgeben.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "compute",
+            "compute"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_munkres_do_method": {
+    "message0": "Munkres-Objekt %1 Methode %2 ausführen Argumente %3 Schlüsselwortargumente %4",
+    "tooltip": "Eine freigegebene Methode eines Munkres-Objekts als Anweisung ausführen.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "compute",
+            "compute"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_munkres_attribute": {
+    "message0": "Munkres-Objekt %1 Attribut %2",
+    "tooltip": "Ein freigegebenes Attribut eines Munkres-Objekts oder Moduls lesen.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "DISALLOWED",
+            "DISALLOWED"
+          ]
+        ]
+      }
+    ]
+  }
+}

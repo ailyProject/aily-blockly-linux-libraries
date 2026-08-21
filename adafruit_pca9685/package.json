@@ -1,0 +1,45 @@
+{
+  "name": "@aily-project/lib-adafruit-pca9685",
+  "nickname": "CircuitPython PCA9685",
+  "nickname_zh_cn": "CircuitPython PCA9685",
+  "nickname_en": "CircuitPython PCA9685",
+  "nickname_zh_hk": "CircuitPython PCA9685",
+  "nickname_ja": "CircuitPython PCA9685",
+  "nickname_ko": "CircuitPython PCA9685",
+  "nickname_de": "CircuitPython PCA9685",
+  "nickname_fr": "CircuitPython PCA9685",
+  "nickname_es": "CircuitPython PCA9685",
+  "nickname_pt": "CircuitPython PCA9685",
+  "nickname_ru": "CircuitPython PCA9685",
+  "nickname_ar": "CircuitPython PCA9685",
+  "version": "0.0.1",
+  "description": "面向树莓派与 Linux 开发板的 CircuitPython PCA9685 常用 Python API 白名单积木。",
+  "description_zh_cn": "面向树莓派与 Linux 开发板的 CircuitPython PCA9685 常用 Python API 白名单积木。",
+  "description_en": "Allowlisted CircuitPython PCA9685 Python API blocks for Raspberry Pi and Linux single-board computers.",
+  "spec": true,
+  "compatibility": {
+    "type": [
+      "broadcom:bcm2712:raspberrypi_5"
+    ],
+    "voltage": [
+      3.3
+    ]
+  },
+  "keywords": [
+    "aily",
+    "blockly",
+    "python",
+    "linux",
+    "raspberry-pi",
+    "adafruit-circuitpython-pca9685",
+    "adafruit_pca9685"
+  ],
+  "tags": [
+    "io"
+  ],
+  "author": "ailyProject",
+  "license": "MIT",
+  "homepage": "https://docs.circuitpython.org/projects/pca9685/en/latest/",
+  "dependencies": {},
+  "devDependencies": {}
+}

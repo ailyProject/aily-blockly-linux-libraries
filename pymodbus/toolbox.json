@@ -1,0 +1,27 @@
+{
+  "kind": "category",
+  "name": "PyModbus",
+  "colour": "#00897B",
+  "contents": [
+    {
+      "kind": "block",
+      "type": "python_pymodbus_call"
+    },
+    {
+      "kind": "block",
+      "type": "python_pymodbus_do"
+    },
+    {
+      "kind": "block",
+      "type": "python_pymodbus_method"
+    },
+    {
+      "kind": "block",
+      "type": "python_pymodbus_do_method"
+    },
+    {
+      "kind": "block",
+      "type": "python_pymodbus_attribute"
+    }
+  ]
+}

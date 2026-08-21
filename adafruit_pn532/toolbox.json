@@ -1,0 +1,27 @@
+{
+  "kind": "category",
+  "name": "CircuitPython PN532",
+  "colour": "#00897B",
+  "contents": [
+    {
+      "kind": "block",
+      "type": "python_adafruit_pn532_call"
+    },
+    {
+      "kind": "block",
+      "type": "python_adafruit_pn532_do"
+    },
+    {
+      "kind": "block",
+      "type": "python_adafruit_pn532_method"
+    },
+    {
+      "kind": "block",
+      "type": "python_adafruit_pn532_do_method"
+    },
+    {
+      "kind": "block",
+      "type": "python_adafruit_pn532_attribute"
+    }
+  ]
+}

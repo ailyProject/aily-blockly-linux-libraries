@@ -1,0 +1,23 @@
+{
+  "kind": "category",
+  "name": "ONNX Runtime",
+  "colour": "#1976D2",
+  "contents": [
+    {
+      "kind": "block",
+      "type": "python_onnxruntime_call"
+    },
+    {
+      "kind": "block",
+      "type": "python_onnxruntime_do"
+    },
+    {
+      "kind": "block",
+      "type": "python_onnxruntime_method"
+    },
+    {
+      "kind": "block",
+      "type": "python_onnxruntime_do_method"
+    }
+  ]
+}

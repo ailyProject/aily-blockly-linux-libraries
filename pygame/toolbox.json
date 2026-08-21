@@ -1,0 +1,27 @@
+{
+  "kind": "category",
+  "name": "pygame",
+  "colour": "#EF6C00",
+  "contents": [
+    {
+      "kind": "block",
+      "type": "python_pygame_call"
+    },
+    {
+      "kind": "block",
+      "type": "python_pygame_do"
+    },
+    {
+      "kind": "block",
+      "type": "python_pygame_method"
+    },
+    {
+      "kind": "block",
+      "type": "python_pygame_do_method"
+    },
+    {
+      "kind": "block",
+      "type": "python_pygame_attribute"
+    }
+  ]
+}

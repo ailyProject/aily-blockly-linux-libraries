@@ -1,0 +1,27 @@
+{
+  "kind": "category",
+  "name": "pydub",
+  "colour": "#EF6C00",
+  "contents": [
+    {
+      "kind": "block",
+      "type": "python_pydub_call"
+    },
+    {
+      "kind": "block",
+      "type": "python_pydub_do"
+    },
+    {
+      "kind": "block",
+      "type": "python_pydub_method"
+    },
+    {
+      "kind": "block",
+      "type": "python_pydub_do_method"
+    },
+    {
+      "kind": "block",
+      "type": "python_pydub_attribute"
+    }
+  ]
+}

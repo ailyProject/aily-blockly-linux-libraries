@@ -1,0 +1,250 @@
+{
+  "toolbox_name": "psutil",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "linux_psutil_call": {
+    "message0": "psutil 呼叫或建立 %1 參數 %2 關鍵字參數 %3",
+    "tooltip": "呼叫白名單中的 psutil 函式或建構器並傳回結果。",
+    "args0": [
+      {
+        "options": [
+          [
+            "cpu_percent",
+            "cpu_percent"
+          ],
+          [
+            "cpu_count",
+            "cpu_count"
+          ],
+          [
+            "virtual_memory",
+            "virtual_memory"
+          ],
+          [
+            "disk_usage",
+            "disk_usage"
+          ],
+          [
+            "disk_partitions",
+            "disk_partitions"
+          ],
+          [
+            "net_if_addrs",
+            "net_if_addrs"
+          ],
+          [
+            "net_io_counters",
+            "net_io_counters"
+          ],
+          [
+            "sensors_temperatures",
+            "sensors_temperatures"
+          ],
+          [
+            "boot_time",
+            "boot_time"
+          ],
+          [
+            "pids",
+            "pids"
+          ],
+          [
+            "Process",
+            "Process"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "linux_psutil_do": {
+    "message0": "執行 psutil %1 參數 %2 關鍵字參數 %3",
+    "tooltip": "以敘述方式執行白名單中的 psutil 函式或建構器。",
+    "args0": [
+      {
+        "options": [
+          [
+            "cpu_percent",
+            "cpu_percent"
+          ],
+          [
+            "cpu_count",
+            "cpu_count"
+          ],
+          [
+            "virtual_memory",
+            "virtual_memory"
+          ],
+          [
+            "disk_usage",
+            "disk_usage"
+          ],
+          [
+            "disk_partitions",
+            "disk_partitions"
+          ],
+          [
+            "net_if_addrs",
+            "net_if_addrs"
+          ],
+          [
+            "net_io_counters",
+            "net_io_counters"
+          ],
+          [
+            "sensors_temperatures",
+            "sensors_temperatures"
+          ],
+          [
+            "boot_time",
+            "boot_time"
+          ],
+          [
+            "pids",
+            "pids"
+          ],
+          [
+            "Process",
+            "Process"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "linux_psutil_method": {
+    "message0": "psutil 物件 %1 呼叫方法 %2 參數 %3 關鍵字參數 %4",
+    "tooltip": "呼叫白名單中的 psutil 物件方法並傳回結果。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "cpu_percent",
+            "cpu_percent"
+          ],
+          [
+            "memory_info",
+            "memory_info"
+          ],
+          [
+            "io_counters",
+            "io_counters"
+          ],
+          [
+            "open_files",
+            "open_files"
+          ],
+          [
+            "connections",
+            "connections"
+          ],
+          [
+            "terminate",
+            "terminate"
+          ],
+          [
+            "kill",
+            "kill"
+          ],
+          [
+            "wait",
+            "wait"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "linux_psutil_do_method": {
+    "message0": "執行 psutil 物件 %1 的方法 %2 參數 %3 關鍵字參數 %4",
+    "tooltip": "以敘述方式執行白名單中的 psutil 物件方法。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "cpu_percent",
+            "cpu_percent"
+          ],
+          [
+            "memory_info",
+            "memory_info"
+          ],
+          [
+            "io_counters",
+            "io_counters"
+          ],
+          [
+            "open_files",
+            "open_files"
+          ],
+          [
+            "connections",
+            "connections"
+          ],
+          [
+            "terminate",
+            "terminate"
+          ],
+          [
+            "kill",
+            "kill"
+          ],
+          [
+            "wait",
+            "wait"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "linux_psutil_attribute": {
+    "message0": "psutil 物件 %1 屬性 %2",
+    "tooltip": "讀取白名單中的 psutil 物件或模組屬性。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "pid",
+            "pid"
+          ],
+          [
+            "total",
+            "total"
+          ],
+          [
+            "available",
+            "available"
+          ],
+          [
+            "percent",
+            "percent"
+          ],
+          [
+            "used",
+            "used"
+          ],
+          [
+            "free",
+            "free"
+          ],
+          [
+            "rss",
+            "rss"
+          ],
+          [
+            "vms",
+            "vms"
+          ]
+        ]
+      }
+    ]
+  }
+}

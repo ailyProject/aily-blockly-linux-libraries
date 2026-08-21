@@ -1,0 +1,27 @@
+{
+  "kind": "category",
+  "name": "MinimalModbus",
+  "colour": "#00897B",
+  "contents": [
+    {
+      "kind": "block",
+      "type": "python_minimalmodbus_call"
+    },
+    {
+      "kind": "block",
+      "type": "python_minimalmodbus_do"
+    },
+    {
+      "kind": "block",
+      "type": "python_minimalmodbus_method"
+    },
+    {
+      "kind": "block",
+      "type": "python_minimalmodbus_do_method"
+    },
+    {
+      "kind": "block",
+      "type": "python_minimalmodbus_attribute"
+    }
+  ]
+}

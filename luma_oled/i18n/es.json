@@ -1,0 +1,166 @@
+{
+  "toolbox_name": "luma.oled",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_luma_oled_call": {
+    "message0": "luma.oled llamar o crear %1 argumentos %2 argumentos con nombre %3",
+    "tooltip": "Llama a una función o constructor permitido de luma.oled y devuelve el resultado.",
+    "args0": [
+      {
+        "options": [
+          [
+            "ssd1306",
+            "ssd1306"
+          ],
+          [
+            "ssd1325",
+            "ssd1325"
+          ],
+          [
+            "ssd1331",
+            "ssd1331"
+          ],
+          [
+            "sh1106",
+            "sh1106"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_luma_oled_do": {
+    "message0": "ejecutar luma.oled %1 argumentos %2 argumentos con nombre %3",
+    "tooltip": "Ejecuta una función o constructor permitido de luma.oled como sentencia.",
+    "args0": [
+      {
+        "options": [
+          [
+            "ssd1306",
+            "ssd1306"
+          ],
+          [
+            "ssd1325",
+            "ssd1325"
+          ],
+          [
+            "ssd1331",
+            "ssd1331"
+          ],
+          [
+            "sh1106",
+            "sh1106"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_luma_oled_method": {
+    "message0": "objeto luma.oled %1 método %2 argumentos %3 argumentos con nombre %4",
+    "tooltip": "Llama a un método permitido de un objeto luma.oled y devuelve el resultado.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "display",
+            "display"
+          ],
+          [
+            "clear",
+            "clear"
+          ],
+          [
+            "show",
+            "show"
+          ],
+          [
+            "hide",
+            "hide"
+          ],
+          [
+            "contrast",
+            "contrast"
+          ],
+          [
+            "cleanup",
+            "cleanup"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_luma_oled_do_method": {
+    "message0": "ejecutar método de luma.oled objeto %1 %2 argumentos %3 argumentos con nombre %4",
+    "tooltip": "Ejecuta un método permitido de un objeto luma.oled como sentencia.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "display",
+            "display"
+          ],
+          [
+            "clear",
+            "clear"
+          ],
+          [
+            "show",
+            "show"
+          ],
+          [
+            "hide",
+            "hide"
+          ],
+          [
+            "contrast",
+            "contrast"
+          ],
+          [
+            "cleanup",
+            "cleanup"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_luma_oled_attribute": {
+    "message0": "objeto luma.oled %1 atributo %2",
+    "tooltip": "Lee un atributo permitido de un objeto o módulo luma.oled.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "width",
+            "width"
+          ],
+          [
+            "height",
+            "height"
+          ],
+          [
+            "size",
+            "size"
+          ],
+          [
+            "mode",
+            "mode"
+          ],
+          [
+            "bounding_box",
+            "bounding_box"
+          ]
+        ]
+      }
+    ]
+  }
+}

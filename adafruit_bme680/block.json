@@ -1,0 +1,111 @@
+[
+  {
+    "type": "python_adafruit_bme680_call",
+    "message0": "CircuitPython BME680 call or create %1 arguments %2 keyword arguments %3",
+    "args0": [
+      {
+        "type": "field_dropdown",
+        "name": "TARGET",
+        "options": [
+          [
+            "Adafruit_BME680_I2C",
+            "Adafruit_BME680_I2C"
+          ],
+          [
+            "Adafruit_BME680_SPI",
+            "Adafruit_BME680_SPI"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#00897B",
+    "tooltip": "Call an allowlisted CircuitPython BME680 function or constructor and return its result.",
+    "icon": "settings",
+    "output": "Any"
+  },
+  {
+    "type": "python_adafruit_bme680_do",
+    "message0": "run CircuitPython BME680 %1 arguments %2 keyword arguments %3",
+    "args0": [
+      {
+        "type": "field_dropdown",
+        "name": "TARGET",
+        "options": [
+          [
+            "Adafruit_BME680_I2C",
+            "Adafruit_BME680_I2C"
+          ],
+          [
+            "Adafruit_BME680_SPI",
+            "Adafruit_BME680_SPI"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#00897B",
+    "tooltip": "Run an allowlisted CircuitPython BME680 function or constructor as a statement.",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "python_adafruit_bme680_attribute",
+    "message0": "CircuitPython BME680 object %1 attribute %2",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "OBJECT"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "ATTRIBUTE",
+        "options": [
+          [
+            "temperature",
+            "temperature"
+          ],
+          [
+            "pressure",
+            "pressure"
+          ],
+          [
+            "humidity",
+            "humidity"
+          ],
+          [
+            "altitude",
+            "altitude"
+          ],
+          [
+            "gas",
+            "gas"
+          ],
+          [
+            "sea_level_pressure",
+            "sea_level_pressure"
+          ]
+        ]
+      }
+    ],
+    "colour": "#00897B",
+    "tooltip": "Read an allowlisted CircuitPython BME680 object or module attribute.",
+    "icon": "settings",
+    "output": "Any"
+  }
+]

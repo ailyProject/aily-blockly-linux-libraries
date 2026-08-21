@@ -1,0 +1,100 @@
+{
+  "toolbox_name": "CircuitPython BNO055",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_adafruit_bno055_call": {
+    "message0": "CircuitPython BNO055 llamar o crear %1 argumentos %2 argumentos con nombre %3",
+    "tooltip": "Llama a una función o constructor permitido de CircuitPython BNO055 y devuelve el resultado.",
+    "args0": [
+      {
+        "options": [
+          [
+            "BNO055_I2C",
+            "BNO055_I2C"
+          ],
+          [
+            "BNO055_UART",
+            "BNO055_UART"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_bno055_do": {
+    "message0": "ejecutar CircuitPython BNO055 %1 argumentos %2 argumentos con nombre %3",
+    "tooltip": "Ejecuta una función o constructor permitido de CircuitPython BNO055 como sentencia.",
+    "args0": [
+      {
+        "options": [
+          [
+            "BNO055_I2C",
+            "BNO055_I2C"
+          ],
+          [
+            "BNO055_UART",
+            "BNO055_UART"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_bno055_attribute": {
+    "message0": "objeto CircuitPython BNO055 %1 atributo %2",
+    "tooltip": "Lee un atributo permitido de un objeto o módulo CircuitPython BNO055.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "sensor_mode",
+            "sensor_mode"
+          ],
+          [
+            "temperature",
+            "temperature"
+          ],
+          [
+            "acceleration",
+            "acceleration"
+          ],
+          [
+            "magnetic",
+            "magnetic"
+          ],
+          [
+            "gyro",
+            "gyro"
+          ],
+          [
+            "euler",
+            "euler"
+          ],
+          [
+            "quaternion",
+            "quaternion"
+          ],
+          [
+            "linear_acceleration",
+            "linear_acceleration"
+          ],
+          [
+            "gravity",
+            "gravity"
+          ],
+          [
+            "calibration_status",
+            "calibration_status"
+          ],
+          [
+            "calibrated",
+            "calibrated"
+          ]
+        ]
+      }
+    ]
+  }
+}

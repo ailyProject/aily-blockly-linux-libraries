@@ -1,0 +1,27 @@
+{
+  "kind": "category",
+  "name": "python-sounddevice",
+  "colour": "#EF6C00",
+  "contents": [
+    {
+      "kind": "block",
+      "type": "python_sounddevice_call"
+    },
+    {
+      "kind": "block",
+      "type": "python_sounddevice_do"
+    },
+    {
+      "kind": "block",
+      "type": "python_sounddevice_method"
+    },
+    {
+      "kind": "block",
+      "type": "python_sounddevice_do_method"
+    },
+    {
+      "kind": "block",
+      "type": "python_sounddevice_attribute"
+    }
+  ]
+}

@@ -1,0 +1,278 @@
+{
+  "toolbox_name": "NumPy",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_numpy_call": {
+    "message0": "NumPy aufrufen oder erzeugen %1 Argumente %2 Schlüsselwortargumente %3",
+    "tooltip": "Eine freigegebene NumPy-Funktion oder einen Konstruktor aufrufen und das Ergebnis zurückgeben.",
+    "args0": [
+      {
+        "options": [
+          [
+            "array",
+            "array"
+          ],
+          [
+            "asarray",
+            "asarray"
+          ],
+          [
+            "zeros",
+            "zeros"
+          ],
+          [
+            "ones",
+            "ones"
+          ],
+          [
+            "arange",
+            "arange"
+          ],
+          [
+            "linspace",
+            "linspace"
+          ],
+          [
+            "mean",
+            "mean"
+          ],
+          [
+            "std",
+            "std"
+          ],
+          [
+            "min",
+            "min"
+          ],
+          [
+            "max",
+            "max"
+          ],
+          [
+            "concatenate",
+            "concatenate"
+          ],
+          [
+            "stack",
+            "stack"
+          ],
+          [
+            "reshape",
+            "reshape"
+          ],
+          [
+            "load",
+            "load"
+          ],
+          [
+            "save",
+            "save"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_numpy_do": {
+    "message0": "NumPy ausführen %1 Argumente %2 Schlüsselwortargumente %3",
+    "tooltip": "Eine freigegebene NumPy-Funktion oder einen Konstruktor als Anweisung ausführen.",
+    "args0": [
+      {
+        "options": [
+          [
+            "array",
+            "array"
+          ],
+          [
+            "asarray",
+            "asarray"
+          ],
+          [
+            "zeros",
+            "zeros"
+          ],
+          [
+            "ones",
+            "ones"
+          ],
+          [
+            "arange",
+            "arange"
+          ],
+          [
+            "linspace",
+            "linspace"
+          ],
+          [
+            "mean",
+            "mean"
+          ],
+          [
+            "std",
+            "std"
+          ],
+          [
+            "min",
+            "min"
+          ],
+          [
+            "max",
+            "max"
+          ],
+          [
+            "concatenate",
+            "concatenate"
+          ],
+          [
+            "stack",
+            "stack"
+          ],
+          [
+            "reshape",
+            "reshape"
+          ],
+          [
+            "load",
+            "load"
+          ],
+          [
+            "save",
+            "save"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_numpy_method": {
+    "message0": "NumPy-Objekt %1 Methode %2 Argumente %3 Schlüsselwortargumente %4",
+    "tooltip": "Eine freigegebene Methode eines NumPy-Objekts aufrufen und das Ergebnis zurückgeben.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "reshape",
+            "reshape"
+          ],
+          [
+            "astype",
+            "astype"
+          ],
+          [
+            "tolist",
+            "tolist"
+          ],
+          [
+            "flatten",
+            "flatten"
+          ],
+          [
+            "transpose",
+            "transpose"
+          ],
+          [
+            "mean",
+            "mean"
+          ],
+          [
+            "sum",
+            "sum"
+          ],
+          [
+            "min",
+            "min"
+          ],
+          [
+            "max",
+            "max"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_numpy_do_method": {
+    "message0": "NumPy-Objekt %1 Methode %2 ausführen Argumente %3 Schlüsselwortargumente %4",
+    "tooltip": "Eine freigegebene Methode eines NumPy-Objekts als Anweisung ausführen.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "reshape",
+            "reshape"
+          ],
+          [
+            "astype",
+            "astype"
+          ],
+          [
+            "tolist",
+            "tolist"
+          ],
+          [
+            "flatten",
+            "flatten"
+          ],
+          [
+            "transpose",
+            "transpose"
+          ],
+          [
+            "mean",
+            "mean"
+          ],
+          [
+            "sum",
+            "sum"
+          ],
+          [
+            "min",
+            "min"
+          ],
+          [
+            "max",
+            "max"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_numpy_attribute": {
+    "message0": "NumPy-Objekt %1 Attribut %2",
+    "tooltip": "Ein freigegebenes Attribut eines NumPy-Objekts oder Moduls lesen.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "shape",
+            "shape"
+          ],
+          [
+            "dtype",
+            "dtype"
+          ],
+          [
+            "ndim",
+            "ndim"
+          ],
+          [
+            "size",
+            "size"
+          ],
+          [
+            "T",
+            "T"
+          ]
+        ]
+      }
+    ]
+  }
+}

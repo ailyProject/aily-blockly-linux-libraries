@@ -1,0 +1,166 @@
+{
+  "toolbox_name": "PyUSB",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "linux_pyusb_call": {
+    "message0": "PyUSB استدعاء أو إنشاء %1 الوسائط %2 وسائط الكلمات المفتاحية %3",
+    "tooltip": "استدعاء دالة أو مُنشئ مسموح من PyUSB وإرجاع النتيجة.",
+    "args0": [
+      {
+        "options": [
+          [
+            "find",
+            "find"
+          ],
+          [
+            "show_devices",
+            "show_devices"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "linux_pyusb_do": {
+    "message0": "تشغيل PyUSB %1 الوسائط %2 وسائط الكلمات المفتاحية %3",
+    "tooltip": "تشغيل دالة أو مُنشئ مسموح من PyUSB كتعليمة.",
+    "args0": [
+      {
+        "options": [
+          [
+            "find",
+            "find"
+          ],
+          [
+            "show_devices",
+            "show_devices"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "linux_pyusb_method": {
+    "message0": "كائن PyUSB %1 الطريقة %2 الوسائط %3 وسائط الكلمات المفتاحية %4",
+    "tooltip": "استدعاء طريقة مسموحة لكائن PyUSB وإرجاع النتيجة.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "set_configuration",
+            "set_configuration"
+          ],
+          [
+            "write",
+            "write"
+          ],
+          [
+            "read",
+            "read"
+          ],
+          [
+            "ctrl_transfer",
+            "ctrl_transfer"
+          ],
+          [
+            "reset",
+            "reset"
+          ],
+          [
+            "is_kernel_driver_active",
+            "is_kernel_driver_active"
+          ],
+          [
+            "detach_kernel_driver",
+            "detach_kernel_driver"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "linux_pyusb_do_method": {
+    "message0": "تشغيل طريقة PyUSB للكائن %1 %2 الوسائط %3 وسائط الكلمات المفتاحية %4",
+    "tooltip": "تشغيل طريقة مسموحة لكائن PyUSB كتعليمة.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "set_configuration",
+            "set_configuration"
+          ],
+          [
+            "write",
+            "write"
+          ],
+          [
+            "read",
+            "read"
+          ],
+          [
+            "ctrl_transfer",
+            "ctrl_transfer"
+          ],
+          [
+            "reset",
+            "reset"
+          ],
+          [
+            "is_kernel_driver_active",
+            "is_kernel_driver_active"
+          ],
+          [
+            "detach_kernel_driver",
+            "detach_kernel_driver"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "linux_pyusb_attribute": {
+    "message0": "كائن PyUSB %1 السمة %2",
+    "tooltip": "قراءة سمة مسموحة لكائن أو وحدة PyUSB.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "idVendor",
+            "idVendor"
+          ],
+          [
+            "idProduct",
+            "idProduct"
+          ],
+          [
+            "bus",
+            "bus"
+          ],
+          [
+            "address",
+            "address"
+          ],
+          [
+            "manufacturer",
+            "manufacturer"
+          ],
+          [
+            "product",
+            "product"
+          ],
+          [
+            "serial_number",
+            "serial_number"
+          ]
+        ]
+      }
+    ]
+  }
+}

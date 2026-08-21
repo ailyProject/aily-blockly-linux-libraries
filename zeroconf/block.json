@@ -1,0 +1,240 @@
+[
+  {
+    "type": "python_zeroconf_call",
+    "message0": "python-zeroconf call or create %1 arguments %2 keyword arguments %3",
+    "args0": [
+      {
+        "type": "field_dropdown",
+        "name": "TARGET",
+        "options": [
+          [
+            "Zeroconf",
+            "Zeroconf"
+          ],
+          [
+            "ServiceInfo",
+            "ServiceInfo"
+          ],
+          [
+            "ServiceBrowser",
+            "ServiceBrowser"
+          ],
+          [
+            "ServiceStateChange",
+            "ServiceStateChange"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#0288D1",
+    "tooltip": "Call an allowlisted python-zeroconf function or constructor and return its result.",
+    "icon": "settings",
+    "output": "Any"
+  },
+  {
+    "type": "python_zeroconf_do",
+    "message0": "run python-zeroconf %1 arguments %2 keyword arguments %3",
+    "args0": [
+      {
+        "type": "field_dropdown",
+        "name": "TARGET",
+        "options": [
+          [
+            "Zeroconf",
+            "Zeroconf"
+          ],
+          [
+            "ServiceInfo",
+            "ServiceInfo"
+          ],
+          [
+            "ServiceBrowser",
+            "ServiceBrowser"
+          ],
+          [
+            "ServiceStateChange",
+            "ServiceStateChange"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#0288D1",
+    "tooltip": "Run an allowlisted python-zeroconf function or constructor as a statement.",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "python_zeroconf_method",
+    "message0": "python-zeroconf object %1 call method %2 arguments %3 keyword arguments %4",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "OBJECT"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "METHOD",
+        "options": [
+          [
+            "register_service",
+            "register_service"
+          ],
+          [
+            "update_service",
+            "update_service"
+          ],
+          [
+            "unregister_service",
+            "unregister_service"
+          ],
+          [
+            "unregister_all_services",
+            "unregister_all_services"
+          ],
+          [
+            "close",
+            "close"
+          ],
+          [
+            "get_service_info",
+            "get_service_info"
+          ],
+          [
+            "add_service_listener",
+            "add_service_listener"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#0288D1",
+    "tooltip": "Call an allowlisted python-zeroconf object method and return its result.",
+    "icon": "settings",
+    "output": "Any"
+  },
+  {
+    "type": "python_zeroconf_do_method",
+    "message0": "run python-zeroconf object %1 method %2 arguments %3 keyword arguments %4",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "OBJECT"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "METHOD",
+        "options": [
+          [
+            "register_service",
+            "register_service"
+          ],
+          [
+            "update_service",
+            "update_service"
+          ],
+          [
+            "unregister_service",
+            "unregister_service"
+          ],
+          [
+            "unregister_all_services",
+            "unregister_all_services"
+          ],
+          [
+            "close",
+            "close"
+          ],
+          [
+            "get_service_info",
+            "get_service_info"
+          ],
+          [
+            "add_service_listener",
+            "add_service_listener"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#0288D1",
+    "tooltip": "Run an allowlisted python-zeroconf object method as a statement.",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "python_zeroconf_attribute",
+    "message0": "python-zeroconf object %1 attribute %2",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "OBJECT"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "ATTRIBUTE",
+        "options": [
+          [
+            "name",
+            "name"
+          ],
+          [
+            "type",
+            "type"
+          ],
+          [
+            "addresses",
+            "addresses"
+          ],
+          [
+            "port",
+            "port"
+          ],
+          [
+            "properties",
+            "properties"
+          ],
+          [
+            "server",
+            "server"
+          ]
+        ]
+      }
+    ],
+    "colour": "#0288D1",
+    "tooltip": "Read an allowlisted python-zeroconf object or module attribute.",
+    "icon": "settings",
+    "output": "Any"
+  }
+]

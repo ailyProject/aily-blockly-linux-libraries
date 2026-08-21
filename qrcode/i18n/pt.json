@@ -1,0 +1,130 @@
+{
+  "toolbox_name": "qrcode",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_qrcode_call": {
+    "message0": "qrcode chamar ou criar %1 argumentos %2 argumentos nomeados %3",
+    "tooltip": "Chama uma função ou construtor permitido de qrcode e devolve o resultado.",
+    "args0": [
+      {
+        "options": [
+          [
+            "make",
+            "make"
+          ],
+          [
+            "QRCode",
+            "QRCode"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_qrcode_do": {
+    "message0": "executar qrcode %1 argumentos %2 argumentos nomeados %3",
+    "tooltip": "Executa uma função ou construtor permitido de qrcode como instrução.",
+    "args0": [
+      {
+        "options": [
+          [
+            "make",
+            "make"
+          ],
+          [
+            "QRCode",
+            "QRCode"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_qrcode_method": {
+    "message0": "objeto qrcode %1 método %2 argumentos %3 argumentos nomeados %4",
+    "tooltip": "Chama um método permitido de um objeto qrcode e devolve o resultado.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "add_data",
+            "add_data"
+          ],
+          [
+            "make",
+            "make"
+          ],
+          [
+            "make_image",
+            "make_image"
+          ],
+          [
+            "clear",
+            "clear"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_qrcode_do_method": {
+    "message0": "executar método de qrcode objeto %1 %2 argumentos %3 argumentos nomeados %4",
+    "tooltip": "Executa um método permitido de um objeto qrcode como instrução.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "add_data",
+            "add_data"
+          ],
+          [
+            "make",
+            "make"
+          ],
+          [
+            "make_image",
+            "make_image"
+          ],
+          [
+            "clear",
+            "clear"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_qrcode_attribute": {
+    "message0": "objeto qrcode %1 atributo %2",
+    "tooltip": "Lê um atributo permitido de um objeto ou módulo qrcode.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "version",
+            "version"
+          ],
+          [
+            "error_correction",
+            "error_correction"
+          ],
+          [
+            "box_size",
+            "box_size"
+          ],
+          [
+            "border",
+            "border"
+          ]
+        ]
+      }
+    ]
+  }
+}

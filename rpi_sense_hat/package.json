@@ -1,0 +1,45 @@
+{
+  "name": "@aily-project/lib-rpi-sense-hat",
+  "nickname": "Sense HAT",
+  "nickname_zh_cn": "Sense HAT",
+  "nickname_en": "Sense HAT",
+  "nickname_zh_hk": "Sense HAT",
+  "nickname_ja": "Sense HAT",
+  "nickname_ko": "Sense HAT",
+  "nickname_de": "Sense HAT",
+  "nickname_fr": "Sense HAT",
+  "nickname_es": "Sense HAT",
+  "nickname_pt": "Sense HAT",
+  "nickname_ru": "Sense HAT",
+  "nickname_ar": "Sense HAT",
+  "version": "0.0.1",
+  "description": "面向树莓派与 Linux 开发板的 Sense HAT 常用 Python API 白名单积木。",
+  "description_zh_cn": "面向树莓派与 Linux 开发板的 Sense HAT 常用 Python API 白名单积木。",
+  "description_en": "Allowlisted Sense HAT Python API blocks for Raspberry Pi and Linux single-board computers.",
+  "spec": true,
+  "compatibility": {
+    "type": [
+      "broadcom:bcm2712:raspberrypi_5"
+    ],
+    "voltage": [
+      3.3
+    ]
+  },
+  "keywords": [
+    "aily",
+    "blockly",
+    "python",
+    "linux",
+    "raspberry-pi",
+    "sense-hat",
+    "sense_hat"
+  ],
+  "tags": [
+    "io"
+  ],
+  "author": "ailyProject",
+  "license": "MIT",
+  "homepage": "https://www.raspberrypi.com/documentation/accessories/sense-hat.html",
+  "dependencies": {},
+  "devDependencies": {}
+}

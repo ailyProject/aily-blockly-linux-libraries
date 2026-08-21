@@ -78,6 +78,62 @@
       null
     ]
   },
+  "python_arguments": {
+    "message0": "позиционные аргументы %1 %2 %3 %4 %5 %6",
+    "tooltip": "Создаёт список позиционных аргументов из подключённых значений.",
+    "args0": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "python_keyword_arguments": {
+    "message0": "именованные аргументы %1 : %2 %3 : %4 %5 : %6 %7 : %8 %9 : %10 %11 : %12",
+    "tooltip": "Создаёт словарь именованных аргументов; строки с пустым ключом пропускаются.",
+    "args0": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "python_get_item": {
+    "message0": "элемент %2 объекта %1",
+    "tooltip": "Читает элемент объекта Python по ключу или индексу.",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_set_item": {
+    "message0": "присвоить элементу %2 объекта %1 значение %3",
+    "tooltip": "Присваивает значение элементу объекта Python по ключу или индексу.",
+    "args0": [
+      null,
+      null,
+      null
+    ]
+  },
+  "python_set_attribute": {
+    "message0": "присвоить атрибуту %2 объекта %1 значение %3",
+    "tooltip": "Присваивает значение безопасно проверенному атрибуту объекта Python.",
+    "args0": [
+      null,
+      null,
+      null
+    ]
+  },
   "python_set_variable": {
     "message0": "задать переменную %1 как %2",
     "tooltip": "задать переменную %1 как %2",

@@ -1,0 +1,182 @@
+{
+  "toolbox_name": "Pillow Image",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_pillow_call": {
+    "message0": "Pillow Image вызвать или создать %1 аргументы %2 именованные аргументы %3",
+    "tooltip": "Вызывает разрешённую функцию или конструктор Pillow Image и возвращает результат.",
+    "args0": [
+      {
+        "options": [
+          [
+            "open",
+            "open"
+          ],
+          [
+            "new",
+            "new"
+          ],
+          [
+            "fromarray",
+            "fromarray"
+          ],
+          [
+            "merge",
+            "merge"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_pillow_do": {
+    "message0": "выполнить Pillow Image %1 аргументы %2 именованные аргументы %3",
+    "tooltip": "Выполняет разрешённую функцию или конструктор Pillow Image как инструкцию.",
+    "args0": [
+      {
+        "options": [
+          [
+            "open",
+            "open"
+          ],
+          [
+            "new",
+            "new"
+          ],
+          [
+            "fromarray",
+            "fromarray"
+          ],
+          [
+            "merge",
+            "merge"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_pillow_method": {
+    "message0": "объект Pillow Image %1 метод %2 аргументы %3 именованные аргументы %4",
+    "tooltip": "Вызывает разрешённый метод объекта Pillow Image и возвращает результат.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "save",
+            "save"
+          ],
+          [
+            "resize",
+            "resize"
+          ],
+          [
+            "crop",
+            "crop"
+          ],
+          [
+            "rotate",
+            "rotate"
+          ],
+          [
+            "transpose",
+            "transpose"
+          ],
+          [
+            "convert",
+            "convert"
+          ],
+          [
+            "filter",
+            "filter"
+          ],
+          [
+            "show",
+            "show"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_pillow_do_method": {
+    "message0": "выполнить метод Pillow Image объекта %1 %2 аргументы %3 именованные аргументы %4",
+    "tooltip": "Выполняет разрешённый метод объекта Pillow Image как инструкцию.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "save",
+            "save"
+          ],
+          [
+            "resize",
+            "resize"
+          ],
+          [
+            "crop",
+            "crop"
+          ],
+          [
+            "rotate",
+            "rotate"
+          ],
+          [
+            "transpose",
+            "transpose"
+          ],
+          [
+            "convert",
+            "convert"
+          ],
+          [
+            "filter",
+            "filter"
+          ],
+          [
+            "show",
+            "show"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_pillow_attribute": {
+    "message0": "объект Pillow Image %1 атрибут %2",
+    "tooltip": "Читает разрешённый атрибут объекта или модуля Pillow Image.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "size",
+            "size"
+          ],
+          [
+            "mode",
+            "mode"
+          ],
+          [
+            "width",
+            "width"
+          ],
+          [
+            "height",
+            "height"
+          ],
+          [
+            "format",
+            "format"
+          ]
+        ]
+      }
+    ]
+  }
+}

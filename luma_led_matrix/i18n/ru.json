@@ -1,0 +1,150 @@
+{
+  "toolbox_name": "luma.led_matrix",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_luma_led_matrix_call": {
+    "message0": "luma.led_matrix вызвать или создать %1 аргументы %2 именованные аргументы %3",
+    "tooltip": "Вызывает разрешённую функцию или конструктор luma.led_matrix и возвращает результат.",
+    "args0": [
+      {
+        "options": [
+          [
+            "max7219",
+            "max7219"
+          ],
+          [
+            "ws2812",
+            "ws2812"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_luma_led_matrix_do": {
+    "message0": "выполнить luma.led_matrix %1 аргументы %2 именованные аргументы %3",
+    "tooltip": "Выполняет разрешённую функцию или конструктор luma.led_matrix как инструкцию.",
+    "args0": [
+      {
+        "options": [
+          [
+            "max7219",
+            "max7219"
+          ],
+          [
+            "ws2812",
+            "ws2812"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_luma_led_matrix_method": {
+    "message0": "объект luma.led_matrix %1 метод %2 аргументы %3 именованные аргументы %4",
+    "tooltip": "Вызывает разрешённый метод объекта luma.led_matrix и возвращает результат.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "display",
+            "display"
+          ],
+          [
+            "clear",
+            "clear"
+          ],
+          [
+            "show",
+            "show"
+          ],
+          [
+            "hide",
+            "hide"
+          ],
+          [
+            "contrast",
+            "contrast"
+          ],
+          [
+            "cleanup",
+            "cleanup"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_luma_led_matrix_do_method": {
+    "message0": "выполнить метод luma.led_matrix объекта %1 %2 аргументы %3 именованные аргументы %4",
+    "tooltip": "Выполняет разрешённый метод объекта luma.led_matrix как инструкцию.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "display",
+            "display"
+          ],
+          [
+            "clear",
+            "clear"
+          ],
+          [
+            "show",
+            "show"
+          ],
+          [
+            "hide",
+            "hide"
+          ],
+          [
+            "contrast",
+            "contrast"
+          ],
+          [
+            "cleanup",
+            "cleanup"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_luma_led_matrix_attribute": {
+    "message0": "объект luma.led_matrix %1 атрибут %2",
+    "tooltip": "Читает разрешённый атрибут объекта или модуля luma.led_matrix.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "width",
+            "width"
+          ],
+          [
+            "height",
+            "height"
+          ],
+          [
+            "size",
+            "size"
+          ],
+          [
+            "mode",
+            "mode"
+          ],
+          [
+            "bounding_box",
+            "bounding_box"
+          ]
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "category",
+  "name": "CircuitPython AHTx0",
+  "colour": "#00897B",
+  "contents": [
+    {
+      "kind": "block",
+      "type": "python_adafruit_ahtx0_call"
+    },
+    {
+      "kind": "block",
+      "type": "python_adafruit_ahtx0_do"
+    },
+    {
+      "kind": "block",
+      "type": "python_adafruit_ahtx0_attribute"
+    }
+  ]
+}

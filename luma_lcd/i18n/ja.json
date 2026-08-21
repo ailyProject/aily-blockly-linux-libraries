@@ -1,0 +1,166 @@
+{
+  "toolbox_name": "luma.lcd",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_luma_lcd_call": {
+    "message0": "luma.lcd 呼び出しまたは作成 %1 引数 %2 キーワード引数 %3",
+    "tooltip": "許可された luma.lcd の関数またはコンストラクターを呼び出して結果を返します。",
+    "args0": [
+      {
+        "options": [
+          [
+            "st7735",
+            "st7735"
+          ],
+          [
+            "st7789",
+            "st7789"
+          ],
+          [
+            "ili9341",
+            "ili9341"
+          ],
+          [
+            "pcd8544",
+            "pcd8544"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_luma_lcd_do": {
+    "message0": "luma.lcd を実行 %1 引数 %2 キーワード引数 %3",
+    "tooltip": "許可された luma.lcd の関数またはコンストラクターを文として実行します。",
+    "args0": [
+      {
+        "options": [
+          [
+            "st7735",
+            "st7735"
+          ],
+          [
+            "st7789",
+            "st7789"
+          ],
+          [
+            "ili9341",
+            "ili9341"
+          ],
+          [
+            "pcd8544",
+            "pcd8544"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_luma_lcd_method": {
+    "message0": "luma.lcd オブジェクト %1 メソッド %2 引数 %3 キーワード引数 %4",
+    "tooltip": "許可された luma.lcd オブジェクトのメソッドを呼び出して結果を返します。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "display",
+            "display"
+          ],
+          [
+            "clear",
+            "clear"
+          ],
+          [
+            "show",
+            "show"
+          ],
+          [
+            "hide",
+            "hide"
+          ],
+          [
+            "contrast",
+            "contrast"
+          ],
+          [
+            "cleanup",
+            "cleanup"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_luma_lcd_do_method": {
+    "message0": "luma.lcd オブジェクト %1 のメソッド %2 を実行 引数 %3 キーワード引数 %4",
+    "tooltip": "許可された luma.lcd オブジェクトのメソッドを文として実行します。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "display",
+            "display"
+          ],
+          [
+            "clear",
+            "clear"
+          ],
+          [
+            "show",
+            "show"
+          ],
+          [
+            "hide",
+            "hide"
+          ],
+          [
+            "contrast",
+            "contrast"
+          ],
+          [
+            "cleanup",
+            "cleanup"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_luma_lcd_attribute": {
+    "message0": "luma.lcd オブジェクト %1 属性 %2",
+    "tooltip": "許可された luma.lcd オブジェクトまたはモジュールの属性を読み取ります。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "width",
+            "width"
+          ],
+          [
+            "height",
+            "height"
+          ],
+          [
+            "size",
+            "size"
+          ],
+          [
+            "mode",
+            "mode"
+          ],
+          [
+            "bounding_box",
+            "bounding_box"
+          ]
+        ]
+      }
+    ]
+  }
+}

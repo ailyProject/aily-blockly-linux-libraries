@@ -1,0 +1,146 @@
+{
+  "toolbox_name": "scikit-image I/O",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_scikit_image_call": {
+    "message0": "scikit-image I/O 呼び出しまたは作成 %1 引数 %2 キーワード引数 %3",
+    "tooltip": "許可された scikit-image I/O の関数またはコンストラクターを呼び出して結果を返します。",
+    "args0": [
+      {
+        "options": [
+          [
+            "imread",
+            "imread"
+          ],
+          [
+            "imsave",
+            "imsave"
+          ],
+          [
+            "imshow",
+            "imshow"
+          ],
+          [
+            "show",
+            "show"
+          ],
+          [
+            "imread_collection",
+            "imread_collection"
+          ],
+          [
+            "concatenate_images",
+            "concatenate_images"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_scikit_image_do": {
+    "message0": "scikit-image I/O を実行 %1 引数 %2 キーワード引数 %3",
+    "tooltip": "許可された scikit-image I/O の関数またはコンストラクターを文として実行します。",
+    "args0": [
+      {
+        "options": [
+          [
+            "imread",
+            "imread"
+          ],
+          [
+            "imsave",
+            "imsave"
+          ],
+          [
+            "imshow",
+            "imshow"
+          ],
+          [
+            "show",
+            "show"
+          ],
+          [
+            "imread_collection",
+            "imread_collection"
+          ],
+          [
+            "concatenate_images",
+            "concatenate_images"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_scikit_image_method": {
+    "message0": "scikit-image I/O オブジェクト %1 メソッド %2 引数 %3 キーワード引数 %4",
+    "tooltip": "許可された scikit-image I/O オブジェクトのメソッドを呼び出して結果を返します。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "reload",
+            "reload"
+          ],
+          [
+            "concatenate",
+            "concatenate"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_scikit_image_do_method": {
+    "message0": "scikit-image I/O オブジェクト %1 のメソッド %2 を実行 引数 %3 キーワード引数 %4",
+    "tooltip": "許可された scikit-image I/O オブジェクトのメソッドを文として実行します。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "reload",
+            "reload"
+          ],
+          [
+            "concatenate",
+            "concatenate"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_scikit_image_attribute": {
+    "message0": "scikit-image I/O オブジェクト %1 属性 %2",
+    "tooltip": "許可された scikit-image I/O オブジェクトまたはモジュールの属性を読み取ります。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "shape",
+            "shape"
+          ],
+          [
+            "dtype",
+            "dtype"
+          ],
+          [
+            "ndim",
+            "ndim"
+          ],
+          [
+            "size",
+            "size"
+          ]
+        ]
+      }
+    ]
+  }
+}

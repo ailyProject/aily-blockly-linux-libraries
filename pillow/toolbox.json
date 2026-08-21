@@ -1,0 +1,27 @@
+{
+  "kind": "category",
+  "name": "Pillow Image",
+  "colour": "#1976D2",
+  "contents": [
+    {
+      "kind": "block",
+      "type": "python_pillow_call"
+    },
+    {
+      "kind": "block",
+      "type": "python_pillow_do"
+    },
+    {
+      "kind": "block",
+      "type": "python_pillow_method"
+    },
+    {
+      "kind": "block",
+      "type": "python_pillow_do_method"
+    },
+    {
+      "kind": "block",
+      "type": "python_pillow_attribute"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "kind": "category",
+  "name": "libgpiod v2",
+  "colour": "#00897B",
+  "contents": [
+    {
+      "kind": "block",
+      "type": "linux_gpiod_call"
+    },
+    {
+      "kind": "block",
+      "type": "linux_gpiod_do"
+    },
+    {
+      "kind": "block",
+      "type": "linux_gpiod_method"
+    },
+    {
+      "kind": "block",
+      "type": "linux_gpiod_do_method"
+    },
+    {
+      "kind": "block",
+      "type": "linux_gpiod_attribute"
+    }
+  ]
+}

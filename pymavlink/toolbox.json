@@ -1,0 +1,27 @@
+{
+  "kind": "category",
+  "name": "pymavlink",
+  "colour": "#00897B",
+  "contents": [
+    {
+      "kind": "block",
+      "type": "python_pymavlink_call"
+    },
+    {
+      "kind": "block",
+      "type": "python_pymavlink_do"
+    },
+    {
+      "kind": "block",
+      "type": "python_pymavlink_method"
+    },
+    {
+      "kind": "block",
+      "type": "python_pymavlink_do_method"
+    },
+    {
+      "kind": "block",
+      "type": "python_pymavlink_attribute"
+    }
+  ]
+}

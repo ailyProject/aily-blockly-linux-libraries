@@ -1,0 +1,174 @@
+{
+  "toolbox_name": "pymavlink",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_pymavlink_call": {
+    "message0": "pymavlink appeler ou créer %1 arguments %2 arguments nommés %3",
+    "tooltip": "Appeler une fonction ou un constructeur pymavlink autorisé et renvoyer le résultat.",
+    "args0": [
+      {
+        "options": [
+          [
+            "mavlink_connection",
+            "mavlink_connection"
+          ],
+          [
+            "mode_string_v10",
+            "mode_string_v10"
+          ],
+          [
+            "all_printable",
+            "all_printable"
+          ],
+          [
+            "periodic_event",
+            "periodic_event"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_pymavlink_do": {
+    "message0": "exécuter pymavlink %1 arguments %2 arguments nommés %3",
+    "tooltip": "Exécuter une fonction ou un constructeur pymavlink autorisé comme instruction.",
+    "args0": [
+      {
+        "options": [
+          [
+            "mavlink_connection",
+            "mavlink_connection"
+          ],
+          [
+            "mode_string_v10",
+            "mode_string_v10"
+          ],
+          [
+            "all_printable",
+            "all_printable"
+          ],
+          [
+            "periodic_event",
+            "periodic_event"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_pymavlink_method": {
+    "message0": "objet pymavlink %1 méthode %2 arguments %3 arguments nommés %4",
+    "tooltip": "Appeler une méthode autorisée d’un objet pymavlink et renvoyer le résultat.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "wait_heartbeat",
+            "wait_heartbeat"
+          ],
+          [
+            "recv_match",
+            "recv_match"
+          ],
+          [
+            "mode_mapping",
+            "mode_mapping"
+          ],
+          [
+            "set_mode",
+            "set_mode"
+          ],
+          [
+            "close",
+            "close"
+          ],
+          [
+            "write",
+            "write"
+          ],
+          [
+            "param_fetch_all",
+            "param_fetch_all"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_pymavlink_do_method": {
+    "message0": "exécuter la méthode pymavlink de l’objet %1 %2 arguments %3 arguments nommés %4",
+    "tooltip": "Exécuter une méthode autorisée d’un objet pymavlink comme instruction.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "wait_heartbeat",
+            "wait_heartbeat"
+          ],
+          [
+            "recv_match",
+            "recv_match"
+          ],
+          [
+            "mode_mapping",
+            "mode_mapping"
+          ],
+          [
+            "set_mode",
+            "set_mode"
+          ],
+          [
+            "close",
+            "close"
+          ],
+          [
+            "write",
+            "write"
+          ],
+          [
+            "param_fetch_all",
+            "param_fetch_all"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_pymavlink_attribute": {
+    "message0": "objet pymavlink %1 attribut %2",
+    "tooltip": "Lire un attribut autorisé d’un objet ou module pymavlink.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "target_system",
+            "target_system"
+          ],
+          [
+            "target_component",
+            "target_component"
+          ],
+          [
+            "mav",
+            "mav"
+          ],
+          [
+            "flightmode",
+            "flightmode"
+          ],
+          [
+            "messages",
+            "messages"
+          ]
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,146 @@
+{
+  "toolbox_name": "scikit-image I/O",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_scikit_image_call": {
+    "message0": "scikit-image I/O chamar ou criar %1 argumentos %2 argumentos nomeados %3",
+    "tooltip": "Chama uma função ou construtor permitido de scikit-image I/O e devolve o resultado.",
+    "args0": [
+      {
+        "options": [
+          [
+            "imread",
+            "imread"
+          ],
+          [
+            "imsave",
+            "imsave"
+          ],
+          [
+            "imshow",
+            "imshow"
+          ],
+          [
+            "show",
+            "show"
+          ],
+          [
+            "imread_collection",
+            "imread_collection"
+          ],
+          [
+            "concatenate_images",
+            "concatenate_images"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_scikit_image_do": {
+    "message0": "executar scikit-image I/O %1 argumentos %2 argumentos nomeados %3",
+    "tooltip": "Executa uma função ou construtor permitido de scikit-image I/O como instrução.",
+    "args0": [
+      {
+        "options": [
+          [
+            "imread",
+            "imread"
+          ],
+          [
+            "imsave",
+            "imsave"
+          ],
+          [
+            "imshow",
+            "imshow"
+          ],
+          [
+            "show",
+            "show"
+          ],
+          [
+            "imread_collection",
+            "imread_collection"
+          ],
+          [
+            "concatenate_images",
+            "concatenate_images"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_scikit_image_method": {
+    "message0": "objeto scikit-image I/O %1 método %2 argumentos %3 argumentos nomeados %4",
+    "tooltip": "Chama um método permitido de um objeto scikit-image I/O e devolve o resultado.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "reload",
+            "reload"
+          ],
+          [
+            "concatenate",
+            "concatenate"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_scikit_image_do_method": {
+    "message0": "executar método de scikit-image I/O objeto %1 %2 argumentos %3 argumentos nomeados %4",
+    "tooltip": "Executa um método permitido de um objeto scikit-image I/O como instrução.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "reload",
+            "reload"
+          ],
+          [
+            "concatenate",
+            "concatenate"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_scikit_image_attribute": {
+    "message0": "objeto scikit-image I/O %1 atributo %2",
+    "tooltip": "Lê um atributo permitido de um objeto ou módulo scikit-image I/O.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "shape",
+            "shape"
+          ],
+          [
+            "dtype",
+            "dtype"
+          ],
+          [
+            "ndim",
+            "ndim"
+          ],
+          [
+            "size",
+            "size"
+          ]
+        ]
+      }
+    ]
+  }
+}

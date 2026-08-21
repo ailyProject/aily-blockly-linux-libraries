@@ -1,0 +1,202 @@
+{
+  "toolbox_name": "FastAPI",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_fastapi_call": {
+    "message0": "FastAPI вызвать или создать %1 аргументы %2 именованные аргументы %3",
+    "tooltip": "Вызывает разрешённую функцию или конструктор FastAPI и возвращает результат.",
+    "args0": [
+      {
+        "options": [
+          [
+            "FastAPI",
+            "FastAPI"
+          ],
+          [
+            "APIRouter",
+            "APIRouter"
+          ],
+          [
+            "Depends",
+            "Depends"
+          ],
+          [
+            "HTTPException",
+            "HTTPException"
+          ],
+          [
+            "WebSocket",
+            "WebSocket"
+          ],
+          [
+            "BackgroundTasks",
+            "BackgroundTasks"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_fastapi_do": {
+    "message0": "выполнить FastAPI %1 аргументы %2 именованные аргументы %3",
+    "tooltip": "Выполняет разрешённую функцию или конструктор FastAPI как инструкцию.",
+    "args0": [
+      {
+        "options": [
+          [
+            "FastAPI",
+            "FastAPI"
+          ],
+          [
+            "APIRouter",
+            "APIRouter"
+          ],
+          [
+            "Depends",
+            "Depends"
+          ],
+          [
+            "HTTPException",
+            "HTTPException"
+          ],
+          [
+            "WebSocket",
+            "WebSocket"
+          ],
+          [
+            "BackgroundTasks",
+            "BackgroundTasks"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_fastapi_method": {
+    "message0": "объект FastAPI %1 метод %2 аргументы %3 именованные аргументы %4",
+    "tooltip": "Вызывает разрешённый метод объекта FastAPI и возвращает результат.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "get",
+            "get"
+          ],
+          [
+            "post",
+            "post"
+          ],
+          [
+            "put",
+            "put"
+          ],
+          [
+            "delete",
+            "delete"
+          ],
+          [
+            "patch",
+            "patch"
+          ],
+          [
+            "websocket",
+            "websocket"
+          ],
+          [
+            "include_router",
+            "include_router"
+          ],
+          [
+            "add_middleware",
+            "add_middleware"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_fastapi_do_method": {
+    "message0": "выполнить метод FastAPI объекта %1 %2 аргументы %3 именованные аргументы %4",
+    "tooltip": "Выполняет разрешённый метод объекта FastAPI как инструкцию.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "get",
+            "get"
+          ],
+          [
+            "post",
+            "post"
+          ],
+          [
+            "put",
+            "put"
+          ],
+          [
+            "delete",
+            "delete"
+          ],
+          [
+            "patch",
+            "patch"
+          ],
+          [
+            "websocket",
+            "websocket"
+          ],
+          [
+            "include_router",
+            "include_router"
+          ],
+          [
+            "add_middleware",
+            "add_middleware"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_fastapi_attribute": {
+    "message0": "объект FastAPI %1 атрибут %2",
+    "tooltip": "Читает разрешённый атрибут объекта или модуля FastAPI.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "routes",
+            "routes"
+          ],
+          [
+            "openapi_url",
+            "openapi_url"
+          ],
+          [
+            "docs_url",
+            "docs_url"
+          ],
+          [
+            "title",
+            "title"
+          ],
+          [
+            "version",
+            "version"
+          ],
+          [
+            "state",
+            "state"
+          ]
+        ]
+      }
+    ]
+  }
+}

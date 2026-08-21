@@ -1,0 +1,166 @@
+{
+  "toolbox_name": "luma.oled",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_luma_oled_call": {
+    "message0": "luma.oled 呼び出しまたは作成 %1 引数 %2 キーワード引数 %3",
+    "tooltip": "許可された luma.oled の関数またはコンストラクターを呼び出して結果を返します。",
+    "args0": [
+      {
+        "options": [
+          [
+            "ssd1306",
+            "ssd1306"
+          ],
+          [
+            "ssd1325",
+            "ssd1325"
+          ],
+          [
+            "ssd1331",
+            "ssd1331"
+          ],
+          [
+            "sh1106",
+            "sh1106"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_luma_oled_do": {
+    "message0": "luma.oled を実行 %1 引数 %2 キーワード引数 %3",
+    "tooltip": "許可された luma.oled の関数またはコンストラクターを文として実行します。",
+    "args0": [
+      {
+        "options": [
+          [
+            "ssd1306",
+            "ssd1306"
+          ],
+          [
+            "ssd1325",
+            "ssd1325"
+          ],
+          [
+            "ssd1331",
+            "ssd1331"
+          ],
+          [
+            "sh1106",
+            "sh1106"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_luma_oled_method": {
+    "message0": "luma.oled オブジェクト %1 メソッド %2 引数 %3 キーワード引数 %4",
+    "tooltip": "許可された luma.oled オブジェクトのメソッドを呼び出して結果を返します。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "display",
+            "display"
+          ],
+          [
+            "clear",
+            "clear"
+          ],
+          [
+            "show",
+            "show"
+          ],
+          [
+            "hide",
+            "hide"
+          ],
+          [
+            "contrast",
+            "contrast"
+          ],
+          [
+            "cleanup",
+            "cleanup"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_luma_oled_do_method": {
+    "message0": "luma.oled オブジェクト %1 のメソッド %2 を実行 引数 %3 キーワード引数 %4",
+    "tooltip": "許可された luma.oled オブジェクトのメソッドを文として実行します。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "display",
+            "display"
+          ],
+          [
+            "clear",
+            "clear"
+          ],
+          [
+            "show",
+            "show"
+          ],
+          [
+            "hide",
+            "hide"
+          ],
+          [
+            "contrast",
+            "contrast"
+          ],
+          [
+            "cleanup",
+            "cleanup"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_luma_oled_attribute": {
+    "message0": "luma.oled オブジェクト %1 属性 %2",
+    "tooltip": "許可された luma.oled オブジェクトまたはモジュールの属性を読み取ります。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "width",
+            "width"
+          ],
+          [
+            "height",
+            "height"
+          ],
+          [
+            "size",
+            "size"
+          ],
+          [
+            "mode",
+            "mode"
+          ],
+          [
+            "bounding_box",
+            "bounding_box"
+          ]
+        ]
+      }
+    ]
+  }
+}

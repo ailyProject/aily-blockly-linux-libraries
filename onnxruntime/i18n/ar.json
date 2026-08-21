@@ -1,0 +1,151 @@
+{
+  "toolbox_name": "ONNX Runtime",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_onnxruntime_call": {
+    "message0": "ONNX Runtime استدعاء أو إنشاء %1 الوسائط %2 وسائط الكلمات المفتاحية %3",
+    "tooltip": "استدعاء دالة أو مُنشئ مسموح من ONNX Runtime وإرجاع النتيجة.",
+    "args0": [
+      {
+        "options": [
+          [
+            "InferenceSession",
+            "InferenceSession"
+          ],
+          [
+            "SessionOptions",
+            "SessionOptions"
+          ],
+          [
+            "get_available_providers",
+            "get_available_providers"
+          ],
+          [
+            "get_device",
+            "get_device"
+          ],
+          [
+            "set_default_logger_severity",
+            "set_default_logger_severity"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_onnxruntime_do": {
+    "message0": "تشغيل ONNX Runtime %1 الوسائط %2 وسائط الكلمات المفتاحية %3",
+    "tooltip": "تشغيل دالة أو مُنشئ مسموح من ONNX Runtime كتعليمة.",
+    "args0": [
+      {
+        "options": [
+          [
+            "InferenceSession",
+            "InferenceSession"
+          ],
+          [
+            "SessionOptions",
+            "SessionOptions"
+          ],
+          [
+            "get_available_providers",
+            "get_available_providers"
+          ],
+          [
+            "get_device",
+            "get_device"
+          ],
+          [
+            "set_default_logger_severity",
+            "set_default_logger_severity"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_onnxruntime_method": {
+    "message0": "كائن ONNX Runtime %1 الطريقة %2 الوسائط %3 وسائط الكلمات المفتاحية %4",
+    "tooltip": "استدعاء طريقة مسموحة لكائن ONNX Runtime وإرجاع النتيجة.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "run",
+            "run"
+          ],
+          [
+            "run_with_iobinding",
+            "run_with_iobinding"
+          ],
+          [
+            "get_inputs",
+            "get_inputs"
+          ],
+          [
+            "get_outputs",
+            "get_outputs"
+          ],
+          [
+            "get_providers",
+            "get_providers"
+          ],
+          [
+            "set_providers",
+            "set_providers"
+          ],
+          [
+            "end_profiling",
+            "end_profiling"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_onnxruntime_do_method": {
+    "message0": "تشغيل طريقة ONNX Runtime للكائن %1 %2 الوسائط %3 وسائط الكلمات المفتاحية %4",
+    "tooltip": "تشغيل طريقة مسموحة لكائن ONNX Runtime كتعليمة.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "run",
+            "run"
+          ],
+          [
+            "run_with_iobinding",
+            "run_with_iobinding"
+          ],
+          [
+            "get_inputs",
+            "get_inputs"
+          ],
+          [
+            "get_outputs",
+            "get_outputs"
+          ],
+          [
+            "get_providers",
+            "get_providers"
+          ],
+          [
+            "set_providers",
+            "set_providers"
+          ],
+          [
+            "end_profiling",
+            "end_profiling"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  }
+}

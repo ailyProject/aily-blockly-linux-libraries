@@ -2,9 +2,13 @@
 
 面向 aily Blockly 独立 CPython 生成器的功能化积木库。所有生成器只注册到 `globalThis.Python`；项目根 `package.json` 仍须设置 `"devmode": "python"`，编辑器构建也必须包含 Python generator runtime。
 
+## Python 库清单与运行时
+
+新增的 [Python 库完整清单](PYTHON-LIBRARIES.md) 以 `catalog/python-libraries.json` 为统计真源：共 **100** 个 Linux/Raspberry Pi CPython 库，分为 13 类。其中 **26** 个是通过 Adafruit Blinka 在 CPython 中运行的 `adafruit-circuitpython-*` 驱动，另外 **74** 个是普通 CPython、Linux/Pi 系统绑定或平台栈；它们都不是 MicroPython-only 库。文档同时列出每项的目录、导入路径、安装命令、运行时分类，以及 Raspberry Pi 5B 的 DHT、NeoPixel、I²C clock stretching、venv 和 Build HAT 限制。
+
 | 目录 | npm 包 | 积木数 | 功能 |
 | --- | --- | ---: | --- |
-| `core` | `@aily-project/lib-core` | 13 | Python 基础语法、程序结构、变量和基础数据。 |
+| `core` | `@aily-project/lib-core` | 18 | Python 基础语法、程序结构、变量和基础数据。 |
 | `vision` | `@aily-project/lib-vision` | 32 | 通用 OpenCV 图像处理、连通域/轮廓分析、绘图与码识别。 |
 | `network` | `@aily-project/lib-network` | 23 | 通用 IPv4/IPv6、TCP/UDP Socket 与标准库 HTTP 文件服务器。 |
 | `paho_mqtt` | `@aily-project/lib-paho-mqtt` | 21 | Paho MQTT 2.x 发布/订阅、认证、TLS、回调与消息循环。 |

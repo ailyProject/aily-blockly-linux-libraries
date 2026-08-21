@@ -78,6 +78,62 @@
       null
     ]
   },
+  "python_arguments": {
+    "message0": "وسائط موضعية %1 %2 %3 %4 %5 %6",
+    "tooltip": "ينشئ قائمة وسائط موضعية من القيم المتصلة.",
+    "args0": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "python_keyword_arguments": {
+    "message0": "وسائط الكلمات المفتاحية %1 : %2 %3 : %4 %5 : %6 %7 : %8 %9 : %10 %11 : %12",
+    "tooltip": "ينشئ قاموس وسائط كلمات مفتاحية؛ تُتخطى الصفوف ذات المفتاح الفارغ.",
+    "args0": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "python_get_item": {
+    "message0": "العنصر %2 من الكائن %1",
+    "tooltip": "يقرأ عنصراً من كائن Python بواسطة المفتاح أو الفهرس.",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_set_item": {
+    "message0": "عيّن العنصر %2 من الكائن %1 إلى %3",
+    "tooltip": "يسند قيمة إلى عنصر في كائن Python بواسطة المفتاح أو الفهرس.",
+    "args0": [
+      null,
+      null,
+      null
+    ]
+  },
+  "python_set_attribute": {
+    "message0": "عيّن السمة %2 للكائن %1 إلى %3",
+    "tooltip": "يسند قيمة إلى سمة كائن Python تم التحقق منها بأمان.",
+    "args0": [
+      null,
+      null,
+      null
+    ]
+  },
   "python_set_variable": {
     "message0": "عيّن المتغير %1 إلى %2",
     "tooltip": "عيّن المتغير %1 إلى %2",

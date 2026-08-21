@@ -1,0 +1,186 @@
+{
+  "toolbox_name": "ROS 2 rclpy",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_rclpy_call": {
+    "message0": "ROS 2 rclpy 调用或创建 %1 参数 %2 关键字参数 %3",
+    "tooltip": "调用白名单中的 ROS 2 rclpy 函数或构造器并返回结果。",
+    "args0": [
+      {
+        "options": [
+          [
+            "init",
+            "init"
+          ],
+          [
+            "shutdown",
+            "shutdown"
+          ],
+          [
+            "ok",
+            "ok"
+          ],
+          [
+            "spin",
+            "spin"
+          ],
+          [
+            "spin_once",
+            "spin_once"
+          ],
+          [
+            "create_node",
+            "create_node"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_rclpy_do": {
+    "message0": "运行 ROS 2 rclpy %1 参数 %2 关键字参数 %3",
+    "tooltip": "以语句方式运行白名单中的 ROS 2 rclpy 函数或构造器。",
+    "args0": [
+      {
+        "options": [
+          [
+            "init",
+            "init"
+          ],
+          [
+            "shutdown",
+            "shutdown"
+          ],
+          [
+            "ok",
+            "ok"
+          ],
+          [
+            "spin",
+            "spin"
+          ],
+          [
+            "spin_once",
+            "spin_once"
+          ],
+          [
+            "create_node",
+            "create_node"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_rclpy_method": {
+    "message0": "ROS 2 rclpy 对象 %1 调用方法 %2 参数 %3 关键字参数 %4",
+    "tooltip": "调用白名单中的 ROS 2 rclpy 对象方法并返回结果。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "create_publisher",
+            "create_publisher"
+          ],
+          [
+            "create_subscription",
+            "create_subscription"
+          ],
+          [
+            "create_timer",
+            "create_timer"
+          ],
+          [
+            "create_client",
+            "create_client"
+          ],
+          [
+            "create_service",
+            "create_service"
+          ],
+          [
+            "get_logger",
+            "get_logger"
+          ],
+          [
+            "destroy_node",
+            "destroy_node"
+          ],
+          [
+            "publish",
+            "publish"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_rclpy_do_method": {
+    "message0": "运行 ROS 2 rclpy 对象 %1 的方法 %2 参数 %3 关键字参数 %4",
+    "tooltip": "以语句方式运行白名单中的 ROS 2 rclpy 对象方法。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "create_publisher",
+            "create_publisher"
+          ],
+          [
+            "create_subscription",
+            "create_subscription"
+          ],
+          [
+            "create_timer",
+            "create_timer"
+          ],
+          [
+            "create_client",
+            "create_client"
+          ],
+          [
+            "create_service",
+            "create_service"
+          ],
+          [
+            "get_logger",
+            "get_logger"
+          ],
+          [
+            "destroy_node",
+            "destroy_node"
+          ],
+          [
+            "publish",
+            "publish"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_rclpy_attribute": {
+    "message0": "ROS 2 rclpy 对象 %1 属性 %2",
+    "tooltip": "读取白名单中的 ROS 2 rclpy 对象或模块属性。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "context",
+            "context"
+          ],
+          [
+            "default_callback_group",
+            "default_callback_group"
+          ]
+        ]
+      }
+    ]
+  }
+}

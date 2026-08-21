@@ -1,0 +1,178 @@
+{
+  "toolbox_name": "python-zeroconf",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_zeroconf_call": {
+    "message0": "python-zeroconf appeler ou créer %1 arguments %2 arguments nommés %3",
+    "tooltip": "Appeler une fonction ou un constructeur python-zeroconf autorisé et renvoyer le résultat.",
+    "args0": [
+      {
+        "options": [
+          [
+            "Zeroconf",
+            "Zeroconf"
+          ],
+          [
+            "ServiceInfo",
+            "ServiceInfo"
+          ],
+          [
+            "ServiceBrowser",
+            "ServiceBrowser"
+          ],
+          [
+            "ServiceStateChange",
+            "ServiceStateChange"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_zeroconf_do": {
+    "message0": "exécuter python-zeroconf %1 arguments %2 arguments nommés %3",
+    "tooltip": "Exécuter une fonction ou un constructeur python-zeroconf autorisé comme instruction.",
+    "args0": [
+      {
+        "options": [
+          [
+            "Zeroconf",
+            "Zeroconf"
+          ],
+          [
+            "ServiceInfo",
+            "ServiceInfo"
+          ],
+          [
+            "ServiceBrowser",
+            "ServiceBrowser"
+          ],
+          [
+            "ServiceStateChange",
+            "ServiceStateChange"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_zeroconf_method": {
+    "message0": "objet python-zeroconf %1 méthode %2 arguments %3 arguments nommés %4",
+    "tooltip": "Appeler une méthode autorisée d’un objet python-zeroconf et renvoyer le résultat.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "register_service",
+            "register_service"
+          ],
+          [
+            "update_service",
+            "update_service"
+          ],
+          [
+            "unregister_service",
+            "unregister_service"
+          ],
+          [
+            "unregister_all_services",
+            "unregister_all_services"
+          ],
+          [
+            "close",
+            "close"
+          ],
+          [
+            "get_service_info",
+            "get_service_info"
+          ],
+          [
+            "add_service_listener",
+            "add_service_listener"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_zeroconf_do_method": {
+    "message0": "exécuter la méthode python-zeroconf de l’objet %1 %2 arguments %3 arguments nommés %4",
+    "tooltip": "Exécuter une méthode autorisée d’un objet python-zeroconf comme instruction.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "register_service",
+            "register_service"
+          ],
+          [
+            "update_service",
+            "update_service"
+          ],
+          [
+            "unregister_service",
+            "unregister_service"
+          ],
+          [
+            "unregister_all_services",
+            "unregister_all_services"
+          ],
+          [
+            "close",
+            "close"
+          ],
+          [
+            "get_service_info",
+            "get_service_info"
+          ],
+          [
+            "add_service_listener",
+            "add_service_listener"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_zeroconf_attribute": {
+    "message0": "objet python-zeroconf %1 attribut %2",
+    "tooltip": "Lire un attribut autorisé d’un objet ou module python-zeroconf.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "name",
+            "name"
+          ],
+          [
+            "type",
+            "type"
+          ],
+          [
+            "addresses",
+            "addresses"
+          ],
+          [
+            "port",
+            "port"
+          ],
+          [
+            "properties",
+            "properties"
+          ],
+          [
+            "server",
+            "server"
+          ]
+        ]
+      }
+    ]
+  }
+}

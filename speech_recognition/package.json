@@ -1,0 +1,47 @@
+{
+  "name": "@aily-project/lib-speech-recognition",
+  "nickname": "SpeechRecognition",
+  "nickname_zh_cn": "SpeechRecognition",
+  "nickname_en": "SpeechRecognition",
+  "nickname_zh_hk": "SpeechRecognition",
+  "nickname_ja": "SpeechRecognition",
+  "nickname_ko": "SpeechRecognition",
+  "nickname_de": "SpeechRecognition",
+  "nickname_fr": "SpeechRecognition",
+  "nickname_es": "SpeechRecognition",
+  "nickname_pt": "SpeechRecognition",
+  "nickname_ru": "SpeechRecognition",
+  "nickname_ar": "SpeechRecognition",
+  "version": "0.0.1",
+  "description": "面向树莓派与 Linux 开发板的 SpeechRecognition 常用 Python API 白名单积木。",
+  "description_zh_cn": "面向树莓派与 Linux 开发板的 SpeechRecognition 常用 Python API 白名单积木。",
+  "description_en": "Allowlisted SpeechRecognition Python API blocks for Raspberry Pi and Linux single-board computers.",
+  "spec": true,
+  "compatibility": {
+    "type": [
+      "canaan:k230:cybercam",
+      "broadcom:bcm2712:raspberrypi_5",
+      "allwinner:t527:walnutpi_2b"
+    ],
+    "voltage": [
+      3.3
+    ]
+  },
+  "keywords": [
+    "aily",
+    "blockly",
+    "python",
+    "linux",
+    "raspberry-pi",
+    "SpeechRecognition",
+    "speech_recognition"
+  ],
+  "tags": [
+    "audio"
+  ],
+  "author": "ailyProject",
+  "license": "MIT",
+  "homepage": "https://github.com/Uberi/speech_recognition",
+  "dependencies": {},
+  "devDependencies": {}
+}

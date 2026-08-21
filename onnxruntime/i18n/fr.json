@@ -1,0 +1,151 @@
+{
+  "toolbox_name": "ONNX Runtime",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_onnxruntime_call": {
+    "message0": "ONNX Runtime appeler ou créer %1 arguments %2 arguments nommés %3",
+    "tooltip": "Appeler une fonction ou un constructeur ONNX Runtime autorisé et renvoyer le résultat.",
+    "args0": [
+      {
+        "options": [
+          [
+            "InferenceSession",
+            "InferenceSession"
+          ],
+          [
+            "SessionOptions",
+            "SessionOptions"
+          ],
+          [
+            "get_available_providers",
+            "get_available_providers"
+          ],
+          [
+            "get_device",
+            "get_device"
+          ],
+          [
+            "set_default_logger_severity",
+            "set_default_logger_severity"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_onnxruntime_do": {
+    "message0": "exécuter ONNX Runtime %1 arguments %2 arguments nommés %3",
+    "tooltip": "Exécuter une fonction ou un constructeur ONNX Runtime autorisé comme instruction.",
+    "args0": [
+      {
+        "options": [
+          [
+            "InferenceSession",
+            "InferenceSession"
+          ],
+          [
+            "SessionOptions",
+            "SessionOptions"
+          ],
+          [
+            "get_available_providers",
+            "get_available_providers"
+          ],
+          [
+            "get_device",
+            "get_device"
+          ],
+          [
+            "set_default_logger_severity",
+            "set_default_logger_severity"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_onnxruntime_method": {
+    "message0": "objet ONNX Runtime %1 méthode %2 arguments %3 arguments nommés %4",
+    "tooltip": "Appeler une méthode autorisée d’un objet ONNX Runtime et renvoyer le résultat.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "run",
+            "run"
+          ],
+          [
+            "run_with_iobinding",
+            "run_with_iobinding"
+          ],
+          [
+            "get_inputs",
+            "get_inputs"
+          ],
+          [
+            "get_outputs",
+            "get_outputs"
+          ],
+          [
+            "get_providers",
+            "get_providers"
+          ],
+          [
+            "set_providers",
+            "set_providers"
+          ],
+          [
+            "end_profiling",
+            "end_profiling"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_onnxruntime_do_method": {
+    "message0": "exécuter la méthode ONNX Runtime de l’objet %1 %2 arguments %3 arguments nommés %4",
+    "tooltip": "Exécuter une méthode autorisée d’un objet ONNX Runtime comme instruction.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "run",
+            "run"
+          ],
+          [
+            "run_with_iobinding",
+            "run_with_iobinding"
+          ],
+          [
+            "get_inputs",
+            "get_inputs"
+          ],
+          [
+            "get_outputs",
+            "get_outputs"
+          ],
+          [
+            "get_providers",
+            "get_providers"
+          ],
+          [
+            "set_providers",
+            "set_providers"
+          ],
+          [
+            "end_profiling",
+            "end_profiling"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  }
+}

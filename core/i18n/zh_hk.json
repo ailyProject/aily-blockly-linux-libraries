@@ -78,6 +78,62 @@
       null
     ]
   },
+  "python_arguments": {
+    "message0": "位置參數 %1 %2 %3 %4 %5 %6",
+    "tooltip": "將已連接的值組成位置參數列表。",
+    "args0": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "python_keyword_arguments": {
+    "message0": "關鍵字參數 %1 : %2 %3 : %4 %5 : %6 %7 : %8 %9 : %10 %11 : %12",
+    "tooltip": "組成關鍵字參數字典；鍵為空的列會被略過。",
+    "args0": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "python_get_item": {
+    "message0": "物件 %1 的元素 %2",
+    "tooltip": "按鍵或索引讀取 Python 物件的元素。",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_set_item": {
+    "message0": "將物件 %1 的元素 %2 設為 %3",
+    "tooltip": "按鍵或索引設定 Python 物件的元素。",
+    "args0": [
+      null,
+      null,
+      null
+    ]
+  },
+  "python_set_attribute": {
+    "message0": "將物件 %1 的屬性 %2 設為 %3",
+    "tooltip": "設定經過安全驗證的 Python 物件屬性。",
+    "args0": [
+      null,
+      null,
+      null
+    ]
+  },
   "python_set_variable": {
     "message0": "將變數 %1 設為 %2",
     "tooltip": "將變數 %1 設為 %2",

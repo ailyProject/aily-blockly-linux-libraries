@@ -1,0 +1,158 @@
+{
+  "toolbox_name": "gpsd-py3",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "linux_gpsd_call": {
+    "message0": "gpsd-py3 调用或创建 %1 参数 %2 关键字参数 %3",
+    "tooltip": "调用白名单中的 gpsd-py3 函数或构造器并返回结果。",
+    "args0": [
+      {
+        "options": [
+          [
+            "connect",
+            "connect"
+          ],
+          [
+            "get_current",
+            "get_current"
+          ],
+          [
+            "get_packets",
+            "get_packets"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "linux_gpsd_do": {
+    "message0": "运行 gpsd-py3 %1 参数 %2 关键字参数 %3",
+    "tooltip": "以语句方式运行白名单中的 gpsd-py3 函数或构造器。",
+    "args0": [
+      {
+        "options": [
+          [
+            "connect",
+            "connect"
+          ],
+          [
+            "get_current",
+            "get_current"
+          ],
+          [
+            "get_packets",
+            "get_packets"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "linux_gpsd_method": {
+    "message0": "gpsd-py3 对象 %1 调用方法 %2 参数 %3 关键字参数 %4",
+    "tooltip": "调用白名单中的 gpsd-py3 对象方法并返回结果。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "position",
+            "position"
+          ],
+          [
+            "altitude",
+            "altitude"
+          ],
+          [
+            "movement",
+            "movement"
+          ],
+          [
+            "speed",
+            "speed"
+          ],
+          [
+            "climb",
+            "climb"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "linux_gpsd_do_method": {
+    "message0": "运行 gpsd-py3 对象 %1 的方法 %2 参数 %3 关键字参数 %4",
+    "tooltip": "以语句方式运行白名单中的 gpsd-py3 对象方法。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "position",
+            "position"
+          ],
+          [
+            "altitude",
+            "altitude"
+          ],
+          [
+            "movement",
+            "movement"
+          ],
+          [
+            "speed",
+            "speed"
+          ],
+          [
+            "climb",
+            "climb"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "linux_gpsd_attribute": {
+    "message0": "gpsd-py3 对象 %1 属性 %2",
+    "tooltip": "读取白名单中的 gpsd-py3 对象或模块属性。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "mode",
+            "mode"
+          ],
+          [
+            "sats",
+            "sats"
+          ],
+          [
+            "lat",
+            "lat"
+          ],
+          [
+            "lon",
+            "lon"
+          ],
+          [
+            "hspeed",
+            "hspeed"
+          ],
+          [
+            "track",
+            "track"
+          ],
+          [
+            "time",
+            "time"
+          ]
+        ]
+      }
+    ]
+  }
+}

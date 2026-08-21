@@ -1,0 +1,47 @@
+{
+  "name": "@aily-project/lib-depthai",
+  "nickname": "DepthAI v3",
+  "nickname_zh_cn": "DepthAI v3",
+  "nickname_en": "DepthAI v3",
+  "nickname_zh_hk": "DepthAI v3",
+  "nickname_ja": "DepthAI v3",
+  "nickname_ko": "DepthAI v3",
+  "nickname_de": "DepthAI v3",
+  "nickname_fr": "DepthAI v3",
+  "nickname_es": "DepthAI v3",
+  "nickname_pt": "DepthAI v3",
+  "nickname_ru": "DepthAI v3",
+  "nickname_ar": "DepthAI v3",
+  "version": "0.0.1",
+  "description": "面向树莓派与 Linux 开发板的 DepthAI v3 常用 Python API 白名单积木。",
+  "description_zh_cn": "面向树莓派与 Linux 开发板的 DepthAI v3 常用 Python API 白名单积木。",
+  "description_en": "Allowlisted DepthAI v3 Python API blocks for Raspberry Pi and Linux single-board computers.",
+  "spec": true,
+  "compatibility": {
+    "type": [
+      "canaan:k230:cybercam",
+      "broadcom:bcm2712:raspberrypi_5",
+      "allwinner:t527:walnutpi_2b"
+    ],
+    "voltage": [
+      3.3
+    ]
+  },
+  "keywords": [
+    "aily",
+    "blockly",
+    "python",
+    "linux",
+    "raspberry-pi",
+    "depthai",
+    "depthai"
+  ],
+  "tags": [
+    "display"
+  ],
+  "author": "ailyProject",
+  "license": "MIT",
+  "homepage": "https://docs.luxonis.com/software-v3/depthai/",
+  "dependencies": {},
+  "devDependencies": {}
+}

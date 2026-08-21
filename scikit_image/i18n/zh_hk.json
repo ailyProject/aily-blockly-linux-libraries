@@ -1,0 +1,146 @@
+{
+  "toolbox_name": "scikit-image I/O",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_scikit_image_call": {
+    "message0": "scikit-image I/O 呼叫或建立 %1 參數 %2 關鍵字參數 %3",
+    "tooltip": "呼叫白名單中的 scikit-image I/O 函式或建構器並傳回結果。",
+    "args0": [
+      {
+        "options": [
+          [
+            "imread",
+            "imread"
+          ],
+          [
+            "imsave",
+            "imsave"
+          ],
+          [
+            "imshow",
+            "imshow"
+          ],
+          [
+            "show",
+            "show"
+          ],
+          [
+            "imread_collection",
+            "imread_collection"
+          ],
+          [
+            "concatenate_images",
+            "concatenate_images"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_scikit_image_do": {
+    "message0": "執行 scikit-image I/O %1 參數 %2 關鍵字參數 %3",
+    "tooltip": "以敘述方式執行白名單中的 scikit-image I/O 函式或建構器。",
+    "args0": [
+      {
+        "options": [
+          [
+            "imread",
+            "imread"
+          ],
+          [
+            "imsave",
+            "imsave"
+          ],
+          [
+            "imshow",
+            "imshow"
+          ],
+          [
+            "show",
+            "show"
+          ],
+          [
+            "imread_collection",
+            "imread_collection"
+          ],
+          [
+            "concatenate_images",
+            "concatenate_images"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_scikit_image_method": {
+    "message0": "scikit-image I/O 物件 %1 呼叫方法 %2 參數 %3 關鍵字參數 %4",
+    "tooltip": "呼叫白名單中的 scikit-image I/O 物件方法並傳回結果。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "reload",
+            "reload"
+          ],
+          [
+            "concatenate",
+            "concatenate"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_scikit_image_do_method": {
+    "message0": "執行 scikit-image I/O 物件 %1 的方法 %2 參數 %3 關鍵字參數 %4",
+    "tooltip": "以敘述方式執行白名單中的 scikit-image I/O 物件方法。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "reload",
+            "reload"
+          ],
+          [
+            "concatenate",
+            "concatenate"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_scikit_image_attribute": {
+    "message0": "scikit-image I/O 物件 %1 屬性 %2",
+    "tooltip": "讀取白名單中的 scikit-image I/O 物件或模組屬性。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "shape",
+            "shape"
+          ],
+          [
+            "dtype",
+            "dtype"
+          ],
+          [
+            "ndim",
+            "ndim"
+          ],
+          [
+            "size",
+            "size"
+          ]
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "name": "@aily-project/lib-scipy",
+  "nickname": "SciPy Signal",
+  "nickname_zh_cn": "SciPy Signal",
+  "nickname_en": "SciPy Signal",
+  "nickname_zh_hk": "SciPy Signal",
+  "nickname_ja": "SciPy Signal",
+  "nickname_ko": "SciPy Signal",
+  "nickname_de": "SciPy Signal",
+  "nickname_fr": "SciPy Signal",
+  "nickname_es": "SciPy Signal",
+  "nickname_pt": "SciPy Signal",
+  "nickname_ru": "SciPy Signal",
+  "nickname_ar": "SciPy Signal",
+  "version": "0.0.1",
+  "description": "面向树莓派与 Linux 开发板的 SciPy Signal 常用 Python API 白名单积木。",
+  "description_zh_cn": "面向树莓派与 Linux 开发板的 SciPy Signal 常用 Python API 白名单积木。",
+  "description_en": "Allowlisted SciPy Signal Python API blocks for Raspberry Pi and Linux single-board computers.",
+  "spec": true,
+  "compatibility": {
+    "type": [
+      "canaan:k230:cybercam",
+      "broadcom:bcm2712:raspberrypi_5",
+      "allwinner:t527:walnutpi_2b"
+    ],
+    "voltage": [
+      3.3
+    ]
+  },
+  "keywords": [
+    "aily",
+    "blockly",
+    "python",
+    "linux",
+    "raspberry-pi",
+    "scipy",
+    "scipy.signal"
+  ],
+  "tags": [
+    "data"
+  ],
+  "author": "ailyProject",
+  "license": "MIT",
+  "homepage": "https://docs.scipy.org/doc/scipy/",
+  "dependencies": {},
+  "devDependencies": {}
+}

@@ -1,0 +1,174 @@
+{
+  "toolbox_name": "python-evdev",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "linux_evdev_call": {
+    "message0": "python-evdev aufrufen oder erzeugen %1 Argumente %2 Schlüsselwortargumente %3",
+    "tooltip": "Eine freigegebene python-evdev-Funktion oder einen Konstruktor aufrufen und das Ergebnis zurückgeben.",
+    "args0": [
+      {
+        "options": [
+          [
+            "InputDevice",
+            "InputDevice"
+          ],
+          [
+            "UInput",
+            "UInput"
+          ],
+          [
+            "list_devices",
+            "list_devices"
+          ],
+          [
+            "categorize",
+            "categorize"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "linux_evdev_do": {
+    "message0": "python-evdev ausführen %1 Argumente %2 Schlüsselwortargumente %3",
+    "tooltip": "Eine freigegebene python-evdev-Funktion oder einen Konstruktor als Anweisung ausführen.",
+    "args0": [
+      {
+        "options": [
+          [
+            "InputDevice",
+            "InputDevice"
+          ],
+          [
+            "UInput",
+            "UInput"
+          ],
+          [
+            "list_devices",
+            "list_devices"
+          ],
+          [
+            "categorize",
+            "categorize"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "linux_evdev_method": {
+    "message0": "python-evdev-Objekt %1 Methode %2 Argumente %3 Schlüsselwortargumente %4",
+    "tooltip": "Eine freigegebene Methode eines python-evdev-Objekts aufrufen und das Ergebnis zurückgeben.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "read",
+            "read"
+          ],
+          [
+            "read_loop",
+            "read_loop"
+          ],
+          [
+            "async_read_loop",
+            "async_read_loop"
+          ],
+          [
+            "grab",
+            "grab"
+          ],
+          [
+            "ungrab",
+            "ungrab"
+          ],
+          [
+            "close",
+            "close"
+          ],
+          [
+            "write",
+            "write"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "linux_evdev_do_method": {
+    "message0": "python-evdev-Objekt %1 Methode %2 ausführen Argumente %3 Schlüsselwortargumente %4",
+    "tooltip": "Eine freigegebene Methode eines python-evdev-Objekts als Anweisung ausführen.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "read",
+            "read"
+          ],
+          [
+            "read_loop",
+            "read_loop"
+          ],
+          [
+            "async_read_loop",
+            "async_read_loop"
+          ],
+          [
+            "grab",
+            "grab"
+          ],
+          [
+            "ungrab",
+            "ungrab"
+          ],
+          [
+            "close",
+            "close"
+          ],
+          [
+            "write",
+            "write"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "linux_evdev_attribute": {
+    "message0": "python-evdev-Objekt %1 Attribut %2",
+    "tooltip": "Ein freigegebenes Attribut eines python-evdev-Objekts oder Moduls lesen.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "path",
+            "path"
+          ],
+          [
+            "name",
+            "name"
+          ],
+          [
+            "phys",
+            "phys"
+          ],
+          [
+            "uniq",
+            "uniq"
+          ],
+          [
+            "fd",
+            "fd"
+          ]
+        ]
+      }
+    ]
+  }
+}

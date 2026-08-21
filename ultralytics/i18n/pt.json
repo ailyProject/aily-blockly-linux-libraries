@@ -1,0 +1,170 @@
+{
+  "toolbox_name": "Ultralytics",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_ultralytics_call": {
+    "message0": "Ultralytics chamar ou criar %1 argumentos %2 argumentos nomeados %3",
+    "tooltip": "Chama uma função ou construtor permitido de Ultralytics e devolve o resultado.",
+    "args0": [
+      {
+        "options": [
+          [
+            "YOLO",
+            "YOLO"
+          ],
+          [
+            "RTDETR",
+            "RTDETR"
+          ],
+          [
+            "SAM",
+            "SAM"
+          ],
+          [
+            "FastSAM",
+            "FastSAM"
+          ],
+          [
+            "NAS",
+            "NAS"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_ultralytics_do": {
+    "message0": "executar Ultralytics %1 argumentos %2 argumentos nomeados %3",
+    "tooltip": "Executa uma função ou construtor permitido de Ultralytics como instrução.",
+    "args0": [
+      {
+        "options": [
+          [
+            "YOLO",
+            "YOLO"
+          ],
+          [
+            "RTDETR",
+            "RTDETR"
+          ],
+          [
+            "SAM",
+            "SAM"
+          ],
+          [
+            "FastSAM",
+            "FastSAM"
+          ],
+          [
+            "NAS",
+            "NAS"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_ultralytics_method": {
+    "message0": "objeto Ultralytics %1 método %2 argumentos %3 argumentos nomeados %4",
+    "tooltip": "Chama um método permitido de um objeto Ultralytics e devolve o resultado.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "train",
+            "train"
+          ],
+          [
+            "val",
+            "val"
+          ],
+          [
+            "predict",
+            "predict"
+          ],
+          [
+            "export",
+            "export"
+          ],
+          [
+            "track",
+            "track"
+          ],
+          [
+            "benchmark",
+            "benchmark"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_ultralytics_do_method": {
+    "message0": "executar método de Ultralytics objeto %1 %2 argumentos %3 argumentos nomeados %4",
+    "tooltip": "Executa um método permitido de um objeto Ultralytics como instrução.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "train",
+            "train"
+          ],
+          [
+            "val",
+            "val"
+          ],
+          [
+            "predict",
+            "predict"
+          ],
+          [
+            "export",
+            "export"
+          ],
+          [
+            "track",
+            "track"
+          ],
+          [
+            "benchmark",
+            "benchmark"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_ultralytics_attribute": {
+    "message0": "objeto Ultralytics %1 atributo %2",
+    "tooltip": "Lê um atributo permitido de um objeto ou módulo Ultralytics.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "names",
+            "names"
+          ],
+          [
+            "model",
+            "model"
+          ],
+          [
+            "overrides",
+            "overrides"
+          ],
+          [
+            "callbacks",
+            "callbacks"
+          ]
+        ]
+      }
+    ]
+  }
+}

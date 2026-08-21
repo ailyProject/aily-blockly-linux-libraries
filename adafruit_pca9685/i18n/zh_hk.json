@@ -1,0 +1,98 @@
+{
+  "toolbox_name": "CircuitPython PCA9685",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_adafruit_pca9685_call": {
+    "message0": "CircuitPython PCA9685 呼叫或建立 %1 參數 %2 關鍵字參數 %3",
+    "tooltip": "呼叫白名單中的 CircuitPython PCA9685 函式或建構器並傳回結果。",
+    "args0": [
+      {
+        "options": [
+          [
+            "PCA9685",
+            "PCA9685"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_pca9685_do": {
+    "message0": "執行 CircuitPython PCA9685 %1 參數 %2 關鍵字參數 %3",
+    "tooltip": "以敘述方式執行白名單中的 CircuitPython PCA9685 函式或建構器。",
+    "args0": [
+      {
+        "options": [
+          [
+            "PCA9685",
+            "PCA9685"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_pca9685_method": {
+    "message0": "CircuitPython PCA9685 物件 %1 呼叫方法 %2 參數 %3 關鍵字參數 %4",
+    "tooltip": "呼叫白名單中的 CircuitPython PCA9685 物件方法並傳回結果。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "reset",
+            "reset"
+          ],
+          [
+            "deinit",
+            "deinit"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_pca9685_do_method": {
+    "message0": "執行 CircuitPython PCA9685 物件 %1 的方法 %2 參數 %3 關鍵字參數 %4",
+    "tooltip": "以敘述方式執行白名單中的 CircuitPython PCA9685 物件方法。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "reset",
+            "reset"
+          ],
+          [
+            "deinit",
+            "deinit"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_pca9685_attribute": {
+    "message0": "CircuitPython PCA9685 物件 %1 屬性 %2",
+    "tooltip": "讀取白名單中的 CircuitPython PCA9685 物件或模組屬性。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "frequency",
+            "frequency"
+          ],
+          [
+            "channels",
+            "channels"
+          ]
+        ]
+      }
+    ]
+  }
+}

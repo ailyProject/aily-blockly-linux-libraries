@@ -1,0 +1,27 @@
+{
+  "kind": "category",
+  "name": "qrcode",
+  "colour": "#1976D2",
+  "contents": [
+    {
+      "kind": "block",
+      "type": "python_qrcode_call"
+    },
+    {
+      "kind": "block",
+      "type": "python_qrcode_do"
+    },
+    {
+      "kind": "block",
+      "type": "python_qrcode_method"
+    },
+    {
+      "kind": "block",
+      "type": "python_qrcode_do_method"
+    },
+    {
+      "kind": "block",
+      "type": "python_qrcode_attribute"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "name": "@aily-project/lib-paramiko",
+  "nickname": "Paramiko",
+  "nickname_zh_cn": "Paramiko",
+  "nickname_en": "Paramiko",
+  "nickname_zh_hk": "Paramiko",
+  "nickname_ja": "Paramiko",
+  "nickname_ko": "Paramiko",
+  "nickname_de": "Paramiko",
+  "nickname_fr": "Paramiko",
+  "nickname_es": "Paramiko",
+  "nickname_pt": "Paramiko",
+  "nickname_ru": "Paramiko",
+  "nickname_ar": "Paramiko",
+  "version": "0.0.1",
+  "description": "面向树莓派与 Linux 开发板的 Paramiko 常用 Python API 白名单积木。",
+  "description_zh_cn": "面向树莓派与 Linux 开发板的 Paramiko 常用 Python API 白名单积木。",
+  "description_en": "Allowlisted Paramiko Python API blocks for Raspberry Pi and Linux single-board computers.",
+  "spec": true,
+  "compatibility": {
+    "type": [
+      "canaan:k230:cybercam",
+      "broadcom:bcm2712:raspberrypi_5",
+      "allwinner:t527:walnutpi_2b"
+    ],
+    "voltage": [
+      3.3
+    ]
+  },
+  "keywords": [
+    "aily",
+    "blockly",
+    "python",
+    "linux",
+    "raspberry-pi",
+    "paramiko",
+    "paramiko"
+  ],
+  "tags": [
+    "communication"
+  ],
+  "author": "ailyProject",
+  "license": "MIT",
+  "homepage": "https://www.paramiko.org/",
+  "dependencies": {},
+  "devDependencies": {}
+}

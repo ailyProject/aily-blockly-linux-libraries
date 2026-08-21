@@ -1,0 +1,138 @@
+{
+  "toolbox_name": "CircuitPython ADS1x15",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_adafruit_ads1x15_call": {
+    "message0": "CircuitPython ADS1x15 呼び出しまたは作成 %1 引数 %2 キーワード引数 %3",
+    "tooltip": "許可された CircuitPython ADS1x15 の関数またはコンストラクターを呼び出して結果を返します。",
+    "args0": [
+      {
+        "options": [
+          [
+            "ADS1115",
+            "ADS1115"
+          ],
+          [
+            "AnalogIn",
+            "AnalogIn"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_ads1x15_do": {
+    "message0": "CircuitPython ADS1x15 を実行 %1 引数 %2 キーワード引数 %3",
+    "tooltip": "許可された CircuitPython ADS1x15 の関数またはコンストラクターを文として実行します。",
+    "args0": [
+      {
+        "options": [
+          [
+            "ADS1115",
+            "ADS1115"
+          ],
+          [
+            "AnalogIn",
+            "AnalogIn"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_ads1x15_method": {
+    "message0": "CircuitPython ADS1x15 オブジェクト %1 メソッド %2 引数 %3 キーワード引数 %4",
+    "tooltip": "許可された CircuitPython ADS1x15 オブジェクトのメソッドを呼び出して結果を返します。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "read",
+            "read"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_ads1x15_do_method": {
+    "message0": "CircuitPython ADS1x15 オブジェクト %1 のメソッド %2 を実行 引数 %3 キーワード引数 %4",
+    "tooltip": "許可された CircuitPython ADS1x15 オブジェクトのメソッドを文として実行します。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "read",
+            "read"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_ads1x15_attribute": {
+    "message0": "CircuitPython ADS1x15 オブジェクト %1 属性 %2",
+    "tooltip": "許可された CircuitPython ADS1x15 オブジェクトまたはモジュールの属性を読み取ります。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "gain",
+            "gain"
+          ],
+          [
+            "mode",
+            "mode"
+          ],
+          [
+            "data_rate",
+            "data_rate"
+          ],
+          [
+            "comparator_queue_length",
+            "comparator_queue_length"
+          ],
+          [
+            "comparator_latch",
+            "comparator_latch"
+          ],
+          [
+            "comparator_polarity",
+            "comparator_polarity"
+          ],
+          [
+            "value",
+            "value"
+          ],
+          [
+            "voltage",
+            "voltage"
+          ],
+          [
+            "Pin.A0",
+            "Pin.A0"
+          ],
+          [
+            "Pin.A1",
+            "Pin.A1"
+          ],
+          [
+            "Pin.A2",
+            "Pin.A2"
+          ],
+          [
+            "Pin.A3",
+            "Pin.A3"
+          ]
+        ]
+      }
+    ]
+  }
+}

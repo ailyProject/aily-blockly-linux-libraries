@@ -1,0 +1,166 @@
+{
+  "toolbox_name": "luma.lcd",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_luma_lcd_call": {
+    "message0": "luma.lcd aufrufen oder erzeugen %1 Argumente %2 Schlüsselwortargumente %3",
+    "tooltip": "Eine freigegebene luma.lcd-Funktion oder einen Konstruktor aufrufen und das Ergebnis zurückgeben.",
+    "args0": [
+      {
+        "options": [
+          [
+            "st7735",
+            "st7735"
+          ],
+          [
+            "st7789",
+            "st7789"
+          ],
+          [
+            "ili9341",
+            "ili9341"
+          ],
+          [
+            "pcd8544",
+            "pcd8544"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_luma_lcd_do": {
+    "message0": "luma.lcd ausführen %1 Argumente %2 Schlüsselwortargumente %3",
+    "tooltip": "Eine freigegebene luma.lcd-Funktion oder einen Konstruktor als Anweisung ausführen.",
+    "args0": [
+      {
+        "options": [
+          [
+            "st7735",
+            "st7735"
+          ],
+          [
+            "st7789",
+            "st7789"
+          ],
+          [
+            "ili9341",
+            "ili9341"
+          ],
+          [
+            "pcd8544",
+            "pcd8544"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_luma_lcd_method": {
+    "message0": "luma.lcd-Objekt %1 Methode %2 Argumente %3 Schlüsselwortargumente %4",
+    "tooltip": "Eine freigegebene Methode eines luma.lcd-Objekts aufrufen und das Ergebnis zurückgeben.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "display",
+            "display"
+          ],
+          [
+            "clear",
+            "clear"
+          ],
+          [
+            "show",
+            "show"
+          ],
+          [
+            "hide",
+            "hide"
+          ],
+          [
+            "contrast",
+            "contrast"
+          ],
+          [
+            "cleanup",
+            "cleanup"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_luma_lcd_do_method": {
+    "message0": "luma.lcd-Objekt %1 Methode %2 ausführen Argumente %3 Schlüsselwortargumente %4",
+    "tooltip": "Eine freigegebene Methode eines luma.lcd-Objekts als Anweisung ausführen.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "display",
+            "display"
+          ],
+          [
+            "clear",
+            "clear"
+          ],
+          [
+            "show",
+            "show"
+          ],
+          [
+            "hide",
+            "hide"
+          ],
+          [
+            "contrast",
+            "contrast"
+          ],
+          [
+            "cleanup",
+            "cleanup"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_luma_lcd_attribute": {
+    "message0": "luma.lcd-Objekt %1 Attribut %2",
+    "tooltip": "Ein freigegebenes Attribut eines luma.lcd-Objekts oder Moduls lesen.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "width",
+            "width"
+          ],
+          [
+            "height",
+            "height"
+          ],
+          [
+            "size",
+            "size"
+          ],
+          [
+            "mode",
+            "mode"
+          ],
+          [
+            "bounding_box",
+            "bounding_box"
+          ]
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,154 @@
+{
+  "toolbox_name": "MinimalModbus",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_minimalmodbus_call": {
+    "message0": "MinimalModbus chamar ou criar %1 argumentos %2 argumentos nomeados %3",
+    "tooltip": "Chama uma função ou construtor permitido de MinimalModbus e devolve o resultado.",
+    "args0": [
+      {
+        "options": [
+          [
+            "Instrument",
+            "Instrument"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_minimalmodbus_do": {
+    "message0": "executar MinimalModbus %1 argumentos %2 argumentos nomeados %3",
+    "tooltip": "Executa uma função ou construtor permitido de MinimalModbus como instrução.",
+    "args0": [
+      {
+        "options": [
+          [
+            "Instrument",
+            "Instrument"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_minimalmodbus_method": {
+    "message0": "objeto MinimalModbus %1 método %2 argumentos %3 argumentos nomeados %4",
+    "tooltip": "Chama um método permitido de um objeto MinimalModbus e devolve o resultado.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "read_register",
+            "read_register"
+          ],
+          [
+            "write_register",
+            "write_register"
+          ],
+          [
+            "read_registers",
+            "read_registers"
+          ],
+          [
+            "write_registers",
+            "write_registers"
+          ],
+          [
+            "read_bit",
+            "read_bit"
+          ],
+          [
+            "write_bit",
+            "write_bit"
+          ],
+          [
+            "read_string",
+            "read_string"
+          ],
+          [
+            "write_string",
+            "write_string"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_minimalmodbus_do_method": {
+    "message0": "executar método de MinimalModbus objeto %1 %2 argumentos %3 argumentos nomeados %4",
+    "tooltip": "Executa um método permitido de um objeto MinimalModbus como instrução.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "read_register",
+            "read_register"
+          ],
+          [
+            "write_register",
+            "write_register"
+          ],
+          [
+            "read_registers",
+            "read_registers"
+          ],
+          [
+            "write_registers",
+            "write_registers"
+          ],
+          [
+            "read_bit",
+            "read_bit"
+          ],
+          [
+            "write_bit",
+            "write_bit"
+          ],
+          [
+            "read_string",
+            "read_string"
+          ],
+          [
+            "write_string",
+            "write_string"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_minimalmodbus_attribute": {
+    "message0": "objeto MinimalModbus %1 atributo %2",
+    "tooltip": "Lê um atributo permitido de um objeto ou módulo MinimalModbus.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "address",
+            "address"
+          ],
+          [
+            "mode",
+            "mode"
+          ],
+          [
+            "serial",
+            "serial"
+          ],
+          [
+            "clear_buffers_before_each_transaction",
+            "clear_buffers_before_each_transaction"
+          ]
+        ]
+      }
+    ]
+  }
+}

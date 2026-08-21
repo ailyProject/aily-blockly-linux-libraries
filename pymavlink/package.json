@@ -1,0 +1,47 @@
+{
+  "name": "@aily-project/lib-pymavlink",
+  "nickname": "pymavlink",
+  "nickname_zh_cn": "pymavlink",
+  "nickname_en": "pymavlink",
+  "nickname_zh_hk": "pymavlink",
+  "nickname_ja": "pymavlink",
+  "nickname_ko": "pymavlink",
+  "nickname_de": "pymavlink",
+  "nickname_fr": "pymavlink",
+  "nickname_es": "pymavlink",
+  "nickname_pt": "pymavlink",
+  "nickname_ru": "pymavlink",
+  "nickname_ar": "pymavlink",
+  "version": "0.0.1",
+  "description": "面向树莓派与 Linux 开发板的 pymavlink 常用 Python API 白名单积木。",
+  "description_zh_cn": "面向树莓派与 Linux 开发板的 pymavlink 常用 Python API 白名单积木。",
+  "description_en": "Allowlisted pymavlink Python API blocks for Raspberry Pi and Linux single-board computers.",
+  "spec": true,
+  "compatibility": {
+    "type": [
+      "canaan:k230:cybercam",
+      "broadcom:bcm2712:raspberrypi_5",
+      "allwinner:t527:walnutpi_2b"
+    ],
+    "voltage": [
+      3.3
+    ]
+  },
+  "keywords": [
+    "aily",
+    "blockly",
+    "python",
+    "linux",
+    "raspberry-pi",
+    "pymavlink",
+    "pymavlink.mavutil"
+  ],
+  "tags": [
+    "io"
+  ],
+  "author": "ailyProject",
+  "license": "MIT",
+  "homepage": "https://mavlink.io/en/mavgen_python/",
+  "dependencies": {},
+  "devDependencies": {}
+}

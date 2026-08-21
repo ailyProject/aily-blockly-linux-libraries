@@ -1,0 +1,206 @@
+{
+  "toolbox_name": "Adafruit IO",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_adafruit_io_call": {
+    "message0": "Adafruit IO 呼び出しまたは作成 %1 引数 %2 キーワード引数 %3",
+    "tooltip": "許可された Adafruit IO の関数またはコンストラクターを呼び出して結果を返します。",
+    "args0": [
+      {
+        "options": [
+          [
+            "Client",
+            "Client"
+          ],
+          [
+            "MQTTClient",
+            "MQTTClient"
+          ],
+          [
+            "Feed",
+            "Feed"
+          ],
+          [
+            "Data",
+            "Data"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_io_do": {
+    "message0": "Adafruit IO を実行 %1 引数 %2 キーワード引数 %3",
+    "tooltip": "許可された Adafruit IO の関数またはコンストラクターを文として実行します。",
+    "args0": [
+      {
+        "options": [
+          [
+            "Client",
+            "Client"
+          ],
+          [
+            "MQTTClient",
+            "MQTTClient"
+          ],
+          [
+            "Feed",
+            "Feed"
+          ],
+          [
+            "Data",
+            "Data"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_io_method": {
+    "message0": "Adafruit IO オブジェクト %1 メソッド %2 引数 %3 キーワード引数 %4",
+    "tooltip": "許可された Adafruit IO オブジェクトのメソッドを呼び出して結果を返します。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "feeds",
+            "feeds"
+          ],
+          [
+            "create_feed",
+            "create_feed"
+          ],
+          [
+            "send",
+            "send"
+          ],
+          [
+            "receive",
+            "receive"
+          ],
+          [
+            "data",
+            "data"
+          ],
+          [
+            "delete",
+            "delete"
+          ],
+          [
+            "connect",
+            "connect"
+          ],
+          [
+            "disconnect",
+            "disconnect"
+          ],
+          [
+            "loop_background",
+            "loop_background"
+          ],
+          [
+            "subscribe",
+            "subscribe"
+          ],
+          [
+            "publish",
+            "publish"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_io_do_method": {
+    "message0": "Adafruit IO オブジェクト %1 のメソッド %2 を実行 引数 %3 キーワード引数 %4",
+    "tooltip": "許可された Adafruit IO オブジェクトのメソッドを文として実行します。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "feeds",
+            "feeds"
+          ],
+          [
+            "create_feed",
+            "create_feed"
+          ],
+          [
+            "send",
+            "send"
+          ],
+          [
+            "receive",
+            "receive"
+          ],
+          [
+            "data",
+            "data"
+          ],
+          [
+            "delete",
+            "delete"
+          ],
+          [
+            "connect",
+            "connect"
+          ],
+          [
+            "disconnect",
+            "disconnect"
+          ],
+          [
+            "loop_background",
+            "loop_background"
+          ],
+          [
+            "subscribe",
+            "subscribe"
+          ],
+          [
+            "publish",
+            "publish"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_io_attribute": {
+    "message0": "Adafruit IO オブジェクト %1 属性 %2",
+    "tooltip": "許可された Adafruit IO オブジェクトまたはモジュールの属性を読み取ります。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "key",
+            "key"
+          ],
+          [
+            "name",
+            "name"
+          ],
+          [
+            "id",
+            "id"
+          ],
+          [
+            "value",
+            "value"
+          ],
+          [
+            "created_at",
+            "created_at"
+          ]
+        ]
+      }
+    ]
+  }
+}

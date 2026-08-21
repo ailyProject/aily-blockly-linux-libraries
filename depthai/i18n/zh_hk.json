@@ -1,0 +1,210 @@
+{
+  "toolbox_name": "DepthAI v3",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_depthai_call": {
+    "message0": "DepthAI v3 呼叫或建立 %1 參數 %2 關鍵字參數 %3",
+    "tooltip": "呼叫白名單中的 DepthAI v3 函式或建構器並傳回結果。",
+    "args0": [
+      {
+        "options": [
+          [
+            "Pipeline",
+            "Pipeline"
+          ],
+          [
+            "Device",
+            "Device"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_depthai_do": {
+    "message0": "執行 DepthAI v3 %1 參數 %2 關鍵字參數 %3",
+    "tooltip": "以敘述方式執行白名單中的 DepthAI v3 函式或建構器。",
+    "args0": [
+      {
+        "options": [
+          [
+            "Pipeline",
+            "Pipeline"
+          ],
+          [
+            "Device",
+            "Device"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_depthai_method": {
+    "message0": "DepthAI v3 物件 %1 呼叫方法 %2 參數 %3 關鍵字參數 %4",
+    "tooltip": "呼叫白名單中的 DepthAI v3 物件方法並傳回結果。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "create",
+            "create"
+          ],
+          [
+            "build",
+            "build"
+          ],
+          [
+            "start",
+            "start"
+          ],
+          [
+            "stop",
+            "stop"
+          ],
+          [
+            "run",
+            "run"
+          ],
+          [
+            "wait",
+            "wait"
+          ],
+          [
+            "requestOutput",
+            "requestOutput"
+          ],
+          [
+            "createOutputQueue",
+            "createOutputQueue"
+          ],
+          [
+            "get",
+            "get"
+          ],
+          [
+            "tryGet",
+            "tryGet"
+          ],
+          [
+            "send",
+            "send"
+          ],
+          [
+            "close",
+            "close"
+          ],
+          [
+            "isRunning",
+            "isRunning"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_depthai_do_method": {
+    "message0": "執行 DepthAI v3 物件 %1 的方法 %2 參數 %3 關鍵字參數 %4",
+    "tooltip": "以敘述方式執行白名單中的 DepthAI v3 物件方法。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "create",
+            "create"
+          ],
+          [
+            "build",
+            "build"
+          ],
+          [
+            "start",
+            "start"
+          ],
+          [
+            "stop",
+            "stop"
+          ],
+          [
+            "run",
+            "run"
+          ],
+          [
+            "wait",
+            "wait"
+          ],
+          [
+            "requestOutput",
+            "requestOutput"
+          ],
+          [
+            "createOutputQueue",
+            "createOutputQueue"
+          ],
+          [
+            "get",
+            "get"
+          ],
+          [
+            "tryGet",
+            "tryGet"
+          ],
+          [
+            "send",
+            "send"
+          ],
+          [
+            "close",
+            "close"
+          ],
+          [
+            "isRunning",
+            "isRunning"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_depthai_attribute": {
+    "message0": "DepthAI v3 物件 %1 屬性 %2",
+    "tooltip": "讀取白名單中的 DepthAI v3 物件或模組屬性。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "node.Camera",
+            "node.Camera"
+          ],
+          [
+            "node.ColorCamera",
+            "node.ColorCamera"
+          ],
+          [
+            "node.MonoCamera",
+            "node.MonoCamera"
+          ],
+          [
+            "node.ImageManip",
+            "node.ImageManip"
+          ],
+          [
+            "node.NeuralNetwork",
+            "node.NeuralNetwork"
+          ],
+          [
+            "node.StereoDepth",
+            "node.StereoDepth"
+          ]
+        ]
+      }
+    ]
+  }
+}

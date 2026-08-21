@@ -1,0 +1,27 @@
+{
+  "kind": "category",
+  "name": "CircuitPython ADS1x15",
+  "colour": "#00897B",
+  "contents": [
+    {
+      "kind": "block",
+      "type": "python_adafruit_ads1x15_call"
+    },
+    {
+      "kind": "block",
+      "type": "python_adafruit_ads1x15_do"
+    },
+    {
+      "kind": "block",
+      "type": "python_adafruit_ads1x15_method"
+    },
+    {
+      "kind": "block",
+      "type": "python_adafruit_ads1x15_do_method"
+    },
+    {
+      "kind": "block",
+      "type": "python_adafruit_ads1x15_attribute"
+    }
+  ]
+}

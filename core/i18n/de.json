@@ -78,6 +78,62 @@
       null
     ]
   },
+  "python_arguments": {
+    "message0": "Positionsargumente %1 %2 %3 %4 %5 %6",
+    "tooltip": "Erstellt aus den verbundenen Werten eine Liste von Positionsargumenten.",
+    "args0": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "python_keyword_arguments": {
+    "message0": "Schlüsselwortargumente %1 : %2 %3 : %4 %5 : %6 %7 : %8 %9 : %10 %11 : %12",
+    "tooltip": "Erstellt ein Wörterbuch mit Schlüsselwortargumenten; Zeilen mit leerem Schlüssel werden übersprungen.",
+    "args0": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "python_get_item": {
+    "message0": "Element %2 von Objekt %1",
+    "tooltip": "Liest ein Element eines Python-Objekts über Schlüssel oder Index.",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_set_item": {
+    "message0": "setze Element %2 von Objekt %1 auf %3",
+    "tooltip": "Weist einem Element eines Python-Objekts über Schlüssel oder Index einen Wert zu.",
+    "args0": [
+      null,
+      null,
+      null
+    ]
+  },
+  "python_set_attribute": {
+    "message0": "setze Attribut %2 von Objekt %1 auf %3",
+    "tooltip": "Weist einem sicher validierten Attribut eines Python-Objekts einen Wert zu.",
+    "args0": [
+      null,
+      null,
+      null
+    ]
+  },
   "python_set_variable": {
     "message0": "Variable %1 auf %2 setzen",
     "tooltip": "Variable %1 auf %2 setzen",

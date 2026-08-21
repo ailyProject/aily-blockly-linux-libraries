@@ -1,0 +1,27 @@
+{
+  "kind": "category",
+  "name": "pynmea2",
+  "colour": "#00897B",
+  "contents": [
+    {
+      "kind": "block",
+      "type": "python_pynmea2_call"
+    },
+    {
+      "kind": "block",
+      "type": "python_pynmea2_do"
+    },
+    {
+      "kind": "block",
+      "type": "python_pynmea2_method"
+    },
+    {
+      "kind": "block",
+      "type": "python_pynmea2_do_method"
+    },
+    {
+      "kind": "block",
+      "type": "python_pynmea2_attribute"
+    }
+  ]
+}

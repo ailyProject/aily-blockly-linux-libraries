@@ -1,0 +1,206 @@
+{
+  "toolbox_name": "python-socketio",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_python_socketio_call": {
+    "message0": "python-socketio 呼び出しまたは作成 %1 引数 %2 キーワード引数 %3",
+    "tooltip": "許可された python-socketio の関数またはコンストラクターを呼び出して結果を返します。",
+    "args0": [
+      {
+        "options": [
+          [
+            "Client",
+            "Client"
+          ],
+          [
+            "AsyncClient",
+            "AsyncClient"
+          ],
+          [
+            "Server",
+            "Server"
+          ],
+          [
+            "AsyncServer",
+            "AsyncServer"
+          ],
+          [
+            "WSGIApp",
+            "WSGIApp"
+          ],
+          [
+            "ASGIApp",
+            "ASGIApp"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_python_socketio_do": {
+    "message0": "python-socketio を実行 %1 引数 %2 キーワード引数 %3",
+    "tooltip": "許可された python-socketio の関数またはコンストラクターを文として実行します。",
+    "args0": [
+      {
+        "options": [
+          [
+            "Client",
+            "Client"
+          ],
+          [
+            "AsyncClient",
+            "AsyncClient"
+          ],
+          [
+            "Server",
+            "Server"
+          ],
+          [
+            "AsyncServer",
+            "AsyncServer"
+          ],
+          [
+            "WSGIApp",
+            "WSGIApp"
+          ],
+          [
+            "ASGIApp",
+            "ASGIApp"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_python_socketio_method": {
+    "message0": "python-socketio オブジェクト %1 メソッド %2 引数 %3 キーワード引数 %4",
+    "tooltip": "許可された python-socketio オブジェクトのメソッドを呼び出して結果を返します。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "connect",
+            "connect"
+          ],
+          [
+            "disconnect",
+            "disconnect"
+          ],
+          [
+            "emit",
+            "emit"
+          ],
+          [
+            "send",
+            "send"
+          ],
+          [
+            "call",
+            "call"
+          ],
+          [
+            "on",
+            "on"
+          ],
+          [
+            "event",
+            "event"
+          ],
+          [
+            "start_background_task",
+            "start_background_task"
+          ],
+          [
+            "sleep",
+            "sleep"
+          ],
+          [
+            "transport",
+            "transport"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_python_socketio_do_method": {
+    "message0": "python-socketio オブジェクト %1 のメソッド %2 を実行 引数 %3 キーワード引数 %4",
+    "tooltip": "許可された python-socketio オブジェクトのメソッドを文として実行します。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "connect",
+            "connect"
+          ],
+          [
+            "disconnect",
+            "disconnect"
+          ],
+          [
+            "emit",
+            "emit"
+          ],
+          [
+            "send",
+            "send"
+          ],
+          [
+            "call",
+            "call"
+          ],
+          [
+            "on",
+            "on"
+          ],
+          [
+            "event",
+            "event"
+          ],
+          [
+            "start_background_task",
+            "start_background_task"
+          ],
+          [
+            "sleep",
+            "sleep"
+          ],
+          [
+            "transport",
+            "transport"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_python_socketio_attribute": {
+    "message0": "python-socketio オブジェクト %1 属性 %2",
+    "tooltip": "許可された python-socketio オブジェクトまたはモジュールの属性を読み取ります。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "connected",
+            "connected"
+          ],
+          [
+            "sid",
+            "sid"
+          ],
+          [
+            "namespaces",
+            "namespaces"
+          ]
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,194 @@
+{
+  "toolbox_name": "Flask",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_flask_call": {
+    "message0": "Flask llamar o crear %1 argumentos %2 argumentos con nombre %3",
+    "tooltip": "Llama a una función o constructor permitido de Flask y devuelve el resultado.",
+    "args0": [
+      {
+        "options": [
+          [
+            "Flask",
+            "Flask"
+          ],
+          [
+            "Blueprint",
+            "Blueprint"
+          ],
+          [
+            "jsonify",
+            "jsonify"
+          ],
+          [
+            "redirect",
+            "redirect"
+          ],
+          [
+            "render_template",
+            "render_template"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_flask_do": {
+    "message0": "ejecutar Flask %1 argumentos %2 argumentos con nombre %3",
+    "tooltip": "Ejecuta una función o constructor permitido de Flask como sentencia.",
+    "args0": [
+      {
+        "options": [
+          [
+            "Flask",
+            "Flask"
+          ],
+          [
+            "Blueprint",
+            "Blueprint"
+          ],
+          [
+            "jsonify",
+            "jsonify"
+          ],
+          [
+            "redirect",
+            "redirect"
+          ],
+          [
+            "render_template",
+            "render_template"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_flask_method": {
+    "message0": "objeto Flask %1 método %2 argumentos %3 argumentos con nombre %4",
+    "tooltip": "Llama a un método permitido de un objeto Flask y devuelve el resultado.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "route",
+            "route"
+          ],
+          [
+            "get",
+            "get"
+          ],
+          [
+            "post",
+            "post"
+          ],
+          [
+            "run",
+            "run"
+          ],
+          [
+            "register_blueprint",
+            "register_blueprint"
+          ],
+          [
+            "add_url_rule",
+            "add_url_rule"
+          ],
+          [
+            "make_response",
+            "make_response"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_flask_do_method": {
+    "message0": "ejecutar método de Flask objeto %1 %2 argumentos %3 argumentos con nombre %4",
+    "tooltip": "Ejecuta un método permitido de un objeto Flask como sentencia.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "route",
+            "route"
+          ],
+          [
+            "get",
+            "get"
+          ],
+          [
+            "post",
+            "post"
+          ],
+          [
+            "run",
+            "run"
+          ],
+          [
+            "register_blueprint",
+            "register_blueprint"
+          ],
+          [
+            "add_url_rule",
+            "add_url_rule"
+          ],
+          [
+            "make_response",
+            "make_response"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_flask_attribute": {
+    "message0": "objeto Flask %1 atributo %2",
+    "tooltip": "Lee un atributo permitido de un objeto o módulo Flask.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "config",
+            "config"
+          ],
+          [
+            "url_map",
+            "url_map"
+          ],
+          [
+            "name",
+            "name"
+          ],
+          [
+            "debug",
+            "debug"
+          ],
+          [
+            "testing",
+            "testing"
+          ],
+          [
+            "request.method",
+            "request.method"
+          ],
+          [
+            "request.args",
+            "request.args"
+          ],
+          [
+            "request.json",
+            "request.json"
+          ]
+        ]
+      }
+    ]
+  }
+}

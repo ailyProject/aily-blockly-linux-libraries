@@ -1,0 +1,27 @@
+{
+  "kind": "category",
+  "name": "Build HAT",
+  "colour": "#C51A4A",
+  "contents": [
+    {
+      "kind": "block",
+      "type": "rpi_buildhat_call"
+    },
+    {
+      "kind": "block",
+      "type": "rpi_buildhat_do"
+    },
+    {
+      "kind": "block",
+      "type": "rpi_buildhat_method"
+    },
+    {
+      "kind": "block",
+      "type": "rpi_buildhat_do_method"
+    },
+    {
+      "kind": "block",
+      "type": "rpi_buildhat_attribute"
+    }
+  ]
+}

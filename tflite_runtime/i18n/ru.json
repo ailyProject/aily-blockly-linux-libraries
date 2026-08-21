@@ -1,0 +1,135 @@
+{
+  "toolbox_name": "LiteRT / TFLite Runtime",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_tflite_runtime_call": {
+    "message0": "LiteRT / TFLite Runtime вызвать или создать %1 аргументы %2 именованные аргументы %3",
+    "tooltip": "Вызывает разрешённую функцию или конструктор LiteRT / TFLite Runtime и возвращает результат.",
+    "args0": [
+      {
+        "options": [
+          [
+            "Interpreter",
+            "Interpreter"
+          ],
+          [
+            "load_delegate",
+            "load_delegate"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_tflite_runtime_do": {
+    "message0": "выполнить LiteRT / TFLite Runtime %1 аргументы %2 именованные аргументы %3",
+    "tooltip": "Выполняет разрешённую функцию или конструктор LiteRT / TFLite Runtime как инструкцию.",
+    "args0": [
+      {
+        "options": [
+          [
+            "Interpreter",
+            "Interpreter"
+          ],
+          [
+            "load_delegate",
+            "load_delegate"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_tflite_runtime_method": {
+    "message0": "объект LiteRT / TFLite Runtime %1 метод %2 аргументы %3 именованные аргументы %4",
+    "tooltip": "Вызывает разрешённый метод объекта LiteRT / TFLite Runtime и возвращает результат.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "allocate_tensors",
+            "allocate_tensors"
+          ],
+          [
+            "get_input_details",
+            "get_input_details"
+          ],
+          [
+            "get_output_details",
+            "get_output_details"
+          ],
+          [
+            "set_tensor",
+            "set_tensor"
+          ],
+          [
+            "get_tensor",
+            "get_tensor"
+          ],
+          [
+            "invoke",
+            "invoke"
+          ],
+          [
+            "resize_tensor_input",
+            "resize_tensor_input"
+          ],
+          [
+            "get_signature_runner",
+            "get_signature_runner"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_tflite_runtime_do_method": {
+    "message0": "выполнить метод LiteRT / TFLite Runtime объекта %1 %2 аргументы %3 именованные аргументы %4",
+    "tooltip": "Выполняет разрешённый метод объекта LiteRT / TFLite Runtime как инструкцию.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "allocate_tensors",
+            "allocate_tensors"
+          ],
+          [
+            "get_input_details",
+            "get_input_details"
+          ],
+          [
+            "get_output_details",
+            "get_output_details"
+          ],
+          [
+            "set_tensor",
+            "set_tensor"
+          ],
+          [
+            "get_tensor",
+            "get_tensor"
+          ],
+          [
+            "invoke",
+            "invoke"
+          ],
+          [
+            "resize_tensor_input",
+            "resize_tensor_input"
+          ],
+          [
+            "get_signature_runner",
+            "get_signature_runner"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  }
+}

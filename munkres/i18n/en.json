@@ -1,0 +1,102 @@
+{
+  "toolbox_name": "Munkres",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_munkres_call": {
+    "message0": "Munkres call or create %1 arguments %2 keyword arguments %3",
+    "tooltip": "Call an allowlisted Munkres function or constructor and return its result.",
+    "args0": [
+      {
+        "options": [
+          [
+            "Munkres",
+            "Munkres"
+          ],
+          [
+            "make_cost_matrix",
+            "make_cost_matrix"
+          ],
+          [
+            "print_matrix",
+            "print_matrix"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_munkres_do": {
+    "message0": "run Munkres %1 arguments %2 keyword arguments %3",
+    "tooltip": "Run an allowlisted Munkres function or constructor as a statement.",
+    "args0": [
+      {
+        "options": [
+          [
+            "Munkres",
+            "Munkres"
+          ],
+          [
+            "make_cost_matrix",
+            "make_cost_matrix"
+          ],
+          [
+            "print_matrix",
+            "print_matrix"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_munkres_method": {
+    "message0": "Munkres object %1 call method %2 arguments %3 keyword arguments %4",
+    "tooltip": "Call an allowlisted Munkres object method and return its result.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "compute",
+            "compute"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_munkres_do_method": {
+    "message0": "run Munkres object %1 method %2 arguments %3 keyword arguments %4",
+    "tooltip": "Run an allowlisted Munkres object method as a statement.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "compute",
+            "compute"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_munkres_attribute": {
+    "message0": "Munkres object %1 attribute %2",
+    "tooltip": "Read an allowlisted Munkres object or module attribute.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "DISALLOWED",
+            "DISALLOWED"
+          ]
+        ]
+      }
+    ]
+  }
+}

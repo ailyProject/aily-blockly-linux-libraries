@@ -1,0 +1,102 @@
+{
+  "toolbox_name": "CircuitPython APDS9960",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_adafruit_apds9960_call": {
+    "message0": "CircuitPython APDS9960 استدعاء أو إنشاء %1 الوسائط %2 وسائط الكلمات المفتاحية %3",
+    "tooltip": "استدعاء دالة أو مُنشئ مسموح من CircuitPython APDS9960 وإرجاع النتيجة.",
+    "args0": [
+      {
+        "options": [
+          [
+            "APDS9960",
+            "APDS9960"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_apds9960_do": {
+    "message0": "تشغيل CircuitPython APDS9960 %1 الوسائط %2 وسائط الكلمات المفتاحية %3",
+    "tooltip": "تشغيل دالة أو مُنشئ مسموح من CircuitPython APDS9960 كتعليمة.",
+    "args0": [
+      {
+        "options": [
+          [
+            "APDS9960",
+            "APDS9960"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_apds9960_method": {
+    "message0": "كائن CircuitPython APDS9960 %1 الطريقة %2 الوسائط %3 وسائط الكلمات المفتاحية %4",
+    "tooltip": "استدعاء طريقة مسموحة لكائن CircuitPython APDS9960 وإرجاع النتيجة.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "gesture",
+            "gesture"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_apds9960_do_method": {
+    "message0": "تشغيل طريقة CircuitPython APDS9960 للكائن %1 %2 الوسائط %3 وسائط الكلمات المفتاحية %4",
+    "tooltip": "تشغيل طريقة مسموحة لكائن CircuitPython APDS9960 كتعليمة.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "gesture",
+            "gesture"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_apds9960_attribute": {
+    "message0": "كائن CircuitPython APDS9960 %1 السمة %2",
+    "tooltip": "قراءة سمة مسموحة لكائن أو وحدة CircuitPython APDS9960.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "enable_proximity",
+            "enable_proximity"
+          ],
+          [
+            "enable_gesture",
+            "enable_gesture"
+          ],
+          [
+            "enable_color",
+            "enable_color"
+          ],
+          [
+            "color_data",
+            "color_data"
+          ],
+          [
+            "proximity",
+            "proximity"
+          ]
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "kind": "category",
+  "name": "CircuitPython LIS3DH",
+  "colour": "#00897B",
+  "contents": [
+    {
+      "kind": "block",
+      "type": "python_adafruit_lis3dh_call"
+    },
+    {
+      "kind": "block",
+      "type": "python_adafruit_lis3dh_do"
+    },
+    {
+      "kind": "block",
+      "type": "python_adafruit_lis3dh_method"
+    },
+    {
+      "kind": "block",
+      "type": "python_adafruit_lis3dh_do_method"
+    },
+    {
+      "kind": "block",
+      "type": "python_adafruit_lis3dh_attribute"
+    }
+  ]
+}

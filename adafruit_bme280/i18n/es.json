@@ -1,0 +1,88 @@
+{
+  "toolbox_name": "CircuitPython BME280",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_adafruit_bme280_call": {
+    "message0": "CircuitPython BME280 llamar o crear %1 argumentos %2 argumentos con nombre %3",
+    "tooltip": "Llama a una función o constructor permitido de CircuitPython BME280 y devuelve el resultado.",
+    "args0": [
+      {
+        "options": [
+          [
+            "Adafruit_BME280_I2C",
+            "Adafruit_BME280_I2C"
+          ],
+          [
+            "Adafruit_BME280_SPI",
+            "Adafruit_BME280_SPI"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_bme280_do": {
+    "message0": "ejecutar CircuitPython BME280 %1 argumentos %2 argumentos con nombre %3",
+    "tooltip": "Ejecuta una función o constructor permitido de CircuitPython BME280 como sentencia.",
+    "args0": [
+      {
+        "options": [
+          [
+            "Adafruit_BME280_I2C",
+            "Adafruit_BME280_I2C"
+          ],
+          [
+            "Adafruit_BME280_SPI",
+            "Adafruit_BME280_SPI"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_bme280_attribute": {
+    "message0": "objeto CircuitPython BME280 %1 atributo %2",
+    "tooltip": "Lee un atributo permitido de un objeto o módulo CircuitPython BME280.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "temperature",
+            "temperature"
+          ],
+          [
+            "pressure",
+            "pressure"
+          ],
+          [
+            "humidity",
+            "humidity"
+          ],
+          [
+            "altitude",
+            "altitude"
+          ],
+          [
+            "sea_level_pressure",
+            "sea_level_pressure"
+          ],
+          [
+            "mode",
+            "mode"
+          ],
+          [
+            "standby_period",
+            "standby_period"
+          ],
+          [
+            "iir_filter",
+            "iir_filter"
+          ]
+        ]
+      }
+    ]
+  }
+}

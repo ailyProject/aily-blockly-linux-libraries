@@ -1,0 +1,27 @@
+{
+  "kind": "category",
+  "name": "CircuitPython MCP3xxx",
+  "colour": "#00897B",
+  "contents": [
+    {
+      "kind": "block",
+      "type": "python_adafruit_mcp3xxx_call"
+    },
+    {
+      "kind": "block",
+      "type": "python_adafruit_mcp3xxx_do"
+    },
+    {
+      "kind": "block",
+      "type": "python_adafruit_mcp3xxx_method"
+    },
+    {
+      "kind": "block",
+      "type": "python_adafruit_mcp3xxx_do_method"
+    },
+    {
+      "kind": "block",
+      "type": "python_adafruit_mcp3xxx_attribute"
+    }
+  ]
+}

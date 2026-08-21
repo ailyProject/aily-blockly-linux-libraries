@@ -1,0 +1,135 @@
+{
+  "toolbox_name": "LiteRT / TFLite Runtime",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_tflite_runtime_call": {
+    "message0": "LiteRT / TFLite Runtime استدعاء أو إنشاء %1 الوسائط %2 وسائط الكلمات المفتاحية %3",
+    "tooltip": "استدعاء دالة أو مُنشئ مسموح من LiteRT / TFLite Runtime وإرجاع النتيجة.",
+    "args0": [
+      {
+        "options": [
+          [
+            "Interpreter",
+            "Interpreter"
+          ],
+          [
+            "load_delegate",
+            "load_delegate"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_tflite_runtime_do": {
+    "message0": "تشغيل LiteRT / TFLite Runtime %1 الوسائط %2 وسائط الكلمات المفتاحية %3",
+    "tooltip": "تشغيل دالة أو مُنشئ مسموح من LiteRT / TFLite Runtime كتعليمة.",
+    "args0": [
+      {
+        "options": [
+          [
+            "Interpreter",
+            "Interpreter"
+          ],
+          [
+            "load_delegate",
+            "load_delegate"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_tflite_runtime_method": {
+    "message0": "كائن LiteRT / TFLite Runtime %1 الطريقة %2 الوسائط %3 وسائط الكلمات المفتاحية %4",
+    "tooltip": "استدعاء طريقة مسموحة لكائن LiteRT / TFLite Runtime وإرجاع النتيجة.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "allocate_tensors",
+            "allocate_tensors"
+          ],
+          [
+            "get_input_details",
+            "get_input_details"
+          ],
+          [
+            "get_output_details",
+            "get_output_details"
+          ],
+          [
+            "set_tensor",
+            "set_tensor"
+          ],
+          [
+            "get_tensor",
+            "get_tensor"
+          ],
+          [
+            "invoke",
+            "invoke"
+          ],
+          [
+            "resize_tensor_input",
+            "resize_tensor_input"
+          ],
+          [
+            "get_signature_runner",
+            "get_signature_runner"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_tflite_runtime_do_method": {
+    "message0": "تشغيل طريقة LiteRT / TFLite Runtime للكائن %1 %2 الوسائط %3 وسائط الكلمات المفتاحية %4",
+    "tooltip": "تشغيل طريقة مسموحة لكائن LiteRT / TFLite Runtime كتعليمة.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "allocate_tensors",
+            "allocate_tensors"
+          ],
+          [
+            "get_input_details",
+            "get_input_details"
+          ],
+          [
+            "get_output_details",
+            "get_output_details"
+          ],
+          [
+            "set_tensor",
+            "set_tensor"
+          ],
+          [
+            "get_tensor",
+            "get_tensor"
+          ],
+          [
+            "invoke",
+            "invoke"
+          ],
+          [
+            "resize_tensor_input",
+            "resize_tensor_input"
+          ],
+          [
+            "get_signature_runner",
+            "get_signature_runner"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  }
+}

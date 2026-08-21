@@ -1,0 +1,114 @@
+{
+  "toolbox_name": "Uvicorn",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_uvicorn_call": {
+    "message0": "Uvicorn вызвать или создать %1 аргументы %2 именованные аргументы %3",
+    "tooltip": "Вызывает разрешённую функцию или конструктор Uvicorn и возвращает результат.",
+    "args0": [
+      {
+        "options": [
+          [
+            "run",
+            "run"
+          ],
+          [
+            "Config",
+            "Config"
+          ],
+          [
+            "Server",
+            "Server"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_uvicorn_do": {
+    "message0": "выполнить Uvicorn %1 аргументы %2 именованные аргументы %3",
+    "tooltip": "Выполняет разрешённую функцию или конструктор Uvicorn как инструкцию.",
+    "args0": [
+      {
+        "options": [
+          [
+            "run",
+            "run"
+          ],
+          [
+            "Config",
+            "Config"
+          ],
+          [
+            "Server",
+            "Server"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_uvicorn_method": {
+    "message0": "объект Uvicorn %1 метод %2 аргументы %3 именованные аргументы %4",
+    "tooltip": "Вызывает разрешённый метод объекта Uvicorn и возвращает результат.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "run",
+            "run"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_uvicorn_do_method": {
+    "message0": "выполнить метод Uvicorn объекта %1 %2 аргументы %3 именованные аргументы %4",
+    "tooltip": "Выполняет разрешённый метод объекта Uvicorn как инструкцию.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "run",
+            "run"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_uvicorn_attribute": {
+    "message0": "объект Uvicorn %1 атрибут %2",
+    "tooltip": "Читает разрешённый атрибут объекта или модуля Uvicorn.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "started",
+            "started"
+          ],
+          [
+            "should_exit",
+            "should_exit"
+          ],
+          [
+            "force_exit",
+            "force_exit"
+          ],
+          [
+            "config",
+            "config"
+          ]
+        ]
+      }
+    ]
+  }
+}

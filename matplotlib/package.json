@@ -1,0 +1,47 @@
+{
+  "name": "@aily-project/lib-matplotlib",
+  "nickname": "Matplotlib pyplot",
+  "nickname_zh_cn": "Matplotlib pyplot",
+  "nickname_en": "Matplotlib pyplot",
+  "nickname_zh_hk": "Matplotlib pyplot",
+  "nickname_ja": "Matplotlib pyplot",
+  "nickname_ko": "Matplotlib pyplot",
+  "nickname_de": "Matplotlib pyplot",
+  "nickname_fr": "Matplotlib pyplot",
+  "nickname_es": "Matplotlib pyplot",
+  "nickname_pt": "Matplotlib pyplot",
+  "nickname_ru": "Matplotlib pyplot",
+  "nickname_ar": "Matplotlib pyplot",
+  "version": "0.0.1",
+  "description": "面向树莓派与 Linux 开发板的 Matplotlib pyplot 常用 Python API 白名单积木。",
+  "description_zh_cn": "面向树莓派与 Linux 开发板的 Matplotlib pyplot 常用 Python API 白名单积木。",
+  "description_en": "Allowlisted Matplotlib pyplot Python API blocks for Raspberry Pi and Linux single-board computers.",
+  "spec": true,
+  "compatibility": {
+    "type": [
+      "canaan:k230:cybercam",
+      "broadcom:bcm2712:raspberrypi_5",
+      "allwinner:t527:walnutpi_2b"
+    ],
+    "voltage": [
+      3.3
+    ]
+  },
+  "keywords": [
+    "aily",
+    "blockly",
+    "python",
+    "linux",
+    "raspberry-pi",
+    "matplotlib",
+    "matplotlib.pyplot"
+  ],
+  "tags": [
+    "data"
+  ],
+  "author": "ailyProject",
+  "license": "MIT",
+  "homepage": "https://matplotlib.org/stable/",
+  "dependencies": {},
+  "devDependencies": {}
+}

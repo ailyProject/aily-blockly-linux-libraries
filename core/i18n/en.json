@@ -78,6 +78,62 @@
       null
     ]
   },
+  "python_arguments": {
+    "message0": "arguments %1 %2 %3 %4 %5 %6",
+    "tooltip": "Build a positional argument list from the connected values.",
+    "args0": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "python_keyword_arguments": {
+    "message0": "keyword arguments %1 : %2 %3 : %4 %5 : %6 %7 : %8 %9 : %10 %11 : %12",
+    "tooltip": "Build a keyword argument dictionary; rows with an empty key are skipped.",
+    "args0": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "python_get_item": {
+    "message0": "object %1 item %2",
+    "tooltip": "Read an item from a Python object by key or index.",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_set_item": {
+    "message0": "set object %1 item %2 to %3",
+    "tooltip": "Assign a value to an item of a Python object by key or index.",
+    "args0": [
+      null,
+      null,
+      null
+    ]
+  },
+  "python_set_attribute": {
+    "message0": "set object %1 attribute %2 to %3",
+    "tooltip": "Assign a value to a safely validated Python object attribute.",
+    "args0": [
+      null,
+      null,
+      null
+    ]
+  },
   "python_set_variable": {
     "message0": "set variable %1 to %2",
     "tooltip": "set variable %1 to %2",

@@ -1,0 +1,312 @@
+[
+  {
+    "type": "linux_psutil_call",
+    "message0": "psutil call or create %1 arguments %2 keyword arguments %3",
+    "args0": [
+      {
+        "type": "field_dropdown",
+        "name": "TARGET",
+        "options": [
+          [
+            "cpu_percent",
+            "cpu_percent"
+          ],
+          [
+            "cpu_count",
+            "cpu_count"
+          ],
+          [
+            "virtual_memory",
+            "virtual_memory"
+          ],
+          [
+            "disk_usage",
+            "disk_usage"
+          ],
+          [
+            "disk_partitions",
+            "disk_partitions"
+          ],
+          [
+            "net_if_addrs",
+            "net_if_addrs"
+          ],
+          [
+            "net_io_counters",
+            "net_io_counters"
+          ],
+          [
+            "sensors_temperatures",
+            "sensors_temperatures"
+          ],
+          [
+            "boot_time",
+            "boot_time"
+          ],
+          [
+            "pids",
+            "pids"
+          ],
+          [
+            "Process",
+            "Process"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#455A64",
+    "tooltip": "Call an allowlisted psutil function or constructor and return its result.",
+    "icon": "settings",
+    "output": "Any"
+  },
+  {
+    "type": "linux_psutil_do",
+    "message0": "run psutil %1 arguments %2 keyword arguments %3",
+    "args0": [
+      {
+        "type": "field_dropdown",
+        "name": "TARGET",
+        "options": [
+          [
+            "cpu_percent",
+            "cpu_percent"
+          ],
+          [
+            "cpu_count",
+            "cpu_count"
+          ],
+          [
+            "virtual_memory",
+            "virtual_memory"
+          ],
+          [
+            "disk_usage",
+            "disk_usage"
+          ],
+          [
+            "disk_partitions",
+            "disk_partitions"
+          ],
+          [
+            "net_if_addrs",
+            "net_if_addrs"
+          ],
+          [
+            "net_io_counters",
+            "net_io_counters"
+          ],
+          [
+            "sensors_temperatures",
+            "sensors_temperatures"
+          ],
+          [
+            "boot_time",
+            "boot_time"
+          ],
+          [
+            "pids",
+            "pids"
+          ],
+          [
+            "Process",
+            "Process"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#455A64",
+    "tooltip": "Run an allowlisted psutil function or constructor as a statement.",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "linux_psutil_method",
+    "message0": "psutil object %1 call method %2 arguments %3 keyword arguments %4",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "OBJECT"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "METHOD",
+        "options": [
+          [
+            "cpu_percent",
+            "cpu_percent"
+          ],
+          [
+            "memory_info",
+            "memory_info"
+          ],
+          [
+            "io_counters",
+            "io_counters"
+          ],
+          [
+            "open_files",
+            "open_files"
+          ],
+          [
+            "connections",
+            "connections"
+          ],
+          [
+            "terminate",
+            "terminate"
+          ],
+          [
+            "kill",
+            "kill"
+          ],
+          [
+            "wait",
+            "wait"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#455A64",
+    "tooltip": "Call an allowlisted psutil object method and return its result.",
+    "icon": "settings",
+    "output": "Any"
+  },
+  {
+    "type": "linux_psutil_do_method",
+    "message0": "run psutil object %1 method %2 arguments %3 keyword arguments %4",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "OBJECT"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "METHOD",
+        "options": [
+          [
+            "cpu_percent",
+            "cpu_percent"
+          ],
+          [
+            "memory_info",
+            "memory_info"
+          ],
+          [
+            "io_counters",
+            "io_counters"
+          ],
+          [
+            "open_files",
+            "open_files"
+          ],
+          [
+            "connections",
+            "connections"
+          ],
+          [
+            "terminate",
+            "terminate"
+          ],
+          [
+            "kill",
+            "kill"
+          ],
+          [
+            "wait",
+            "wait"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#455A64",
+    "tooltip": "Run an allowlisted psutil object method as a statement.",
+    "icon": "settings",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "linux_psutil_attribute",
+    "message0": "psutil object %1 attribute %2",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "OBJECT"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "ATTRIBUTE",
+        "options": [
+          [
+            "pid",
+            "pid"
+          ],
+          [
+            "total",
+            "total"
+          ],
+          [
+            "available",
+            "available"
+          ],
+          [
+            "percent",
+            "percent"
+          ],
+          [
+            "used",
+            "used"
+          ],
+          [
+            "free",
+            "free"
+          ],
+          [
+            "rss",
+            "rss"
+          ],
+          [
+            "vms",
+            "vms"
+          ]
+        ]
+      }
+    ],
+    "colour": "#455A64",
+    "tooltip": "Read an allowlisted psutil object or module attribute.",
+    "icon": "settings",
+    "output": "Any"
+  }
+]

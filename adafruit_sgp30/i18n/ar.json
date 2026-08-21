@@ -1,0 +1,138 @@
+{
+  "toolbox_name": "CircuitPython SGP30",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_adafruit_sgp30_call": {
+    "message0": "CircuitPython SGP30 استدعاء أو إنشاء %1 الوسائط %2 وسائط الكلمات المفتاحية %3",
+    "tooltip": "استدعاء دالة أو مُنشئ مسموح من CircuitPython SGP30 وإرجاع النتيجة.",
+    "args0": [
+      {
+        "options": [
+          [
+            "Adafruit_SGP30",
+            "Adafruit_SGP30"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_sgp30_do": {
+    "message0": "تشغيل CircuitPython SGP30 %1 الوسائط %2 وسائط الكلمات المفتاحية %3",
+    "tooltip": "تشغيل دالة أو مُنشئ مسموح من CircuitPython SGP30 كتعليمة.",
+    "args0": [
+      {
+        "options": [
+          [
+            "Adafruit_SGP30",
+            "Adafruit_SGP30"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_sgp30_method": {
+    "message0": "كائن CircuitPython SGP30 %1 الطريقة %2 الوسائط %3 وسائط الكلمات المفتاحية %4",
+    "tooltip": "استدعاء طريقة مسموحة لكائن CircuitPython SGP30 وإرجاع النتيجة.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "iaq_init",
+            "iaq_init"
+          ],
+          [
+            "iaq_measure",
+            "iaq_measure"
+          ],
+          [
+            "raw_measure",
+            "raw_measure"
+          ],
+          [
+            "set_iaq_baseline",
+            "set_iaq_baseline"
+          ],
+          [
+            "get_iaq_baseline",
+            "get_iaq_baseline"
+          ],
+          [
+            "set_iaq_relative_humidity",
+            "set_iaq_relative_humidity"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_sgp30_do_method": {
+    "message0": "تشغيل طريقة CircuitPython SGP30 للكائن %1 %2 الوسائط %3 وسائط الكلمات المفتاحية %4",
+    "tooltip": "تشغيل طريقة مسموحة لكائن CircuitPython SGP30 كتعليمة.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "iaq_init",
+            "iaq_init"
+          ],
+          [
+            "iaq_measure",
+            "iaq_measure"
+          ],
+          [
+            "raw_measure",
+            "raw_measure"
+          ],
+          [
+            "set_iaq_baseline",
+            "set_iaq_baseline"
+          ],
+          [
+            "get_iaq_baseline",
+            "get_iaq_baseline"
+          ],
+          [
+            "set_iaq_relative_humidity",
+            "set_iaq_relative_humidity"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_sgp30_attribute": {
+    "message0": "كائن CircuitPython SGP30 %1 السمة %2",
+    "tooltip": "قراءة سمة مسموحة لكائن أو وحدة CircuitPython SGP30.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "eCO2",
+            "eCO2"
+          ],
+          [
+            "TVOC",
+            "TVOC"
+          ],
+          [
+            "raw_h2",
+            "raw_h2"
+          ],
+          [
+            "raw_ethanol",
+            "raw_ethanol"
+          ]
+        ]
+      }
+    ]
+  }
+}

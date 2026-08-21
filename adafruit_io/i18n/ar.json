@@ -1,0 +1,206 @@
+{
+  "toolbox_name": "Adafruit IO",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_adafruit_io_call": {
+    "message0": "Adafruit IO استدعاء أو إنشاء %1 الوسائط %2 وسائط الكلمات المفتاحية %3",
+    "tooltip": "استدعاء دالة أو مُنشئ مسموح من Adafruit IO وإرجاع النتيجة.",
+    "args0": [
+      {
+        "options": [
+          [
+            "Client",
+            "Client"
+          ],
+          [
+            "MQTTClient",
+            "MQTTClient"
+          ],
+          [
+            "Feed",
+            "Feed"
+          ],
+          [
+            "Data",
+            "Data"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_io_do": {
+    "message0": "تشغيل Adafruit IO %1 الوسائط %2 وسائط الكلمات المفتاحية %3",
+    "tooltip": "تشغيل دالة أو مُنشئ مسموح من Adafruit IO كتعليمة.",
+    "args0": [
+      {
+        "options": [
+          [
+            "Client",
+            "Client"
+          ],
+          [
+            "MQTTClient",
+            "MQTTClient"
+          ],
+          [
+            "Feed",
+            "Feed"
+          ],
+          [
+            "Data",
+            "Data"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_io_method": {
+    "message0": "كائن Adafruit IO %1 الطريقة %2 الوسائط %3 وسائط الكلمات المفتاحية %4",
+    "tooltip": "استدعاء طريقة مسموحة لكائن Adafruit IO وإرجاع النتيجة.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "feeds",
+            "feeds"
+          ],
+          [
+            "create_feed",
+            "create_feed"
+          ],
+          [
+            "send",
+            "send"
+          ],
+          [
+            "receive",
+            "receive"
+          ],
+          [
+            "data",
+            "data"
+          ],
+          [
+            "delete",
+            "delete"
+          ],
+          [
+            "connect",
+            "connect"
+          ],
+          [
+            "disconnect",
+            "disconnect"
+          ],
+          [
+            "loop_background",
+            "loop_background"
+          ],
+          [
+            "subscribe",
+            "subscribe"
+          ],
+          [
+            "publish",
+            "publish"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_io_do_method": {
+    "message0": "تشغيل طريقة Adafruit IO للكائن %1 %2 الوسائط %3 وسائط الكلمات المفتاحية %4",
+    "tooltip": "تشغيل طريقة مسموحة لكائن Adafruit IO كتعليمة.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "feeds",
+            "feeds"
+          ],
+          [
+            "create_feed",
+            "create_feed"
+          ],
+          [
+            "send",
+            "send"
+          ],
+          [
+            "receive",
+            "receive"
+          ],
+          [
+            "data",
+            "data"
+          ],
+          [
+            "delete",
+            "delete"
+          ],
+          [
+            "connect",
+            "connect"
+          ],
+          [
+            "disconnect",
+            "disconnect"
+          ],
+          [
+            "loop_background",
+            "loop_background"
+          ],
+          [
+            "subscribe",
+            "subscribe"
+          ],
+          [
+            "publish",
+            "publish"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_io_attribute": {
+    "message0": "كائن Adafruit IO %1 السمة %2",
+    "tooltip": "قراءة سمة مسموحة لكائن أو وحدة Adafruit IO.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "key",
+            "key"
+          ],
+          [
+            "name",
+            "name"
+          ],
+          [
+            "id",
+            "id"
+          ],
+          [
+            "value",
+            "value"
+          ],
+          [
+            "created_at",
+            "created_at"
+          ]
+        ]
+      }
+    ]
+  }
+}

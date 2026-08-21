@@ -1,0 +1,106 @@
+{
+  "toolbox_name": "CircuitPython CCS811",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_adafruit_ccs811_call": {
+    "message0": "CircuitPython CCS811 call or create %1 arguments %2 keyword arguments %3",
+    "tooltip": "Call an allowlisted CircuitPython CCS811 function or constructor and return its result.",
+    "args0": [
+      {
+        "options": [
+          [
+            "CCS811",
+            "CCS811"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_ccs811_do": {
+    "message0": "run CircuitPython CCS811 %1 arguments %2 keyword arguments %3",
+    "tooltip": "Run an allowlisted CircuitPython CCS811 function or constructor as a statement.",
+    "args0": [
+      {
+        "options": [
+          [
+            "CCS811",
+            "CCS811"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_ccs811_method": {
+    "message0": "CircuitPython CCS811 object %1 call method %2 arguments %3 keyword arguments %4",
+    "tooltip": "Call an allowlisted CircuitPython CCS811 object method and return its result.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "reset",
+            "reset"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_ccs811_do_method": {
+    "message0": "run CircuitPython CCS811 object %1 method %2 arguments %3 keyword arguments %4",
+    "tooltip": "Run an allowlisted CircuitPython CCS811 object method as a statement.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "reset",
+            "reset"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_ccs811_attribute": {
+    "message0": "CircuitPython CCS811 object %1 attribute %2",
+    "tooltip": "Read an allowlisted CircuitPython CCS811 object or module attribute.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "eco2",
+            "eco2"
+          ],
+          [
+            "tvoc",
+            "tvoc"
+          ],
+          [
+            "data_ready",
+            "data_ready"
+          ],
+          [
+            "baseline",
+            "baseline"
+          ],
+          [
+            "temperature",
+            "temperature"
+          ],
+          [
+            "drive_mode",
+            "drive_mode"
+          ]
+        ]
+      }
+    ]
+  }
+}

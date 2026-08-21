@@ -1,0 +1,45 @@
+{
+  "name": "@aily-project/lib-adafruit-bme680",
+  "nickname": "CircuitPython BME680",
+  "nickname_zh_cn": "CircuitPython BME680",
+  "nickname_en": "CircuitPython BME680",
+  "nickname_zh_hk": "CircuitPython BME680",
+  "nickname_ja": "CircuitPython BME680",
+  "nickname_ko": "CircuitPython BME680",
+  "nickname_de": "CircuitPython BME680",
+  "nickname_fr": "CircuitPython BME680",
+  "nickname_es": "CircuitPython BME680",
+  "nickname_pt": "CircuitPython BME680",
+  "nickname_ru": "CircuitPython BME680",
+  "nickname_ar": "CircuitPython BME680",
+  "version": "0.0.1",
+  "description": "面向树莓派与 Linux 开发板的 CircuitPython BME680 常用 Python API 白名单积木。",
+  "description_zh_cn": "面向树莓派与 Linux 开发板的 CircuitPython BME680 常用 Python API 白名单积木。",
+  "description_en": "Allowlisted CircuitPython BME680 Python API blocks for Raspberry Pi and Linux single-board computers.",
+  "spec": true,
+  "compatibility": {
+    "type": [
+      "broadcom:bcm2712:raspberrypi_5"
+    ],
+    "voltage": [
+      3.3
+    ]
+  },
+  "keywords": [
+    "aily",
+    "blockly",
+    "python",
+    "linux",
+    "raspberry-pi",
+    "adafruit-circuitpython-bme680",
+    "adafruit_bme680"
+  ],
+  "tags": [
+    "io"
+  ],
+  "author": "ailyProject",
+  "license": "MIT",
+  "homepage": "https://docs.circuitpython.org/projects/bme680/en/latest/",
+  "dependencies": {},
+  "devDependencies": {}
+}

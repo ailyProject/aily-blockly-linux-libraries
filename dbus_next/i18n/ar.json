@@ -1,0 +1,142 @@
+{
+  "toolbox_name": "dbus-next",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_dbus_next_call": {
+    "message0": "dbus-next استدعاء أو إنشاء %1 الوسائط %2 وسائط الكلمات المفتاحية %3",
+    "tooltip": "استدعاء دالة أو مُنشئ مسموح من dbus-next وإرجاع النتيجة.",
+    "args0": [
+      {
+        "options": [
+          [
+            "MessageBus",
+            "MessageBus"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_dbus_next_do": {
+    "message0": "تشغيل dbus-next %1 الوسائط %2 وسائط الكلمات المفتاحية %3",
+    "tooltip": "تشغيل دالة أو مُنشئ مسموح من dbus-next كتعليمة.",
+    "args0": [
+      {
+        "options": [
+          [
+            "MessageBus",
+            "MessageBus"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_dbus_next_method": {
+    "message0": "كائن dbus-next %1 الطريقة %2 الوسائط %3 وسائط الكلمات المفتاحية %4",
+    "tooltip": "استدعاء طريقة مسموحة لكائن dbus-next وإرجاع النتيجة.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "connect",
+            "connect"
+          ],
+          [
+            "disconnect",
+            "disconnect"
+          ],
+          [
+            "introspect",
+            "introspect"
+          ],
+          [
+            "get_proxy_object",
+            "get_proxy_object"
+          ],
+          [
+            "call",
+            "call"
+          ],
+          [
+            "export",
+            "export"
+          ],
+          [
+            "unexport",
+            "unexport"
+          ],
+          [
+            "request_name",
+            "request_name"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_dbus_next_do_method": {
+    "message0": "تشغيل طريقة dbus-next للكائن %1 %2 الوسائط %3 وسائط الكلمات المفتاحية %4",
+    "tooltip": "تشغيل طريقة مسموحة لكائن dbus-next كتعليمة.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "connect",
+            "connect"
+          ],
+          [
+            "disconnect",
+            "disconnect"
+          ],
+          [
+            "introspect",
+            "introspect"
+          ],
+          [
+            "get_proxy_object",
+            "get_proxy_object"
+          ],
+          [
+            "call",
+            "call"
+          ],
+          [
+            "export",
+            "export"
+          ],
+          [
+            "unexport",
+            "unexport"
+          ],
+          [
+            "request_name",
+            "request_name"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_dbus_next_attribute": {
+    "message0": "كائن dbus-next %1 السمة %2",
+    "tooltip": "قراءة سمة مسموحة لكائن أو وحدة dbus-next.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "unique_name",
+            "unique_name"
+          ]
+        ]
+      }
+    ]
+  }
+}

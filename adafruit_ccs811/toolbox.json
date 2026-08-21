@@ -1,0 +1,27 @@
+{
+  "kind": "category",
+  "name": "CircuitPython CCS811",
+  "colour": "#00897B",
+  "contents": [
+    {
+      "kind": "block",
+      "type": "python_adafruit_ccs811_call"
+    },
+    {
+      "kind": "block",
+      "type": "python_adafruit_ccs811_do"
+    },
+    {
+      "kind": "block",
+      "type": "python_adafruit_ccs811_method"
+    },
+    {
+      "kind": "block",
+      "type": "python_adafruit_ccs811_do_method"
+    },
+    {
+      "kind": "block",
+      "type": "python_adafruit_ccs811_attribute"
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "toolbox_name": "Munkres",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_munkres_call": {
+    "message0": "Munkres appeler ou créer %1 arguments %2 arguments nommés %3",
+    "tooltip": "Appeler une fonction ou un constructeur Munkres autorisé et renvoyer le résultat.",
+    "args0": [
+      {
+        "options": [
+          [
+            "Munkres",
+            "Munkres"
+          ],
+          [
+            "make_cost_matrix",
+            "make_cost_matrix"
+          ],
+          [
+            "print_matrix",
+            "print_matrix"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_munkres_do": {
+    "message0": "exécuter Munkres %1 arguments %2 arguments nommés %3",
+    "tooltip": "Exécuter une fonction ou un constructeur Munkres autorisé comme instruction.",
+    "args0": [
+      {
+        "options": [
+          [
+            "Munkres",
+            "Munkres"
+          ],
+          [
+            "make_cost_matrix",
+            "make_cost_matrix"
+          ],
+          [
+            "print_matrix",
+            "print_matrix"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_munkres_method": {
+    "message0": "objet Munkres %1 méthode %2 arguments %3 arguments nommés %4",
+    "tooltip": "Appeler une méthode autorisée d’un objet Munkres et renvoyer le résultat.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "compute",
+            "compute"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_munkres_do_method": {
+    "message0": "exécuter la méthode Munkres de l’objet %1 %2 arguments %3 arguments nommés %4",
+    "tooltip": "Exécuter une méthode autorisée d’un objet Munkres comme instruction.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "compute",
+            "compute"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_munkres_attribute": {
+    "message0": "objet Munkres %1 attribut %2",
+    "tooltip": "Lire un attribut autorisé d’un objet ou module Munkres.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "DISALLOWED",
+            "DISALLOWED"
+          ]
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "kind": "category",
+  "name": "websockets",
+  "colour": "#0288D1",
+  "contents": [
+    {
+      "kind": "block",
+      "type": "python_websockets_call"
+    },
+    {
+      "kind": "block",
+      "type": "python_websockets_do"
+    },
+    {
+      "kind": "block",
+      "type": "python_websockets_method"
+    },
+    {
+      "kind": "block",
+      "type": "python_websockets_do_method"
+    },
+    {
+      "kind": "block",
+      "type": "python_websockets_attribute"
+    }
+  ]
+}

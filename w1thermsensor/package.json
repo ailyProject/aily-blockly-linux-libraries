@@ -1,0 +1,45 @@
+{
+  "name": "@aily-project/lib-w1thermsensor",
+  "nickname": "W1ThermSensor",
+  "nickname_zh_cn": "W1ThermSensor",
+  "nickname_en": "W1ThermSensor",
+  "nickname_zh_hk": "W1ThermSensor",
+  "nickname_ja": "W1ThermSensor",
+  "nickname_ko": "W1ThermSensor",
+  "nickname_de": "W1ThermSensor",
+  "nickname_fr": "W1ThermSensor",
+  "nickname_es": "W1ThermSensor",
+  "nickname_pt": "W1ThermSensor",
+  "nickname_ru": "W1ThermSensor",
+  "nickname_ar": "W1ThermSensor",
+  "version": "0.0.1",
+  "description": "面向树莓派与 Linux 开发板的 W1ThermSensor 常用 Python API 白名单积木。",
+  "description_zh_cn": "面向树莓派与 Linux 开发板的 W1ThermSensor 常用 Python API 白名单积木。",
+  "description_en": "Allowlisted W1ThermSensor Python API blocks for Raspberry Pi and Linux single-board computers.",
+  "spec": true,
+  "compatibility": {
+    "type": [
+      "broadcom:bcm2712:raspberrypi_5"
+    ],
+    "voltage": [
+      3.3
+    ]
+  },
+  "keywords": [
+    "aily",
+    "blockly",
+    "python",
+    "linux",
+    "raspberry-pi",
+    "w1thermsensor",
+    "w1thermsensor"
+  ],
+  "tags": [
+    "io"
+  ],
+  "author": "ailyProject",
+  "license": "MIT",
+  "homepage": "https://github.com/timofurrer/w1thermsensor",
+  "dependencies": {},
+  "devDependencies": {}
+}

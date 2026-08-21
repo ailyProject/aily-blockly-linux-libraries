@@ -1,0 +1,186 @@
+{
+  "toolbox_name": "pyudev",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "linux_pyudev_call": {
+    "message0": "pyudev 呼叫或建立 %1 參數 %2 關鍵字參數 %3",
+    "tooltip": "呼叫白名單中的 pyudev 函式或建構器並傳回結果。",
+    "args0": [
+      {
+        "options": [
+          [
+            "Context",
+            "Context"
+          ],
+          [
+            "Monitor",
+            "Monitor"
+          ],
+          [
+            "MonitorObserver",
+            "MonitorObserver"
+          ],
+          [
+            "Devices.from_path",
+            "Devices.from_path"
+          ],
+          [
+            "Devices.from_device_file",
+            "Devices.from_device_file"
+          ],
+          [
+            "Devices.from_device_number",
+            "Devices.from_device_number"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "linux_pyudev_do": {
+    "message0": "執行 pyudev %1 參數 %2 關鍵字參數 %3",
+    "tooltip": "以敘述方式執行白名單中的 pyudev 函式或建構器。",
+    "args0": [
+      {
+        "options": [
+          [
+            "Context",
+            "Context"
+          ],
+          [
+            "Monitor",
+            "Monitor"
+          ],
+          [
+            "MonitorObserver",
+            "MonitorObserver"
+          ],
+          [
+            "Devices.from_path",
+            "Devices.from_path"
+          ],
+          [
+            "Devices.from_device_file",
+            "Devices.from_device_file"
+          ],
+          [
+            "Devices.from_device_number",
+            "Devices.from_device_number"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "linux_pyudev_method": {
+    "message0": "pyudev 物件 %1 呼叫方法 %2 參數 %3 關鍵字參數 %4",
+    "tooltip": "呼叫白名單中的 pyudev 物件方法並傳回結果。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "list_devices",
+            "list_devices"
+          ],
+          [
+            "filter_by",
+            "filter_by"
+          ],
+          [
+            "enable_receiving",
+            "enable_receiving"
+          ],
+          [
+            "start",
+            "start"
+          ],
+          [
+            "stop",
+            "stop"
+          ],
+          [
+            "poll",
+            "poll"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "linux_pyudev_do_method": {
+    "message0": "執行 pyudev 物件 %1 的方法 %2 參數 %3 關鍵字參數 %4",
+    "tooltip": "以敘述方式執行白名單中的 pyudev 物件方法。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "list_devices",
+            "list_devices"
+          ],
+          [
+            "filter_by",
+            "filter_by"
+          ],
+          [
+            "enable_receiving",
+            "enable_receiving"
+          ],
+          [
+            "start",
+            "start"
+          ],
+          [
+            "stop",
+            "stop"
+          ],
+          [
+            "poll",
+            "poll"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "linux_pyudev_attribute": {
+    "message0": "pyudev 物件 %1 屬性 %2",
+    "tooltip": "讀取白名單中的 pyudev 物件或模組屬性。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "device_path",
+            "device_path"
+          ],
+          [
+            "device_node",
+            "device_node"
+          ],
+          [
+            "subsystem",
+            "subsystem"
+          ],
+          [
+            "sys_name",
+            "sys_name"
+          ],
+          [
+            "properties",
+            "properties"
+          ],
+          [
+            "parent",
+            "parent"
+          ]
+        ]
+      }
+    ]
+  }
+}

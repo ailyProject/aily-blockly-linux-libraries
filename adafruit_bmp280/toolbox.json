@@ -1,0 +1,19 @@
+{
+  "kind": "category",
+  "name": "CircuitPython BMP280",
+  "colour": "#00897B",
+  "contents": [
+    {
+      "kind": "block",
+      "type": "python_adafruit_bmp280_call"
+    },
+    {
+      "kind": "block",
+      "type": "python_adafruit_bmp280_do"
+    },
+    {
+      "kind": "block",
+      "type": "python_adafruit_bmp280_attribute"
+    }
+  ]
+}

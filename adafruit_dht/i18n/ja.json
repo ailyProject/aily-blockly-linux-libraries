@@ -1,0 +1,98 @@
+{
+  "toolbox_name": "CircuitPython DHT",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_adafruit_dht_call": {
+    "message0": "CircuitPython DHT 呼び出しまたは作成 %1 引数 %2 キーワード引数 %3",
+    "tooltip": "許可された CircuitPython DHT の関数またはコンストラクターを呼び出して結果を返します。",
+    "args0": [
+      {
+        "options": [
+          [
+            "DHT11",
+            "DHT11"
+          ],
+          [
+            "DHT22",
+            "DHT22"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_dht_do": {
+    "message0": "CircuitPython DHT を実行 %1 引数 %2 キーワード引数 %3",
+    "tooltip": "許可された CircuitPython DHT の関数またはコンストラクターを文として実行します。",
+    "args0": [
+      {
+        "options": [
+          [
+            "DHT11",
+            "DHT11"
+          ],
+          [
+            "DHT22",
+            "DHT22"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_dht_method": {
+    "message0": "CircuitPython DHT オブジェクト %1 メソッド %2 引数 %3 キーワード引数 %4",
+    "tooltip": "許可された CircuitPython DHT オブジェクトのメソッドを呼び出して結果を返します。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "exit",
+            "exit"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_dht_do_method": {
+    "message0": "CircuitPython DHT オブジェクト %1 のメソッド %2 を実行 引数 %3 キーワード引数 %4",
+    "tooltip": "許可された CircuitPython DHT オブジェクトのメソッドを文として実行します。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "exit",
+            "exit"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "python_adafruit_dht_attribute": {
+    "message0": "CircuitPython DHT オブジェクト %1 属性 %2",
+    "tooltip": "許可された CircuitPython DHT オブジェクトまたはモジュールの属性を読み取ります。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "temperature",
+            "temperature"
+          ],
+          [
+            "humidity",
+            "humidity"
+          ]
+        ]
+      }
+    ]
+  }
+}

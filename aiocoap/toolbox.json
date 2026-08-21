@@ -1,0 +1,27 @@
+{
+  "kind": "category",
+  "name": "aiocoap",
+  "colour": "#0288D1",
+  "contents": [
+    {
+      "kind": "block",
+      "type": "python_aiocoap_call"
+    },
+    {
+      "kind": "block",
+      "type": "python_aiocoap_do"
+    },
+    {
+      "kind": "block",
+      "type": "python_aiocoap_method"
+    },
+    {
+      "kind": "block",
+      "type": "python_aiocoap_do_method"
+    },
+    {
+      "kind": "block",
+      "type": "python_aiocoap_attribute"
+    }
+  ]
+}

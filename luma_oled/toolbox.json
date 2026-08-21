@@ -1,0 +1,27 @@
+{
+  "kind": "category",
+  "name": "luma.oled",
+  "colour": "#1976D2",
+  "contents": [
+    {
+      "kind": "block",
+      "type": "python_luma_oled_call"
+    },
+    {
+      "kind": "block",
+      "type": "python_luma_oled_do"
+    },
+    {
+      "kind": "block",
+      "type": "python_luma_oled_method"
+    },
+    {
+      "kind": "block",
+      "type": "python_luma_oled_do_method"
+    },
+    {
+      "kind": "block",
+      "type": "python_luma_oled_attribute"
+    }
+  ]
+}
