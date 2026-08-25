@@ -1,6 +1,7 @@
 {
   "kind": "category",
   "name": "CircuitPython ADS1x15",
+  "icon": "fa-light fa-gauge-high",
   "colour": "#00897B",
   "contents": [
     {

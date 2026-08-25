@@ -1,0 +1,49 @@
+{
+  "name": "@aily-project/lib-core-variables",
+  "nickname": "Variables",
+  "nickname_zh_cn": "变量",
+  "nickname_en": "Variables",
+  "nickname_zh_hk": "變數",
+  "nickname_ja": "変数",
+  "nickname_ko": "변수",
+  "nickname_de": "Variablen",
+  "nickname_fr": "Variables",
+  "nickname_es": "Variables",
+  "nickname_pt": "Variáveis",
+  "nickname_ru": "Переменные",
+  "nickname_ar": "المتغيرات",
+  "version": "0.0.1",
+  "description": "Get, set, and change workspace variables in CPython projects.",
+  "description_en": "Get, set, and change workspace variables in CPython projects.",
+  "description_zh_cn": "在 CPython 项目中读取、设置和修改工作区变量。",
+  "spec": true,
+  "compatibility": {
+    "type": [
+      "allwinner:t527:walnutpi_2b",
+      "broadcom:bcm2710a1:raspberrypi_0_2w",
+      "broadcom:bcm2711:raspberrypi_4b",
+      "broadcom:bcm2712:raspberrypi_5",
+      "canaan:k230:cybercam",
+      "nvidia:tegra234:jetson_agx_orin",
+      "nvidia:tegra234:jetson_orin_nano",
+      "nvidia:tegra234:jetson_orin_nx"
+    ],
+    "voltage": [
+      3.3
+    ]
+  },
+  "keywords": [
+    "aily",
+    "blockly",
+    "python",
+    "variable",
+    "state"
+  ],
+  "tags": [
+    "core"
+  ],
+  "author": "ailyProject",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {}
+}

@@ -1,0 +1,47 @@
+{
+  "name": "@aily-project/lib-pycuda",
+  "nickname": "PyCUDA",
+  "nickname_ar": "PyCUDA",
+  "nickname_de": "PyCUDA",
+  "nickname_en": "PyCUDA",
+  "nickname_es": "PyCUDA",
+  "nickname_fr": "PyCUDA",
+  "nickname_ja": "PyCUDA",
+  "nickname_ko": "PyCUDA",
+  "nickname_pt": "PyCUDA",
+  "nickname_ru": "PyCUDA",
+  "nickname_zh_cn": "PyCUDA",
+  "nickname_zh_hk": "PyCUDA",
+  "version": "0.0.1",
+  "description": "PyCUDA 通过显式 CPython API 白名单为受支持的 Linux 单板机提供积木。",
+  "description_zh_cn": "PyCUDA 通过显式 CPython API 白名单为受支持的 Linux 单板机提供积木。",
+  "description_en": "Allowlisted PyCUDA Python API blocks for Raspberry Pi and Linux single-board computers.",
+  "spec": true,
+  "compatibility": {
+    "type": [
+      "nvidia:tegra234:jetson_agx_orin",
+      "nvidia:tegra234:jetson_orin_nano",
+      "nvidia:tegra234:jetson_orin_nx"
+    ],
+    "voltage": [
+      3.3
+    ]
+  },
+  "keywords": [
+    "aily",
+    "blockly",
+    "python",
+    "linux",
+    "raspberry-pi",
+    "pycuda",
+    "pycuda.driver"
+  ],
+  "tags": [
+    "display"
+  ],
+  "author": "ailyProject",
+  "license": "MIT",
+  "homepage": "https://documen.tician.de/pycuda/",
+  "dependencies": {},
+  "devDependencies": {}
+}

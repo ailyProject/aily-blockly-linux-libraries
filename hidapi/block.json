@@ -28,7 +28,7 @@
     ],
     "colour": "#00897B",
     "tooltip": "Call an allowlisted hidapi function or constructor and return its result.",
-    "icon": "settings",
+    "icon": "fa-light fa-code",
     "output": "Any"
   },
   {
@@ -60,7 +60,7 @@
     ],
     "colour": "#00897B",
     "tooltip": "Run an allowlisted hidapi function or constructor as a statement.",
-    "icon": "settings",
+    "icon": "fa-light fa-play",
     "previousStatement": null,
     "nextStatement": null
   },
@@ -133,7 +133,7 @@
     ],
     "colour": "#00897B",
     "tooltip": "Call an allowlisted hidapi object method and return its result.",
-    "icon": "settings",
+    "icon": "fa-light fa-gear",
     "output": "Any"
   },
   {
@@ -205,7 +205,7 @@
     ],
     "colour": "#00897B",
     "tooltip": "Run an allowlisted hidapi object method as a statement.",
-    "icon": "settings",
+    "icon": "fa-light fa-gears",
     "previousStatement": null,
     "nextStatement": null
   }

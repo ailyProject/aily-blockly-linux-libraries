@@ -1,0 +1,47 @@
+{
+  "name": "@aily-project/lib-tensorrt",
+  "nickname": "NVIDIA TensorRT",
+  "nickname_ar": "NVIDIA TensorRT",
+  "nickname_de": "NVIDIA TensorRT",
+  "nickname_en": "NVIDIA TensorRT",
+  "nickname_es": "NVIDIA TensorRT",
+  "nickname_fr": "NVIDIA TensorRT",
+  "nickname_ja": "NVIDIA TensorRT",
+  "nickname_ko": "NVIDIA TensorRT",
+  "nickname_pt": "NVIDIA TensorRT",
+  "nickname_ru": "NVIDIA TensorRT",
+  "nickname_zh_cn": "NVIDIA TensorRT",
+  "nickname_zh_hk": "NVIDIA TensorRT",
+  "version": "0.0.1",
+  "description": "NVIDIA TensorRT 通过显式 CPython API 白名单为受支持的 Linux 单板机提供积木。",
+  "description_zh_cn": "NVIDIA TensorRT 通过显式 CPython API 白名单为受支持的 Linux 单板机提供积木。",
+  "description_en": "Allowlisted NVIDIA TensorRT Python API blocks for Raspberry Pi and Linux single-board computers.",
+  "spec": true,
+  "compatibility": {
+    "type": [
+      "nvidia:tegra234:jetson_agx_orin",
+      "nvidia:tegra234:jetson_orin_nano",
+      "nvidia:tegra234:jetson_orin_nx"
+    ],
+    "voltage": [
+      3.3
+    ]
+  },
+  "keywords": [
+    "aily",
+    "blockly",
+    "python",
+    "linux",
+    "raspberry-pi",
+    "tensorrt",
+    "tensorrt"
+  ],
+  "tags": [
+    "display"
+  ],
+  "author": "ailyProject",
+  "license": "MIT",
+  "homepage": "https://docs.nvidia.com/deeplearning/tensorrt/latest/api/python-api.html",
+  "dependencies": {},
+  "devDependencies": {}
+}

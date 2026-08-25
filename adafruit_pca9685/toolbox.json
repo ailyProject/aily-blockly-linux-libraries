@@ -1,6 +1,7 @@
 {
   "kind": "category",
   "name": "CircuitPython PCA9685",
+  "icon": "fa-light fa-wave-square",
   "colour": "#00897B",
   "contents": [
     {

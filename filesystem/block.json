@@ -11,7 +11,7 @@
     ],
     "colour": "#EF6C00",
     "tooltip": "run system command %1",
-    "icon": "settings",
+    "icon": "fa-light fa-folder-tree",
     "output": "Any"
   },
   {
@@ -19,7 +19,7 @@
     "message0": "CPU temperature °C",
     "colour": "#EF6C00",
     "tooltip": "CPU temperature °C",
-    "icon": "settings",
+    "icon": "fa-light fa-temperature-half",
     "output": "Any"
   }
 ]

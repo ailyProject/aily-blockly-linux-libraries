@@ -1,0 +1,288 @@
+[
+  {
+    "type": "jetson_inference_call",
+    "message0": "jetson-inference call or create %1 arguments %2 keyword arguments %3",
+    "args0": [
+      {
+        "type": "field_dropdown",
+        "name": "TARGET",
+        "options": [
+          [
+            "detectNet",
+            "detectNet"
+          ],
+          [
+            "imageNet",
+            "imageNet"
+          ],
+          [
+            "segNet",
+            "segNet"
+          ],
+          [
+            "poseNet",
+            "poseNet"
+          ],
+          [
+            "actionNet",
+            "actionNet"
+          ],
+          [
+            "backgroundNet",
+            "backgroundNet"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#76B900",
+    "icon": "fa-light fa-microchip",
+    "tooltip": "Call an allowlisted jetson-inference function or constructor and return its result.",
+    "output": "Any"
+  },
+  {
+    "type": "jetson_inference_do",
+    "message0": "run jetson-inference %1 arguments %2 keyword arguments %3",
+    "args0": [
+      {
+        "type": "field_dropdown",
+        "name": "TARGET",
+        "options": [
+          [
+            "detectNet",
+            "detectNet"
+          ],
+          [
+            "imageNet",
+            "imageNet"
+          ],
+          [
+            "segNet",
+            "segNet"
+          ],
+          [
+            "poseNet",
+            "poseNet"
+          ],
+          [
+            "actionNet",
+            "actionNet"
+          ],
+          [
+            "backgroundNet",
+            "backgroundNet"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#76B900",
+    "icon": "fa-light fa-microchip",
+    "tooltip": "Run an allowlisted jetson-inference function or constructor as a statement.",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "jetson_inference_method",
+    "message0": "jetson-inference object %1 call method %2 arguments %3 keyword arguments %4",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "OBJECT"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "METHOD",
+        "options": [
+          [
+            "Detect",
+            "Detect"
+          ],
+          [
+            "Classify",
+            "Classify"
+          ],
+          [
+            "Segment",
+            "Segment"
+          ],
+          [
+            "Process",
+            "Process"
+          ],
+          [
+            "GetNetworkFPS",
+            "GetNetworkFPS"
+          ],
+          [
+            "PrintProfilerTimes",
+            "PrintProfilerTimes"
+          ],
+          [
+            "GetClassDesc",
+            "GetClassDesc"
+          ],
+          [
+            "GetClassLabel",
+            "GetClassLabel"
+          ],
+          [
+            "GetNumClasses",
+            "GetNumClasses"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#76B900",
+    "icon": "fa-light fa-microchip",
+    "tooltip": "Call an allowlisted jetson-inference object method and return its result.",
+    "output": "Any"
+  },
+  {
+    "type": "jetson_inference_do_method",
+    "message0": "run jetson-inference object %1 method %2 arguments %3 keyword arguments %4",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "OBJECT"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "METHOD",
+        "options": [
+          [
+            "Detect",
+            "Detect"
+          ],
+          [
+            "Classify",
+            "Classify"
+          ],
+          [
+            "Segment",
+            "Segment"
+          ],
+          [
+            "Process",
+            "Process"
+          ],
+          [
+            "GetNetworkFPS",
+            "GetNetworkFPS"
+          ],
+          [
+            "PrintProfilerTimes",
+            "PrintProfilerTimes"
+          ],
+          [
+            "GetClassDesc",
+            "GetClassDesc"
+          ],
+          [
+            "GetClassLabel",
+            "GetClassLabel"
+          ],
+          [
+            "GetNumClasses",
+            "GetNumClasses"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#76B900",
+    "icon": "fa-light fa-microchip",
+    "tooltip": "Run an allowlisted jetson-inference object method as a statement.",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "jetson_inference_attribute",
+    "message0": "jetson-inference object %1 attribute %2",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "OBJECT"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "ATTRIBUTE",
+        "options": [
+          [
+            "ClassID",
+            "ClassID"
+          ],
+          [
+            "Confidence",
+            "Confidence"
+          ],
+          [
+            "Left",
+            "Left"
+          ],
+          [
+            "Top",
+            "Top"
+          ],
+          [
+            "Right",
+            "Right"
+          ],
+          [
+            "Bottom",
+            "Bottom"
+          ],
+          [
+            "Width",
+            "Width"
+          ],
+          [
+            "Height",
+            "Height"
+          ],
+          [
+            "Center",
+            "Center"
+          ],
+          [
+            "Area",
+            "Area"
+          ]
+        ]
+      }
+    ],
+    "colour": "#76B900",
+    "icon": "fa-light fa-microchip",
+    "tooltip": "Read an allowlisted jetson-inference object or module attribute.",
+    "output": "Any"
+  }
+]

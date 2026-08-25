@@ -1,0 +1,28 @@
+{
+  "kind": "category",
+  "name": "CuPy",
+  "icon": "fa-light fa-microchip",
+  "colour": "#76B900",
+  "contents": [
+    {
+      "kind": "block",
+      "type": "cupy_call"
+    },
+    {
+      "kind": "block",
+      "type": "cupy_do"
+    },
+    {
+      "kind": "block",
+      "type": "cupy_method"
+    },
+    {
+      "kind": "block",
+      "type": "cupy_do_method"
+    },
+    {
+      "kind": "block",
+      "type": "cupy_attribute"
+    }
+  ]
+}

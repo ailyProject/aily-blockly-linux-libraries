@@ -1,0 +1,28 @@
+{
+  "kind": "category",
+  "name": "PyTorch",
+  "icon": "fa-light fa-brain",
+  "colour": "#1976D2",
+  "contents": [
+    {
+      "kind": "block",
+      "type": "pytorch_call"
+    },
+    {
+      "kind": "block",
+      "type": "pytorch_do"
+    },
+    {
+      "kind": "block",
+      "type": "pytorch_method"
+    },
+    {
+      "kind": "block",
+      "type": "pytorch_do_method"
+    },
+    {
+      "kind": "block",
+      "type": "pytorch_attribute"
+    }
+  ]
+}

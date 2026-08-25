@@ -1,0 +1,320 @@
+[
+  {
+    "type": "gstreamer_call",
+    "message0": "GStreamer call or create %1 arguments %2 keyword arguments %3",
+    "args0": [
+      {
+        "type": "field_dropdown",
+        "name": "TARGET",
+        "options": [
+          [
+            "init",
+            "init"
+          ],
+          [
+            "parse_launch",
+            "parse_launch"
+          ],
+          [
+            "version",
+            "version"
+          ],
+          [
+            "version_string",
+            "version_string"
+          ],
+          [
+            "debug_set_active",
+            "debug_set_active"
+          ],
+          [
+            "debug_set_default_threshold",
+            "debug_set_default_threshold"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#EF6C00",
+    "icon": "fa-light fa-photo-film",
+    "tooltip": "Call an allowlisted GStreamer function or constructor and return its result.",
+    "output": "Any"
+  },
+  {
+    "type": "gstreamer_do",
+    "message0": "run GStreamer %1 arguments %2 keyword arguments %3",
+    "args0": [
+      {
+        "type": "field_dropdown",
+        "name": "TARGET",
+        "options": [
+          [
+            "init",
+            "init"
+          ],
+          [
+            "parse_launch",
+            "parse_launch"
+          ],
+          [
+            "version",
+            "version"
+          ],
+          [
+            "version_string",
+            "version_string"
+          ],
+          [
+            "debug_set_active",
+            "debug_set_active"
+          ],
+          [
+            "debug_set_default_threshold",
+            "debug_set_default_threshold"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#EF6C00",
+    "icon": "fa-light fa-photo-film",
+    "tooltip": "Run an allowlisted GStreamer function or constructor as a statement.",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "gstreamer_method",
+    "message0": "GStreamer object %1 call method %2 arguments %3 keyword arguments %4",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "OBJECT"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "METHOD",
+        "options": [
+          [
+            "set_state",
+            "set_state"
+          ],
+          [
+            "get_state",
+            "get_state"
+          ],
+          [
+            "get_bus",
+            "get_bus"
+          ],
+          [
+            "get_by_name",
+            "get_by_name"
+          ],
+          [
+            "send_event",
+            "send_event"
+          ],
+          [
+            "set_property",
+            "set_property"
+          ],
+          [
+            "get_property",
+            "get_property"
+          ],
+          [
+            "timed_pop_filtered",
+            "timed_pop_filtered"
+          ],
+          [
+            "pop",
+            "pop"
+          ],
+          [
+            "have_pending",
+            "have_pending"
+          ],
+          [
+            "is_playing",
+            "is_playing"
+          ],
+          [
+            "seek_simple",
+            "seek_simple"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#EF6C00",
+    "icon": "fa-light fa-photo-film",
+    "tooltip": "Call an allowlisted GStreamer object method and return its result.",
+    "output": "Any"
+  },
+  {
+    "type": "gstreamer_do_method",
+    "message0": "run GStreamer object %1 method %2 arguments %3 keyword arguments %4",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "OBJECT"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "METHOD",
+        "options": [
+          [
+            "set_state",
+            "set_state"
+          ],
+          [
+            "get_state",
+            "get_state"
+          ],
+          [
+            "get_bus",
+            "get_bus"
+          ],
+          [
+            "get_by_name",
+            "get_by_name"
+          ],
+          [
+            "send_event",
+            "send_event"
+          ],
+          [
+            "set_property",
+            "set_property"
+          ],
+          [
+            "get_property",
+            "get_property"
+          ],
+          [
+            "timed_pop_filtered",
+            "timed_pop_filtered"
+          ],
+          [
+            "pop",
+            "pop"
+          ],
+          [
+            "have_pending",
+            "have_pending"
+          ],
+          [
+            "is_playing",
+            "is_playing"
+          ],
+          [
+            "seek_simple",
+            "seek_simple"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#EF6C00",
+    "icon": "fa-light fa-photo-film",
+    "tooltip": "Run an allowlisted GStreamer object method as a statement.",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "gstreamer_attribute",
+    "message0": "GStreamer object %1 attribute %2",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "OBJECT"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "ATTRIBUTE",
+        "options": [
+          [
+            "State.PLAYING",
+            "State.PLAYING"
+          ],
+          [
+            "State.PAUSED",
+            "State.PAUSED"
+          ],
+          [
+            "State.READY",
+            "State.READY"
+          ],
+          [
+            "State.NULL",
+            "State.NULL"
+          ],
+          [
+            "MessageType.ERROR",
+            "MessageType.ERROR"
+          ],
+          [
+            "MessageType.EOS",
+            "MessageType.EOS"
+          ],
+          [
+            "MessageType.STATE_CHANGED",
+            "MessageType.STATE_CHANGED"
+          ],
+          [
+            "Format.TIME",
+            "Format.TIME"
+          ],
+          [
+            "SeekFlags.FLUSH",
+            "SeekFlags.FLUSH"
+          ],
+          [
+            "SeekFlags.KEY_UNIT",
+            "SeekFlags.KEY_UNIT"
+          ],
+          [
+            "CLOCK_TIME_NONE",
+            "CLOCK_TIME_NONE"
+          ],
+          [
+            "type",
+            "type"
+          ]
+        ]
+      }
+    ],
+    "colour": "#EF6C00",
+    "icon": "fa-light fa-photo-film",
+    "tooltip": "Read an allowlisted GStreamer object or module attribute.",
+    "output": "Any"
+  }
+]

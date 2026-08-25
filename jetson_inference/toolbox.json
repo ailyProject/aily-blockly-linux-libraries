@@ -1,0 +1,28 @@
+{
+  "kind": "category",
+  "name": "jetson-inference",
+  "icon": "fa-light fa-microchip",
+  "colour": "#76B900",
+  "contents": [
+    {
+      "kind": "block",
+      "type": "jetson_inference_call"
+    },
+    {
+      "kind": "block",
+      "type": "jetson_inference_do"
+    },
+    {
+      "kind": "block",
+      "type": "jetson_inference_method"
+    },
+    {
+      "kind": "block",
+      "type": "jetson_inference_do_method"
+    },
+    {
+      "kind": "block",
+      "type": "jetson_inference_attribute"
+    }
+  ]
+}

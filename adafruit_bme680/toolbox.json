@@ -1,6 +1,7 @@
 {
   "kind": "category",
   "name": "CircuitPython BME680",
+  "icon": "fa-light fa-wind",
   "colour": "#00897B",
   "contents": [
     {

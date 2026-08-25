@@ -1,6 +1,7 @@
 {
   "kind": "category",
   "name": "AWS IoT Device SDK v2",
+  "icon": "fa-light fa-cloud",
   "colour": "#0288D1",
   "contents": [
     {

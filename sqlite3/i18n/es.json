@@ -1,0 +1,112 @@
+{
+  "toolbox_name": "SQLite",
+  "toolbox_categories": [
+    "Connection",
+    "Commands",
+    "Cursor results",
+    "Transactions"
+  ],
+  "toolbox_labels": {
+    "Connection": "Connection",
+    "Commands": "Commands",
+    "Cursor results": "Cursor results",
+    "Transactions": "Transactions"
+  },
+  "python_sqlite_connect": {
+    "message0": "open SQLite connection %1 database %2 timeout %3 seconds rows %4",
+    "tooltip": "Open a named SQLite connection, first closing an existing connection with the same name. Cleanup closes the final connection; reconnecting does not commit pending work.",
+    "args0": [
+      null,
+      null,
+      null,
+      {
+        "options": [
+          [
+            "tuples",
+            "TUPLE"
+          ],
+          [
+            "named rows",
+            "ROW"
+          ]
+        ]
+      }
+    ]
+  },
+  "python_sqlite_execute": {
+    "message0": "connection %1 execute SQL %2 parameters %3",
+    "tooltip": "Execute one parameterized SQL statement and return its cursor. A blank parameters input generates an empty tuple.",
+    "args0": [
+      null,
+      null,
+      null
+    ]
+  },
+  "python_sqlite_query": {
+    "message0": "connection %1 query SQL %2 parameters %3",
+    "tooltip": "Run a parameterized query and return its cursor; fetch rows with the cursor result blocks.",
+    "args0": [
+      null,
+      null,
+      null
+    ]
+  },
+  "python_sqlite_executemany": {
+    "message0": "connection %1 execute SQL %2 for parameter rows %3",
+    "tooltip": "Execute one parameterized SQL statement for every parameter row and return its cursor.",
+    "args0": [
+      null,
+      null,
+      null
+    ]
+  },
+  "python_sqlite_fetchone": {
+    "message0": "fetch one row from cursor %1",
+    "tooltip": "Return the next row, or None when the cursor is exhausted.",
+    "args0": [
+      null
+    ]
+  },
+  "python_sqlite_fetchall": {
+    "message0": "fetch all remaining rows from cursor %1",
+    "tooltip": "Return a list containing every remaining row from the cursor.",
+    "args0": [
+      null
+    ]
+  },
+  "python_sqlite_commit": {
+    "message0": "commit connection %1",
+    "tooltip": "Commit the current transaction on the named connection.",
+    "args0": [
+      null
+    ]
+  },
+  "python_sqlite_rollback": {
+    "message0": "roll back connection %1",
+    "tooltip": "Roll back the current transaction on the named connection.",
+    "args0": [
+      null
+    ]
+  },
+  "python_sqlite_rowcount": {
+    "message0": "cursor %1 affected row count",
+    "tooltip": "Read cursor.rowcount. SELECT statements normally report -1 until rows are consumed.",
+    "args0": [
+      null
+    ]
+  },
+  "python_sqlite_lastrowid": {
+    "message0": "cursor %1 last inserted row id",
+    "tooltip": "Read cursor.lastrowid; it may be None when no applicable INSERT has run.",
+    "args0": [
+      null
+    ]
+  },
+  "python_sqlite_close": {
+    "message0": "close SQLite connection %1",
+    "tooltip": "Close the named connection and set its resource variable to None. Closing does not commit pending work.",
+    "args0": [
+      null
+    ]
+  }
+}

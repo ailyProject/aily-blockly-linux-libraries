@@ -24,7 +24,7 @@
     ],
     "colour": "#00897B",
     "tooltip": "Call an allowlisted CircuitPython ServoKit function or constructor and return its result.",
-    "icon": "settings",
+    "icon": "fa-light fa-code",
     "output": "Any"
   },
   {
@@ -52,7 +52,7 @@
     ],
     "colour": "#00897B",
     "tooltip": "Run an allowlisted CircuitPython ServoKit function or constructor as a statement.",
-    "icon": "settings",
+    "icon": "fa-light fa-play",
     "previousStatement": null,
     "nextStatement": null
   },
@@ -85,7 +85,7 @@
     ],
     "colour": "#00897B",
     "tooltip": "Read an allowlisted CircuitPython ServoKit object or module attribute.",
-    "icon": "settings",
+    "icon": "fa-light fa-circle-info",
     "output": "Any"
   }
 ]

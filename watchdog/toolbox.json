@@ -1,6 +1,7 @@
 {
   "kind": "category",
   "name": "watchdog Observer",
+  "icon": "fa-light fa-stopwatch",
   "colour": "#455A64",
   "contents": [
     {

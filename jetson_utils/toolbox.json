@@ -1,0 +1,28 @@
+{
+  "kind": "category",
+  "name": "jetson-utils",
+  "icon": "fa-light fa-microchip",
+  "colour": "#76B900",
+  "contents": [
+    {
+      "kind": "block",
+      "type": "jetson_utils_call"
+    },
+    {
+      "kind": "block",
+      "type": "jetson_utils_do"
+    },
+    {
+      "kind": "block",
+      "type": "jetson_utils_method"
+    },
+    {
+      "kind": "block",
+      "type": "jetson_utils_do_method"
+    },
+    {
+      "kind": "block",
+      "type": "jetson_utils_attribute"
+    }
+  ]
+}

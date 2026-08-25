@@ -1,6 +1,7 @@
 {
   "kind": "category",
   "name": "CircuitPython TSL2591",
+  "icon": "fa-light fa-sun",
   "colour": "#00897B",
   "contents": [
     {

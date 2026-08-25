@@ -42,7 +42,7 @@
     ],
     "colour": "#1976D2",
     "tooltip": "Resize an image using the selected OpenCV interpolation method.",
-    "icon": "camera",
+    "icon": "fa-light fa-eye",
     "output": "Any"
   },
   {
@@ -78,7 +78,7 @@
     ],
     "colour": "#1976D2",
     "tooltip": "convert image %1 using %2",
-    "icon": "camera",
+    "icon": "fa-light fa-code",
     "output": "Any"
   },
   {
@@ -100,7 +100,7 @@
     ],
     "colour": "#1976D2",
     "tooltip": "image %1 mask lower %2 upper %3",
-    "icon": "camera",
+    "icon": "fa-light fa-eye",
     "output": "Any"
   },
   {
@@ -128,7 +128,7 @@
     ],
     "colour": "#1976D2",
     "tooltip": "connected components of %1 connectivity %2",
-    "icon": "camera",
+    "icon": "fa-light fa-eye",
     "output": "Any"
   },
   {
@@ -164,7 +164,7 @@
     ],
     "colour": "#1976D2",
     "tooltip": "Read a value from the tuple returned by connectedComponentsWithStats.",
-    "icon": "camera",
+    "icon": "fa-light fa-circle-info",
     "output": "Any"
   },
   {
@@ -217,7 +217,7 @@
     ],
     "colour": "#1976D2",
     "tooltip": "Read geometry, area, or centroid data for one connected component.",
-    "icon": "camera",
+    "icon": "fa-light fa-circle-info",
     "output": "Number"
   },
   {
@@ -264,7 +264,7 @@
     ],
     "colour": "#1976D2",
     "tooltip": "Run OpenCV Canny edge detection on an 8-bit image.",
-    "icon": "camera",
+    "icon": "fa-light fa-magnifying-glass",
     "output": "Any"
   },
   {
@@ -322,7 +322,7 @@
     ],
     "colour": "#1976D2",
     "tooltip": "Detect circles using the OpenCV Hough circle transform.",
-    "icon": "camera",
+    "icon": "fa-light fa-magnifying-glass",
     "output": "Any"
   },
   {
@@ -356,7 +356,7 @@
     ],
     "colour": "#1976D2",
     "tooltip": "Blur an image with an odd-sized Gaussian kernel.",
-    "icon": "camera",
+    "icon": "fa-light fa-eye",
     "output": "Any"
   },
   {
@@ -394,7 +394,7 @@
     ],
     "colour": "#1976D2",
     "tooltip": "Create an OpenCV morphology structuring element.",
-    "icon": "camera",
+    "icon": "fa-light fa-eye",
     "output": "Any"
   },
   {
@@ -447,7 +447,7 @@
     ],
     "colour": "#1976D2",
     "tooltip": "Apply an OpenCV morphologyEx operation.",
-    "icon": "camera",
+    "icon": "fa-light fa-eye",
     "output": "Any"
   },
   {
@@ -505,7 +505,7 @@
     ],
     "colour": "#1976D2",
     "tooltip": "Find contours and return only the contours list.",
-    "icon": "camera",
+    "icon": "fa-light fa-magnifying-glass",
     "output": "Any"
   },
   {
@@ -519,7 +519,7 @@
     ],
     "colour": "#1976D2",
     "tooltip": "Return the area enclosed by a contour.",
-    "icon": "camera",
+    "icon": "fa-light fa-magnifying-glass",
     "output": "Number"
   },
   {
@@ -538,7 +538,7 @@
     ],
     "colour": "#1976D2",
     "tooltip": "Return a contour arc length or closed perimeter.",
-    "icon": "camera",
+    "icon": "fa-light fa-magnifying-glass",
     "output": "Number"
   },
   {
@@ -562,7 +562,7 @@
     ],
     "colour": "#1976D2",
     "tooltip": "Approximate a contour with the Douglas-Peucker algorithm.",
-    "icon": "camera",
+    "icon": "fa-light fa-magnifying-glass",
     "output": "Any"
   },
   {
@@ -576,7 +576,7 @@
     ],
     "colour": "#1976D2",
     "tooltip": "Test whether a contour is convex.",
-    "icon": "camera",
+    "icon": "fa-light fa-magnifying-glass",
     "output": "Boolean"
   },
   {
@@ -590,7 +590,7 @@
     ],
     "colour": "#1976D2",
     "tooltip": "Return the minimum-area rotated rectangle for a contour.",
-    "icon": "camera",
+    "icon": "fa-light fa-magnifying-glass",
     "output": "Any"
   },
   {
@@ -604,7 +604,7 @@
     ],
     "colour": "#1976D2",
     "tooltip": "Return four corner points for an OpenCV rotated rectangle.",
-    "icon": "camera",
+    "icon": "fa-light fa-eye",
     "output": "Any"
   },
   {
@@ -619,7 +619,7 @@
     ],
     "colour": "#1976D2",
     "tooltip": "load image file %1",
-    "icon": "camera",
+    "icon": "fa-light fa-eye",
     "output": "Any"
   },
   {
@@ -638,7 +638,7 @@
     ],
     "colour": "#1976D2",
     "tooltip": "save image %1 to file %2",
-    "icon": "camera",
+    "icon": "fa-light fa-floppy-disk",
     "previousStatement": null,
     "nextStatement": null
   },
@@ -682,7 +682,7 @@
     ],
     "colour": "#1976D2",
     "tooltip": "draw rectangle on %1 from x %2 y %3 to x %4 y %5 color %6 thickness %7",
-    "icon": "camera",
+    "icon": "fa-light fa-image",
     "previousStatement": null,
     "nextStatement": null
   },
@@ -721,7 +721,7 @@
     ],
     "colour": "#1976D2",
     "tooltip": "draw circle on %1 x %2 y %3 radius %4 color %5 thickness %6",
-    "icon": "camera",
+    "icon": "fa-light fa-image",
     "previousStatement": null,
     "nextStatement": null
   },
@@ -765,7 +765,7 @@
     ],
     "colour": "#1976D2",
     "tooltip": "draw line on %1 from x %2 y %3 to x %4 y %5 color %6 thickness %7",
-    "icon": "camera",
+    "icon": "fa-light fa-image",
     "previousStatement": null,
     "nextStatement": null
   },
@@ -808,7 +808,7 @@
     ],
     "colour": "#1976D2",
     "tooltip": "draw text %1 on %2 x %3 y %4 scale %5 color %6 thickness %7",
-    "icon": "camera",
+    "icon": "fa-light fa-image",
     "previousStatement": null,
     "nextStatement": null
   },
@@ -841,7 +841,7 @@
     ],
     "colour": "#1976D2",
     "tooltip": "Draw one or more OpenCV point arrays as a polyline.",
-    "icon": "camera",
+    "icon": "fa-light fa-image",
     "previousStatement": null,
     "nextStatement": null
   },
@@ -889,7 +889,7 @@
     ],
     "colour": "#1976D2",
     "tooltip": "Draw Unicode text with the OpenCV FreeType module and a TrueType/OpenType font.",
-    "icon": "camera",
+    "icon": "fa-light fa-image",
     "previousStatement": null,
     "nextStatement": null
   },
@@ -904,7 +904,7 @@
     ],
     "colour": "#1976D2",
     "tooltip": "decode QR codes in %1",
-    "icon": "camera",
+    "icon": "fa-light fa-code",
     "output": "Any"
   },
   {
@@ -940,7 +940,7 @@
     ],
     "colour": "#1976D2",
     "tooltip": "Decode all supported symbols or restrict pyzbar to one symbol type.",
-    "icon": "camera",
+    "icon": "fa-light fa-magnifying-glass",
     "output": "Any"
   },
   {
@@ -996,7 +996,7 @@
     ],
     "colour": "#1976D2",
     "tooltip": "Read a field from a pyzbar decoded result.",
-    "icon": "camera",
+    "icon": "fa-light fa-circle-info",
     "output": "Any"
   },
   {
@@ -1037,7 +1037,7 @@
     ],
     "colour": "#1976D2",
     "tooltip": "initialize AprilTag detector %1 family %2",
-    "icon": "camera",
+    "icon": "fa-light fa-plug",
     "previousStatement": null,
     "nextStatement": null
   },
@@ -1057,7 +1057,7 @@
     ],
     "colour": "#1976D2",
     "tooltip": "AprilTag detector %1 detect gray image %2",
-    "icon": "camera",
+    "icon": "fa-light fa-magnifying-glass",
     "output": "Any"
   },
   {
@@ -1113,7 +1113,7 @@
     ],
     "colour": "#1976D2",
     "tooltip": "Read identification, geometry, confidence, or pose data from an AprilTag detection.",
-    "icon": "camera",
+    "icon": "fa-light fa-magnifying-glass",
     "output": "Any"
   }
 ]

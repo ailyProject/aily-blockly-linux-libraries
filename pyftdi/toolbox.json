@@ -1,6 +1,7 @@
 {
   "kind": "category",
   "name": "PyFtdi GPIO",
+  "icon": "fa-light fa-right-left",
   "colour": "#00897B",
   "contents": [
     {

@@ -1,6 +1,7 @@
 {
   "kind": "category",
   "name": "SciPy Signal",
+  "icon": "fa-light fa-superscript",
   "colour": "#7B1FA2",
   "contents": [
     {

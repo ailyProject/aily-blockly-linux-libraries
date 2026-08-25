@@ -1,11 +1,13 @@
 {
   "kind": "category",
   "name": "Onboard Peripherals",
+  "icon": "fa-light fa-microchip",
   "colour": "#1976D2",
   "contents": [
     {
       "kind": "category",
       "name": "ADC",
+      "icon": "fa-light fa-gauge-high",
       "colour": "#00897B",
       "contents": [
         {
@@ -31,6 +33,7 @@
     {
       "kind": "category",
       "name": "Audio, IMU and system",
+      "icon": "fa-light fa-wave-square",
       "colour": "#EF6C00",
       "contents": [
         {

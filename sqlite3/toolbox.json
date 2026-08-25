@@ -1,0 +1,147 @@
+{
+  "kind": "category",
+  "name": "SQLite",
+  "icon": "fa-light fa-database",
+  "colour": "#5C6BC0",
+  "contents": [
+    {
+      "kind": "category",
+      "name": "Connection",
+      "icon": "fa-light fa-plug",
+      "colour": "#5C6BC0",
+      "contents": [
+        {
+          "kind": "block",
+          "type": "python_sqlite_connect",
+          "inputs": {
+            "DATABASE": {
+              "shadow": {
+                "type": "text",
+                "fields": {
+                  "TEXT": "app.db"
+                }
+              }
+            },
+            "TIMEOUT": {
+              "shadow": {
+                "type": "math_number",
+                "fields": {
+                  "NUM": 5
+                }
+              }
+            }
+          }
+        },
+        {
+          "kind": "block",
+          "type": "python_sqlite_close"
+        }
+      ]
+    },
+    {
+      "kind": "category",
+      "name": "Commands",
+      "icon": "fa-light fa-terminal",
+      "colour": "#5C6BC0",
+      "contents": [
+        {
+          "kind": "block",
+          "type": "python_sqlite_execute",
+          "inputs": {
+            "SQL": {
+              "shadow": {
+                "type": "text",
+                "fields": {
+                  "TEXT": "CREATE TABLE IF NOT EXISTS items (id INTEGER PRIMARY KEY, name TEXT)"
+                }
+              }
+            },
+            "PARAMS": {
+              "shadow": {
+                "type": "python_tuple"
+              }
+            }
+          }
+        },
+        {
+          "kind": "block",
+          "type": "python_sqlite_query",
+          "inputs": {
+            "SQL": {
+              "shadow": {
+                "type": "text",
+                "fields": {
+                  "TEXT": "SELECT * FROM items"
+                }
+              }
+            },
+            "PARAMS": {
+              "shadow": {
+                "type": "python_tuple"
+              }
+            }
+          }
+        },
+        {
+          "kind": "block",
+          "type": "python_sqlite_executemany",
+          "inputs": {
+            "SQL": {
+              "shadow": {
+                "type": "text",
+                "fields": {
+                  "TEXT": "INSERT INTO items(name) VALUES (?)"
+                }
+              }
+            },
+            "PARAMS": {
+              "shadow": {
+                "type": "python_list"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "kind": "category",
+      "name": "Cursor results",
+      "icon": "fa-light fa-table",
+      "colour": "#5C6BC0",
+      "contents": [
+        {
+          "kind": "block",
+          "type": "python_sqlite_fetchone"
+        },
+        {
+          "kind": "block",
+          "type": "python_sqlite_fetchall"
+        },
+        {
+          "kind": "block",
+          "type": "python_sqlite_rowcount"
+        },
+        {
+          "kind": "block",
+          "type": "python_sqlite_lastrowid"
+        }
+      ]
+    },
+    {
+      "kind": "category",
+      "name": "Transactions",
+      "icon": "fa-light fa-arrows-rotate",
+      "colour": "#5C6BC0",
+      "contents": [
+        {
+          "kind": "block",
+          "type": "python_sqlite_commit"
+        },
+        {
+          "kind": "block",
+          "type": "python_sqlite_rollback"
+        }
+      ]
+    }
+  ]
+}

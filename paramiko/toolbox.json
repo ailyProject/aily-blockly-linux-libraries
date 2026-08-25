@@ -1,6 +1,7 @@
 {
   "kind": "category",
   "name": "Paramiko",
+  "icon": "fa-light fa-terminal",
   "colour": "#0288D1",
   "contents": [
     {

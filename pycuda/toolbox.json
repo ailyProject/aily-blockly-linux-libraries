@@ -1,0 +1,28 @@
+{
+  "kind": "category",
+  "name": "PyCUDA",
+  "icon": "fa-light fa-microchip",
+  "colour": "#76B900",
+  "contents": [
+    {
+      "kind": "block",
+      "type": "pycuda_call"
+    },
+    {
+      "kind": "block",
+      "type": "pycuda_do"
+    },
+    {
+      "kind": "block",
+      "type": "pycuda_method"
+    },
+    {
+      "kind": "block",
+      "type": "pycuda_do_method"
+    },
+    {
+      "kind": "block",
+      "type": "pycuda_attribute"
+    }
+  ]
+}

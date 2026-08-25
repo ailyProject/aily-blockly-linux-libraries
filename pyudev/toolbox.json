@@ -1,6 +1,7 @@
 {
   "kind": "category",
   "name": "pyudev",
+  "icon": "fa-light fa-plug",
   "colour": "#455A64",
   "contents": [
     {

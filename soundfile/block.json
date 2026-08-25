@@ -40,7 +40,7 @@
     ],
     "colour": "#EF6C00",
     "tooltip": "Call an allowlisted SoundFile function or constructor and return its result.",
-    "icon": "settings",
+    "icon": "fa-light fa-code",
     "output": "Any"
   },
   {
@@ -84,7 +84,7 @@
     ],
     "colour": "#EF6C00",
     "tooltip": "Run an allowlisted SoundFile function or constructor as a statement.",
-    "icon": "settings",
+    "icon": "fa-light fa-play",
     "previousStatement": null,
     "nextStatement": null
   },
@@ -141,7 +141,7 @@
     ],
     "colour": "#EF6C00",
     "tooltip": "Call an allowlisted SoundFile object method and return its result.",
-    "icon": "settings",
+    "icon": "fa-light fa-gear",
     "output": "Any"
   },
   {
@@ -197,7 +197,7 @@
     ],
     "colour": "#EF6C00",
     "tooltip": "Run an allowlisted SoundFile object method as a statement.",
-    "icon": "settings",
+    "icon": "fa-light fa-gears",
     "previousStatement": null,
     "nextStatement": null
   },
@@ -242,7 +242,7 @@
     ],
     "colour": "#EF6C00",
     "tooltip": "Read an allowlisted SoundFile object or module attribute.",
-    "icon": "settings",
+    "icon": "fa-light fa-circle-info",
     "output": "Any"
   }
 ]

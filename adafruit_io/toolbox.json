@@ -1,6 +1,7 @@
 {
   "kind": "category",
   "name": "Adafruit IO",
+  "icon": "fa-light fa-cloud-arrow-up",
   "colour": "#0288D1",
   "contents": [
     {

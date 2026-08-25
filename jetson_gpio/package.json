@@ -1,0 +1,47 @@
+{
+  "name": "@aily-project/lib-jetson-gpio",
+  "nickname": "Jetson.GPIO",
+  "nickname_ar": "Jetson.GPIO",
+  "nickname_de": "Jetson.GPIO",
+  "nickname_en": "Jetson.GPIO",
+  "nickname_es": "Jetson.GPIO",
+  "nickname_fr": "Jetson.GPIO",
+  "nickname_ja": "Jetson.GPIO",
+  "nickname_ko": "Jetson.GPIO",
+  "nickname_pt": "Jetson.GPIO",
+  "nickname_ru": "Jetson.GPIO",
+  "nickname_zh_cn": "Jetson.GPIO",
+  "nickname_zh_hk": "Jetson.GPIO",
+  "version": "0.0.1",
+  "description": "Jetson.GPIO 通过显式 CPython API 白名单为受支持的 Linux 单板机提供积木。",
+  "description_zh_cn": "Jetson.GPIO 通过显式 CPython API 白名单为受支持的 Linux 单板机提供积木。",
+  "description_en": "Allowlisted Jetson.GPIO Python API blocks for Raspberry Pi and Linux single-board computers.",
+  "spec": true,
+  "compatibility": {
+    "type": [
+      "nvidia:tegra234:jetson_agx_orin",
+      "nvidia:tegra234:jetson_orin_nano",
+      "nvidia:tegra234:jetson_orin_nx"
+    ],
+    "voltage": [
+      3.3
+    ]
+  },
+  "keywords": [
+    "aily",
+    "blockly",
+    "python",
+    "linux",
+    "raspberry-pi",
+    "Jetson.GPIO",
+    "Jetson.GPIO"
+  ],
+  "tags": [
+    "display"
+  ],
+  "author": "ailyProject",
+  "license": "MIT",
+  "homepage": "https://github.com/NVIDIA/jetson-gpio",
+  "dependencies": {},
+  "devDependencies": {}
+}

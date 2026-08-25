@@ -1,0 +1,216 @@
+[
+  {
+    "type": "python_json_dumps",
+    "message0": "JSON text from %1 characters %2 indentation %3 keys %4",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "VALUE"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "ENSURE_ASCII",
+        "options": [
+          [
+            "keep UTF-8 characters",
+            "FALSE"
+          ],
+          [
+            "escape as ASCII",
+            "TRUE"
+          ]
+        ]
+      },
+      {
+        "type": "field_dropdown",
+        "name": "INDENT",
+        "options": [
+          [
+            "compact",
+            "NONE"
+          ],
+          [
+            "2 spaces",
+            "TWO"
+          ],
+          [
+            "4 spaces",
+            "FOUR"
+          ]
+        ]
+      },
+      {
+        "type": "field_dropdown",
+        "name": "SORT_KEYS",
+        "options": [
+          [
+            "keep insertion order",
+            "FALSE"
+          ],
+          [
+            "sort keys",
+            "TRUE"
+          ]
+        ]
+      }
+    ],
+    "colour": "#455A64",
+    "tooltip": "Serialize a Python value to JSON text. Unsupported values raise TypeError.",
+    "icon": "fa-light fa-code",
+    "output": "String"
+  },
+  {
+    "type": "python_json_loads",
+    "message0": "value from JSON text %1",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "TEXT"
+      }
+    ],
+    "colour": "#455A64",
+    "tooltip": "Parse JSON text, bytes, or bytearray. Malformed input raises JSONDecodeError.",
+    "icon": "fa-light fa-code",
+    "output": "Any"
+  },
+  {
+    "type": "python_json_read_file",
+    "message0": "read UTF-8 JSON file %1",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "PATH",
+        "check": "String"
+      }
+    ],
+    "colour": "#455A64",
+    "tooltip": "Read and parse one UTF-8 JSON file while preserving file and decode exceptions.",
+    "icon": "fa-light fa-download",
+    "output": "Any"
+  },
+  {
+    "type": "python_json_write_file",
+    "message0": "write UTF-8 JSON file %1 value %2 characters %3 indentation %4 keys %5",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "PATH",
+        "check": "String"
+      },
+      {
+        "type": "input_value",
+        "name": "VALUE"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "ENSURE_ASCII",
+        "options": [
+          [
+            "keep UTF-8 characters",
+            "FALSE"
+          ],
+          [
+            "escape as ASCII",
+            "TRUE"
+          ]
+        ]
+      },
+      {
+        "type": "field_dropdown",
+        "name": "INDENT",
+        "options": [
+          [
+            "compact",
+            "NONE"
+          ],
+          [
+            "2 spaces",
+            "TWO"
+          ],
+          [
+            "4 spaces",
+            "FOUR"
+          ]
+        ]
+      },
+      {
+        "type": "field_dropdown",
+        "name": "SORT_KEYS",
+        "options": [
+          [
+            "keep insertion order",
+            "FALSE"
+          ],
+          [
+            "sort keys",
+            "TRUE"
+          ]
+        ]
+      }
+    ],
+    "colour": "#455A64",
+    "tooltip": "Serialize a value to a UTF-8 JSON file. I/O and serialization exceptions propagate.",
+    "icon": "fa-light fa-upload",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "python_json_is_valid",
+    "message0": "JSON text %1 is valid",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "TEXT"
+      }
+    ],
+    "colour": "#455A64",
+    "tooltip": "Return false only for malformed JSON or invalid encoded bytes; unsupported types still raise TypeError.",
+    "icon": "fa-light fa-brackets-curly",
+    "output": "Boolean"
+  },
+  {
+    "type": "python_json_object_get",
+    "message0": "JSON object %1 get key %2 default %3",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "OBJECT"
+      },
+      {
+        "type": "input_value",
+        "name": "KEY"
+      },
+      {
+        "type": "input_value",
+        "name": "DEFAULT"
+      }
+    ],
+    "colour": "#455A64",
+    "tooltip": "Read a dictionary key and return the default when the key is absent.",
+    "icon": "fa-light fa-download",
+    "output": "Any"
+  },
+  {
+    "type": "python_json_object_set",
+    "message0": "set JSON object %1 key %2 to %3",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "OBJECT"
+      },
+      {
+        "type": "input_value",
+        "name": "KEY"
+      },
+      {
+        "type": "input_value",
+        "name": "VALUE"
+      }
+    ],
+    "colour": "#455A64",
+    "tooltip": "Assign a value to a dictionary key. Mapping and key errors propagate.",
+    "icon": "fa-light fa-brackets-curly",
+    "previousStatement": null,
+    "nextStatement": null
+  }
+]

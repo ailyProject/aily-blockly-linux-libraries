@@ -1,0 +1,220 @@
+{
+  "toolbox_name": "أجهزة GPIO Zero",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "linux_gpiozero_motor_init": {
+    "message0": "initialize motor %1 forward pin %2 backward pin %3 output mode %4",
+    "tooltip": "Create a gpiozero Motor using two driver input pins.",
+    "args0": [
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "linux_gpiozero_motor_forward": {
+    "message0": "run motor %1 forward at speed %2 (0-1)",
+    "tooltip": "Run an initialized motor forward at a validated speed.",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "linux_gpiozero_motor_backward": {
+    "message0": "run motor %1 backward at speed %2 (0-1)",
+    "tooltip": "Run an initialized motor backward at a validated speed.",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "linux_gpiozero_motor_stop": {
+    "message0": "stop motor %1",
+    "tooltip": "Stop an initialized motor.",
+    "args0": [
+      null
+    ]
+  },
+  "linux_gpiozero_motor_value": {
+    "message0": "motor %1 signed value",
+    "tooltip": "Read the signed motor value from -1 backward to 1 forward.",
+    "args0": [
+      null
+    ]
+  },
+  "linux_gpiozero_motor_close": {
+    "message0": "close motor %1",
+    "tooltip": "Stop, close, and release an initialized motor.",
+    "args0": [
+      null
+    ]
+  },
+  "linux_gpiozero_angular_servo_init": {
+    "message0": "initialize angular servo %1 pin %2 minimum angle %3 maximum angle %4 initial angle %5",
+    "tooltip": "Create a gpiozero AngularServo with an explicit angle range.",
+    "args0": [
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "linux_gpiozero_angular_servo_set": {
+    "message0": "set angular servo %1 angle to %2 degrees",
+    "tooltip": "Set the angle of an initialized AngularServo.",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "linux_gpiozero_angular_servo_read": {
+    "message0": "angular servo %1 angle",
+    "tooltip": "Read the commanded angle, or None after detach.",
+    "args0": [
+      null
+    ]
+  },
+  "linux_gpiozero_angular_servo_detach": {
+    "message0": "detach angular servo %1",
+    "tooltip": "Stop sending servo pulses without closing the GPIO device.",
+    "args0": [
+      null
+    ]
+  },
+  "linux_gpiozero_angular_servo_close": {
+    "message0": "close angular servo %1",
+    "tooltip": "Detach, close, and release an AngularServo.",
+    "args0": [
+      null
+    ]
+  },
+  "linux_gpiozero_distance_init": {
+    "message0": "initialize ultrasonic sensor %1 trigger pin %2 echo pin %3 maximum distance %4 m threshold %5 m",
+    "tooltip": "Create a gpiozero DistanceSensor for an HC-SR04-compatible module.",
+    "args0": [
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "linux_gpiozero_distance_read": {
+    "message0": "ultrasonic sensor %1 distance in %2",
+    "tooltip": "Read the measured distance in metres or centimetres.",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "linux_gpiozero_distance_in_range": {
+    "message0": "ultrasonic sensor %1 is in range",
+    "tooltip": "Whether the measured distance is below the configured threshold.",
+    "args0": [
+      null
+    ]
+  },
+  "linux_gpiozero_distance_wait": {
+    "message0": "wait for ultrasonic sensor %1 to become %2 timeout %3 s (0 forever)",
+    "tooltip": "Wait for a threshold transition; timeout 0 waits without a limit.",
+    "args0": [
+      null,
+      null,
+      null
+    ]
+  },
+  "linux_gpiozero_distance_close": {
+    "message0": "close ultrasonic sensor %1",
+    "tooltip": "Close and release an ultrasonic DistanceSensor.",
+    "args0": [
+      null
+    ]
+  },
+  "linux_gpiozero_rotary_init": {
+    "message0": "initialize rotary encoder %1 A pin %2 B pin %3 maximum steps %4 wrap %5",
+    "tooltip": "Create a gpiozero RotaryEncoder; maximum steps 0 is unbounded.",
+    "args0": [
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "linux_gpiozero_rotary_steps": {
+    "message0": "rotary encoder %1 steps",
+    "tooltip": "Read the signed step count of a RotaryEncoder.",
+    "args0": [
+      null
+    ]
+  },
+  "linux_gpiozero_rotary_reset": {
+    "message0": "reset rotary encoder %1 steps",
+    "tooltip": "Reset an initialized RotaryEncoder step count to zero.",
+    "args0": [
+      null
+    ]
+  },
+  "linux_gpiozero_rotary_wait": {
+    "message0": "wait for rotary encoder %1 rotation %2 timeout %3 s (0 forever)",
+    "tooltip": "Wait for rotation in the selected direction; timeout 0 waits forever.",
+    "args0": [
+      null,
+      null,
+      null
+    ]
+  },
+  "linux_gpiozero_rotary_close": {
+    "message0": "close rotary encoder %1",
+    "tooltip": "Close and release a RotaryEncoder.",
+    "args0": [
+      null
+    ]
+  },
+  "linux_gpiozero_buzzer_init": {
+    "message0": "initialize buzzer %1 pin %2 mode %3",
+    "tooltip": "Create a gpiozero Buzzer or TonalBuzzer using an allowlisted mode.",
+    "args0": [
+      null,
+      null,
+      null
+    ]
+  },
+  "linux_gpiozero_buzzer_play": {
+    "message0": "play buzzer %1 tone %2",
+    "tooltip": "Play a note such as A4 on a tonal buzzer; a simple buzzer turns on.",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "linux_gpiozero_buzzer_on": {
+    "message0": "turn buzzer %1 on",
+    "tooltip": "Turn on a simple buzzer, or play A4 on a tonal buzzer.",
+    "args0": [
+      null
+    ]
+  },
+  "linux_gpiozero_buzzer_off": {
+    "message0": "turn buzzer %1 off",
+    "tooltip": "Turn off or stop an initialized buzzer.",
+    "args0": [
+      null
+    ]
+  },
+  "linux_gpiozero_buzzer_stop": {
+    "message0": "stop buzzer %1",
+    "tooltip": "Stop an initialized simple or tonal buzzer.",
+    "args0": [
+      null
+    ]
+  },
+  "linux_gpiozero_buzzer_close": {
+    "message0": "close buzzer %1",
+    "tooltip": "Stop, close, and release an initialized buzzer.",
+    "args0": [
+      null
+    ]
+  }
+}

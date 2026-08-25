@@ -9,7 +9,7 @@ This runs on standard Raspberry Pi OS/Linux CPython. It is not MicroPython and d
 - Blocks (5): `python_adafruit_blinka_call`, `python_adafruit_blinka_do`, `python_adafruit_blinka_method`, `python_adafruit_blinka_do_method`, `python_adafruit_blinka_attribute`
 - Allowlisted callables: `I2C`, `SPI`, `DigitalInOut`, `PWMOut`, `UART`
 - Allowlisted methods: `try_lock`, `unlock`, `scan`, `readfrom_into`, `writeto`, `writeto_then_readfrom`, `configure`, `switch_to_input`, `switch_to_output`, `read`, `readinto`, `write`, `deinit`
-- Allowlisted attributes: `D0`, `D1`, `D2`, `D3`, `D4`, `D5`, `D6`, `D17`, `D18`, `SCL`, `SDA`, `SCLK`, `MOSI`, `MISO`, `CE0`, `CE1`, `value`, `direction`, `pull`, `duty_cycle`, `frequency`, `in_waiting`
+- Allowlisted attributes: `D0`, `D1`, `D2`, `D3`, `D4`, `D5`, `D6`, `D17`, `D18`, `SCL`, `SDA`, `SCLK`, `MOSI`, `MISO`, `CE0`, `CE1`, `PB5`, `PB4`, `PB6`, `PB0`, `PB1`, `PB13`, `PB14`, `PI12`, `PI11`, `PI10`, `PI9`, `PI4`, `PI5`, `PI7`, `PI3`, `PI2`, `PI6`, `PI16`, `PI15`, `PL6`, `PL5`, `PI14`, `PL4`, `PL2`, `PI13`, `PL3`, `PI0`, `PI1`, `LED`, `KEY`, `value`, `direction`, `pull`, `duty_cycle`, `frequency`, `in_waiting`
 - API source: https://learn.adafruit.com/circuitpython-on-raspberrypi-linux
 
 Arguments must be supplied as a Python list or tuple. Keyword arguments must be supplied as a Python dictionary. Empty sockets generate `[]` and `{}`. Dropdown machine values are fixed allowlists and field contents are never emitted as executable identifiers.
@@ -18,6 +18,11 @@ Call blocks return regular Python values. Resource objects must be closed or dei
 
 On Raspberry Pi OS Bookworm and Trixie, install pip packages inside a virtual environment. This Blockly package never installs Python packages, runs sudo, enables interfaces, changes boot configuration, or changes device permissions.
 
+## WalnutPi 2B CPython runtime
+
+The official WalnutPi 2B Python path uses Blinka. The attribute block includes the onboard `LED` and `KEY` plus the PB/PI/PL names from the board 40-pin map; for example, `board.PB6` can be passed to `DigitalInOut`. Configure pin multiplexing and device permissions separately for I2C, SPI, UART, and PWM.
+
+WalnutPi pin allowlist: `PB5`, `PB4`, `PB6`, `PB0`, `PB1`, `PB13`, `PB14`, `PI12`, `PI11`, `PI10`, `PI9`, `PI4`, `PI5`, `PI7`, `PI3`, `PI2`, `PI6`, `PI16`, `PI15`, `PL6`, `PL5`, `PI14`, `PL4`, `PL2`, `PI13`, `PL3`, `PI0`, `PI1`, `LED`, `KEY`.
 ## Raspberry Pi 5B CPython runtime
 
 This package is the compatibility layer that brings CircuitPython hardware APIs to Linux CPython.

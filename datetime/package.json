@@ -1,0 +1,55 @@
+{
+  "name": "@aily-project/lib-datetime",
+  "nickname": "Date & Time",
+  "nickname_zh_cn": "日期与时间",
+  "nickname_en": "Date & Time",
+  "nickname_zh_hk": "日期與時間",
+  "nickname_ja": "日付と時刻",
+  "nickname_ko": "날짜 및 시간",
+  "nickname_de": "Datum und Uhrzeit",
+  "nickname_fr": "Date et heure",
+  "nickname_es": "Fecha y hora",
+  "nickname_pt": "Data e hora",
+  "nickname_ru": "Дата и время",
+  "nickname_ar": "التاريخ والوقت",
+  "version": "0.0.1",
+  "description": "基于 CPython datetime 与 time 标准库的日期、时间戳、单调计时、格式化和解析积木。",
+  "description_zh_cn": "基于 CPython datetime 与 time 标准库的日期、时间戳、单调计时、格式化和解析积木。",
+  "description_en": "Date, timestamp, monotonic timing, formatting, and parsing blocks backed by the CPython datetime and time standard libraries.",
+  "spec": true,
+  "compatibility": {
+    "type": [
+      "allwinner:t527:walnutpi_2b",
+      "broadcom:bcm2710a1:raspberrypi_0_2w",
+      "broadcom:bcm2711:raspberrypi_4b",
+      "broadcom:bcm2712:raspberrypi_5",
+      "canaan:k230:cybercam",
+      "nvidia:tegra234:jetson_agx_orin",
+      "nvidia:tegra234:jetson_orin_nano",
+      "nvidia:tegra234:jetson_orin_nx"
+    ],
+    "voltage": [
+      3.3
+    ]
+  },
+  "keywords": [
+    "aily",
+    "blockly",
+    "python",
+    "datetime",
+    "time",
+    "timestamp",
+    "monotonic",
+    "strftime",
+    "strptime",
+    "iso8601"
+  ],
+  "tags": [
+    "core"
+  ],
+  "author": "ailyProject",
+  "license": "MIT",
+  "homepage": "https://docs.python.org/3/library/datetime.html",
+  "dependencies": {},
+  "devDependencies": {}
+}

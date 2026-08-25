@@ -1,6 +1,7 @@
 {
   "kind": "category",
   "name": "Uvicorn",
+  "icon": "fa-light fa-server",
   "colour": "#0288D1",
   "contents": [
     {

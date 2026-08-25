@@ -20,7 +20,7 @@
     ],
     "colour": "#00897B",
     "tooltip": "Read the CyberCAM ADC pad as a 12-bit raw value (0-4095).",
-    "icon": "settings",
+    "icon": "fa-light fa-download",
     "output": "Number"
   },
   {
@@ -49,7 +49,7 @@
     ],
     "colour": "#00897B",
     "tooltip": "Convert the 12-bit ADC value using the board full scale; 3.6 V is nominal.",
-    "icon": "settings",
+    "icon": "fa-light fa-download",
     "output": "Number"
   },
   {
@@ -64,7 +64,7 @@
     ],
     "colour": "#EF6C00",
     "tooltip": "play WAV file %1",
-    "icon": "settings",
+    "icon": "fa-light fa-volume-high",
     "previousStatement": null,
     "nextStatement": null
   },
@@ -90,7 +90,7 @@
     ],
     "colour": "#EF6C00",
     "tooltip": "record WAV to %1 seconds %2 sample rate %3",
-    "icon": "settings",
+    "icon": "fa-light fa-microphone",
     "previousStatement": null,
     "nextStatement": null
   },
@@ -116,7 +116,7 @@
     ],
     "colour": "#EF6C00",
     "tooltip": "initialize QMI8658 IMU %1 bus %2 address %3",
-    "icon": "settings",
+    "icon": "fa-light fa-plug",
     "previousStatement": null,
     "nextStatement": null
   },
@@ -132,7 +132,7 @@
     ],
     "colour": "#EF6C00",
     "tooltip": "IMU %1 six-axis values",
-    "icon": "settings",
+    "icon": "fa-light fa-download",
     "output": "Any"
   },
   {
@@ -177,7 +177,7 @@
     ],
     "colour": "#EF6C00",
     "tooltip": "IMU %1 axis %2",
-    "icon": "settings",
+    "icon": "fa-light fa-circle-info",
     "output": "Any"
   },
   {
@@ -197,7 +197,7 @@
     ],
     "colour": "#EF6C00",
     "tooltip": "calibrate IMU %1 samples %2",
-    "icon": "settings",
+    "icon": "fa-light fa-sliders",
     "previousStatement": null,
     "nextStatement": null
   },
@@ -213,7 +213,7 @@
     ],
     "colour": "#EF6C00",
     "tooltip": "close IMU %1",
-    "icon": "settings",
+    "icon": "fa-light fa-power-off",
     "previousStatement": null,
     "nextStatement": null
   },
@@ -222,7 +222,7 @@
     "message0": "K230 unique chip ID",
     "colour": "#EF6C00",
     "tooltip": "K230 unique chip ID",
-    "icon": "settings",
+    "icon": "fa-light fa-microchip",
     "output": "Any"
   }
 ]

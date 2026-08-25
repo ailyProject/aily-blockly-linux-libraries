@@ -1,0 +1,13 @@
+{
+  "source": "aily-blockly-linux-boards/LIST.md",
+  "types": [
+    "allwinner:t527:walnutpi_2b",
+    "broadcom:bcm2710a1:raspberrypi_0_2w",
+    "broadcom:bcm2711:raspberrypi_4b",
+    "broadcom:bcm2712:raspberrypi_5",
+    "canaan:k230:cybercam",
+    "nvidia:tegra234:jetson_agx_orin",
+    "nvidia:tegra234:jetson_orin_nano",
+    "nvidia:tegra234:jetson_orin_nx"
+  ]
+}

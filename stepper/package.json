@@ -1,0 +1,50 @@
+{
+  "name": "@aily-project/lib-stepper",
+  "nickname": "Four-wire Stepper",
+  "nickname_zh_cn": "四线步进电机",
+  "nickname_en": "Four-wire Stepper",
+  "nickname_zh_hk": "四線步進馬達",
+  "nickname_ja": "4線ステッピングモーター",
+  "nickname_ko": "4선 스테퍼 모터",
+  "nickname_de": "Vierdraht-Schrittmotor",
+  "nickname_fr": "Moteur pas à pas quatre fils",
+  "nickname_es": "Motor paso a paso de cuatro hilos",
+  "nickname_pt": "Motor de passo de quatro fios",
+  "nickname_ru": "Четырёхпроводный шаговый двигатель",
+  "nickname_ar": "محرك خطوي بأربعة أسلاك",
+  "version": "0.0.1",
+  "description": "通过 GPIO 和外部驱动器控制四线步进电机，支持全步、半步、RPM、角度和位置。",
+  "description_zh_cn": "通过 GPIO 和外部驱动器控制四线步进电机，支持全步、半步、RPM、角度和位置。",
+  "description_en": "Control a four-wire stepper through GPIO and an external driver, with full/half steps, RPM, angles, and position.",
+  "spec": true,
+  "compatibility": {
+    "type": [
+      "broadcom:bcm2710a1:raspberrypi_0_2w",
+      "broadcom:bcm2711:raspberrypi_4b",
+      "broadcom:bcm2712:raspberrypi_5"
+    ],
+    "voltage": [
+      3.3
+    ]
+  },
+  "keywords": [
+    "aily",
+    "blockly",
+    "python",
+    "linux",
+    "gpiozero",
+    "stepper",
+    "motor",
+    "uln2003",
+    "full-step",
+    "half-step"
+  ],
+  "tags": [
+    "io"
+  ],
+  "author": "ailyProject",
+  "license": "MIT",
+  "homepage": "https://gpiozero.readthedocs.io/en/stable/api_output.html",
+  "dependencies": {},
+  "devDependencies": {}
+}

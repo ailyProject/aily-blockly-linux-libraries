@@ -1,6 +1,7 @@
 {
   "kind": "category",
   "name": "SpeechRecognition",
+  "icon": "fa-light fa-microphone",
   "colour": "#EF6C00",
   "contents": [
     {

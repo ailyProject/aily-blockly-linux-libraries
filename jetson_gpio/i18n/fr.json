@@ -1,0 +1,270 @@
+{
+  "toolbox_name": "Jetson.GPIO",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "jetson_gpio_call": {
+    "message0": "Jetson.GPIO call or create %1 arguments %2 keyword arguments %3",
+    "tooltip": "Call an allowlisted Jetson.GPIO function or constructor and return its result.",
+    "args0": [
+      {
+        "options": [
+          [
+            "setwarnings",
+            "setwarnings"
+          ],
+          [
+            "setmode",
+            "setmode"
+          ],
+          [
+            "getmode",
+            "getmode"
+          ],
+          [
+            "setup",
+            "setup"
+          ],
+          [
+            "input",
+            "input"
+          ],
+          [
+            "output",
+            "output"
+          ],
+          [
+            "cleanup",
+            "cleanup"
+          ],
+          [
+            "gpio_function",
+            "gpio_function"
+          ],
+          [
+            "add_event_detect",
+            "add_event_detect"
+          ],
+          [
+            "remove_event_detect",
+            "remove_event_detect"
+          ],
+          [
+            "event_detected",
+            "event_detected"
+          ],
+          [
+            "add_event_callback",
+            "add_event_callback"
+          ],
+          [
+            "wait_for_edge",
+            "wait_for_edge"
+          ],
+          [
+            "PWM",
+            "PWM"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "jetson_gpio_do": {
+    "message0": "run Jetson.GPIO %1 arguments %2 keyword arguments %3",
+    "tooltip": "Run an allowlisted Jetson.GPIO function or constructor as a statement.",
+    "args0": [
+      {
+        "options": [
+          [
+            "setwarnings",
+            "setwarnings"
+          ],
+          [
+            "setmode",
+            "setmode"
+          ],
+          [
+            "getmode",
+            "getmode"
+          ],
+          [
+            "setup",
+            "setup"
+          ],
+          [
+            "input",
+            "input"
+          ],
+          [
+            "output",
+            "output"
+          ],
+          [
+            "cleanup",
+            "cleanup"
+          ],
+          [
+            "gpio_function",
+            "gpio_function"
+          ],
+          [
+            "add_event_detect",
+            "add_event_detect"
+          ],
+          [
+            "remove_event_detect",
+            "remove_event_detect"
+          ],
+          [
+            "event_detected",
+            "event_detected"
+          ],
+          [
+            "add_event_callback",
+            "add_event_callback"
+          ],
+          [
+            "wait_for_edge",
+            "wait_for_edge"
+          ],
+          [
+            "PWM",
+            "PWM"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "jetson_gpio_method": {
+    "message0": "Jetson.GPIO object %1 call method %2 arguments %3 keyword arguments %4",
+    "tooltip": "Call an allowlisted Jetson.GPIO object method and return its result.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "start",
+            "start"
+          ],
+          [
+            "stop",
+            "stop"
+          ],
+          [
+            "ChangeDutyCycle",
+            "ChangeDutyCycle"
+          ],
+          [
+            "ChangeFrequency",
+            "ChangeFrequency"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "jetson_gpio_do_method": {
+    "message0": "run Jetson.GPIO object %1 method %2 arguments %3 keyword arguments %4",
+    "tooltip": "Run an allowlisted Jetson.GPIO object method as a statement.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "start",
+            "start"
+          ],
+          [
+            "stop",
+            "stop"
+          ],
+          [
+            "ChangeDutyCycle",
+            "ChangeDutyCycle"
+          ],
+          [
+            "ChangeFrequency",
+            "ChangeFrequency"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "jetson_gpio_attribute": {
+    "message0": "Jetson.GPIO object %1 attribute %2",
+    "tooltip": "Read an allowlisted Jetson.GPIO object or module attribute.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "BOARD",
+            "BOARD"
+          ],
+          [
+            "BCM",
+            "BCM"
+          ],
+          [
+            "CVM",
+            "CVM"
+          ],
+          [
+            "TEGRA_SOC",
+            "TEGRA_SOC"
+          ],
+          [
+            "IN",
+            "IN"
+          ],
+          [
+            "OUT",
+            "OUT"
+          ],
+          [
+            "HIGH",
+            "HIGH"
+          ],
+          [
+            "LOW",
+            "LOW"
+          ],
+          [
+            "RISING",
+            "RISING"
+          ],
+          [
+            "FALLING",
+            "FALLING"
+          ],
+          [
+            "BOTH",
+            "BOTH"
+          ],
+          [
+            "PUD_UP",
+            "PUD_UP"
+          ],
+          [
+            "PUD_DOWN",
+            "PUD_DOWN"
+          ],
+          [
+            "JETSON_INFO",
+            "JETSON_INFO"
+          ],
+          [
+            "VERSION",
+            "VERSION"
+          ]
+        ]
+      }
+    ]
+  }
+}

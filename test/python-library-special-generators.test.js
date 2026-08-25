@@ -80,6 +80,10 @@ test('Blinka maps board, digitalio, pwmio, and busio callables under CPython', (
 
   const pin = invoke(blocks.python_adafruit_blinka_attribute, { ATTRIBUTE: 'D0' }, { OBJECT: 'wrong_object' });
   assert.equal(pin.code, '_python_lib_adafruit_blinka.D0');
+  const walnutPin = invoke(blocks.python_adafruit_blinka_attribute, { ATTRIBUTE: 'PB6' }, { OBJECT: 'wrong_object' });
+  assert.equal(walnutPin.code, '_python_lib_adafruit_blinka.PB6');
+  const walnutLed = invoke(blocks.python_adafruit_blinka_attribute, { ATTRIBUTE: 'LED' }, { OBJECT: 'wrong_object' });
+  assert.equal(walnutLed.code, '_python_lib_adafruit_blinka.LED');
   const value = invoke(blocks.python_adafruit_blinka_attribute, { ATTRIBUTE: 'value' }, { OBJECT: 'digital_pin' });
   assert.equal(value.code, '(digital_pin).value');
 });
@@ -195,4 +199,17 @@ test('server runners avoid nested event loops and PyYAML exposes only safe loade
   const yamlTargets = yamlBlocks[0].args0[0].options.map((option) => option[1]);
   assert.deepEqual(yamlTargets, ['safe_load', 'safe_load_all', 'safe_dump', 'safe_dump_all']);
   assert.ok(!yamlTargets.includes('load'));
+});
+
+test('GStreamer pins its introspection version before importing Gst', () => {
+  const blocks = loadPackage('gstreamer');
+  const generated = invoke(blocks.gstreamer_call, { TARGET: 'init' }, {
+    ARGS: '[]',
+    KWARGS: '{}',
+  });
+  assertImport(
+    generated.calls,
+    'python_lib_gstreamer',
+    "import gi as _python_lib_gstreamer_gi\n_python_lib_gstreamer_gi.require_version('Gst', '1.0')\nfrom gi.repository import Gst as _python_lib_gstreamer",
+  );
 });

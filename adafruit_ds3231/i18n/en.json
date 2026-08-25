@@ -1,0 +1,71 @@
+{
+  "toolbox_name": "DS3231 RTC",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_ds3231_init": {
+    "message0": "initialize DS3231 %1 using I2C %2 (empty uses board I2C)",
+    "tooltip": "Create a DS3231 RTC using an existing I2C object or an owned board.I2C bus when empty.",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_ds3231_datetime": {
+    "message0": "DS3231 %1 date and time",
+    "tooltip": "Read the RTC date and time as a time.struct_time value.",
+    "args0": [
+      null
+    ]
+  },
+  "python_ds3231_set_datetime": {
+    "message0": "set DS3231 %1 date and time to %2",
+    "tooltip": "Set from a datetime, struct_time, or sequence from year through second. Year must be 2000–2099; fields are validated and weekday is recomputed.",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_ds3231_temperature": {
+    "message0": "DS3231 %1 temperature °C",
+    "tooltip": "Read the most recently converted DS3231 temperature in degrees Celsius.",
+    "args0": [
+      null
+    ]
+  },
+  "python_ds3231_force_temperature": {
+    "message0": "DS3231 %1 force temperature conversion",
+    "tooltip": "Force a fresh temperature conversion and return the result in degrees Celsius.",
+    "args0": [
+      null
+    ]
+  },
+  "python_ds3231_lost_power": {
+    "message0": "DS3231 %1 has lost power",
+    "tooltip": "Return whether the RTC reports that its clock data may be invalid after power loss.",
+    "args0": [
+      null
+    ]
+  },
+  "python_ds3231_calibration": {
+    "message0": "DS3231 %1 calibration offset",
+    "tooltip": "Read the signed DS3231 aging-offset calibration value.",
+    "args0": [
+      null
+    ]
+  },
+  "python_ds3231_set_calibration": {
+    "message0": "set DS3231 %1 calibration offset to %2",
+    "tooltip": "Set the signed calibration value; values outside -128 through 127 raise ValueError.",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_ds3231_close": {
+    "message0": "close DS3231 %1",
+    "tooltip": "Release an I2C bus created by the initialization block; externally supplied buses remain open.",
+    "args0": [
+      null
+    ]
+  }
+}

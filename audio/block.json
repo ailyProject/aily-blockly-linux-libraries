@@ -11,7 +11,7 @@
     ],
     "colour": "#EF6C00",
     "tooltip": "play WAV file %1",
-    "icon": "settings",
+    "icon": "fa-light fa-volume-high",
     "previousStatement": null,
     "nextStatement": null
   },
@@ -37,7 +37,7 @@
     ],
     "colour": "#EF6C00",
     "tooltip": "record WAV to %1 seconds %2 sample rate %3",
-    "icon": "settings",
+    "icon": "fa-light fa-microphone",
     "previousStatement": null,
     "nextStatement": null
   }

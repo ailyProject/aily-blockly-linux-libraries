@@ -1,6 +1,7 @@
 {
   "kind": "category",
   "name": "Azure IoT Device",
+  "icon": "fa-light fa-cloud",
   "colour": "#0288D1",
   "contents": [
     {

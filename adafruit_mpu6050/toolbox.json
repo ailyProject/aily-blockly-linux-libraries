@@ -1,6 +1,7 @@
 {
   "kind": "category",
   "name": "CircuitPython MPU6050",
+  "icon": "fa-light fa-compass",
   "colour": "#00897B",
   "contents": [
     {

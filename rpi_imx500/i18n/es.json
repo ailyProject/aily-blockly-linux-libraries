@@ -1,0 +1,222 @@
+{
+  "toolbox_name": "Raspberry Pi IMX500",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "rpi_imx500_call": {
+    "message0": "Raspberry Pi IMX500 call or create %1 arguments %2 keyword arguments %3",
+    "tooltip": "Call an allowlisted Raspberry Pi IMX500 function or constructor and return its result.",
+    "args0": [
+      {
+        "options": [
+          [
+            "IMX500",
+            "IMX500"
+          ],
+          [
+            "NetworkIntrinsics",
+            "NetworkIntrinsics"
+          ],
+          [
+            "postprocess_nanodet_detection",
+            "postprocess_nanodet_detection"
+          ],
+          [
+            "softmax",
+            "softmax"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "rpi_imx500_do": {
+    "message0": "run Raspberry Pi IMX500 %1 arguments %2 keyword arguments %3",
+    "tooltip": "Run an allowlisted Raspberry Pi IMX500 function or constructor as a statement.",
+    "args0": [
+      {
+        "options": [
+          [
+            "IMX500",
+            "IMX500"
+          ],
+          [
+            "NetworkIntrinsics",
+            "NetworkIntrinsics"
+          ],
+          [
+            "postprocess_nanodet_detection",
+            "postprocess_nanodet_detection"
+          ],
+          [
+            "softmax",
+            "softmax"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "rpi_imx500_method": {
+    "message0": "Raspberry Pi IMX500 object %1 call method %2 arguments %3 keyword arguments %4",
+    "tooltip": "Call an allowlisted Raspberry Pi IMX500 object method and return its result.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "get_outputs",
+            "get_outputs"
+          ],
+          [
+            "get_output_shapes",
+            "get_output_shapes"
+          ],
+          [
+            "get_input_size",
+            "get_input_size"
+          ],
+          [
+            "convert_inference_coords",
+            "convert_inference_coords"
+          ],
+          [
+            "set_inference_roi_abs",
+            "set_inference_roi_abs"
+          ],
+          [
+            "set_inference_aspect_ratio",
+            "set_inference_aspect_ratio"
+          ],
+          [
+            "set_auto_aspect_ratio",
+            "set_auto_aspect_ratio"
+          ],
+          [
+            "show_network_fw_progress_bar",
+            "show_network_fw_progress_bar"
+          ],
+          [
+            "get_kpi_info",
+            "get_kpi_info"
+          ],
+          [
+            "update_with_defaults",
+            "update_with_defaults"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "rpi_imx500_do_method": {
+    "message0": "run Raspberry Pi IMX500 object %1 method %2 arguments %3 keyword arguments %4",
+    "tooltip": "Run an allowlisted Raspberry Pi IMX500 object method as a statement.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "get_outputs",
+            "get_outputs"
+          ],
+          [
+            "get_output_shapes",
+            "get_output_shapes"
+          ],
+          [
+            "get_input_size",
+            "get_input_size"
+          ],
+          [
+            "convert_inference_coords",
+            "convert_inference_coords"
+          ],
+          [
+            "set_inference_roi_abs",
+            "set_inference_roi_abs"
+          ],
+          [
+            "set_inference_aspect_ratio",
+            "set_inference_aspect_ratio"
+          ],
+          [
+            "set_auto_aspect_ratio",
+            "set_auto_aspect_ratio"
+          ],
+          [
+            "show_network_fw_progress_bar",
+            "show_network_fw_progress_bar"
+          ],
+          [
+            "get_kpi_info",
+            "get_kpi_info"
+          ],
+          [
+            "update_with_defaults",
+            "update_with_defaults"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "rpi_imx500_attribute": {
+    "message0": "Raspberry Pi IMX500 object %1 attribute %2",
+    "tooltip": "Read an allowlisted Raspberry Pi IMX500 object or module attribute.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "camera_num",
+            "camera_num"
+          ],
+          [
+            "config",
+            "config"
+          ],
+          [
+            "network_intrinsics",
+            "network_intrinsics"
+          ],
+          [
+            "task",
+            "task"
+          ],
+          [
+            "inference_rate",
+            "inference_rate"
+          ],
+          [
+            "labels",
+            "labels"
+          ],
+          [
+            "bbox_normalization",
+            "bbox_normalization"
+          ],
+          [
+            "bbox_order",
+            "bbox_order"
+          ],
+          [
+            "preserve_aspect_ratio",
+            "preserve_aspect_ratio"
+          ],
+          [
+            "postprocess",
+            "postprocess"
+          ],
+          [
+            "softmax",
+            "softmax"
+          ]
+        ]
+      }
+    ]
+  }
+}

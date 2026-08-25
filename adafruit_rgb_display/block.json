@@ -24,7 +24,7 @@
     ],
     "colour": "#1976D2",
     "tooltip": "Call an allowlisted CircuitPython RGB Display function or constructor and return its result.",
-    "icon": "settings",
+    "icon": "fa-light fa-image",
     "output": "Any"
   },
   {
@@ -52,7 +52,7 @@
     ],
     "colour": "#1976D2",
     "tooltip": "Run an allowlisted CircuitPython RGB Display function or constructor as a statement.",
-    "icon": "settings",
+    "icon": "fa-light fa-image",
     "previousStatement": null,
     "nextStatement": null
   },
@@ -85,7 +85,7 @@
     ],
     "colour": "#1976D2",
     "tooltip": "Call an allowlisted CircuitPython RGB Display object method and return its result.",
-    "icon": "settings",
+    "icon": "fa-light fa-image",
     "output": "Any"
   },
   {
@@ -117,7 +117,7 @@
     ],
     "colour": "#1976D2",
     "tooltip": "Run an allowlisted CircuitPython RGB Display object method as a statement.",
-    "icon": "settings",
+    "icon": "fa-light fa-image",
     "previousStatement": null,
     "nextStatement": null
   },
@@ -150,7 +150,7 @@
     ],
     "colour": "#1976D2",
     "tooltip": "Read an allowlisted CircuitPython RGB Display object or module attribute.",
-    "icon": "settings",
+    "icon": "fa-light fa-image",
     "output": "Any"
   }
 ]

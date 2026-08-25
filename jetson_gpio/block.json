@@ -1,0 +1,332 @@
+[
+  {
+    "type": "jetson_gpio_call",
+    "message0": "Jetson.GPIO call or create %1 arguments %2 keyword arguments %3",
+    "args0": [
+      {
+        "type": "field_dropdown",
+        "name": "TARGET",
+        "options": [
+          [
+            "setwarnings",
+            "setwarnings"
+          ],
+          [
+            "setmode",
+            "setmode"
+          ],
+          [
+            "getmode",
+            "getmode"
+          ],
+          [
+            "setup",
+            "setup"
+          ],
+          [
+            "input",
+            "input"
+          ],
+          [
+            "output",
+            "output"
+          ],
+          [
+            "cleanup",
+            "cleanup"
+          ],
+          [
+            "gpio_function",
+            "gpio_function"
+          ],
+          [
+            "add_event_detect",
+            "add_event_detect"
+          ],
+          [
+            "remove_event_detect",
+            "remove_event_detect"
+          ],
+          [
+            "event_detected",
+            "event_detected"
+          ],
+          [
+            "add_event_callback",
+            "add_event_callback"
+          ],
+          [
+            "wait_for_edge",
+            "wait_for_edge"
+          ],
+          [
+            "PWM",
+            "PWM"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#76B900",
+    "icon": "fa-light fa-microchip",
+    "tooltip": "Call an allowlisted Jetson.GPIO function or constructor and return its result.",
+    "output": "Any"
+  },
+  {
+    "type": "jetson_gpio_do",
+    "message0": "run Jetson.GPIO %1 arguments %2 keyword arguments %3",
+    "args0": [
+      {
+        "type": "field_dropdown",
+        "name": "TARGET",
+        "options": [
+          [
+            "setwarnings",
+            "setwarnings"
+          ],
+          [
+            "setmode",
+            "setmode"
+          ],
+          [
+            "getmode",
+            "getmode"
+          ],
+          [
+            "setup",
+            "setup"
+          ],
+          [
+            "input",
+            "input"
+          ],
+          [
+            "output",
+            "output"
+          ],
+          [
+            "cleanup",
+            "cleanup"
+          ],
+          [
+            "gpio_function",
+            "gpio_function"
+          ],
+          [
+            "add_event_detect",
+            "add_event_detect"
+          ],
+          [
+            "remove_event_detect",
+            "remove_event_detect"
+          ],
+          [
+            "event_detected",
+            "event_detected"
+          ],
+          [
+            "add_event_callback",
+            "add_event_callback"
+          ],
+          [
+            "wait_for_edge",
+            "wait_for_edge"
+          ],
+          [
+            "PWM",
+            "PWM"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#76B900",
+    "icon": "fa-light fa-microchip",
+    "tooltip": "Run an allowlisted Jetson.GPIO function or constructor as a statement.",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "jetson_gpio_method",
+    "message0": "Jetson.GPIO object %1 call method %2 arguments %3 keyword arguments %4",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "OBJECT"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "METHOD",
+        "options": [
+          [
+            "start",
+            "start"
+          ],
+          [
+            "stop",
+            "stop"
+          ],
+          [
+            "ChangeDutyCycle",
+            "ChangeDutyCycle"
+          ],
+          [
+            "ChangeFrequency",
+            "ChangeFrequency"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#76B900",
+    "icon": "fa-light fa-microchip",
+    "tooltip": "Call an allowlisted Jetson.GPIO object method and return its result.",
+    "output": "Any"
+  },
+  {
+    "type": "jetson_gpio_do_method",
+    "message0": "run Jetson.GPIO object %1 method %2 arguments %3 keyword arguments %4",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "OBJECT"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "METHOD",
+        "options": [
+          [
+            "start",
+            "start"
+          ],
+          [
+            "stop",
+            "stop"
+          ],
+          [
+            "ChangeDutyCycle",
+            "ChangeDutyCycle"
+          ],
+          [
+            "ChangeFrequency",
+            "ChangeFrequency"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#76B900",
+    "icon": "fa-light fa-microchip",
+    "tooltip": "Run an allowlisted Jetson.GPIO object method as a statement.",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "jetson_gpio_attribute",
+    "message0": "Jetson.GPIO object %1 attribute %2",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "OBJECT"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "ATTRIBUTE",
+        "options": [
+          [
+            "BOARD",
+            "BOARD"
+          ],
+          [
+            "BCM",
+            "BCM"
+          ],
+          [
+            "CVM",
+            "CVM"
+          ],
+          [
+            "TEGRA_SOC",
+            "TEGRA_SOC"
+          ],
+          [
+            "IN",
+            "IN"
+          ],
+          [
+            "OUT",
+            "OUT"
+          ],
+          [
+            "HIGH",
+            "HIGH"
+          ],
+          [
+            "LOW",
+            "LOW"
+          ],
+          [
+            "RISING",
+            "RISING"
+          ],
+          [
+            "FALLING",
+            "FALLING"
+          ],
+          [
+            "BOTH",
+            "BOTH"
+          ],
+          [
+            "PUD_UP",
+            "PUD_UP"
+          ],
+          [
+            "PUD_DOWN",
+            "PUD_DOWN"
+          ],
+          [
+            "JETSON_INFO",
+            "JETSON_INFO"
+          ],
+          [
+            "VERSION",
+            "VERSION"
+          ]
+        ]
+      }
+    ],
+    "colour": "#76B900",
+    "icon": "fa-light fa-microchip",
+    "tooltip": "Read an allowlisted Jetson.GPIO object or module attribute.",
+    "output": "Any"
+  }
+]

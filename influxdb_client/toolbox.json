@@ -1,6 +1,7 @@
 {
   "kind": "category",
   "name": "InfluxDB Client",
+  "icon": "fa-light fa-database",
   "colour": "#0288D1",
   "contents": [
     {

@@ -1,6 +1,7 @@
 {
   "kind": "category",
   "name": "dbus-next",
+  "icon": "fa-light fa-bus",
   "colour": "#455A64",
   "contents": [
     {

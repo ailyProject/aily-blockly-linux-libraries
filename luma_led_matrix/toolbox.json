@@ -1,6 +1,7 @@
 {
   "kind": "category",
   "name": "luma.led_matrix",
+  "icon": "fa-light fa-border-all",
   "colour": "#1976D2",
   "contents": [
     {

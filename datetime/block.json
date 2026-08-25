@@ -1,0 +1,323 @@
+[
+  {
+    "type": "python_datetime_now",
+    "message0": "current local date and time",
+    "args0": [],
+    "colour": "#455A64",
+    "tooltip": "Return the current local date and time as a naive datetime object.",
+    "icon": "fa-light fa-clock",
+    "output": "Any"
+  },
+  {
+    "type": "python_datetime_utc_now",
+    "message0": "current UTC date and time",
+    "args0": [],
+    "colour": "#455A64",
+    "tooltip": "Return the current UTC date and time as a timezone-aware datetime object.",
+    "icon": "fa-light fa-clock",
+    "output": "Any"
+  },
+  {
+    "type": "python_datetime_timestamp_now",
+    "message0": "current POSIX timestamp",
+    "args0": [],
+    "colour": "#455A64",
+    "tooltip": "Return seconds since the POSIX epoch using the system wall clock.",
+    "icon": "fa-light fa-clock",
+    "output": "Number"
+  },
+  {
+    "type": "python_datetime_monotonic_ms",
+    "message0": "monotonic milliseconds",
+    "args0": [],
+    "colour": "#455A64",
+    "tooltip": "Return a monotonic counter in whole milliseconds for elapsed-time measurement.",
+    "icon": "fa-light fa-clock",
+    "output": "Number"
+  },
+  {
+    "type": "python_datetime_monotonic_us",
+    "message0": "monotonic microseconds",
+    "args0": [],
+    "colour": "#455A64",
+    "tooltip": "Return a monotonic counter in whole microseconds for elapsed-time measurement.",
+    "icon": "fa-light fa-clock",
+    "output": "Number"
+  },
+  {
+    "type": "python_datetime_create",
+    "message0": "create date and time year %1 month %2 day %3 hour %4 minute %5 second %6 microsecond %7 timezone %8",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "YEAR",
+        "check": "Number"
+      },
+      {
+        "type": "input_value",
+        "name": "MONTH",
+        "check": "Number"
+      },
+      {
+        "type": "input_value",
+        "name": "DAY",
+        "check": "Number"
+      },
+      {
+        "type": "input_value",
+        "name": "HOUR",
+        "check": "Number"
+      },
+      {
+        "type": "input_value",
+        "name": "MINUTE",
+        "check": "Number"
+      },
+      {
+        "type": "input_value",
+        "name": "SECOND",
+        "check": "Number"
+      },
+      {
+        "type": "input_value",
+        "name": "MICROSECOND",
+        "check": "Number"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "TIMEZONE",
+        "options": [
+          [
+            "local / naive",
+            "NAIVE"
+          ],
+          [
+            "UTC aware",
+            "UTC"
+          ]
+        ]
+      }
+    ],
+    "colour": "#455A64",
+    "tooltip": "Construct a datetime object. Invalid calendar values raise ValueError.",
+    "icon": "fa-light fa-plug",
+    "output": "Any"
+  },
+  {
+    "type": "python_datetime_format",
+    "message0": "format date and time %1 with %2",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "DATETIME"
+      },
+      {
+        "type": "input_value",
+        "name": "FORMAT",
+        "check": "String"
+      }
+    ],
+    "colour": "#455A64",
+    "tooltip": "Format a datetime with strftime and return text.",
+    "icon": "fa-light fa-code",
+    "output": "String"
+  },
+  {
+    "type": "python_datetime_parse",
+    "message0": "parse date and time text %1 with %2",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "TEXT",
+        "check": "String"
+      },
+      {
+        "type": "input_value",
+        "name": "FORMAT",
+        "check": "String"
+      }
+    ],
+    "colour": "#455A64",
+    "tooltip": "Parse text with strptime. Invalid input raises ValueError.",
+    "icon": "fa-light fa-code",
+    "output": "Any"
+  },
+  {
+    "type": "python_datetime_from_timestamp",
+    "message0": "date and time from POSIX timestamp %1 in %2",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "TIMESTAMP",
+        "check": "Number"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "TIMEZONE",
+        "options": [
+          [
+            "local",
+            "LOCAL"
+          ],
+          [
+            "UTC",
+            "UTC"
+          ]
+        ]
+      }
+    ],
+    "colour": "#455A64",
+    "tooltip": "Convert a POSIX timestamp to a local naive or UTC-aware datetime.",
+    "icon": "fa-light fa-clock",
+    "output": "Any"
+  },
+  {
+    "type": "python_datetime_to_timestamp",
+    "message0": "POSIX timestamp of date and time %1",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "DATETIME"
+      }
+    ],
+    "colour": "#455A64",
+    "tooltip": "Convert a datetime object to POSIX seconds.",
+    "icon": "fa-light fa-clock",
+    "output": "Number"
+  },
+  {
+    "type": "python_datetime_component",
+    "message0": "%1 of date and time %2",
+    "args0": [
+      {
+        "type": "field_dropdown",
+        "name": "COMPONENT",
+        "options": [
+          [
+            "year",
+            "YEAR"
+          ],
+          [
+            "month",
+            "MONTH"
+          ],
+          [
+            "day",
+            "DAY"
+          ],
+          [
+            "hour",
+            "HOUR"
+          ],
+          [
+            "minute",
+            "MINUTE"
+          ],
+          [
+            "second",
+            "SECOND"
+          ],
+          [
+            "microsecond",
+            "MICROSECOND"
+          ],
+          [
+            "weekday (Monday = 0)",
+            "WEEKDAY"
+          ],
+          [
+            "ISO weekday (Monday = 1)",
+            "ISO_WEEKDAY"
+          ],
+          [
+            "day of year",
+            "DAY_OF_YEAR"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "DATETIME"
+      }
+    ],
+    "colour": "#455A64",
+    "tooltip": "Read an allowlisted numeric datetime component.",
+    "icon": "fa-light fa-circle-info",
+    "output": "Number"
+  },
+  {
+    "type": "python_datetime_isoformat",
+    "message0": "ISO 8601 text of date and time %1 precision %2",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "DATETIME"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "TIMESPEC",
+        "options": [
+          [
+            "automatic",
+            "AUTO"
+          ],
+          [
+            "hours",
+            "HOURS"
+          ],
+          [
+            "minutes",
+            "MINUTES"
+          ],
+          [
+            "seconds",
+            "SECONDS"
+          ],
+          [
+            "milliseconds",
+            "MILLISECONDS"
+          ],
+          [
+            "microseconds",
+            "MICROSECONDS"
+          ]
+        ]
+      }
+    ],
+    "colour": "#455A64",
+    "tooltip": "Return ISO 8601 text with an allowlisted time precision.",
+    "icon": "fa-light fa-code",
+    "output": "String"
+  },
+  {
+    "type": "python_datetime_from_isoformat",
+    "message0": "date and time from ISO 8601 text %1",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "TEXT",
+        "check": "String"
+      }
+    ],
+    "colour": "#455A64",
+    "tooltip": "Parse supported ISO 8601 date and time text. Invalid input raises ValueError.",
+    "icon": "fa-light fa-code",
+    "output": "Any"
+  },
+  {
+    "type": "python_datetime_sleep_ms",
+    "message0": "wait %1 milliseconds",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "MILLISECONDS",
+        "check": "Number"
+      }
+    ],
+    "colour": "#455A64",
+    "tooltip": "Pause the current thread for the requested milliseconds. Negative values raise ValueError.",
+    "icon": "fa-light fa-clock",
+    "previousStatement": null,
+    "nextStatement": null
+  }
+]

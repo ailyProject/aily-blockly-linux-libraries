@@ -40,7 +40,7 @@
     ],
     "colour": "#00897B",
     "tooltip": "Call an allowlisted PyModbus function or constructor and return its result.",
-    "icon": "settings",
+    "icon": "fa-light fa-code",
     "output": "Any"
   },
   {
@@ -84,7 +84,7 @@
     ],
     "colour": "#00897B",
     "tooltip": "Run an allowlisted PyModbus function or constructor as a statement.",
-    "icon": "settings",
+    "icon": "fa-light fa-play",
     "previousStatement": null,
     "nextStatement": null
   },
@@ -149,7 +149,7 @@
     ],
     "colour": "#00897B",
     "tooltip": "Call an allowlisted PyModbus object method and return its result.",
-    "icon": "settings",
+    "icon": "fa-light fa-gear",
     "output": "Any"
   },
   {
@@ -213,7 +213,7 @@
     ],
     "colour": "#00897B",
     "tooltip": "Run an allowlisted PyModbus object method as a statement.",
-    "icon": "settings",
+    "icon": "fa-light fa-gears",
     "previousStatement": null,
     "nextStatement": null
   },
@@ -238,7 +238,7 @@
     ],
     "colour": "#00897B",
     "tooltip": "Read an allowlisted PyModbus object or module attribute.",
-    "icon": "settings",
+    "icon": "fa-light fa-circle-info",
     "output": "Any"
   }
 ]

@@ -1,0 +1,28 @@
+{
+  "kind": "category",
+  "name": "TorchVision",
+  "icon": "fa-light fa-brain",
+  "colour": "#1976D2",
+  "contents": [
+    {
+      "kind": "block",
+      "type": "torchvision_call"
+    },
+    {
+      "kind": "block",
+      "type": "torchvision_do"
+    },
+    {
+      "kind": "block",
+      "type": "torchvision_method"
+    },
+    {
+      "kind": "block",
+      "type": "torchvision_do_method"
+    },
+    {
+      "kind": "block",
+      "type": "torchvision_attribute"
+    }
+  ]
+}

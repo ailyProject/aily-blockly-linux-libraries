@@ -1,6 +1,7 @@
 {
   "kind": "category",
   "name": "gpsd-py3",
+  "icon": "fa-light fa-location-dot",
   "colour": "#00897B",
   "contents": [
     {

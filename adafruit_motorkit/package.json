@@ -19,6 +19,9 @@
   "spec": true,
   "compatibility": {
     "type": [
+      "allwinner:t527:walnutpi_2b",
+      "broadcom:bcm2710a1:raspberrypi_0_2w",
+      "broadcom:bcm2711:raspberrypi_4b",
       "broadcom:bcm2712:raspberrypi_5"
     ],
     "voltage": [

@@ -1,6 +1,7 @@
 {
   "kind": "category",
   "name": "System",
+  "icon": "fa-light fa-folder-tree",
   "colour": "#EF6C00",
   "contents": [
     {

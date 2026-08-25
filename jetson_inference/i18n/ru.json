@@ -1,0 +1,226 @@
+{
+  "toolbox_name": "jetson-inference",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "jetson_inference_call": {
+    "message0": "jetson-inference call or create %1 arguments %2 keyword arguments %3",
+    "tooltip": "Call an allowlisted jetson-inference function or constructor and return its result.",
+    "args0": [
+      {
+        "options": [
+          [
+            "detectNet",
+            "detectNet"
+          ],
+          [
+            "imageNet",
+            "imageNet"
+          ],
+          [
+            "segNet",
+            "segNet"
+          ],
+          [
+            "poseNet",
+            "poseNet"
+          ],
+          [
+            "actionNet",
+            "actionNet"
+          ],
+          [
+            "backgroundNet",
+            "backgroundNet"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "jetson_inference_do": {
+    "message0": "run jetson-inference %1 arguments %2 keyword arguments %3",
+    "tooltip": "Run an allowlisted jetson-inference function or constructor as a statement.",
+    "args0": [
+      {
+        "options": [
+          [
+            "detectNet",
+            "detectNet"
+          ],
+          [
+            "imageNet",
+            "imageNet"
+          ],
+          [
+            "segNet",
+            "segNet"
+          ],
+          [
+            "poseNet",
+            "poseNet"
+          ],
+          [
+            "actionNet",
+            "actionNet"
+          ],
+          [
+            "backgroundNet",
+            "backgroundNet"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "jetson_inference_method": {
+    "message0": "jetson-inference object %1 call method %2 arguments %3 keyword arguments %4",
+    "tooltip": "Call an allowlisted jetson-inference object method and return its result.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "Detect",
+            "Detect"
+          ],
+          [
+            "Classify",
+            "Classify"
+          ],
+          [
+            "Segment",
+            "Segment"
+          ],
+          [
+            "Process",
+            "Process"
+          ],
+          [
+            "GetNetworkFPS",
+            "GetNetworkFPS"
+          ],
+          [
+            "PrintProfilerTimes",
+            "PrintProfilerTimes"
+          ],
+          [
+            "GetClassDesc",
+            "GetClassDesc"
+          ],
+          [
+            "GetClassLabel",
+            "GetClassLabel"
+          ],
+          [
+            "GetNumClasses",
+            "GetNumClasses"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "jetson_inference_do_method": {
+    "message0": "run jetson-inference object %1 method %2 arguments %3 keyword arguments %4",
+    "tooltip": "Run an allowlisted jetson-inference object method as a statement.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "Detect",
+            "Detect"
+          ],
+          [
+            "Classify",
+            "Classify"
+          ],
+          [
+            "Segment",
+            "Segment"
+          ],
+          [
+            "Process",
+            "Process"
+          ],
+          [
+            "GetNetworkFPS",
+            "GetNetworkFPS"
+          ],
+          [
+            "PrintProfilerTimes",
+            "PrintProfilerTimes"
+          ],
+          [
+            "GetClassDesc",
+            "GetClassDesc"
+          ],
+          [
+            "GetClassLabel",
+            "GetClassLabel"
+          ],
+          [
+            "GetNumClasses",
+            "GetNumClasses"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "jetson_inference_attribute": {
+    "message0": "jetson-inference object %1 attribute %2",
+    "tooltip": "Read an allowlisted jetson-inference object or module attribute.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "ClassID",
+            "ClassID"
+          ],
+          [
+            "Confidence",
+            "Confidence"
+          ],
+          [
+            "Left",
+            "Left"
+          ],
+          [
+            "Top",
+            "Top"
+          ],
+          [
+            "Right",
+            "Right"
+          ],
+          [
+            "Bottom",
+            "Bottom"
+          ],
+          [
+            "Width",
+            "Width"
+          ],
+          [
+            "Height",
+            "Height"
+          ],
+          [
+            "Center",
+            "Center"
+          ],
+          [
+            "Area",
+            "Area"
+          ]
+        ]
+      }
+    ]
+  }
+}

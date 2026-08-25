@@ -44,7 +44,7 @@
     ],
     "colour": "#C51A4A",
     "tooltip": "Create and configure a Raspberry Pi Picamera2 camera.",
-    "icon": "camera",
+    "icon": "fa-light fa-plug",
     "previousStatement": null,
     "nextStatement": null
   },
@@ -60,7 +60,7 @@
     ],
     "colour": "#C51A4A",
     "tooltip": "Start the configured Picamera2 camera.",
-    "icon": "camera",
+    "icon": "fa-light fa-play",
     "previousStatement": null,
     "nextStatement": null
   },
@@ -76,7 +76,7 @@
     ],
     "colour": "#C51A4A",
     "tooltip": "Capture the main stream as a NumPy array.",
-    "icon": "camera",
+    "icon": "fa-light fa-download",
     "output": "Any"
   },
   {
@@ -96,7 +96,7 @@
     ],
     "colour": "#C51A4A",
     "tooltip": "Capture an image and save it to a file.",
-    "icon": "camera",
+    "icon": "fa-light fa-download",
     "previousStatement": null,
     "nextStatement": null
   },
@@ -138,7 +138,7 @@
     ],
     "colour": "#C51A4A",
     "tooltip": "Set a supported Picamera2 camera control.",
-    "icon": "settings",
+    "icon": "fa-light fa-sliders",
     "previousStatement": null,
     "nextStatement": null
   },
@@ -154,7 +154,7 @@
     ],
     "colour": "#C51A4A",
     "tooltip": "Stop capture without closing the Picamera2 camera.",
-    "icon": "camera",
+    "icon": "fa-light fa-stop",
     "previousStatement": null,
     "nextStatement": null
   },
@@ -170,7 +170,7 @@
     ],
     "colour": "#C51A4A",
     "tooltip": "Stop and close the Picamera2 camera safely.",
-    "icon": "camera",
+    "icon": "fa-light fa-power-off",
     "previousStatement": null,
     "nextStatement": null
   }

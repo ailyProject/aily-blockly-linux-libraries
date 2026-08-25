@@ -1,0 +1,54 @@
+{
+  "name": "@aily-project/lib-json",
+  "nickname": "JSON",
+  "nickname_zh_cn": "JSON",
+  "nickname_en": "JSON",
+  "nickname_zh_hk": "JSON",
+  "nickname_ja": "JSON",
+  "nickname_ko": "JSON",
+  "nickname_de": "JSON",
+  "nickname_fr": "JSON",
+  "nickname_es": "JSON",
+  "nickname_pt": "JSON",
+  "nickname_ru": "JSON",
+  "nickname_ar": "JSON",
+  "version": "0.0.1",
+  "description": "基于 CPython json 标准库的序列化、解析、UTF-8 文件和对象访问积木。",
+  "description_zh_cn": "基于 CPython json 标准库的序列化、解析、UTF-8 文件和对象访问积木。",
+  "description_en": "Serialization, parsing, UTF-8 file, validation, and object-access blocks backed by the CPython json standard library.",
+  "spec": true,
+  "compatibility": {
+    "type": [
+      "allwinner:t527:walnutpi_2b",
+      "broadcom:bcm2710a1:raspberrypi_0_2w",
+      "broadcom:bcm2711:raspberrypi_4b",
+      "broadcom:bcm2712:raspberrypi_5",
+      "canaan:k230:cybercam",
+      "nvidia:tegra234:jetson_agx_orin",
+      "nvidia:tegra234:jetson_orin_nano",
+      "nvidia:tegra234:jetson_orin_nx"
+    ],
+    "voltage": [
+      3.3
+    ]
+  },
+  "keywords": [
+    "aily",
+    "blockly",
+    "python",
+    "json",
+    "serialization",
+    "utf-8",
+    "file",
+    "object",
+    "dictionary"
+  ],
+  "tags": [
+    "core"
+  ],
+  "author": "ailyProject",
+  "license": "MIT",
+  "homepage": "https://docs.python.org/3/library/json.html",
+  "dependencies": {},
+  "devDependencies": {}
+}

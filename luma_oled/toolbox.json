@@ -1,6 +1,7 @@
 {
   "kind": "category",
   "name": "luma.oled",
+  "icon": "fa-light fa-display",
   "colour": "#1976D2",
   "contents": [
     {

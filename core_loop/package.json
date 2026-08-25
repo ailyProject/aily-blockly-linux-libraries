@@ -1,0 +1,51 @@
+{
+  "name": "@aily-project/lib-core-loop",
+  "nickname": "Loops",
+  "nickname_zh_cn": "循环",
+  "nickname_en": "Loops",
+  "nickname_zh_hk": "循環",
+  "nickname_ja": "ループ",
+  "nickname_ko": "반복",
+  "nickname_de": "Schleifen",
+  "nickname_fr": "Boucles",
+  "nickname_es": "Bucles",
+  "nickname_pt": "Laços",
+  "nickname_ru": "Циклы",
+  "nickname_ar": "الحلقات",
+  "version": "0.0.1",
+  "description": "Repeat, while, counting, iteration, break, and continue blocks for CPython projects.",
+  "description_en": "Repeat, while, counting, iteration, break, and continue blocks for CPython projects.",
+  "description_zh_cn": "CPython 项目常用的重复、条件循环、计数、迭代、中断和继续积木。",
+  "spec": true,
+  "compatibility": {
+    "type": [
+      "allwinner:t527:walnutpi_2b",
+      "broadcom:bcm2710a1:raspberrypi_0_2w",
+      "broadcom:bcm2711:raspberrypi_4b",
+      "broadcom:bcm2712:raspberrypi_5",
+      "canaan:k230:cybercam",
+      "nvidia:tegra234:jetson_agx_orin",
+      "nvidia:tegra234:jetson_orin_nano",
+      "nvidia:tegra234:jetson_orin_nx"
+    ],
+    "voltage": [
+      3.3
+    ]
+  },
+  "keywords": [
+    "aily",
+    "blockly",
+    "python",
+    "loop",
+    "repeat",
+    "while",
+    "for"
+  ],
+  "tags": [
+    "core"
+  ],
+  "author": "ailyProject",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {}
+}

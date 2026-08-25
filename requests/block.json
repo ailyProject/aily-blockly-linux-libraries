@@ -5,7 +5,7 @@
     "args0": [{"type": "field_input", "name": "NAME", "text": "session"}],
     "colour": "#1565C0",
     "tooltip": "Create a Requests Session for connection pooling, persistent cookies, and shared settings.",
-    "icon": "wifi",
+    "icon": "fa-light fa-plug",
     "previousStatement": null,
     "nextStatement": null
   },
@@ -25,7 +25,7 @@
     ],
     "colour": "#1565C0",
     "tooltip": "Set connected values as Session defaults. Unconnected inputs leave the corresponding setting unchanged.",
-    "icon": "wifi",
+    "icon": "fa-light fa-sliders",
     "previousStatement": null,
     "nextStatement": null
   },
@@ -35,7 +35,7 @@
     "args0": [{"type": "field_input", "name": "NAME", "text": "session"}],
     "colour": "#1565C0",
     "tooltip": "Close the Session and release its connection pools.",
-    "icon": "wifi",
+    "icon": "fa-light fa-power-off",
     "previousStatement": null,
     "nextStatement": null
   },
@@ -50,7 +50,7 @@
     ],
     "colour": "#1565C0",
     "tooltip": "Send any HTTP method. Leave client empty for the module-level API, or connect a Session value.",
-    "icon": "wifi",
+    "icon": "fa-light fa-globe",
     "output": "Any"
   },
   {
@@ -64,7 +64,7 @@
     ],
     "colour": "#1565C0",
     "tooltip": "Send a GET request with optional query parameters and options. Leave client empty for the module-level API.",
-    "icon": "wifi",
+    "icon": "fa-light fa-download",
     "output": "Any"
   },
   {
@@ -80,7 +80,7 @@
     ],
     "colour": "#1565C0",
     "tooltip": "Send a request whose body is JSON, form/raw data, or a Requests files mapping. Explicit body data overrides the same key in options.",
-    "icon": "wifi",
+    "icon": "fa-light fa-upload",
     "output": "Any"
   },
   {
@@ -96,7 +96,7 @@
     ],
     "colour": "#1565C0",
     "tooltip": "Build request content options. Only connected inputs are included, and at most one body key is generated.",
-    "icon": "wifi",
+    "icon": "fa-light fa-sliders",
     "output": "Any"
   },
   {
@@ -110,7 +110,7 @@
     ],
     "colour": "#1565C0",
     "tooltip": "Build timeout, proxy, redirect, and streaming options. Default leaves Requests behavior unchanged.",
-    "icon": "wifi",
+    "icon": "fa-light fa-sliders",
     "output": "Any"
   },
   {
@@ -124,7 +124,7 @@
     ],
     "colour": "#1565C0",
     "tooltip": "Build TLS verification and optional client-certificate options. Disabling verification is unsafe and intended only for controlled testing.",
-    "icon": "wifi",
+    "icon": "fa-light fa-sliders",
     "output": "Any"
   },
   {
@@ -133,7 +133,7 @@
     "args0": [{"type": "input_value", "name": "LEFT"}, {"type": "input_value", "name": "RIGHT"}],
     "colour": "#1565C0",
     "tooltip": "Merge two option mappings. Values on the right take precedence.",
-    "icon": "wifi",
+    "icon": "fa-light fa-sliders",
     "output": "Any"
   },
   {
@@ -146,7 +146,7 @@
     ],
     "colour": "#1565C0",
     "tooltip": "Create Basic or Digest authentication credentials. Use HTTPS to protect credentials in transit.",
-    "icon": "wifi",
+    "icon": "fa-light fa-sliders",
     "output": "Any"
   },
   {
@@ -155,7 +155,7 @@
     "args0": [{"type": "input_value", "name": "CONNECT", "check": "Number"}, {"type": "input_value", "name": "READ", "check": "Number"}],
     "colour": "#1565C0",
     "tooltip": "Create separate connect and read inactivity timeouts. This is not a total request deadline.",
-    "icon": "wifi",
+    "icon": "fa-light fa-sliders",
     "output": "Any"
   },
   {
@@ -164,7 +164,7 @@
     "args0": [{"type": "input_value", "name": "HTTP", "check": "String"}, {"type": "input_value", "name": "HTTPS", "check": "String"}],
     "colour": "#1565C0",
     "tooltip": "Build an HTTP and HTTPS proxy mapping. Unconnected schemes are omitted.",
-    "icon": "wifi",
+    "icon": "fa-light fa-globe",
     "output": "Any"
   },
   {
@@ -183,7 +183,7 @@
     ],
     "colour": "#1565C0",
     "tooltip": "Upload one file using multipart/form-data, assign the Response, and always close the local file handle.",
-    "icon": "wifi",
+    "icon": "fa-light fa-upload",
     "previousStatement": null,
     "nextStatement": null
   },
@@ -196,7 +196,7 @@
     ],
     "colour": "#1565C0",
     "tooltip": "Read a Response property. Text is decoded text; content is bytes; OK is true for status codes below 400.",
-    "icon": "wifi",
+    "icon": "fa-light fa-circle-info",
     "output": "Any"
   },
   {
@@ -205,7 +205,7 @@
     "args0": [{"type": "input_value", "name": "RESPONSE"}],
     "colour": "#1565C0",
     "tooltip": "Decode the response body as JSON. This may fail independently of the HTTP status.",
-    "icon": "wifi",
+    "icon": "fa-light fa-globe",
     "output": "Any"
   },
   {
@@ -219,7 +219,7 @@
     ],
     "colour": "#1565C0",
     "tooltip": "Look up a response header or cookie and return a default when it is absent.",
-    "icon": "wifi",
+    "icon": "fa-light fa-globe",
     "output": "Any"
   },
   {
@@ -228,7 +228,7 @@
     "args0": [{"type": "input_value", "name": "RESPONSE"}, {"type": "input_value", "name": "ENCODING", "check": "String"}],
     "colour": "#1565C0",
     "tooltip": "Override the encoding used by response.text. Set it before reading text.",
-    "icon": "wifi",
+    "icon": "fa-light fa-sliders",
     "previousStatement": null,
     "nextStatement": null
   },
@@ -238,7 +238,7 @@
     "args0": [{"type": "input_value", "name": "RESPONSE"}],
     "colour": "#1565C0",
     "tooltip": "Raise HTTPError for unsuccessful HTTP status codes.",
-    "icon": "wifi",
+    "icon": "fa-light fa-globe",
     "previousStatement": null,
     "nextStatement": null
   },
@@ -257,7 +257,7 @@
     ],
     "colour": "#1565C0",
     "tooltip": "Run request code, catch one Requests exception family, and always run the finally branch.",
-    "icon": "wifi",
+    "icon": "fa-light fa-globe",
     "previousStatement": null,
     "nextStatement": null
   },
@@ -274,7 +274,7 @@
     ],
     "colour": "#1565C0",
     "tooltip": "Iterate non-empty response chunks and close the response afterward. The request should use stream mode.",
-    "icon": "wifi",
+    "icon": "fa-light fa-globe",
     "previousStatement": null,
     "nextStatement": null
   },
@@ -291,7 +291,7 @@
     ],
     "colour": "#1565C0",
     "tooltip": "Stream a URL to a local file in chunks, close all resources, and optionally reject HTTP error statuses.",
-    "icon": "wifi",
+    "icon": "fa-light fa-download",
     "previousStatement": null,
     "nextStatement": null
   },
@@ -305,7 +305,7 @@
     ],
     "colour": "#0288D1",
     "tooltip": "HTTP %1 URL %2 data %3",
-    "icon": "wifi",
+    "icon": "fa-light fa-globe",
     "output": "Any"
   },
   {
@@ -317,7 +317,7 @@
     ],
     "colour": "#0288D1",
     "tooltip": "HTTP response %1 property %2",
-    "icon": "wifi",
+    "icon": "fa-light fa-globe",
     "output": "Any"
   }
 ]

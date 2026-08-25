@@ -52,7 +52,7 @@
     ],
     "colour": "#00897B",
     "tooltip": "Call an allowlisted lgpio function or constructor and return its result.",
-    "icon": "settings",
+    "icon": "fa-light fa-code",
     "output": "Any"
   },
   {
@@ -108,7 +108,7 @@
     ],
     "colour": "#00897B",
     "tooltip": "Run an allowlisted lgpio function or constructor as a statement.",
-    "icon": "settings",
+    "icon": "fa-light fa-play",
     "previousStatement": null,
     "nextStatement": null
   },
@@ -141,7 +141,7 @@
     ],
     "colour": "#00897B",
     "tooltip": "Call an allowlisted lgpio object method and return its result.",
-    "icon": "settings",
+    "icon": "fa-light fa-gear",
     "output": "Any"
   },
   {
@@ -173,7 +173,7 @@
     ],
     "colour": "#00897B",
     "tooltip": "Run an allowlisted lgpio object method as a statement.",
-    "icon": "settings",
+    "icon": "fa-light fa-gears",
     "previousStatement": null,
     "nextStatement": null
   },
@@ -218,7 +218,7 @@
     ],
     "colour": "#00897B",
     "tooltip": "Read an allowlisted lgpio object or module attribute.",
-    "icon": "settings",
+    "icon": "fa-light fa-circle-info",
     "output": "Any"
   }
 ]

@@ -1,6 +1,7 @@
 {
   "kind": "category",
   "name": "pynmea2",
+  "icon": "fa-light fa-location-dot",
   "colour": "#00897B",
   "contents": [
     {

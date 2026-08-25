@@ -1,0 +1,96 @@
+{
+  "kind": "category",
+  "name": "JSON",
+  "icon": "fa-light fa-brackets-curly",
+  "colour": "#455A64",
+  "contents": [
+    {
+      "kind": "block",
+      "type": "python_json_dumps"
+    },
+    {
+      "kind": "block",
+      "type": "python_json_loads",
+      "inputs": {
+        "TEXT": {
+          "shadow": {
+            "type": "text",
+            "fields": {
+              "TEXT": "{\"name\":\"aily\"}"
+            }
+          }
+        }
+      }
+    },
+    {
+      "kind": "block",
+      "type": "python_json_read_file",
+      "inputs": {
+        "PATH": {
+          "shadow": {
+            "type": "text",
+            "fields": {
+              "TEXT": "data.json"
+            }
+          }
+        }
+      }
+    },
+    {
+      "kind": "block",
+      "type": "python_json_write_file",
+      "inputs": {
+        "PATH": {
+          "shadow": {
+            "type": "text",
+            "fields": {
+              "TEXT": "data.json"
+            }
+          }
+        }
+      }
+    },
+    {
+      "kind": "block",
+      "type": "python_json_is_valid",
+      "inputs": {
+        "TEXT": {
+          "shadow": {
+            "type": "text",
+            "fields": {
+              "TEXT": "{}"
+            }
+          }
+        }
+      }
+    },
+    {
+      "kind": "block",
+      "type": "python_json_object_get",
+      "inputs": {
+        "KEY": {
+          "shadow": {
+            "type": "text",
+            "fields": {
+              "TEXT": "key"
+            }
+          }
+        }
+      }
+    },
+    {
+      "kind": "block",
+      "type": "python_json_object_set",
+      "inputs": {
+        "KEY": {
+          "shadow": {
+            "type": "text",
+            "fields": {
+              "TEXT": "key"
+            }
+          }
+        }
+      }
+    }
+  ]
+}

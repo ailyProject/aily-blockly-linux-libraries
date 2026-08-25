@@ -1,0 +1,51 @@
+{
+  "name": "@aily-project/lib-gstreamer",
+  "nickname": "GStreamer",
+  "nickname_ar": "GStreamer",
+  "nickname_de": "GStreamer",
+  "nickname_en": "GStreamer",
+  "nickname_es": "GStreamer",
+  "nickname_fr": "GStreamer",
+  "nickname_ja": "GStreamer",
+  "nickname_ko": "GStreamer",
+  "nickname_pt": "GStreamer",
+  "nickname_ru": "GStreamer",
+  "nickname_zh_cn": "GStreamer",
+  "nickname_zh_hk": "GStreamer",
+  "version": "0.0.1",
+  "description": "GStreamer 通过显式 CPython API 白名单为受支持的 Linux 单板机提供积木。",
+  "description_zh_cn": "GStreamer 通过显式 CPython API 白名单为受支持的 Linux 单板机提供积木。",
+  "description_en": "Allowlisted GStreamer Python API blocks for Raspberry Pi and Linux single-board computers.",
+  "spec": true,
+  "compatibility": {
+    "type": [
+      "allwinner:t527:walnutpi_2b",
+      "broadcom:bcm2710a1:raspberrypi_0_2w",
+      "broadcom:bcm2711:raspberrypi_4b",
+      "broadcom:bcm2712:raspberrypi_5",
+      "nvidia:tegra234:jetson_agx_orin",
+      "nvidia:tegra234:jetson_orin_nano",
+      "nvidia:tegra234:jetson_orin_nx"
+    ],
+    "voltage": [
+      3.3
+    ]
+  },
+  "keywords": [
+    "aily",
+    "blockly",
+    "python",
+    "linux",
+    "raspberry-pi",
+    "python3-gi",
+    "gi.repository.Gst"
+  ],
+  "tags": [
+    "audio"
+  ],
+  "author": "ailyProject",
+  "license": "MIT",
+  "homepage": "https://gstreamer.freedesktop.org/documentation/tutorials/basic/hello-world.html",
+  "dependencies": {},
+  "devDependencies": {}
+}

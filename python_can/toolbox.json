@@ -1,6 +1,7 @@
 {
   "kind": "category",
   "name": "python-can",
+  "icon": "fa-light fa-car",
   "colour": "#00897B",
   "contents": [
     {

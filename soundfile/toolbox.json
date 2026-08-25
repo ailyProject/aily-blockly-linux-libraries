@@ -1,6 +1,7 @@
 {
   "kind": "category",
   "name": "SoundFile",
+  "icon": "fa-light fa-file-audio",
   "colour": "#EF6C00",
   "contents": [
     {

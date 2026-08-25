@@ -1,0 +1,47 @@
+{
+  "name": "@aily-project/lib-jetson-stats",
+  "nickname": "jetson-stats / jtop",
+  "nickname_ar": "jetson-stats / jtop",
+  "nickname_de": "jetson-stats / jtop",
+  "nickname_en": "jetson-stats / jtop",
+  "nickname_es": "jetson-stats / jtop",
+  "nickname_fr": "jetson-stats / jtop",
+  "nickname_ja": "jetson-stats / jtop",
+  "nickname_ko": "jetson-stats / jtop",
+  "nickname_pt": "jetson-stats / jtop",
+  "nickname_ru": "jetson-stats / jtop",
+  "nickname_zh_cn": "jetson-stats / jtop",
+  "nickname_zh_hk": "jetson-stats / jtop",
+  "version": "0.0.1",
+  "description": "jetson-stats / jtop 通过显式 CPython API 白名单为受支持的 Linux 单板机提供积木。",
+  "description_zh_cn": "jetson-stats / jtop 通过显式 CPython API 白名单为受支持的 Linux 单板机提供积木。",
+  "description_en": "Allowlisted jetson-stats / jtop Python API blocks for Raspberry Pi and Linux single-board computers.",
+  "spec": true,
+  "compatibility": {
+    "type": [
+      "nvidia:tegra234:jetson_agx_orin",
+      "nvidia:tegra234:jetson_orin_nano",
+      "nvidia:tegra234:jetson_orin_nx"
+    ],
+    "voltage": [
+      3.3
+    ]
+  },
+  "keywords": [
+    "aily",
+    "blockly",
+    "python",
+    "linux",
+    "raspberry-pi",
+    "jetson-stats",
+    "jtop"
+  ],
+  "tags": [
+    "display"
+  ],
+  "author": "ailyProject",
+  "license": "MIT",
+  "homepage": "https://github.com/rbonghi/jetson_stats",
+  "dependencies": {},
+  "devDependencies": {}
+}

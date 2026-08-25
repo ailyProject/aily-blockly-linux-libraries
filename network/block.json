@@ -39,7 +39,7 @@
     ],
     "colour": "#0288D1",
     "tooltip": "initialize socket %1 family %2 type %3",
-    "icon": "wifi",
+    "icon": "fa-light fa-plug",
     "previousStatement": null,
     "nextStatement": null
   },
@@ -88,7 +88,7 @@
     ],
     "colour": "#0288D1",
     "tooltip": "Resolve an IPv4/IPv6 TCP or UDP address with getaddrinfo.",
-    "icon": "wifi",
+    "icon": "fa-light fa-network-wired",
     "output": "Any"
   },
   {
@@ -116,7 +116,7 @@
     ],
     "colour": "#0288D1",
     "tooltip": "Read the host/IP or port from an IPv4 or IPv6 socket address.",
-    "icon": "wifi",
+    "icon": "fa-light fa-network-wired",
     "output": "Any"
   },
   {
@@ -135,7 +135,7 @@
     ],
     "colour": "#0288D1",
     "tooltip": "socket %1 connect to %2",
-    "icon": "wifi",
+    "icon": "fa-light fa-plug",
     "previousStatement": null,
     "nextStatement": null
   },
@@ -155,7 +155,7 @@
     ],
     "colour": "#0288D1",
     "tooltip": "socket %1 bind to %2",
-    "icon": "wifi",
+    "icon": "fa-light fa-network-wired",
     "previousStatement": null,
     "nextStatement": null
   },
@@ -176,7 +176,7 @@
     ],
     "colour": "#0288D1",
     "tooltip": "socket %1 listen backlog %2",
-    "icon": "wifi",
+    "icon": "fa-light fa-tower-broadcast",
     "previousStatement": null,
     "nextStatement": null
   },
@@ -192,7 +192,7 @@
     ],
     "colour": "#0288D1",
     "tooltip": "socket %1 accept connection",
-    "icon": "wifi",
+    "icon": "fa-light fa-tower-broadcast",
     "output": "Any"
   },
   {
@@ -217,7 +217,7 @@
     ],
     "colour": "#0288D1",
     "tooltip": "Accept a TCP connection and store its connected socket and peer address.",
-    "icon": "wifi",
+    "icon": "fa-light fa-tower-broadcast",
     "previousStatement": null,
     "nextStatement": null
   },
@@ -237,7 +237,7 @@
     ],
     "colour": "#0288D1",
     "tooltip": "Send the entire TCP payload; text is UTF-8 encoded and bytes-like data is unchanged.",
-    "icon": "wifi",
+    "icon": "fa-light fa-upload",
     "previousStatement": null,
     "nextStatement": null
   },
@@ -258,7 +258,7 @@
     ],
     "colour": "#0288D1",
     "tooltip": "Receive up to this many TCP bytes; b'' means the peer has closed the connection.",
-    "icon": "wifi",
+    "icon": "fa-light fa-download",
     "output": "Any"
   },
   {
@@ -281,7 +281,7 @@
     ],
     "colour": "#0288D1",
     "tooltip": "Send one UDP datagram; text is UTF-8 encoded and bytes-like data is unchanged.",
-    "icon": "wifi",
+    "icon": "fa-light fa-upload",
     "previousStatement": null,
     "nextStatement": null
   },
@@ -302,7 +302,7 @@
     ],
     "colour": "#0288D1",
     "tooltip": "Receive one UDP datagram as (data, address); a small buffer truncates the datagram.",
-    "icon": "wifi",
+    "icon": "fa-light fa-download",
     "output": "Any"
   },
   {
@@ -332,7 +332,7 @@
     ],
     "colour": "#0288D1",
     "tooltip": "Receive one UDP datagram and store its bytes and sender address separately.",
-    "icon": "wifi",
+    "icon": "fa-light fa-download",
     "previousStatement": null,
     "nextStatement": null
   },
@@ -353,7 +353,7 @@
     ],
     "colour": "#0288D1",
     "tooltip": "Set an operation timeout; zero selects non-blocking mode and positive values raise on timeout.",
-    "icon": "wifi",
+    "icon": "fa-light fa-sliders",
     "previousStatement": null,
     "nextStatement": null
   },
@@ -383,7 +383,7 @@
     ],
     "colour": "#0288D1",
     "tooltip": "Switch between blocking and non-blocking operation.",
-    "icon": "wifi",
+    "icon": "fa-light fa-sliders",
     "previousStatement": null,
     "nextStatement": null
   },
@@ -435,7 +435,7 @@
     ],
     "colour": "#0288D1",
     "tooltip": "Configure a portable boolean socket option; set reuse address before bind.",
-    "icon": "wifi",
+    "icon": "fa-light fa-sliders",
     "previousStatement": null,
     "nextStatement": null
   },
@@ -470,7 +470,7 @@
     ],
     "colour": "#0288D1",
     "tooltip": "Use select to test readiness before an operation without blocking.",
-    "icon": "wifi",
+    "icon": "fa-light fa-circle-info",
     "output": "Boolean"
   },
   {
@@ -499,7 +499,7 @@
     ],
     "colour": "#0288D1",
     "tooltip": "Get the local address or the connected peer address.",
-    "icon": "wifi",
+    "icon": "fa-light fa-network-wired",
     "output": "Any"
   },
   {
@@ -532,7 +532,7 @@
     ],
     "colour": "#0288D1",
     "tooltip": "Encode text into bytes for a socket payload.",
-    "icon": "wifi",
+    "icon": "fa-light fa-code",
     "output": "Any"
   },
   {
@@ -582,7 +582,7 @@
     ],
     "colour": "#0288D1",
     "tooltip": "Decode bytes into text using the selected error policy.",
-    "icon": "wifi",
+    "icon": "fa-light fa-code",
     "output": "Any"
   },
   {
@@ -615,7 +615,7 @@
     ],
     "colour": "#0288D1",
     "tooltip": "Disable receiving, sending, or both before closing a connected socket.",
-    "icon": "wifi",
+    "icon": "fa-light fa-power-off",
     "previousStatement": null,
     "nextStatement": null
   },
@@ -631,7 +631,7 @@
     ],
     "colour": "#0288D1",
     "tooltip": "close socket %1",
-    "icon": "wifi",
+    "icon": "fa-light fa-power-off",
     "previousStatement": null,
     "nextStatement": null
   },
@@ -652,7 +652,7 @@
     ],
     "colour": "#0288D1",
     "tooltip": "serve current directory with HTTP host %1 port %2",
-    "icon": "wifi",
+    "icon": "fa-light fa-network-wired",
     "previousStatement": null,
     "nextStatement": null
   }

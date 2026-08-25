@@ -1,0 +1,20 @@
+{
+  "kind": "category",
+  "name": "NVIDIA CUDA Python",
+  "icon": "fa-light fa-microchip",
+  "colour": "#76B900",
+  "contents": [
+    {
+      "kind": "block",
+      "type": "cuda_python_call"
+    },
+    {
+      "kind": "block",
+      "type": "cuda_python_do"
+    },
+    {
+      "kind": "block",
+      "type": "cuda_python_attribute"
+    }
+  ]
+}

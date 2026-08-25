@@ -1,6 +1,7 @@
 {
   "kind": "category",
   "name": "schedule",
+  "icon": "fa-light fa-calendar-days",
   "colour": "#455A64",
   "contents": [
     {

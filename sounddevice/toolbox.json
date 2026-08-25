@@ -1,6 +1,7 @@
 {
   "kind": "category",
   "name": "python-sounddevice",
+  "icon": "fa-light fa-microphone-lines",
   "colour": "#EF6C00",
   "contents": [
     {

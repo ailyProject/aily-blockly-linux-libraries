@@ -1,0 +1,262 @@
+{
+  "toolbox_name": "jetson-utils",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "jetson_utils_call": {
+    "message0": "jetson-utils call or create %1 arguments %2 keyword arguments %3",
+    "tooltip": "Call an allowlisted jetson-utils function or constructor and return its result.",
+    "args0": [
+      {
+        "options": [
+          [
+            "videoSource",
+            "videoSource"
+          ],
+          [
+            "videoOutput",
+            "videoOutput"
+          ],
+          [
+            "cudaAllocMapped",
+            "cudaAllocMapped"
+          ],
+          [
+            "cudaFromNumpy",
+            "cudaFromNumpy"
+          ],
+          [
+            "cudaToNumpy",
+            "cudaToNumpy"
+          ],
+          [
+            "cudaConvertColor",
+            "cudaConvertColor"
+          ],
+          [
+            "cudaResize",
+            "cudaResize"
+          ],
+          [
+            "cudaCrop",
+            "cudaCrop"
+          ],
+          [
+            "cudaOverlay",
+            "cudaOverlay"
+          ],
+          [
+            "loadImage",
+            "loadImage"
+          ],
+          [
+            "saveImage",
+            "saveImage"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "jetson_utils_do": {
+    "message0": "run jetson-utils %1 arguments %2 keyword arguments %3",
+    "tooltip": "Run an allowlisted jetson-utils function or constructor as a statement.",
+    "args0": [
+      {
+        "options": [
+          [
+            "videoSource",
+            "videoSource"
+          ],
+          [
+            "videoOutput",
+            "videoOutput"
+          ],
+          [
+            "cudaAllocMapped",
+            "cudaAllocMapped"
+          ],
+          [
+            "cudaFromNumpy",
+            "cudaFromNumpy"
+          ],
+          [
+            "cudaToNumpy",
+            "cudaToNumpy"
+          ],
+          [
+            "cudaConvertColor",
+            "cudaConvertColor"
+          ],
+          [
+            "cudaResize",
+            "cudaResize"
+          ],
+          [
+            "cudaCrop",
+            "cudaCrop"
+          ],
+          [
+            "cudaOverlay",
+            "cudaOverlay"
+          ],
+          [
+            "loadImage",
+            "loadImage"
+          ],
+          [
+            "saveImage",
+            "saveImage"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "jetson_utils_method": {
+    "message0": "jetson-utils object %1 call method %2 arguments %3 keyword arguments %4",
+    "tooltip": "Call an allowlisted jetson-utils object method and return its result.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "Capture",
+            "Capture"
+          ],
+          [
+            "Render",
+            "Render"
+          ],
+          [
+            "IsStreaming",
+            "IsStreaming"
+          ],
+          [
+            "Close",
+            "Close"
+          ],
+          [
+            "SetStatus",
+            "SetStatus"
+          ],
+          [
+            "GetWidth",
+            "GetWidth"
+          ],
+          [
+            "GetHeight",
+            "GetHeight"
+          ],
+          [
+            "GetFrameRate",
+            "GetFrameRate"
+          ],
+          [
+            "GetFrameCount",
+            "GetFrameCount"
+          ],
+          [
+            "GetLastTimestamp",
+            "GetLastTimestamp"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "jetson_utils_do_method": {
+    "message0": "run jetson-utils object %1 method %2 arguments %3 keyword arguments %4",
+    "tooltip": "Run an allowlisted jetson-utils object method as a statement.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "Capture",
+            "Capture"
+          ],
+          [
+            "Render",
+            "Render"
+          ],
+          [
+            "IsStreaming",
+            "IsStreaming"
+          ],
+          [
+            "Close",
+            "Close"
+          ],
+          [
+            "SetStatus",
+            "SetStatus"
+          ],
+          [
+            "GetWidth",
+            "GetWidth"
+          ],
+          [
+            "GetHeight",
+            "GetHeight"
+          ],
+          [
+            "GetFrameRate",
+            "GetFrameRate"
+          ],
+          [
+            "GetFrameCount",
+            "GetFrameCount"
+          ],
+          [
+            "GetLastTimestamp",
+            "GetLastTimestamp"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "jetson_utils_attribute": {
+    "message0": "jetson-utils object %1 attribute %2",
+    "tooltip": "Read an allowlisted jetson-utils object or module attribute.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "width",
+            "width"
+          ],
+          [
+            "height",
+            "height"
+          ],
+          [
+            "channels",
+            "channels"
+          ],
+          [
+            "format",
+            "format"
+          ],
+          [
+            "mapped",
+            "mapped"
+          ],
+          [
+            "ptr",
+            "ptr"
+          ],
+          [
+            "shape",
+            "shape"
+          ]
+        ]
+      }
+    ]
+  }
+}

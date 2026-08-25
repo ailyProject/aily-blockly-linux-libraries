@@ -13,7 +13,7 @@
     ],
     "colour": "#455A64",
     "tooltip": "Run once when the Python program starts.",
-    "icon": "settings"
+    "icon": "fa-light fa-play"
   },
   {
     "type": "python_forever",
@@ -29,7 +29,7 @@
     ],
     "colour": "#455A64",
     "tooltip": "Run these blocks repeatedly.",
-    "icon": "settings"
+    "icon": "fa-light fa-repeat"
   },
   {
     "type": "python_sleep",
@@ -43,7 +43,7 @@
     ],
     "colour": "#455A64",
     "tooltip": "Pause the program for a number of seconds.",
-    "icon": "settings",
+    "icon": "fa-light fa-clock",
     "previousStatement": null,
     "nextStatement": null
   },
@@ -58,7 +58,7 @@
     ],
     "colour": "#455A64",
     "tooltip": "print %1",
-    "icon": "settings",
+    "icon": "fa-light fa-print",
     "previousStatement": null,
     "nextStatement": null
   },
@@ -74,8 +74,11 @@
     ],
     "colour": "#455A64",
     "tooltip": "number %1",
-    "icon": "settings",
-    "output": "Any"
+    "icon": "fa-light fa-code",
+    "output": [
+      "Number",
+      "Any"
+    ]
   },
   {
     "type": "python_text",
@@ -89,8 +92,11 @@
     ],
     "colour": "#455A64",
     "tooltip": "text %1",
-    "icon": "settings",
-    "output": "Any"
+    "icon": "fa-light fa-code",
+    "output": [
+      "String",
+      "Any"
+    ]
   },
   {
     "type": "python_boolean",
@@ -113,8 +119,11 @@
     ],
     "colour": "#455A64",
     "tooltip": "boolean %1",
-    "icon": "settings",
-    "output": "Any"
+    "icon": "fa-light fa-code",
+    "output": [
+      "Boolean",
+      "Any"
+    ]
   },
   {
     "type": "python_tuple",
@@ -127,8 +136,11 @@
     ],
     "colour": "#455A64",
     "tooltip": "tuple containing %1",
-    "icon": "settings",
-    "output": "Any"
+    "icon": "fa-light fa-code",
+    "output": [
+      "Tuple",
+      "Any"
+    ]
   },
   {
     "type": "python_list",
@@ -141,8 +153,11 @@
     ],
     "colour": "#455A64",
     "tooltip": "list containing %1",
-    "icon": "settings",
-    "output": "Any"
+    "icon": "fa-light fa-code",
+    "output": [
+      "Array",
+      "Any"
+    ]
   },
   {
     "type": "python_arguments",
@@ -175,7 +190,7 @@
     ],
     "colour": "#455A64",
     "tooltip": "Build a positional argument list from the connected values.",
-    "icon": "settings",
+    "icon": "fa-light fa-code",
     "output": "Any"
   },
   {
@@ -239,7 +254,7 @@
     ],
     "colour": "#455A64",
     "tooltip": "Build a keyword argument dictionary; rows with an empty key are skipped.",
-    "icon": "settings",
+    "icon": "fa-light fa-code",
     "output": "Any"
   },
   {
@@ -257,7 +272,7 @@
     ],
     "colour": "#455A64",
     "tooltip": "Read an item from a Python object by key or index.",
-    "icon": "settings",
+    "icon": "fa-light fa-download",
     "output": "Any"
   },
   {
@@ -279,7 +294,7 @@
     ],
     "colour": "#455A64",
     "tooltip": "Assign a value to an item of a Python object by key or index.",
-    "icon": "settings",
+    "icon": "fa-light fa-code",
     "previousStatement": null,
     "nextStatement": null
   },
@@ -303,7 +318,7 @@
     ],
     "colour": "#455A64",
     "tooltip": "Assign a value to a safely validated Python object attribute.",
-    "icon": "settings",
+    "icon": "fa-light fa-circle-info",
     "previousStatement": null,
     "nextStatement": null
   },
@@ -323,7 +338,7 @@
     ],
     "colour": "#455A64",
     "tooltip": "set variable %1 to %2",
-    "icon": "settings",
+    "icon": "fa-light fa-code",
     "previousStatement": null,
     "nextStatement": null
   },
@@ -339,7 +354,7 @@
     ],
     "colour": "#455A64",
     "tooltip": "variable %1",
-    "icon": "settings",
+    "icon": "fa-light fa-download",
     "output": "Any"
   },
   {
@@ -361,7 +376,7 @@
     ],
     "colour": "#455A64",
     "tooltip": "if %1 do %2 %3",
-    "icon": "settings",
+    "icon": "fa-light fa-code",
     "previousStatement": null,
     "nextStatement": null
   },
@@ -388,7 +403,7 @@
     ],
     "colour": "#455A64",
     "tooltip": "for each %1 in %2 do %3 %4",
-    "icon": "settings",
+    "icon": "fa-light fa-code",
     "previousStatement": null,
     "nextStatement": null
   }

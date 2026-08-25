@@ -1,6 +1,7 @@
 {
   "kind": "category",
   "name": "scikit-image I/O",
+  "icon": "fa-light fa-image",
   "colour": "#1976D2",
   "contents": [
     {

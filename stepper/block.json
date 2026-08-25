@@ -1,0 +1,86 @@
+[
+  {
+    "type": "linux_stepper_init",
+    "message0": "initialize stepper %1 pins IN1 %2 IN2 %3 IN3 %4 IN4 %5 mode %6 steps per revolution %7 after move %8",
+    "args0": [
+      { "type": "field_input", "name": "NAME", "text": "stepper" },
+      { "type": "field_dropdown", "name": "PIN1", "options": "${board.digitalPins}" },
+      { "type": "field_dropdown", "name": "PIN2", "options": "${board.digitalPins}" },
+      { "type": "field_dropdown", "name": "PIN3", "options": "${board.digitalPins}" },
+      { "type": "field_dropdown", "name": "PIN4", "options": "${board.digitalPins}" },
+      {
+        "type": "field_dropdown",
+        "name": "MODE",
+        "options": [["full step", "FULL"], ["half step", "HALF"]]
+      },
+      { "type": "input_value", "name": "STEPS_PER_REVOLUTION", "check": "Number" },
+      {
+        "type": "field_dropdown",
+        "name": "HOLD",
+        "options": [["hold coils", "HOLD"], ["release coils", "RELEASE"]]
+      }
+    ],
+    "colour": "#00897B",
+    "tooltip": "Create a deterministic four-output stepper controller for an external driver.",
+    "icon": "fa-light fa-plug",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "linux_stepper_move",
+    "message0": "move stepper %1 by signed steps %2 at %3 RPM",
+    "args0": [
+      { "type": "field_input", "name": "NAME", "text": "stepper" },
+      { "type": "input_value", "name": "STEPS", "check": "Number" },
+      { "type": "input_value", "name": "RPM", "check": "Number" }
+    ],
+    "colour": "#00897B",
+    "tooltip": "Move by signed sequence steps; negative values reverse direction.",
+    "icon": "fa-light fa-arrows-rotate",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "linux_stepper_rotate",
+    "message0": "rotate stepper %1 by signed angle %2 degrees at %3 RPM",
+    "args0": [
+      { "type": "field_input", "name": "NAME", "text": "stepper" },
+      { "type": "input_value", "name": "ANGLE", "check": "Number" },
+      { "type": "input_value", "name": "RPM", "check": "Number" }
+    ],
+    "colour": "#00897B",
+    "tooltip": "Convert a signed angle to the configured sequence steps and move.",
+    "icon": "fa-light fa-arrows-rotate",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "linux_stepper_position",
+    "message0": "stepper %1 signed position in steps",
+    "args0": [{ "type": "field_input", "name": "NAME", "text": "stepper" }],
+    "colour": "#00897B",
+    "tooltip": "Read the commanded position since initialization; this is open-loop, not measured feedback.",
+    "icon": "fa-light fa-circle-info",
+    "output": "Number"
+  },
+  {
+    "type": "linux_stepper_release",
+    "message0": "release stepper %1 coils",
+    "args0": [{ "type": "field_input", "name": "NAME", "text": "stepper" }],
+    "colour": "#00897B",
+    "tooltip": "Drive all four driver inputs low without closing their GPIO resources.",
+    "icon": "fa-light fa-power-off",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "linux_stepper_close",
+    "message0": "close stepper %1",
+    "args0": [{ "type": "field_input", "name": "NAME", "text": "stepper" }],
+    "colour": "#00897B",
+    "tooltip": "Release coils, close all four GPIO outputs, and release the controller.",
+    "icon": "fa-light fa-power-off",
+    "previousStatement": null,
+    "nextStatement": null
+  }
+]

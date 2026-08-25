@@ -1,6 +1,7 @@
 {
   "kind": "category",
   "name": "Picamera2",
+  "icon": "fa-light fa-camera",
   "colour": "#C51A4A",
   "contents": [
     {

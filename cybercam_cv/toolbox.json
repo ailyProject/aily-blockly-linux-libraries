@@ -1,11 +1,13 @@
 {
   "kind": "category",
   "name": "Camera & AI",
+  "icon": "fa-light fa-camera",
   "colour": "#1976D2",
   "contents": [
     {
       "kind": "category",
       "name": "Camera and display",
+      "icon": "fa-light fa-display",
       "colour": "#1976D2",
       "contents": [
         {
@@ -119,6 +121,7 @@
     {
       "kind": "category",
       "name": "KPU AI",
+      "icon": "fa-light fa-brain",
       "colour": "#7B1FA2",
       "contents": [
         {

@@ -1,6 +1,7 @@
 {
   "kind": "category",
   "name": "CircuitPython BMP280",
+  "icon": "fa-light fa-gauge-high",
   "colour": "#00897B",
   "contents": [
     {

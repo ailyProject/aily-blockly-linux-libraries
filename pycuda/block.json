@@ -1,0 +1,324 @@
+[
+  {
+    "type": "pycuda_call",
+    "message0": "PyCUDA call or create %1 arguments %2 keyword arguments %3",
+    "args0": [
+      {
+        "type": "field_dropdown",
+        "name": "TARGET",
+        "options": [
+          [
+            "init",
+            "init"
+          ],
+          [
+            "Device",
+            "Device"
+          ],
+          [
+            "Device.count",
+            "Device.count"
+          ],
+          [
+            "mem_alloc",
+            "mem_alloc"
+          ],
+          [
+            "memcpy_htod",
+            "memcpy_htod"
+          ],
+          [
+            "memcpy_dtoh",
+            "memcpy_dtoh"
+          ],
+          [
+            "memcpy_dtod",
+            "memcpy_dtod"
+          ],
+          [
+            "Stream",
+            "Stream"
+          ],
+          [
+            "Event",
+            "Event"
+          ],
+          [
+            "module_from_file",
+            "module_from_file"
+          ],
+          [
+            "get_version",
+            "get_version"
+          ],
+          [
+            "get_driver_version",
+            "get_driver_version"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#76B900",
+    "icon": "fa-light fa-microchip",
+    "tooltip": "Call an allowlisted PyCUDA function or constructor and return its result.",
+    "output": "Any"
+  },
+  {
+    "type": "pycuda_do",
+    "message0": "run PyCUDA %1 arguments %2 keyword arguments %3",
+    "args0": [
+      {
+        "type": "field_dropdown",
+        "name": "TARGET",
+        "options": [
+          [
+            "init",
+            "init"
+          ],
+          [
+            "Device",
+            "Device"
+          ],
+          [
+            "Device.count",
+            "Device.count"
+          ],
+          [
+            "mem_alloc",
+            "mem_alloc"
+          ],
+          [
+            "memcpy_htod",
+            "memcpy_htod"
+          ],
+          [
+            "memcpy_dtoh",
+            "memcpy_dtoh"
+          ],
+          [
+            "memcpy_dtod",
+            "memcpy_dtod"
+          ],
+          [
+            "Stream",
+            "Stream"
+          ],
+          [
+            "Event",
+            "Event"
+          ],
+          [
+            "module_from_file",
+            "module_from_file"
+          ],
+          [
+            "get_version",
+            "get_version"
+          ],
+          [
+            "get_driver_version",
+            "get_driver_version"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#76B900",
+    "icon": "fa-light fa-microchip",
+    "tooltip": "Run an allowlisted PyCUDA function or constructor as a statement.",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "pycuda_method",
+    "message0": "PyCUDA object %1 call method %2 arguments %3 keyword arguments %4",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "OBJECT"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "METHOD",
+        "options": [
+          [
+            "name",
+            "name"
+          ],
+          [
+            "compute_capability",
+            "compute_capability"
+          ],
+          [
+            "total_memory",
+            "total_memory"
+          ],
+          [
+            "make_context",
+            "make_context"
+          ],
+          [
+            "pop",
+            "pop"
+          ],
+          [
+            "detach",
+            "detach"
+          ],
+          [
+            "synchronize",
+            "synchronize"
+          ],
+          [
+            "record",
+            "record"
+          ],
+          [
+            "time_till",
+            "time_till"
+          ],
+          [
+            "time_since",
+            "time_since"
+          ],
+          [
+            "free",
+            "free"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#76B900",
+    "icon": "fa-light fa-microchip",
+    "tooltip": "Call an allowlisted PyCUDA object method and return its result.",
+    "output": "Any"
+  },
+  {
+    "type": "pycuda_do_method",
+    "message0": "run PyCUDA object %1 method %2 arguments %3 keyword arguments %4",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "OBJECT"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "METHOD",
+        "options": [
+          [
+            "name",
+            "name"
+          ],
+          [
+            "compute_capability",
+            "compute_capability"
+          ],
+          [
+            "total_memory",
+            "total_memory"
+          ],
+          [
+            "make_context",
+            "make_context"
+          ],
+          [
+            "pop",
+            "pop"
+          ],
+          [
+            "detach",
+            "detach"
+          ],
+          [
+            "synchronize",
+            "synchronize"
+          ],
+          [
+            "record",
+            "record"
+          ],
+          [
+            "time_till",
+            "time_till"
+          ],
+          [
+            "time_since",
+            "time_since"
+          ],
+          [
+            "free",
+            "free"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#76B900",
+    "icon": "fa-light fa-microchip",
+    "tooltip": "Run an allowlisted PyCUDA object method as a statement.",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "pycuda_attribute",
+    "message0": "PyCUDA object %1 attribute %2",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "OBJECT"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "ATTRIBUTE",
+        "options": [
+          [
+            "handle",
+            "handle"
+          ],
+          [
+            "device",
+            "device"
+          ],
+          [
+            "context",
+            "context"
+          ]
+        ]
+      }
+    ],
+    "colour": "#76B900",
+    "icon": "fa-light fa-microchip",
+    "tooltip": "Read an allowlisted PyCUDA object or module attribute.",
+    "output": "Any"
+  }
+]

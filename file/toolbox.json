@@ -1,6 +1,7 @@
 {
   "kind": "category",
   "name": "File",
+  "icon": "fa-light fa-file",
   "colour": "#EF6C00",
   "contents": [
     {

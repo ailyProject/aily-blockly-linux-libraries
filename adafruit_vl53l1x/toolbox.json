@@ -1,6 +1,7 @@
 {
   "kind": "category",
   "name": "CircuitPython VL53L1X",
+  "icon": "fa-light fa-ruler",
   "colour": "#00897B",
   "contents": [
     {

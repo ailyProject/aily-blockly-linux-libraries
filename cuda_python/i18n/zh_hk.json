@@ -1,0 +1,184 @@
+{
+  "toolbox_name": "NVIDIA CUDA Python",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "cuda_python_call": {
+    "message0": "NVIDIA CUDA Python call or create %1 arguments %2 keyword arguments %3",
+    "tooltip": "Call an allowlisted NVIDIA CUDA Python function or constructor and return its result.",
+    "args0": [
+      {
+        "options": [
+          [
+            "cudaGetDeviceCount",
+            "cudaGetDeviceCount"
+          ],
+          [
+            "cudaGetDevice",
+            "cudaGetDevice"
+          ],
+          [
+            "cudaSetDevice",
+            "cudaSetDevice"
+          ],
+          [
+            "cudaGetDeviceProperties",
+            "cudaGetDeviceProperties"
+          ],
+          [
+            "cudaDeviceGetAttribute",
+            "cudaDeviceGetAttribute"
+          ],
+          [
+            "cudaMalloc",
+            "cudaMalloc"
+          ],
+          [
+            "cudaFree",
+            "cudaFree"
+          ],
+          [
+            "cudaMemcpy",
+            "cudaMemcpy"
+          ],
+          [
+            "cudaMemcpyAsync",
+            "cudaMemcpyAsync"
+          ],
+          [
+            "cudaMemset",
+            "cudaMemset"
+          ],
+          [
+            "cudaStreamCreate",
+            "cudaStreamCreate"
+          ],
+          [
+            "cudaStreamDestroy",
+            "cudaStreamDestroy"
+          ],
+          [
+            "cudaStreamSynchronize",
+            "cudaStreamSynchronize"
+          ],
+          [
+            "cudaDeviceSynchronize",
+            "cudaDeviceSynchronize"
+          ],
+          [
+            "cudaGetErrorName",
+            "cudaGetErrorName"
+          ],
+          [
+            "cudaGetErrorString",
+            "cudaGetErrorString"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "cuda_python_do": {
+    "message0": "run NVIDIA CUDA Python %1 arguments %2 keyword arguments %3",
+    "tooltip": "Run an allowlisted NVIDIA CUDA Python function or constructor as a statement.",
+    "args0": [
+      {
+        "options": [
+          [
+            "cudaGetDeviceCount",
+            "cudaGetDeviceCount"
+          ],
+          [
+            "cudaGetDevice",
+            "cudaGetDevice"
+          ],
+          [
+            "cudaSetDevice",
+            "cudaSetDevice"
+          ],
+          [
+            "cudaGetDeviceProperties",
+            "cudaGetDeviceProperties"
+          ],
+          [
+            "cudaDeviceGetAttribute",
+            "cudaDeviceGetAttribute"
+          ],
+          [
+            "cudaMalloc",
+            "cudaMalloc"
+          ],
+          [
+            "cudaFree",
+            "cudaFree"
+          ],
+          [
+            "cudaMemcpy",
+            "cudaMemcpy"
+          ],
+          [
+            "cudaMemcpyAsync",
+            "cudaMemcpyAsync"
+          ],
+          [
+            "cudaMemset",
+            "cudaMemset"
+          ],
+          [
+            "cudaStreamCreate",
+            "cudaStreamCreate"
+          ],
+          [
+            "cudaStreamDestroy",
+            "cudaStreamDestroy"
+          ],
+          [
+            "cudaStreamSynchronize",
+            "cudaStreamSynchronize"
+          ],
+          [
+            "cudaDeviceSynchronize",
+            "cudaDeviceSynchronize"
+          ],
+          [
+            "cudaGetErrorName",
+            "cudaGetErrorName"
+          ],
+          [
+            "cudaGetErrorString",
+            "cudaGetErrorString"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "cuda_python_attribute": {
+    "message0": "NVIDIA CUDA Python object %1 attribute %2",
+    "tooltip": "Read an allowlisted NVIDIA CUDA Python object or module attribute.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "cudaError_t.cudaSuccess",
+            "cudaError_t.cudaSuccess"
+          ],
+          [
+            "cudaMemcpyKind.cudaMemcpyHostToDevice",
+            "cudaMemcpyKind.cudaMemcpyHostToDevice"
+          ],
+          [
+            "cudaMemcpyKind.cudaMemcpyDeviceToHost",
+            "cudaMemcpyKind.cudaMemcpyDeviceToHost"
+          ],
+          [
+            "cudaMemcpyKind.cudaMemcpyDeviceToDevice",
+            "cudaMemcpyKind.cudaMemcpyDeviceToDevice"
+          ]
+        ]
+      }
+    ]
+  }
+}

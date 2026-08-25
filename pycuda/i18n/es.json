@@ -1,0 +1,262 @@
+{
+  "toolbox_name": "PyCUDA",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "pycuda_call": {
+    "message0": "PyCUDA call or create %1 arguments %2 keyword arguments %3",
+    "tooltip": "Call an allowlisted PyCUDA function or constructor and return its result.",
+    "args0": [
+      {
+        "options": [
+          [
+            "init",
+            "init"
+          ],
+          [
+            "Device",
+            "Device"
+          ],
+          [
+            "Device.count",
+            "Device.count"
+          ],
+          [
+            "mem_alloc",
+            "mem_alloc"
+          ],
+          [
+            "memcpy_htod",
+            "memcpy_htod"
+          ],
+          [
+            "memcpy_dtoh",
+            "memcpy_dtoh"
+          ],
+          [
+            "memcpy_dtod",
+            "memcpy_dtod"
+          ],
+          [
+            "Stream",
+            "Stream"
+          ],
+          [
+            "Event",
+            "Event"
+          ],
+          [
+            "module_from_file",
+            "module_from_file"
+          ],
+          [
+            "get_version",
+            "get_version"
+          ],
+          [
+            "get_driver_version",
+            "get_driver_version"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "pycuda_do": {
+    "message0": "run PyCUDA %1 arguments %2 keyword arguments %3",
+    "tooltip": "Run an allowlisted PyCUDA function or constructor as a statement.",
+    "args0": [
+      {
+        "options": [
+          [
+            "init",
+            "init"
+          ],
+          [
+            "Device",
+            "Device"
+          ],
+          [
+            "Device.count",
+            "Device.count"
+          ],
+          [
+            "mem_alloc",
+            "mem_alloc"
+          ],
+          [
+            "memcpy_htod",
+            "memcpy_htod"
+          ],
+          [
+            "memcpy_dtoh",
+            "memcpy_dtoh"
+          ],
+          [
+            "memcpy_dtod",
+            "memcpy_dtod"
+          ],
+          [
+            "Stream",
+            "Stream"
+          ],
+          [
+            "Event",
+            "Event"
+          ],
+          [
+            "module_from_file",
+            "module_from_file"
+          ],
+          [
+            "get_version",
+            "get_version"
+          ],
+          [
+            "get_driver_version",
+            "get_driver_version"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "pycuda_method": {
+    "message0": "PyCUDA object %1 call method %2 arguments %3 keyword arguments %4",
+    "tooltip": "Call an allowlisted PyCUDA object method and return its result.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "name",
+            "name"
+          ],
+          [
+            "compute_capability",
+            "compute_capability"
+          ],
+          [
+            "total_memory",
+            "total_memory"
+          ],
+          [
+            "make_context",
+            "make_context"
+          ],
+          [
+            "pop",
+            "pop"
+          ],
+          [
+            "detach",
+            "detach"
+          ],
+          [
+            "synchronize",
+            "synchronize"
+          ],
+          [
+            "record",
+            "record"
+          ],
+          [
+            "time_till",
+            "time_till"
+          ],
+          [
+            "time_since",
+            "time_since"
+          ],
+          [
+            "free",
+            "free"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "pycuda_do_method": {
+    "message0": "run PyCUDA object %1 method %2 arguments %3 keyword arguments %4",
+    "tooltip": "Run an allowlisted PyCUDA object method as a statement.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "name",
+            "name"
+          ],
+          [
+            "compute_capability",
+            "compute_capability"
+          ],
+          [
+            "total_memory",
+            "total_memory"
+          ],
+          [
+            "make_context",
+            "make_context"
+          ],
+          [
+            "pop",
+            "pop"
+          ],
+          [
+            "detach",
+            "detach"
+          ],
+          [
+            "synchronize",
+            "synchronize"
+          ],
+          [
+            "record",
+            "record"
+          ],
+          [
+            "time_till",
+            "time_till"
+          ],
+          [
+            "time_since",
+            "time_since"
+          ],
+          [
+            "free",
+            "free"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "pycuda_attribute": {
+    "message0": "PyCUDA object %1 attribute %2",
+    "tooltip": "Read an allowlisted PyCUDA object or module attribute.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "handle",
+            "handle"
+          ],
+          [
+            "device",
+            "device"
+          ],
+          [
+            "context",
+            "context"
+          ]
+        ]
+      }
+    ]
+  }
+}

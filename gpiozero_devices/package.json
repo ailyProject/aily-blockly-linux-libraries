@@ -1,0 +1,51 @@
+{
+  "name": "@aily-project/lib-gpiozero-devices",
+  "nickname": "GPIO Zero Devices",
+  "nickname_zh_cn": "GPIO Zero 外围设备",
+  "nickname_en": "GPIO Zero Devices",
+  "nickname_zh_hk": "GPIO Zero 外圍裝置",
+  "nickname_ja": "GPIO Zero デバイス",
+  "nickname_ko": "GPIO Zero 장치",
+  "nickname_de": "GPIO-Zero-Geräte",
+  "nickname_fr": "Périphériques GPIO Zero",
+  "nickname_es": "Dispositivos GPIO Zero",
+  "nickname_pt": "Dispositivos GPIO Zero",
+  "nickname_ru": "Устройства GPIO Zero",
+  "nickname_ar": "أجهزة GPIO Zero",
+  "version": "0.0.1",
+  "description": "基于 gpiozero 的电机、舵机、超声波、旋转编码器和蜂鸣器友好积木。",
+  "description_zh_cn": "基于 gpiozero 的电机、舵机、超声波、旋转编码器和蜂鸣器友好积木。",
+  "description_en": "Friendly gpiozero blocks for motors, servos, ultrasonic ranging, rotary encoders, and buzzers.",
+  "spec": true,
+  "compatibility": {
+    "type": [
+      "broadcom:bcm2710a1:raspberrypi_0_2w",
+      "broadcom:bcm2711:raspberrypi_4b",
+      "broadcom:bcm2712:raspberrypi_5"
+    ],
+    "voltage": [
+      3.3
+    ]
+  },
+  "keywords": [
+    "aily",
+    "blockly",
+    "python",
+    "linux",
+    "gpiozero",
+    "motor",
+    "servo",
+    "ultrasonic",
+    "rotary-encoder",
+    "buzzer"
+  ],
+  "tags": [
+    "io",
+    "sensor"
+  ],
+  "author": "ailyProject",
+  "license": "MIT",
+  "homepage": "https://gpiozero.readthedocs.io/",
+  "dependencies": {},
+  "devDependencies": {}
+}

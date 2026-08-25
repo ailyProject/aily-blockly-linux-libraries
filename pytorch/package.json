@@ -1,0 +1,47 @@
+{
+  "name": "@aily-project/lib-pytorch",
+  "nickname": "PyTorch",
+  "nickname_ar": "PyTorch",
+  "nickname_de": "PyTorch",
+  "nickname_en": "PyTorch",
+  "nickname_es": "PyTorch",
+  "nickname_fr": "PyTorch",
+  "nickname_ja": "PyTorch",
+  "nickname_ko": "PyTorch",
+  "nickname_pt": "PyTorch",
+  "nickname_ru": "PyTorch",
+  "nickname_zh_cn": "PyTorch",
+  "nickname_zh_hk": "PyTorch",
+  "version": "0.0.1",
+  "description": "PyTorch 通过显式 CPython API 白名单为受支持的 Linux 单板机提供积木。",
+  "description_zh_cn": "PyTorch 通过显式 CPython API 白名单为受支持的 Linux 单板机提供积木。",
+  "description_en": "Allowlisted PyTorch Python API blocks for Raspberry Pi and Linux single-board computers.",
+  "spec": true,
+  "compatibility": {
+    "type": [
+      "nvidia:tegra234:jetson_agx_orin",
+      "nvidia:tegra234:jetson_orin_nano",
+      "nvidia:tegra234:jetson_orin_nx"
+    ],
+    "voltage": [
+      3.3
+    ]
+  },
+  "keywords": [
+    "aily",
+    "blockly",
+    "python",
+    "linux",
+    "raspberry-pi",
+    "torch",
+    "torch"
+  ],
+  "tags": [
+    "display"
+  ],
+  "author": "ailyProject",
+  "license": "MIT",
+  "homepage": "https://docs.nvidia.com/deeplearning/frameworks/install-pytorch-jetson-platform/",
+  "dependencies": {},
+  "devDependencies": {}
+}

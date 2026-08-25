@@ -1,0 +1,55 @@
+{
+  "name": "@aily-project/lib-threading",
+  "nickname": "Threading",
+  "nickname_zh_cn": "线程与队列",
+  "nickname_en": "Threading",
+  "nickname_zh_hk": "執行緒與佇列",
+  "nickname_ja": "スレッドとキュー",
+  "nickname_ko": "스레드 및 큐",
+  "nickname_de": "Threads und Warteschlangen",
+  "nickname_fr": "Threads et files",
+  "nickname_es": "Hilos y colas",
+  "nickname_pt": "Threads e filas",
+  "nickname_ru": "Потоки и очереди",
+  "nickname_ar": "الخيوط وقوائم الانتظار",
+  "version": "0.0.1",
+  "description": "跨平台 Python 后台任务、定时器、锁、事件和线程安全队列积木。",
+  "description_zh_cn": "跨平台 Python 后台任务、定时器、锁、事件和线程安全队列积木。",
+  "description_en": "Cross-platform Python blocks for background tasks, timers, locks, events, and thread-safe queues.",
+  "spec": true,
+  "compatibility": {
+    "type": [
+      "allwinner:t527:walnutpi_2b",
+      "broadcom:bcm2710a1:raspberrypi_0_2w",
+      "broadcom:bcm2711:raspberrypi_4b",
+      "broadcom:bcm2712:raspberrypi_5",
+      "canaan:k230:cybercam",
+      "nvidia:tegra234:jetson_agx_orin",
+      "nvidia:tegra234:jetson_orin_nano",
+      "nvidia:tegra234:jetson_orin_nx"
+    ],
+    "voltage": [
+      3.3
+    ]
+  },
+  "keywords": [
+    "aily",
+    "blockly",
+    "python",
+    "threading",
+    "thread",
+    "timer",
+    "lock",
+    "event",
+    "queue"
+  ],
+  "tags": [
+    "core",
+    "system"
+  ],
+  "author": "ailyProject",
+  "license": "MIT",
+  "homepage": "https://docs.python.org/3/library/threading.html",
+  "dependencies": {},
+  "devDependencies": {}
+}

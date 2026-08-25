@@ -11,7 +11,7 @@
     ],
     "colour": "#EF6C00",
     "tooltip": "read text file %1",
-    "icon": "settings",
+    "icon": "fa-light fa-download",
     "output": "Any"
   },
   {
@@ -44,7 +44,7 @@
     ],
     "colour": "#EF6C00",
     "tooltip": "%1 text file %2 content %3",
-    "icon": "settings",
+    "icon": "fa-light fa-upload",
     "previousStatement": null,
     "nextStatement": null
   },
@@ -60,7 +60,7 @@
     ],
     "colour": "#EF6C00",
     "tooltip": "path %1 exists",
-    "icon": "settings",
+    "icon": "fa-light fa-file",
     "output": "Any"
   },
   {
@@ -75,7 +75,7 @@
     ],
     "colour": "#EF6C00",
     "tooltip": "list directory %1",
-    "icon": "settings",
+    "icon": "fa-light fa-file",
     "output": "Any"
   },
   {
@@ -90,7 +90,7 @@
     ],
     "colour": "#EF6C00",
     "tooltip": "read text file %1",
-    "icon": "settings",
+    "icon": "fa-light fa-download",
     "output": "Any"
   },
   {
@@ -123,7 +123,7 @@
     ],
     "colour": "#EF6C00",
     "tooltip": "%1 text file %2 content %3",
-    "icon": "settings",
+    "icon": "fa-light fa-upload",
     "previousStatement": null,
     "nextStatement": null
   },
@@ -139,7 +139,7 @@
     ],
     "colour": "#EF6C00",
     "tooltip": "path %1 exists",
-    "icon": "settings",
+    "icon": "fa-light fa-file",
     "output": "Any"
   },
   {
@@ -154,7 +154,7 @@
     ],
     "colour": "#EF6C00",
     "tooltip": "list directory %1",
-    "icon": "settings",
+    "icon": "fa-light fa-file",
     "output": "Any"
   }
 ]

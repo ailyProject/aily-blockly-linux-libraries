@@ -1,0 +1,58 @@
+{
+  "toolbox_name": "Four-wire Stepper",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "linux_stepper_init": {
+    "message0": "initialize stepper %1 pins IN1 %2 IN2 %3 IN3 %4 IN4 %5 mode %6 steps per revolution %7 after move %8",
+    "tooltip": "Create a deterministic four-output stepper controller for an external driver.",
+    "args0": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "linux_stepper_move": {
+    "message0": "move stepper %1 by signed steps %2 at %3 RPM",
+    "tooltip": "Move by signed sequence steps; negative values reverse direction.",
+    "args0": [
+      null,
+      null,
+      null
+    ]
+  },
+  "linux_stepper_rotate": {
+    "message0": "rotate stepper %1 by signed angle %2 degrees at %3 RPM",
+    "tooltip": "Convert a signed angle to the configured sequence steps and move.",
+    "args0": [
+      null,
+      null,
+      null
+    ]
+  },
+  "linux_stepper_position": {
+    "message0": "stepper %1 signed position in steps",
+    "tooltip": "Read the commanded position since initialization; this is open-loop, not measured feedback.",
+    "args0": [
+      null
+    ]
+  },
+  "linux_stepper_release": {
+    "message0": "release stepper %1 coils",
+    "tooltip": "Drive all four driver inputs low without closing their GPIO resources.",
+    "args0": [
+      null
+    ]
+  },
+  "linux_stepper_close": {
+    "message0": "close stepper %1",
+    "tooltip": "Release coils, close all four GPIO outputs, and release the controller.",
+    "args0": [
+      null
+    ]
+  }
+}

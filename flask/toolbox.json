@@ -1,6 +1,7 @@
 {
   "kind": "category",
   "name": "Flask",
+  "icon": "fa-light fa-server",
   "colour": "#0288D1",
   "contents": [
     {

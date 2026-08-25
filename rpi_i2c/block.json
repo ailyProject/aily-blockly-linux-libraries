@@ -16,7 +16,7 @@
     ],
     "colour": "#00897B",
     "tooltip": "Open a Linux I2C bus with smbus2.",
-    "icon": "settings",
+    "icon": "fa-light fa-plug",
     "previousStatement": null,
     "nextStatement": null
   },
@@ -42,7 +42,7 @@
     ],
     "colour": "#00897B",
     "tooltip": "Read an 8-bit value from an I2C register.",
-    "icon": "settings",
+    "icon": "fa-light fa-download",
     "output": "Number"
   },
   {
@@ -72,7 +72,7 @@
     ],
     "colour": "#00897B",
     "tooltip": "Write an 8-bit value to an I2C register.",
-    "icon": "settings",
+    "icon": "fa-light fa-upload",
     "previousStatement": null,
     "nextStatement": null
   },
@@ -98,7 +98,7 @@
     ],
     "colour": "#00897B",
     "tooltip": "Read a 16-bit little-endian SMBus word from a register.",
-    "icon": "settings",
+    "icon": "fa-light fa-download",
     "output": "Number"
   },
   {
@@ -128,7 +128,7 @@
     ],
     "colour": "#00897B",
     "tooltip": "Write a 16-bit little-endian SMBus word to a register.",
-    "icon": "settings",
+    "icon": "fa-light fa-upload",
     "previousStatement": null,
     "nextStatement": null
   },
@@ -159,7 +159,7 @@
     ],
     "colour": "#00897B",
     "tooltip": "Read a block of bytes from an I2C register.",
-    "icon": "settings",
+    "icon": "fa-light fa-download",
     "output": "Array"
   },
   {
@@ -188,7 +188,7 @@
     ],
     "colour": "#00897B",
     "tooltip": "Write a list of bytes to an I2C register.",
-    "icon": "settings",
+    "icon": "fa-light fa-upload",
     "previousStatement": null,
     "nextStatement": null
   },
@@ -218,7 +218,7 @@
     ],
     "colour": "#00897B",
     "tooltip": "Write bytes and read the response in one repeated-start I2C transaction.",
-    "icon": "settings",
+    "icon": "fa-light fa-download",
     "output": "Array"
   },
   {
@@ -233,7 +233,7 @@
     ],
     "colour": "#00897B",
     "tooltip": "Close an I2C bus.",
-    "icon": "settings",
+    "icon": "fa-light fa-power-off",
     "previousStatement": null,
     "nextStatement": null
   }

@@ -1,6 +1,7 @@
 {
   "kind": "category",
   "name": "Bleak Bluetooth LE",
+  "icon": "fa-brands fa-bluetooth-b",
   "colour": "#0288D1",
   "contents": [
     {

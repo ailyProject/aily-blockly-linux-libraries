@@ -1,0 +1,51 @@
+{
+  "name": "@aily-project/lib-adafruit-ds3231",
+  "nickname": "DS3231 RTC",
+  "nickname_zh_cn": "DS3231 实时时钟",
+  "nickname_en": "DS3231 RTC",
+  "nickname_zh_hk": "DS3231 實時時鐘",
+  "nickname_ja": "DS3231 RTC",
+  "nickname_ko": "DS3231 RTC",
+  "nickname_de": "DS3231-Echtzeituhr",
+  "nickname_fr": "Horloge DS3231",
+  "nickname_es": "Reloj DS3231",
+  "nickname_pt": "Relógio DS3231",
+  "nickname_ru": "Часы DS3231",
+  "nickname_ar": "ساعة DS3231",
+  "version": "0.0.1",
+  "description": "通过 Adafruit Blinka 在 Linux CPython 中读写 DS3231 高精度实时时钟。",
+  "description_zh_cn": "通过 Adafruit Blinka 在 Linux CPython 中读写 DS3231 高精度实时时钟。",
+  "description_en": "Read and write a DS3231 precision real-time clock from Linux CPython through Adafruit Blinka.",
+  "spec": true,
+  "compatibility": {
+    "type": [
+      "allwinner:t527:walnutpi_2b",
+      "broadcom:bcm2710a1:raspberrypi_0_2w",
+      "broadcom:bcm2711:raspberrypi_4b",
+      "broadcom:bcm2712:raspberrypi_5"
+    ],
+    "voltage": [
+      3.3
+    ]
+  },
+  "keywords": [
+    "aily",
+    "blockly",
+    "python",
+    "linux",
+    "raspberry-pi",
+    "adafruit-circuitpython-ds3231",
+    "adafruit_ds3231",
+    "rtc"
+  ],
+  "tags": [
+    "io",
+    "clock",
+    "sensor"
+  ],
+  "author": "ailyProject",
+  "license": "MIT",
+  "homepage": "https://docs.circuitpython.org/projects/ds3231/en/latest/",
+  "dependencies": {},
+  "devDependencies": {}
+}

@@ -1,0 +1,139 @@
+{
+  "toolbox_name": "JSON",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_json_dumps": {
+    "message0": "將 %1 轉為 JSON 文字 字元 %2 縮排 %3 鍵 %4",
+    "tooltip": "將 Python 值序列化為 JSON 文字；不支援的值會拋出 TypeError。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "保留 UTF-8 字元",
+            "FALSE"
+          ],
+          [
+            "轉義為 ASCII",
+            "TRUE"
+          ]
+        ]
+      },
+      {
+        "options": [
+          [
+            "緊湊",
+            "NONE"
+          ],
+          [
+            "2 個空格",
+            "TWO"
+          ],
+          [
+            "4 個空格",
+            "FOUR"
+          ]
+        ]
+      },
+      {
+        "options": [
+          [
+            "保留插入順序",
+            "FALSE"
+          ],
+          [
+            "鍵排序",
+            "TRUE"
+          ]
+        ]
+      }
+    ]
+  },
+  "python_json_loads": {
+    "message0": "從 JSON 文字 %1 解析值",
+    "tooltip": "解析 JSON 文字、bytes 或 bytearray；格式錯誤會拋出 JSONDecodeError。",
+    "args0": [
+      null
+    ]
+  },
+  "python_json_read_file": {
+    "message0": "讀取 UTF-8 JSON 檔案 %1",
+    "tooltip": "讀取並解析 UTF-8 JSON 檔案，保留檔案和解碼例外。",
+    "args0": [
+      null
+    ]
+  },
+  "python_json_write_file": {
+    "message0": "寫入 UTF-8 JSON 檔案 %1 值 %2 字元 %3 縮排 %4 鍵 %5",
+    "tooltip": "把值序列化到 UTF-8 JSON 檔案；I/O 和序列化例外會繼續拋出。",
+    "args0": [
+      null,
+      null,
+      {
+        "options": [
+          [
+            "保留 UTF-8 字元",
+            "FALSE"
+          ],
+          [
+            "轉義為 ASCII",
+            "TRUE"
+          ]
+        ]
+      },
+      {
+        "options": [
+          [
+            "緊湊",
+            "NONE"
+          ],
+          [
+            "2 個空格",
+            "TWO"
+          ],
+          [
+            "4 個空格",
+            "FOUR"
+          ]
+        ]
+      },
+      {
+        "options": [
+          [
+            "保留插入順序",
+            "FALSE"
+          ],
+          [
+            "鍵排序",
+            "TRUE"
+          ]
+        ]
+      }
+    ]
+  },
+  "python_json_is_valid": {
+    "message0": "JSON 文字 %1 合法",
+    "tooltip": "僅對格式錯誤或無效編碼位元組傳回假；不支援的類型仍會拋出 TypeError。",
+    "args0": [
+      null
+    ]
+  },
+  "python_json_object_get": {
+    "message0": "JSON 物件 %1 取得鍵 %2 預設值 %3",
+    "tooltip": "讀取字典鍵；鍵不存在時傳回預設值。",
+    "args0": [
+      null,
+      null,
+      null
+    ]
+  },
+  "python_json_object_set": {
+    "message0": "將 JSON 物件 %1 的鍵 %2 設為 %3",
+    "tooltip": "給字典鍵賦值；映射和鍵例外會繼續拋出。",
+    "args0": [
+      null,
+      null,
+      null
+    ]
+  }
+}

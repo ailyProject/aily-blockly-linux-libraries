@@ -1,6 +1,7 @@
 {
   "kind": "category",
   "name": "CircuitPython MLX90614",
+  "icon": "fa-light fa-temperature-high",
   "colour": "#00897B",
   "contents": [
     {

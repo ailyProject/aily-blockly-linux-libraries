@@ -1,0 +1,230 @@
+{
+  "toolbox_name": "TorchVision",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "torchvision_call": {
+    "message0": "TorchVision call or create %1 arguments %2 keyword arguments %3",
+    "tooltip": "Call an allowlisted TorchVision function or constructor and return its result.",
+    "args0": [
+      {
+        "options": [
+          [
+            "models.resnet18",
+            "models.resnet18"
+          ],
+          [
+            "models.resnet50",
+            "models.resnet50"
+          ],
+          [
+            "models.mobilenet_v3_small",
+            "models.mobilenet_v3_small"
+          ],
+          [
+            "models.mobilenet_v3_large",
+            "models.mobilenet_v3_large"
+          ],
+          [
+            "models.detection.fasterrcnn_resnet50_fpn",
+            "models.detection.fasterrcnn_resnet50_fpn"
+          ],
+          [
+            "transforms.Compose",
+            "transforms.Compose"
+          ],
+          [
+            "transforms.Resize",
+            "transforms.Resize"
+          ],
+          [
+            "transforms.CenterCrop",
+            "transforms.CenterCrop"
+          ],
+          [
+            "transforms.ToTensor",
+            "transforms.ToTensor"
+          ],
+          [
+            "transforms.Normalize",
+            "transforms.Normalize"
+          ],
+          [
+            "io.read_image",
+            "io.read_image"
+          ],
+          [
+            "io.write_jpeg",
+            "io.write_jpeg"
+          ],
+          [
+            "ops.nms",
+            "ops.nms"
+          ],
+          [
+            "ops.box_iou",
+            "ops.box_iou"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "torchvision_do": {
+    "message0": "run TorchVision %1 arguments %2 keyword arguments %3",
+    "tooltip": "Run an allowlisted TorchVision function or constructor as a statement.",
+    "args0": [
+      {
+        "options": [
+          [
+            "models.resnet18",
+            "models.resnet18"
+          ],
+          [
+            "models.resnet50",
+            "models.resnet50"
+          ],
+          [
+            "models.mobilenet_v3_small",
+            "models.mobilenet_v3_small"
+          ],
+          [
+            "models.mobilenet_v3_large",
+            "models.mobilenet_v3_large"
+          ],
+          [
+            "models.detection.fasterrcnn_resnet50_fpn",
+            "models.detection.fasterrcnn_resnet50_fpn"
+          ],
+          [
+            "transforms.Compose",
+            "transforms.Compose"
+          ],
+          [
+            "transforms.Resize",
+            "transforms.Resize"
+          ],
+          [
+            "transforms.CenterCrop",
+            "transforms.CenterCrop"
+          ],
+          [
+            "transforms.ToTensor",
+            "transforms.ToTensor"
+          ],
+          [
+            "transforms.Normalize",
+            "transforms.Normalize"
+          ],
+          [
+            "io.read_image",
+            "io.read_image"
+          ],
+          [
+            "io.write_jpeg",
+            "io.write_jpeg"
+          ],
+          [
+            "ops.nms",
+            "ops.nms"
+          ],
+          [
+            "ops.box_iou",
+            "ops.box_iou"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "torchvision_method": {
+    "message0": "TorchVision object %1 call method %2 arguments %3 keyword arguments %4",
+    "tooltip": "Call an allowlisted TorchVision object method and return its result.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "to",
+            "to"
+          ],
+          [
+            "cpu",
+            "cpu"
+          ],
+          [
+            "cuda",
+            "cuda"
+          ],
+          [
+            "eval",
+            "eval"
+          ],
+          [
+            "train",
+            "train"
+          ],
+          [
+            "forward",
+            "forward"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "torchvision_do_method": {
+    "message0": "run TorchVision object %1 method %2 arguments %3 keyword arguments %4",
+    "tooltip": "Run an allowlisted TorchVision object method as a statement.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "to",
+            "to"
+          ],
+          [
+            "cpu",
+            "cpu"
+          ],
+          [
+            "cuda",
+            "cuda"
+          ],
+          [
+            "eval",
+            "eval"
+          ],
+          [
+            "train",
+            "train"
+          ],
+          [
+            "forward",
+            "forward"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "torchvision_attribute": {
+    "message0": "TorchVision object %1 attribute %2",
+    "tooltip": "Read an allowlisted TorchVision object or module attribute.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "__version__",
+            "__version__"
+          ]
+        ]
+      }
+    ]
+  }
+}

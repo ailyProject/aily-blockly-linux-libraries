@@ -1,6 +1,7 @@
 {
   "kind": "category",
   "name": "PyUSB",
+  "icon": "fa-brands fa-usb",
   "colour": "#00897B",
   "contents": [
     {

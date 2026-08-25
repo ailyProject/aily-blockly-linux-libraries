@@ -1,6 +1,7 @@
 {
   "kind": "category",
   "name": "SPI",
+  "icon": "fa-light fa-right-left",
   "colour": "#5C6BC0",
   "contents": [
     {

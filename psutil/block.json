@@ -64,7 +64,7 @@
     ],
     "colour": "#455A64",
     "tooltip": "Call an allowlisted psutil function or constructor and return its result.",
-    "icon": "settings",
+    "icon": "fa-light fa-code",
     "output": "Any"
   },
   {
@@ -132,7 +132,7 @@
     ],
     "colour": "#455A64",
     "tooltip": "Run an allowlisted psutil function or constructor as a statement.",
-    "icon": "settings",
+    "icon": "fa-light fa-play",
     "previousStatement": null,
     "nextStatement": null
   },
@@ -193,7 +193,7 @@
     ],
     "colour": "#455A64",
     "tooltip": "Call an allowlisted psutil object method and return its result.",
-    "icon": "settings",
+    "icon": "fa-light fa-gear",
     "output": "Any"
   },
   {
@@ -253,7 +253,7 @@
     ],
     "colour": "#455A64",
     "tooltip": "Run an allowlisted psutil object method as a statement.",
-    "icon": "settings",
+    "icon": "fa-light fa-gears",
     "previousStatement": null,
     "nextStatement": null
   },
@@ -306,7 +306,7 @@
     ],
     "colour": "#455A64",
     "tooltip": "Read an allowlisted psutil object or module attribute.",
-    "icon": "settings",
+    "icon": "fa-light fa-circle-info",
     "output": "Any"
   }
 ]

@@ -1,6 +1,7 @@
 {
   "kind": "category",
   "name": "PyModbus",
+  "icon": "fa-light fa-arrows-left-right",
   "colour": "#00897B",
   "contents": [
     {

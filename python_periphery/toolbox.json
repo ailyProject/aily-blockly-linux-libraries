@@ -1,6 +1,7 @@
 {
   "kind": "category",
   "name": "python-periphery",
+  "icon": "fa-light fa-microchip",
   "colour": "#00897B",
   "contents": [
     {

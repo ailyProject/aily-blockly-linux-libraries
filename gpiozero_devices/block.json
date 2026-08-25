@@ -1,0 +1,341 @@
+[
+  {
+    "type": "linux_gpiozero_motor_init",
+    "message0": "initialize motor %1 forward pin %2 backward pin %3 output mode %4",
+    "args0": [
+      { "type": "field_input", "name": "NAME", "text": "motor" },
+      { "type": "field_dropdown", "name": "FORWARD_PIN", "options": "${board.digitalPins}" },
+      { "type": "field_dropdown", "name": "BACKWARD_PIN", "options": "${board.digitalPins}" },
+      {
+        "type": "field_dropdown",
+        "name": "OUTPUT_MODE",
+        "options": [["PWM speed", "PWM"], ["digital on/off", "DIGITAL"]]
+      }
+    ],
+    "colour": "#00897B",
+    "tooltip": "Create a gpiozero Motor using two driver input pins.",
+    "icon": "fa-light fa-plug",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "linux_gpiozero_motor_forward",
+    "message0": "run motor %1 forward at speed %2 (0-1)",
+    "args0": [
+      { "type": "field_input", "name": "NAME", "text": "motor" },
+      { "type": "input_value", "name": "SPEED", "check": "Number" }
+    ],
+    "colour": "#00897B",
+    "tooltip": "Run an initialized motor forward at a validated speed.",
+    "icon": "fa-light fa-arrow-right",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "linux_gpiozero_motor_backward",
+    "message0": "run motor %1 backward at speed %2 (0-1)",
+    "args0": [
+      { "type": "field_input", "name": "NAME", "text": "motor" },
+      { "type": "input_value", "name": "SPEED", "check": "Number" }
+    ],
+    "colour": "#00897B",
+    "tooltip": "Run an initialized motor backward at a validated speed.",
+    "icon": "fa-light fa-arrow-left",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "linux_gpiozero_motor_stop",
+    "message0": "stop motor %1",
+    "args0": [{ "type": "field_input", "name": "NAME", "text": "motor" }],
+    "colour": "#00897B",
+    "tooltip": "Stop an initialized motor.",
+    "icon": "fa-light fa-stop",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "linux_gpiozero_motor_value",
+    "message0": "motor %1 signed value",
+    "args0": [{ "type": "field_input", "name": "NAME", "text": "motor" }],
+    "colour": "#00897B",
+    "tooltip": "Read the signed motor value from -1 backward to 1 forward.",
+    "icon": "fa-light fa-circle-info",
+    "output": "Number"
+  },
+  {
+    "type": "linux_gpiozero_motor_close",
+    "message0": "close motor %1",
+    "args0": [{ "type": "field_input", "name": "NAME", "text": "motor" }],
+    "colour": "#00897B",
+    "tooltip": "Stop, close, and release an initialized motor.",
+    "icon": "fa-light fa-power-off",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "linux_gpiozero_angular_servo_init",
+    "message0": "initialize angular servo %1 pin %2 minimum angle %3 maximum angle %4 initial angle %5",
+    "args0": [
+      { "type": "field_input", "name": "NAME", "text": "servo" },
+      { "type": "field_dropdown", "name": "PIN", "options": "${board.digitalPins}" },
+      { "type": "input_value", "name": "MIN_ANGLE", "check": "Number" },
+      { "type": "input_value", "name": "MAX_ANGLE", "check": "Number" },
+      { "type": "input_value", "name": "INITIAL_ANGLE", "check": "Number" }
+    ],
+    "colour": "#00897B",
+    "tooltip": "Create a gpiozero AngularServo with an explicit angle range.",
+    "icon": "fa-light fa-plug",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "linux_gpiozero_angular_servo_set",
+    "message0": "set angular servo %1 angle to %2 degrees",
+    "args0": [
+      { "type": "field_input", "name": "NAME", "text": "servo" },
+      { "type": "input_value", "name": "ANGLE", "check": "Number" }
+    ],
+    "colour": "#00897B",
+    "tooltip": "Set the angle of an initialized AngularServo.",
+    "icon": "fa-light fa-gears",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "linux_gpiozero_angular_servo_read",
+    "message0": "angular servo %1 angle",
+    "args0": [{ "type": "field_input", "name": "NAME", "text": "servo" }],
+    "colour": "#00897B",
+    "tooltip": "Read the commanded angle, or None after detach.",
+    "icon": "fa-light fa-download",
+    "output": "Any"
+  },
+  {
+    "type": "linux_gpiozero_angular_servo_detach",
+    "message0": "detach angular servo %1",
+    "args0": [{ "type": "field_input", "name": "NAME", "text": "servo" }],
+    "colour": "#00897B",
+    "tooltip": "Stop sending servo pulses without closing the GPIO device.",
+    "icon": "fa-light fa-power-off",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "linux_gpiozero_angular_servo_close",
+    "message0": "close angular servo %1",
+    "args0": [{ "type": "field_input", "name": "NAME", "text": "servo" }],
+    "colour": "#00897B",
+    "tooltip": "Detach, close, and release an AngularServo.",
+    "icon": "fa-light fa-power-off",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "linux_gpiozero_distance_init",
+    "message0": "initialize ultrasonic sensor %1 trigger pin %2 echo pin %3 maximum distance %4 m threshold %5 m",
+    "args0": [
+      { "type": "field_input", "name": "NAME", "text": "distance" },
+      { "type": "field_dropdown", "name": "TRIGGER_PIN", "options": "${board.digitalPins}" },
+      { "type": "field_dropdown", "name": "ECHO_PIN", "options": "${board.digitalPins}" },
+      { "type": "input_value", "name": "MAX_DISTANCE", "check": "Number" },
+      { "type": "input_value", "name": "THRESHOLD", "check": "Number" }
+    ],
+    "colour": "#00897B",
+    "tooltip": "Create a gpiozero DistanceSensor for an HC-SR04-compatible module.",
+    "icon": "fa-light fa-plug",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "linux_gpiozero_distance_read",
+    "message0": "ultrasonic sensor %1 distance in %2",
+    "args0": [
+      { "type": "field_input", "name": "NAME", "text": "distance" },
+      {
+        "type": "field_dropdown",
+        "name": "UNIT",
+        "options": [["centimetres", "CM"], ["metres", "M"]]
+      }
+    ],
+    "colour": "#00897B",
+    "tooltip": "Read the measured distance in metres or centimetres.",
+    "icon": "fa-light fa-download",
+    "output": "Number"
+  },
+  {
+    "type": "linux_gpiozero_distance_in_range",
+    "message0": "ultrasonic sensor %1 is in range",
+    "args0": [{ "type": "field_input", "name": "NAME", "text": "distance" }],
+    "colour": "#00897B",
+    "tooltip": "Whether the measured distance is below the configured threshold.",
+    "icon": "fa-light fa-gears",
+    "output": "Boolean"
+  },
+  {
+    "type": "linux_gpiozero_distance_wait",
+    "message0": "wait for ultrasonic sensor %1 to become %2 timeout %3 s (0 forever)",
+    "args0": [
+      { "type": "field_input", "name": "NAME", "text": "distance" },
+      {
+        "type": "field_dropdown",
+        "name": "STATE",
+        "options": [["in range", "IN_RANGE"], ["out of range", "OUT_OF_RANGE"]]
+      },
+      { "type": "input_value", "name": "TIMEOUT", "check": "Number" }
+    ],
+    "colour": "#00897B",
+    "tooltip": "Wait for a threshold transition; timeout 0 waits without a limit.",
+    "icon": "fa-light fa-clock",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "linux_gpiozero_distance_close",
+    "message0": "close ultrasonic sensor %1",
+    "args0": [{ "type": "field_input", "name": "NAME", "text": "distance" }],
+    "colour": "#00897B",
+    "tooltip": "Close and release an ultrasonic DistanceSensor.",
+    "icon": "fa-light fa-power-off",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "linux_gpiozero_rotary_init",
+    "message0": "initialize rotary encoder %1 A pin %2 B pin %3 maximum steps %4 wrap %5",
+    "args0": [
+      { "type": "field_input", "name": "NAME", "text": "encoder" },
+      { "type": "field_dropdown", "name": "A_PIN", "options": "${board.digitalPins}" },
+      { "type": "field_dropdown", "name": "B_PIN", "options": "${board.digitalPins}" },
+      { "type": "input_value", "name": "MAX_STEPS", "check": "Number" },
+      {
+        "type": "field_dropdown",
+        "name": "WRAP",
+        "options": [["do not wrap", "FALSE"], ["wrap at limits", "TRUE"]]
+      }
+    ],
+    "colour": "#00897B",
+    "tooltip": "Create a gpiozero RotaryEncoder; maximum steps 0 is unbounded.",
+    "icon": "fa-light fa-plug",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "linux_gpiozero_rotary_steps",
+    "message0": "rotary encoder %1 steps",
+    "args0": [{ "type": "field_input", "name": "NAME", "text": "encoder" }],
+    "colour": "#00897B",
+    "tooltip": "Read the signed step count of a RotaryEncoder.",
+    "icon": "fa-light fa-gears",
+    "output": "Number"
+  },
+  {
+    "type": "linux_gpiozero_rotary_reset",
+    "message0": "reset rotary encoder %1 steps",
+    "args0": [{ "type": "field_input", "name": "NAME", "text": "encoder" }],
+    "colour": "#00897B",
+    "tooltip": "Reset an initialized RotaryEncoder step count to zero.",
+    "icon": "fa-light fa-arrow-rotate-left",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "linux_gpiozero_rotary_wait",
+    "message0": "wait for rotary encoder %1 rotation %2 timeout %3 s (0 forever)",
+    "args0": [
+      { "type": "field_input", "name": "NAME", "text": "encoder" },
+      {
+        "type": "field_dropdown",
+        "name": "DIRECTION",
+        "options": [["either direction", "ANY"], ["clockwise", "CLOCKWISE"], ["counter-clockwise", "COUNTER_CLOCKWISE"]]
+      },
+      { "type": "input_value", "name": "TIMEOUT", "check": "Number" }
+    ],
+    "colour": "#00897B",
+    "tooltip": "Wait for rotation in the selected direction; timeout 0 waits forever.",
+    "icon": "fa-light fa-clock",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "linux_gpiozero_rotary_close",
+    "message0": "close rotary encoder %1",
+    "args0": [{ "type": "field_input", "name": "NAME", "text": "encoder" }],
+    "colour": "#00897B",
+    "tooltip": "Close and release a RotaryEncoder.",
+    "icon": "fa-light fa-power-off",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "linux_gpiozero_buzzer_init",
+    "message0": "initialize buzzer %1 pin %2 mode %3",
+    "args0": [
+      { "type": "field_input", "name": "NAME", "text": "buzzer" },
+      { "type": "field_dropdown", "name": "PIN", "options": "${board.digitalPins}" },
+      {
+        "type": "field_dropdown",
+        "name": "MODE",
+        "options": [["simple on/off", "SIMPLE"], ["tonal", "TONAL"]]
+      }
+    ],
+    "colour": "#00897B",
+    "tooltip": "Create a gpiozero Buzzer or TonalBuzzer using an allowlisted mode.",
+    "icon": "fa-light fa-plug",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "linux_gpiozero_buzzer_play",
+    "message0": "play buzzer %1 tone %2",
+    "args0": [
+      { "type": "field_input", "name": "NAME", "text": "buzzer" },
+      { "type": "input_value", "name": "TONE" }
+    ],
+    "colour": "#00897B",
+    "tooltip": "Play a note such as A4 on a tonal buzzer; a simple buzzer turns on.",
+    "icon": "fa-light fa-volume-high",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "linux_gpiozero_buzzer_on",
+    "message0": "turn buzzer %1 on",
+    "args0": [{ "type": "field_input", "name": "NAME", "text": "buzzer" }],
+    "colour": "#00897B",
+    "tooltip": "Turn on a simple buzzer, or play A4 on a tonal buzzer.",
+    "icon": "fa-light fa-bell",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "linux_gpiozero_buzzer_off",
+    "message0": "turn buzzer %1 off",
+    "args0": [{ "type": "field_input", "name": "NAME", "text": "buzzer" }],
+    "colour": "#00897B",
+    "tooltip": "Turn off or stop an initialized buzzer.",
+    "icon": "fa-light fa-gears",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "linux_gpiozero_buzzer_stop",
+    "message0": "stop buzzer %1",
+    "args0": [{ "type": "field_input", "name": "NAME", "text": "buzzer" }],
+    "colour": "#00897B",
+    "tooltip": "Stop an initialized simple or tonal buzzer.",
+    "icon": "fa-light fa-stop",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "linux_gpiozero_buzzer_close",
+    "message0": "close buzzer %1",
+    "args0": [{ "type": "field_input", "name": "NAME", "text": "buzzer" }],
+    "colour": "#00897B",
+    "tooltip": "Stop, close, and release an initialized buzzer.",
+    "icon": "fa-light fa-power-off",
+    "previousStatement": null,
+    "nextStatement": null
+  }
+]

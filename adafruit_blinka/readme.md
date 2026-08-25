@@ -8,7 +8,7 @@
 - 积木（5 个）：`python_adafruit_blinka_call`、`python_adafruit_blinka_do`、`python_adafruit_blinka_method`、`python_adafruit_blinka_do_method`、`python_adafruit_blinka_attribute`
 - 可调用入口：`I2C`、`SPI`、`DigitalInOut`、`PWMOut`、`UART`
 - 对象方法：`try_lock`、`unlock`、`scan`、`readfrom_into`、`writeto`、`writeto_then_readfrom`、`configure`、`switch_to_input`、`switch_to_output`、`read`、`readinto`、`write`、`deinit`
-- 对象/模块属性：`D0`、`D1`、`D2`、`D3`、`D4`、`D5`、`D6`、`D17`、`D18`、`SCL`、`SDA`、`SCLK`、`MOSI`、`MISO`、`CE0`、`CE1`、`value`、`direction`、`pull`、`duty_cycle`、`frequency`、`in_waiting`
+- 对象/模块属性：`D0`、`D1`、`D2`、`D3`、`D4`、`D5`、`D6`、`D17`、`D18`、`SCL`、`SDA`、`SCLK`、`MOSI`、`MISO`、`CE0`、`CE1`、`PB5`、`PB4`、`PB6`、`PB0`、`PB1`、`PB13`、`PB14`、`PI12`、`PI11`、`PI10`、`PI9`、`PI4`、`PI5`、`PI7`、`PI3`、`PI2`、`PI6`、`PI16`、`PI15`、`PL6`、`PL5`、`PI14`、`PL4`、`PL2`、`PI13`、`PL3`、`PI0`、`PI1`、`LED`、`KEY`、`value`、`direction`、`pull`、`duty_cycle`、`frequency`、`in_waiting`
 - API 文档：https://learn.adafruit.com/circuitpython-on-raspberrypi-linux
 
 参数输入应连接 Python 列表或元组，关键字参数应连接 Python 字典；留空时分别生成 `[]` 与 `{}`。下拉项使用固定白名单，不会把用户字段直接拼接成可执行标识符。
@@ -17,6 +17,11 @@
 
 Raspberry Pi OS Bookworm/Trixie 中，pip 包应安装到虚拟环境。本 Blockly 包不会自动安装依赖、执行 sudo、启用硬件接口、修改启动配置或更改设备权限。
 
+## WalnutPi 2B CPython 运行层
+
+WalnutPi 2B 官方 Python 教程使用 Blinka。属性积木已加入板载 `LED`、`KEY`，以及该板 40-pin 排针的 PB/PI/PL 管脚名称；例如 `board.PB6` 可连接到 `DigitalInOut`。I²C/SPI/UART/PWM 仍需先按 WalnutPi 文档配置引脚复用和设备权限。
+
+WalnutPi 管脚白名单：`PB5`、`PB4`、`PB6`、`PB0`、`PB1`、`PB13`、`PB14`、`PI12`、`PI11`、`PI10`、`PI9`、`PI4`、`PI5`、`PI7`、`PI3`、`PI2`、`PI6`、`PI16`、`PI15`、`PL6`、`PL5`、`PI14`、`PL4`、`PL2`、`PI13`、`PL3`、`PI0`、`PI1`、`LED`、`KEY`。
 ## Raspberry Pi 5B 的 CPython 运行层
 
 这是把 CircuitPython 硬件 API 适配到 Linux CPython 的兼容层本身。

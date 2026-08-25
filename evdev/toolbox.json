@@ -1,6 +1,7 @@
 {
   "kind": "category",
   "name": "python-evdev",
+  "icon": "fa-light fa-keyboard",
   "colour": "#00897B",
   "contents": [
     {

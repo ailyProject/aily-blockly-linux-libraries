@@ -1,0 +1,292 @@
+[
+  {
+    "type": "torchvision_call",
+    "message0": "TorchVision call or create %1 arguments %2 keyword arguments %3",
+    "args0": [
+      {
+        "type": "field_dropdown",
+        "name": "TARGET",
+        "options": [
+          [
+            "models.resnet18",
+            "models.resnet18"
+          ],
+          [
+            "models.resnet50",
+            "models.resnet50"
+          ],
+          [
+            "models.mobilenet_v3_small",
+            "models.mobilenet_v3_small"
+          ],
+          [
+            "models.mobilenet_v3_large",
+            "models.mobilenet_v3_large"
+          ],
+          [
+            "models.detection.fasterrcnn_resnet50_fpn",
+            "models.detection.fasterrcnn_resnet50_fpn"
+          ],
+          [
+            "transforms.Compose",
+            "transforms.Compose"
+          ],
+          [
+            "transforms.Resize",
+            "transforms.Resize"
+          ],
+          [
+            "transforms.CenterCrop",
+            "transforms.CenterCrop"
+          ],
+          [
+            "transforms.ToTensor",
+            "transforms.ToTensor"
+          ],
+          [
+            "transforms.Normalize",
+            "transforms.Normalize"
+          ],
+          [
+            "io.read_image",
+            "io.read_image"
+          ],
+          [
+            "io.write_jpeg",
+            "io.write_jpeg"
+          ],
+          [
+            "ops.nms",
+            "ops.nms"
+          ],
+          [
+            "ops.box_iou",
+            "ops.box_iou"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#1976D2",
+    "icon": "fa-light fa-brain",
+    "tooltip": "Call an allowlisted TorchVision function or constructor and return its result.",
+    "output": "Any"
+  },
+  {
+    "type": "torchvision_do",
+    "message0": "run TorchVision %1 arguments %2 keyword arguments %3",
+    "args0": [
+      {
+        "type": "field_dropdown",
+        "name": "TARGET",
+        "options": [
+          [
+            "models.resnet18",
+            "models.resnet18"
+          ],
+          [
+            "models.resnet50",
+            "models.resnet50"
+          ],
+          [
+            "models.mobilenet_v3_small",
+            "models.mobilenet_v3_small"
+          ],
+          [
+            "models.mobilenet_v3_large",
+            "models.mobilenet_v3_large"
+          ],
+          [
+            "models.detection.fasterrcnn_resnet50_fpn",
+            "models.detection.fasterrcnn_resnet50_fpn"
+          ],
+          [
+            "transforms.Compose",
+            "transforms.Compose"
+          ],
+          [
+            "transforms.Resize",
+            "transforms.Resize"
+          ],
+          [
+            "transforms.CenterCrop",
+            "transforms.CenterCrop"
+          ],
+          [
+            "transforms.ToTensor",
+            "transforms.ToTensor"
+          ],
+          [
+            "transforms.Normalize",
+            "transforms.Normalize"
+          ],
+          [
+            "io.read_image",
+            "io.read_image"
+          ],
+          [
+            "io.write_jpeg",
+            "io.write_jpeg"
+          ],
+          [
+            "ops.nms",
+            "ops.nms"
+          ],
+          [
+            "ops.box_iou",
+            "ops.box_iou"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#1976D2",
+    "icon": "fa-light fa-brain",
+    "tooltip": "Run an allowlisted TorchVision function or constructor as a statement.",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "torchvision_method",
+    "message0": "TorchVision object %1 call method %2 arguments %3 keyword arguments %4",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "OBJECT"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "METHOD",
+        "options": [
+          [
+            "to",
+            "to"
+          ],
+          [
+            "cpu",
+            "cpu"
+          ],
+          [
+            "cuda",
+            "cuda"
+          ],
+          [
+            "eval",
+            "eval"
+          ],
+          [
+            "train",
+            "train"
+          ],
+          [
+            "forward",
+            "forward"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#1976D2",
+    "icon": "fa-light fa-brain",
+    "tooltip": "Call an allowlisted TorchVision object method and return its result.",
+    "output": "Any"
+  },
+  {
+    "type": "torchvision_do_method",
+    "message0": "run TorchVision object %1 method %2 arguments %3 keyword arguments %4",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "OBJECT"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "METHOD",
+        "options": [
+          [
+            "to",
+            "to"
+          ],
+          [
+            "cpu",
+            "cpu"
+          ],
+          [
+            "cuda",
+            "cuda"
+          ],
+          [
+            "eval",
+            "eval"
+          ],
+          [
+            "train",
+            "train"
+          ],
+          [
+            "forward",
+            "forward"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#1976D2",
+    "icon": "fa-light fa-brain",
+    "tooltip": "Run an allowlisted TorchVision object method as a statement.",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "torchvision_attribute",
+    "message0": "TorchVision object %1 attribute %2",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "OBJECT"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "ATTRIBUTE",
+        "options": [
+          [
+            "__version__",
+            "__version__"
+          ]
+        ]
+      }
+    ],
+    "colour": "#1976D2",
+    "icon": "fa-light fa-brain",
+    "tooltip": "Read an allowlisted TorchVision object or module attribute.",
+    "output": "Any"
+  }
+]

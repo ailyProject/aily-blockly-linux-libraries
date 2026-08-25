@@ -24,7 +24,7 @@
     ],
     "colour": "#C51A4A",
     "tooltip": "Call an allowlisted Sense HAT function or constructor and return its result.",
-    "icon": "settings",
+    "icon": "fa-light fa-code",
     "output": "Any"
   },
   {
@@ -52,7 +52,7 @@
     ],
     "colour": "#C51A4A",
     "tooltip": "Run an allowlisted Sense HAT function or constructor as a statement.",
-    "icon": "settings",
+    "icon": "fa-light fa-play",
     "previousStatement": null,
     "nextStatement": null
   },
@@ -133,7 +133,7 @@
     ],
     "colour": "#C51A4A",
     "tooltip": "Call an allowlisted Sense HAT object method and return its result.",
-    "icon": "settings",
+    "icon": "fa-light fa-gear",
     "output": "Any"
   },
   {
@@ -213,7 +213,7 @@
     ],
     "colour": "#C51A4A",
     "tooltip": "Run an allowlisted Sense HAT object method as a statement.",
-    "icon": "settings",
+    "icon": "fa-light fa-gears",
     "previousStatement": null,
     "nextStatement": null
   },
@@ -250,7 +250,7 @@
     ],
     "colour": "#C51A4A",
     "tooltip": "Read an allowlisted Sense HAT object or module attribute.",
-    "icon": "settings",
+    "icon": "fa-light fa-circle-info",
     "output": "Any"
   }
 ]

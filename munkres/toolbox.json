@@ -1,6 +1,7 @@
 {
   "kind": "category",
   "name": "Munkres",
+  "icon": "fa-light fa-table-cells",
   "colour": "#7B1FA2",
   "contents": [
     {

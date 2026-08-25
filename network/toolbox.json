@@ -1,11 +1,13 @@
 {
   "kind": "category",
   "name": "Network",
+  "icon": "fa-light fa-network-wired",
   "colour": "#0288D1",
   "contents": [
     {
       "kind": "category",
       "name": "Socket setup",
+      "icon": "fa-light fa-plug",
       "colour": "#0288D1",
       "contents": [
         {
@@ -69,6 +71,7 @@
     {
       "kind": "category",
       "name": "TCP communication",
+      "icon": "fa-light fa-arrows-left-right",
       "colour": "#0288D1",
       "contents": [
         {
@@ -238,6 +241,7 @@
     {
       "kind": "category",
       "name": "UDP communication",
+      "icon": "fa-light fa-satellite-dish",
       "colour": "#0288D1",
       "contents": [
         {
@@ -377,6 +381,7 @@
     {
       "kind": "category",
       "name": "Socket utilities",
+      "icon": "fa-light fa-screwdriver-wrench",
       "colour": "#0288D1",
       "contents": [
         {
@@ -449,6 +454,7 @@
     {
       "kind": "category",
       "name": "HTTP",
+      "icon": "fa-light fa-globe",
       "colour": "#0288D1",
       "contents": [
         {

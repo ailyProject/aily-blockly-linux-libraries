@@ -1,6 +1,7 @@
 {
   "kind": "category",
   "name": "W1ThermSensor",
+  "icon": "fa-light fa-temperature-half",
   "colour": "#00897B",
   "contents": [
     {

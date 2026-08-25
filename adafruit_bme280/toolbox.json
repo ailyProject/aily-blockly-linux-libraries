@@ -1,6 +1,7 @@
 {
   "kind": "category",
   "name": "CircuitPython BME280",
+  "icon": "fa-light fa-temperature-half",
   "colour": "#00897B",
   "contents": [
     {

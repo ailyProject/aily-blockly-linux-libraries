@@ -1,0 +1,459 @@
+[
+  {
+    "type": "python_thread_start",
+    "message0": "start background task %1 daemon %2 do %3",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "worker"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "DAEMON",
+        "options": [
+          [
+            "yes",
+            "TRUE"
+          ],
+          [
+            "no",
+            "FALSE"
+          ]
+        ]
+      },
+      {
+        "type": "input_statement",
+        "name": "DO"
+      }
+    ],
+    "colour": "#546E7A",
+    "tooltip": "Generate a named function, create a Thread for it, and start it immediately. Threads are not stopped automatically.",
+    "icon": "fa-light fa-play",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "python_thread_join",
+    "message0": "wait for thread or timer %1 timeout %2 seconds",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "worker"
+      },
+      {
+        "type": "input_value",
+        "name": "TIMEOUT",
+        "check": "Number"
+      }
+    ],
+    "colour": "#546E7A",
+    "tooltip": "Join a thread or timer. A blank timeout generates None and waits without a deadline.",
+    "icon": "fa-light fa-clock",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "python_thread_is_alive",
+    "message0": "thread or timer %1 is alive",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "worker"
+      }
+    ],
+    "colour": "#546E7A",
+    "tooltip": "Return whether the named thread or timer is currently alive.",
+    "icon": "fa-light fa-circle-info",
+    "output": "Boolean"
+  },
+  {
+    "type": "python_timer_start",
+    "message0": "start timer %1 after %2 seconds daemon %3 do %4",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "timer"
+      },
+      {
+        "type": "input_value",
+        "name": "DELAY",
+        "check": "Number"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "DAEMON",
+        "options": [
+          [
+            "yes",
+            "TRUE"
+          ],
+          [
+            "no",
+            "FALSE"
+          ]
+        ]
+      },
+      {
+        "type": "input_statement",
+        "name": "DO"
+      }
+    ],
+    "colour": "#546E7A",
+    "tooltip": "Generate a named callback and start a one-shot Timer after the delay.",
+    "icon": "fa-light fa-play",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "python_timer_cancel",
+    "message0": "cancel timer %1",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "timer"
+      }
+    ],
+    "colour": "#546E7A",
+    "tooltip": "Cancel the timer only if its callback has not started yet.",
+    "icon": "fa-light fa-power-off",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "python_lock_create",
+    "message0": "create lock %1",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "lock"
+      }
+    ],
+    "colour": "#546E7A",
+    "tooltip": "Create a primitive non-reentrant Lock resource.",
+    "icon": "fa-light fa-plug",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "python_lock_acquire",
+    "message0": "lock %1 acquire mode %2 timeout %3 seconds",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "lock"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "MODE",
+        "options": [
+          [
+            "wait",
+            "BLOCK"
+          ],
+          [
+            "try once",
+            "TRY"
+          ],
+          [
+            "wait with timeout",
+            "TIMEOUT"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "TIMEOUT",
+        "check": "Number"
+      }
+    ],
+    "colour": "#546E7A",
+    "tooltip": "Acquire and return success. Plain wait ignores timeout; try once is non-blocking; timed wait uses the timeout input.",
+    "icon": "fa-light fa-lock",
+    "output": "Boolean"
+  },
+  {
+    "type": "python_lock_release",
+    "message0": "release lock %1",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "lock"
+      }
+    ],
+    "colour": "#546E7A",
+    "tooltip": "Release the lock. Python raises RuntimeError if it is already unlocked.",
+    "icon": "fa-light fa-power-off",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "python_lock_locked",
+    "message0": "lock %1 is locked",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "lock"
+      }
+    ],
+    "colour": "#546E7A",
+    "tooltip": "Return a momentary snapshot of the lock state.",
+    "icon": "fa-light fa-circle-info",
+    "output": "Boolean"
+  },
+  {
+    "type": "python_event_create",
+    "message0": "create event %1",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "ready"
+      }
+    ],
+    "colour": "#546E7A",
+    "tooltip": "Create an Event with its flag initially clear.",
+    "icon": "fa-light fa-plug",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "python_event_set",
+    "message0": "set event %1",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "ready"
+      }
+    ],
+    "colour": "#546E7A",
+    "tooltip": "Set the event flag and wake all current waiters.",
+    "icon": "fa-light fa-bell",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "python_event_clear",
+    "message0": "clear event %1",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "ready"
+      }
+    ],
+    "colour": "#546E7A",
+    "tooltip": "Clear the event flag; later waiters block again.",
+    "icon": "fa-light fa-arrow-rotate-left",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "python_event_wait",
+    "message0": "wait for event %1 timeout %2 seconds",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "ready"
+      },
+      {
+        "type": "input_value",
+        "name": "TIMEOUT",
+        "check": "Number"
+      }
+    ],
+    "colour": "#546E7A",
+    "tooltip": "Wait and return whether the event became set. A blank timeout waits without a deadline.",
+    "icon": "fa-light fa-clock",
+    "output": "Boolean"
+  },
+  {
+    "type": "python_event_is_set",
+    "message0": "event %1 is set",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "ready"
+      }
+    ],
+    "colour": "#546E7A",
+    "tooltip": "Return a momentary snapshot of the event flag.",
+    "icon": "fa-light fa-bell",
+    "output": "Boolean"
+  },
+  {
+    "type": "python_queue_create",
+    "message0": "create queue %1 maximum size %2",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "jobs"
+      },
+      {
+        "type": "input_value",
+        "name": "MAXSIZE",
+        "check": "Number"
+      }
+    ],
+    "colour": "#546E7A",
+    "tooltip": "Create a thread-safe FIFO Queue. Maximum size 0 means unbounded.",
+    "icon": "fa-light fa-plug",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "python_queue_put",
+    "message0": "queue %1 put %2 mode %3 timeout %4 seconds",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "jobs"
+      },
+      {
+        "type": "input_value",
+        "name": "ITEM"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "MODE",
+        "options": [
+          [
+            "wait",
+            "BLOCK"
+          ],
+          [
+            "try once",
+            "TRY"
+          ],
+          [
+            "wait with timeout",
+            "TIMEOUT"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "TIMEOUT",
+        "check": "Number"
+      }
+    ],
+    "colour": "#546E7A",
+    "tooltip": "Put an item. Plain wait ignores timeout; try once raises queue.Full if full; timed wait uses the timeout input.",
+    "icon": "fa-light fa-upload",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "python_queue_get",
+    "message0": "queue %1 get mode %2 timeout %3 seconds",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "jobs"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "MODE",
+        "options": [
+          [
+            "wait",
+            "BLOCK"
+          ],
+          [
+            "try once",
+            "TRY"
+          ],
+          [
+            "wait with timeout",
+            "TIMEOUT"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "TIMEOUT",
+        "check": "Number"
+      }
+    ],
+    "colour": "#546E7A",
+    "tooltip": "Get and return an item. Plain wait ignores timeout; try once raises queue.Empty if empty; timed wait uses the timeout input.",
+    "icon": "fa-light fa-download",
+    "output": "Any"
+  },
+  {
+    "type": "python_queue_task_done",
+    "message0": "queue %1 mark one task done",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "jobs"
+      }
+    ],
+    "colour": "#546E7A",
+    "tooltip": "Mark one previously retrieved item complete. Extra calls raise ValueError.",
+    "icon": "fa-light fa-diagram-project",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "python_queue_join",
+    "message0": "wait until queue %1 tasks are done",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "jobs"
+      }
+    ],
+    "colour": "#546E7A",
+    "tooltip": "Wait without a timeout until task_done has matched every queued item.",
+    "icon": "fa-light fa-clock",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "python_queue_qsize",
+    "message0": "queue %1 approximate size",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "jobs"
+      }
+    ],
+    "colour": "#546E7A",
+    "tooltip": "Return an approximate size; another thread may change it immediately.",
+    "icon": "fa-light fa-diagram-project",
+    "output": "Number"
+  },
+  {
+    "type": "python_queue_empty",
+    "message0": "queue %1 is approximately empty",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "jobs"
+      }
+    ],
+    "colour": "#546E7A",
+    "tooltip": "Return an approximate empty snapshot; do not use it as a synchronization guarantee.",
+    "icon": "fa-light fa-circle-info",
+    "output": "Boolean"
+  }
+]

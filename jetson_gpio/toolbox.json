@@ -1,0 +1,28 @@
+{
+  "kind": "category",
+  "name": "Jetson.GPIO",
+  "icon": "fa-light fa-microchip",
+  "colour": "#76B900",
+  "contents": [
+    {
+      "kind": "block",
+      "type": "jetson_gpio_call"
+    },
+    {
+      "kind": "block",
+      "type": "jetson_gpio_do"
+    },
+    {
+      "kind": "block",
+      "type": "jetson_gpio_method"
+    },
+    {
+      "kind": "block",
+      "type": "jetson_gpio_do_method"
+    },
+    {
+      "kind": "block",
+      "type": "jetson_gpio_attribute"
+    }
+  ]
+}

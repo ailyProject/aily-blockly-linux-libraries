@@ -1,0 +1,180 @@
+{
+  "kind": "category",
+  "name": "Date & Time",
+  "icon": "fa-light fa-clock",
+  "colour": "#455A64",
+  "contents": [
+    {
+      "kind": "block",
+      "type": "python_datetime_now"
+    },
+    {
+      "kind": "block",
+      "type": "python_datetime_utc_now"
+    },
+    {
+      "kind": "block",
+      "type": "python_datetime_timestamp_now"
+    },
+    {
+      "kind": "block",
+      "type": "python_datetime_monotonic_ms"
+    },
+    {
+      "kind": "block",
+      "type": "python_datetime_monotonic_us"
+    },
+    {
+      "kind": "block",
+      "type": "python_datetime_create",
+      "inputs": {
+        "YEAR": {
+          "shadow": {
+            "type": "math_number",
+            "fields": {
+              "NUM": 2026
+            }
+          }
+        },
+        "MONTH": {
+          "shadow": {
+            "type": "math_number",
+            "fields": {
+              "NUM": 1
+            }
+          }
+        },
+        "DAY": {
+          "shadow": {
+            "type": "math_number",
+            "fields": {
+              "NUM": 1
+            }
+          }
+        },
+        "HOUR": {
+          "shadow": {
+            "type": "math_number",
+            "fields": {
+              "NUM": 0
+            }
+          }
+        },
+        "MINUTE": {
+          "shadow": {
+            "type": "math_number",
+            "fields": {
+              "NUM": 0
+            }
+          }
+        },
+        "SECOND": {
+          "shadow": {
+            "type": "math_number",
+            "fields": {
+              "NUM": 0
+            }
+          }
+        },
+        "MICROSECOND": {
+          "shadow": {
+            "type": "math_number",
+            "fields": {
+              "NUM": 0
+            }
+          }
+        }
+      }
+    },
+    {
+      "kind": "block",
+      "type": "python_datetime_format",
+      "inputs": {
+        "FORMAT": {
+          "shadow": {
+            "type": "text",
+            "fields": {
+              "TEXT": "%Y-%m-%d %H:%M:%S"
+            }
+          }
+        }
+      }
+    },
+    {
+      "kind": "block",
+      "type": "python_datetime_parse",
+      "inputs": {
+        "TEXT": {
+          "shadow": {
+            "type": "text",
+            "fields": {
+              "TEXT": "2026-01-02 03:04:05"
+            }
+          }
+        },
+        "FORMAT": {
+          "shadow": {
+            "type": "text",
+            "fields": {
+              "TEXT": "%Y-%m-%d %H:%M:%S"
+            }
+          }
+        }
+      }
+    },
+    {
+      "kind": "block",
+      "type": "python_datetime_from_timestamp",
+      "inputs": {
+        "TIMESTAMP": {
+          "shadow": {
+            "type": "math_number",
+            "fields": {
+              "NUM": 0
+            }
+          }
+        }
+      }
+    },
+    {
+      "kind": "block",
+      "type": "python_datetime_to_timestamp"
+    },
+    {
+      "kind": "block",
+      "type": "python_datetime_component"
+    },
+    {
+      "kind": "block",
+      "type": "python_datetime_isoformat"
+    },
+    {
+      "kind": "block",
+      "type": "python_datetime_from_isoformat",
+      "inputs": {
+        "TEXT": {
+          "shadow": {
+            "type": "text",
+            "fields": {
+              "TEXT": "2026-01-02T03:04:05+00:00"
+            }
+          }
+        }
+      }
+    },
+    {
+      "kind": "block",
+      "type": "python_datetime_sleep_ms",
+      "inputs": {
+        "MILLISECONDS": {
+          "shadow": {
+            "type": "math_number",
+            "fields": {
+              "NUM": 1000
+            }
+          }
+        }
+      }
+    }
+  ]
+}

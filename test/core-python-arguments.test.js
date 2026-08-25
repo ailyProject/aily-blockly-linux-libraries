@@ -133,7 +133,9 @@ test('five CPython composition blocks have exact sockets, placeholders, toolbox 
   }
 
   const toolboxTypes = readJson(path.join(CORE, 'toolbox.json')).contents.map((entry) => entry.type);
-  assert.equal(toolboxTypes.length, 16);
+  // Logic, loops, math, text, and variables now live in their own foundation
+  // packages; Core only exposes its eight program/composition blocks.
+  assert.equal(toolboxTypes.length, 8);
   const firstNewType = toolboxTypes.indexOf(NEW_TYPES[0]);
   assert.notEqual(firstNewType, -1);
   assert.deepEqual(toolboxTypes.slice(firstNewType, firstNewType + NEW_TYPES.length), NEW_TYPES);

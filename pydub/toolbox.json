@@ -1,6 +1,7 @@
 {
   "kind": "category",
   "name": "pydub",
+  "icon": "fa-light fa-music",
   "colour": "#EF6C00",
   "contents": [
     {

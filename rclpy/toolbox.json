@@ -1,6 +1,7 @@
 {
   "kind": "category",
   "name": "ROS 2 rclpy",
+  "icon": "fa-light fa-robot",
   "colour": "#00897B",
   "contents": [
     {

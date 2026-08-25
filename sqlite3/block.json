@@ -1,0 +1,218 @@
+[
+  {
+    "type": "python_sqlite_connect",
+    "message0": "open SQLite connection %1 database %2 timeout %3 seconds rows %4",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "db"
+      },
+      {
+        "type": "input_value",
+        "name": "DATABASE",
+        "check": "String"
+      },
+      {
+        "type": "input_value",
+        "name": "TIMEOUT",
+        "check": "Number"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "ROW_MODE",
+        "options": [
+          [
+            "tuples",
+            "TUPLE"
+          ],
+          [
+            "named rows",
+            "ROW"
+          ]
+        ]
+      }
+    ],
+    "colour": "#5C6BC0",
+    "tooltip": "Open a named SQLite connection, first closing an existing connection with the same name. Cleanup closes the final connection; reconnecting does not commit pending work.",
+    "icon": "fa-light fa-plug",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "python_sqlite_execute",
+    "message0": "connection %1 execute SQL %2 parameters %3",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "db"
+      },
+      {
+        "type": "input_value",
+        "name": "SQL",
+        "check": "String"
+      },
+      {
+        "type": "input_value",
+        "name": "PARAMS"
+      }
+    ],
+    "colour": "#5C6BC0",
+    "tooltip": "Execute one parameterized SQL statement and return its cursor. A blank parameters input generates an empty tuple.",
+    "icon": "fa-light fa-database",
+    "output": "Any"
+  },
+  {
+    "type": "python_sqlite_query",
+    "message0": "connection %1 query SQL %2 parameters %3",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "db"
+      },
+      {
+        "type": "input_value",
+        "name": "SQL",
+        "check": "String"
+      },
+      {
+        "type": "input_value",
+        "name": "PARAMS"
+      }
+    ],
+    "colour": "#5C6BC0",
+    "tooltip": "Run a parameterized query and return its cursor; fetch rows with the cursor result blocks.",
+    "icon": "fa-light fa-database",
+    "output": "Any"
+  },
+  {
+    "type": "python_sqlite_executemany",
+    "message0": "connection %1 execute SQL %2 for parameter rows %3",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "db"
+      },
+      {
+        "type": "input_value",
+        "name": "SQL",
+        "check": "String"
+      },
+      {
+        "type": "input_value",
+        "name": "PARAMS"
+      }
+    ],
+    "colour": "#5C6BC0",
+    "tooltip": "Execute one parameterized SQL statement for every parameter row and return its cursor.",
+    "icon": "fa-light fa-database",
+    "output": "Any"
+  },
+  {
+    "type": "python_sqlite_fetchone",
+    "message0": "fetch one row from cursor %1",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "CURSOR"
+      }
+    ],
+    "colour": "#5C6BC0",
+    "tooltip": "Return the next row, or None when the cursor is exhausted.",
+    "icon": "fa-light fa-database",
+    "output": "Any"
+  },
+  {
+    "type": "python_sqlite_fetchall",
+    "message0": "fetch all remaining rows from cursor %1",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "CURSOR"
+      }
+    ],
+    "colour": "#5C6BC0",
+    "tooltip": "Return a list containing every remaining row from the cursor.",
+    "icon": "fa-light fa-database",
+    "output": "Array"
+  },
+  {
+    "type": "python_sqlite_commit",
+    "message0": "commit connection %1",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "db"
+      }
+    ],
+    "colour": "#5C6BC0",
+    "tooltip": "Commit the current transaction on the named connection.",
+    "icon": "fa-light fa-floppy-disk",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "python_sqlite_rollback",
+    "message0": "roll back connection %1",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "db"
+      }
+    ],
+    "colour": "#5C6BC0",
+    "tooltip": "Roll back the current transaction on the named connection.",
+    "icon": "fa-light fa-arrow-rotate-left",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "python_sqlite_rowcount",
+    "message0": "cursor %1 affected row count",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "CURSOR"
+      }
+    ],
+    "colour": "#5C6BC0",
+    "tooltip": "Read cursor.rowcount. SELECT statements normally report -1 until rows are consumed.",
+    "icon": "fa-light fa-circle-info",
+    "output": "Number"
+  },
+  {
+    "type": "python_sqlite_lastrowid",
+    "message0": "cursor %1 last inserted row id",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "CURSOR"
+      }
+    ],
+    "colour": "#5C6BC0",
+    "tooltip": "Read cursor.lastrowid; it may be None when no applicable INSERT has run.",
+    "icon": "fa-light fa-circle-info",
+    "output": "Any"
+  },
+  {
+    "type": "python_sqlite_close",
+    "message0": "close SQLite connection %1",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "db"
+      }
+    ],
+    "colour": "#5C6BC0",
+    "tooltip": "Close the named connection and set its resource variable to None. Closing does not commit pending work.",
+    "icon": "fa-light fa-power-off",
+    "previousStatement": null,
+    "nextStatement": null
+  }
+]

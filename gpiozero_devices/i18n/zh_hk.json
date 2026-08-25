@@ -1,0 +1,290 @@
+{
+  "toolbox_name": "GPIO Zero 外圍裝置",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "linux_gpiozero_motor_init": {
+    "message0": "初始化馬達 %1 正轉腳位 %2 反轉腳位 %3 輸出模式 %4",
+    "tooltip": "使用兩個驅動輸入腳位建立 gpiozero Motor。",
+    "args0": [
+      null,
+      null,
+      null,
+      {
+        "options": [
+          [
+            "PWM 調速",
+            "PWM"
+          ],
+          [
+            "數碼開關",
+            "DIGITAL"
+          ]
+        ]
+      }
+    ]
+  },
+  "linux_gpiozero_motor_forward": {
+    "message0": "馬達 %1 以速度 %2（0-1）正轉",
+    "tooltip": "讓已初始化的馬達以驗證後的速度正轉。",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "linux_gpiozero_motor_backward": {
+    "message0": "馬達 %1 以速度 %2（0-1）反轉",
+    "tooltip": "讓已初始化的馬達以驗證後的速度反轉。",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "linux_gpiozero_motor_stop": {
+    "message0": "停止馬達 %1",
+    "tooltip": "停止已初始化的馬達。",
+    "args0": [
+      null
+    ]
+  },
+  "linux_gpiozero_motor_value": {
+    "message0": "馬達 %1 有符號值",
+    "tooltip": "讀取馬達有符號值：-1 表示反轉，1 表示正轉。",
+    "args0": [
+      null
+    ]
+  },
+  "linux_gpiozero_motor_close": {
+    "message0": "關閉馬達 %1",
+    "tooltip": "停止、關閉並釋放已初始化的馬達。",
+    "args0": [
+      null
+    ]
+  },
+  "linux_gpiozero_angular_servo_init": {
+    "message0": "初始化角度伺服 %1 腳位 %2 最小角度 %3 最大角度 %4 初始角度 %5",
+    "tooltip": "使用明確的角度範圍建立 gpiozero AngularServo。",
+    "args0": [
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "linux_gpiozero_angular_servo_set": {
+    "message0": "設定角度伺服 %1 為 %2 度",
+    "tooltip": "設定已初始化 AngularServo 的角度。",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "linux_gpiozero_angular_servo_read": {
+    "message0": "角度伺服 %1 的角度",
+    "tooltip": "讀取命令角度；脫離後傳回 None。",
+    "args0": [
+      null
+    ]
+  },
+  "linux_gpiozero_angular_servo_detach": {
+    "message0": "脫離角度伺服 %1",
+    "tooltip": "停止傳送伺服脈衝，但不關閉 GPIO 裝置。",
+    "args0": [
+      null
+    ]
+  },
+  "linux_gpiozero_angular_servo_close": {
+    "message0": "關閉角度伺服 %1",
+    "tooltip": "脫離、關閉並釋放 AngularServo。",
+    "args0": [
+      null
+    ]
+  },
+  "linux_gpiozero_distance_init": {
+    "message0": "初始化超聲波感測器 %1 觸發腳位 %2 回響腳位 %3 最大距離 %4 米 閾值 %5 米",
+    "tooltip": "為 HC-SR04 相容模組建立 gpiozero DistanceSensor。",
+    "args0": [
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "linux_gpiozero_distance_read": {
+    "message0": "超聲波感測器 %1 距離單位 %2",
+    "tooltip": "以米或厘米讀取測量距離。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "厘米",
+            "CM"
+          ],
+          [
+            "米",
+            "M"
+          ]
+        ]
+      }
+    ]
+  },
+  "linux_gpiozero_distance_in_range": {
+    "message0": "超聲波感測器 %1 在範圍內",
+    "tooltip": "測量距離是否小於設定的閾值。",
+    "args0": [
+      null
+    ]
+  },
+  "linux_gpiozero_distance_wait": {
+    "message0": "等待超聲波感測器 %1 變為 %2 逾時 %3 秒（0 為無限）",
+    "tooltip": "等待閾值狀態變化；逾時 0 表示無限等待。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "範圍內",
+            "IN_RANGE"
+          ],
+          [
+            "範圍外",
+            "OUT_OF_RANGE"
+          ]
+        ]
+      },
+      null
+    ]
+  },
+  "linux_gpiozero_distance_close": {
+    "message0": "關閉超聲波感測器 %1",
+    "tooltip": "關閉並釋放超聲波 DistanceSensor。",
+    "args0": [
+      null
+    ]
+  },
+  "linux_gpiozero_rotary_init": {
+    "message0": "初始化旋轉編碼器 %1 A 腳位 %2 B 腳位 %3 最大步數 %4 回繞 %5",
+    "tooltip": "建立 gpiozero RotaryEncoder；最大步數 0 表示不限制。",
+    "args0": [
+      null,
+      null,
+      null,
+      null,
+      {
+        "options": [
+          [
+            "不回繞",
+            "FALSE"
+          ],
+          [
+            "在限值處回繞",
+            "TRUE"
+          ]
+        ]
+      }
+    ]
+  },
+  "linux_gpiozero_rotary_steps": {
+    "message0": "旋轉編碼器 %1 步數",
+    "tooltip": "讀取 RotaryEncoder 的有符號步數。",
+    "args0": [
+      null
+    ]
+  },
+  "linux_gpiozero_rotary_reset": {
+    "message0": "清零旋轉編碼器 %1 步數",
+    "tooltip": "將已初始化 RotaryEncoder 的步數清零。",
+    "args0": [
+      null
+    ]
+  },
+  "linux_gpiozero_rotary_wait": {
+    "message0": "等待旋轉編碼器 %1 向 %2 旋轉 逾時 %3 秒（0 為無限）",
+    "tooltip": "等待所選方向的旋轉；逾時 0 表示無限等待。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "任意方向",
+            "ANY"
+          ],
+          [
+            "順時針",
+            "CLOCKWISE"
+          ],
+          [
+            "逆時針",
+            "COUNTER_CLOCKWISE"
+          ]
+        ]
+      },
+      null
+    ]
+  },
+  "linux_gpiozero_rotary_close": {
+    "message0": "關閉旋轉編碼器 %1",
+    "tooltip": "關閉並釋放 RotaryEncoder。",
+    "args0": [
+      null
+    ]
+  },
+  "linux_gpiozero_buzzer_init": {
+    "message0": "初始化蜂鳴器 %1 腳位 %2 模式 %3",
+    "tooltip": "使用白名單模式建立 gpiozero Buzzer 或 TonalBuzzer。",
+    "args0": [
+      null,
+      null,
+      {
+        "options": [
+          [
+            "簡單開關",
+            "SIMPLE"
+          ],
+          [
+            "音調",
+            "TONAL"
+          ]
+        ]
+      }
+    ]
+  },
+  "linux_gpiozero_buzzer_play": {
+    "message0": "蜂鳴器 %1 播放音調 %2",
+    "tooltip": "在音調蜂鳴器上播放 A4 一類音符；簡單蜂鳴器將持續開啟。",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "linux_gpiozero_buzzer_on": {
+    "message0": "開啟蜂鳴器 %1",
+    "tooltip": "開啟簡單蜂鳴器，或在音調蜂鳴器上播放 A4。",
+    "args0": [
+      null
+    ]
+  },
+  "linux_gpiozero_buzzer_off": {
+    "message0": "關閉蜂鳴器 %1",
+    "tooltip": "關閉或停止已初始化的蜂鳴器。",
+    "args0": [
+      null
+    ]
+  },
+  "linux_gpiozero_buzzer_stop": {
+    "message0": "停止蜂鳴器 %1",
+    "tooltip": "停止已初始化的簡單或音調蜂鳴器。",
+    "args0": [
+      null
+    ]
+  },
+  "linux_gpiozero_buzzer_close": {
+    "message0": "釋放蜂鳴器 %1",
+    "tooltip": "停止、關閉並釋放已初始化的蜂鳴器。",
+    "args0": [
+      null
+    ]
+  }
+}

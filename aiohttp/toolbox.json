@@ -1,6 +1,7 @@
 {
   "kind": "category",
   "name": "aiohttp",
+  "icon": "fa-light fa-globe",
   "colour": "#0288D1",
   "contents": [
     {

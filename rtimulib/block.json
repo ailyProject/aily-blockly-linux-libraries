@@ -36,7 +36,7 @@
     ],
     "colour": "#C51A4A",
     "tooltip": "Call an allowlisted RTIMULib function or constructor and return its result.",
-    "icon": "settings",
+    "icon": "fa-light fa-code",
     "output": "Any"
   },
   {
@@ -76,7 +76,7 @@
     ],
     "colour": "#C51A4A",
     "tooltip": "Run an allowlisted RTIMULib function or constructor as a statement.",
-    "icon": "settings",
+    "icon": "fa-light fa-play",
     "previousStatement": null,
     "nextStatement": null
   },
@@ -137,7 +137,7 @@
     ],
     "colour": "#C51A4A",
     "tooltip": "Call an allowlisted RTIMULib object method and return its result.",
-    "icon": "settings",
+    "icon": "fa-light fa-gear",
     "output": "Any"
   },
   {
@@ -197,7 +197,7 @@
     ],
     "colour": "#C51A4A",
     "tooltip": "Run an allowlisted RTIMULib object method as a statement.",
-    "icon": "settings",
+    "icon": "fa-light fa-gears",
     "previousStatement": null,
     "nextStatement": null
   }

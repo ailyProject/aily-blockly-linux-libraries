@@ -1,0 +1,154 @@
+[
+  {
+    "type": "python_ds3231_init",
+    "message0": "initialize DS3231 %1 using I2C %2 (empty uses board I2C)",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "rtc"
+      },
+      {
+        "type": "input_value",
+        "name": "I2C"
+      }
+    ],
+    "colour": "#00897B",
+    "tooltip": "Create a DS3231 RTC using an existing I2C object or an owned board.I2C bus when empty.",
+    "icon": "fa-light fa-plug",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "python_ds3231_datetime",
+    "message0": "DS3231 %1 date and time",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "rtc"
+      }
+    ],
+    "colour": "#00897B",
+    "tooltip": "Read the RTC date and time as a time.struct_time value.",
+    "icon": "fa-light fa-clock",
+    "output": "Any"
+  },
+  {
+    "type": "python_ds3231_set_datetime",
+    "message0": "set DS3231 %1 date and time to %2",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "rtc"
+      },
+      {
+        "type": "input_value",
+        "name": "DATETIME"
+      }
+    ],
+    "colour": "#00897B",
+    "tooltip": "Set the RTC from a datetime, struct_time, or sequence from year through second. The year must be 2000–2099; calendar fields are validated and weekday is recomputed.",
+    "icon": "fa-light fa-clock",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "python_ds3231_temperature",
+    "message0": "DS3231 %1 temperature °C",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "rtc"
+      }
+    ],
+    "colour": "#00897B",
+    "tooltip": "Read the most recently converted DS3231 temperature in degrees Celsius.",
+    "icon": "fa-light fa-temperature-half",
+    "output": "Number"
+  },
+  {
+    "type": "python_ds3231_force_temperature",
+    "message0": "DS3231 %1 force temperature conversion",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "rtc"
+      }
+    ],
+    "colour": "#00897B",
+    "tooltip": "Force a fresh temperature conversion and return the result in degrees Celsius.",
+    "icon": "fa-light fa-temperature-half",
+    "output": "Number"
+  },
+  {
+    "type": "python_ds3231_lost_power",
+    "message0": "DS3231 %1 has lost power",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "rtc"
+      }
+    ],
+    "colour": "#00897B",
+    "tooltip": "Return whether the RTC reports that its clock data may be invalid after power loss.",
+    "icon": "fa-light fa-clock",
+    "output": "Boolean"
+  },
+  {
+    "type": "python_ds3231_calibration",
+    "message0": "DS3231 %1 calibration offset",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "rtc"
+      }
+    ],
+    "colour": "#00897B",
+    "tooltip": "Read the signed DS3231 aging-offset calibration value.",
+    "icon": "fa-light fa-sliders",
+    "output": "Number"
+  },
+  {
+    "type": "python_ds3231_set_calibration",
+    "message0": "set DS3231 %1 calibration offset to %2",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "rtc"
+      },
+      {
+        "type": "input_value",
+        "name": "CALIBRATION",
+        "check": "Number"
+      }
+    ],
+    "colour": "#00897B",
+    "tooltip": "Set the signed calibration value; values outside -128 through 127 raise ValueError.",
+    "icon": "fa-light fa-sliders",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "python_ds3231_close",
+    "message0": "close DS3231 %1",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "NAME",
+        "text": "rtc"
+      }
+    ],
+    "colour": "#00897B",
+    "tooltip": "Release an I2C bus created by the initialization block; externally supplied buses remain open.",
+    "icon": "fa-light fa-power-off",
+    "previousStatement": null,
+    "nextStatement": null
+  }
+]

@@ -1,0 +1,197 @@
+{
+  "toolbox_name": "日期與時間",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_datetime_now": {
+    "message0": "目前本地日期和時間",
+    "tooltip": "傳回不帶時區的目前本地 datetime 物件。",
+    "args0": []
+  },
+  "python_datetime_utc_now": {
+    "message0": "目前 UTC 日期和時間",
+    "tooltip": "傳回帶 UTC 時區的目前 datetime 物件。",
+    "args0": []
+  },
+  "python_datetime_timestamp_now": {
+    "message0": "目前 POSIX 時間戳",
+    "tooltip": "使用系統牆上時鐘傳回自 POSIX 紀元起的秒數。",
+    "args0": []
+  },
+  "python_datetime_monotonic_ms": {
+    "message0": "單調毫秒計數",
+    "tooltip": "傳回用於量度耗時的整數毫秒單調計數。",
+    "args0": []
+  },
+  "python_datetime_monotonic_us": {
+    "message0": "單調微秒計數",
+    "tooltip": "傳回用於量度耗時的整數微秒單調計數。",
+    "args0": []
+  },
+  "python_datetime_create": {
+    "message0": "建立日期時間 年 %1 月 %2 日 %3 時 %4 分 %5 秒 %6 微秒 %7 時區 %8",
+    "tooltip": "建構 datetime 物件；非法日期值會拋出 ValueError。",
+    "args0": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "options": [
+          [
+            "本地 / 無時區",
+            "NAIVE"
+          ],
+          [
+            "帶 UTC 時區",
+            "UTC"
+          ]
+        ]
+      }
+    ]
+  },
+  "python_datetime_format": {
+    "message0": "將日期時間 %1 按 %2 格式化",
+    "tooltip": "使用 strftime 格式化 datetime 並傳回文字。",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_datetime_parse": {
+    "message0": "按 %2 解析日期時間文字 %1",
+    "tooltip": "使用 strptime 解析文字；非法輸入會拋出 ValueError。",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_datetime_from_timestamp": {
+    "message0": "將 POSIX 時間戳 %1 轉為 %2 日期時間",
+    "tooltip": "把 POSIX 時間戳轉換成本地無時區或帶 UTC 時區的 datetime。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "本地",
+            "LOCAL"
+          ],
+          [
+            "UTC",
+            "UTC"
+          ]
+        ]
+      }
+    ]
+  },
+  "python_datetime_to_timestamp": {
+    "message0": "日期時間 %1 的 POSIX 時間戳",
+    "tooltip": "把 datetime 物件轉換為 POSIX 秒數。",
+    "args0": [
+      null
+    ]
+  },
+  "python_datetime_component": {
+    "message0": "日期時間 %2 的 %1",
+    "tooltip": "讀取白名單中的數字日期時間分量。",
+    "args0": [
+      {
+        "options": [
+          [
+            "年",
+            "YEAR"
+          ],
+          [
+            "月",
+            "MONTH"
+          ],
+          [
+            "日",
+            "DAY"
+          ],
+          [
+            "時",
+            "HOUR"
+          ],
+          [
+            "分",
+            "MINUTE"
+          ],
+          [
+            "秒",
+            "SECOND"
+          ],
+          [
+            "微秒",
+            "MICROSECOND"
+          ],
+          [
+            "星期（週一 = 0）",
+            "WEEKDAY"
+          ],
+          [
+            "ISO 星期（週一 = 1）",
+            "ISO_WEEKDAY"
+          ],
+          [
+            "年內日序",
+            "DAY_OF_YEAR"
+          ]
+        ]
+      },
+      null
+    ]
+  },
+  "python_datetime_isoformat": {
+    "message0": "日期時間 %1 的 ISO 8601 文字 精度 %2",
+    "tooltip": "按白名單中的時間精度傳回 ISO 8601 文字。",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "自動",
+            "AUTO"
+          ],
+          [
+            "小時",
+            "HOURS"
+          ],
+          [
+            "分鐘",
+            "MINUTES"
+          ],
+          [
+            "秒",
+            "SECONDS"
+          ],
+          [
+            "毫秒",
+            "MILLISECONDS"
+          ],
+          [
+            "微秒",
+            "MICROSECONDS"
+          ]
+        ]
+      }
+    ]
+  },
+  "python_datetime_from_isoformat": {
+    "message0": "從 ISO 8601 文字 %1 解析日期時間",
+    "tooltip": "解析支援的 ISO 8601 日期時間文字；非法輸入會拋出 ValueError。",
+    "args0": [
+      null
+    ]
+  },
+  "python_datetime_sleep_ms": {
+    "message0": "等待 %1 毫秒",
+    "tooltip": "暫停目前執行緒指定毫秒；負值會拋出 ValueError。",
+    "args0": [
+      null
+    ]
+  }
+}

@@ -1,6 +1,7 @@
 {
   "kind": "category",
   "name": "aiocoap",
+  "icon": "fa-light fa-network-wired",
   "colour": "#0288D1",
   "contents": [
     {

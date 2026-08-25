@@ -1,0 +1,80 @@
+{
+  "toolbox_name": "四線步進馬達",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "linux_stepper_init": {
+    "message0": "初始化步進馬達 %1 腳位 IN1 %2 IN2 %3 IN3 %4 IN4 %5 模式 %6 每轉步數 %7 移動後 %8",
+    "tooltip": "為外部驅動器建立確定性的四輸出步進馬達控制器。",
+    "args0": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "options": [
+          [
+            "全步",
+            "FULL"
+          ],
+          [
+            "半步",
+            "HALF"
+          ]
+        ]
+      },
+      null,
+      {
+        "options": [
+          [
+            "保持線圈",
+            "HOLD"
+          ],
+          [
+            "釋放線圈",
+            "RELEASE"
+          ]
+        ]
+      }
+    ]
+  },
+  "linux_stepper_move": {
+    "message0": "步進馬達 %1 按有符號步數 %2 以 %3 RPM 移動",
+    "tooltip": "按有符號序列步移動；負數表示反向。",
+    "args0": [
+      null,
+      null,
+      null
+    ]
+  },
+  "linux_stepper_rotate": {
+    "message0": "步進馬達 %1 按有符號角度 %2 度以 %3 RPM 旋轉",
+    "tooltip": "將有符號角度轉換為設定的序列步數並移動。",
+    "args0": [
+      null,
+      null,
+      null
+    ]
+  },
+  "linux_stepper_position": {
+    "message0": "步進馬達 %1 有符號位置（步）",
+    "tooltip": "讀取初始化後的命令位置；這是開環值，不是測量回饋。",
+    "args0": [
+      null
+    ]
+  },
+  "linux_stepper_release": {
+    "message0": "釋放步進馬達 %1 線圈",
+    "tooltip": "將四個驅動輸入全部設為低，但不關閉 GPIO 資源。",
+    "args0": [
+      null
+    ]
+  },
+  "linux_stepper_close": {
+    "message0": "關閉步進馬達 %1",
+    "tooltip": "釋放線圈，關閉全部四個 GPIO 輸出並釋放控制器。",
+    "args0": [
+      null
+    ]
+  }
+}

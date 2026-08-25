@@ -1,6 +1,7 @@
 {
   "kind": "category",
   "name": "GPIO / LED / PWM",
+  "icon": "fa-light fa-microchip",
   "colour": "#00897B",
   "contents": [
     {

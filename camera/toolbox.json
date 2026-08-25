@@ -1,6 +1,7 @@
 {
   "kind": "category",
   "name": "Camera",
+  "icon": "fa-light fa-camera",
   "colour": "#1976D2",
   "contents": [
     {

@@ -42,7 +42,7 @@
     ],
     "colour": "#00897B",
     "tooltip": "initialize serial %1 device %2 baud %3",
-    "icon": "wifi",
+    "icon": "fa-light fa-plug",
     "previousStatement": null,
     "nextStatement": null
   },
@@ -58,7 +58,7 @@
     ],
     "colour": "#00897B",
     "tooltip": "serial %1 bytes available",
-    "icon": "wifi",
+    "icon": "fa-light fa-circle-info",
     "output": "Any"
   },
   {
@@ -78,7 +78,7 @@
     ],
     "colour": "#00897B",
     "tooltip": "serial %1 read %2 bytes",
-    "icon": "wifi",
+    "icon": "fa-light fa-download",
     "output": "Any"
   },
   {
@@ -97,7 +97,7 @@
     ],
     "colour": "#00897B",
     "tooltip": "serial %1 write %2",
-    "icon": "wifi",
+    "icon": "fa-light fa-upload",
     "previousStatement": null,
     "nextStatement": null
   },
@@ -113,7 +113,7 @@
     ],
     "colour": "#00897B",
     "tooltip": "flush serial %1 input",
-    "icon": "wifi",
+    "icon": "fa-light fa-arrow-rotate-left",
     "previousStatement": null,
     "nextStatement": null
   },
@@ -129,7 +129,7 @@
     ],
     "colour": "#00897B",
     "tooltip": "close serial %1",
-    "icon": "wifi",
+    "icon": "fa-light fa-power-off",
     "previousStatement": null,
     "nextStatement": null
   },
@@ -171,7 +171,7 @@
     ],
     "colour": "#00897B",
     "tooltip": "initialize UART %1 baud %2",
-    "icon": "settings",
+    "icon": "fa-light fa-plug",
     "previousStatement": null,
     "nextStatement": null
   },
@@ -187,7 +187,7 @@
     ],
     "colour": "#00897B",
     "tooltip": "UART %1 bytes available",
-    "icon": "settings",
+    "icon": "fa-light fa-circle-info",
     "output": "Any"
   },
   {
@@ -207,7 +207,7 @@
     ],
     "colour": "#00897B",
     "tooltip": "UART %1 read %2 bytes",
-    "icon": "settings",
+    "icon": "fa-light fa-download",
     "output": "Any"
   },
   {
@@ -226,7 +226,7 @@
     ],
     "colour": "#00897B",
     "tooltip": "UART %1 write %2",
-    "icon": "settings",
+    "icon": "fa-light fa-upload",
     "previousStatement": null,
     "nextStatement": null
   },
@@ -242,7 +242,7 @@
     ],
     "colour": "#00897B",
     "tooltip": "flush UART %1 input",
-    "icon": "settings",
+    "icon": "fa-light fa-arrow-rotate-left",
     "previousStatement": null,
     "nextStatement": null
   },
@@ -258,7 +258,7 @@
     ],
     "colour": "#00897B",
     "tooltip": "close UART %1",
-    "icon": "settings",
+    "icon": "fa-light fa-power-off",
     "previousStatement": null,
     "nextStatement": null
   }

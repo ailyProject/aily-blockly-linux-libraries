@@ -1,0 +1,306 @@
+{
+  "toolbox_name": "NVIDIA VPI",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "nvidia_vpi_call": {
+    "message0": "NVIDIA VPI call or create %1 arguments %2 keyword arguments %3",
+    "tooltip": "Call an allowlisted NVIDIA VPI function or constructor and return its result.",
+    "args0": [
+      {
+        "options": [
+          [
+            "asimage",
+            "asimage"
+          ],
+          [
+            "asarray",
+            "asarray"
+          ],
+          [
+            "Image",
+            "Image"
+          ],
+          [
+            "Array",
+            "Array"
+          ],
+          [
+            "Pyramid",
+            "Pyramid"
+          ],
+          [
+            "Stream",
+            "Stream"
+          ],
+          [
+            "execute",
+            "execute"
+          ],
+          [
+            "mixchannels",
+            "mixchannels"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "nvidia_vpi_do": {
+    "message0": "run NVIDIA VPI %1 arguments %2 keyword arguments %3",
+    "tooltip": "Run an allowlisted NVIDIA VPI function or constructor as a statement.",
+    "args0": [
+      {
+        "options": [
+          [
+            "asimage",
+            "asimage"
+          ],
+          [
+            "asarray",
+            "asarray"
+          ],
+          [
+            "Image",
+            "Image"
+          ],
+          [
+            "Array",
+            "Array"
+          ],
+          [
+            "Pyramid",
+            "Pyramid"
+          ],
+          [
+            "Stream",
+            "Stream"
+          ],
+          [
+            "execute",
+            "execute"
+          ],
+          [
+            "mixchannels",
+            "mixchannels"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "nvidia_vpi_method": {
+    "message0": "NVIDIA VPI object %1 call method %2 arguments %3 keyword arguments %4",
+    "tooltip": "Call an allowlisted NVIDIA VPI object method and return its result.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "convert",
+            "convert"
+          ],
+          [
+            "rescale",
+            "rescale"
+          ],
+          [
+            "box_filter",
+            "box_filter"
+          ],
+          [
+            "gaussian_filter",
+            "gaussian_filter"
+          ],
+          [
+            "median_filter",
+            "median_filter"
+          ],
+          [
+            "bilateral_filter",
+            "bilateral_filter"
+          ],
+          [
+            "erode",
+            "erode"
+          ],
+          [
+            "dilate",
+            "dilate"
+          ],
+          [
+            "canny",
+            "canny"
+          ],
+          [
+            "eqhist",
+            "eqhist"
+          ],
+          [
+            "histogram",
+            "histogram"
+          ],
+          [
+            "minmaxloc",
+            "minmaxloc"
+          ],
+          [
+            "lock_cpu",
+            "lock_cpu"
+          ],
+          [
+            "lock_cuda",
+            "lock_cuda"
+          ],
+          [
+            "sync",
+            "sync"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "nvidia_vpi_do_method": {
+    "message0": "run NVIDIA VPI object %1 method %2 arguments %3 keyword arguments %4",
+    "tooltip": "Run an allowlisted NVIDIA VPI object method as a statement.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "convert",
+            "convert"
+          ],
+          [
+            "rescale",
+            "rescale"
+          ],
+          [
+            "box_filter",
+            "box_filter"
+          ],
+          [
+            "gaussian_filter",
+            "gaussian_filter"
+          ],
+          [
+            "median_filter",
+            "median_filter"
+          ],
+          [
+            "bilateral_filter",
+            "bilateral_filter"
+          ],
+          [
+            "erode",
+            "erode"
+          ],
+          [
+            "dilate",
+            "dilate"
+          ],
+          [
+            "canny",
+            "canny"
+          ],
+          [
+            "eqhist",
+            "eqhist"
+          ],
+          [
+            "histogram",
+            "histogram"
+          ],
+          [
+            "minmaxloc",
+            "minmaxloc"
+          ],
+          [
+            "lock_cpu",
+            "lock_cpu"
+          ],
+          [
+            "lock_cuda",
+            "lock_cuda"
+          ],
+          [
+            "sync",
+            "sync"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "nvidia_vpi_attribute": {
+    "message0": "NVIDIA VPI object %1 attribute %2",
+    "tooltip": "Read an allowlisted NVIDIA VPI object or module attribute.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "Backend.CPU",
+            "Backend.CPU"
+          ],
+          [
+            "Backend.CUDA",
+            "Backend.CUDA"
+          ],
+          [
+            "Backend.PVA",
+            "Backend.PVA"
+          ],
+          [
+            "Format.RGB8",
+            "Format.RGB8"
+          ],
+          [
+            "Format.RGBA8",
+            "Format.RGBA8"
+          ],
+          [
+            "Format.BGR8",
+            "Format.BGR8"
+          ],
+          [
+            "Format.GRAY8",
+            "Format.GRAY8"
+          ],
+          [
+            "Interp.NEAREST",
+            "Interp.NEAREST"
+          ],
+          [
+            "Interp.LINEAR",
+            "Interp.LINEAR"
+          ],
+          [
+            "Border.CLAMP",
+            "Border.CLAMP"
+          ],
+          [
+            "width",
+            "width"
+          ],
+          [
+            "height",
+            "height"
+          ],
+          [
+            "size",
+            "size"
+          ],
+          [
+            "format",
+            "format"
+          ]
+        ]
+      }
+    ]
+  }
+}

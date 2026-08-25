@@ -1,0 +1,71 @@
+{
+  "toolbox_name": "ساعة DS3231",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_ds3231_init": {
+    "message0": "تهيئة DS3231 %1 عبر I2C %2 (الفارغ يستخدم I2C اللوحة)",
+    "tooltip": "إنشاء DS3231 بكائن I2C موجود أو بناقل board.I2C مملوك عند ترك المدخل فارغًا.",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_ds3231_datetime": {
+    "message0": "تاريخ ووقت DS3231 %1",
+    "tooltip": "قراءة التاريخ والوقت كقيمة time.struct_time.",
+    "args0": [
+      null
+    ]
+  },
+  "python_ds3231_set_datetime": {
+    "message0": "ضبط تاريخ ووقت DS3231 %1 إلى %2",
+    "tooltip": "الضبط من datetime أو struct_time أو تسلسل من السنة حتى الثانية. السنة 2000–2099؛ يُتحقق من التاريخ ويُعاد حساب يوم الأسبوع.",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_ds3231_temperature": {
+    "message0": "درجة حرارة DS3231 %1 بالدرجة المئوية",
+    "tooltip": "قراءة أحدث درجة حرارة محولة.",
+    "args0": [
+      null
+    ]
+  },
+  "python_ds3231_force_temperature": {
+    "message0": "فرض تحويل الحرارة في DS3231 %1",
+    "tooltip": "تنفيذ تحويل جديد وإرجاع درجة الحرارة.",
+    "args0": [
+      null
+    ]
+  },
+  "python_ds3231_lost_power": {
+    "message0": "فقد DS3231 %1 الطاقة",
+    "tooltip": "إرجاع ما إذا كانت بيانات الساعة قد تكون غير صالحة بعد انقطاع الطاقة.",
+    "args0": [
+      null
+    ]
+  },
+  "python_ds3231_calibration": {
+    "message0": "إزاحة معايرة DS3231 %1",
+    "tooltip": "قراءة إزاحة التقادم ذات الإشارة.",
+    "args0": [
+      null
+    ]
+  },
+  "python_ds3231_set_calibration": {
+    "message0": "ضبط معايرة DS3231 %1 إلى %2",
+    "tooltip": "القيمة خارج -128 إلى 127 ترفع ValueError.",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_ds3231_close": {
+    "message0": "إغلاق DS3231 %1",
+    "tooltip": "تحرير ناقل I2C الذي أنشأته كتلة التهيئة فقط.",
+    "args0": [
+      null
+    ]
+  }
+}

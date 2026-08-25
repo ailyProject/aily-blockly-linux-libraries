@@ -71,7 +71,7 @@
     ],
     "colour": "#5C6BC0",
     "tooltip": "Open an SPI device with py-spidev and configure its transfer parameters.",
-    "icon": "settings",
+    "icon": "fa-light fa-plug",
     "previousStatement": null,
     "nextStatement": null
   },
@@ -91,7 +91,7 @@
     ],
     "colour": "#5C6BC0",
     "tooltip": "Transfer a list of bytes with xfer2 and return the received byte list.",
-    "icon": "settings",
+    "icon": "fa-light fa-right-left",
     "output": "Array"
   },
   {
@@ -111,7 +111,7 @@
     ],
     "colour": "#5C6BC0",
     "tooltip": "Read bytes from the SPI device and return them as a list.",
-    "icon": "settings",
+    "icon": "fa-light fa-download",
     "output": "Array"
   },
   {
@@ -130,7 +130,7 @@
     ],
     "colour": "#5C6BC0",
     "tooltip": "Write a list or buffer of bytes with writebytes2.",
-    "icon": "settings",
+    "icon": "fa-light fa-upload",
     "previousStatement": null,
     "nextStatement": null
   },
@@ -146,7 +146,7 @@
     ],
     "colour": "#5C6BC0",
     "tooltip": "Close the SPI device.",
-    "icon": "settings",
+    "icon": "fa-light fa-power-off",
     "previousStatement": null,
     "nextStatement": null
   }

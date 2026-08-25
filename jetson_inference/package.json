@@ -1,0 +1,47 @@
+{
+  "name": "@aily-project/lib-jetson-inference",
+  "nickname": "jetson-inference",
+  "nickname_ar": "jetson-inference",
+  "nickname_de": "jetson-inference",
+  "nickname_en": "jetson-inference",
+  "nickname_es": "jetson-inference",
+  "nickname_fr": "jetson-inference",
+  "nickname_ja": "jetson-inference",
+  "nickname_ko": "jetson-inference",
+  "nickname_pt": "jetson-inference",
+  "nickname_ru": "jetson-inference",
+  "nickname_zh_cn": "jetson-inference",
+  "nickname_zh_hk": "jetson-inference",
+  "version": "0.0.1",
+  "description": "jetson-inference 通过显式 CPython API 白名单为受支持的 Linux 单板机提供积木。",
+  "description_zh_cn": "jetson-inference 通过显式 CPython API 白名单为受支持的 Linux 单板机提供积木。",
+  "description_en": "Allowlisted jetson-inference Python API blocks for Raspberry Pi and Linux single-board computers.",
+  "spec": true,
+  "compatibility": {
+    "type": [
+      "nvidia:tegra234:jetson_agx_orin",
+      "nvidia:tegra234:jetson_orin_nano",
+      "nvidia:tegra234:jetson_orin_nx"
+    ],
+    "voltage": [
+      3.3
+    ]
+  },
+  "keywords": [
+    "aily",
+    "blockly",
+    "python",
+    "linux",
+    "raspberry-pi",
+    "jetson-inference",
+    "jetson_inference"
+  ],
+  "tags": [
+    "display"
+  ],
+  "author": "ailyProject",
+  "license": "MIT",
+  "homepage": "https://github.com/dusty-nv/jetson-inference",
+  "dependencies": {},
+  "devDependencies": {}
+}

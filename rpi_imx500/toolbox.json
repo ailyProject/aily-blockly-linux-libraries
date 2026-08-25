@@ -1,0 +1,28 @@
+{
+  "kind": "category",
+  "name": "Raspberry Pi IMX500",
+  "icon": "fa-light fa-camera",
+  "colour": "#C51A4A",
+  "contents": [
+    {
+      "kind": "block",
+      "type": "rpi_imx500_call"
+    },
+    {
+      "kind": "block",
+      "type": "rpi_imx500_do"
+    },
+    {
+      "kind": "block",
+      "type": "rpi_imx500_method"
+    },
+    {
+      "kind": "block",
+      "type": "rpi_imx500_do_method"
+    },
+    {
+      "kind": "block",
+      "type": "rpi_imx500_attribute"
+    }
+  ]
+}

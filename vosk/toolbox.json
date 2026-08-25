@@ -1,6 +1,7 @@
 {
   "kind": "category",
   "name": "Vosk",
+  "icon": "fa-light fa-ear-listen",
   "colour": "#EF6C00",
   "contents": [
     {

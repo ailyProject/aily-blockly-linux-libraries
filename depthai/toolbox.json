@@ -1,6 +1,7 @@
 {
   "kind": "category",
   "name": "DepthAI v3",
+  "icon": "fa-light fa-camera",
   "colour": "#1976D2",
   "contents": [
     {

@@ -1,6 +1,7 @@
 {
   "kind": "category",
   "name": "CircuitPython PN532",
+  "icon": "fa-light fa-id-card",
   "colour": "#00897B",
   "contents": [
     {

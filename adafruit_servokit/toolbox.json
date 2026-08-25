@@ -1,6 +1,7 @@
 {
   "kind": "category",
   "name": "CircuitPython ServoKit",
+  "icon": "fa-light fa-rotate",
   "colour": "#00897B",
   "contents": [
     {

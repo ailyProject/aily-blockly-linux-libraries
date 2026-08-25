@@ -44,7 +44,7 @@
     ],
     "colour": "#7B1FA2",
     "tooltip": "Create a Paho MQTT 2.x client with Callback API VERSION2. Client IDs should be unique on the broker.",
-    "icon": "wifi",
+    "icon": "fa-light fa-plug",
     "previousStatement": null,
     "nextStatement": null
   },
@@ -70,7 +70,7 @@
     ],
     "colour": "#7B1FA2",
     "tooltip": "Configure broker credentials before connecting.",
-    "icon": "wifi",
+    "icon": "fa-light fa-sliders",
     "previousStatement": null,
     "nextStatement": null
   },
@@ -101,7 +101,7 @@
     ],
     "colour": "#7B1FA2",
     "tooltip": "Enable verified TLS before connecting. Leave CA empty to use the system trust store; client certificate and key are optional.",
-    "icon": "wifi",
+    "icon": "fa-light fa-sliders",
     "previousStatement": null,
     "nextStatement": null
   },
@@ -158,7 +158,7 @@
     ],
     "colour": "#7B1FA2",
     "tooltip": "Set the last-will message before connecting.",
-    "icon": "wifi",
+    "icon": "fa-light fa-sliders",
     "previousStatement": null,
     "nextStatement": null
   },
@@ -179,7 +179,7 @@
     ],
     "colour": "#7B1FA2",
     "tooltip": "Set the broker WebSocket path before connecting; use with a WebSocket client transport.",
-    "icon": "wifi",
+    "icon": "fa-light fa-sliders",
     "previousStatement": null,
     "nextStatement": null
   },
@@ -205,7 +205,7 @@
     ],
     "colour": "#7B1FA2",
     "tooltip": "Configure exponential reconnect delays used by background and blocking-forever loops; manual one-shot loop calls do not reconnect automatically.",
-    "icon": "wifi",
+    "icon": "fa-light fa-tower-broadcast",
     "previousStatement": null,
     "nextStatement": null
   },
@@ -236,7 +236,7 @@
     ],
     "colour": "#7B1FA2",
     "tooltip": "Start an MQTT connection. The broker CONNACK result is delivered only after a network loop runs.",
-    "icon": "wifi",
+    "icon": "fa-light fa-plug",
     "previousStatement": null,
     "nextStatement": null
   },
@@ -274,7 +274,7 @@
     ],
     "colour": "#7B1FA2",
     "tooltip": "Handle Paho Callback API VERSION2 connection results. Subscribe here so subscriptions are restored after reconnecting.",
-    "icon": "wifi",
+    "icon": "fa-light fa-plug",
     "previousStatement": null,
     "nextStatement": null
   },
@@ -317,7 +317,7 @@
     ],
     "colour": "#7B1FA2",
     "tooltip": "Handle an incoming message. Payload is bytes; decode it explicitly when text is required.",
-    "icon": "wifi",
+    "icon": "fa-light fa-bell",
     "previousStatement": null,
     "nextStatement": null
   },
@@ -350,7 +350,7 @@
     ],
     "colour": "#7B1FA2",
     "tooltip": "Handle a Paho Callback API VERSION2 disconnect event. The flag says whether an MQTT DISCONNECT packet came from the broker, not whether the broker merely closed the connection.",
-    "icon": "wifi",
+    "icon": "fa-light fa-power-off",
     "previousStatement": null,
     "nextStatement": null
   },
@@ -407,7 +407,7 @@
     ],
     "colour": "#7B1FA2",
     "tooltip": "Queue a message for publishing. Use the wait-for-publish block before a prompt exit when delivery must complete.",
-    "icon": "wifi",
+    "icon": "fa-light fa-upload",
     "previousStatement": null,
     "nextStatement": null
   },
@@ -469,7 +469,7 @@
     ],
     "colour": "#7B1FA2",
     "tooltip": "Publish and wait for completion; raise TimeoutError if the message is still unpublished at the timeout. Do not call this inside a network callback.",
-    "icon": "wifi",
+    "icon": "fa-light fa-upload",
     "previousStatement": null,
     "nextStatement": null
   },
@@ -508,7 +508,7 @@
     ],
     "colour": "#7B1FA2",
     "tooltip": "Subscribe to a topic filter. Place this inside the connection callback to restore it after reconnecting.",
-    "icon": "wifi",
+    "icon": "fa-light fa-tower-broadcast",
     "previousStatement": null,
     "nextStatement": null
   },
@@ -529,7 +529,7 @@
     ],
     "colour": "#7B1FA2",
     "tooltip": "Unsubscribe from a topic filter.",
-    "icon": "wifi",
+    "icon": "fa-light fa-bell-slash",
     "previousStatement": null,
     "nextStatement": null
   },
@@ -580,7 +580,7 @@
     ],
     "colour": "#7B1FA2",
     "tooltip": "Decode MQTT payload bytes into text with an explicit encoding and error policy.",
-    "icon": "wifi",
+    "icon": "fa-light fa-code",
     "output": "String"
   },
   {
@@ -595,7 +595,7 @@
     ],
     "colour": "#7B1FA2",
     "tooltip": "Return whether the Paho client currently considers itself connected.",
-    "icon": "wifi",
+    "icon": "fa-light fa-circle-info",
     "output": "Boolean"
   },
   {
@@ -610,7 +610,7 @@
     ],
     "colour": "#7B1FA2",
     "tooltip": "Start Paho's background network thread. Do not mix this with loop forever or manual loop calls.",
-    "icon": "wifi",
+    "icon": "fa-light fa-play",
     "previousStatement": null,
     "nextStatement": null
   },
@@ -626,7 +626,7 @@
     ],
     "colour": "#7B1FA2",
     "tooltip": "Stop Paho's background network thread; this does not by itself guarantee pending publications were sent.",
-    "icon": "wifi",
+    "icon": "fa-light fa-stop",
     "previousStatement": null,
     "nextStatement": null
   },
@@ -647,7 +647,7 @@
     ],
     "colour": "#7B1FA2",
     "tooltip": "Process network traffic once. Call regularly and keep timeout below keepalive; do not mix network-loop modes.",
-    "icon": "wifi",
+    "icon": "fa-light fa-repeat",
     "previousStatement": null,
     "nextStatement": null
   },
@@ -663,7 +663,7 @@
     ],
     "colour": "#7B1FA2",
     "tooltip": "Run Paho's blocking network loop forever. Following statements normally run only after disconnection or an error.",
-    "icon": "wifi",
+    "icon": "fa-light fa-repeat",
     "previousStatement": null,
     "nextStatement": null
   },
@@ -679,7 +679,7 @@
     ],
     "colour": "#7B1FA2",
     "tooltip": "Request a clean MQTT disconnection. Stop a background loop after disconnecting.",
-    "icon": "wifi",
+    "icon": "fa-light fa-power-off",
     "previousStatement": null,
     "nextStatement": null
   }

@@ -64,7 +64,7 @@
     ],
     "colour": "#EF6C00",
     "tooltip": "Call an allowlisted librosa function or constructor and return its result.",
-    "icon": "settings",
+    "icon": "fa-light fa-code",
     "output": "Any"
   },
   {
@@ -132,7 +132,7 @@
     ],
     "colour": "#EF6C00",
     "tooltip": "Run an allowlisted librosa function or constructor as a statement.",
-    "icon": "settings",
+    "icon": "fa-light fa-play",
     "previousStatement": null,
     "nextStatement": null
   }

@@ -1,0 +1,396 @@
+[
+  {
+    "type": "cupy_call",
+    "message0": "CuPy call or create %1 arguments %2 keyword arguments %3",
+    "args0": [
+      {
+        "type": "field_dropdown",
+        "name": "TARGET",
+        "options": [
+          [
+            "array",
+            "array"
+          ],
+          [
+            "asarray",
+            "asarray"
+          ],
+          [
+            "asnumpy",
+            "asnumpy"
+          ],
+          [
+            "zeros",
+            "zeros"
+          ],
+          [
+            "ones",
+            "ones"
+          ],
+          [
+            "empty",
+            "empty"
+          ],
+          [
+            "arange",
+            "arange"
+          ],
+          [
+            "linspace",
+            "linspace"
+          ],
+          [
+            "concatenate",
+            "concatenate"
+          ],
+          [
+            "stack",
+            "stack"
+          ],
+          [
+            "matmul",
+            "matmul"
+          ],
+          [
+            "dot",
+            "dot"
+          ],
+          [
+            "mean",
+            "mean"
+          ],
+          [
+            "sum",
+            "sum"
+          ],
+          [
+            "max",
+            "max"
+          ],
+          [
+            "min",
+            "min"
+          ],
+          [
+            "argmax",
+            "argmax"
+          ],
+          [
+            "get_array_module",
+            "get_array_module"
+          ],
+          [
+            "cuda.Device",
+            "cuda.Device"
+          ],
+          [
+            "cuda.Stream",
+            "cuda.Stream"
+          ],
+          [
+            "cuda.Event",
+            "cuda.Event"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#76B900",
+    "icon": "fa-light fa-microchip",
+    "tooltip": "Call an allowlisted CuPy function or constructor and return its result.",
+    "output": "Any"
+  },
+  {
+    "type": "cupy_do",
+    "message0": "run CuPy %1 arguments %2 keyword arguments %3",
+    "args0": [
+      {
+        "type": "field_dropdown",
+        "name": "TARGET",
+        "options": [
+          [
+            "array",
+            "array"
+          ],
+          [
+            "asarray",
+            "asarray"
+          ],
+          [
+            "asnumpy",
+            "asnumpy"
+          ],
+          [
+            "zeros",
+            "zeros"
+          ],
+          [
+            "ones",
+            "ones"
+          ],
+          [
+            "empty",
+            "empty"
+          ],
+          [
+            "arange",
+            "arange"
+          ],
+          [
+            "linspace",
+            "linspace"
+          ],
+          [
+            "concatenate",
+            "concatenate"
+          ],
+          [
+            "stack",
+            "stack"
+          ],
+          [
+            "matmul",
+            "matmul"
+          ],
+          [
+            "dot",
+            "dot"
+          ],
+          [
+            "mean",
+            "mean"
+          ],
+          [
+            "sum",
+            "sum"
+          ],
+          [
+            "max",
+            "max"
+          ],
+          [
+            "min",
+            "min"
+          ],
+          [
+            "argmax",
+            "argmax"
+          ],
+          [
+            "get_array_module",
+            "get_array_module"
+          ],
+          [
+            "cuda.Device",
+            "cuda.Device"
+          ],
+          [
+            "cuda.Stream",
+            "cuda.Stream"
+          ],
+          [
+            "cuda.Event",
+            "cuda.Event"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#76B900",
+    "icon": "fa-light fa-microchip",
+    "tooltip": "Run an allowlisted CuPy function or constructor as a statement.",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "cupy_method",
+    "message0": "CuPy object %1 call method %2 arguments %3 keyword arguments %4",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "OBJECT"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "METHOD",
+        "options": [
+          [
+            "get",
+            "get"
+          ],
+          [
+            "set",
+            "set"
+          ],
+          [
+            "astype",
+            "astype"
+          ],
+          [
+            "reshape",
+            "reshape"
+          ],
+          [
+            "transpose",
+            "transpose"
+          ],
+          [
+            "copy",
+            "copy"
+          ],
+          [
+            "fill",
+            "fill"
+          ],
+          [
+            "sum",
+            "sum"
+          ],
+          [
+            "mean",
+            "mean"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#76B900",
+    "icon": "fa-light fa-microchip",
+    "tooltip": "Call an allowlisted CuPy object method and return its result.",
+    "output": "Any"
+  },
+  {
+    "type": "cupy_do_method",
+    "message0": "run CuPy object %1 method %2 arguments %3 keyword arguments %4",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "OBJECT"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "METHOD",
+        "options": [
+          [
+            "get",
+            "get"
+          ],
+          [
+            "set",
+            "set"
+          ],
+          [
+            "astype",
+            "astype"
+          ],
+          [
+            "reshape",
+            "reshape"
+          ],
+          [
+            "transpose",
+            "transpose"
+          ],
+          [
+            "copy",
+            "copy"
+          ],
+          [
+            "fill",
+            "fill"
+          ],
+          [
+            "sum",
+            "sum"
+          ],
+          [
+            "mean",
+            "mean"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#76B900",
+    "icon": "fa-light fa-microchip",
+    "tooltip": "Run an allowlisted CuPy object method as a statement.",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "cupy_attribute",
+    "message0": "CuPy object %1 attribute %2",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "OBJECT"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "ATTRIBUTE",
+        "options": [
+          [
+            "ndarray",
+            "ndarray"
+          ],
+          [
+            "float32",
+            "float32"
+          ],
+          [
+            "float16",
+            "float16"
+          ],
+          [
+            "int8",
+            "int8"
+          ],
+          [
+            "int32",
+            "int32"
+          ],
+          [
+            "int64",
+            "int64"
+          ],
+          [
+            "bool_",
+            "bool_"
+          ]
+        ]
+      }
+    ],
+    "colour": "#76B900",
+    "icon": "fa-light fa-microchip",
+    "tooltip": "Read an allowlisted CuPy object or module attribute.",
+    "output": "Any"
+  }
+]

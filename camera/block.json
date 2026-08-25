@@ -26,7 +26,7 @@
     ],
     "colour": "#1976D2",
     "tooltip": "initialize camera %1 device %2 width %3 height %4",
-    "icon": "camera",
+    "icon": "fa-light fa-plug",
     "previousStatement": null,
     "nextStatement": null
   },
@@ -42,7 +42,7 @@
     ],
     "colour": "#1976D2",
     "tooltip": "camera %1 is open",
-    "icon": "camera",
+    "icon": "fa-light fa-circle-info",
     "output": "Any"
   },
   {
@@ -57,7 +57,7 @@
     ],
     "colour": "#1976D2",
     "tooltip": "camera %1 image",
-    "icon": "camera",
+    "icon": "fa-light fa-download",
     "output": "Any"
   },
   {
@@ -72,7 +72,7 @@
     ],
     "colour": "#1976D2",
     "tooltip": "release camera %1",
-    "icon": "camera",
+    "icon": "fa-light fa-power-off",
     "previousStatement": null,
     "nextStatement": null
   }

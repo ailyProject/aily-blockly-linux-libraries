@@ -1,0 +1,80 @@
+{
+  "toolbox_name": "四线步进电机",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "linux_stepper_init": {
+    "message0": "初始化步进电机 %1 引脚 IN1 %2 IN2 %3 IN3 %4 IN4 %5 模式 %6 每转步数 %7 移动后 %8",
+    "tooltip": "为外部驱动器创建确定性的四输出步进电机控制器。",
+    "args0": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "options": [
+          [
+            "全步",
+            "FULL"
+          ],
+          [
+            "半步",
+            "HALF"
+          ]
+        ]
+      },
+      null,
+      {
+        "options": [
+          [
+            "保持线圈",
+            "HOLD"
+          ],
+          [
+            "释放线圈",
+            "RELEASE"
+          ]
+        ]
+      }
+    ]
+  },
+  "linux_stepper_move": {
+    "message0": "步进电机 %1 按有符号步数 %2 以 %3 RPM 移动",
+    "tooltip": "按有符号序列步移动；负数表示反向。",
+    "args0": [
+      null,
+      null,
+      null
+    ]
+  },
+  "linux_stepper_rotate": {
+    "message0": "步进电机 %1 按有符号角度 %2 度以 %3 RPM 旋转",
+    "tooltip": "将有符号角度转换为配置的序列步数并移动。",
+    "args0": [
+      null,
+      null,
+      null
+    ]
+  },
+  "linux_stepper_position": {
+    "message0": "步进电机 %1 有符号位置（步）",
+    "tooltip": "读取初始化后的命令位置；这是开环值，不是测量反馈。",
+    "args0": [
+      null
+    ]
+  },
+  "linux_stepper_release": {
+    "message0": "释放步进电机 %1 线圈",
+    "tooltip": "将四个驱动输入全部置低，但不关闭 GPIO 资源。",
+    "args0": [
+      null
+    ]
+  },
+  "linux_stepper_close": {
+    "message0": "关闭步进电机 %1",
+    "tooltip": "释放线圈，关闭全部四个 GPIO 输出并释放控制器。",
+    "args0": [
+      null
+    ]
+  }
+}

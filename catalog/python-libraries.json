@@ -1,0 +1,5188 @@
+{
+  "schemaVersion": 1,
+  "count": 113,
+  "boardIds": {
+    "cybercam": "canaan:k230:cybercam",
+    "raspberryPiZero2W": "broadcom:bcm2710a1:raspberrypi_0_2w",
+    "raspberryPi4B": "broadcom:bcm2711:raspberrypi_4b",
+    "raspberryPi5": "broadcom:bcm2712:raspberrypi_5",
+    "walnutPi2B": "allwinner:t527:walnutpi_2b",
+    "jetsonOrinNano": "nvidia:tegra234:jetson_orin_nano",
+    "jetsonOrinNx": "nvidia:tegra234:jetson_orin_nx",
+    "jetsonAgxOrin": "nvidia:tegra234:jetson_agx_orin"
+  },
+  "runtimeProfiles": {
+    "default": "Linux CPython packages and standard-library bindings.",
+    "blinka": "Adafruit Blinka drivers running on Linux CPython; these are not MicroPython firmware packages.",
+    "jetson": "NVIDIA Jetson Orin libraries that require a matching JetPack, CUDA, or board runtime.",
+    "compatibilityLayerLibraries": [
+      "adafruit_blinka"
+    ],
+    "blinkaLibraries": [
+      "adafruit_ads1x15",
+      "adafruit_ahtx0",
+      "adafruit_apds9960",
+      "adafruit_bme280",
+      "adafruit_bme680",
+      "adafruit_bmp280",
+      "adafruit_bno055",
+      "adafruit_ccs811",
+      "adafruit_dht",
+      "adafruit_ina219",
+      "adafruit_lis3dh",
+      "adafruit_mcp3xxx",
+      "adafruit_mlx90614",
+      "adafruit_motor",
+      "adafruit_motorkit",
+      "adafruit_mpu6050",
+      "adafruit_pca9685",
+      "adafruit_pn532",
+      "adafruit_rgb_display",
+      "adafruit_scd4x",
+      "adafruit_servokit",
+      "adafruit_sgp30",
+      "adafruit_tsl2591",
+      "adafruit_vl53l0x",
+      "adafruit_vl53l1x",
+      "neopixel"
+    ]
+  },
+  "raspberryPi5Conditions": {
+    "baseline": "Use 64-bit Raspberry Pi OS. 安装 PyPI 包前先创建并激活虚拟环境；需要复用 APT 模块时用 --system-site-packages 创建环境。",
+    "experimental": {
+      "adafruit_dht": "Raspberry Pi 5 support depends on the selected GPIO backend and remains hardware-image dependent."
+    },
+    "conditional": {
+      "adafruit_bno055": "I2C clock stretching can require a lower bus speed or a compatible backend.",
+      "adafruit_ccs811": "The I2C interface and target address must be enabled and reachable.",
+      "adafruit_pn532": "On Raspberry Pi prefer PN532 over SPI; UART is not a recommended default because serial-console configuration varies.",
+      "neopixel": "Raspberry Pi 5 typically requires an available PIO backend and appropriate GPIO permissions."
+    }
+  },
+  "libraries": [
+    {
+      "id": "adafruit_ads1x15",
+      "title": "CircuitPython ADS1x15",
+      "blockPrefix": "python_adafruit_ads1x15",
+      "pip": "adafruit-circuitpython-ads1x15",
+      "module": "adafruit_ads1x15.ads1115",
+      "category": "sensors",
+      "compatibility": "blinka",
+      "boardTypes": [
+        "allwinner:t527:walnutpi_2b",
+        "broadcom:bcm2710a1:raspberrypi_0_2w",
+        "broadcom:bcm2711:raspberrypi_4b",
+        "broadcom:bcm2712:raspberrypi_5"
+      ],
+      "asyncBridge": false,
+      "raspberryPiDocs": false,
+      "install": "python3 -m pip install adafruit-circuitpython-ads1x15",
+      "homepage": "https://docs.circuitpython.org/projects/ads1x15/en/latest/",
+      "notesEn": "CircuitPython ADS1x15 is exposed through an explicit CPython API allowlist.",
+      "notesZh": "CircuitPython ADS1x15 通过显式 CPython API 白名单提供积木。",
+      "callables": [
+        "ADS1115",
+        "AnalogIn"
+      ],
+      "methods": [
+        "read"
+      ],
+      "attributes": [
+        "gain",
+        "mode",
+        "data_rate",
+        "comparator_queue_length",
+        "comparator_latch",
+        "comparator_polarity",
+        "value",
+        "voltage",
+        "Pin.A0",
+        "Pin.A1",
+        "Pin.A2",
+        "Pin.A3"
+      ]
+    },
+    {
+      "id": "adafruit_ahtx0",
+      "title": "CircuitPython AHTx0",
+      "blockPrefix": "python_adafruit_ahtx0",
+      "pip": "adafruit-circuitpython-ahtx0",
+      "module": "adafruit_ahtx0",
+      "category": "sensors",
+      "compatibility": "blinka",
+      "boardTypes": [
+        "allwinner:t527:walnutpi_2b",
+        "broadcom:bcm2710a1:raspberrypi_0_2w",
+        "broadcom:bcm2711:raspberrypi_4b",
+        "broadcom:bcm2712:raspberrypi_5"
+      ],
+      "asyncBridge": false,
+      "raspberryPiDocs": false,
+      "install": "python3 -m pip install adafruit-circuitpython-ahtx0",
+      "homepage": "https://docs.circuitpython.org/projects/ahtx0/en/latest/",
+      "notesEn": "CircuitPython AHTx0 is exposed through an explicit CPython API allowlist.",
+      "notesZh": "CircuitPython AHTx0 通过显式 CPython API 白名单提供积木。",
+      "callables": [
+        "AHTx0"
+      ],
+      "methods": [],
+      "attributes": [
+        "temperature",
+        "relative_humidity"
+      ]
+    },
+    {
+      "id": "adafruit_apds9960",
+      "title": "CircuitPython APDS9960",
+      "blockPrefix": "python_adafruit_apds9960",
+      "pip": "adafruit-circuitpython-apds9960",
+      "module": "adafruit_apds9960.apds9960",
+      "category": "sensors",
+      "compatibility": "blinka",
+      "boardTypes": [
+        "allwinner:t527:walnutpi_2b",
+        "broadcom:bcm2710a1:raspberrypi_0_2w",
+        "broadcom:bcm2711:raspberrypi_4b",
+        "broadcom:bcm2712:raspberrypi_5"
+      ],
+      "asyncBridge": false,
+      "raspberryPiDocs": false,
+      "install": "python3 -m pip install adafruit-circuitpython-apds9960",
+      "homepage": "https://docs.circuitpython.org/projects/apds9960/en/latest/",
+      "notesEn": "CircuitPython APDS9960 is exposed through an explicit CPython API allowlist.",
+      "notesZh": "CircuitPython APDS9960 通过显式 CPython API 白名单提供积木。",
+      "callables": [
+        "APDS9960"
+      ],
+      "methods": [
+        "gesture"
+      ],
+      "attributes": [
+        "enable_proximity",
+        "enable_gesture",
+        "enable_color",
+        "color_data",
+        "proximity"
+      ]
+    },
+    {
+      "id": "adafruit_blinka",
+      "title": "Adafruit Blinka",
+      "blockPrefix": "python_adafruit_blinka",
+      "pip": "Adafruit-Blinka",
+      "module": "board",
+      "category": "hardware-io",
+      "compatibility": "blinka",
+      "boardTypes": [
+        "allwinner:t527:walnutpi_2b",
+        "broadcom:bcm2710a1:raspberrypi_0_2w",
+        "broadcom:bcm2711:raspberrypi_4b",
+        "broadcom:bcm2712:raspberrypi_5"
+      ],
+      "asyncBridge": false,
+      "raspberryPiDocs": false,
+      "install": "python3 -m pip install Adafruit-Blinka",
+      "homepage": "https://learn.adafruit.com/circuitpython-on-raspberrypi-linux",
+      "notesEn": "Adafruit Blinka is exposed through an explicit CPython API allowlist.",
+      "notesZh": "Adafruit Blinka 通过显式 CPython API 白名单提供积木。",
+      "callables": [
+        "I2C",
+        "SPI",
+        "DigitalInOut",
+        "PWMOut",
+        "UART"
+      ],
+      "methods": [
+        "try_lock",
+        "unlock",
+        "scan",
+        "readfrom_into",
+        "writeto",
+        "writeto_then_readfrom",
+        "configure",
+        "switch_to_input",
+        "switch_to_output",
+        "read",
+        "readinto",
+        "write",
+        "deinit"
+      ],
+      "attributes": [
+        "D0",
+        "D1",
+        "D2",
+        "D3",
+        "D4",
+        "D5",
+        "D6",
+        "D17",
+        "D18",
+        "SCL",
+        "SDA",
+        "SCLK",
+        "MOSI",
+        "MISO",
+        "CE0",
+        "CE1",
+        "PB5",
+        "PB4",
+        "PB6",
+        "PB0",
+        "PB1",
+        "PB13",
+        "PB14",
+        "PI12",
+        "PI11",
+        "PI10",
+        "PI9",
+        "PI4",
+        "PI5",
+        "PI7",
+        "PI3",
+        "PI2",
+        "PI6",
+        "PI16",
+        "PI15",
+        "PL6",
+        "PL5",
+        "PI14",
+        "PL4",
+        "PL2",
+        "PI13",
+        "PL3",
+        "PI0",
+        "PI1",
+        "LED",
+        "KEY",
+        "value",
+        "direction",
+        "pull",
+        "duty_cycle",
+        "frequency",
+        "in_waiting"
+      ],
+      "moduleAttributes": [
+        "D0",
+        "D1",
+        "D2",
+        "D3",
+        "D4",
+        "D5",
+        "D6",
+        "D17",
+        "D18",
+        "SCL",
+        "SDA",
+        "SCLK",
+        "MOSI",
+        "MISO",
+        "CE0",
+        "CE1",
+        "PB5",
+        "PB4",
+        "PB6",
+        "PB0",
+        "PB1",
+        "PB13",
+        "PB14",
+        "PI12",
+        "PI11",
+        "PI10",
+        "PI9",
+        "PI4",
+        "PI5",
+        "PI7",
+        "PI3",
+        "PI2",
+        "PI6",
+        "PI16",
+        "PI15",
+        "PL6",
+        "PL5",
+        "PI14",
+        "PL4",
+        "PL2",
+        "PI13",
+        "PL3",
+        "PI0",
+        "PI1",
+        "LED",
+        "KEY"
+      ]
+    },
+    {
+      "id": "adafruit_bme280",
+      "title": "CircuitPython BME280",
+      "blockPrefix": "python_adafruit_bme280",
+      "pip": "adafruit-circuitpython-bme280",
+      "module": "adafruit_bme280.basic",
+      "category": "sensors",
+      "compatibility": "blinka",
+      "boardTypes": [
+        "allwinner:t527:walnutpi_2b",
+        "broadcom:bcm2710a1:raspberrypi_0_2w",
+        "broadcom:bcm2711:raspberrypi_4b",
+        "broadcom:bcm2712:raspberrypi_5"
+      ],
+      "asyncBridge": false,
+      "raspberryPiDocs": false,
+      "install": "python3 -m pip install adafruit-circuitpython-bme280",
+      "homepage": "https://docs.circuitpython.org/projects/bme280/en/latest/",
+      "notesEn": "CircuitPython BME280 is exposed through an explicit CPython API allowlist.",
+      "notesZh": "CircuitPython BME280 通过显式 CPython API 白名单提供积木。",
+      "callables": [
+        "Adafruit_BME280_I2C",
+        "Adafruit_BME280_SPI"
+      ],
+      "methods": [],
+      "attributes": [
+        "temperature",
+        "pressure",
+        "humidity",
+        "altitude",
+        "sea_level_pressure",
+        "mode",
+        "standby_period",
+        "iir_filter"
+      ]
+    },
+    {
+      "id": "adafruit_bme680",
+      "title": "CircuitPython BME680",
+      "blockPrefix": "python_adafruit_bme680",
+      "pip": "adafruit-circuitpython-bme680",
+      "module": "adafruit_bme680",
+      "category": "sensors",
+      "compatibility": "blinka",
+      "boardTypes": [
+        "allwinner:t527:walnutpi_2b",
+        "broadcom:bcm2710a1:raspberrypi_0_2w",
+        "broadcom:bcm2711:raspberrypi_4b",
+        "broadcom:bcm2712:raspberrypi_5"
+      ],
+      "asyncBridge": false,
+      "raspberryPiDocs": false,
+      "install": "python3 -m pip install adafruit-circuitpython-bme680",
+      "homepage": "https://docs.circuitpython.org/projects/bme680/en/latest/",
+      "notesEn": "CircuitPython BME680 is exposed through an explicit CPython API allowlist.",
+      "notesZh": "CircuitPython BME680 通过显式 CPython API 白名单提供积木。",
+      "callables": [
+        "Adafruit_BME680_I2C",
+        "Adafruit_BME680_SPI"
+      ],
+      "methods": [],
+      "attributes": [
+        "temperature",
+        "pressure",
+        "humidity",
+        "altitude",
+        "gas",
+        "sea_level_pressure"
+      ]
+    },
+    {
+      "id": "adafruit_bmp280",
+      "title": "CircuitPython BMP280",
+      "blockPrefix": "python_adafruit_bmp280",
+      "pip": "adafruit-circuitpython-bmp280",
+      "module": "adafruit_bmp280",
+      "category": "sensors",
+      "compatibility": "blinka",
+      "boardTypes": [
+        "allwinner:t527:walnutpi_2b",
+        "broadcom:bcm2710a1:raspberrypi_0_2w",
+        "broadcom:bcm2711:raspberrypi_4b",
+        "broadcom:bcm2712:raspberrypi_5"
+      ],
+      "asyncBridge": false,
+      "raspberryPiDocs": false,
+      "install": "python3 -m pip install adafruit-circuitpython-bmp280",
+      "homepage": "https://docs.circuitpython.org/projects/bmp280/en/latest/",
+      "notesEn": "CircuitPython BMP280 is exposed through an explicit CPython API allowlist.",
+      "notesZh": "CircuitPython BMP280 通过显式 CPython API 白名单提供积木。",
+      "callables": [
+        "Adafruit_BMP280_I2C",
+        "Adafruit_BMP280_SPI"
+      ],
+      "methods": [],
+      "attributes": [
+        "temperature",
+        "pressure",
+        "altitude",
+        "sea_level_pressure",
+        "mode",
+        "standby_period",
+        "iir_filter"
+      ]
+    },
+    {
+      "id": "adafruit_bno055",
+      "title": "CircuitPython BNO055",
+      "blockPrefix": "python_adafruit_bno055",
+      "pip": "adafruit-circuitpython-bno055",
+      "module": "adafruit_bno055",
+      "category": "sensors",
+      "compatibility": "blinka",
+      "boardTypes": [
+        "allwinner:t527:walnutpi_2b",
+        "broadcom:bcm2710a1:raspberrypi_0_2w",
+        "broadcom:bcm2711:raspberrypi_4b",
+        "broadcom:bcm2712:raspberrypi_5"
+      ],
+      "asyncBridge": false,
+      "raspberryPiDocs": false,
+      "install": "python3 -m pip install adafruit-circuitpython-bno055",
+      "homepage": "https://docs.circuitpython.org/projects/bno055/en/latest/",
+      "notesEn": "CircuitPython BNO055 is exposed through an explicit CPython API allowlist.",
+      "notesZh": "CircuitPython BNO055 通过显式 CPython API 白名单提供积木。",
+      "callables": [
+        "BNO055_I2C",
+        "BNO055_UART"
+      ],
+      "methods": [],
+      "attributes": [
+        "sensor_mode",
+        "temperature",
+        "acceleration",
+        "magnetic",
+        "gyro",
+        "euler",
+        "quaternion",
+        "linear_acceleration",
+        "gravity",
+        "calibration_status",
+        "calibrated"
+      ]
+    },
+    {
+      "id": "adafruit_ccs811",
+      "title": "CircuitPython CCS811",
+      "blockPrefix": "python_adafruit_ccs811",
+      "pip": "adafruit-circuitpython-ccs811",
+      "module": "adafruit_ccs811",
+      "category": "sensors",
+      "compatibility": "blinka",
+      "boardTypes": [
+        "allwinner:t527:walnutpi_2b",
+        "broadcom:bcm2710a1:raspberrypi_0_2w",
+        "broadcom:bcm2711:raspberrypi_4b",
+        "broadcom:bcm2712:raspberrypi_5"
+      ],
+      "asyncBridge": false,
+      "raspberryPiDocs": false,
+      "install": "python3 -m pip install adafruit-circuitpython-ccs811",
+      "homepage": "https://docs.circuitpython.org/projects/ccs811/en/latest/",
+      "notesEn": "CircuitPython CCS811 is exposed through an explicit CPython API allowlist.",
+      "notesZh": "CircuitPython CCS811 通过显式 CPython API 白名单提供积木。",
+      "callables": [
+        "CCS811"
+      ],
+      "methods": [
+        "reset"
+      ],
+      "attributes": [
+        "eco2",
+        "tvoc",
+        "data_ready",
+        "baseline",
+        "temperature",
+        "drive_mode"
+      ]
+    },
+    {
+      "id": "adafruit_dht",
+      "title": "CircuitPython DHT",
+      "blockPrefix": "python_adafruit_dht",
+      "pip": "adafruit-circuitpython-dht",
+      "module": "adafruit_dht",
+      "category": "sensors",
+      "compatibility": "blinka",
+      "boardTypes": [
+        "allwinner:t527:walnutpi_2b",
+        "broadcom:bcm2710a1:raspberrypi_0_2w",
+        "broadcom:bcm2711:raspberrypi_4b",
+        "broadcom:bcm2712:raspberrypi_5"
+      ],
+      "asyncBridge": false,
+      "raspberryPiDocs": false,
+      "install": "python3 -m pip install adafruit-circuitpython-dht",
+      "homepage": "https://docs.circuitpython.org/projects/dht/en/latest/",
+      "notesEn": "CircuitPython DHT is exposed through an explicit CPython API allowlist.",
+      "notesZh": "CircuitPython DHT 通过显式 CPython API 白名单提供积木。",
+      "callables": [
+        "DHT11",
+        "DHT22"
+      ],
+      "methods": [
+        "exit"
+      ],
+      "attributes": [
+        "temperature",
+        "humidity"
+      ]
+    },
+    {
+      "id": "adafruit_ina219",
+      "title": "CircuitPython INA219",
+      "blockPrefix": "python_adafruit_ina219",
+      "pip": "adafruit-circuitpython-ina219",
+      "module": "adafruit_ina219",
+      "category": "sensors",
+      "compatibility": "blinka",
+      "boardTypes": [
+        "allwinner:t527:walnutpi_2b",
+        "broadcom:bcm2710a1:raspberrypi_0_2w",
+        "broadcom:bcm2711:raspberrypi_4b",
+        "broadcom:bcm2712:raspberrypi_5"
+      ],
+      "asyncBridge": false,
+      "raspberryPiDocs": false,
+      "install": "python3 -m pip install adafruit-circuitpython-ina219",
+      "homepage": "https://docs.circuitpython.org/projects/ina219/en/latest/",
+      "notesEn": "CircuitPython INA219 is exposed through an explicit CPython API allowlist.",
+      "notesZh": "CircuitPython INA219 通过显式 CPython API 白名单提供积木。",
+      "callables": [
+        "INA219"
+      ],
+      "methods": [
+        "reset"
+      ],
+      "attributes": [
+        "bus_voltage",
+        "current",
+        "power",
+        "shunt_voltage",
+        "conversion_ready",
+        "overflow",
+        "bus_adc_resolution",
+        "shunt_adc_resolution",
+        "mode"
+      ]
+    },
+    {
+      "id": "adafruit_io",
+      "title": "Adafruit IO",
+      "blockPrefix": "python_adafruit_io",
+      "pip": "adafruit-io",
+      "module": "Adafruit_IO",
+      "category": "iot-cloud",
+      "compatibility": "linux",
+      "boardTypes": [
+        "allwinner:t527:walnutpi_2b",
+        "broadcom:bcm2710a1:raspberrypi_0_2w",
+        "broadcom:bcm2711:raspberrypi_4b",
+        "broadcom:bcm2712:raspberrypi_5",
+        "nvidia:tegra234:jetson_agx_orin",
+        "nvidia:tegra234:jetson_orin_nano",
+        "nvidia:tegra234:jetson_orin_nx"
+      ],
+      "asyncBridge": false,
+      "raspberryPiDocs": false,
+      "install": "python3 -m pip install adafruit-io",
+      "homepage": "https://adafruit-io-python-client.readthedocs.io/",
+      "notesEn": "Adafruit IO is exposed through an explicit CPython API allowlist.",
+      "notesZh": "Adafruit IO 通过显式 CPython API 白名单提供积木。",
+      "callables": [
+        "Client",
+        "MQTTClient",
+        "Feed",
+        "Data"
+      ],
+      "methods": [
+        "feeds",
+        "create_feed",
+        "send",
+        "receive",
+        "data",
+        "delete",
+        "connect",
+        "disconnect",
+        "loop_background",
+        "subscribe",
+        "publish"
+      ],
+      "attributes": [
+        "key",
+        "name",
+        "id",
+        "value",
+        "created_at"
+      ]
+    },
+    {
+      "id": "adafruit_lis3dh",
+      "title": "CircuitPython LIS3DH",
+      "blockPrefix": "python_adafruit_lis3dh",
+      "pip": "adafruit-circuitpython-lis3dh",
+      "module": "adafruit_lis3dh",
+      "category": "sensors",
+      "compatibility": "blinka",
+      "boardTypes": [
+        "allwinner:t527:walnutpi_2b",
+        "broadcom:bcm2710a1:raspberrypi_0_2w",
+        "broadcom:bcm2711:raspberrypi_4b",
+        "broadcom:bcm2712:raspberrypi_5"
+      ],
+      "asyncBridge": false,
+      "raspberryPiDocs": false,
+      "install": "python3 -m pip install adafruit-circuitpython-lis3dh",
+      "homepage": "https://docs.circuitpython.org/projects/lis3dh/en/latest/",
+      "notesEn": "CircuitPython LIS3DH is exposed through an explicit CPython API allowlist.",
+      "notesZh": "CircuitPython LIS3DH 通过显式 CPython API 白名单提供积木。",
+      "callables": [
+        "LIS3DH_I2C",
+        "LIS3DH_SPI"
+      ],
+      "methods": [
+        "set_tap",
+        "unset_tap"
+      ],
+      "attributes": [
+        "acceleration",
+        "range",
+        "data_rate",
+        "click",
+        "tapped"
+      ]
+    },
+    {
+      "id": "adafruit_mcp3xxx",
+      "title": "CircuitPython MCP3xxx",
+      "blockPrefix": "python_adafruit_mcp3xxx",
+      "pip": "adafruit-circuitpython-mcp3xxx",
+      "module": "adafruit_mcp3xxx.mcp3008",
+      "category": "sensors",
+      "compatibility": "blinka",
+      "boardTypes": [
+        "allwinner:t527:walnutpi_2b",
+        "broadcom:bcm2710a1:raspberrypi_0_2w",
+        "broadcom:bcm2711:raspberrypi_4b",
+        "broadcom:bcm2712:raspberrypi_5"
+      ],
+      "asyncBridge": false,
+      "raspberryPiDocs": false,
+      "install": "python3 -m pip install adafruit-circuitpython-mcp3xxx",
+      "homepage": "https://docs.circuitpython.org/projects/mcp3xxx/en/latest/",
+      "notesEn": "CircuitPython MCP3xxx is exposed through an explicit CPython API allowlist.",
+      "notesZh": "CircuitPython MCP3xxx 通过显式 CPython API 白名单提供积木。",
+      "callables": [
+        "MCP3008",
+        "AnalogIn"
+      ],
+      "methods": [
+        "read"
+      ],
+      "attributes": [
+        "P0",
+        "P1",
+        "P2",
+        "P3",
+        "P4",
+        "P5",
+        "P6",
+        "P7",
+        "value",
+        "voltage",
+        "reference_voltage"
+      ],
+      "moduleAttributes": [
+        "P0",
+        "P1",
+        "P2",
+        "P3",
+        "P4",
+        "P5",
+        "P6",
+        "P7"
+      ]
+    },
+    {
+      "id": "adafruit_mlx90614",
+      "title": "CircuitPython MLX90614",
+      "blockPrefix": "python_adafruit_mlx90614",
+      "pip": "adafruit-circuitpython-mlx90614",
+      "module": "adafruit_mlx90614",
+      "category": "sensors",
+      "compatibility": "blinka",
+      "boardTypes": [
+        "allwinner:t527:walnutpi_2b",
+        "broadcom:bcm2710a1:raspberrypi_0_2w",
+        "broadcom:bcm2711:raspberrypi_4b",
+        "broadcom:bcm2712:raspberrypi_5"
+      ],
+      "asyncBridge": false,
+      "raspberryPiDocs": false,
+      "install": "python3 -m pip install adafruit-circuitpython-mlx90614",
+      "homepage": "https://docs.circuitpython.org/projects/mlx90614/en/latest/",
+      "notesEn": "CircuitPython MLX90614 is exposed through an explicit CPython API allowlist.",
+      "notesZh": "CircuitPython MLX90614 通过显式 CPython API 白名单提供积木。",
+      "callables": [
+        "MLX90614"
+      ],
+      "methods": [],
+      "attributes": [
+        "ambient_temperature",
+        "object_temperature"
+      ]
+    },
+    {
+      "id": "adafruit_motor",
+      "title": "CircuitPython Motor",
+      "blockPrefix": "python_adafruit_motor",
+      "pip": "adafruit-circuitpython-motor",
+      "module": "adafruit_motor.motor",
+      "category": "actuators",
+      "compatibility": "blinka",
+      "boardTypes": [
+        "allwinner:t527:walnutpi_2b",
+        "broadcom:bcm2710a1:raspberrypi_0_2w",
+        "broadcom:bcm2711:raspberrypi_4b",
+        "broadcom:bcm2712:raspberrypi_5"
+      ],
+      "asyncBridge": false,
+      "raspberryPiDocs": false,
+      "install": "python3 -m pip install adafruit-circuitpython-motor",
+      "homepage": "https://docs.circuitpython.org/projects/motor/en/latest/",
+      "notesEn": "CircuitPython Motor is exposed through an explicit CPython API allowlist.",
+      "notesZh": "CircuitPython Motor 通过显式 CPython API 白名单提供积木。",
+      "callables": [
+        "DCMotor"
+      ],
+      "methods": [],
+      "attributes": [
+        "throttle",
+        "decay_mode",
+        "SLOW_DECAY",
+        "FAST_DECAY"
+      ]
+    },
+    {
+      "id": "adafruit_motorkit",
+      "title": "CircuitPython MotorKit",
+      "blockPrefix": "python_adafruit_motorkit",
+      "pip": "adafruit-circuitpython-motorkit",
+      "module": "adafruit_motorkit",
+      "category": "actuators",
+      "compatibility": "blinka",
+      "boardTypes": [
+        "allwinner:t527:walnutpi_2b",
+        "broadcom:bcm2710a1:raspberrypi_0_2w",
+        "broadcom:bcm2711:raspberrypi_4b",
+        "broadcom:bcm2712:raspberrypi_5"
+      ],
+      "asyncBridge": false,
+      "raspberryPiDocs": false,
+      "install": "python3 -m pip install adafruit-circuitpython-motorkit",
+      "homepage": "https://docs.circuitpython.org/projects/motorkit/en/latest/",
+      "notesEn": "CircuitPython MotorKit is exposed through an explicit CPython API allowlist.",
+      "notesZh": "CircuitPython MotorKit 通过显式 CPython API 白名单提供积木。",
+      "callables": [
+        "MotorKit"
+      ],
+      "methods": [],
+      "attributes": [
+        "motor1",
+        "motor2",
+        "motor3",
+        "motor4",
+        "stepper1",
+        "stepper2"
+      ]
+    },
+    {
+      "id": "adafruit_mpu6050",
+      "title": "CircuitPython MPU6050",
+      "blockPrefix": "python_adafruit_mpu6050",
+      "pip": "adafruit-circuitpython-mpu6050",
+      "module": "adafruit_mpu6050",
+      "category": "sensors",
+      "compatibility": "blinka",
+      "boardTypes": [
+        "allwinner:t527:walnutpi_2b",
+        "broadcom:bcm2710a1:raspberrypi_0_2w",
+        "broadcom:bcm2711:raspberrypi_4b",
+        "broadcom:bcm2712:raspberrypi_5"
+      ],
+      "asyncBridge": false,
+      "raspberryPiDocs": false,
+      "install": "python3 -m pip install adafruit-circuitpython-mpu6050",
+      "homepage": "https://docs.circuitpython.org/projects/mpu6050/en/latest/",
+      "notesEn": "CircuitPython MPU6050 is exposed through an explicit CPython API allowlist.",
+      "notesZh": "CircuitPython MPU6050 通过显式 CPython API 白名单提供积木。",
+      "callables": [
+        "MPU6050"
+      ],
+      "methods": [
+        "reset"
+      ],
+      "attributes": [
+        "acceleration",
+        "gyro",
+        "temperature",
+        "cycle_rate",
+        "filter_bandwidth",
+        "gyro_range",
+        "accelerometer_range",
+        "cycle"
+      ]
+    },
+    {
+      "id": "adafruit_pca9685",
+      "title": "CircuitPython PCA9685",
+      "blockPrefix": "python_adafruit_pca9685",
+      "pip": "adafruit-circuitpython-pca9685",
+      "module": "adafruit_pca9685",
+      "category": "actuators",
+      "compatibility": "blinka",
+      "boardTypes": [
+        "allwinner:t527:walnutpi_2b",
+        "broadcom:bcm2710a1:raspberrypi_0_2w",
+        "broadcom:bcm2711:raspberrypi_4b",
+        "broadcom:bcm2712:raspberrypi_5"
+      ],
+      "asyncBridge": false,
+      "raspberryPiDocs": false,
+      "install": "python3 -m pip install adafruit-circuitpython-pca9685",
+      "homepage": "https://docs.circuitpython.org/projects/pca9685/en/latest/",
+      "notesEn": "CircuitPython PCA9685 is exposed through an explicit CPython API allowlist.",
+      "notesZh": "CircuitPython PCA9685 通过显式 CPython API 白名单提供积木。",
+      "callables": [
+        "PCA9685"
+      ],
+      "methods": [
+        "reset",
+        "deinit"
+      ],
+      "attributes": [
+        "frequency",
+        "channels"
+      ]
+    },
+    {
+      "id": "adafruit_pn532",
+      "title": "CircuitPython PN532",
+      "blockPrefix": "python_adafruit_pn532",
+      "pip": "adafruit-circuitpython-pn532",
+      "module": "adafruit_pn532.i2c",
+      "category": "sensors",
+      "compatibility": "blinka",
+      "boardTypes": [
+        "allwinner:t527:walnutpi_2b",
+        "broadcom:bcm2710a1:raspberrypi_0_2w",
+        "broadcom:bcm2711:raspberrypi_4b",
+        "broadcom:bcm2712:raspberrypi_5"
+      ],
+      "asyncBridge": false,
+      "raspberryPiDocs": false,
+      "install": "python3 -m pip install adafruit-circuitpython-pn532",
+      "homepage": "https://docs.circuitpython.org/projects/pn532/en/latest/",
+      "notesEn": "CircuitPython PN532 is exposed through an explicit CPython API allowlist.",
+      "notesZh": "CircuitPython PN532 通过显式 CPython API 白名单提供积木。",
+      "callables": [
+        "PN532_I2C",
+        "PN532_SPI"
+      ],
+      "methods": [
+        "SAM_configuration",
+        "read_passive_target",
+        "listen_for_passive_target",
+        "call_function",
+        "mifare_classic_read_block",
+        "mifare_classic_write_block",
+        "ntag2xx_read_block"
+      ],
+      "attributes": [
+        "firmware_version"
+      ]
+    },
+    {
+      "id": "adafruit_rgb_display",
+      "title": "CircuitPython RGB Display",
+      "blockPrefix": "python_adafruit_rgb_display",
+      "pip": "adafruit-circuitpython-rgb-display",
+      "module": "adafruit_rgb_display.st7789",
+      "category": "display",
+      "compatibility": "blinka",
+      "boardTypes": [
+        "allwinner:t527:walnutpi_2b",
+        "broadcom:bcm2710a1:raspberrypi_0_2w",
+        "broadcom:bcm2711:raspberrypi_4b",
+        "broadcom:bcm2712:raspberrypi_5"
+      ],
+      "asyncBridge": false,
+      "raspberryPiDocs": false,
+      "install": "python3 -m pip install adafruit-circuitpython-rgb-display",
+      "homepage": "https://docs.circuitpython.org/projects/rgb_display/en/latest/",
+      "notesEn": "CircuitPython RGB Display is exposed through an explicit CPython API allowlist.",
+      "notesZh": "CircuitPython RGB Display 通过显式 CPython API 白名单提供积木。",
+      "callables": [
+        "ST7789"
+      ],
+      "methods": [
+        "image"
+      ],
+      "attributes": [
+        "width",
+        "height",
+        "rotation"
+      ]
+    },
+    {
+      "id": "adafruit_scd4x",
+      "title": "CircuitPython SCD4x",
+      "blockPrefix": "python_adafruit_scd4x",
+      "pip": "adafruit-circuitpython-scd4x",
+      "module": "adafruit_scd4x",
+      "category": "sensors",
+      "compatibility": "blinka",
+      "boardTypes": [
+        "allwinner:t527:walnutpi_2b",
+        "broadcom:bcm2710a1:raspberrypi_0_2w",
+        "broadcom:bcm2711:raspberrypi_4b",
+        "broadcom:bcm2712:raspberrypi_5"
+      ],
+      "asyncBridge": false,
+      "raspberryPiDocs": false,
+      "install": "python3 -m pip install adafruit-circuitpython-scd4x",
+      "homepage": "https://docs.circuitpython.org/projects/scd4x/en/latest/",
+      "notesEn": "CircuitPython SCD4x is exposed through an explicit CPython API allowlist.",
+      "notesZh": "CircuitPython SCD4x 通过显式 CPython API 白名单提供积木。",
+      "callables": [
+        "SCD4X"
+      ],
+      "methods": [
+        "start_periodic_measurement",
+        "stop_periodic_measurement",
+        "reinit",
+        "persist_settings",
+        "force_calibration"
+      ],
+      "attributes": [
+        "CO2",
+        "temperature",
+        "relative_humidity",
+        "data_ready",
+        "measurement_period",
+        "self_calibration_enabled"
+      ]
+    },
+    {
+      "id": "adafruit_servokit",
+      "title": "CircuitPython ServoKit",
+      "blockPrefix": "python_adafruit_servokit",
+      "pip": "adafruit-circuitpython-servokit",
+      "module": "adafruit_servokit",
+      "category": "actuators",
+      "compatibility": "blinka",
+      "boardTypes": [
+        "allwinner:t527:walnutpi_2b",
+        "broadcom:bcm2710a1:raspberrypi_0_2w",
+        "broadcom:bcm2711:raspberrypi_4b",
+        "broadcom:bcm2712:raspberrypi_5"
+      ],
+      "asyncBridge": false,
+      "raspberryPiDocs": false,
+      "install": "python3 -m pip install adafruit-circuitpython-servokit",
+      "homepage": "https://docs.circuitpython.org/projects/servokit/en/latest/",
+      "notesEn": "CircuitPython ServoKit is exposed through an explicit CPython API allowlist.",
+      "notesZh": "CircuitPython ServoKit 通过显式 CPython API 白名单提供积木。",
+      "callables": [
+        "ServoKit"
+      ],
+      "methods": [],
+      "attributes": [
+        "servo",
+        "continuous_servo",
+        "frequency"
+      ]
+    },
+    {
+      "id": "adafruit_sgp30",
+      "title": "CircuitPython SGP30",
+      "blockPrefix": "python_adafruit_sgp30",
+      "pip": "adafruit-circuitpython-sgp30",
+      "module": "adafruit_sgp30",
+      "category": "sensors",
+      "compatibility": "blinka",
+      "boardTypes": [
+        "allwinner:t527:walnutpi_2b",
+        "broadcom:bcm2710a1:raspberrypi_0_2w",
+        "broadcom:bcm2711:raspberrypi_4b",
+        "broadcom:bcm2712:raspberrypi_5"
+      ],
+      "asyncBridge": false,
+      "raspberryPiDocs": false,
+      "install": "python3 -m pip install adafruit-circuitpython-sgp30",
+      "homepage": "https://docs.circuitpython.org/projects/sgp30/en/latest/",
+      "notesEn": "CircuitPython SGP30 is exposed through an explicit CPython API allowlist.",
+      "notesZh": "CircuitPython SGP30 通过显式 CPython API 白名单提供积木。",
+      "callables": [
+        "Adafruit_SGP30"
+      ],
+      "methods": [
+        "iaq_init",
+        "iaq_measure",
+        "raw_measure",
+        "set_iaq_baseline",
+        "get_iaq_baseline",
+        "set_iaq_relative_humidity"
+      ],
+      "attributes": [
+        "eCO2",
+        "TVOC",
+        "raw_h2",
+        "raw_ethanol"
+      ]
+    },
+    {
+      "id": "adafruit_tsl2591",
+      "title": "CircuitPython TSL2591",
+      "blockPrefix": "python_adafruit_tsl2591",
+      "pip": "adafruit-circuitpython-tsl2591",
+      "module": "adafruit_tsl2591",
+      "category": "sensors",
+      "compatibility": "blinka",
+      "boardTypes": [
+        "allwinner:t527:walnutpi_2b",
+        "broadcom:bcm2710a1:raspberrypi_0_2w",
+        "broadcom:bcm2711:raspberrypi_4b",
+        "broadcom:bcm2712:raspberrypi_5"
+      ],
+      "asyncBridge": false,
+      "raspberryPiDocs": false,
+      "install": "python3 -m pip install adafruit-circuitpython-tsl2591",
+      "homepage": "https://docs.circuitpython.org/projects/tsl2591/en/latest/",
+      "notesEn": "CircuitPython TSL2591 is exposed through an explicit CPython API allowlist.",
+      "notesZh": "CircuitPython TSL2591 通过显式 CPython API 白名单提供积木。",
+      "callables": [
+        "TSL2591"
+      ],
+      "methods": [],
+      "attributes": [
+        "lux",
+        "infrared",
+        "visible",
+        "full_spectrum",
+        "gain",
+        "integration_time"
+      ]
+    },
+    {
+      "id": "adafruit_vl53l0x",
+      "title": "CircuitPython VL53L0X",
+      "blockPrefix": "python_adafruit_vl53l0x",
+      "pip": "adafruit-circuitpython-vl53l0x",
+      "module": "adafruit_vl53l0x",
+      "category": "sensors",
+      "compatibility": "blinka",
+      "boardTypes": [
+        "allwinner:t527:walnutpi_2b",
+        "broadcom:bcm2710a1:raspberrypi_0_2w",
+        "broadcom:bcm2711:raspberrypi_4b",
+        "broadcom:bcm2712:raspberrypi_5"
+      ],
+      "asyncBridge": false,
+      "raspberryPiDocs": false,
+      "install": "python3 -m pip install adafruit-circuitpython-vl53l0x",
+      "homepage": "https://docs.circuitpython.org/projects/vl53l0x/en/latest/",
+      "notesEn": "CircuitPython VL53L0X is exposed through an explicit CPython API allowlist.",
+      "notesZh": "CircuitPython VL53L0X 通过显式 CPython API 白名单提供积木。",
+      "callables": [
+        "VL53L0X"
+      ],
+      "methods": [
+        "start_continuous",
+        "stop_continuous"
+      ],
+      "attributes": [
+        "range",
+        "measurement_timing_budget"
+      ]
+    },
+    {
+      "id": "adafruit_vl53l1x",
+      "title": "CircuitPython VL53L1X",
+      "blockPrefix": "python_adafruit_vl53l1x",
+      "pip": "adafruit-circuitpython-vl53l1x",
+      "module": "adafruit_vl53l1x",
+      "category": "sensors",
+      "compatibility": "blinka",
+      "boardTypes": [
+        "allwinner:t527:walnutpi_2b",
+        "broadcom:bcm2710a1:raspberrypi_0_2w",
+        "broadcom:bcm2711:raspberrypi_4b",
+        "broadcom:bcm2712:raspberrypi_5"
+      ],
+      "asyncBridge": false,
+      "raspberryPiDocs": false,
+      "install": "python3 -m pip install adafruit-circuitpython-vl53l1x",
+      "homepage": "https://docs.circuitpython.org/projects/vl53l1x/en/latest/",
+      "notesEn": "CircuitPython VL53L1X is exposed through an explicit CPython API allowlist.",
+      "notesZh": "CircuitPython VL53L1X 通过显式 CPython API 白名单提供积木。",
+      "callables": [
+        "VL53L1X"
+      ],
+      "methods": [
+        "start_ranging",
+        "stop_ranging",
+        "clear_interrupt"
+      ],
+      "attributes": [
+        "distance",
+        "distance_mode",
+        "timing_budget",
+        "data_ready",
+        "roi"
+      ]
+    },
+    {
+      "id": "aiocoap",
+      "title": "aiocoap",
+      "blockPrefix": "python_aiocoap",
+      "pip": "aiocoap",
+      "module": "aiocoap",
+      "category": "iot-cloud",
+      "compatibility": "linux",
+      "boardTypes": [
+        "allwinner:t527:walnutpi_2b",
+        "broadcom:bcm2710a1:raspberrypi_0_2w",
+        "broadcom:bcm2711:raspberrypi_4b",
+        "broadcom:bcm2712:raspberrypi_5",
+        "nvidia:tegra234:jetson_agx_orin",
+        "nvidia:tegra234:jetson_orin_nano",
+        "nvidia:tegra234:jetson_orin_nx"
+      ],
+      "asyncBridge": true,
+      "raspberryPiDocs": false,
+      "install": "python3 -m pip install aiocoap",
+      "homepage": "https://aiocoap.readthedocs.io/",
+      "notesEn": "aiocoap is exposed through an explicit CPython API allowlist.",
+      "notesZh": "aiocoap 通过显式 CPython API 白名单提供积木。",
+      "callables": [
+        "Context.create_client_context",
+        "Context.create_server_context",
+        "Message",
+        "resource.Site",
+        "resource.Resource"
+      ],
+      "methods": [
+        "request",
+        "render_get",
+        "render_post",
+        "add_resource",
+        "shutdown"
+      ],
+      "attributes": [
+        "code",
+        "payload",
+        "uri",
+        "remote",
+        "opt"
+      ]
+    },
+    {
+      "id": "aiohttp",
+      "title": "aiohttp",
+      "blockPrefix": "python_aiohttp",
+      "pip": "aiohttp",
+      "module": "aiohttp",
+      "category": "network",
+      "compatibility": "linux",
+      "boardTypes": [
+        "allwinner:t527:walnutpi_2b",
+        "broadcom:bcm2710a1:raspberrypi_0_2w",
+        "broadcom:bcm2711:raspberrypi_4b",
+        "broadcom:bcm2712:raspberrypi_5",
+        "nvidia:tegra234:jetson_agx_orin",
+        "nvidia:tegra234:jetson_orin_nano",
+        "nvidia:tegra234:jetson_orin_nx"
+      ],
+      "asyncBridge": true,
+      "raspberryPiDocs": false,
+      "install": "python3 -m pip install aiohttp",
+      "homepage": "https://docs.aiohttp.org/",
+      "notesEn": "aiohttp is exposed through an explicit CPython API allowlist.",
+      "notesZh": "aiohttp 通过显式 CPython API 白名单提供积木。",
+      "callables": [
+        "ClientSession",
+        "ClientTimeout",
+        "TCPConnector",
+        "web.Application"
+      ],
+      "methods": [
+        "get",
+        "post",
+        "put",
+        "delete",
+        "request",
+        "close",
+        "json",
+        "text",
+        "read",
+        "add_routes"
+      ],
+      "attributes": [
+        "status",
+        "headers",
+        "cookies",
+        "url",
+        "content_type"
+      ]
+    },
+    {
+      "id": "aws_iot_device_sdk",
+      "title": "AWS IoT Device SDK v2",
+      "blockPrefix": "python_aws_iot_device_sdk",
+      "pip": "awsiotsdk",
+      "module": "awsiot.mqtt_connection_builder",
+      "category": "iot-cloud",
+      "compatibility": "linux",
+      "boardTypes": [
+        "allwinner:t527:walnutpi_2b",
+        "broadcom:bcm2710a1:raspberrypi_0_2w",
+        "broadcom:bcm2711:raspberrypi_4b",
+        "broadcom:bcm2712:raspberrypi_5",
+        "nvidia:tegra234:jetson_agx_orin",
+        "nvidia:tegra234:jetson_orin_nano",
+        "nvidia:tegra234:jetson_orin_nx"
+      ],
+      "asyncBridge": false,
+      "raspberryPiDocs": false,
+      "install": "python3 -m pip install awsiotsdk",
+      "homepage": "https://aws.github.io/aws-iot-device-sdk-python-v2/",
+      "notesEn": "AWS IoT Device SDK v2 is exposed through an explicit CPython API allowlist.",
+      "notesZh": "AWS IoT Device SDK v2 通过显式 CPython API 白名单提供积木。",
+      "callables": [
+        "mtls_from_path",
+        "mtls_from_bytes",
+        "websockets_with_default_aws_signing"
+      ],
+      "methods": [
+        "connect",
+        "disconnect",
+        "publish",
+        "subscribe",
+        "unsubscribe",
+        "resubscribe_existing_topics",
+        "result"
+      ],
+      "attributes": []
+    },
+    {
+      "id": "azure_iot_device",
+      "title": "Azure IoT Device",
+      "blockPrefix": "python_azure_iot_device",
+      "pip": "azure-iot-device",
+      "module": "azure.iot.device",
+      "category": "iot-cloud",
+      "compatibility": "linux",
+      "boardTypes": [
+        "allwinner:t527:walnutpi_2b",
+        "broadcom:bcm2710a1:raspberrypi_0_2w",
+        "broadcom:bcm2711:raspberrypi_4b",
+        "broadcom:bcm2712:raspberrypi_5",
+        "nvidia:tegra234:jetson_agx_orin",
+        "nvidia:tegra234:jetson_orin_nano",
+        "nvidia:tegra234:jetson_orin_nx"
+      ],
+      "asyncBridge": false,
+      "raspberryPiDocs": false,
+      "install": "python3 -m pip install azure-iot-device",
+      "homepage": "https://learn.microsoft.com/en-us/python/api/overview/azure/iot-device-readme",
+      "notesEn": "Azure IoT Device is exposed through an explicit CPython API allowlist.",
+      "notesZh": "Azure IoT Device 通过显式 CPython API 白名单提供积木。",
+      "callables": [
+        "IoTHubDeviceClient.create_from_connection_string",
+        "IoTHubDeviceClient.create_from_symmetric_key",
+        "IoTHubModuleClient.create_from_connection_string",
+        "Message",
+        "MethodResponse"
+      ],
+      "methods": [
+        "connect",
+        "disconnect",
+        "send_message",
+        "receive_message",
+        "send_method_response",
+        "patch_twin_reported_properties",
+        "get_twin",
+        "shutdown"
+      ],
+      "attributes": [
+        "connected",
+        "user_agent",
+        "custom_properties",
+        "message_id",
+        "correlation_id",
+        "content_type"
+      ]
+    },
+    {
+      "id": "bleak",
+      "title": "Bleak Bluetooth LE",
+      "blockPrefix": "python_bleak",
+      "pip": "bleak",
+      "module": "bleak",
+      "category": "network",
+      "compatibility": "linux",
+      "boardTypes": [
+        "allwinner:t527:walnutpi_2b",
+        "broadcom:bcm2710a1:raspberrypi_0_2w",
+        "broadcom:bcm2711:raspberrypi_4b",
+        "broadcom:bcm2712:raspberrypi_5",
+        "nvidia:tegra234:jetson_agx_orin",
+        "nvidia:tegra234:jetson_orin_nano",
+        "nvidia:tegra234:jetson_orin_nx"
+      ],
+      "asyncBridge": true,
+      "raspberryPiDocs": false,
+      "install": "python3 -m pip install bleak",
+      "homepage": "https://bleak.readthedocs.io/",
+      "notesEn": "Bleak Bluetooth LE is exposed through an explicit CPython API allowlist.",
+      "notesZh": "Bleak Bluetooth LE 通过显式 CPython API 白名单提供积木。",
+      "callables": [
+        "BleakScanner",
+        "BleakScanner.discover",
+        "BleakScanner.find_device_by_address",
+        "BleakScanner.find_device_by_name",
+        "BleakClient"
+      ],
+      "methods": [
+        "connect",
+        "disconnect",
+        "read_gatt_char",
+        "write_gatt_char",
+        "start_notify",
+        "stop_notify"
+      ],
+      "attributes": [
+        "is_connected",
+        "address",
+        "name",
+        "details",
+        "mtu_size",
+        "services",
+        "backend_id",
+        "rssi",
+        "local_name",
+        "manufacturer_data",
+        "service_data",
+        "service_uuids",
+        "tx_power"
+      ]
+    },
+    {
+      "id": "cantools",
+      "title": "cantools",
+      "blockPrefix": "python_cantools",
+      "pip": "cantools",
+      "module": "cantools",
+      "category": "industrial",
+      "compatibility": "linux",
+      "boardTypes": [
+        "allwinner:t527:walnutpi_2b",
+        "broadcom:bcm2710a1:raspberrypi_0_2w",
+        "broadcom:bcm2711:raspberrypi_4b",
+        "broadcom:bcm2712:raspberrypi_5",
+        "nvidia:tegra234:jetson_agx_orin",
+        "nvidia:tegra234:jetson_orin_nano",
+        "nvidia:tegra234:jetson_orin_nx"
+      ],
+      "asyncBridge": false,
+      "raspberryPiDocs": false,
+      "install": "python3 -m pip install cantools",
+      "homepage": "https://cantools.readthedocs.io/",
+      "notesEn": "cantools is exposed through an explicit CPython API allowlist.",
+      "notesZh": "cantools 通过显式 CPython API 白名单提供积木。",
+      "callables": [
+        "database.load_file",
+        "database.load_string",
+        "database.load"
+      ],
+      "methods": [
+        "encode_message",
+        "decode_message",
+        "get_message_by_name",
+        "refresh",
+        "as_dbc_string"
+      ],
+      "attributes": [
+        "messages",
+        "nodes",
+        "buses",
+        "name",
+        "frame_id",
+        "signals"
+      ]
+    },
+    {
+      "id": "cuda_python",
+      "title": "NVIDIA CUDA Python",
+      "blockPrefix": "cuda_python",
+      "pip": "cuda-python",
+      "module": "cuda.bindings.runtime",
+      "category": "jetson",
+      "compatibility": "jetson",
+      "boardTypes": [
+        "nvidia:tegra234:jetson_agx_orin",
+        "nvidia:tegra234:jetson_orin_nano",
+        "nvidia:tegra234:jetson_orin_nx"
+      ],
+      "asyncBridge": false,
+      "raspberryPiDocs": false,
+      "install": "python3 -m pip install cuda-python",
+      "homepage": "https://nvidia.github.io/cuda-python/cuda-bindings/latest/index.html",
+      "notesEn": "NVIDIA CUDA Python is exposed through an explicit CPython API allowlist.",
+      "notesZh": "NVIDIA CUDA Python 通过显式 CPython API 白名单提供积木。",
+      "callables": [
+        "cudaGetDeviceCount",
+        "cudaGetDevice",
+        "cudaSetDevice",
+        "cudaGetDeviceProperties",
+        "cudaDeviceGetAttribute",
+        "cudaMalloc",
+        "cudaFree",
+        "cudaMemcpy",
+        "cudaMemcpyAsync",
+        "cudaMemset",
+        "cudaStreamCreate",
+        "cudaStreamDestroy",
+        "cudaStreamSynchronize",
+        "cudaDeviceSynchronize",
+        "cudaGetErrorName",
+        "cudaGetErrorString"
+      ],
+      "methods": [],
+      "attributes": [
+        "cudaError_t.cudaSuccess",
+        "cudaMemcpyKind.cudaMemcpyHostToDevice",
+        "cudaMemcpyKind.cudaMemcpyDeviceToHost",
+        "cudaMemcpyKind.cudaMemcpyDeviceToDevice"
+      ]
+    },
+    {
+      "id": "cupy",
+      "title": "CuPy",
+      "blockPrefix": "cupy",
+      "pip": "cupy-cuda12x",
+      "module": "cupy",
+      "category": "jetson",
+      "compatibility": "jetson",
+      "boardTypes": [
+        "nvidia:tegra234:jetson_agx_orin",
+        "nvidia:tegra234:jetson_orin_nano",
+        "nvidia:tegra234:jetson_orin_nx"
+      ],
+      "asyncBridge": false,
+      "raspberryPiDocs": false,
+      "install": "python3 -m pip install cupy-cuda12x",
+      "homepage": "https://docs.cupy.dev/en/stable/",
+      "notesEn": "CuPy is exposed through an explicit CPython API allowlist.",
+      "notesZh": "CuPy 通过显式 CPython API 白名单提供积木。",
+      "callables": [
+        "array",
+        "asarray",
+        "asnumpy",
+        "zeros",
+        "ones",
+        "empty",
+        "arange",
+        "linspace",
+        "concatenate",
+        "stack",
+        "matmul",
+        "dot",
+        "mean",
+        "sum",
+        "max",
+        "min",
+        "argmax",
+        "get_array_module",
+        "cuda.Device",
+        "cuda.Stream",
+        "cuda.Event"
+      ],
+      "methods": [
+        "get",
+        "set",
+        "astype",
+        "reshape",
+        "transpose",
+        "copy",
+        "fill",
+        "sum",
+        "mean"
+      ],
+      "attributes": [
+        "ndarray",
+        "float32",
+        "float16",
+        "int8",
+        "int32",
+        "int64",
+        "bool_"
+      ]
+    },
+    {
+      "id": "dbus_next",
+      "title": "dbus-next",
+      "blockPrefix": "python_dbus_next",
+      "pip": "dbus-next",
+      "module": "dbus_next.aio",
+      "category": "system",
+      "compatibility": "linux",
+      "boardTypes": [
+        "allwinner:t527:walnutpi_2b",
+        "broadcom:bcm2710a1:raspberrypi_0_2w",
+        "broadcom:bcm2711:raspberrypi_4b",
+        "broadcom:bcm2712:raspberrypi_5",
+        "nvidia:tegra234:jetson_agx_orin",
+        "nvidia:tegra234:jetson_orin_nano",
+        "nvidia:tegra234:jetson_orin_nx"
+      ],
+      "asyncBridge": true,
+      "raspberryPiDocs": false,
+      "install": "python3 -m pip install dbus-next",
+      "homepage": "https://python-dbus-next.readthedocs.io/",
+      "notesEn": "dbus-next is exposed through an explicit CPython API allowlist.",
+      "notesZh": "dbus-next 通过显式 CPython API 白名单提供积木。",
+      "callables": [
+        "MessageBus"
+      ],
+      "methods": [
+        "connect",
+        "disconnect",
+        "introspect",
+        "get_proxy_object",
+        "call",
+        "export",
+        "unexport",
+        "request_name"
+      ],
+      "attributes": [
+        "unique_name"
+      ]
+    },
+    {
+      "id": "depthai",
+      "title": "DepthAI v3",
+      "blockPrefix": "python_depthai",
+      "pip": "depthai",
+      "module": "depthai",
+      "category": "vision-ai",
+      "compatibility": "linux",
+      "boardTypes": [
+        "allwinner:t527:walnutpi_2b",
+        "broadcom:bcm2710a1:raspberrypi_0_2w",
+        "broadcom:bcm2711:raspberrypi_4b",
+        "broadcom:bcm2712:raspberrypi_5",
+        "nvidia:tegra234:jetson_agx_orin",
+        "nvidia:tegra234:jetson_orin_nano",
+        "nvidia:tegra234:jetson_orin_nx"
+      ],
+      "asyncBridge": false,
+      "raspberryPiDocs": false,
+      "install": "python3 -m pip install depthai",
+      "homepage": "https://docs.luxonis.com/software-v3/depthai/",
+      "notesEn": "DepthAI v3 is exposed through an explicit CPython API allowlist.",
+      "notesZh": "DepthAI v3 通过显式 CPython API 白名单提供积木。",
+      "callables": [
+        "Pipeline",
+        "Device"
+      ],
+      "methods": [
+        "create",
+        "build",
+        "start",
+        "stop",
+        "run",
+        "wait",
+        "requestOutput",
+        "createOutputQueue",
+        "get",
+        "tryGet",
+        "send",
+        "close",
+        "isRunning"
+      ],
+      "attributes": [
+        "node.Camera",
+        "node.ColorCamera",
+        "node.MonoCamera",
+        "node.ImageManip",
+        "node.NeuralNetwork",
+        "node.StereoDepth"
+      ],
+      "moduleAttributes": [
+        "node.Camera",
+        "node.ColorCamera",
+        "node.MonoCamera",
+        "node.ImageManip",
+        "node.NeuralNetwork",
+        "node.StereoDepth"
+      ]
+    },
+    {
+      "id": "evdev",
+      "title": "python-evdev",
+      "blockPrefix": "linux_evdev",
+      "pip": "evdev",
+      "module": "evdev",
+      "category": "hardware-io",
+      "compatibility": "linux",
+      "boardTypes": [
+        "allwinner:t527:walnutpi_2b",
+        "broadcom:bcm2710a1:raspberrypi_0_2w",
+        "broadcom:bcm2711:raspberrypi_4b",
+        "broadcom:bcm2712:raspberrypi_5",
+        "nvidia:tegra234:jetson_agx_orin",
+        "nvidia:tegra234:jetson_orin_nano",
+        "nvidia:tegra234:jetson_orin_nx"
+      ],
+      "asyncBridge": false,
+      "raspberryPiDocs": false,
+      "install": "sudo apt install python3-evdev",
+      "homepage": "https://python-evdev.readthedocs.io/",
+      "notesEn": "python-evdev is exposed through an explicit CPython API allowlist.",
+      "notesZh": "python-evdev 通过显式 CPython API 白名单提供积木。",
+      "callables": [
+        "InputDevice",
+        "UInput",
+        "list_devices",
+        "categorize"
+      ],
+      "methods": [
+        "read",
+        "read_loop",
+        "async_read_loop",
+        "grab",
+        "ungrab",
+        "close",
+        "write"
+      ],
+      "attributes": [
+        "path",
+        "name",
+        "phys",
+        "uniq",
+        "fd"
+      ]
+    },
+    {
+      "id": "fastapi",
+      "title": "FastAPI",
+      "blockPrefix": "python_fastapi",
+      "pip": "fastapi",
+      "module": "fastapi",
+      "category": "network",
+      "compatibility": "linux",
+      "boardTypes": [
+        "allwinner:t527:walnutpi_2b",
+        "broadcom:bcm2710a1:raspberrypi_0_2w",
+        "broadcom:bcm2711:raspberrypi_4b",
+        "broadcom:bcm2712:raspberrypi_5",
+        "nvidia:tegra234:jetson_agx_orin",
+        "nvidia:tegra234:jetson_orin_nano",
+        "nvidia:tegra234:jetson_orin_nx"
+      ],
+      "asyncBridge": false,
+      "raspberryPiDocs": false,
+      "install": "python3 -m pip install fastapi",
+      "homepage": "https://fastapi.tiangolo.com/",
+      "notesEn": "FastAPI is exposed through an explicit CPython API allowlist.",
+      "notesZh": "FastAPI 通过显式 CPython API 白名单提供积木。",
+      "callables": [
+        "FastAPI",
+        "APIRouter",
+        "Depends",
+        "HTTPException",
+        "WebSocket",
+        "BackgroundTasks"
+      ],
+      "methods": [
+        "get",
+        "post",
+        "put",
+        "delete",
+        "patch",
+        "websocket",
+        "include_router",
+        "add_middleware"
+      ],
+      "attributes": [
+        "routes",
+        "openapi_url",
+        "docs_url",
+        "title",
+        "version",
+        "state"
+      ]
+    },
+    {
+      "id": "flask",
+      "title": "Flask",
+      "blockPrefix": "python_flask",
+      "pip": "Flask",
+      "module": "flask",
+      "category": "network",
+      "compatibility": "linux",
+      "boardTypes": [
+        "allwinner:t527:walnutpi_2b",
+        "broadcom:bcm2710a1:raspberrypi_0_2w",
+        "broadcom:bcm2711:raspberrypi_4b",
+        "broadcom:bcm2712:raspberrypi_5",
+        "nvidia:tegra234:jetson_agx_orin",
+        "nvidia:tegra234:jetson_orin_nano",
+        "nvidia:tegra234:jetson_orin_nx"
+      ],
+      "asyncBridge": false,
+      "raspberryPiDocs": false,
+      "install": "python3 -m pip install Flask",
+      "homepage": "https://flask.palletsprojects.com/",
+      "notesEn": "Flask is exposed through an explicit CPython API allowlist.",
+      "notesZh": "Flask 通过显式 CPython API 白名单提供积木。",
+      "callables": [
+        "Flask",
+        "Blueprint",
+        "jsonify",
+        "redirect",
+        "render_template"
+      ],
+      "methods": [
+        "route",
+        "get",
+        "post",
+        "run",
+        "register_blueprint",
+        "add_url_rule",
+        "make_response"
+      ],
+      "attributes": [
+        "config",
+        "url_map",
+        "name",
+        "debug",
+        "testing",
+        "request.method",
+        "request.args",
+        "request.json"
+      ]
+    },
+    {
+      "id": "gpiod",
+      "title": "libgpiod v2",
+      "blockPrefix": "linux_gpiod",
+      "pip": "gpiod",
+      "module": "gpiod",
+      "category": "hardware-io",
+      "compatibility": "linux",
+      "boardTypes": [
+        "allwinner:t527:walnutpi_2b",
+        "broadcom:bcm2710a1:raspberrypi_0_2w",
+        "broadcom:bcm2711:raspberrypi_4b",
+        "broadcom:bcm2712:raspberrypi_5",
+        "nvidia:tegra234:jetson_agx_orin",
+        "nvidia:tegra234:jetson_orin_nano",
+        "nvidia:tegra234:jetson_orin_nx"
+      ],
+      "asyncBridge": false,
+      "raspberryPiDocs": false,
+      "install": "sudo apt install python3-libgpiod",
+      "homepage": "https://libgpiod.readthedocs.io/en/stable/python_api.html",
+      "notesEn": "libgpiod v2 is exposed through an explicit CPython API allowlist.",
+      "notesZh": "libgpiod v2 通过显式 CPython API 白名单提供积木。",
+      "callables": [
+        "request_lines",
+        "LineSettings"
+      ],
+      "methods": [
+        "get_value",
+        "get_values",
+        "set_value",
+        "set_values",
+        "wait_edge_events",
+        "read_edge_events",
+        "reconfigure_lines",
+        "release"
+      ],
+      "attributes": [
+        "line.Direction.INPUT",
+        "line.Direction.OUTPUT",
+        "line.Value.ACTIVE",
+        "line.Value.INACTIVE",
+        "line.Edge.RISING",
+        "line.Edge.FALLING",
+        "line.Edge.BOTH"
+      ]
+    },
+    {
+      "id": "gpsd_py3",
+      "title": "gpsd-py3",
+      "blockPrefix": "linux_gpsd",
+      "pip": "gpsd-py3",
+      "module": "gpsd",
+      "category": "sensors",
+      "compatibility": "linux",
+      "boardTypes": [
+        "allwinner:t527:walnutpi_2b",
+        "broadcom:bcm2710a1:raspberrypi_0_2w",
+        "broadcom:bcm2711:raspberrypi_4b",
+        "broadcom:bcm2712:raspberrypi_5",
+        "nvidia:tegra234:jetson_agx_orin",
+        "nvidia:tegra234:jetson_orin_nano",
+        "nvidia:tegra234:jetson_orin_nx"
+      ],
+      "asyncBridge": false,
+      "raspberryPiDocs": false,
+      "install": "python3 -m pip install gpsd-py3",
+      "homepage": "https://pypi.org/project/gpsd-py3/",
+      "notesEn": "gpsd-py3 is exposed through an explicit CPython API allowlist.",
+      "notesZh": "gpsd-py3 通过显式 CPython API 白名单提供积木。",
+      "callables": [
+        "connect",
+        "get_current",
+        "get_packets"
+      ],
+      "methods": [
+        "position",
+        "altitude",
+        "movement",
+        "speed",
+        "climb"
+      ],
+      "attributes": [
+        "mode",
+        "sats",
+        "lat",
+        "lon",
+        "hspeed",
+        "track",
+        "time"
+      ]
+    },
+    {
+      "id": "gstreamer",
+      "title": "GStreamer",
+      "blockPrefix": "gstreamer",
+      "pip": "python3-gi",
+      "module": "gi.repository.Gst",
+      "category": "multimedia",
+      "compatibility": "linux",
+      "boardTypes": [
+        "allwinner:t527:walnutpi_2b",
+        "broadcom:bcm2710a1:raspberrypi_0_2w",
+        "broadcom:bcm2711:raspberrypi_4b",
+        "broadcom:bcm2712:raspberrypi_5",
+        "nvidia:tegra234:jetson_agx_orin",
+        "nvidia:tegra234:jetson_orin_nano",
+        "nvidia:tegra234:jetson_orin_nx"
+      ],
+      "asyncBridge": false,
+      "raspberryPiDocs": false,
+      "install": "sudo apt install python3-gi gir1.2-gstreamer-1.0 gstreamer1.0-tools",
+      "homepage": "https://gstreamer.freedesktop.org/documentation/tutorials/basic/hello-world.html",
+      "notesEn": "GStreamer is exposed through an explicit CPython API allowlist.",
+      "notesZh": "GStreamer 通过显式 CPython API 白名单提供积木。",
+      "callables": [
+        "init",
+        "parse_launch",
+        "version",
+        "version_string",
+        "debug_set_active",
+        "debug_set_default_threshold"
+      ],
+      "methods": [
+        "set_state",
+        "get_state",
+        "get_bus",
+        "get_by_name",
+        "send_event",
+        "set_property",
+        "get_property",
+        "timed_pop_filtered",
+        "pop",
+        "have_pending",
+        "is_playing",
+        "seek_simple"
+      ],
+      "attributes": [
+        "State.PLAYING",
+        "State.PAUSED",
+        "State.READY",
+        "State.NULL",
+        "MessageType.ERROR",
+        "MessageType.EOS",
+        "MessageType.STATE_CHANGED",
+        "Format.TIME",
+        "SeekFlags.FLUSH",
+        "SeekFlags.KEY_UNIT",
+        "CLOCK_TIME_NONE",
+        "type"
+      ],
+      "importStatement": "import gi as _python_lib_gstreamer_gi\n_python_lib_gstreamer_gi.require_version('Gst', '1.0')\nfrom gi.repository import Gst as _python_lib_gstreamer"
+    },
+    {
+      "id": "hailo_platform",
+      "title": "HailoRT Python",
+      "blockPrefix": "python_hailo_platform",
+      "pip": "python3-hailort",
+      "module": "hailo_platform",
+      "category": "vision-ai",
+      "compatibility": "rpi",
+      "boardTypes": [
+        "broadcom:bcm2712:raspberrypi_5"
+      ],
+      "asyncBridge": false,
+      "raspberryPiDocs": true,
+      "install": "sudo apt install hailo-all",
+      "homepage": "https://www.raspberrypi.com/documentation/computers/ai.html",
+      "notesEn": "HailoRT Python is exposed through an explicit CPython API allowlist.",
+      "notesZh": "HailoRT Python 通过显式 CPython API 白名单提供积木。",
+      "callables": [
+        "HEF",
+        "VDevice",
+        "Device",
+        "ConfigureParams",
+        "InferVStreams",
+        "InputVStreamParams",
+        "OutputVStreamParams"
+      ],
+      "methods": [
+        "configure",
+        "create_infer_model",
+        "activate",
+        "wait_for_async_ready",
+        "run_async",
+        "infer",
+        "get_input_vstream_infos",
+        "get_output_vstream_infos"
+      ],
+      "attributes": []
+    },
+    {
+      "id": "hidapi",
+      "title": "hidapi",
+      "blockPrefix": "linux_hidapi",
+      "pip": "hidapi",
+      "module": "hid",
+      "category": "hardware-io",
+      "compatibility": "linux",
+      "boardTypes": [
+        "allwinner:t527:walnutpi_2b",
+        "broadcom:bcm2710a1:raspberrypi_0_2w",
+        "broadcom:bcm2711:raspberrypi_4b",
+        "broadcom:bcm2712:raspberrypi_5",
+        "nvidia:tegra234:jetson_agx_orin",
+        "nvidia:tegra234:jetson_orin_nano",
+        "nvidia:tegra234:jetson_orin_nx"
+      ],
+      "asyncBridge": false,
+      "raspberryPiDocs": false,
+      "install": "python3 -m pip install hidapi",
+      "homepage": "https://github.com/trezor/cython-hidapi",
+      "notesEn": "hidapi is exposed through an explicit CPython API allowlist.",
+      "notesZh": "hidapi 通过显式 CPython API 白名单提供积木。",
+      "callables": [
+        "device",
+        "enumerate"
+      ],
+      "methods": [
+        "open",
+        "open_path",
+        "write",
+        "read",
+        "send_feature_report",
+        "get_feature_report",
+        "get_manufacturer_string",
+        "get_product_string",
+        "get_serial_number_string",
+        "close",
+        "set_nonblocking"
+      ],
+      "attributes": []
+    },
+    {
+      "id": "httpx",
+      "title": "HTTPX",
+      "blockPrefix": "python_httpx",
+      "pip": "httpx",
+      "module": "httpx",
+      "category": "network",
+      "compatibility": "linux",
+      "boardTypes": [
+        "allwinner:t527:walnutpi_2b",
+        "broadcom:bcm2710a1:raspberrypi_0_2w",
+        "broadcom:bcm2711:raspberrypi_4b",
+        "broadcom:bcm2712:raspberrypi_5",
+        "nvidia:tegra234:jetson_agx_orin",
+        "nvidia:tegra234:jetson_orin_nano",
+        "nvidia:tegra234:jetson_orin_nx"
+      ],
+      "asyncBridge": true,
+      "raspberryPiDocs": false,
+      "install": "python3 -m pip install httpx",
+      "homepage": "https://www.python-httpx.org/",
+      "notesEn": "HTTPX is exposed through an explicit CPython API allowlist.",
+      "notesZh": "HTTPX 通过显式 CPython API 白名单提供积木。",
+      "callables": [
+        "Client",
+        "AsyncClient",
+        "get",
+        "post",
+        "put",
+        "delete",
+        "request",
+        "Timeout",
+        "Limits"
+      ],
+      "methods": [
+        "get",
+        "post",
+        "put",
+        "delete",
+        "request",
+        "close",
+        "aclose",
+        "json",
+        "raise_for_status",
+        "iter_bytes",
+        "aiter_bytes"
+      ],
+      "attributes": [
+        "status_code",
+        "text",
+        "content",
+        "headers",
+        "cookies",
+        "url",
+        "is_success"
+      ]
+    },
+    {
+      "id": "influxdb_client",
+      "title": "InfluxDB Client",
+      "blockPrefix": "python_influxdb_client",
+      "pip": "influxdb-client",
+      "module": "influxdb_client",
+      "category": "iot-cloud",
+      "compatibility": "linux",
+      "boardTypes": [
+        "allwinner:t527:walnutpi_2b",
+        "broadcom:bcm2710a1:raspberrypi_0_2w",
+        "broadcom:bcm2711:raspberrypi_4b",
+        "broadcom:bcm2712:raspberrypi_5",
+        "nvidia:tegra234:jetson_agx_orin",
+        "nvidia:tegra234:jetson_orin_nano",
+        "nvidia:tegra234:jetson_orin_nx"
+      ],
+      "asyncBridge": false,
+      "raspberryPiDocs": false,
+      "install": "python3 -m pip install influxdb-client",
+      "homepage": "https://influxdb-client.readthedocs.io/",
+      "notesEn": "InfluxDB Client is exposed through an explicit CPython API allowlist.",
+      "notesZh": "InfluxDB Client 通过显式 CPython API 白名单提供积木。",
+      "callables": [
+        "InfluxDBClient",
+        "Point",
+        "WriteOptions",
+        "Dialect"
+      ],
+      "methods": [
+        "write_api",
+        "query_api",
+        "delete_api",
+        "write",
+        "query",
+        "query_data_frame",
+        "health",
+        "ready",
+        "close",
+        "delete"
+      ],
+      "attributes": [
+        "version",
+        "status",
+        "message",
+        "name",
+        "tags",
+        "fields"
+      ]
+    },
+    {
+      "id": "jetson_gpio",
+      "title": "Jetson.GPIO",
+      "blockPrefix": "jetson_gpio",
+      "pip": "Jetson.GPIO",
+      "module": "Jetson.GPIO",
+      "category": "jetson",
+      "compatibility": "jetson",
+      "boardTypes": [
+        "nvidia:tegra234:jetson_agx_orin",
+        "nvidia:tegra234:jetson_orin_nano",
+        "nvidia:tegra234:jetson_orin_nx"
+      ],
+      "asyncBridge": false,
+      "raspberryPiDocs": false,
+      "install": "python3 -m pip install Jetson.GPIO",
+      "homepage": "https://github.com/NVIDIA/jetson-gpio",
+      "notesEn": "Jetson.GPIO is exposed through an explicit CPython API allowlist.",
+      "notesZh": "Jetson.GPIO 通过显式 CPython API 白名单提供积木。",
+      "callables": [
+        "setwarnings",
+        "setmode",
+        "getmode",
+        "setup",
+        "input",
+        "output",
+        "cleanup",
+        "gpio_function",
+        "add_event_detect",
+        "remove_event_detect",
+        "event_detected",
+        "add_event_callback",
+        "wait_for_edge",
+        "PWM"
+      ],
+      "methods": [
+        "start",
+        "stop",
+        "ChangeDutyCycle",
+        "ChangeFrequency"
+      ],
+      "attributes": [
+        "BOARD",
+        "BCM",
+        "CVM",
+        "TEGRA_SOC",
+        "IN",
+        "OUT",
+        "HIGH",
+        "LOW",
+        "RISING",
+        "FALLING",
+        "BOTH",
+        "PUD_UP",
+        "PUD_DOWN",
+        "JETSON_INFO",
+        "VERSION"
+      ]
+    },
+    {
+      "id": "jetson_inference",
+      "title": "jetson-inference",
+      "blockPrefix": "jetson_inference",
+      "pip": "jetson-inference",
+      "module": "jetson_inference",
+      "category": "jetson",
+      "compatibility": "jetson",
+      "boardTypes": [
+        "nvidia:tegra234:jetson_agx_orin",
+        "nvidia:tegra234:jetson_orin_nano",
+        "nvidia:tegra234:jetson_orin_nx"
+      ],
+      "asyncBridge": false,
+      "raspberryPiDocs": false,
+      "install": "build and install https://github.com/dusty-nv/jetson-inference",
+      "homepage": "https://github.com/dusty-nv/jetson-inference",
+      "notesEn": "jetson-inference is exposed through an explicit CPython API allowlist.",
+      "notesZh": "jetson-inference 通过显式 CPython API 白名单提供积木。",
+      "callables": [
+        "detectNet",
+        "imageNet",
+        "segNet",
+        "poseNet",
+        "actionNet",
+        "backgroundNet"
+      ],
+      "methods": [
+        "Detect",
+        "Classify",
+        "Segment",
+        "Process",
+        "GetNetworkFPS",
+        "PrintProfilerTimes",
+        "GetClassDesc",
+        "GetClassLabel",
+        "GetNumClasses"
+      ],
+      "attributes": [
+        "ClassID",
+        "Confidence",
+        "Left",
+        "Top",
+        "Right",
+        "Bottom",
+        "Width",
+        "Height",
+        "Center",
+        "Area"
+      ]
+    },
+    {
+      "id": "jetson_stats",
+      "title": "jetson-stats / jtop",
+      "blockPrefix": "jetson_stats",
+      "pip": "jetson-stats",
+      "module": "jtop",
+      "category": "jetson",
+      "compatibility": "jetson",
+      "boardTypes": [
+        "nvidia:tegra234:jetson_agx_orin",
+        "nvidia:tegra234:jetson_orin_nano",
+        "nvidia:tegra234:jetson_orin_nx"
+      ],
+      "asyncBridge": false,
+      "raspberryPiDocs": false,
+      "install": "sudo python3 -m pip install -U jetson-stats",
+      "homepage": "https://github.com/rbonghi/jetson_stats",
+      "notesEn": "jetson-stats / jtop is exposed through an explicit CPython API allowlist.",
+      "notesZh": "jetson-stats / jtop 通过显式 CPython API 白名单提供积木。",
+      "callables": [
+        "jtop"
+      ],
+      "methods": [
+        "start",
+        "close",
+        "ok",
+        "loop"
+      ],
+      "attributes": [
+        "board",
+        "stats",
+        "cpu",
+        "gpu",
+        "memory",
+        "engines",
+        "temperature",
+        "power",
+        "fan",
+        "jetson_clocks",
+        "nvpmodel"
+      ]
+    },
+    {
+      "id": "jetson_utils",
+      "title": "jetson-utils",
+      "blockPrefix": "jetson_utils",
+      "pip": "jetson-utils",
+      "module": "jetson_utils",
+      "category": "jetson",
+      "compatibility": "jetson",
+      "boardTypes": [
+        "nvidia:tegra234:jetson_agx_orin",
+        "nvidia:tegra234:jetson_orin_nano",
+        "nvidia:tegra234:jetson_orin_nx"
+      ],
+      "asyncBridge": false,
+      "raspberryPiDocs": false,
+      "install": "python3 -m pip install git+https://github.com/dusty-nv/jetson-utils",
+      "homepage": "https://github.com/dusty-nv/jetson-utils",
+      "notesEn": "jetson-utils is exposed through an explicit CPython API allowlist.",
+      "notesZh": "jetson-utils 通过显式 CPython API 白名单提供积木。",
+      "callables": [
+        "videoSource",
+        "videoOutput",
+        "cudaAllocMapped",
+        "cudaFromNumpy",
+        "cudaToNumpy",
+        "cudaConvertColor",
+        "cudaResize",
+        "cudaCrop",
+        "cudaOverlay",
+        "loadImage",
+        "saveImage"
+      ],
+      "methods": [
+        "Capture",
+        "Render",
+        "IsStreaming",
+        "Close",
+        "SetStatus",
+        "GetWidth",
+        "GetHeight",
+        "GetFrameRate",
+        "GetFrameCount",
+        "GetLastTimestamp"
+      ],
+      "attributes": [
+        "width",
+        "height",
+        "channels",
+        "format",
+        "mapped",
+        "ptr",
+        "shape"
+      ]
+    },
+    {
+      "id": "lgpio",
+      "title": "lgpio",
+      "blockPrefix": "linux_lgpio",
+      "pip": "lgpio",
+      "module": "lgpio",
+      "category": "hardware-io",
+      "compatibility": "linux",
+      "boardTypes": [
+        "allwinner:t527:walnutpi_2b",
+        "broadcom:bcm2710a1:raspberrypi_0_2w",
+        "broadcom:bcm2711:raspberrypi_4b",
+        "broadcom:bcm2712:raspberrypi_5",
+        "nvidia:tegra234:jetson_agx_orin",
+        "nvidia:tegra234:jetson_orin_nano",
+        "nvidia:tegra234:jetson_orin_nx"
+      ],
+      "asyncBridge": false,
+      "raspberryPiDocs": false,
+      "install": "sudo apt install python3-lgpio",
+      "homepage": "https://github.com/joan2937/lg",
+      "notesEn": "lgpio is exposed through an explicit CPython API allowlist.",
+      "notesZh": "lgpio 通过显式 CPython API 白名单提供积木。",
+      "callables": [
+        "gpiochip_open",
+        "gpiochip_close",
+        "gpio_claim_input",
+        "gpio_claim_output",
+        "gpio_read",
+        "gpio_write",
+        "tx_pwm",
+        "callback"
+      ],
+      "methods": [
+        "cancel"
+      ],
+      "attributes": [
+        "RISING_EDGE",
+        "FALLING_EDGE",
+        "BOTH_EDGES",
+        "SET_PULL_UP",
+        "SET_PULL_DOWN",
+        "SET_PULL_NONE"
+      ]
+    },
+    {
+      "id": "librosa",
+      "title": "librosa",
+      "blockPrefix": "python_librosa",
+      "pip": "librosa",
+      "module": "librosa",
+      "category": "audio",
+      "compatibility": "linux",
+      "boardTypes": [
+        "allwinner:t527:walnutpi_2b",
+        "broadcom:bcm2710a1:raspberrypi_0_2w",
+        "broadcom:bcm2711:raspberrypi_4b",
+        "broadcom:bcm2712:raspberrypi_5",
+        "nvidia:tegra234:jetson_agx_orin",
+        "nvidia:tegra234:jetson_orin_nano",
+        "nvidia:tegra234:jetson_orin_nx"
+      ],
+      "asyncBridge": false,
+      "raspberryPiDocs": false,
+      "install": "python3 -m pip install librosa",
+      "homepage": "https://librosa.org/doc/latest/",
+      "notesEn": "librosa is exposed through an explicit CPython API allowlist.",
+      "notesZh": "librosa 通过显式 CPython API 白名单提供积木。",
+      "callables": [
+        "load",
+        "stream",
+        "get_duration",
+        "resample",
+        "stft",
+        "istft",
+        "amplitude_to_db",
+        "db_to_amplitude",
+        "beat.beat_track",
+        "feature.melspectrogram",
+        "feature.mfcc"
+      ],
+      "methods": [],
+      "attributes": []
+    },
+    {
+      "id": "luma_lcd",
+      "title": "luma.lcd",
+      "blockPrefix": "python_luma_lcd",
+      "pip": "luma.lcd",
+      "module": "luma.lcd.device",
+      "category": "display",
+      "compatibility": "linux",
+      "boardTypes": [
+        "allwinner:t527:walnutpi_2b",
+        "broadcom:bcm2710a1:raspberrypi_0_2w",
+        "broadcom:bcm2711:raspberrypi_4b",
+        "broadcom:bcm2712:raspberrypi_5",
+        "nvidia:tegra234:jetson_agx_orin",
+        "nvidia:tegra234:jetson_orin_nano",
+        "nvidia:tegra234:jetson_orin_nx"
+      ],
+      "asyncBridge": false,
+      "raspberryPiDocs": false,
+      "install": "python3 -m pip install luma.lcd",
+      "homepage": "https://luma-lcd.readthedocs.io/",
+      "notesEn": "luma.lcd is exposed through an explicit CPython API allowlist.",
+      "notesZh": "luma.lcd 通过显式 CPython API 白名单提供积木。",
+      "callables": [
+        "st7735",
+        "st7789",
+        "ili9341",
+        "pcd8544"
+      ],
+      "methods": [
+        "display",
+        "clear",
+        "show",
+        "hide",
+        "contrast",
+        "cleanup"
+      ],
+      "attributes": [
+        "width",
+        "height",
+        "size",
+        "mode",
+        "bounding_box"
+      ]
+    },
+    {
+      "id": "luma_led_matrix",
+      "title": "luma.led_matrix",
+      "blockPrefix": "python_luma_led_matrix",
+      "pip": "luma.led_matrix",
+      "module": "luma.led_matrix.device",
+      "category": "display",
+      "compatibility": "linux",
+      "boardTypes": [
+        "allwinner:t527:walnutpi_2b",
+        "broadcom:bcm2710a1:raspberrypi_0_2w",
+        "broadcom:bcm2711:raspberrypi_4b",
+        "broadcom:bcm2712:raspberrypi_5",
+        "nvidia:tegra234:jetson_agx_orin",
+        "nvidia:tegra234:jetson_orin_nano",
+        "nvidia:tegra234:jetson_orin_nx"
+      ],
+      "asyncBridge": false,
+      "raspberryPiDocs": false,
+      "install": "python3 -m pip install luma.led_matrix",
+      "homepage": "https://luma-led-matrix.readthedocs.io/",
+      "notesEn": "luma.led_matrix is exposed through an explicit CPython API allowlist.",
+      "notesZh": "luma.led_matrix 通过显式 CPython API 白名单提供积木。",
+      "callables": [
+        "max7219",
+        "ws2812"
+      ],
+      "methods": [
+        "display",
+        "clear",
+        "show",
+        "hide",
+        "contrast",
+        "cleanup"
+      ],
+      "attributes": [
+        "width",
+        "height",
+        "size",
+        "mode",
+        "bounding_box"
+      ]
+    },
+    {
+      "id": "luma_oled",
+      "title": "luma.oled",
+      "blockPrefix": "python_luma_oled",
+      "pip": "luma.oled",
+      "module": "luma.oled.device",
+      "category": "display",
+      "compatibility": "linux",
+      "boardTypes": [
+        "allwinner:t527:walnutpi_2b",
+        "broadcom:bcm2710a1:raspberrypi_0_2w",
+        "broadcom:bcm2711:raspberrypi_4b",
+        "broadcom:bcm2712:raspberrypi_5",
+        "nvidia:tegra234:jetson_agx_orin",
+        "nvidia:tegra234:jetson_orin_nano",
+        "nvidia:tegra234:jetson_orin_nx"
+      ],
+      "asyncBridge": false,
+      "raspberryPiDocs": false,
+      "install": "python3 -m pip install luma.oled",
+      "homepage": "https://luma-oled.readthedocs.io/",
+      "notesEn": "luma.oled is exposed through an explicit CPython API allowlist.",
+      "notesZh": "luma.oled 通过显式 CPython API 白名单提供积木。",
+      "callables": [
+        "ssd1306",
+        "ssd1325",
+        "ssd1331",
+        "sh1106"
+      ],
+      "methods": [
+        "display",
+        "clear",
+        "show",
+        "hide",
+        "contrast",
+        "cleanup"
+      ],
+      "attributes": [
+        "width",
+        "height",
+        "size",
+        "mode",
+        "bounding_box"
+      ]
+    },
+    {
+      "id": "matplotlib",
+      "title": "Matplotlib pyplot",
+      "blockPrefix": "python_matplotlib",
+      "pip": "matplotlib",
+      "module": "matplotlib.pyplot",
+      "category": "data-science",
+      "compatibility": "linux",
+      "boardTypes": [
+        "allwinner:t527:walnutpi_2b",
+        "broadcom:bcm2710a1:raspberrypi_0_2w",
+        "broadcom:bcm2711:raspberrypi_4b",
+        "broadcom:bcm2712:raspberrypi_5",
+        "nvidia:tegra234:jetson_agx_orin",
+        "nvidia:tegra234:jetson_orin_nano",
+        "nvidia:tegra234:jetson_orin_nx"
+      ],
+      "asyncBridge": false,
+      "raspberryPiDocs": false,
+      "install": "sudo apt install python3-matplotlib",
+      "homepage": "https://matplotlib.org/stable/",
+      "notesEn": "Matplotlib pyplot is exposed through an explicit CPython API allowlist.",
+      "notesZh": "Matplotlib pyplot 通过显式 CPython API 白名单提供积木。",
+      "callables": [
+        "figure",
+        "subplots",
+        "plot",
+        "scatter",
+        "bar",
+        "imshow",
+        "hist",
+        "title",
+        "xlabel",
+        "ylabel",
+        "legend",
+        "savefig",
+        "show",
+        "close"
+      ],
+      "methods": [
+        "plot",
+        "scatter",
+        "bar",
+        "imshow",
+        "set_title",
+        "set_xlabel",
+        "set_ylabel",
+        "legend",
+        "grid"
+      ],
+      "attributes": [
+        "figure",
+        "axes",
+        "lines",
+        "images"
+      ]
+    },
+    {
+      "id": "minimalmodbus",
+      "title": "MinimalModbus",
+      "blockPrefix": "python_minimalmodbus",
+      "pip": "minimalmodbus",
+      "module": "minimalmodbus",
+      "category": "industrial",
+      "compatibility": "linux",
+      "boardTypes": [
+        "allwinner:t527:walnutpi_2b",
+        "broadcom:bcm2710a1:raspberrypi_0_2w",
+        "broadcom:bcm2711:raspberrypi_4b",
+        "broadcom:bcm2712:raspberrypi_5",
+        "nvidia:tegra234:jetson_agx_orin",
+        "nvidia:tegra234:jetson_orin_nano",
+        "nvidia:tegra234:jetson_orin_nx"
+      ],
+      "asyncBridge": false,
+      "raspberryPiDocs": false,
+      "install": "python3 -m pip install minimalmodbus",
+      "homepage": "https://minimalmodbus.readthedocs.io/",
+      "notesEn": "MinimalModbus is exposed through an explicit CPython API allowlist.",
+      "notesZh": "MinimalModbus 通过显式 CPython API 白名单提供积木。",
+      "callables": [
+        "Instrument"
+      ],
+      "methods": [
+        "read_register",
+        "write_register",
+        "read_registers",
+        "write_registers",
+        "read_bit",
+        "write_bit",
+        "read_string",
+        "write_string"
+      ],
+      "attributes": [
+        "address",
+        "mode",
+        "serial",
+        "clear_buffers_before_each_transaction"
+      ]
+    },
+    {
+      "id": "munkres",
+      "title": "Munkres",
+      "blockPrefix": "python_munkres",
+      "pip": "munkres",
+      "module": "munkres",
+      "category": "data-science",
+      "compatibility": "linux",
+      "boardTypes": [
+        "allwinner:t527:walnutpi_2b",
+        "broadcom:bcm2710a1:raspberrypi_0_2w",
+        "broadcom:bcm2711:raspberrypi_4b",
+        "broadcom:bcm2712:raspberrypi_5",
+        "nvidia:tegra234:jetson_agx_orin",
+        "nvidia:tegra234:jetson_orin_nano",
+        "nvidia:tegra234:jetson_orin_nx"
+      ],
+      "asyncBridge": false,
+      "raspberryPiDocs": false,
+      "install": "python3 -m pip install munkres",
+      "homepage": "https://github.com/bmc/munkres",
+      "notesEn": "Munkres is exposed through an explicit CPython API allowlist.",
+      "notesZh": "Munkres 通过显式 CPython API 白名单提供积木。",
+      "callables": [
+        "Munkres",
+        "make_cost_matrix",
+        "print_matrix"
+      ],
+      "methods": [
+        "compute"
+      ],
+      "attributes": [
+        "DISALLOWED"
+      ]
+    },
+    {
+      "id": "neopixel",
+      "title": "CircuitPython NeoPixel",
+      "blockPrefix": "python_neopixel",
+      "pip": "adafruit-circuitpython-neopixel",
+      "module": "neopixel",
+      "category": "actuators",
+      "compatibility": "blinka",
+      "boardTypes": [
+        "allwinner:t527:walnutpi_2b",
+        "broadcom:bcm2710a1:raspberrypi_0_2w",
+        "broadcom:bcm2711:raspberrypi_4b",
+        "broadcom:bcm2712:raspberrypi_5"
+      ],
+      "asyncBridge": false,
+      "raspberryPiDocs": false,
+      "install": "python3 -m pip install adafruit-circuitpython-neopixel",
+      "homepage": "https://docs.circuitpython.org/projects/neopixel/en/latest/",
+      "notesEn": "CircuitPython NeoPixel is exposed through an explicit CPython API allowlist.",
+      "notesZh": "CircuitPython NeoPixel 通过显式 CPython API 白名单提供积木。",
+      "callables": [
+        "NeoPixel"
+      ],
+      "methods": [
+        "fill",
+        "show",
+        "deinit"
+      ],
+      "attributes": [
+        "brightness",
+        "auto_write",
+        "n",
+        "bpp"
+      ]
+    },
+    {
+      "id": "numpy",
+      "title": "NumPy",
+      "blockPrefix": "python_numpy",
+      "pip": "numpy",
+      "module": "numpy",
+      "category": "data-science",
+      "compatibility": "linux",
+      "boardTypes": [
+        "allwinner:t527:walnutpi_2b",
+        "broadcom:bcm2710a1:raspberrypi_0_2w",
+        "broadcom:bcm2711:raspberrypi_4b",
+        "broadcom:bcm2712:raspberrypi_5",
+        "nvidia:tegra234:jetson_agx_orin",
+        "nvidia:tegra234:jetson_orin_nano",
+        "nvidia:tegra234:jetson_orin_nx"
+      ],
+      "asyncBridge": false,
+      "raspberryPiDocs": false,
+      "install": "sudo apt install python3-numpy",
+      "homepage": "https://numpy.org/doc/",
+      "notesEn": "NumPy is exposed through an explicit CPython API allowlist.",
+      "notesZh": "NumPy 通过显式 CPython API 白名单提供积木。",
+      "callables": [
+        "array",
+        "asarray",
+        "zeros",
+        "ones",
+        "arange",
+        "linspace",
+        "mean",
+        "std",
+        "min",
+        "max",
+        "concatenate",
+        "stack",
+        "reshape",
+        "load",
+        "save"
+      ],
+      "methods": [
+        "reshape",
+        "astype",
+        "tolist",
+        "flatten",
+        "transpose",
+        "mean",
+        "sum",
+        "min",
+        "max"
+      ],
+      "attributes": [
+        "shape",
+        "dtype",
+        "ndim",
+        "size",
+        "T"
+      ]
+    },
+    {
+      "id": "nvidia_vpi",
+      "title": "NVIDIA VPI",
+      "blockPrefix": "nvidia_vpi",
+      "pip": "python3-vpi3",
+      "module": "vpi",
+      "category": "jetson",
+      "compatibility": "jetson",
+      "boardTypes": [
+        "nvidia:tegra234:jetson_agx_orin",
+        "nvidia:tegra234:jetson_orin_nano",
+        "nvidia:tegra234:jetson_orin_nx"
+      ],
+      "asyncBridge": false,
+      "raspberryPiDocs": false,
+      "install": "sudo apt install python3-vpi3",
+      "homepage": "https://docs.nvidia.com/vpi/python/index.html",
+      "notesEn": "NVIDIA VPI is exposed through an explicit CPython API allowlist.",
+      "notesZh": "NVIDIA VPI 通过显式 CPython API 白名单提供积木。",
+      "callables": [
+        "asimage",
+        "asarray",
+        "Image",
+        "Array",
+        "Pyramid",
+        "Stream",
+        "execute",
+        "mixchannels"
+      ],
+      "methods": [
+        "convert",
+        "rescale",
+        "box_filter",
+        "gaussian_filter",
+        "median_filter",
+        "bilateral_filter",
+        "erode",
+        "dilate",
+        "canny",
+        "eqhist",
+        "histogram",
+        "minmaxloc",
+        "lock_cpu",
+        "lock_cuda",
+        "sync"
+      ],
+      "attributes": [
+        "Backend.CPU",
+        "Backend.CUDA",
+        "Backend.PVA",
+        "Format.RGB8",
+        "Format.RGBA8",
+        "Format.BGR8",
+        "Format.GRAY8",
+        "Interp.NEAREST",
+        "Interp.LINEAR",
+        "Border.CLAMP",
+        "width",
+        "height",
+        "size",
+        "format"
+      ]
+    },
+    {
+      "id": "onnxruntime",
+      "title": "ONNX Runtime",
+      "blockPrefix": "python_onnxruntime",
+      "pip": "onnxruntime",
+      "module": "onnxruntime",
+      "category": "vision-ai",
+      "compatibility": "linux",
+      "boardTypes": [
+        "allwinner:t527:walnutpi_2b",
+        "broadcom:bcm2710a1:raspberrypi_0_2w",
+        "broadcom:bcm2711:raspberrypi_4b",
+        "broadcom:bcm2712:raspberrypi_5",
+        "nvidia:tegra234:jetson_agx_orin",
+        "nvidia:tegra234:jetson_orin_nano",
+        "nvidia:tegra234:jetson_orin_nx"
+      ],
+      "asyncBridge": false,
+      "raspberryPiDocs": false,
+      "install": "python3 -m pip install onnxruntime",
+      "homepage": "https://onnxruntime.ai/docs/",
+      "notesEn": "ONNX Runtime is exposed through an explicit CPython API allowlist.",
+      "notesZh": "ONNX Runtime 通过显式 CPython API 白名单提供积木。",
+      "callables": [
+        "InferenceSession",
+        "SessionOptions",
+        "get_available_providers",
+        "get_device",
+        "set_default_logger_severity"
+      ],
+      "methods": [
+        "run",
+        "run_with_iobinding",
+        "get_inputs",
+        "get_outputs",
+        "get_providers",
+        "set_providers",
+        "end_profiling"
+      ],
+      "attributes": []
+    },
+    {
+      "id": "pandas",
+      "title": "pandas",
+      "blockPrefix": "python_pandas",
+      "pip": "pandas",
+      "module": "pandas",
+      "category": "data-science",
+      "compatibility": "linux",
+      "boardTypes": [
+        "allwinner:t527:walnutpi_2b",
+        "broadcom:bcm2710a1:raspberrypi_0_2w",
+        "broadcom:bcm2711:raspberrypi_4b",
+        "broadcom:bcm2712:raspberrypi_5",
+        "nvidia:tegra234:jetson_agx_orin",
+        "nvidia:tegra234:jetson_orin_nano",
+        "nvidia:tegra234:jetson_orin_nx"
+      ],
+      "asyncBridge": false,
+      "raspberryPiDocs": false,
+      "install": "python3 -m pip install pandas",
+      "homepage": "https://pandas.pydata.org/docs/",
+      "notesEn": "pandas is exposed through an explicit CPython API allowlist.",
+      "notesZh": "pandas 通过显式 CPython API 白名单提供积木。",
+      "callables": [
+        "DataFrame",
+        "Series",
+        "read_csv",
+        "read_json",
+        "read_excel",
+        "concat",
+        "merge",
+        "date_range"
+      ],
+      "methods": [
+        "head",
+        "tail",
+        "describe",
+        "groupby",
+        "merge",
+        "join",
+        "to_csv",
+        "to_json",
+        "dropna",
+        "fillna",
+        "sort_values"
+      ],
+      "attributes": [
+        "shape",
+        "columns",
+        "index",
+        "dtypes",
+        "values",
+        "empty"
+      ]
+    },
+    {
+      "id": "paramiko",
+      "title": "Paramiko",
+      "blockPrefix": "python_paramiko",
+      "pip": "paramiko",
+      "module": "paramiko",
+      "category": "network",
+      "compatibility": "linux",
+      "boardTypes": [
+        "allwinner:t527:walnutpi_2b",
+        "broadcom:bcm2710a1:raspberrypi_0_2w",
+        "broadcom:bcm2711:raspberrypi_4b",
+        "broadcom:bcm2712:raspberrypi_5",
+        "nvidia:tegra234:jetson_agx_orin",
+        "nvidia:tegra234:jetson_orin_nano",
+        "nvidia:tegra234:jetson_orin_nx"
+      ],
+      "asyncBridge": false,
+      "raspberryPiDocs": false,
+      "install": "python3 -m pip install paramiko",
+      "homepage": "https://www.paramiko.org/",
+      "notesEn": "Paramiko is exposed through an explicit CPython API allowlist.",
+      "notesZh": "Paramiko 通过显式 CPython API 白名单提供积木。",
+      "callables": [
+        "SSHClient",
+        "Transport",
+        "SFTPClient",
+        "AutoAddPolicy",
+        "RSAKey",
+        "Ed25519Key"
+      ],
+      "methods": [
+        "connect",
+        "exec_command",
+        "open_sftp",
+        "close",
+        "set_missing_host_key_policy",
+        "load_system_host_keys",
+        "load_host_keys",
+        "get_host_keys",
+        "get_transport",
+        "is_active",
+        "is_authenticated",
+        "put",
+        "get",
+        "listdir",
+        "open"
+      ],
+      "attributes": []
+    },
+    {
+      "id": "pillow",
+      "title": "Pillow Image",
+      "blockPrefix": "python_pillow",
+      "pip": "Pillow",
+      "module": "PIL.Image",
+      "category": "display",
+      "compatibility": "linux",
+      "boardTypes": [
+        "allwinner:t527:walnutpi_2b",
+        "broadcom:bcm2710a1:raspberrypi_0_2w",
+        "broadcom:bcm2711:raspberrypi_4b",
+        "broadcom:bcm2712:raspberrypi_5",
+        "nvidia:tegra234:jetson_agx_orin",
+        "nvidia:tegra234:jetson_orin_nano",
+        "nvidia:tegra234:jetson_orin_nx"
+      ],
+      "asyncBridge": false,
+      "raspberryPiDocs": false,
+      "install": "python3 -m pip install Pillow",
+      "homepage": "https://pillow.readthedocs.io/",
+      "notesEn": "Pillow Image is exposed through an explicit CPython API allowlist.",
+      "notesZh": "Pillow Image 通过显式 CPython API 白名单提供积木。",
+      "callables": [
+        "open",
+        "new",
+        "fromarray",
+        "merge"
+      ],
+      "methods": [
+        "save",
+        "resize",
+        "crop",
+        "rotate",
+        "transpose",
+        "convert",
+        "filter",
+        "show"
+      ],
+      "attributes": [
+        "size",
+        "mode",
+        "width",
+        "height",
+        "format"
+      ]
+    },
+    {
+      "id": "psutil",
+      "title": "psutil",
+      "blockPrefix": "linux_psutil",
+      "pip": "psutil",
+      "module": "psutil",
+      "category": "system",
+      "compatibility": "linux",
+      "boardTypes": [
+        "allwinner:t527:walnutpi_2b",
+        "broadcom:bcm2710a1:raspberrypi_0_2w",
+        "broadcom:bcm2711:raspberrypi_4b",
+        "broadcom:bcm2712:raspberrypi_5",
+        "nvidia:tegra234:jetson_agx_orin",
+        "nvidia:tegra234:jetson_orin_nano",
+        "nvidia:tegra234:jetson_orin_nx"
+      ],
+      "asyncBridge": false,
+      "raspberryPiDocs": false,
+      "install": "python3 -m pip install psutil",
+      "homepage": "https://psutil.readthedocs.io/",
+      "notesEn": "psutil is exposed through an explicit CPython API allowlist.",
+      "notesZh": "psutil 通过显式 CPython API 白名单提供积木。",
+      "callables": [
+        "cpu_percent",
+        "cpu_count",
+        "virtual_memory",
+        "disk_usage",
+        "disk_partitions",
+        "net_if_addrs",
+        "net_io_counters",
+        "sensors_temperatures",
+        "boot_time",
+        "pids",
+        "Process"
+      ],
+      "methods": [
+        "cpu_percent",
+        "memory_info",
+        "io_counters",
+        "open_files",
+        "connections",
+        "terminate",
+        "kill",
+        "wait"
+      ],
+      "attributes": [
+        "pid",
+        "total",
+        "available",
+        "percent",
+        "used",
+        "free",
+        "rss",
+        "vms"
+      ]
+    },
+    {
+      "id": "pyaudio",
+      "title": "PyAudio",
+      "blockPrefix": "python_pyaudio",
+      "pip": "PyAudio",
+      "module": "pyaudio",
+      "category": "audio",
+      "compatibility": "linux",
+      "boardTypes": [
+        "allwinner:t527:walnutpi_2b",
+        "broadcom:bcm2710a1:raspberrypi_0_2w",
+        "broadcom:bcm2711:raspberrypi_4b",
+        "broadcom:bcm2712:raspberrypi_5",
+        "nvidia:tegra234:jetson_agx_orin",
+        "nvidia:tegra234:jetson_orin_nano",
+        "nvidia:tegra234:jetson_orin_nx"
+      ],
+      "asyncBridge": false,
+      "raspberryPiDocs": false,
+      "install": "sudo apt install python3-pyaudio",
+      "homepage": "https://people.csail.mit.edu/hubert/pyaudio/docs/",
+      "notesEn": "PyAudio is exposed through an explicit CPython API allowlist.",
+      "notesZh": "PyAudio 通过显式 CPython API 白名单提供积木。",
+      "callables": [
+        "PyAudio"
+      ],
+      "methods": [
+        "open",
+        "terminate",
+        "get_device_count",
+        "get_device_info_by_index",
+        "get_default_input_device_info",
+        "is_format_supported",
+        "read",
+        "write",
+        "start_stream",
+        "stop_stream",
+        "close"
+      ],
+      "attributes": [
+        "paInt16",
+        "paFloat32",
+        "paUInt8"
+      ]
+    },
+    {
+      "id": "pyav",
+      "title": "PyAV",
+      "blockPrefix": "python_pyav",
+      "pip": "av",
+      "module": "av",
+      "category": "display",
+      "compatibility": "linux",
+      "boardTypes": [
+        "allwinner:t527:walnutpi_2b",
+        "broadcom:bcm2710a1:raspberrypi_0_2w",
+        "broadcom:bcm2711:raspberrypi_4b",
+        "broadcom:bcm2712:raspberrypi_5",
+        "nvidia:tegra234:jetson_agx_orin",
+        "nvidia:tegra234:jetson_orin_nano",
+        "nvidia:tegra234:jetson_orin_nx"
+      ],
+      "asyncBridge": false,
+      "raspberryPiDocs": false,
+      "install": "sudo apt install python3-av",
+      "homepage": "https://pyav.org/docs/stable/",
+      "notesEn": "PyAV is exposed through an explicit CPython API allowlist.",
+      "notesZh": "PyAV 通过显式 CPython API 白名单提供积木。",
+      "callables": [
+        "open",
+        "AudioFrame",
+        "VideoFrame",
+        "Packet"
+      ],
+      "methods": [
+        "demux",
+        "decode",
+        "encode",
+        "mux",
+        "close",
+        "add_stream",
+        "to_ndarray",
+        "reformat"
+      ],
+      "attributes": [
+        "streams",
+        "duration",
+        "format",
+        "metadata",
+        "time_base",
+        "pts",
+        "width",
+        "height"
+      ]
+    },
+    {
+      "id": "pycuda",
+      "title": "PyCUDA",
+      "blockPrefix": "pycuda",
+      "pip": "pycuda",
+      "module": "pycuda.driver",
+      "category": "jetson",
+      "compatibility": "jetson",
+      "boardTypes": [
+        "nvidia:tegra234:jetson_agx_orin",
+        "nvidia:tegra234:jetson_orin_nano",
+        "nvidia:tegra234:jetson_orin_nx"
+      ],
+      "asyncBridge": false,
+      "raspberryPiDocs": false,
+      "install": "sudo apt install python3-pycuda",
+      "homepage": "https://documen.tician.de/pycuda/",
+      "notesEn": "PyCUDA is exposed through an explicit CPython API allowlist.",
+      "notesZh": "PyCUDA 通过显式 CPython API 白名单提供积木。",
+      "callables": [
+        "init",
+        "Device",
+        "Device.count",
+        "mem_alloc",
+        "memcpy_htod",
+        "memcpy_dtoh",
+        "memcpy_dtod",
+        "Stream",
+        "Event",
+        "module_from_file",
+        "get_version",
+        "get_driver_version"
+      ],
+      "methods": [
+        "name",
+        "compute_capability",
+        "total_memory",
+        "make_context",
+        "pop",
+        "detach",
+        "synchronize",
+        "record",
+        "time_till",
+        "time_since",
+        "free"
+      ],
+      "attributes": [
+        "handle",
+        "device",
+        "context"
+      ]
+    },
+    {
+      "id": "pydub",
+      "title": "pydub",
+      "blockPrefix": "python_pydub",
+      "pip": "pydub",
+      "module": "pydub",
+      "category": "audio",
+      "compatibility": "linux",
+      "boardTypes": [
+        "allwinner:t527:walnutpi_2b",
+        "broadcom:bcm2710a1:raspberrypi_0_2w",
+        "broadcom:bcm2711:raspberrypi_4b",
+        "broadcom:bcm2712:raspberrypi_5",
+        "nvidia:tegra234:jetson_agx_orin",
+        "nvidia:tegra234:jetson_orin_nano",
+        "nvidia:tegra234:jetson_orin_nx"
+      ],
+      "asyncBridge": false,
+      "raspberryPiDocs": false,
+      "install": "python3 -m pip install pydub",
+      "homepage": "https://github.com/jiaaro/pydub",
+      "notesEn": "pydub is exposed through an explicit CPython API allowlist.",
+      "notesZh": "pydub 通过显式 CPython API 白名单提供积木。",
+      "callables": [
+        "AudioSegment.silent",
+        "AudioSegment.from_file",
+        "AudioSegment.from_wav"
+      ],
+      "methods": [
+        "export",
+        "overlay",
+        "append",
+        "fade_in",
+        "fade_out",
+        "set_frame_rate",
+        "set_channels"
+      ],
+      "attributes": [
+        "duration_seconds",
+        "frame_rate",
+        "channels",
+        "sample_width",
+        "raw_data"
+      ]
+    },
+    {
+      "id": "pyftdi",
+      "title": "PyFtdi GPIO",
+      "blockPrefix": "linux_pyftdi",
+      "pip": "pyftdi",
+      "module": "pyftdi.gpio",
+      "category": "hardware-io",
+      "compatibility": "linux",
+      "boardTypes": [
+        "allwinner:t527:walnutpi_2b",
+        "broadcom:bcm2710a1:raspberrypi_0_2w",
+        "broadcom:bcm2711:raspberrypi_4b",
+        "broadcom:bcm2712:raspberrypi_5",
+        "nvidia:tegra234:jetson_agx_orin",
+        "nvidia:tegra234:jetson_orin_nano",
+        "nvidia:tegra234:jetson_orin_nx"
+      ],
+      "asyncBridge": false,
+      "raspberryPiDocs": false,
+      "install": "python3 -m pip install pyftdi",
+      "homepage": "https://eblot.github.io/pyftdi/",
+      "notesEn": "PyFtdi GPIO is exposed through an explicit CPython API allowlist.",
+      "notesZh": "PyFtdi GPIO 通过显式 CPython API 白名单提供积木。",
+      "callables": [
+        "GpioController",
+        "GpioAsyncController"
+      ],
+      "methods": [
+        "configure",
+        "set_direction",
+        "write",
+        "read",
+        "exchange",
+        "close"
+      ],
+      "attributes": [
+        "frequency",
+        "direction",
+        "pins"
+      ]
+    },
+    {
+      "id": "pygame",
+      "title": "pygame",
+      "blockPrefix": "python_pygame",
+      "pip": "pygame",
+      "module": "pygame",
+      "category": "audio",
+      "compatibility": "linux",
+      "boardTypes": [
+        "allwinner:t527:walnutpi_2b",
+        "broadcom:bcm2710a1:raspberrypi_0_2w",
+        "broadcom:bcm2711:raspberrypi_4b",
+        "broadcom:bcm2712:raspberrypi_5",
+        "nvidia:tegra234:jetson_agx_orin",
+        "nvidia:tegra234:jetson_orin_nano",
+        "nvidia:tegra234:jetson_orin_nx"
+      ],
+      "asyncBridge": false,
+      "raspberryPiDocs": false,
+      "install": "sudo apt install python3-pygame",
+      "homepage": "https://www.pygame.org/docs/",
+      "notesEn": "pygame is exposed through an explicit CPython API allowlist.",
+      "notesZh": "pygame 通过显式 CPython API 白名单提供积木。",
+      "callables": [
+        "init",
+        "quit",
+        "display.set_mode",
+        "display.flip",
+        "event.get",
+        "time.Clock",
+        "image.load",
+        "mixer.Sound",
+        "font.Font",
+        "draw.line",
+        "draw.rect",
+        "draw.circle",
+        "transform.scale"
+      ],
+      "methods": [
+        "fill",
+        "blit",
+        "get_rect",
+        "play",
+        "stop",
+        "tick"
+      ],
+      "attributes": [
+        "type",
+        "key",
+        "pos",
+        "button",
+        "size"
+      ]
+    },
+    {
+      "id": "pymavlink",
+      "title": "pymavlink",
+      "blockPrefix": "python_pymavlink",
+      "pip": "pymavlink",
+      "module": "pymavlink.mavutil",
+      "category": "robotics",
+      "compatibility": "linux",
+      "boardTypes": [
+        "allwinner:t527:walnutpi_2b",
+        "broadcom:bcm2710a1:raspberrypi_0_2w",
+        "broadcom:bcm2711:raspberrypi_4b",
+        "broadcom:bcm2712:raspberrypi_5",
+        "nvidia:tegra234:jetson_agx_orin",
+        "nvidia:tegra234:jetson_orin_nano",
+        "nvidia:tegra234:jetson_orin_nx"
+      ],
+      "asyncBridge": false,
+      "raspberryPiDocs": false,
+      "install": "python3 -m pip install pymavlink",
+      "homepage": "https://mavlink.io/en/mavgen_python/",
+      "notesEn": "pymavlink is exposed through an explicit CPython API allowlist.",
+      "notesZh": "pymavlink 通过显式 CPython API 白名单提供积木。",
+      "callables": [
+        "mavlink_connection",
+        "mode_string_v10",
+        "all_printable",
+        "periodic_event"
+      ],
+      "methods": [
+        "wait_heartbeat",
+        "recv_match",
+        "mode_mapping",
+        "set_mode",
+        "close",
+        "write",
+        "param_fetch_all"
+      ],
+      "attributes": [
+        "target_system",
+        "target_component",
+        "mav",
+        "flightmode",
+        "messages"
+      ]
+    },
+    {
+      "id": "pymodbus",
+      "title": "PyModbus",
+      "blockPrefix": "python_pymodbus",
+      "pip": "pymodbus",
+      "module": "pymodbus.client",
+      "category": "industrial",
+      "compatibility": "linux",
+      "boardTypes": [
+        "allwinner:t527:walnutpi_2b",
+        "broadcom:bcm2710a1:raspberrypi_0_2w",
+        "broadcom:bcm2711:raspberrypi_4b",
+        "broadcom:bcm2712:raspberrypi_5",
+        "nvidia:tegra234:jetson_agx_orin",
+        "nvidia:tegra234:jetson_orin_nano",
+        "nvidia:tegra234:jetson_orin_nx"
+      ],
+      "asyncBridge": true,
+      "raspberryPiDocs": false,
+      "install": "python3 -m pip install pymodbus",
+      "homepage": "https://www.pymodbus.org/docs",
+      "notesEn": "PyModbus is exposed through an explicit CPython API allowlist.",
+      "notesZh": "PyModbus 通过显式 CPython API 白名单提供积木。",
+      "callables": [
+        "ModbusTcpClient",
+        "ModbusSerialClient",
+        "ModbusUdpClient",
+        "AsyncModbusTcpClient",
+        "AsyncModbusSerialClient"
+      ],
+      "methods": [
+        "connect",
+        "close",
+        "read_coils",
+        "read_discrete_inputs",
+        "read_holding_registers",
+        "read_input_registers",
+        "write_coil",
+        "write_register",
+        "write_registers"
+      ],
+      "attributes": [
+        "connected"
+      ]
+    },
+    {
+      "id": "pynmea2",
+      "title": "pynmea2",
+      "blockPrefix": "python_pynmea2",
+      "pip": "pynmea2",
+      "module": "pynmea2",
+      "category": "sensors",
+      "compatibility": "linux",
+      "boardTypes": [
+        "allwinner:t527:walnutpi_2b",
+        "broadcom:bcm2710a1:raspberrypi_0_2w",
+        "broadcom:bcm2711:raspberrypi_4b",
+        "broadcom:bcm2712:raspberrypi_5",
+        "nvidia:tegra234:jetson_agx_orin",
+        "nvidia:tegra234:jetson_orin_nano",
+        "nvidia:tegra234:jetson_orin_nx"
+      ],
+      "asyncBridge": false,
+      "raspberryPiDocs": false,
+      "install": "python3 -m pip install pynmea2",
+      "homepage": "https://github.com/Knio/pynmea2",
+      "notesEn": "pynmea2 is exposed through an explicit CPython API allowlist.",
+      "notesZh": "pynmea2 通过显式 CPython API 白名单提供积木。",
+      "callables": [
+        "parse",
+        "NMEASentence",
+        "LatLonFix",
+        "ProprietarySentence"
+      ],
+      "methods": [
+        "render",
+        "identifier"
+      ],
+      "attributes": [
+        "latitude",
+        "longitude",
+        "altitude",
+        "timestamp",
+        "num_sats",
+        "gps_qual",
+        "spd_over_grnd",
+        "true_course"
+      ]
+    },
+    {
+      "id": "pytesseract",
+      "title": "pytesseract",
+      "blockPrefix": "python_pytesseract",
+      "pip": "pytesseract",
+      "module": "pytesseract",
+      "category": "vision-ai",
+      "compatibility": "linux",
+      "boardTypes": [
+        "allwinner:t527:walnutpi_2b",
+        "broadcom:bcm2710a1:raspberrypi_0_2w",
+        "broadcom:bcm2711:raspberrypi_4b",
+        "broadcom:bcm2712:raspberrypi_5",
+        "nvidia:tegra234:jetson_agx_orin",
+        "nvidia:tegra234:jetson_orin_nano",
+        "nvidia:tegra234:jetson_orin_nx"
+      ],
+      "asyncBridge": false,
+      "raspberryPiDocs": false,
+      "install": "python3 -m pip install pytesseract",
+      "homepage": "https://github.com/madmaze/pytesseract",
+      "notesEn": "pytesseract is exposed through an explicit CPython API allowlist.",
+      "notesZh": "pytesseract 通过显式 CPython API 白名单提供积木。",
+      "callables": [
+        "image_to_string",
+        "image_to_data",
+        "image_to_boxes",
+        "image_to_osd",
+        "get_languages"
+      ],
+      "methods": [],
+      "attributes": [
+        "Output.DICT",
+        "Output.STRING",
+        "Output.DATAFRAME"
+      ]
+    },
+    {
+      "id": "python_can",
+      "title": "python-can",
+      "blockPrefix": "python_python_can",
+      "pip": "python-can",
+      "module": "can",
+      "category": "industrial",
+      "compatibility": "linux",
+      "boardTypes": [
+        "allwinner:t527:walnutpi_2b",
+        "broadcom:bcm2710a1:raspberrypi_0_2w",
+        "broadcom:bcm2711:raspberrypi_4b",
+        "broadcom:bcm2712:raspberrypi_5",
+        "nvidia:tegra234:jetson_agx_orin",
+        "nvidia:tegra234:jetson_orin_nano",
+        "nvidia:tegra234:jetson_orin_nx"
+      ],
+      "asyncBridge": false,
+      "raspberryPiDocs": false,
+      "install": "python3 -m pip install python-can",
+      "homepage": "https://python-can.readthedocs.io/en/stable/",
+      "notesEn": "python-can is exposed through an explicit CPython API allowlist.",
+      "notesZh": "python-can 通过显式 CPython API 白名单提供积木。",
+      "callables": [
+        "Bus",
+        "Message",
+        "Notifier",
+        "Listener",
+        "BufferedReader"
+      ],
+      "methods": [
+        "send",
+        "recv",
+        "shutdown",
+        "send_periodic",
+        "stop_all_periodic_tasks",
+        "get_message"
+      ],
+      "attributes": [
+        "arbitration_id",
+        "data",
+        "is_extended_id",
+        "is_remote_frame",
+        "timestamp",
+        "channel"
+      ]
+    },
+    {
+      "id": "python_periphery",
+      "title": "python-periphery",
+      "blockPrefix": "linux_periphery",
+      "pip": "python-periphery",
+      "module": "periphery",
+      "category": "hardware-io",
+      "compatibility": "linux",
+      "boardTypes": [
+        "allwinner:t527:walnutpi_2b",
+        "broadcom:bcm2710a1:raspberrypi_0_2w",
+        "broadcom:bcm2711:raspberrypi_4b",
+        "broadcom:bcm2712:raspberrypi_5",
+        "nvidia:tegra234:jetson_agx_orin",
+        "nvidia:tegra234:jetson_orin_nano",
+        "nvidia:tegra234:jetson_orin_nx"
+      ],
+      "asyncBridge": false,
+      "raspberryPiDocs": false,
+      "install": "python3 -m pip install python-periphery",
+      "homepage": "https://python-periphery.readthedocs.io/",
+      "notesEn": "python-periphery is exposed through an explicit CPython API allowlist.",
+      "notesZh": "python-periphery 通过显式 CPython API 白名单提供积木。",
+      "callables": [
+        "GPIO",
+        "LED",
+        "PWM",
+        "SPI",
+        "I2C",
+        "Serial",
+        "MMIO"
+      ],
+      "methods": [
+        "open",
+        "read",
+        "write",
+        "poll",
+        "transfer",
+        "read_event",
+        "close"
+      ],
+      "attributes": [
+        "direction",
+        "edge",
+        "bias",
+        "frequency",
+        "duty_cycle",
+        "period",
+        "fd"
+      ]
+    },
+    {
+      "id": "python_socketio",
+      "title": "python-socketio",
+      "blockPrefix": "python_python_socketio",
+      "pip": "python-socketio",
+      "module": "socketio",
+      "category": "network",
+      "compatibility": "linux",
+      "boardTypes": [
+        "allwinner:t527:walnutpi_2b",
+        "broadcom:bcm2710a1:raspberrypi_0_2w",
+        "broadcom:bcm2711:raspberrypi_4b",
+        "broadcom:bcm2712:raspberrypi_5",
+        "nvidia:tegra234:jetson_agx_orin",
+        "nvidia:tegra234:jetson_orin_nano",
+        "nvidia:tegra234:jetson_orin_nx"
+      ],
+      "asyncBridge": true,
+      "raspberryPiDocs": false,
+      "install": "python3 -m pip install python-socketio",
+      "homepage": "https://python-socketio.readthedocs.io/",
+      "notesEn": "python-socketio is exposed through an explicit CPython API allowlist.",
+      "notesZh": "python-socketio 通过显式 CPython API 白名单提供积木。",
+      "callables": [
+        "Client",
+        "AsyncClient",
+        "Server",
+        "AsyncServer",
+        "WSGIApp",
+        "ASGIApp"
+      ],
+      "methods": [
+        "connect",
+        "disconnect",
+        "emit",
+        "send",
+        "call",
+        "on",
+        "event",
+        "start_background_task",
+        "sleep",
+        "transport"
+      ],
+      "attributes": [
+        "connected",
+        "sid",
+        "namespaces"
+      ]
+    },
+    {
+      "id": "pytorch",
+      "title": "PyTorch",
+      "blockPrefix": "pytorch",
+      "pip": "torch",
+      "module": "torch",
+      "category": "vision-ai",
+      "compatibility": "jetson",
+      "boardTypes": [
+        "nvidia:tegra234:jetson_agx_orin",
+        "nvidia:tegra234:jetson_orin_nano",
+        "nvidia:tegra234:jetson_orin_nx"
+      ],
+      "asyncBridge": false,
+      "raspberryPiDocs": false,
+      "install": "python3 -m pip install --no-cache-dir \"$TORCH_INSTALL\"",
+      "homepage": "https://docs.nvidia.com/deeplearning/frameworks/install-pytorch-jetson-platform/",
+      "notesEn": "PyTorch is exposed through an explicit CPython API allowlist.",
+      "notesZh": "PyTorch 通过显式 CPython API 白名单提供积木。",
+      "callables": [
+        "tensor",
+        "as_tensor",
+        "from_numpy",
+        "zeros",
+        "ones",
+        "empty",
+        "arange",
+        "linspace",
+        "stack",
+        "cat",
+        "matmul",
+        "no_grad",
+        "inference_mode",
+        "load",
+        "save",
+        "device",
+        "cuda.is_available",
+        "cuda.device_count",
+        "cuda.get_device_name"
+      ],
+      "methods": [
+        "to",
+        "cpu",
+        "cuda",
+        "numpy",
+        "detach",
+        "clone",
+        "reshape",
+        "permute",
+        "unsqueeze",
+        "squeeze",
+        "eval",
+        "train",
+        "forward"
+      ],
+      "attributes": [
+        "__version__",
+        "float32",
+        "float16",
+        "bfloat16",
+        "int8",
+        "int32",
+        "int64",
+        "bool"
+      ]
+    },
+    {
+      "id": "pyttsx3",
+      "title": "pyttsx3",
+      "blockPrefix": "python_pyttsx3",
+      "pip": "pyttsx3",
+      "module": "pyttsx3",
+      "category": "audio",
+      "compatibility": "linux",
+      "boardTypes": [
+        "allwinner:t527:walnutpi_2b",
+        "broadcom:bcm2710a1:raspberrypi_0_2w",
+        "broadcom:bcm2711:raspberrypi_4b",
+        "broadcom:bcm2712:raspberrypi_5",
+        "nvidia:tegra234:jetson_agx_orin",
+        "nvidia:tegra234:jetson_orin_nano",
+        "nvidia:tegra234:jetson_orin_nx"
+      ],
+      "asyncBridge": false,
+      "raspberryPiDocs": false,
+      "install": "python3 -m pip install pyttsx3",
+      "homepage": "https://pyttsx3.readthedocs.io/",
+      "notesEn": "pyttsx3 is exposed through an explicit CPython API allowlist.",
+      "notesZh": "pyttsx3 通过显式 CPython API 白名单提供积木。",
+      "callables": [
+        "init"
+      ],
+      "methods": [
+        "say",
+        "runAndWait",
+        "stop",
+        "getProperty",
+        "setProperty",
+        "save_to_file",
+        "connect",
+        "disconnect"
+      ],
+      "attributes": []
+    },
+    {
+      "id": "pyudev",
+      "title": "pyudev",
+      "blockPrefix": "linux_pyudev",
+      "pip": "pyudev",
+      "module": "pyudev",
+      "category": "system",
+      "compatibility": "linux",
+      "boardTypes": [
+        "allwinner:t527:walnutpi_2b",
+        "broadcom:bcm2710a1:raspberrypi_0_2w",
+        "broadcom:bcm2711:raspberrypi_4b",
+        "broadcom:bcm2712:raspberrypi_5",
+        "nvidia:tegra234:jetson_agx_orin",
+        "nvidia:tegra234:jetson_orin_nano",
+        "nvidia:tegra234:jetson_orin_nx"
+      ],
+      "asyncBridge": false,
+      "raspberryPiDocs": false,
+      "install": "python3 -m pip install pyudev",
+      "homepage": "https://pyudev.readthedocs.io/",
+      "notesEn": "pyudev is exposed through an explicit CPython API allowlist.",
+      "notesZh": "pyudev 通过显式 CPython API 白名单提供积木。",
+      "callables": [
+        "Context",
+        "Monitor",
+        "MonitorObserver",
+        "Devices.from_path",
+        "Devices.from_device_file",
+        "Devices.from_device_number"
+      ],
+      "methods": [
+        "list_devices",
+        "filter_by",
+        "enable_receiving",
+        "start",
+        "stop",
+        "poll"
+      ],
+      "attributes": [
+        "device_path",
+        "device_node",
+        "subsystem",
+        "sys_name",
+        "properties",
+        "parent"
+      ]
+    },
+    {
+      "id": "pyusb",
+      "title": "PyUSB",
+      "blockPrefix": "linux_pyusb",
+      "pip": "pyusb",
+      "module": "usb.core",
+      "category": "hardware-io",
+      "compatibility": "linux",
+      "boardTypes": [
+        "allwinner:t527:walnutpi_2b",
+        "broadcom:bcm2710a1:raspberrypi_0_2w",
+        "broadcom:bcm2711:raspberrypi_4b",
+        "broadcom:bcm2712:raspberrypi_5",
+        "nvidia:tegra234:jetson_agx_orin",
+        "nvidia:tegra234:jetson_orin_nano",
+        "nvidia:tegra234:jetson_orin_nx"
+      ],
+      "asyncBridge": false,
+      "raspberryPiDocs": false,
+      "install": "python3 -m pip install pyusb",
+      "homepage": "https://pyusb.github.io/pyusb/",
+      "notesEn": "PyUSB is exposed through an explicit CPython API allowlist.",
+      "notesZh": "PyUSB 通过显式 CPython API 白名单提供积木。",
+      "callables": [
+        "find",
+        "show_devices"
+      ],
+      "methods": [
+        "set_configuration",
+        "write",
+        "read",
+        "ctrl_transfer",
+        "reset",
+        "is_kernel_driver_active",
+        "detach_kernel_driver"
+      ],
+      "attributes": [
+        "idVendor",
+        "idProduct",
+        "bus",
+        "address",
+        "manufacturer",
+        "product",
+        "serial_number"
+      ]
+    },
+    {
+      "id": "pyyaml",
+      "title": "PyYAML",
+      "blockPrefix": "python_pyyaml",
+      "pip": "PyYAML",
+      "module": "yaml",
+      "category": "system",
+      "compatibility": "linux",
+      "boardTypes": [
+        "allwinner:t527:walnutpi_2b",
+        "broadcom:bcm2710a1:raspberrypi_0_2w",
+        "broadcom:bcm2711:raspberrypi_4b",
+        "broadcom:bcm2712:raspberrypi_5",
+        "nvidia:tegra234:jetson_agx_orin",
+        "nvidia:tegra234:jetson_orin_nano",
+        "nvidia:tegra234:jetson_orin_nx"
+      ],
+      "asyncBridge": false,
+      "raspberryPiDocs": false,
+      "install": "python3 -m pip install PyYAML",
+      "homepage": "https://pyyaml.org/wiki/PyYAMLDocumentation",
+      "notesEn": "PyYAML is exposed through an explicit CPython API allowlist.",
+      "notesZh": "PyYAML 通过显式 CPython API 白名单提供积木。",
+      "callables": [
+        "safe_load",
+        "safe_load_all",
+        "safe_dump",
+        "safe_dump_all"
+      ],
+      "methods": [],
+      "attributes": [
+        "SafeLoader",
+        "CSafeLoader",
+        "SafeDumper",
+        "CSafeDumper"
+      ]
+    },
+    {
+      "id": "qrcode",
+      "title": "qrcode",
+      "blockPrefix": "python_qrcode",
+      "pip": "qrcode",
+      "module": "qrcode",
+      "category": "display",
+      "compatibility": "linux",
+      "boardTypes": [
+        "allwinner:t527:walnutpi_2b",
+        "broadcom:bcm2710a1:raspberrypi_0_2w",
+        "broadcom:bcm2711:raspberrypi_4b",
+        "broadcom:bcm2712:raspberrypi_5",
+        "nvidia:tegra234:jetson_agx_orin",
+        "nvidia:tegra234:jetson_orin_nano",
+        "nvidia:tegra234:jetson_orin_nx"
+      ],
+      "asyncBridge": false,
+      "raspberryPiDocs": false,
+      "install": "python3 -m pip install qrcode",
+      "homepage": "https://github.com/lincolnloop/python-qrcode",
+      "notesEn": "qrcode is exposed through an explicit CPython API allowlist.",
+      "notesZh": "qrcode 通过显式 CPython API 白名单提供积木。",
+      "callables": [
+        "make",
+        "QRCode"
+      ],
+      "methods": [
+        "add_data",
+        "make",
+        "make_image",
+        "clear"
+      ],
+      "attributes": [
+        "version",
+        "error_correction",
+        "box_size",
+        "border"
+      ]
+    },
+    {
+      "id": "rclpy",
+      "title": "ROS 2 rclpy",
+      "blockPrefix": "python_rclpy",
+      "pip": "rclpy",
+      "module": "rclpy",
+      "category": "robotics",
+      "compatibility": "linux",
+      "boardTypes": [
+        "allwinner:t527:walnutpi_2b",
+        "broadcom:bcm2710a1:raspberrypi_0_2w",
+        "broadcom:bcm2711:raspberrypi_4b",
+        "broadcom:bcm2712:raspberrypi_5",
+        "nvidia:tegra234:jetson_agx_orin",
+        "nvidia:tegra234:jetson_orin_nano",
+        "nvidia:tegra234:jetson_orin_nx"
+      ],
+      "asyncBridge": false,
+      "raspberryPiDocs": false,
+      "install": "Install the ROS 2 rclpy package with the matching ROS distribution via APT",
+      "homepage": "https://docs.ros.org/en/ros2_packages/rolling/api/rclpy/",
+      "notesEn": "ROS 2 rclpy is exposed through an explicit CPython API allowlist.",
+      "notesZh": "ROS 2 rclpy 通过显式 CPython API 白名单提供积木。",
+      "callables": [
+        "init",
+        "shutdown",
+        "ok",
+        "spin",
+        "spin_once",
+        "create_node"
+      ],
+      "methods": [
+        "create_publisher",
+        "create_subscription",
+        "create_timer",
+        "create_client",
+        "create_service",
+        "get_logger",
+        "destroy_node",
+        "publish"
+      ],
+      "attributes": [
+        "context",
+        "default_callback_group"
+      ]
+    },
+    {
+      "id": "redis",
+      "title": "redis-py",
+      "blockPrefix": "python_redis",
+      "pip": "redis",
+      "module": "redis",
+      "category": "network",
+      "compatibility": "linux",
+      "boardTypes": [
+        "allwinner:t527:walnutpi_2b",
+        "broadcom:bcm2710a1:raspberrypi_0_2w",
+        "broadcom:bcm2711:raspberrypi_4b",
+        "broadcom:bcm2712:raspberrypi_5",
+        "nvidia:tegra234:jetson_agx_orin",
+        "nvidia:tegra234:jetson_orin_nano",
+        "nvidia:tegra234:jetson_orin_nx"
+      ],
+      "asyncBridge": false,
+      "raspberryPiDocs": false,
+      "install": "python3 -m pip install redis",
+      "homepage": "https://redis.readthedocs.io/",
+      "notesEn": "redis-py is exposed through an explicit CPython API allowlist.",
+      "notesZh": "redis-py 通过显式 CPython API 白名单提供积木。",
+      "callables": [
+        "Redis",
+        "StrictRedis",
+        "from_url"
+      ],
+      "methods": [
+        "get",
+        "set",
+        "delete",
+        "incr",
+        "decr",
+        "publish",
+        "subscribe",
+        "hset",
+        "hget",
+        "lpush",
+        "rpop",
+        "scan_iter",
+        "ping",
+        "close"
+      ],
+      "attributes": [
+        "connection_pool"
+      ]
+    },
+    {
+      "id": "rpi_buildhat",
+      "title": "Build HAT",
+      "blockPrefix": "rpi_buildhat",
+      "pip": "buildhat",
+      "module": "buildhat",
+      "category": "raspberry-pi",
+      "compatibility": "rpi",
+      "boardTypes": [
+        "broadcom:bcm2710a1:raspberrypi_0_2w",
+        "broadcom:bcm2711:raspberrypi_4b",
+        "broadcom:bcm2712:raspberrypi_5"
+      ],
+      "asyncBridge": false,
+      "raspberryPiDocs": true,
+      "install": "sudo apt install python3-build-hat",
+      "homepage": "https://www.raspberrypi.com/documentation/accessories/build-hat.html",
+      "notesEn": "Build HAT is exposed through an explicit CPython API allowlist.",
+      "notesZh": "Build HAT 通过显式 CPython API 白名单提供积木。",
+      "callables": [
+        "Motor",
+        "MotorPair",
+        "ColorSensor",
+        "DistanceSensor",
+        "ForceSensor",
+        "Matrix",
+        "Light"
+      ],
+      "methods": [
+        "run_for_seconds",
+        "run_for_degrees",
+        "start",
+        "stop",
+        "get_aposition",
+        "get_color",
+        "get_distance",
+        "get_force",
+        "on",
+        "off"
+      ],
+      "attributes": [
+        "position",
+        "when_pressed",
+        "when_released"
+      ]
+    },
+    {
+      "id": "rpi_hardware_pwm",
+      "title": "Raspberry Pi Hardware PWM",
+      "blockPrefix": "rpi_hardware_pwm",
+      "pip": "rpi-hardware-pwm",
+      "module": "rpi_hardware_pwm",
+      "category": "actuators",
+      "compatibility": "rpi",
+      "boardTypes": [
+        "broadcom:bcm2710a1:raspberrypi_0_2w",
+        "broadcom:bcm2711:raspberrypi_4b",
+        "broadcom:bcm2712:raspberrypi_5"
+      ],
+      "asyncBridge": false,
+      "raspberryPiDocs": true,
+      "install": "python3 -m pip install rpi-hardware-pwm",
+      "homepage": "https://github.com/Pioreactor/rpi_hardware_pwm",
+      "notesEn": "Raspberry Pi Hardware PWM is exposed through an explicit CPython API allowlist.",
+      "notesZh": "Raspberry Pi Hardware PWM 通过显式 CPython API 白名单提供积木。",
+      "callables": [
+        "HardwarePWM"
+      ],
+      "methods": [
+        "start",
+        "stop",
+        "change_duty_cycle",
+        "change_frequency"
+      ],
+      "attributes": [
+        "duty_cycle",
+        "frequency_hz",
+        "pwm_channel",
+        "chip"
+      ]
+    },
+    {
+      "id": "rpi_imx500",
+      "title": "Raspberry Pi IMX500",
+      "blockPrefix": "rpi_imx500",
+      "pip": "imx500-all",
+      "module": "picamera2.devices.imx500",
+      "category": "raspberry-pi",
+      "compatibility": "rpi",
+      "boardTypes": [
+        "broadcom:bcm2710a1:raspberrypi_0_2w",
+        "broadcom:bcm2711:raspberrypi_4b",
+        "broadcom:bcm2712:raspberrypi_5"
+      ],
+      "asyncBridge": false,
+      "raspberryPiDocs": true,
+      "install": "sudo apt install imx500-all python3-picamera2",
+      "homepage": "https://www.raspberrypi.com/documentation/accessories/ai-camera.html",
+      "notesEn": "Raspberry Pi IMX500 is exposed through an explicit CPython API allowlist.",
+      "notesZh": "Raspberry Pi IMX500 通过显式 CPython API 白名单提供积木。",
+      "callables": [
+        "IMX500",
+        "NetworkIntrinsics",
+        "postprocess_nanodet_detection",
+        "softmax"
+      ],
+      "methods": [
+        "get_outputs",
+        "get_output_shapes",
+        "get_input_size",
+        "convert_inference_coords",
+        "set_inference_roi_abs",
+        "set_inference_aspect_ratio",
+        "set_auto_aspect_ratio",
+        "show_network_fw_progress_bar",
+        "get_kpi_info",
+        "update_with_defaults"
+      ],
+      "attributes": [
+        "camera_num",
+        "config",
+        "network_intrinsics",
+        "task",
+        "inference_rate",
+        "labels",
+        "bbox_normalization",
+        "bbox_order",
+        "preserve_aspect_ratio",
+        "postprocess",
+        "softmax"
+      ]
+    },
+    {
+      "id": "rpi_lgpio",
+      "title": "rpi-lgpio",
+      "blockPrefix": "rpi_lgpio",
+      "pip": "rpi-lgpio",
+      "module": "RPi.GPIO",
+      "category": "raspberry-pi",
+      "compatibility": "rpi",
+      "boardTypes": [
+        "broadcom:bcm2710a1:raspberrypi_0_2w",
+        "broadcom:bcm2711:raspberrypi_4b",
+        "broadcom:bcm2712:raspberrypi_5"
+      ],
+      "asyncBridge": false,
+      "raspberryPiDocs": true,
+      "install": "python3 -m pip install rpi-lgpio",
+      "homepage": "https://rpi-lgpio.readthedocs.io/en/latest/",
+      "notesEn": "rpi-lgpio is exposed through an explicit CPython API allowlist.",
+      "notesZh": "rpi-lgpio 通过显式 CPython API 白名单提供积木。",
+      "callables": [
+        "setmode",
+        "setup",
+        "input",
+        "output",
+        "cleanup",
+        "PWM",
+        "add_event_detect",
+        "wait_for_edge"
+      ],
+      "methods": [
+        "start",
+        "stop",
+        "ChangeDutyCycle",
+        "ChangeFrequency"
+      ],
+      "attributes": [
+        "BCM",
+        "BOARD",
+        "IN",
+        "OUT",
+        "HIGH",
+        "LOW",
+        "RISING",
+        "FALLING",
+        "BOTH"
+      ]
+    },
+    {
+      "id": "rpi_sense_emu",
+      "title": "Sense HAT Emulator",
+      "blockPrefix": "rpi_sense_emu",
+      "pip": "sense-emu",
+      "module": "sense_emu",
+      "category": "raspberry-pi",
+      "compatibility": "rpi",
+      "boardTypes": [
+        "broadcom:bcm2710a1:raspberrypi_0_2w",
+        "broadcom:bcm2711:raspberrypi_4b",
+        "broadcom:bcm2712:raspberrypi_5"
+      ],
+      "asyncBridge": false,
+      "raspberryPiDocs": true,
+      "install": "python3 -m pip install sense-emu",
+      "homepage": "https://sense-emu.readthedocs.io/",
+      "notesEn": "Sense HAT Emulator is exposed through an explicit CPython API allowlist.",
+      "notesZh": "Sense HAT Emulator 通过显式 CPython API 白名单提供积木。",
+      "callables": [
+        "SenseHat"
+      ],
+      "methods": [
+        "show_message",
+        "show_letter",
+        "clear",
+        "set_pixel",
+        "get_pixel",
+        "set_pixels",
+        "get_pixels",
+        "get_temperature",
+        "get_humidity",
+        "get_pressure",
+        "get_orientation"
+      ],
+      "attributes": [
+        "low_light",
+        "rotation",
+        "gamma",
+        "stick"
+      ]
+    },
+    {
+      "id": "rpi_sense_hat",
+      "title": "Sense HAT",
+      "blockPrefix": "rpi_sense_hat",
+      "pip": "sense-hat",
+      "module": "sense_hat",
+      "category": "raspberry-pi",
+      "compatibility": "rpi",
+      "boardTypes": [
+        "broadcom:bcm2710a1:raspberrypi_0_2w",
+        "broadcom:bcm2711:raspberrypi_4b",
+        "broadcom:bcm2712:raspberrypi_5"
+      ],
+      "asyncBridge": false,
+      "raspberryPiDocs": true,
+      "install": "sudo apt install sense-hat",
+      "homepage": "https://www.raspberrypi.com/documentation/accessories/sense-hat.html",
+      "notesEn": "Sense HAT is exposed through an explicit CPython API allowlist.",
+      "notesZh": "Sense HAT 通过显式 CPython API 白名单提供积木。",
+      "callables": [
+        "SenseHat"
+      ],
+      "methods": [
+        "show_message",
+        "show_letter",
+        "clear",
+        "set_pixel",
+        "get_pixel",
+        "set_pixels",
+        "get_pixels",
+        "get_temperature",
+        "get_humidity",
+        "get_pressure",
+        "get_orientation",
+        "get_accelerometer_raw",
+        "get_gyroscope_raw"
+      ],
+      "attributes": [
+        "low_light",
+        "rotation",
+        "gamma",
+        "stick"
+      ]
+    },
+    {
+      "id": "rplcd",
+      "title": "RPLCD",
+      "blockPrefix": "python_rplcd",
+      "pip": "RPLCD",
+      "module": "RPLCD.i2c",
+      "category": "display",
+      "compatibility": "linux",
+      "boardTypes": [
+        "allwinner:t527:walnutpi_2b",
+        "broadcom:bcm2710a1:raspberrypi_0_2w",
+        "broadcom:bcm2711:raspberrypi_4b",
+        "broadcom:bcm2712:raspberrypi_5",
+        "nvidia:tegra234:jetson_agx_orin",
+        "nvidia:tegra234:jetson_orin_nano",
+        "nvidia:tegra234:jetson_orin_nx"
+      ],
+      "asyncBridge": false,
+      "raspberryPiDocs": false,
+      "install": "python3 -m pip install RPLCD",
+      "homepage": "https://rplcd.readthedocs.io/",
+      "notesEn": "RPLCD is exposed through an explicit CPython API allowlist.",
+      "notesZh": "RPLCD 通过显式 CPython API 白名单提供积木。",
+      "callables": [
+        "CharLCD"
+      ],
+      "methods": [
+        "write_string",
+        "clear",
+        "create_char",
+        "home",
+        "close"
+      ],
+      "attributes": [
+        "cursor_pos",
+        "backlight_enabled",
+        "cursor_mode",
+        "display_enabled"
+      ]
+    },
+    {
+      "id": "rtimulib",
+      "title": "RTIMULib",
+      "blockPrefix": "rpi_rtimulib",
+      "pip": "RTIMULib",
+      "module": "RTIMU",
+      "category": "raspberry-pi",
+      "compatibility": "rpi",
+      "boardTypes": [
+        "broadcom:bcm2710a1:raspberrypi_0_2w",
+        "broadcom:bcm2711:raspberrypi_4b",
+        "broadcom:bcm2712:raspberrypi_5"
+      ],
+      "asyncBridge": false,
+      "raspberryPiDocs": true,
+      "install": "sudo apt install python3-rtimulib",
+      "homepage": "https://github.com/RPi-Distro/RTIMULib",
+      "notesEn": "RTIMULib is exposed through an explicit CPython API allowlist.",
+      "notesZh": "RTIMULib 通过显式 CPython API 白名单提供积木。",
+      "callables": [
+        "Settings",
+        "RTIMU",
+        "RTPressure",
+        "RTHumidity"
+      ],
+      "methods": [
+        "IMUInit",
+        "IMURead",
+        "getIMUData",
+        "IMUGetPollInterval",
+        "pressureInit",
+        "pressureRead",
+        "humidityInit",
+        "humidityRead"
+      ],
+      "attributes": []
+    },
+    {
+      "id": "scapy",
+      "title": "Scapy",
+      "blockPrefix": "python_scapy",
+      "pip": "scapy",
+      "module": "scapy.all",
+      "category": "network",
+      "compatibility": "linux",
+      "boardTypes": [
+        "allwinner:t527:walnutpi_2b",
+        "broadcom:bcm2710a1:raspberrypi_0_2w",
+        "broadcom:bcm2711:raspberrypi_4b",
+        "broadcom:bcm2712:raspberrypi_5",
+        "nvidia:tegra234:jetson_agx_orin",
+        "nvidia:tegra234:jetson_orin_nano",
+        "nvidia:tegra234:jetson_orin_nx"
+      ],
+      "asyncBridge": false,
+      "raspberryPiDocs": false,
+      "install": "python3 -m pip install scapy",
+      "homepage": "https://scapy.readthedocs.io/",
+      "notesEn": "Scapy is exposed through an explicit CPython API allowlist.",
+      "notesZh": "Scapy 通过显式 CPython API 白名单提供积木。",
+      "callables": [
+        "sniff",
+        "send",
+        "sendp",
+        "sr",
+        "sr1",
+        "rdpcap",
+        "wrpcap",
+        "Ether",
+        "IP",
+        "IPv6",
+        "TCP",
+        "UDP",
+        "ARP",
+        "ICMP",
+        "Raw"
+      ],
+      "methods": [
+        "show",
+        "summary",
+        "haslayer",
+        "getlayer",
+        "sprintf"
+      ],
+      "attributes": [
+        "src",
+        "dst",
+        "sport",
+        "dport",
+        "payload",
+        "time"
+      ]
+    },
+    {
+      "id": "schedule",
+      "title": "schedule",
+      "blockPrefix": "python_schedule",
+      "pip": "schedule",
+      "module": "schedule",
+      "category": "system",
+      "compatibility": "linux",
+      "boardTypes": [
+        "allwinner:t527:walnutpi_2b",
+        "broadcom:bcm2710a1:raspberrypi_0_2w",
+        "broadcom:bcm2711:raspberrypi_4b",
+        "broadcom:bcm2712:raspberrypi_5",
+        "nvidia:tegra234:jetson_agx_orin",
+        "nvidia:tegra234:jetson_orin_nano",
+        "nvidia:tegra234:jetson_orin_nx"
+      ],
+      "asyncBridge": false,
+      "raspberryPiDocs": false,
+      "install": "python3 -m pip install schedule",
+      "homepage": "https://schedule.readthedocs.io/",
+      "notesEn": "schedule is exposed through an explicit CPython API allowlist.",
+      "notesZh": "schedule 通过显式 CPython API 白名单提供积木。",
+      "callables": [
+        "every",
+        "run_pending",
+        "run_all",
+        "clear",
+        "cancel_job",
+        "get_jobs",
+        "idle_seconds",
+        "repeat"
+      ],
+      "methods": [
+        "at",
+        "until",
+        "to",
+        "do",
+        "tag"
+      ],
+      "attributes": [
+        "next_run",
+        "period",
+        "unit",
+        "latest",
+        "start_day",
+        "tags",
+        "seconds",
+        "minutes",
+        "hours",
+        "days",
+        "weeks",
+        "monday",
+        "tuesday",
+        "wednesday",
+        "thursday",
+        "friday",
+        "saturday",
+        "sunday"
+      ]
+    },
+    {
+      "id": "scikit_image",
+      "title": "scikit-image I/O",
+      "blockPrefix": "python_scikit_image",
+      "pip": "scikit-image",
+      "module": "skimage.io",
+      "category": "vision-ai",
+      "compatibility": "linux",
+      "boardTypes": [
+        "allwinner:t527:walnutpi_2b",
+        "broadcom:bcm2710a1:raspberrypi_0_2w",
+        "broadcom:bcm2711:raspberrypi_4b",
+        "broadcom:bcm2712:raspberrypi_5",
+        "nvidia:tegra234:jetson_agx_orin",
+        "nvidia:tegra234:jetson_orin_nano",
+        "nvidia:tegra234:jetson_orin_nx"
+      ],
+      "asyncBridge": false,
+      "raspberryPiDocs": false,
+      "install": "python3 -m pip install scikit-image",
+      "homepage": "https://scikit-image.org/docs/stable/",
+      "notesEn": "scikit-image I/O is exposed through an explicit CPython API allowlist.",
+      "notesZh": "scikit-image I/O 通过显式 CPython API 白名单提供积木。",
+      "callables": [
+        "imread",
+        "imsave",
+        "imshow",
+        "show",
+        "imread_collection",
+        "concatenate_images"
+      ],
+      "methods": [
+        "reload",
+        "concatenate"
+      ],
+      "attributes": [
+        "shape",
+        "dtype",
+        "ndim",
+        "size"
+      ]
+    },
+    {
+      "id": "scipy",
+      "title": "SciPy Signal",
+      "blockPrefix": "python_scipy",
+      "pip": "scipy",
+      "module": "scipy.signal",
+      "category": "data-science",
+      "compatibility": "linux",
+      "boardTypes": [
+        "allwinner:t527:walnutpi_2b",
+        "broadcom:bcm2710a1:raspberrypi_0_2w",
+        "broadcom:bcm2711:raspberrypi_4b",
+        "broadcom:bcm2712:raspberrypi_5",
+        "nvidia:tegra234:jetson_agx_orin",
+        "nvidia:tegra234:jetson_orin_nano",
+        "nvidia:tegra234:jetson_orin_nx"
+      ],
+      "asyncBridge": false,
+      "raspberryPiDocs": false,
+      "install": "python3 -m pip install scipy",
+      "homepage": "https://docs.scipy.org/doc/scipy/",
+      "notesEn": "SciPy Signal is exposed through an explicit CPython API allowlist.",
+      "notesZh": "SciPy Signal 通过显式 CPython API 白名单提供积木。",
+      "callables": [
+        "butter",
+        "sosfilt",
+        "sosfiltfilt",
+        "filtfilt",
+        "find_peaks",
+        "welch",
+        "periodogram",
+        "convolve",
+        "correlate",
+        "resample",
+        "spectrogram",
+        "stft",
+        "istft"
+      ],
+      "methods": [],
+      "attributes": [
+        "shape",
+        "dtype",
+        "ndim",
+        "size"
+      ]
+    },
+    {
+      "id": "sounddevice",
+      "title": "python-sounddevice",
+      "blockPrefix": "python_sounddevice",
+      "pip": "sounddevice",
+      "module": "sounddevice",
+      "category": "audio",
+      "compatibility": "linux",
+      "boardTypes": [
+        "allwinner:t527:walnutpi_2b",
+        "broadcom:bcm2710a1:raspberrypi_0_2w",
+        "broadcom:bcm2711:raspberrypi_4b",
+        "broadcom:bcm2712:raspberrypi_5",
+        "nvidia:tegra234:jetson_agx_orin",
+        "nvidia:tegra234:jetson_orin_nano",
+        "nvidia:tegra234:jetson_orin_nx"
+      ],
+      "asyncBridge": false,
+      "raspberryPiDocs": false,
+      "install": "python3 -m pip install sounddevice",
+      "homepage": "https://python-sounddevice.readthedocs.io/",
+      "notesEn": "python-sounddevice is exposed through an explicit CPython API allowlist.",
+      "notesZh": "python-sounddevice 通过显式 CPython API 白名单提供积木。",
+      "callables": [
+        "play",
+        "rec",
+        "playrec",
+        "wait",
+        "stop",
+        "query_devices",
+        "query_hostapis",
+        "InputStream",
+        "OutputStream",
+        "Stream"
+      ],
+      "methods": [
+        "start",
+        "stop",
+        "abort",
+        "close",
+        "read",
+        "write"
+      ],
+      "attributes": [
+        "active",
+        "closed",
+        "latency",
+        "samplerate",
+        "channels",
+        "dtype"
+      ]
+    },
+    {
+      "id": "soundfile",
+      "title": "SoundFile",
+      "blockPrefix": "python_soundfile",
+      "pip": "soundfile",
+      "module": "soundfile",
+      "category": "audio",
+      "compatibility": "linux",
+      "boardTypes": [
+        "allwinner:t527:walnutpi_2b",
+        "broadcom:bcm2710a1:raspberrypi_0_2w",
+        "broadcom:bcm2711:raspberrypi_4b",
+        "broadcom:bcm2712:raspberrypi_5",
+        "nvidia:tegra234:jetson_agx_orin",
+        "nvidia:tegra234:jetson_orin_nano",
+        "nvidia:tegra234:jetson_orin_nx"
+      ],
+      "asyncBridge": false,
+      "raspberryPiDocs": false,
+      "install": "python3 -m pip install soundfile",
+      "homepage": "https://python-soundfile.readthedocs.io/",
+      "notesEn": "SoundFile is exposed through an explicit CPython API allowlist.",
+      "notesZh": "SoundFile 通过显式 CPython API 白名单提供积木。",
+      "callables": [
+        "read",
+        "write",
+        "blocks",
+        "info",
+        "SoundFile"
+      ],
+      "methods": [
+        "read",
+        "write",
+        "seek",
+        "tell",
+        "flush",
+        "close",
+        "blocks"
+      ],
+      "attributes": [
+        "samplerate",
+        "channels",
+        "frames",
+        "format",
+        "subtype",
+        "closed"
+      ]
+    },
+    {
+      "id": "speech_recognition",
+      "title": "SpeechRecognition",
+      "blockPrefix": "python_speech_recognition",
+      "pip": "SpeechRecognition",
+      "module": "speech_recognition",
+      "category": "audio",
+      "compatibility": "linux",
+      "boardTypes": [
+        "allwinner:t527:walnutpi_2b",
+        "broadcom:bcm2710a1:raspberrypi_0_2w",
+        "broadcom:bcm2711:raspberrypi_4b",
+        "broadcom:bcm2712:raspberrypi_5",
+        "nvidia:tegra234:jetson_agx_orin",
+        "nvidia:tegra234:jetson_orin_nano",
+        "nvidia:tegra234:jetson_orin_nx"
+      ],
+      "asyncBridge": false,
+      "raspberryPiDocs": false,
+      "install": "python3 -m pip install SpeechRecognition",
+      "homepage": "https://github.com/Uberi/speech_recognition",
+      "notesEn": "SpeechRecognition is exposed through an explicit CPython API allowlist.",
+      "notesZh": "SpeechRecognition 通过显式 CPython API 白名单提供积木。",
+      "callables": [
+        "Recognizer",
+        "Microphone",
+        "AudioFile"
+      ],
+      "methods": [
+        "listen",
+        "record",
+        "adjust_for_ambient_noise",
+        "recognize_google",
+        "recognize_sphinx",
+        "recognize_vosk",
+        "recognize_whisper"
+      ],
+      "attributes": [
+        "energy_threshold",
+        "dynamic_energy_threshold",
+        "pause_threshold",
+        "phrase_threshold",
+        "non_speaking_duration"
+      ]
+    },
+    {
+      "id": "tensorrt",
+      "title": "NVIDIA TensorRT",
+      "blockPrefix": "nvidia_tensorrt",
+      "pip": "tensorrt",
+      "module": "tensorrt",
+      "category": "jetson",
+      "compatibility": "jetson",
+      "boardTypes": [
+        "nvidia:tegra234:jetson_agx_orin",
+        "nvidia:tegra234:jetson_orin_nano",
+        "nvidia:tegra234:jetson_orin_nx"
+      ],
+      "asyncBridge": false,
+      "raspberryPiDocs": false,
+      "install": "install the TensorRT Python bindings supplied with NVIDIA JetPack",
+      "homepage": "https://docs.nvidia.com/deeplearning/tensorrt/latest/api/python-api.html",
+      "notesEn": "NVIDIA TensorRT is exposed through an explicit CPython API allowlist.",
+      "notesZh": "NVIDIA TensorRT 通过显式 CPython API 白名单提供积木。",
+      "callables": [
+        "Logger",
+        "Runtime",
+        "Builder",
+        "OnnxParser",
+        "Refitter",
+        "volume",
+        "nptype",
+        "init_libnvinfer_plugins",
+        "get_plugin_registry"
+      ],
+      "methods": [
+        "deserialize_cuda_engine",
+        "create_execution_context",
+        "create_network",
+        "create_builder_config",
+        "build_serialized_network",
+        "parse",
+        "parse_from_file",
+        "set_input_shape",
+        "set_tensor_address",
+        "execute_async_v3",
+        "get_tensor_shape",
+        "get_tensor_name",
+        "get_tensor_mode"
+      ],
+      "attributes": [
+        "__version__",
+        "Logger.WARNING",
+        "Logger.ERROR",
+        "Logger.INFO",
+        "NetworkDefinitionCreationFlag.EXPLICIT_BATCH",
+        "TensorIOMode.INPUT",
+        "TensorIOMode.OUTPUT",
+        "float32",
+        "float16",
+        "int8",
+        "int32",
+        "bool",
+        "bfloat16"
+      ]
+    },
+    {
+      "id": "tflite_runtime",
+      "title": "LiteRT / TFLite Runtime",
+      "blockPrefix": "python_tflite_runtime",
+      "pip": "tflite-runtime",
+      "module": "tflite_runtime.interpreter",
+      "category": "vision-ai",
+      "compatibility": "linux",
+      "boardTypes": [
+        "allwinner:t527:walnutpi_2b",
+        "broadcom:bcm2710a1:raspberrypi_0_2w",
+        "broadcom:bcm2711:raspberrypi_4b",
+        "broadcom:bcm2712:raspberrypi_5",
+        "nvidia:tegra234:jetson_agx_orin",
+        "nvidia:tegra234:jetson_orin_nano",
+        "nvidia:tegra234:jetson_orin_nx"
+      ],
+      "asyncBridge": false,
+      "raspberryPiDocs": false,
+      "install": "python3 -m pip install tflite-runtime",
+      "homepage": "https://ai.google.dev/edge/litert",
+      "notesEn": "LiteRT / TFLite Runtime is exposed through an explicit CPython API allowlist.",
+      "notesZh": "LiteRT / TFLite Runtime 通过显式 CPython API 白名单提供积木。",
+      "callables": [
+        "Interpreter",
+        "load_delegate"
+      ],
+      "methods": [
+        "allocate_tensors",
+        "get_input_details",
+        "get_output_details",
+        "set_tensor",
+        "get_tensor",
+        "invoke",
+        "resize_tensor_input",
+        "get_signature_runner"
+      ],
+      "attributes": []
+    },
+    {
+      "id": "torchvision",
+      "title": "TorchVision",
+      "blockPrefix": "torchvision",
+      "pip": "torchvision",
+      "module": "torchvision",
+      "category": "vision-ai",
+      "compatibility": "jetson",
+      "boardTypes": [
+        "nvidia:tegra234:jetson_agx_orin",
+        "nvidia:tegra234:jetson_orin_nano",
+        "nvidia:tegra234:jetson_orin_nx"
+      ],
+      "asyncBridge": false,
+      "raspberryPiDocs": false,
+      "install": "python3 -m pip install torchvision",
+      "homepage": "https://pytorch.org/vision/stable/",
+      "notesEn": "TorchVision is exposed through an explicit CPython API allowlist.",
+      "notesZh": "TorchVision 通过显式 CPython API 白名单提供积木。",
+      "callables": [
+        "models.resnet18",
+        "models.resnet50",
+        "models.mobilenet_v3_small",
+        "models.mobilenet_v3_large",
+        "models.detection.fasterrcnn_resnet50_fpn",
+        "transforms.Compose",
+        "transforms.Resize",
+        "transforms.CenterCrop",
+        "transforms.ToTensor",
+        "transforms.Normalize",
+        "io.read_image",
+        "io.write_jpeg",
+        "ops.nms",
+        "ops.box_iou"
+      ],
+      "methods": [
+        "to",
+        "cpu",
+        "cuda",
+        "eval",
+        "train",
+        "forward"
+      ],
+      "attributes": [
+        "__version__"
+      ]
+    },
+    {
+      "id": "ultralytics",
+      "title": "Ultralytics",
+      "blockPrefix": "python_ultralytics",
+      "pip": "ultralytics",
+      "module": "ultralytics",
+      "category": "vision-ai",
+      "compatibility": "linux",
+      "boardTypes": [
+        "allwinner:t527:walnutpi_2b",
+        "broadcom:bcm2710a1:raspberrypi_0_2w",
+        "broadcom:bcm2711:raspberrypi_4b",
+        "broadcom:bcm2712:raspberrypi_5",
+        "nvidia:tegra234:jetson_agx_orin",
+        "nvidia:tegra234:jetson_orin_nano",
+        "nvidia:tegra234:jetson_orin_nx"
+      ],
+      "asyncBridge": false,
+      "raspberryPiDocs": false,
+      "install": "python3 -m pip install ultralytics",
+      "homepage": "https://docs.ultralytics.com/",
+      "notesEn": "Ultralytics is exposed through an explicit CPython API allowlist.",
+      "notesZh": "Ultralytics 通过显式 CPython API 白名单提供积木。",
+      "callables": [
+        "YOLO",
+        "RTDETR",
+        "SAM",
+        "FastSAM",
+        "NAS"
+      ],
+      "methods": [
+        "train",
+        "val",
+        "predict",
+        "export",
+        "track",
+        "benchmark"
+      ],
+      "attributes": [
+        "names",
+        "model",
+        "overrides",
+        "callbacks"
+      ]
+    },
+    {
+      "id": "uvicorn",
+      "title": "Uvicorn",
+      "blockPrefix": "python_uvicorn",
+      "pip": "uvicorn",
+      "module": "uvicorn",
+      "category": "network",
+      "compatibility": "linux",
+      "boardTypes": [
+        "allwinner:t527:walnutpi_2b",
+        "broadcom:bcm2710a1:raspberrypi_0_2w",
+        "broadcom:bcm2711:raspberrypi_4b",
+        "broadcom:bcm2712:raspberrypi_5",
+        "nvidia:tegra234:jetson_agx_orin",
+        "nvidia:tegra234:jetson_orin_nano",
+        "nvidia:tegra234:jetson_orin_nx"
+      ],
+      "asyncBridge": false,
+      "raspberryPiDocs": false,
+      "install": "python3 -m pip install uvicorn",
+      "homepage": "https://www.uvicorn.org/",
+      "notesEn": "Uvicorn is exposed through an explicit CPython API allowlist.",
+      "notesZh": "Uvicorn 通过显式 CPython API 白名单提供积木。",
+      "callables": [
+        "run",
+        "Config",
+        "Server"
+      ],
+      "methods": [
+        "run"
+      ],
+      "attributes": [
+        "started",
+        "should_exit",
+        "force_exit",
+        "config"
+      ]
+    },
+    {
+      "id": "vosk",
+      "title": "Vosk",
+      "blockPrefix": "python_vosk",
+      "pip": "vosk",
+      "module": "vosk",
+      "category": "audio",
+      "compatibility": "linux",
+      "boardTypes": [
+        "allwinner:t527:walnutpi_2b",
+        "broadcom:bcm2710a1:raspberrypi_0_2w",
+        "broadcom:bcm2711:raspberrypi_4b",
+        "broadcom:bcm2712:raspberrypi_5",
+        "nvidia:tegra234:jetson_agx_orin",
+        "nvidia:tegra234:jetson_orin_nano",
+        "nvidia:tegra234:jetson_orin_nx"
+      ],
+      "asyncBridge": false,
+      "raspberryPiDocs": false,
+      "install": "python3 -m pip install vosk",
+      "homepage": "https://alphacephei.com/vosk/",
+      "notesEn": "Vosk is exposed through an explicit CPython API allowlist.",
+      "notesZh": "Vosk 通过显式 CPython API 白名单提供积木。",
+      "callables": [
+        "Model",
+        "KaldiRecognizer",
+        "SetLogLevel",
+        "SpkModel"
+      ],
+      "methods": [
+        "AcceptWaveform",
+        "Result",
+        "PartialResult",
+        "FinalResult",
+        "Reset",
+        "SetWords",
+        "SetPartialWords",
+        "SetGrammar"
+      ],
+      "attributes": []
+    },
+    {
+      "id": "w1thermsensor",
+      "title": "W1ThermSensor",
+      "blockPrefix": "python_w1thermsensor",
+      "pip": "w1thermsensor",
+      "module": "w1thermsensor",
+      "category": "sensors",
+      "compatibility": "rpi",
+      "boardTypes": [
+        "broadcom:bcm2710a1:raspberrypi_0_2w",
+        "broadcom:bcm2711:raspberrypi_4b",
+        "broadcom:bcm2712:raspberrypi_5"
+      ],
+      "asyncBridge": false,
+      "raspberryPiDocs": true,
+      "install": "python3 -m pip install w1thermsensor",
+      "homepage": "https://github.com/timofurrer/w1thermsensor",
+      "notesEn": "W1ThermSensor is exposed through an explicit CPython API allowlist.",
+      "notesZh": "W1ThermSensor 通过显式 CPython API 白名单提供积木。",
+      "callables": [
+        "W1ThermSensor",
+        "Unit"
+      ],
+      "methods": [
+        "get_temperature",
+        "get_temperatures",
+        "get_sensor",
+        "get_available_sensors"
+      ],
+      "attributes": [
+        "id",
+        "type",
+        "slave_file"
+      ]
+    },
+    {
+      "id": "watchdog",
+      "title": "watchdog Observer",
+      "blockPrefix": "linux_watchdog",
+      "pip": "watchdog",
+      "module": "watchdog.observers",
+      "category": "system",
+      "compatibility": "linux",
+      "boardTypes": [
+        "allwinner:t527:walnutpi_2b",
+        "broadcom:bcm2710a1:raspberrypi_0_2w",
+        "broadcom:bcm2711:raspberrypi_4b",
+        "broadcom:bcm2712:raspberrypi_5",
+        "nvidia:tegra234:jetson_agx_orin",
+        "nvidia:tegra234:jetson_orin_nano",
+        "nvidia:tegra234:jetson_orin_nx"
+      ],
+      "asyncBridge": false,
+      "raspberryPiDocs": false,
+      "install": "python3 -m pip install watchdog",
+      "homepage": "https://python-watchdog.readthedocs.io/",
+      "notesEn": "watchdog Observer is exposed through an explicit CPython API allowlist.",
+      "notesZh": "watchdog Observer 通过显式 CPython API 白名单提供积木。",
+      "callables": [
+        "Observer",
+        "LoggingEventHandler",
+        "FileSystemEventHandler",
+        "PatternMatchingEventHandler"
+      ],
+      "methods": [
+        "schedule",
+        "start",
+        "stop",
+        "join",
+        "unschedule",
+        "unschedule_all",
+        "is_alive"
+      ],
+      "attributes": [
+        "daemon",
+        "name"
+      ]
+    },
+    {
+      "id": "websockets",
+      "title": "websockets",
+      "blockPrefix": "python_websockets",
+      "pip": "websockets",
+      "module": "websockets",
+      "category": "network",
+      "compatibility": "linux",
+      "boardTypes": [
+        "allwinner:t527:walnutpi_2b",
+        "broadcom:bcm2710a1:raspberrypi_0_2w",
+        "broadcom:bcm2711:raspberrypi_4b",
+        "broadcom:bcm2712:raspberrypi_5",
+        "nvidia:tegra234:jetson_agx_orin",
+        "nvidia:tegra234:jetson_orin_nano",
+        "nvidia:tegra234:jetson_orin_nx"
+      ],
+      "asyncBridge": true,
+      "raspberryPiDocs": false,
+      "install": "python3 -m pip install websockets",
+      "homepage": "https://websockets.readthedocs.io/",
+      "notesEn": "websockets is exposed through an explicit CPython API allowlist.",
+      "notesZh": "websockets 通过显式 CPython API 白名单提供积木。",
+      "callables": [
+        "connect",
+        "serve",
+        "broadcast"
+      ],
+      "methods": [
+        "send",
+        "recv",
+        "close",
+        "ping",
+        "pong",
+        "wait_closed"
+      ],
+      "attributes": [
+        "remote_address",
+        "local_address",
+        "state",
+        "close_code",
+        "close_reason",
+        "subprotocol",
+        "latency",
+        "request",
+        "response"
+      ]
+    },
+    {
+      "id": "zeroconf",
+      "title": "python-zeroconf",
+      "blockPrefix": "python_zeroconf",
+      "pip": "zeroconf",
+      "module": "zeroconf",
+      "category": "network",
+      "compatibility": "linux",
+      "boardTypes": [
+        "allwinner:t527:walnutpi_2b",
+        "broadcom:bcm2710a1:raspberrypi_0_2w",
+        "broadcom:bcm2711:raspberrypi_4b",
+        "broadcom:bcm2712:raspberrypi_5",
+        "nvidia:tegra234:jetson_agx_orin",
+        "nvidia:tegra234:jetson_orin_nano",
+        "nvidia:tegra234:jetson_orin_nx"
+      ],
+      "asyncBridge": false,
+      "raspberryPiDocs": false,
+      "install": "python3 -m pip install zeroconf",
+      "homepage": "https://python-zeroconf.readthedocs.io/",
+      "notesEn": "python-zeroconf is exposed through an explicit CPython API allowlist.",
+      "notesZh": "python-zeroconf 通过显式 CPython API 白名单提供积木。",
+      "callables": [
+        "Zeroconf",
+        "ServiceInfo",
+        "ServiceBrowser",
+        "ServiceStateChange"
+      ],
+      "methods": [
+        "register_service",
+        "update_service",
+        "unregister_service",
+        "unregister_all_services",
+        "close",
+        "get_service_info",
+        "add_service_listener"
+      ],
+      "attributes": [
+        "name",
+        "type",
+        "addresses",
+        "port",
+        "properties",
+        "server"
+      ]
+    }
+  ]
+}

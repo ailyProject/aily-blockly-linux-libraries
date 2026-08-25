@@ -1,6 +1,7 @@
 {
   "kind": "category",
   "name": "RTIMULib",
+  "icon": "fa-light fa-compass",
   "colour": "#C51A4A",
   "contents": [
     {

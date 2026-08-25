@@ -1,0 +1,139 @@
+{
+  "toolbox_name": "JSON",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_json_dumps": {
+    "message0": "JSON text from %1 characters %2 indentation %3 keys %4",
+    "tooltip": "Serialize a Python value to JSON text. Unsupported values raise TypeError.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "keep UTF-8 characters",
+            "FALSE"
+          ],
+          [
+            "escape as ASCII",
+            "TRUE"
+          ]
+        ]
+      },
+      {
+        "options": [
+          [
+            "compact",
+            "NONE"
+          ],
+          [
+            "2 spaces",
+            "TWO"
+          ],
+          [
+            "4 spaces",
+            "FOUR"
+          ]
+        ]
+      },
+      {
+        "options": [
+          [
+            "keep insertion order",
+            "FALSE"
+          ],
+          [
+            "sort keys",
+            "TRUE"
+          ]
+        ]
+      }
+    ]
+  },
+  "python_json_loads": {
+    "message0": "value from JSON text %1",
+    "tooltip": "Parse JSON text, bytes, or bytearray. Malformed input raises JSONDecodeError.",
+    "args0": [
+      null
+    ]
+  },
+  "python_json_read_file": {
+    "message0": "read UTF-8 JSON file %1",
+    "tooltip": "Read and parse one UTF-8 JSON file while preserving file and decode exceptions.",
+    "args0": [
+      null
+    ]
+  },
+  "python_json_write_file": {
+    "message0": "write UTF-8 JSON file %1 value %2 characters %3 indentation %4 keys %5",
+    "tooltip": "Serialize a value to a UTF-8 JSON file. I/O and serialization exceptions propagate.",
+    "args0": [
+      null,
+      null,
+      {
+        "options": [
+          [
+            "keep UTF-8 characters",
+            "FALSE"
+          ],
+          [
+            "escape as ASCII",
+            "TRUE"
+          ]
+        ]
+      },
+      {
+        "options": [
+          [
+            "compact",
+            "NONE"
+          ],
+          [
+            "2 spaces",
+            "TWO"
+          ],
+          [
+            "4 spaces",
+            "FOUR"
+          ]
+        ]
+      },
+      {
+        "options": [
+          [
+            "keep insertion order",
+            "FALSE"
+          ],
+          [
+            "sort keys",
+            "TRUE"
+          ]
+        ]
+      }
+    ]
+  },
+  "python_json_is_valid": {
+    "message0": "JSON text %1 is valid",
+    "tooltip": "Return false only for malformed JSON or invalid encoded bytes; unsupported types still raise TypeError.",
+    "args0": [
+      null
+    ]
+  },
+  "python_json_object_get": {
+    "message0": "JSON object %1 get key %2 default %3",
+    "tooltip": "Read a dictionary key and return the default when the key is absent.",
+    "args0": [
+      null,
+      null,
+      null
+    ]
+  },
+  "python_json_object_set": {
+    "message0": "set JSON object %1 key %2 to %3",
+    "tooltip": "Assign a value to a dictionary key. Mapping and key errors propagate.",
+    "args0": [
+      null,
+      null,
+      null
+    ]
+  }
+}

@@ -1,6 +1,7 @@
 {
   "kind": "category",
   "name": "pandas",
+  "icon": "fa-light fa-table",
   "colour": "#7B1FA2",
   "contents": [
     {

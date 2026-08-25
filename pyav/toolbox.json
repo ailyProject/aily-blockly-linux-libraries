@@ -1,6 +1,7 @@
 {
   "kind": "category",
   "name": "PyAV",
+  "icon": "fa-light fa-film",
   "colour": "#1976D2",
   "contents": [
     {

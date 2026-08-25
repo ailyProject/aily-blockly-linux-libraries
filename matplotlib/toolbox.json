@@ -1,6 +1,7 @@
 {
   "kind": "category",
   "name": "Matplotlib pyplot",
+  "icon": "fa-light fa-chart-line",
   "colour": "#7B1FA2",
   "contents": [
     {

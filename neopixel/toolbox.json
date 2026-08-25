@@ -1,6 +1,7 @@
 {
   "kind": "category",
   "name": "CircuitPython NeoPixel",
+  "icon": "fa-light fa-lightbulb",
   "colour": "#00897B",
   "contents": [
     {

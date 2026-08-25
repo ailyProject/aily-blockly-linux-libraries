@@ -1,6 +1,7 @@
 {
   "kind": "category",
   "name": "pyttsx3",
+  "icon": "fa-light fa-volume-high",
   "colour": "#EF6C00",
   "contents": [
     {

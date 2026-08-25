@@ -1,0 +1,8 @@
+{
+  "kind": "category",
+  "name": "Variables",
+  "icon": "fa-light fa-value-absolute",
+  "colour": "#A65C81",
+  "custom": "VARIABLE",
+  "contents": []
+}

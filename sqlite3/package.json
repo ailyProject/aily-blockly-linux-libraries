@@ -1,0 +1,52 @@
+{
+  "name": "@aily-project/lib-sqlite3",
+  "nickname": "SQLite",
+  "nickname_zh_cn": "SQLite 数据库",
+  "nickname_en": "SQLite",
+  "nickname_zh_hk": "SQLite 資料庫",
+  "nickname_ja": "SQLite データベース",
+  "nickname_ko": "SQLite 데이터베이스",
+  "nickname_de": "SQLite-Datenbank",
+  "nickname_fr": "Base de données SQLite",
+  "nickname_es": "Base de datos SQLite",
+  "nickname_pt": "Banco de dados SQLite",
+  "nickname_ru": "База данных SQLite",
+  "nickname_ar": "قاعدة بيانات SQLite",
+  "version": "0.0.1",
+  "description": "跨平台 Python SQLite 数据库积木，提供参数化执行、查询、事务和确定性连接清理。",
+  "description_zh_cn": "跨平台 Python SQLite 数据库积木，提供参数化执行、查询、事务和确定性连接清理。",
+  "description_en": "Cross-platform Python SQLite blocks for parameterized execution, queries, transactions, and deterministic connection cleanup.",
+  "spec": true,
+  "compatibility": {
+    "type": [
+      "allwinner:t527:walnutpi_2b",
+      "broadcom:bcm2710a1:raspberrypi_0_2w",
+      "broadcom:bcm2711:raspberrypi_4b",
+      "broadcom:bcm2712:raspberrypi_5",
+      "nvidia:tegra234:jetson_agx_orin",
+      "nvidia:tegra234:jetson_orin_nano",
+      "nvidia:tegra234:jetson_orin_nx"
+    ],
+    "voltage": [
+      3.3
+    ]
+  },
+  "keywords": [
+    "aily",
+    "blockly",
+    "python",
+    "sqlite3",
+    "database",
+    "sql",
+    "transaction"
+  ],
+  "tags": [
+    "storage",
+    "data-processing"
+  ],
+  "author": "ailyProject",
+  "license": "MIT",
+  "homepage": "https://docs.python.org/3/library/sqlite3.html",
+  "dependencies": {},
+  "devDependencies": {}
+}

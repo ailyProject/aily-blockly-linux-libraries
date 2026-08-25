@@ -1,0 +1,51 @@
+{
+  "name": "@aily-project/lib-core-math",
+  "nickname": "Math",
+  "nickname_zh_cn": "数学",
+  "nickname_en": "Math",
+  "nickname_zh_hk": "數學",
+  "nickname_ja": "数学",
+  "nickname_ko": "수학",
+  "nickname_de": "Mathematik",
+  "nickname_fr": "Mathématiques",
+  "nickname_es": "Matemáticas",
+  "nickname_pt": "Matemática",
+  "nickname_ru": "Математика",
+  "nickname_ar": "الرياضيات",
+  "version": "0.0.1",
+  "description": "Numbers, arithmetic, common functions, properties, statistics, and random values for CPython projects.",
+  "description_en": "Numbers, arithmetic, common functions, properties, statistics, and random values for CPython projects.",
+  "description_zh_cn": "CPython 项目常用的数字、算术、函数、属性、统计和随机数积木。",
+  "spec": true,
+  "compatibility": {
+    "type": [
+      "allwinner:t527:walnutpi_2b",
+      "broadcom:bcm2710a1:raspberrypi_0_2w",
+      "broadcom:bcm2711:raspberrypi_4b",
+      "broadcom:bcm2712:raspberrypi_5",
+      "canaan:k230:cybercam",
+      "nvidia:tegra234:jetson_agx_orin",
+      "nvidia:tegra234:jetson_orin_nano",
+      "nvidia:tegra234:jetson_orin_nx"
+    ],
+    "voltage": [
+      3.3
+    ]
+  },
+  "keywords": [
+    "aily",
+    "blockly",
+    "python",
+    "math",
+    "number",
+    "random",
+    "statistics"
+  ],
+  "tags": [
+    "core"
+  ],
+  "author": "ailyProject",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {}
+}

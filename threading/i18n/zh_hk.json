@@ -1,0 +1,246 @@
+{
+  "toolbox_name": "Threading",
+  "toolbox_categories": [
+    "Background tasks",
+    "Timers",
+    "Locks",
+    "Events",
+    "Queues"
+  ],
+  "toolbox_labels": {
+    "Background tasks": "Background tasks",
+    "Timers": "Timers",
+    "Locks": "Locks",
+    "Events": "Events",
+    "Queues": "Queues"
+  },
+  "python_thread_start": {
+    "message0": "start background task %1 daemon %2 do %3",
+    "tooltip": "Generate a named function, create a Thread for it, and start it immediately. Threads are not stopped automatically.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "yes",
+            "TRUE"
+          ],
+          [
+            "no",
+            "FALSE"
+          ]
+        ]
+      },
+      null
+    ]
+  },
+  "python_thread_join": {
+    "message0": "wait for thread or timer %1 timeout %2 seconds",
+    "tooltip": "Join a thread or timer. A blank timeout generates None and waits without a deadline.",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_thread_is_alive": {
+    "message0": "thread or timer %1 is alive",
+    "tooltip": "Return whether the named thread or timer is currently alive.",
+    "args0": [
+      null
+    ]
+  },
+  "python_timer_start": {
+    "message0": "start timer %1 after %2 seconds daemon %3 do %4",
+    "tooltip": "Generate a named callback and start a one-shot Timer after the delay.",
+    "args0": [
+      null,
+      null,
+      {
+        "options": [
+          [
+            "yes",
+            "TRUE"
+          ],
+          [
+            "no",
+            "FALSE"
+          ]
+        ]
+      },
+      null
+    ]
+  },
+  "python_timer_cancel": {
+    "message0": "cancel timer %1",
+    "tooltip": "Cancel the timer only if its callback has not started yet.",
+    "args0": [
+      null
+    ]
+  },
+  "python_lock_create": {
+    "message0": "create lock %1",
+    "tooltip": "Create a primitive non-reentrant Lock resource.",
+    "args0": [
+      null
+    ]
+  },
+  "python_lock_acquire": {
+    "message0": "lock %1 acquire mode %2 timeout %3 seconds",
+    "tooltip": "Acquire and return success. Plain wait ignores timeout; try once is non-blocking; timed wait uses the timeout input.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "wait",
+            "BLOCK"
+          ],
+          [
+            "try once",
+            "TRY"
+          ],
+          [
+            "wait with timeout",
+            "TIMEOUT"
+          ]
+        ]
+      },
+      null
+    ]
+  },
+  "python_lock_release": {
+    "message0": "release lock %1",
+    "tooltip": "Release the lock. Python raises RuntimeError if it is already unlocked.",
+    "args0": [
+      null
+    ]
+  },
+  "python_lock_locked": {
+    "message0": "lock %1 is locked",
+    "tooltip": "Return a momentary snapshot of the lock state.",
+    "args0": [
+      null
+    ]
+  },
+  "python_event_create": {
+    "message0": "create event %1",
+    "tooltip": "Create an Event with its flag initially clear.",
+    "args0": [
+      null
+    ]
+  },
+  "python_event_set": {
+    "message0": "set event %1",
+    "tooltip": "Set the event flag and wake all current waiters.",
+    "args0": [
+      null
+    ]
+  },
+  "python_event_clear": {
+    "message0": "clear event %1",
+    "tooltip": "Clear the event flag; later waiters block again.",
+    "args0": [
+      null
+    ]
+  },
+  "python_event_wait": {
+    "message0": "wait for event %1 timeout %2 seconds",
+    "tooltip": "Wait and return whether the event became set. A blank timeout waits without a deadline.",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_event_is_set": {
+    "message0": "event %1 is set",
+    "tooltip": "Return a momentary snapshot of the event flag.",
+    "args0": [
+      null
+    ]
+  },
+  "python_queue_create": {
+    "message0": "create queue %1 maximum size %2",
+    "tooltip": "Create a thread-safe FIFO Queue. Maximum size 0 means unbounded.",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_queue_put": {
+    "message0": "queue %1 put %2 mode %3 timeout %4 seconds",
+    "tooltip": "Put an item. Plain wait ignores timeout; try once raises queue.Full if full; timed wait uses the timeout input.",
+    "args0": [
+      null,
+      null,
+      {
+        "options": [
+          [
+            "wait",
+            "BLOCK"
+          ],
+          [
+            "try once",
+            "TRY"
+          ],
+          [
+            "wait with timeout",
+            "TIMEOUT"
+          ]
+        ]
+      },
+      null
+    ]
+  },
+  "python_queue_get": {
+    "message0": "queue %1 get mode %2 timeout %3 seconds",
+    "tooltip": "Get and return an item. Plain wait ignores timeout; try once raises queue.Empty if empty; timed wait uses the timeout input.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "wait",
+            "BLOCK"
+          ],
+          [
+            "try once",
+            "TRY"
+          ],
+          [
+            "wait with timeout",
+            "TIMEOUT"
+          ]
+        ]
+      },
+      null
+    ]
+  },
+  "python_queue_task_done": {
+    "message0": "queue %1 mark one task done",
+    "tooltip": "Mark one previously retrieved item complete. Extra calls raise ValueError.",
+    "args0": [
+      null
+    ]
+  },
+  "python_queue_join": {
+    "message0": "wait until queue %1 tasks are done",
+    "tooltip": "Wait without a timeout until task_done has matched every queued item.",
+    "args0": [
+      null
+    ]
+  },
+  "python_queue_qsize": {
+    "message0": "queue %1 approximate size",
+    "tooltip": "Return an approximate size; another thread may change it immediately.",
+    "args0": [
+      null
+    ]
+  },
+  "python_queue_empty": {
+    "message0": "queue %1 is approximately empty",
+    "tooltip": "Return an approximate empty snapshot; do not use it as a synchronization guarantee.",
+    "args0": [
+      null
+    ]
+  }
+}

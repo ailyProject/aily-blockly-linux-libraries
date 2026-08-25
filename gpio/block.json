@@ -48,7 +48,7 @@
     ],
     "colour": "#00897B",
     "tooltip": "Create a gpiozero digital pin.",
-    "icon": "settings",
+    "icon": "fa-light fa-plug",
     "previousStatement": null,
     "nextStatement": null
   },
@@ -69,7 +69,7 @@
     ],
     "colour": "#00897B",
     "tooltip": "set GPIO %1 to %2",
-    "icon": "settings",
+    "icon": "fa-light fa-upload",
     "previousStatement": null,
     "nextStatement": null
   },
@@ -85,7 +85,7 @@
     ],
     "colour": "#00897B",
     "tooltip": "GPIO %1 value",
-    "icon": "settings",
+    "icon": "fa-light fa-download",
     "output": "Boolean"
   },
   {
@@ -100,7 +100,7 @@
     ],
     "colour": "#00897B",
     "tooltip": "close GPIO %1",
-    "icon": "settings",
+    "icon": "fa-light fa-power-off",
     "previousStatement": null,
     "nextStatement": null
   },
@@ -135,7 +135,7 @@
     ],
     "colour": "#00897B",
     "tooltip": "Create a gpiozero LED on the selected pin.",
-    "icon": "settings",
+    "icon": "fa-light fa-plug",
     "previousStatement": null,
     "nextStatement": null
   },
@@ -169,7 +169,7 @@
     ],
     "colour": "#00897B",
     "tooltip": "Turn an initialized LED on, off, or toggle it.",
-    "icon": "settings",
+    "icon": "fa-light fa-microchip",
     "previousStatement": null,
     "nextStatement": null
   },
@@ -200,7 +200,7 @@
     ],
     "colour": "#00897B",
     "tooltip": "Blink in the background; a count of 0 repeats forever.",
-    "icon": "settings",
+    "icon": "fa-light fa-lightbulb",
     "previousStatement": null,
     "nextStatement": null
   },
@@ -263,7 +263,7 @@
     ],
     "colour": "#00897B",
     "tooltip": "Create a gpiozero Button. Active level is used when pull is none.",
-    "icon": "settings",
+    "icon": "fa-light fa-plug",
     "previousStatement": null,
     "nextStatement": null
   },
@@ -279,7 +279,7 @@
     ],
     "colour": "#00897B",
     "tooltip": "Whether the initialized button is currently pressed.",
-    "icon": "settings",
+    "icon": "fa-light fa-circle-info",
     "output": "Boolean"
   },
   {
@@ -294,7 +294,7 @@
     ],
     "colour": "#00897B",
     "tooltip": "Whether the initialized button has been held for its hold time.",
-    "icon": "settings",
+    "icon": "fa-light fa-circle-info",
     "output": "Boolean"
   },
   {
@@ -328,7 +328,7 @@
     ],
     "colour": "#00897B",
     "tooltip": "Wait for a press or release; timeout 0 waits without a limit.",
-    "icon": "settings",
+    "icon": "fa-light fa-clock",
     "previousStatement": null,
     "nextStatement": null
   },
@@ -344,7 +344,7 @@
     ],
     "colour": "#00897B",
     "tooltip": "Legacy compatibility block fixed to GPIO17; prefer initialize LED.",
-    "icon": "settings",
+    "icon": "fa-light fa-upload",
     "previousStatement": null,
     "nextStatement": null
   },
@@ -353,7 +353,7 @@
     "message0": "legacy GPIO27 button is pressed",
     "colour": "#00897B",
     "tooltip": "Legacy compatibility block fixed to GPIO27; prefer initialize button.",
-    "icon": "settings",
+    "icon": "fa-light fa-circle-info",
     "output": "Any"
   },
   {
@@ -378,7 +378,7 @@
     ],
     "colour": "#00897B",
     "tooltip": "initialize PWM %1 pin %2 frequency %3 Hz",
-    "icon": "settings",
+    "icon": "fa-light fa-plug",
     "previousStatement": null,
     "nextStatement": null
   },
@@ -399,7 +399,7 @@
     ],
     "colour": "#00897B",
     "tooltip": "set PWM %1 duty cycle %2 (0-1)",
-    "icon": "settings",
+    "icon": "fa-light fa-sliders",
     "previousStatement": null,
     "nextStatement": null
   },
@@ -420,7 +420,7 @@
     ],
     "colour": "#00897B",
     "tooltip": "Change the frequency of an initialized PWM output.",
-    "icon": "settings",
+    "icon": "fa-light fa-sliders",
     "previousStatement": null,
     "nextStatement": null
   },
@@ -436,7 +436,7 @@
     ],
     "colour": "#00897B",
     "tooltip": "close PWM %1",
-    "icon": "settings",
+    "icon": "fa-light fa-power-off",
     "previousStatement": null,
     "nextStatement": null
   }

@@ -1,11 +1,13 @@
 {
   "kind": "category",
   "name": "Python Requests",
+  "icon": "fa-light fa-globe",
   "colour": "#1565C0",
   "contents": [
     {
       "kind": "category",
       "name": "Sessions",
+      "icon": "fa-light fa-plug",
       "colour": "#1565C0",
       "contents": [
         {"kind": "block", "type": "python_requests_session_init", "fields": {"NAME": "session"}},
@@ -16,6 +18,7 @@
     {
       "kind": "category",
       "name": "Requests and options",
+      "icon": "fa-light fa-sliders",
       "colour": "#1565C0",
       "contents": [
         {
@@ -69,6 +72,7 @@
     {
       "kind": "category",
       "name": "Upload and download",
+      "icon": "fa-light fa-arrows-up-down",
       "colour": "#1565C0",
       "contents": [
         {
@@ -104,6 +108,7 @@
     {
       "kind": "category",
       "name": "Responses and errors",
+      "icon": "fa-light fa-circle-exclamation",
       "colour": "#1565C0",
       "contents": [
         {"kind": "block", "type": "python_requests_response_property", "fields": {"PROPERTY": "status_code"}},

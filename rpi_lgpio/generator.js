@@ -30,7 +30,10 @@
   const selected = (values, requested) => values.has(requested) ? requested : values.values().next().value;
   const dotted = (base, path) => `${base}.${path}`;
   const output = (code, order = ORDER_CALL) => [code, order];
-  const addImport = (generator) => generator.addImport(spec.importKey, `import ${spec.module} as ${spec.alias}`);
+  const addImport = (generator) => generator.addImport(
+    spec.importKey,
+    spec.importStatement || `import ${spec.module} as ${spec.alias}`,
+  );
 
   const addAsyncBridge = (generator) => {
     if (!spec.asyncBridge) return;

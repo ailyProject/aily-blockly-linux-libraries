@@ -1,6 +1,7 @@
 {
   "kind": "category",
   "name": "psutil",
+  "icon": "fa-light fa-gauge-high",
   "colour": "#455A64",
   "contents": [
     {

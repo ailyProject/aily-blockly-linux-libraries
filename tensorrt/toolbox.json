@@ -1,0 +1,28 @@
+{
+  "kind": "category",
+  "name": "NVIDIA TensorRT",
+  "icon": "fa-light fa-microchip",
+  "colour": "#76B900",
+  "contents": [
+    {
+      "kind": "block",
+      "type": "nvidia_tensorrt_call"
+    },
+    {
+      "kind": "block",
+      "type": "nvidia_tensorrt_do"
+    },
+    {
+      "kind": "block",
+      "type": "nvidia_tensorrt_method"
+    },
+    {
+      "kind": "block",
+      "type": "nvidia_tensorrt_do_method"
+    },
+    {
+      "kind": "block",
+      "type": "nvidia_tensorrt_attribute"
+    }
+  ]
+}

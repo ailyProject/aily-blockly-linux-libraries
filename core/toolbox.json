@@ -1,6 +1,7 @@
 {
   "kind": "category",
   "name": "Core",
+  "icon": "fa-light fa-code",
   "colour": "#455A64",
   "contents": [
     {
@@ -16,32 +17,6 @@
           }
         }
       }
-    },
-    {
-      "kind": "block",
-      "type": "python_print",
-      "inputs": {
-        "VALUE": {
-          "shadow": {
-            "type": "text",
-            "fields": {
-              "TEXT": ""
-            }
-          }
-        }
-      }
-    },
-    {
-      "kind": "block",
-      "type": "python_number"
-    },
-    {
-      "kind": "block",
-      "type": "python_text"
-    },
-    {
-      "kind": "block",
-      "type": "python_boolean"
     },
     {
       "kind": "block",
@@ -90,52 +65,6 @@
     {
       "kind": "block",
       "type": "python_set_attribute"
-    },
-    {
-      "kind": "block",
-      "type": "python_set_variable",
-      "inputs": {
-        "VALUE": {
-          "shadow": {
-            "type": "text",
-            "fields": {
-              "TEXT": ""
-            }
-          }
-        }
-      }
-    },
-    {
-      "kind": "block",
-      "type": "python_get_variable"
-    },
-    {
-      "kind": "block",
-      "type": "python_if",
-      "inputs": {
-        "CONDITION": {
-          "shadow": {
-            "type": "logic_boolean",
-            "fields": {
-              "BOOL": "TRUE"
-            }
-          }
-        }
-      }
-    },
-    {
-      "kind": "block",
-      "type": "python_for_each",
-      "inputs": {
-        "ITEMS": {
-          "shadow": {
-            "type": "text",
-            "fields": {
-              "TEXT": ""
-            }
-          }
-        }
-      }
     }
   ]
 }

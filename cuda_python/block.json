@@ -1,0 +1,215 @@
+[
+  {
+    "type": "cuda_python_call",
+    "message0": "NVIDIA CUDA Python call or create %1 arguments %2 keyword arguments %3",
+    "args0": [
+      {
+        "type": "field_dropdown",
+        "name": "TARGET",
+        "options": [
+          [
+            "cudaGetDeviceCount",
+            "cudaGetDeviceCount"
+          ],
+          [
+            "cudaGetDevice",
+            "cudaGetDevice"
+          ],
+          [
+            "cudaSetDevice",
+            "cudaSetDevice"
+          ],
+          [
+            "cudaGetDeviceProperties",
+            "cudaGetDeviceProperties"
+          ],
+          [
+            "cudaDeviceGetAttribute",
+            "cudaDeviceGetAttribute"
+          ],
+          [
+            "cudaMalloc",
+            "cudaMalloc"
+          ],
+          [
+            "cudaFree",
+            "cudaFree"
+          ],
+          [
+            "cudaMemcpy",
+            "cudaMemcpy"
+          ],
+          [
+            "cudaMemcpyAsync",
+            "cudaMemcpyAsync"
+          ],
+          [
+            "cudaMemset",
+            "cudaMemset"
+          ],
+          [
+            "cudaStreamCreate",
+            "cudaStreamCreate"
+          ],
+          [
+            "cudaStreamDestroy",
+            "cudaStreamDestroy"
+          ],
+          [
+            "cudaStreamSynchronize",
+            "cudaStreamSynchronize"
+          ],
+          [
+            "cudaDeviceSynchronize",
+            "cudaDeviceSynchronize"
+          ],
+          [
+            "cudaGetErrorName",
+            "cudaGetErrorName"
+          ],
+          [
+            "cudaGetErrorString",
+            "cudaGetErrorString"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#76B900",
+    "icon": "fa-light fa-microchip",
+    "tooltip": "Call an allowlisted NVIDIA CUDA Python function or constructor and return its result.",
+    "output": "Any"
+  },
+  {
+    "type": "cuda_python_do",
+    "message0": "run NVIDIA CUDA Python %1 arguments %2 keyword arguments %3",
+    "args0": [
+      {
+        "type": "field_dropdown",
+        "name": "TARGET",
+        "options": [
+          [
+            "cudaGetDeviceCount",
+            "cudaGetDeviceCount"
+          ],
+          [
+            "cudaGetDevice",
+            "cudaGetDevice"
+          ],
+          [
+            "cudaSetDevice",
+            "cudaSetDevice"
+          ],
+          [
+            "cudaGetDeviceProperties",
+            "cudaGetDeviceProperties"
+          ],
+          [
+            "cudaDeviceGetAttribute",
+            "cudaDeviceGetAttribute"
+          ],
+          [
+            "cudaMalloc",
+            "cudaMalloc"
+          ],
+          [
+            "cudaFree",
+            "cudaFree"
+          ],
+          [
+            "cudaMemcpy",
+            "cudaMemcpy"
+          ],
+          [
+            "cudaMemcpyAsync",
+            "cudaMemcpyAsync"
+          ],
+          [
+            "cudaMemset",
+            "cudaMemset"
+          ],
+          [
+            "cudaStreamCreate",
+            "cudaStreamCreate"
+          ],
+          [
+            "cudaStreamDestroy",
+            "cudaStreamDestroy"
+          ],
+          [
+            "cudaStreamSynchronize",
+            "cudaStreamSynchronize"
+          ],
+          [
+            "cudaDeviceSynchronize",
+            "cudaDeviceSynchronize"
+          ],
+          [
+            "cudaGetErrorName",
+            "cudaGetErrorName"
+          ],
+          [
+            "cudaGetErrorString",
+            "cudaGetErrorString"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#76B900",
+    "icon": "fa-light fa-microchip",
+    "tooltip": "Run an allowlisted NVIDIA CUDA Python function or constructor as a statement.",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "cuda_python_attribute",
+    "message0": "NVIDIA CUDA Python object %1 attribute %2",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "OBJECT"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "ATTRIBUTE",
+        "options": [
+          [
+            "cudaError_t.cudaSuccess",
+            "cudaError_t.cudaSuccess"
+          ],
+          [
+            "cudaMemcpyKind.cudaMemcpyHostToDevice",
+            "cudaMemcpyKind.cudaMemcpyHostToDevice"
+          ],
+          [
+            "cudaMemcpyKind.cudaMemcpyDeviceToHost",
+            "cudaMemcpyKind.cudaMemcpyDeviceToHost"
+          ],
+          [
+            "cudaMemcpyKind.cudaMemcpyDeviceToDevice",
+            "cudaMemcpyKind.cudaMemcpyDeviceToDevice"
+          ]
+        ]
+      }
+    ],
+    "colour": "#76B900",
+    "icon": "fa-light fa-microchip",
+    "tooltip": "Read an allowlisted NVIDIA CUDA Python object or module attribute.",
+    "output": "Any"
+  }
+]

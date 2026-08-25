@@ -1,6 +1,7 @@
 {
   "kind": "category",
   "name": "CircuitPython INA219",
+  "icon": "fa-light fa-bolt",
   "colour": "#00897B",
   "contents": [
     {

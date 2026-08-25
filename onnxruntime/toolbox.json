@@ -1,6 +1,7 @@
 {
   "kind": "category",
   "name": "ONNX Runtime",
+  "icon": "fa-light fa-brain",
   "colour": "#1976D2",
   "contents": [
     {

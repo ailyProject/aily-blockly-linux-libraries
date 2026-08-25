@@ -35,7 +35,7 @@
     ],
     "colour": "#1976D2",
     "tooltip": "initialize camera %1 width %2 height %3 sensor %4",
-    "icon": "camera",
+    "icon": "fa-light fa-plug",
     "previousStatement": null,
     "nextStatement": null
   },
@@ -51,7 +51,7 @@
     ],
     "colour": "#1976D2",
     "tooltip": "camera %1 is open",
-    "icon": "camera",
+    "icon": "fa-light fa-circle-info",
     "output": "Any"
   },
   {
@@ -66,7 +66,7 @@
     ],
     "colour": "#1976D2",
     "tooltip": "camera %1 image",
-    "icon": "camera",
+    "icon": "fa-light fa-download",
     "output": "Any"
   },
   {
@@ -81,7 +81,7 @@
     ],
     "colour": "#1976D2",
     "tooltip": "Return the complete camera.read() result, including the success flag and image.",
-    "icon": "camera",
+    "icon": "fa-light fa-download",
     "output": "Any"
   },
   {
@@ -101,7 +101,7 @@
     ],
     "colour": "#1976D2",
     "tooltip": "camera %1 horizontal mirror %2",
-    "icon": "camera",
+    "icon": "fa-light fa-sliders",
     "previousStatement": null,
     "nextStatement": null
   },
@@ -122,7 +122,7 @@
     ],
     "colour": "#1976D2",
     "tooltip": "camera %1 vertical flip %2",
-    "icon": "camera",
+    "icon": "fa-light fa-sliders",
     "previousStatement": null,
     "nextStatement": null
   },
@@ -138,7 +138,7 @@
     ],
     "colour": "#1976D2",
     "tooltip": "release camera %1",
-    "icon": "camera",
+    "icon": "fa-light fa-power-off",
     "previousStatement": null,
     "nextStatement": null
   },
@@ -147,7 +147,7 @@
     "message0": "initialize onboard display",
     "colour": "#1976D2",
     "tooltip": "initialize onboard display",
-    "icon": "settings",
+    "icon": "fa-light fa-plug",
     "previousStatement": null,
     "nextStatement": null
   },
@@ -180,7 +180,7 @@
     ],
     "colour": "#1976D2",
     "tooltip": "set display rotation %1",
-    "icon": "settings",
+    "icon": "fa-light fa-image",
     "previousStatement": null,
     "nextStatement": null
   },
@@ -195,7 +195,7 @@
     ],
     "colour": "#1976D2",
     "tooltip": "show image %1 on display",
-    "icon": "settings",
+    "icon": "fa-light fa-image",
     "previousStatement": null,
     "nextStatement": null
   },
@@ -210,7 +210,7 @@
     ],
     "colour": "#1976D2",
     "tooltip": "show image %1 in IDE",
-    "icon": "settings",
+    "icon": "fa-light fa-image",
     "previousStatement": null,
     "nextStatement": null
   },
@@ -219,7 +219,7 @@
     "message0": "current display direction",
     "colour": "#1976D2",
     "tooltip": "current display direction",
-    "icon": "settings",
+    "icon": "fa-light fa-sliders",
     "output": "Any"
   },
   {
@@ -282,7 +282,7 @@
     ],
     "colour": "#7B1FA2",
     "tooltip": "initialize AI %1 model %2 path %3 size %4",
-    "icon": "robot",
+    "icon": "fa-light fa-camera",
     "previousStatement": null,
     "nextStatement": null
   },
@@ -313,7 +313,7 @@
     ],
     "colour": "#7B1FA2",
     "tooltip": "initialize face detector %1 model %2 anchors %3 size %4",
-    "icon": "robot",
+    "icon": "fa-light fa-camera",
     "previousStatement": null,
     "nextStatement": null
   },
@@ -349,7 +349,7 @@
     ],
     "colour": "#7B1FA2",
     "tooltip": "initialize mask detector %1 detection model %2 anchors %3 size %4 mask model %5",
-    "icon": "robot",
+    "icon": "fa-light fa-camera",
     "previousStatement": null,
     "nextStatement": null
   },
@@ -389,7 +389,7 @@
     ],
     "colour": "#7B1FA2",
     "tooltip": "initialize hand AI %1 type %2 detection model %3 keypoint model %4",
-    "icon": "robot",
+    "icon": "fa-light fa-camera",
     "previousStatement": null,
     "nextStatement": null
   },
@@ -435,7 +435,7 @@
     ],
     "colour": "#7B1FA2",
     "tooltip": "initialize OCR %1 detection %2 recognition %3 dictionary %4 detection size %5 recognition width %6 height %7",
-    "icon": "robot",
+    "icon": "fa-light fa-magnifying-glass",
     "previousStatement": null,
     "nextStatement": null
   },
@@ -485,7 +485,7 @@
     ],
     "colour": "#7B1FA2",
     "tooltip": "initialize license-plate AI %1 detection %2 recognition %3 anchors %4 labels %5 detection size %6 recognition width %7 height %8",
-    "icon": "robot",
+    "icon": "fa-light fa-camera",
     "previousStatement": null,
     "nextStatement": null
   },
@@ -505,7 +505,7 @@
     ],
     "colour": "#7B1FA2",
     "tooltip": "AI %1 run on %2",
-    "icon": "robot",
+    "icon": "fa-light fa-play",
     "output": "Any"
   },
   {
@@ -529,7 +529,7 @@
     ],
     "colour": "#7B1FA2",
     "tooltip": "AI %1 run on %2 confidence %3",
-    "icon": "robot",
+    "icon": "fa-light fa-camera",
     "output": "Any"
   },
   {
@@ -558,7 +558,7 @@
     ],
     "colour": "#7B1FA2",
     "tooltip": "AI %1 run on %2 confidence %3 NMS %4",
-    "icon": "robot",
+    "icon": "fa-light fa-camera",
     "output": "Any"
   },
   {
@@ -572,7 +572,7 @@
     ],
     "colour": "#7B1FA2",
     "tooltip": "result list %1 length",
-    "icon": "settings",
+    "icon": "fa-light fa-circle-info",
     "output": "Any"
   },
   {
@@ -591,7 +591,7 @@
     ],
     "colour": "#7B1FA2",
     "tooltip": "result list %1 item %2",
-    "icon": "settings",
+    "icon": "fa-light fa-camera",
     "output": "Any"
   },
   {
@@ -715,7 +715,7 @@
     ],
     "colour": "#7B1FA2",
     "tooltip": "result %1 property %2",
-    "icon": "settings",
+    "icon": "fa-light fa-circle-info",
     "output": "Any"
   }
 ]

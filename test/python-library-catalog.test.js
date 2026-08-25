@@ -32,8 +32,10 @@ const PACKAGE_FILES = [
 ].sort();
 const PATH_NAME = /^[A-Za-z_][A-Za-z0-9_]*(?:\.[A-Za-z_][A-Za-z0-9_]*)*$/;
 const ID = /^[a-z][a-z0-9_]*$/;
+const FONT_AWESOME_ICON = /^fa-(?:solid|regular|light|thin|duotone|brands) fa-[a-z0-9-]+$/;
 const COLOURS = {
   'raspberry-pi': '#C51A4A',
+  jetson: '#76B900',
   'hardware-io': '#00897B',
   industrial: '#00897B',
   system: '#455A64',
@@ -46,9 +48,11 @@ const COLOURS = {
   audio: '#EF6C00',
   'iot-cloud': '#0288D1',
   robotics: '#00897B',
+  multimedia: '#EF6C00',
 };
 const TAGS = {
   'raspberry-pi': 'io',
+  jetson: 'display',
   'hardware-io': 'io',
   industrial: 'io',
   system: 'system',
@@ -61,6 +65,7 @@ const TAGS = {
   audio: 'audio',
   'iot-cloud': 'communication',
   robotics: 'io',
+  multimedia: 'audio',
 };
 const METADATA_KEYS = [
   'author',
@@ -135,7 +140,6 @@ function input(name) {
 function expectedBlocks(library) {
   const common = {
     colour: COLOURS[library.category],
-    icon: 'settings',
   };
   const blocks = [
     {
@@ -220,11 +224,11 @@ function assertRuntimeMarkersAbsent(text, label) {
 const catalog = readJson(CATALOG_PATH);
 const libraries = catalog.libraries;
 
-test('catalog declares exactly 100 well-formed CPython libraries', () => {
+test('catalog declares exactly 113 well-formed CPython libraries', () => {
   assert.equal(catalog.schemaVersion, 1);
-  assert.equal(catalog.count, 100);
+  assert.equal(catalog.count, 113);
   assert.ok(Array.isArray(libraries));
-  assert.equal(libraries.length, 100);
+  assert.equal(libraries.length, 113);
 
   const ids = new Set();
   const prefixes = new Set();
@@ -242,7 +246,9 @@ test('catalog declares exactly 100 well-formed CPython libraries', () => {
     assert.equal(typeof library.pip, 'string', `${library.id}: pip name`);
     assert.ok(library.pip.length > 0, `${library.id}: empty pip name`);
     assert.ok(Object.hasOwn(COLOURS, library.category), `${library.id}: unknown category`);
-    assert.ok(['rpi', 'linux'].includes(library.compatibility), `${library.id}: compatibility`);
+    assert.ok(['rpi', 'blinka', 'jetson', 'linux'].includes(library.compatibility), `${library.id}: compatibility`);
+    assert.ok(Array.isArray(library.boardTypes), `${library.id}: boardTypes`);
+    assert.ok(library.boardTypes.length > 0, `${library.id}: empty boardTypes`);
     assert.equal(typeof library.asyncBridge, 'boolean', `${library.id}: asyncBridge`);
     assert.equal(typeof library.raspberryPiDocs, 'boolean', `${library.id}: raspberryPiDocs`);
     assert.equal(typeof library.install, 'string', `${library.id}: install command`);
@@ -315,9 +321,6 @@ test('catalog distinguishes CPython from the 26 Blinka-backed driver packages', 
 });
 
 test('each catalog package has exactly 17 files and complete package metadata', () => {
-  const boardIds = catalog.boardIds;
-  const allLinuxBoards = [boardIds.cybercam, boardIds.raspberryPi5, boardIds.walnutPi2B];
-
   for (const library of libraries) {
     const directory = path.join(ROOT, library.id);
     assert.ok(fs.statSync(directory).isDirectory(), `${library.id}: package directory missing`);
@@ -340,7 +343,7 @@ test('each catalog package has exactly 17 files and complete package metadata', 
     );
     assert.equal(metadata.spec, true, `${library.id}: spec flag`);
     assert.deepEqual(metadata.compatibility, {
-      type: library.compatibility === 'rpi' ? [boardIds.raspberryPi5] : allLinuxBoards,
+      type: library.boardTypes,
       voltage: [3.3],
     }, `${library.id}: board compatibility`);
     assert.deepEqual(metadata.keywords, [
@@ -366,14 +369,20 @@ test('block and toolbox JSON exactly expose the catalog allowlists', () => {
     const directory = path.join(ROOT, library.id);
     const expected = expectedBlocks(library);
     const blocks = readJson(path.join(directory, 'block.json'));
-    assert.deepEqual(blocks, expected, `${library.id}: block schema`);
+    const blockSchemas = blocks.map(({ icon, ...block }) => {
+      assert.match(icon, FONT_AWESOME_ICON, `${library.id}/${block.type}: Font Awesome icon`);
+      return block;
+    });
+    assert.deepEqual(blockSchemas, expected, `${library.id}: block schema`);
 
     for (const block of blocks) {
       assertPlaceholders(block.message0, block.args0.length, `${library.id}/${block.type}.message0`);
     }
 
     const toolbox = readJson(path.join(directory, 'toolbox.json'));
-    assert.deepEqual(toolbox, {
+    const { icon: toolboxIcon, ...toolboxSchema } = toolbox;
+    assert.match(toolboxIcon, FONT_AWESOME_ICON, `${library.id}: toolbox Font Awesome icon`);
+    assert.deepEqual(toolboxSchema, {
       kind: 'category',
       name: library.title,
       colour: COLOURS[library.category],
@@ -555,7 +564,7 @@ test('generators register every block and reject injected dropdown values by fal
         assert.ok(
           calls.imports.some(([key, statement]) => (
             key === `python_lib_${library.id}`
-            && statement === `import ${library.module} as _python_lib_${library.id}`
+            && statement === (library.importStatement || `import ${library.module} as _python_lib_${library.id}`)
           )),
           `${library.id}/${blockType}: missing exact CPython import`,
         );

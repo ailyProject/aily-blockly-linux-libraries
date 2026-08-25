@@ -1,6 +1,7 @@
 {
   "kind": "category",
   "name": "pymavlink",
+  "icon": "fa-light fa-plane",
   "colour": "#00897B",
   "contents": [
     {

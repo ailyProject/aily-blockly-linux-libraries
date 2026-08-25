@@ -1,11 +1,13 @@
 {
   "kind": "category",
   "name": "Paho MQTT",
+  "icon": "fa-light fa-tower-broadcast",
   "colour": "#7B1FA2",
   "contents": [
     {
       "kind": "category",
       "name": "Client and security",
+      "icon": "fa-light fa-shield-halved",
       "colour": "#7B1FA2",
       "contents": [
         {
@@ -146,6 +148,7 @@
     {
       "kind": "category",
       "name": "Events",
+      "icon": "fa-light fa-bell",
       "colour": "#7B1FA2",
       "contents": [
         {
@@ -165,6 +168,7 @@
     {
       "kind": "category",
       "name": "Publish and subscribe",
+      "icon": "fa-light fa-tower-broadcast",
       "colour": "#7B1FA2",
       "contents": [
         {
@@ -256,6 +260,7 @@
     {
       "kind": "category",
       "name": "Network loop",
+      "icon": "fa-light fa-repeat",
       "colour": "#7B1FA2",
       "contents": [
         {

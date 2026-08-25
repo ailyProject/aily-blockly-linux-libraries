@@ -36,7 +36,7 @@
     ],
     "colour": "#1976D2",
     "tooltip": "Call an allowlisted luma.lcd function or constructor and return its result.",
-    "icon": "settings",
+    "icon": "fa-light fa-code",
     "output": "Any"
   },
   {
@@ -76,7 +76,7 @@
     ],
     "colour": "#1976D2",
     "tooltip": "Run an allowlisted luma.lcd function or constructor as a statement.",
-    "icon": "settings",
+    "icon": "fa-light fa-play",
     "previousStatement": null,
     "nextStatement": null
   },
@@ -129,7 +129,7 @@
     ],
     "colour": "#1976D2",
     "tooltip": "Call an allowlisted luma.lcd object method and return its result.",
-    "icon": "settings",
+    "icon": "fa-light fa-gear",
     "output": "Any"
   },
   {
@@ -181,7 +181,7 @@
     ],
     "colour": "#1976D2",
     "tooltip": "Run an allowlisted luma.lcd object method as a statement.",
-    "icon": "settings",
+    "icon": "fa-light fa-gears",
     "previousStatement": null,
     "nextStatement": null
   },
@@ -222,7 +222,7 @@
     ],
     "colour": "#1976D2",
     "tooltip": "Read an allowlisted luma.lcd object or module attribute.",
-    "icon": "settings",
+    "icon": "fa-light fa-circle-info",
     "output": "Any"
   }
 ]

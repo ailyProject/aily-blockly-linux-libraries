@@ -1,0 +1,28 @@
+{
+  "kind": "category",
+  "name": "GStreamer",
+  "icon": "fa-light fa-photo-film",
+  "colour": "#EF6C00",
+  "contents": [
+    {
+      "kind": "block",
+      "type": "gstreamer_call"
+    },
+    {
+      "kind": "block",
+      "type": "gstreamer_do"
+    },
+    {
+      "kind": "block",
+      "type": "gstreamer_method"
+    },
+    {
+      "kind": "block",
+      "type": "gstreamer_do_method"
+    },
+    {
+      "kind": "block",
+      "type": "gstreamer_attribute"
+    }
+  ]
+}

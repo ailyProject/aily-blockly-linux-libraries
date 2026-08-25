@@ -32,7 +32,7 @@
     ],
     "colour": "#0288D1",
     "tooltip": "Call an allowlisted websockets function or constructor and return its result.",
-    "icon": "settings",
+    "icon": "fa-light fa-code",
     "output": "Any"
   },
   {
@@ -68,7 +68,7 @@
     ],
     "colour": "#0288D1",
     "tooltip": "Run an allowlisted websockets function or constructor as a statement.",
-    "icon": "settings",
+    "icon": "fa-light fa-play",
     "previousStatement": null,
     "nextStatement": null
   },
@@ -121,7 +121,7 @@
     ],
     "colour": "#0288D1",
     "tooltip": "Call an allowlisted websockets object method and return its result.",
-    "icon": "settings",
+    "icon": "fa-light fa-gear",
     "output": "Any"
   },
   {
@@ -173,7 +173,7 @@
     ],
     "colour": "#0288D1",
     "tooltip": "Run an allowlisted websockets object method as a statement.",
-    "icon": "settings",
+    "icon": "fa-light fa-gears",
     "previousStatement": null,
     "nextStatement": null
   },
@@ -230,7 +230,7 @@
     ],
     "colour": "#0288D1",
     "tooltip": "Read an allowlisted websockets object or module attribute.",
-    "icon": "settings",
+    "icon": "fa-light fa-circle-info",
     "output": "Any"
   }
 ]

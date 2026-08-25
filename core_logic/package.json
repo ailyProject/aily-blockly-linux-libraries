@@ -1,0 +1,50 @@
+{
+  "name": "@aily-project/lib-core-logic",
+  "nickname": "Logic",
+  "nickname_zh_cn": "逻辑",
+  "nickname_en": "Logic",
+  "nickname_zh_hk": "邏輯",
+  "nickname_ja": "論理",
+  "nickname_ko": "논리",
+  "nickname_de": "Logik",
+  "nickname_fr": "Logique",
+  "nickname_es": "Lógica",
+  "nickname_pt": "Lógica",
+  "nickname_ru": "Логика",
+  "nickname_ar": "المنطق",
+  "version": "0.0.1",
+  "description": "Common conditions, comparisons, Boolean operations, and conditional expressions for CPython projects.",
+  "description_en": "Common conditions, comparisons, Boolean operations, and conditional expressions for CPython projects.",
+  "description_zh_cn": "CPython 项目常用的条件、比较、布尔运算和条件表达式积木。",
+  "spec": true,
+  "compatibility": {
+    "type": [
+      "allwinner:t527:walnutpi_2b",
+      "broadcom:bcm2710a1:raspberrypi_0_2w",
+      "broadcom:bcm2711:raspberrypi_4b",
+      "broadcom:bcm2712:raspberrypi_5",
+      "canaan:k230:cybercam",
+      "nvidia:tegra234:jetson_agx_orin",
+      "nvidia:tegra234:jetson_orin_nano",
+      "nvidia:tegra234:jetson_orin_nx"
+    ],
+    "voltage": [
+      3.3
+    ]
+  },
+  "keywords": [
+    "aily",
+    "blockly",
+    "python",
+    "logic",
+    "condition",
+    "boolean"
+  ],
+  "tags": [
+    "core"
+  ],
+  "author": "ailyProject",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {}
+}

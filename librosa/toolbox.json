@@ -1,6 +1,7 @@
 {
   "kind": "category",
   "name": "librosa",
+  "icon": "fa-light fa-wave-square",
   "colour": "#EF6C00",
   "contents": [
     {

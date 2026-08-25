@@ -1,0 +1,78 @@
+{
+  "kind": "category",
+  "name": "GPIO Zero Devices",
+  "icon": "fa-light fa-gears",
+  "colour": "#00897B",
+  "contents": [
+    { "kind": "block", "type": "linux_gpiozero_motor_init" },
+    {
+      "kind": "block",
+      "type": "linux_gpiozero_motor_forward",
+      "inputs": { "SPEED": { "shadow": { "type": "math_number", "fields": { "NUM": 1 } } } }
+    },
+    {
+      "kind": "block",
+      "type": "linux_gpiozero_motor_backward",
+      "inputs": { "SPEED": { "shadow": { "type": "math_number", "fields": { "NUM": 1 } } } }
+    },
+    { "kind": "block", "type": "linux_gpiozero_motor_stop" },
+    { "kind": "block", "type": "linux_gpiozero_motor_value" },
+    { "kind": "block", "type": "linux_gpiozero_motor_close" },
+    {
+      "kind": "block",
+      "type": "linux_gpiozero_angular_servo_init",
+      "inputs": {
+        "MIN_ANGLE": { "shadow": { "type": "math_number", "fields": { "NUM": -90 } } },
+        "MAX_ANGLE": { "shadow": { "type": "math_number", "fields": { "NUM": 90 } } },
+        "INITIAL_ANGLE": { "shadow": { "type": "math_number", "fields": { "NUM": 0 } } }
+      }
+    },
+    {
+      "kind": "block",
+      "type": "linux_gpiozero_angular_servo_set",
+      "inputs": { "ANGLE": { "shadow": { "type": "math_number", "fields": { "NUM": 0 } } } }
+    },
+    { "kind": "block", "type": "linux_gpiozero_angular_servo_read" },
+    { "kind": "block", "type": "linux_gpiozero_angular_servo_detach" },
+    { "kind": "block", "type": "linux_gpiozero_angular_servo_close" },
+    {
+      "kind": "block",
+      "type": "linux_gpiozero_distance_init",
+      "inputs": {
+        "MAX_DISTANCE": { "shadow": { "type": "math_number", "fields": { "NUM": 1 } } },
+        "THRESHOLD": { "shadow": { "type": "math_number", "fields": { "NUM": 0.3 } } }
+      }
+    },
+    { "kind": "block", "type": "linux_gpiozero_distance_read" },
+    { "kind": "block", "type": "linux_gpiozero_distance_in_range" },
+    {
+      "kind": "block",
+      "type": "linux_gpiozero_distance_wait",
+      "inputs": { "TIMEOUT": { "shadow": { "type": "math_number", "fields": { "NUM": 0 } } } }
+    },
+    { "kind": "block", "type": "linux_gpiozero_distance_close" },
+    {
+      "kind": "block",
+      "type": "linux_gpiozero_rotary_init",
+      "inputs": { "MAX_STEPS": { "shadow": { "type": "math_number", "fields": { "NUM": 0 } } } }
+    },
+    { "kind": "block", "type": "linux_gpiozero_rotary_steps" },
+    { "kind": "block", "type": "linux_gpiozero_rotary_reset" },
+    {
+      "kind": "block",
+      "type": "linux_gpiozero_rotary_wait",
+      "inputs": { "TIMEOUT": { "shadow": { "type": "math_number", "fields": { "NUM": 0 } } } }
+    },
+    { "kind": "block", "type": "linux_gpiozero_rotary_close" },
+    { "kind": "block", "type": "linux_gpiozero_buzzer_init" },
+    {
+      "kind": "block",
+      "type": "linux_gpiozero_buzzer_play",
+      "inputs": { "TONE": { "shadow": { "type": "text", "fields": { "TEXT": "A4" } } } }
+    },
+    { "kind": "block", "type": "linux_gpiozero_buzzer_on" },
+    { "kind": "block", "type": "linux_gpiozero_buzzer_off" },
+    { "kind": "block", "type": "linux_gpiozero_buzzer_stop" },
+    { "kind": "block", "type": "linux_gpiozero_buzzer_close" }
+  ]
+}

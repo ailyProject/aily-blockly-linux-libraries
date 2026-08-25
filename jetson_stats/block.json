@@ -1,0 +1,212 @@
+[
+  {
+    "type": "jetson_stats_call",
+    "message0": "jetson-stats / jtop call or create %1 arguments %2 keyword arguments %3",
+    "args0": [
+      {
+        "type": "field_dropdown",
+        "name": "TARGET",
+        "options": [
+          [
+            "jtop",
+            "jtop"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#76B900",
+    "icon": "fa-light fa-microchip",
+    "tooltip": "Call an allowlisted jetson-stats / jtop function or constructor and return its result.",
+    "output": "Any"
+  },
+  {
+    "type": "jetson_stats_do",
+    "message0": "run jetson-stats / jtop %1 arguments %2 keyword arguments %3",
+    "args0": [
+      {
+        "type": "field_dropdown",
+        "name": "TARGET",
+        "options": [
+          [
+            "jtop",
+            "jtop"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#76B900",
+    "icon": "fa-light fa-microchip",
+    "tooltip": "Run an allowlisted jetson-stats / jtop function or constructor as a statement.",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "jetson_stats_method",
+    "message0": "jetson-stats / jtop object %1 call method %2 arguments %3 keyword arguments %4",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "OBJECT"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "METHOD",
+        "options": [
+          [
+            "start",
+            "start"
+          ],
+          [
+            "close",
+            "close"
+          ],
+          [
+            "ok",
+            "ok"
+          ],
+          [
+            "loop",
+            "loop"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#76B900",
+    "icon": "fa-light fa-microchip",
+    "tooltip": "Call an allowlisted jetson-stats / jtop object method and return its result.",
+    "output": "Any"
+  },
+  {
+    "type": "jetson_stats_do_method",
+    "message0": "run jetson-stats / jtop object %1 method %2 arguments %3 keyword arguments %4",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "OBJECT"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "METHOD",
+        "options": [
+          [
+            "start",
+            "start"
+          ],
+          [
+            "close",
+            "close"
+          ],
+          [
+            "ok",
+            "ok"
+          ],
+          [
+            "loop",
+            "loop"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "ARGS"
+      },
+      {
+        "type": "input_value",
+        "name": "KWARGS"
+      }
+    ],
+    "colour": "#76B900",
+    "icon": "fa-light fa-microchip",
+    "tooltip": "Run an allowlisted jetson-stats / jtop object method as a statement.",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "jetson_stats_attribute",
+    "message0": "jetson-stats / jtop object %1 attribute %2",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "OBJECT"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "ATTRIBUTE",
+        "options": [
+          [
+            "board",
+            "board"
+          ],
+          [
+            "stats",
+            "stats"
+          ],
+          [
+            "cpu",
+            "cpu"
+          ],
+          [
+            "gpu",
+            "gpu"
+          ],
+          [
+            "memory",
+            "memory"
+          ],
+          [
+            "engines",
+            "engines"
+          ],
+          [
+            "temperature",
+            "temperature"
+          ],
+          [
+            "power",
+            "power"
+          ],
+          [
+            "fan",
+            "fan"
+          ],
+          [
+            "jetson_clocks",
+            "jetson_clocks"
+          ],
+          [
+            "nvpmodel",
+            "nvpmodel"
+          ]
+        ]
+      }
+    ],
+    "colour": "#76B900",
+    "icon": "fa-light fa-microchip",
+    "tooltip": "Read an allowlisted jetson-stats / jtop object or module attribute.",
+    "output": "Any"
+  }
+]

@@ -1,6 +1,7 @@
 {
   "kind": "category",
   "name": "Raspberry Pi Hardware PWM",
+  "icon": "fa-light fa-wave-square",
   "colour": "#00897B",
   "contents": [
     {

@@ -1,0 +1,294 @@
+{
+  "toolbox_name": "NVIDIA TensorRT",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "nvidia_tensorrt_call": {
+    "message0": "NVIDIA TensorRT call or create %1 arguments %2 keyword arguments %3",
+    "tooltip": "Call an allowlisted NVIDIA TensorRT function or constructor and return its result.",
+    "args0": [
+      {
+        "options": [
+          [
+            "Logger",
+            "Logger"
+          ],
+          [
+            "Runtime",
+            "Runtime"
+          ],
+          [
+            "Builder",
+            "Builder"
+          ],
+          [
+            "OnnxParser",
+            "OnnxParser"
+          ],
+          [
+            "Refitter",
+            "Refitter"
+          ],
+          [
+            "volume",
+            "volume"
+          ],
+          [
+            "nptype",
+            "nptype"
+          ],
+          [
+            "init_libnvinfer_plugins",
+            "init_libnvinfer_plugins"
+          ],
+          [
+            "get_plugin_registry",
+            "get_plugin_registry"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "nvidia_tensorrt_do": {
+    "message0": "run NVIDIA TensorRT %1 arguments %2 keyword arguments %3",
+    "tooltip": "Run an allowlisted NVIDIA TensorRT function or constructor as a statement.",
+    "args0": [
+      {
+        "options": [
+          [
+            "Logger",
+            "Logger"
+          ],
+          [
+            "Runtime",
+            "Runtime"
+          ],
+          [
+            "Builder",
+            "Builder"
+          ],
+          [
+            "OnnxParser",
+            "OnnxParser"
+          ],
+          [
+            "Refitter",
+            "Refitter"
+          ],
+          [
+            "volume",
+            "volume"
+          ],
+          [
+            "nptype",
+            "nptype"
+          ],
+          [
+            "init_libnvinfer_plugins",
+            "init_libnvinfer_plugins"
+          ],
+          [
+            "get_plugin_registry",
+            "get_plugin_registry"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "nvidia_tensorrt_method": {
+    "message0": "NVIDIA TensorRT object %1 call method %2 arguments %3 keyword arguments %4",
+    "tooltip": "Call an allowlisted NVIDIA TensorRT object method and return its result.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "deserialize_cuda_engine",
+            "deserialize_cuda_engine"
+          ],
+          [
+            "create_execution_context",
+            "create_execution_context"
+          ],
+          [
+            "create_network",
+            "create_network"
+          ],
+          [
+            "create_builder_config",
+            "create_builder_config"
+          ],
+          [
+            "build_serialized_network",
+            "build_serialized_network"
+          ],
+          [
+            "parse",
+            "parse"
+          ],
+          [
+            "parse_from_file",
+            "parse_from_file"
+          ],
+          [
+            "set_input_shape",
+            "set_input_shape"
+          ],
+          [
+            "set_tensor_address",
+            "set_tensor_address"
+          ],
+          [
+            "execute_async_v3",
+            "execute_async_v3"
+          ],
+          [
+            "get_tensor_shape",
+            "get_tensor_shape"
+          ],
+          [
+            "get_tensor_name",
+            "get_tensor_name"
+          ],
+          [
+            "get_tensor_mode",
+            "get_tensor_mode"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "nvidia_tensorrt_do_method": {
+    "message0": "run NVIDIA TensorRT object %1 method %2 arguments %3 keyword arguments %4",
+    "tooltip": "Run an allowlisted NVIDIA TensorRT object method as a statement.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "deserialize_cuda_engine",
+            "deserialize_cuda_engine"
+          ],
+          [
+            "create_execution_context",
+            "create_execution_context"
+          ],
+          [
+            "create_network",
+            "create_network"
+          ],
+          [
+            "create_builder_config",
+            "create_builder_config"
+          ],
+          [
+            "build_serialized_network",
+            "build_serialized_network"
+          ],
+          [
+            "parse",
+            "parse"
+          ],
+          [
+            "parse_from_file",
+            "parse_from_file"
+          ],
+          [
+            "set_input_shape",
+            "set_input_shape"
+          ],
+          [
+            "set_tensor_address",
+            "set_tensor_address"
+          ],
+          [
+            "execute_async_v3",
+            "execute_async_v3"
+          ],
+          [
+            "get_tensor_shape",
+            "get_tensor_shape"
+          ],
+          [
+            "get_tensor_name",
+            "get_tensor_name"
+          ],
+          [
+            "get_tensor_mode",
+            "get_tensor_mode"
+          ]
+        ]
+      },
+      null,
+      null
+    ]
+  },
+  "nvidia_tensorrt_attribute": {
+    "message0": "NVIDIA TensorRT object %1 attribute %2",
+    "tooltip": "Read an allowlisted NVIDIA TensorRT object or module attribute.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "__version__",
+            "__version__"
+          ],
+          [
+            "Logger.WARNING",
+            "Logger.WARNING"
+          ],
+          [
+            "Logger.ERROR",
+            "Logger.ERROR"
+          ],
+          [
+            "Logger.INFO",
+            "Logger.INFO"
+          ],
+          [
+            "NetworkDefinitionCreationFlag.EXPLICIT_BATCH",
+            "NetworkDefinitionCreationFlag.EXPLICIT_BATCH"
+          ],
+          [
+            "TensorIOMode.INPUT",
+            "TensorIOMode.INPUT"
+          ],
+          [
+            "TensorIOMode.OUTPUT",
+            "TensorIOMode.OUTPUT"
+          ],
+          [
+            "float32",
+            "float32"
+          ],
+          [
+            "float16",
+            "float16"
+          ],
+          [
+            "int8",
+            "int8"
+          ],
+          [
+            "int32",
+            "int32"
+          ],
+          [
+            "bool",
+            "bool"
+          ],
+          [
+            "bfloat16",
+            "bfloat16"
+          ]
+        ]
+      }
+    ]
+  }
+}

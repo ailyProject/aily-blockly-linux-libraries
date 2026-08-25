@@ -1,0 +1,54 @@
+{
+  "kind": "category",
+  "name": "DS3231 RTC",
+  "icon": "fa-light fa-clock",
+  "colour": "#00897B",
+  "contents": [
+    {
+      "kind": "block",
+      "type": "python_ds3231_init"
+    },
+    {
+      "kind": "block",
+      "type": "python_ds3231_datetime"
+    },
+    {
+      "kind": "block",
+      "type": "python_ds3231_set_datetime"
+    },
+    {
+      "kind": "block",
+      "type": "python_ds3231_temperature"
+    },
+    {
+      "kind": "block",
+      "type": "python_ds3231_force_temperature"
+    },
+    {
+      "kind": "block",
+      "type": "python_ds3231_lost_power"
+    },
+    {
+      "kind": "block",
+      "type": "python_ds3231_calibration"
+    },
+    {
+      "kind": "block",
+      "type": "python_ds3231_set_calibration",
+      "inputs": {
+        "CALIBRATION": {
+          "shadow": {
+            "type": "math_number",
+            "fields": {
+              "NUM": 0
+            }
+          }
+        }
+      }
+    },
+    {
+      "kind": "block",
+      "type": "python_ds3231_close"
+    }
+  ]
+}

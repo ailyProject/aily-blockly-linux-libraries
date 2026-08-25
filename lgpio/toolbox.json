@@ -1,6 +1,7 @@
 {
   "kind": "category",
   "name": "lgpio",
+  "icon": "fa-light fa-microchip",
   "colour": "#00897B",
   "contents": [
     {

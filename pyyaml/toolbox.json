@@ -1,6 +1,7 @@
 {
   "kind": "category",
   "name": "PyYAML",
+  "icon": "fa-light fa-file-code",
   "colour": "#455A64",
   "contents": [
     {

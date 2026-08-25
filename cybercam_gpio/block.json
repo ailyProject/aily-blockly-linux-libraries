@@ -48,7 +48,7 @@
     ],
     "colour": "#00897B",
     "tooltip": "Create a digital IO object using the official board and digitalio modules.",
-    "icon": "settings",
+    "icon": "fa-light fa-plug",
     "previousStatement": null,
     "nextStatement": null
   },
@@ -69,7 +69,7 @@
     ],
     "colour": "#00897B",
     "tooltip": "set GPIO %1 to %2",
-    "icon": "settings",
+    "icon": "fa-light fa-upload",
     "previousStatement": null,
     "nextStatement": null
   },
@@ -85,7 +85,7 @@
     ],
     "colour": "#00897B",
     "tooltip": "GPIO %1 value",
-    "icon": "settings",
+    "icon": "fa-light fa-download",
     "output": "Any"
   },
   {
@@ -100,7 +100,7 @@
     ],
     "colour": "#00897B",
     "tooltip": "deinitialize GPIO %1",
-    "icon": "settings",
+    "icon": "fa-light fa-power-off",
     "previousStatement": null,
     "nextStatement": null
   },
@@ -116,7 +116,7 @@
     ],
     "colour": "#00897B",
     "tooltip": "set onboard LED to %1",
-    "icon": "settings",
+    "icon": "fa-light fa-upload",
     "previousStatement": null,
     "nextStatement": null
   },
@@ -125,7 +125,7 @@
     "message0": "onboard key is pressed",
     "colour": "#00897B",
     "tooltip": "onboard key is pressed",
-    "icon": "settings",
+    "icon": "fa-light fa-circle-info",
     "output": "Any"
   },
   {
@@ -166,7 +166,7 @@
     ],
     "colour": "#00897B",
     "tooltip": "initialize PWM %1 target %2",
-    "icon": "settings",
+    "icon": "fa-light fa-plug",
     "previousStatement": null,
     "nextStatement": null
   },
@@ -187,7 +187,7 @@
     ],
     "colour": "#00897B",
     "tooltip": "set PWM %1 frequency %2 Hz",
-    "icon": "settings",
+    "icon": "fa-light fa-sliders",
     "previousStatement": null,
     "nextStatement": null
   },
@@ -208,7 +208,7 @@
     ],
     "colour": "#00897B",
     "tooltip": "set PWM %1 duty cycle %2 (0-1)",
-    "icon": "settings",
+    "icon": "fa-light fa-sliders",
     "previousStatement": null,
     "nextStatement": null
   },
@@ -224,7 +224,7 @@
     ],
     "colour": "#00897B",
     "tooltip": "enable PWM %1",
-    "icon": "settings",
+    "icon": "fa-light fa-play",
     "previousStatement": null,
     "nextStatement": null
   },
@@ -240,7 +240,7 @@
     ],
     "colour": "#00897B",
     "tooltip": "disable PWM %1",
-    "icon": "settings",
+    "icon": "fa-light fa-power-off",
     "previousStatement": null,
     "nextStatement": null
   },
@@ -256,7 +256,7 @@
     ],
     "colour": "#00897B",
     "tooltip": "close PWM %1",
-    "icon": "settings",
+    "icon": "fa-light fa-power-off",
     "previousStatement": null,
     "nextStatement": null
   }

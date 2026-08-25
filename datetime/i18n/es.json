@@ -1,0 +1,197 @@
+{
+  "toolbox_name": "Fecha y hora",
+  "toolbox_categories": [],
+  "toolbox_labels": {},
+  "python_datetime_now": {
+    "message0": "current local date and time",
+    "tooltip": "Return the current local date and time as a naive datetime object.",
+    "args0": []
+  },
+  "python_datetime_utc_now": {
+    "message0": "current UTC date and time",
+    "tooltip": "Return the current UTC date and time as a timezone-aware datetime object.",
+    "args0": []
+  },
+  "python_datetime_timestamp_now": {
+    "message0": "current POSIX timestamp",
+    "tooltip": "Return seconds since the POSIX epoch using the system wall clock.",
+    "args0": []
+  },
+  "python_datetime_monotonic_ms": {
+    "message0": "monotonic milliseconds",
+    "tooltip": "Return a monotonic counter in whole milliseconds for elapsed-time measurement.",
+    "args0": []
+  },
+  "python_datetime_monotonic_us": {
+    "message0": "monotonic microseconds",
+    "tooltip": "Return a monotonic counter in whole microseconds for elapsed-time measurement.",
+    "args0": []
+  },
+  "python_datetime_create": {
+    "message0": "create date and time year %1 month %2 day %3 hour %4 minute %5 second %6 microsecond %7 timezone %8",
+    "tooltip": "Construct a datetime object. Invalid calendar values raise ValueError.",
+    "args0": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "options": [
+          [
+            "local / naive",
+            "NAIVE"
+          ],
+          [
+            "UTC aware",
+            "UTC"
+          ]
+        ]
+      }
+    ]
+  },
+  "python_datetime_format": {
+    "message0": "format date and time %1 with %2",
+    "tooltip": "Format a datetime with strftime and return text.",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_datetime_parse": {
+    "message0": "parse date and time text %1 with %2",
+    "tooltip": "Parse text with strptime. Invalid input raises ValueError.",
+    "args0": [
+      null,
+      null
+    ]
+  },
+  "python_datetime_from_timestamp": {
+    "message0": "date and time from POSIX timestamp %1 in %2",
+    "tooltip": "Convert a POSIX timestamp to a local naive or UTC-aware datetime.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "local",
+            "LOCAL"
+          ],
+          [
+            "UTC",
+            "UTC"
+          ]
+        ]
+      }
+    ]
+  },
+  "python_datetime_to_timestamp": {
+    "message0": "POSIX timestamp of date and time %1",
+    "tooltip": "Convert a datetime object to POSIX seconds.",
+    "args0": [
+      null
+    ]
+  },
+  "python_datetime_component": {
+    "message0": "%1 of date and time %2",
+    "tooltip": "Read an allowlisted numeric datetime component.",
+    "args0": [
+      {
+        "options": [
+          [
+            "year",
+            "YEAR"
+          ],
+          [
+            "month",
+            "MONTH"
+          ],
+          [
+            "day",
+            "DAY"
+          ],
+          [
+            "hour",
+            "HOUR"
+          ],
+          [
+            "minute",
+            "MINUTE"
+          ],
+          [
+            "second",
+            "SECOND"
+          ],
+          [
+            "microsecond",
+            "MICROSECOND"
+          ],
+          [
+            "weekday (Monday = 0)",
+            "WEEKDAY"
+          ],
+          [
+            "ISO weekday (Monday = 1)",
+            "ISO_WEEKDAY"
+          ],
+          [
+            "day of year",
+            "DAY_OF_YEAR"
+          ]
+        ]
+      },
+      null
+    ]
+  },
+  "python_datetime_isoformat": {
+    "message0": "ISO 8601 text of date and time %1 precision %2",
+    "tooltip": "Return ISO 8601 text with an allowlisted time precision.",
+    "args0": [
+      null,
+      {
+        "options": [
+          [
+            "automatic",
+            "AUTO"
+          ],
+          [
+            "hours",
+            "HOURS"
+          ],
+          [
+            "minutes",
+            "MINUTES"
+          ],
+          [
+            "seconds",
+            "SECONDS"
+          ],
+          [
+            "milliseconds",
+            "MILLISECONDS"
+          ],
+          [
+            "microseconds",
+            "MICROSECONDS"
+          ]
+        ]
+      }
+    ]
+  },
+  "python_datetime_from_isoformat": {
+    "message0": "date and time from ISO 8601 text %1",
+    "tooltip": "Parse supported ISO 8601 date and time text. Invalid input raises ValueError.",
+    "args0": [
+      null
+    ]
+  },
+  "python_datetime_sleep_ms": {
+    "message0": "wait %1 milliseconds",
+    "tooltip": "Pause the current thread for the requested milliseconds. Negative values raise ValueError.",
+    "args0": [
+      null
+    ]
+  }
+}
