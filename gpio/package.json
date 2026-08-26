@@ -1,5 +1,5 @@
 {
-  "name": "@aily-project/lib-gpio",
+  "name": "@aily-project-linux/lib-gpio",
   "nickname": "GPIO & PWM",
   "nickname_zh_cn": "GPIO 与 PWM",
   "nickname_en": "GPIO & PWM",

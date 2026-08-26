@@ -68,7 +68,7 @@ test('package declares exactly the 21-block Paho MQTT surface', () => {
   const pkg = readJson('package.json');
   const blocks = readJson('block.json');
 
-  assert.equal(pkg.name, '@aily-project/lib-paho-mqtt');
+  assert.equal(pkg.name, '@aily-project-linux/lib-paho-mqtt');
   assert.equal(pkg.spec, true);
   assert.equal(blocks.length, 21);
   assert.deepEqual(blocks.map(({ type }) => type), BLOCK_TYPES);

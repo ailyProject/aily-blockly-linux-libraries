@@ -1,5 +1,5 @@
 {
-  "name": "@aily-project/lib-adafruit-sgp30",
+  "name": "@aily-project-linux/lib-adafruit-sgp30",
   "nickname": "CircuitPython SGP30",
   "nickname_zh_cn": "CircuitPython SGP30",
   "nickname_en": "CircuitPython SGP30",

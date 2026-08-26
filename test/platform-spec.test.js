@@ -18,7 +18,7 @@ function libraryRecords() {
       const file = path.join(ROOT, entry.name, 'package.json');
       if (!fs.existsSync(file)) return [];
       const metadata = JSON.parse(fs.readFileSync(file, 'utf8'));
-      return String(metadata.name || '').startsWith('@aily-project/lib-')
+      return String(metadata.name || '').startsWith('@aily-project-linux/lib-')
         ? [{ directory: entry.name, metadata }]
         : [];
     });

@@ -18,7 +18,7 @@ function libraryRecords() {
       const file = path.join(ROOT, directory, 'package.json');
       if (!fs.existsSync(file)) return [];
       const metadata = JSON.parse(fs.readFileSync(file, 'utf8'));
-      if (!String(metadata.name || '').startsWith('@aily-project/lib-')) return [];
+      if (!String(metadata.name || '').startsWith('@aily-project-linux/lib-')) return [];
       const types = metadata.compatibility?.type;
       if (!Array.isArray(types) || !types.length) throw new Error(`${directory}: compatibility.type is empty`);
       const platforms = platformFamiliesForTypes(types);

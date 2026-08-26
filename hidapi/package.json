@@ -1,5 +1,5 @@
 {
-  "name": "@aily-project/lib-hidapi",
+  "name": "@aily-project-linux/lib-hidapi",
   "nickname": "hidapi",
   "nickname_zh_cn": "hidapi",
   "nickname_en": "hidapi",

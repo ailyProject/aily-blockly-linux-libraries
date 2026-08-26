@@ -1,5 +1,5 @@
 {
-  "name": "@aily-project/lib-onnxruntime",
+  "name": "@aily-project-linux/lib-onnxruntime",
   "nickname": "ONNX Runtime",
   "nickname_zh_cn": "ONNX Runtime",
   "nickname_en": "ONNX Runtime",

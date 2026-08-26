@@ -1,5 +1,5 @@
 {
-  "name": "@aily-project/lib-adafruit-tsl2591",
+  "name": "@aily-project-linux/lib-adafruit-tsl2591",
   "nickname": "CircuitPython TSL2591",
   "nickname_zh_cn": "CircuitPython TSL2591",
   "nickname_en": "CircuitPython TSL2591",

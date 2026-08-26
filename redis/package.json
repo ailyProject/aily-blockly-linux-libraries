@@ -1,5 +1,5 @@
 {
-  "name": "@aily-project/lib-redis",
+  "name": "@aily-project-linux/lib-redis",
   "nickname": "redis-py",
   "nickname_zh_cn": "redis-py",
   "nickname_en": "redis-py",

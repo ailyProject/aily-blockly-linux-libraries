@@ -1,5 +1,5 @@
 {
-  "name": "@aily-project/lib-tensorrt",
+  "name": "@aily-project-linux/lib-tensorrt",
   "nickname": "NVIDIA TensorRT",
   "nickname_ar": "NVIDIA TensorRT",
   "nickname_de": "NVIDIA TensorRT",

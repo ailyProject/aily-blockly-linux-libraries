@@ -1,5 +1,5 @@
 {
-  "name": "@aily-project/lib-rpi-buildhat",
+  "name": "@aily-project-linux/lib-rpi-buildhat",
   "nickname": "Build HAT",
   "nickname_zh_cn": "Build HAT",
   "nickname_en": "Build HAT",

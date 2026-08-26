@@ -1,5 +1,5 @@
 {
-  "name": "@aily-project/lib-rpi-hardware-pwm",
+  "name": "@aily-project-linux/lib-rpi-hardware-pwm",
   "nickname": "Raspberry Pi Hardware PWM",
   "nickname_zh_cn": "Raspberry Pi Hardware PWM",
   "nickname_en": "Raspberry Pi Hardware PWM",

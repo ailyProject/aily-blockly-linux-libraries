@@ -1,5 +1,5 @@
 {
-  "name": "@aily-project/lib-azure-iot-device",
+  "name": "@aily-project-linux/lib-azure-iot-device",
   "nickname": "Azure IoT Device",
   "nickname_zh_cn": "Azure IoT Device",
   "nickname_en": "Azure IoT Device",

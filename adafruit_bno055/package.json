@@ -1,5 +1,5 @@
 {
-  "name": "@aily-project/lib-adafruit-bno055",
+  "name": "@aily-project-linux/lib-adafruit-bno055",
   "nickname": "CircuitPython BNO055",
   "nickname_zh_cn": "CircuitPython BNO055",
   "nickname_en": "CircuitPython BNO055",

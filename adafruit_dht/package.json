@@ -1,5 +1,5 @@
 {
-  "name": "@aily-project/lib-adafruit-dht",
+  "name": "@aily-project-linux/lib-adafruit-dht",
   "nickname": "CircuitPython DHT",
   "nickname_zh_cn": "CircuitPython DHT",
   "nickname_en": "CircuitPython DHT",

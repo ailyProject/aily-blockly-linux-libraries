@@ -1,5 +1,5 @@
 {
-  "name": "@aily-project/lib-pyusb",
+  "name": "@aily-project-linux/lib-pyusb",
   "nickname": "PyUSB",
   "nickname_zh_cn": "PyUSB",
   "nickname_en": "PyUSB",

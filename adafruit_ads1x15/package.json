@@ -1,5 +1,5 @@
 {
-  "name": "@aily-project/lib-adafruit-ads1x15",
+  "name": "@aily-project-linux/lib-adafruit-ads1x15",
   "nickname": "CircuitPython ADS1x15",
   "nickname_zh_cn": "CircuitPython ADS1x15",
   "nickname_en": "CircuitPython ADS1x15",

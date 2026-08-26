@@ -1,5 +1,5 @@
 {
-  "name": "@aily-project/lib-psutil",
+  "name": "@aily-project-linux/lib-psutil",
   "nickname": "psutil",
   "nickname_zh_cn": "psutil",
   "nickname_en": "psutil",

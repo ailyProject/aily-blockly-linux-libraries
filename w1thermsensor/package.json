@@ -1,5 +1,5 @@
 {
-  "name": "@aily-project/lib-w1thermsensor",
+  "name": "@aily-project-linux/lib-w1thermsensor",
   "nickname": "W1ThermSensor",
   "nickname_zh_cn": "W1ThermSensor",
   "nickname_en": "W1ThermSensor",

@@ -1,5 +1,5 @@
 {
-  "name": "@aily-project/lib-rpi-picamera2",
+  "name": "@aily-project-linux/lib-rpi-picamera2",
   "nickname": "Picamera2",
   "nickname_zh_cn": "Picamera2",
   "nickname_en": "Picamera2",

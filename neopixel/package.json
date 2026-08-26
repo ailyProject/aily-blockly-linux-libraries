@@ -1,5 +1,5 @@
 {
-  "name": "@aily-project/lib-neopixel",
+  "name": "@aily-project-linux/lib-neopixel",
   "nickname": "CircuitPython NeoPixel",
   "nickname_zh_cn": "CircuitPython NeoPixel",
   "nickname_en": "CircuitPython NeoPixel",

@@ -1,5 +1,5 @@
 {
-  "name": "@aily-project/lib-adafruit-apds9960",
+  "name": "@aily-project-linux/lib-adafruit-apds9960",
   "nickname": "CircuitPython APDS9960",
   "nickname_zh_cn": "CircuitPython APDS9960",
   "nickname_en": "CircuitPython APDS9960",

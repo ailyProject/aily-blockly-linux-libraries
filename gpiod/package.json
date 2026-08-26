@@ -1,5 +1,5 @@
 {
-  "name": "@aily-project/lib-gpiod",
+  "name": "@aily-project-linux/lib-gpiod",
   "nickname": "libgpiod v2",
   "nickname_zh_cn": "libgpiod v2",
   "nickname_en": "libgpiod v2",

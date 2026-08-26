@@ -1,5 +1,5 @@
 {
-  "name": "@aily-project/lib-adafruit-ccs811",
+  "name": "@aily-project-linux/lib-adafruit-ccs811",
   "nickname": "CircuitPython CCS811",
   "nickname_zh_cn": "CircuitPython CCS811",
   "nickname_en": "CircuitPython CCS811",

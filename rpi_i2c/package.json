@@ -1,5 +1,5 @@
 {
-  "name": "@aily-project/lib-rpi-i2c",
+  "name": "@aily-project-linux/lib-rpi-i2c",
   "nickname": "I2C / SMBus",
   "nickname_zh_cn": "I2C / SMBus",
   "nickname_en": "I2C / SMBus",

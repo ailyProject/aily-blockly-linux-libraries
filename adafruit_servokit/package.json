@@ -1,5 +1,5 @@
 {
-  "name": "@aily-project/lib-adafruit-servokit",
+  "name": "@aily-project-linux/lib-adafruit-servokit",
   "nickname": "CircuitPython ServoKit",
   "nickname_zh_cn": "CircuitPython ServoKit",
   "nickname_en": "CircuitPython ServoKit",

@@ -1,5 +1,5 @@
 {
-  "name": "@aily-project/lib-adafruit-ina219",
+  "name": "@aily-project-linux/lib-adafruit-ina219",
   "nickname": "CircuitPython INA219",
   "nickname_zh_cn": "CircuitPython INA219",
   "nickname_en": "CircuitPython INA219",

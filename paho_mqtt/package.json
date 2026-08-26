@@ -1,5 +1,5 @@
 {
-  "name": "@aily-project/lib-paho-mqtt",
+  "name": "@aily-project-linux/lib-paho-mqtt",
   "nickname": "Paho MQTT",
   "nickname_zh_cn": "Paho MQTT 通信",
   "nickname_en": "Paho MQTT",

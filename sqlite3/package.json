@@ -1,5 +1,5 @@
 {
-  "name": "@aily-project/lib-sqlite3",
+  "name": "@aily-project-linux/lib-sqlite3",
   "nickname": "SQLite",
   "nickname_zh_cn": "SQLite 数据库",
   "nickname_en": "SQLite",

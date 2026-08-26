@@ -1,5 +1,5 @@
 {
-  "name": "@aily-project/lib-rpi-sense-emu",
+  "name": "@aily-project-linux/lib-rpi-sense-emu",
   "nickname": "Sense HAT Emulator",
   "nickname_zh_cn": "Sense HAT Emulator",
   "nickname_en": "Sense HAT Emulator",

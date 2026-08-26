@@ -328,7 +328,7 @@ test('each catalog package has exactly 17 files and complete package metadata', 
 
     const metadata = readJson(path.join(directory, 'package.json'));
     assert.deepEqual(Object.keys(metadata).sort(), METADATA_KEYS, `${library.id}: metadata keys`);
-    assert.equal(metadata.name, `@aily-project/lib-${library.id.replaceAll('_', '-')}`);
+    assert.equal(metadata.name, `@aily-project-linux/lib-${library.id.replaceAll('_', '-')}`);
     assert.equal(metadata.nickname, library.title, `${library.id}: nickname`);
     for (const locale of LOCALES) {
       assert.equal(metadata[`nickname_${locale}`], library.title, `${library.id}: ${locale} nickname`);
@@ -638,7 +638,7 @@ test('package names and block types are globally unique, including existing libr
 
   for (const library of libraries) {
     assert.equal(
-      packageNames.get(`@aily-project/lib-${library.id.replaceAll('_', '-')}`),
+      packageNames.get(`@aily-project-linux/lib-${library.id.replaceAll('_', '-')}`),
       library.id,
       `${library.id}: catalog package missing from global scan`,
     );

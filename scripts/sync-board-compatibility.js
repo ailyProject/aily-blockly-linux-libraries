@@ -97,7 +97,7 @@ function libraryDirectories() {
       const file = path.join(ROOT, directory, 'package.json');
       if (!fs.existsSync(file)) return false;
       const metadata = JSON.parse(fs.readFileSync(file, 'utf8'));
-      return String(metadata.name || '').startsWith('@aily-project/lib-');
+      return String(metadata.name || '').startsWith('@aily-project-linux/lib-');
     })
     .sort();
 }

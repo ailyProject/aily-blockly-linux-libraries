@@ -1,5 +1,5 @@
 {
-  "name": "@aily-project/lib-cybercam-gpio",
+  "name": "@aily-project-linux/lib-cybercam-gpio",
   "nickname": "GPIO / LED / PWM",
   "nickname_zh_cn": "GPIO / LED / PWM",
   "nickname_en": "GPIO / LED / PWM",

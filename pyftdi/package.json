@@ -1,5 +1,5 @@
 {
-  "name": "@aily-project/lib-pyftdi",
+  "name": "@aily-project-linux/lib-pyftdi",
   "nickname": "PyFtdi GPIO",
   "nickname_zh_cn": "PyFtdi GPIO",
   "nickname_en": "PyFtdi GPIO",

@@ -1,5 +1,5 @@
 {
-  "name": "@aily-project/lib-jetson-inference",
+  "name": "@aily-project-linux/lib-jetson-inference",
   "nickname": "jetson-inference",
   "nickname_ar": "jetson-inference",
   "nickname_de": "jetson-inference",

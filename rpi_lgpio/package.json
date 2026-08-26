@@ -1,5 +1,5 @@
 {
-  "name": "@aily-project/lib-rpi-lgpio",
+  "name": "@aily-project-linux/lib-rpi-lgpio",
   "nickname": "rpi-lgpio",
   "nickname_zh_cn": "rpi-lgpio",
   "nickname_en": "rpi-lgpio",

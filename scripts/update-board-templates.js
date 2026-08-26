@@ -6,79 +6,79 @@ const path = require('node:path');
 const BOARDS_ROOT = path.resolve(__dirname, '..', '..', 'aily-blockly-linux-boards');
 const VERSION = '0.0.1';
 const FOUNDATION = [
-  '@aily-project/lib-core',
-  '@aily-project/lib-core-logic',
-  '@aily-project/lib-core-loop',
-  '@aily-project/lib-core-math',
-  '@aily-project/lib-core-text',
-  '@aily-project/lib-core-variables',
-  '@aily-project/lib-datetime',
+  '@aily-project-linux/lib-core',
+  '@aily-project-linux/lib-core-logic',
+  '@aily-project-linux/lib-core-loop',
+  '@aily-project-linux/lib-core-math',
+  '@aily-project-linux/lib-core-text',
+  '@aily-project-linux/lib-core-variables',
+  '@aily-project-linux/lib-datetime',
 ];
 const PORTABLE = [
-  '@aily-project/lib-file',
-  '@aily-project/lib-json',
-  '@aily-project/lib-vision',
-  '@aily-project/lib-network',
-  '@aily-project/lib-filesystem',
-  '@aily-project/lib-camera',
-  '@aily-project/lib-serial',
-  '@aily-project/lib-audio',
+  '@aily-project-linux/lib-file',
+  '@aily-project-linux/lib-json',
+  '@aily-project-linux/lib-vision',
+  '@aily-project-linux/lib-network',
+  '@aily-project-linux/lib-filesystem',
+  '@aily-project-linux/lib-camera',
+  '@aily-project-linux/lib-serial',
+  '@aily-project-linux/lib-audio',
 ];
 const DEFAULT_LIBRARIES = Object.freeze({
   cybercam: [
-    '@aily-project/lib-cybercam',
-    '@aily-project/lib-cybercam-cv',
-    '@aily-project/lib-cybercam-gpio',
-    '@aily-project/lib-vision',
-    '@aily-project/lib-network',
-    '@aily-project/lib-file',
-    '@aily-project/lib-json',
-    '@aily-project/lib-filesystem',
-    '@aily-project/lib-serial',
+    '@aily-project-linux/lib-cybercam',
+    '@aily-project-linux/lib-cybercam-cv',
+    '@aily-project-linux/lib-cybercam-gpio',
+    '@aily-project-linux/lib-vision',
+    '@aily-project-linux/lib-network',
+    '@aily-project-linux/lib-file',
+    '@aily-project-linux/lib-json',
+    '@aily-project-linux/lib-filesystem',
+    '@aily-project-linux/lib-serial',
   ],
   jetson_agx_orin: [
     ...PORTABLE,
-    '@aily-project/lib-jetson-gpio',
-    '@aily-project/lib-gstreamer',
+    '@aily-project-linux/lib-jetson-gpio',
+    '@aily-project-linux/lib-gstreamer',
   ],
   jetson_orin_nano: [
     ...PORTABLE,
-    '@aily-project/lib-jetson-gpio',
-    '@aily-project/lib-gstreamer',
+    '@aily-project-linux/lib-jetson-gpio',
+    '@aily-project-linux/lib-gstreamer',
   ],
   jetson_orin_nx: [
     ...PORTABLE,
-    '@aily-project/lib-jetson-gpio',
-    '@aily-project/lib-gstreamer',
+    '@aily-project-linux/lib-jetson-gpio',
+    '@aily-project-linux/lib-gstreamer',
   ],
   raspberrypi_0_2w: [
     ...PORTABLE,
-    '@aily-project/lib-gpio',
-    '@aily-project/lib-gpiozero-devices',
-    '@aily-project/lib-rpi-i2c',
-    '@aily-project/lib-rpi-spi',
-    '@aily-project/lib-rpi-picamera2',
+    '@aily-project-linux/lib-gpio',
+    '@aily-project-linux/lib-gpiozero-devices',
+    '@aily-project-linux/lib-rpi-i2c',
+    '@aily-project-linux/lib-rpi-spi',
+    '@aily-project-linux/lib-rpi-picamera2',
   ],
   raspberrypi_4b: [
     ...PORTABLE,
-    '@aily-project/lib-gpio',
-    '@aily-project/lib-gpiozero-devices',
-    '@aily-project/lib-rpi-i2c',
-    '@aily-project/lib-rpi-spi',
-    '@aily-project/lib-rpi-picamera2',
+    '@aily-project-linux/lib-gpio',
+    '@aily-project-linux/lib-gpiozero-devices',
+    '@aily-project-linux/lib-rpi-i2c',
+    '@aily-project-linux/lib-rpi-spi',
+    '@aily-project-linux/lib-rpi-picamera2',
   ],
   raspberrypi_5b: [
     ...PORTABLE,
-    '@aily-project/lib-gpio',
-    '@aily-project/lib-gpiozero-devices',
-    '@aily-project/lib-rpi-i2c',
-    '@aily-project/lib-rpi-spi',
-    '@aily-project/lib-rpi-picamera2',
+    '@aily-project-linux/lib-gpio',
+    '@aily-project-linux/lib-gpiozero-devices',
+    '@aily-project-linux/lib-rpi-i2c',
+    '@aily-project-linux/lib-rpi-spi',
+    '@aily-project-linux/lib-rpi-picamera2',
   ],
   walnutpi_2: [
     ...PORTABLE,
-    '@aily-project/lib-adafruit-blinka',
-    '@aily-project/lib-gstreamer',
+    '@aily-project-linux/lib-adafruit-blinka',
+    '@aily-project-linux/lib-gstreamer',
   ],
 });
 
@@ -108,7 +108,7 @@ function updateTemplates() {
   for (const [directory, libraries] of Object.entries(DEFAULT_LIBRARIES)) {
     const file = path.join(BOARDS_ROOT, directory, 'template', 'package.json');
     const project = JSON.parse(fs.readFileSync(file, 'utf8'));
-    const boardPackage = Object.keys(project.dependencies).find((name) => name.startsWith('@aily-project/board-'));
+    const boardPackage = Object.keys(project.dependencies).find((name) => name.startsWith('@aily-project-linux/board-'));
     if (!boardPackage) throw new Error(`${directory}: board dependency missing`);
     project.dependencies = Object.fromEntries(
       [boardPackage, ...FOUNDATION, ...libraries].map((name) => [name, VERSION]),
@@ -135,7 +135,7 @@ function updateReadmes() {
   }
 
   const jetsonLibraries = [
-    '模板默认加载语言基础、文件/JSON、视觉、网络、系统、USB 摄像头、串口与音频库，并使用 `@aily-project/lib-jetson-gpio` 提供与 Orin 40-pin 匹配的 GPIO API，使用 `@aily-project/lib-gstreamer` 构建 Jetson 常见视频管线。',
+    '模板默认加载语言基础、文件/JSON、视觉、网络、系统、USB 摄像头、串口与音频库，并使用 `@aily-project-linux/lib-jetson-gpio` 提供与 Orin 40-pin 匹配的 GPIO API，使用 `@aily-project-linux/lib-gstreamer` 构建 Jetson 常见视频管线。',
     '',
     '`Jetson.GPIO` 仍要求正确的用户组/udev 权限；Orin Nano/NX 的 GPIO 复用还可能需要 Jetson-IO 或设备树配置。npm 板包不会安装目标端 Python/系统包、修改 pinmux 或授予设备权限。',
     '',
@@ -155,7 +155,7 @@ function updateReadmes() {
     '## 模板依赖',
     '## 官方资料',
     [
-      '新项目默认加载语言基础、文件/JSON、视觉、网络、系统、摄像头、串口、音频与 GStreamer 库，GPIO/总线入口改用 WalnutPi 官方 Python 教程采用的 `@aily-project/lib-adafruit-blinka`，不再默认加载树莓派导向的 gpiozero 通用库。版本均为 `0.0.1`。',
+      '新项目默认加载语言基础、文件/JSON、视觉、网络、系统、摄像头、串口、音频与 GStreamer 库，GPIO/总线入口改用 WalnutPi 官方 Python 教程采用的 `@aily-project-linux/lib-adafruit-blinka`，不再默认加载树莓派导向的 gpiozero 通用库。版本均为 `0.0.1`。',
       '',
       'Blinka 通过 `board`、`digitalio`、`pwmio` 和 `busio` 映射 WalnutPi 引脚；UART、I²C、SPI 和 PWM 的复用设置仍需按官方文档完成。模板只提供积木资产，不会修改 `set-device`、设备权限或系统包。',
     ].join('\n'),
@@ -166,7 +166,7 @@ function updateReadmes() {
     '## Libraries',
     '## Autostart deployment',
     [
-      "Like the Arduino UNO template's `lib-core-*` dependencies, the CyberCAM template explicitly installs its language foundation. Program structure comes from `@aily-project/lib-core`; logic, loops, math, text, and variables come from the matching `lib-core-*` packages; and date/time blocks come from `@aily-project/lib-datetime`.",
+      "Like the Arduino UNO template's `lib-core-*` dependencies, the CyberCAM template explicitly installs its language foundation. Program structure comes from `@aily-project-linux/lib-core`; logic, loops, math, text, and variables come from the matching `lib-core-*` packages; and date/time blocks come from `@aily-project-linux/lib-datetime`.",
       '',
       'Portable vision, networking, file, JSON, and system operations come from `lib-vision`, `lib-network`, `lib-file`, `lib-json`, and `lib-filesystem`. Board-specific peripherals are split between `lib-cybercam`, `lib-cybercam-gpio`, `lib-cybercam-cv`, and `lib-serial`. All template packages currently use version `0.0.1`.',
       '',
@@ -176,7 +176,7 @@ function updateReadmes() {
 
   replaceExact(
     path.join(BOARDS_ROOT, 'README.md'),
-    '所有 Linux 板卡模板都显式依赖 Python 程序结构库 `@aily-project/lib-core`，以及逻辑、循环、数学、文字、变量和日期时间基础库（`lib-core-*`、`lib-datetime`）。Jetson Orin、Raspberry Pi Zero 2 W/4B/5B 与 WalnutPi 2B 再按板卡能力加载通用 Linux 功能库；CyberCAM 使用 `lib-cybercam`、`lib-cybercam-gpio`、`lib-cybercam-cv` 和 `lib-serial` 等当前拆分包。',
+    '所有 Linux 板卡模板都显式依赖 Python 程序结构库 `@aily-project-linux/lib-core`，以及逻辑、循环、数学、文字、变量和日期时间基础库（`lib-core-*`、`lib-datetime`）。Jetson Orin、Raspberry Pi Zero 2 W/4B/5B 与 WalnutPi 2B 再按板卡能力加载通用 Linux 功能库；CyberCAM 使用 `lib-cybercam`、`lib-cybercam-gpio`、`lib-cybercam-cv` 和 `lib-serial` 等当前拆分包。',
     '所有模板都显式加载 Python 语言基础，以及文件、JSON、网络和系统能力；硬件入口按平台分流：Raspberry Pi 使用 gpiozero、I²C/SPI 与 Picamera2，Jetson Orin 使用 Jetson.GPIO 与 GStreamer，WalnutPi 2B 使用官方 Blinka 映射，CyberCAM 使用其板载外设拆分包。CUDA/TensorRT/PyTorch、Hailo、IMX500、Build HAT 等外设或版本敏感库不作为空白项目的默认依赖。',
   );
 }
@@ -184,64 +184,64 @@ function updateReadmes() {
 function updateTests() {
   const file = path.join(BOARDS_ROOT, 'test', 'board-metadata.test.js');
   replaceExact(file, `const linuxFeatureLibraries = [
-  '@aily-project/lib-vision',
-  '@aily-project/lib-network',
-  '@aily-project/lib-filesystem',
-  '@aily-project/lib-camera',
-  '@aily-project/lib-gpio',
-  '@aily-project/lib-serial',
-  '@aily-project/lib-audio',
+  '@aily-project-linux/lib-vision',
+  '@aily-project-linux/lib-network',
+  '@aily-project-linux/lib-filesystem',
+  '@aily-project-linux/lib-camera',
+  '@aily-project-linux/lib-gpio',
+  '@aily-project-linux/lib-serial',
+  '@aily-project-linux/lib-audio',
 ];`, `const portableFeatureLibraries = [
-  '@aily-project/lib-file',
-  '@aily-project/lib-json',
-  '@aily-project/lib-vision',
-  '@aily-project/lib-network',
-  '@aily-project/lib-filesystem',
-  '@aily-project/lib-camera',
-  '@aily-project/lib-serial',
-  '@aily-project/lib-audio',
+  '@aily-project-linux/lib-file',
+  '@aily-project-linux/lib-json',
+  '@aily-project-linux/lib-vision',
+  '@aily-project-linux/lib-network',
+  '@aily-project-linux/lib-filesystem',
+  '@aily-project-linux/lib-camera',
+  '@aily-project-linux/lib-serial',
+  '@aily-project-linux/lib-audio',
 ];
 
 const templateLibraries = {
   cybercam: [
-    '@aily-project/lib-cybercam',
-    '@aily-project/lib-cybercam-cv',
-    '@aily-project/lib-cybercam-gpio',
-    '@aily-project/lib-vision',
-    '@aily-project/lib-network',
-    '@aily-project/lib-file',
-    '@aily-project/lib-json',
-    '@aily-project/lib-filesystem',
-    '@aily-project/lib-serial',
+    '@aily-project-linux/lib-cybercam',
+    '@aily-project-linux/lib-cybercam-cv',
+    '@aily-project-linux/lib-cybercam-gpio',
+    '@aily-project-linux/lib-vision',
+    '@aily-project-linux/lib-network',
+    '@aily-project-linux/lib-file',
+    '@aily-project-linux/lib-json',
+    '@aily-project-linux/lib-filesystem',
+    '@aily-project-linux/lib-serial',
   ],
-  jetson_agx_orin: [...portableFeatureLibraries, '@aily-project/lib-jetson-gpio', '@aily-project/lib-gstreamer'],
-  jetson_orin_nano: [...portableFeatureLibraries, '@aily-project/lib-jetson-gpio', '@aily-project/lib-gstreamer'],
-  jetson_orin_nx: [...portableFeatureLibraries, '@aily-project/lib-jetson-gpio', '@aily-project/lib-gstreamer'],
+  jetson_agx_orin: [...portableFeatureLibraries, '@aily-project-linux/lib-jetson-gpio', '@aily-project-linux/lib-gstreamer'],
+  jetson_orin_nano: [...portableFeatureLibraries, '@aily-project-linux/lib-jetson-gpio', '@aily-project-linux/lib-gstreamer'],
+  jetson_orin_nx: [...portableFeatureLibraries, '@aily-project-linux/lib-jetson-gpio', '@aily-project-linux/lib-gstreamer'],
   raspberrypi_0_2w: [
     ...portableFeatureLibraries,
-    '@aily-project/lib-gpio',
-    '@aily-project/lib-gpiozero-devices',
-    '@aily-project/lib-rpi-i2c',
-    '@aily-project/lib-rpi-spi',
-    '@aily-project/lib-rpi-picamera2',
+    '@aily-project-linux/lib-gpio',
+    '@aily-project-linux/lib-gpiozero-devices',
+    '@aily-project-linux/lib-rpi-i2c',
+    '@aily-project-linux/lib-rpi-spi',
+    '@aily-project-linux/lib-rpi-picamera2',
   ],
   raspberrypi_4b: [
     ...portableFeatureLibraries,
-    '@aily-project/lib-gpio',
-    '@aily-project/lib-gpiozero-devices',
-    '@aily-project/lib-rpi-i2c',
-    '@aily-project/lib-rpi-spi',
-    '@aily-project/lib-rpi-picamera2',
+    '@aily-project-linux/lib-gpio',
+    '@aily-project-linux/lib-gpiozero-devices',
+    '@aily-project-linux/lib-rpi-i2c',
+    '@aily-project-linux/lib-rpi-spi',
+    '@aily-project-linux/lib-rpi-picamera2',
   ],
   raspberrypi_5b: [
     ...portableFeatureLibraries,
-    '@aily-project/lib-gpio',
-    '@aily-project/lib-gpiozero-devices',
-    '@aily-project/lib-rpi-i2c',
-    '@aily-project/lib-rpi-spi',
-    '@aily-project/lib-rpi-picamera2',
+    '@aily-project-linux/lib-gpio',
+    '@aily-project-linux/lib-gpiozero-devices',
+    '@aily-project-linux/lib-rpi-i2c',
+    '@aily-project-linux/lib-rpi-spi',
+    '@aily-project-linux/lib-rpi-picamera2',
   ],
-  walnutpi_2: [...portableFeatureLibraries, '@aily-project/lib-adafruit-blinka', '@aily-project/lib-gstreamer'],
+  walnutpi_2: [...portableFeatureLibraries, '@aily-project-linux/lib-adafruit-blinka', '@aily-project-linux/lib-gstreamer'],
 };`);
 
   replaceExact(file, `    for (const packageName of pythonFoundationLibraries) {
@@ -251,15 +251,15 @@ const templateLibraries = {
       assert.equal(project.dependencies[packageName], '0.0.1');
     }
     assert.deepEqual(
-      Object.keys(project.dependencies).filter(packageName => packageName.startsWith('@aily-project/lib-')),
+      Object.keys(project.dependencies).filter(packageName => packageName.startsWith('@aily-project-linux/lib-')),
       [...pythonFoundationLibraries, ...templateLibraries[boardDirectory]],
     );
     assert.deepEqual(`);
 
-  replaceExact(file, `  '@aily-project/lib-file',
-  '@aily-project/lib-filesystem',`, `  '@aily-project/lib-file',
-  '@aily-project/lib-json',
-  '@aily-project/lib-filesystem',`);
+  replaceExact(file, `  '@aily-project-linux/lib-file',
+  '@aily-project-linux/lib-filesystem',`, `  '@aily-project-linux/lib-file',
+  '@aily-project-linux/lib-json',
+  '@aily-project-linux/lib-filesystem',`);
 
   replaceExact(file, `    for (const packageName of linuxFeatureLibraries) {
       assert.equal(project.dependencies[packageName], '0.0.1');

@@ -1,5 +1,5 @@
 {
-  "name": "@aily-project/lib-adafruit-lis3dh",
+  "name": "@aily-project-linux/lib-adafruit-lis3dh",
   "nickname": "CircuitPython LIS3DH",
   "nickname_zh_cn": "CircuitPython LIS3DH",
   "nickname_en": "CircuitPython LIS3DH",

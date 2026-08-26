@@ -1,5 +1,5 @@
 {
-  "name": "@aily-project/lib-adafruit-mcp3xxx",
+  "name": "@aily-project-linux/lib-adafruit-mcp3xxx",
   "nickname": "CircuitPython MCP3xxx",
   "nickname_zh_cn": "CircuitPython MCP3xxx",
   "nickname_en": "CircuitPython MCP3xxx",

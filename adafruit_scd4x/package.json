@@ -1,5 +1,5 @@
 {
-  "name": "@aily-project/lib-adafruit-scd4x",
+  "name": "@aily-project-linux/lib-adafruit-scd4x",
   "nickname": "CircuitPython SCD4x",
   "nickname_zh_cn": "CircuitPython SCD4x",
   "nickname_en": "CircuitPython SCD4x",

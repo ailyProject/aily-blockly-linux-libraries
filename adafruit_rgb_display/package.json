@@ -1,5 +1,5 @@
 {
-  "name": "@aily-project/lib-adafruit-rgb-display",
+  "name": "@aily-project-linux/lib-adafruit-rgb-display",
   "nickname": "CircuitPython RGB Display",
   "nickname_zh_cn": "CircuitPython RGB Display",
   "nickname_en": "CircuitPython RGB Display",

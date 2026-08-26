@@ -1,5 +1,5 @@
 {
-  "name": "@aily-project/lib-evdev",
+  "name": "@aily-project-linux/lib-evdev",
   "nickname": "python-evdev",
   "nickname_zh_cn": "python-evdev",
   "nickname_en": "python-evdev",

@@ -1,5 +1,5 @@
 {
-  "name": "@aily-project/lib-adafruit-ahtx0",
+  "name": "@aily-project-linux/lib-adafruit-ahtx0",
   "nickname": "CircuitPython AHTx0",
   "nickname_zh_cn": "CircuitPython AHTx0",
   "nickname_en": "CircuitPython AHTx0",

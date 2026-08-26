@@ -78,7 +78,7 @@ test('package declares the 22 public and 2 hidden compatibility blocks', () => {
   const pkg = readJson('package.json');
   const blocks = readJson('block.json');
 
-  assert.equal(pkg.name, '@aily-project/lib-requests');
+  assert.equal(pkg.name, '@aily-project-linux/lib-requests');
   assert.equal(pkg.spec, true);
   assert.equal(blocks.length, 24);
   assert.deepEqual(blocks.map(({ type }) => type), BLOCK_TYPES);

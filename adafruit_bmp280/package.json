@@ -1,5 +1,5 @@
 {
-  "name": "@aily-project/lib-adafruit-bmp280",
+  "name": "@aily-project-linux/lib-adafruit-bmp280",
   "nickname": "CircuitPython BMP280",
   "nickname_zh_cn": "CircuitPython BMP280",
   "nickname_en": "CircuitPython BMP280",

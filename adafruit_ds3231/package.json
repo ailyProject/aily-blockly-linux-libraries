@@ -1,5 +1,5 @@
 {
-  "name": "@aily-project/lib-adafruit-ds3231",
+  "name": "@aily-project-linux/lib-adafruit-ds3231",
   "nickname": "DS3231 RTC",
   "nickname_zh_cn": "DS3231 实时时钟",
   "nickname_en": "DS3231 RTC",

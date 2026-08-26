@@ -1,5 +1,5 @@
 {
-  "name": "@aily-project/lib-adafruit-pca9685",
+  "name": "@aily-project-linux/lib-adafruit-pca9685",
   "nickname": "CircuitPython PCA9685",
   "nickname_zh_cn": "CircuitPython PCA9685",
   "nickname_en": "CircuitPython PCA9685",

@@ -1,5 +1,5 @@
 {
-  "name": "@aily-project/lib-serial",
+  "name": "@aily-project-linux/lib-serial",
   "nickname": "Serial",
   "nickname_zh_cn": "串口",
   "nickname_en": "Serial",

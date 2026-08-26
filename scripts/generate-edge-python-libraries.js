@@ -429,7 +429,7 @@ function compatibilityFor(profile) {
 
 function packageMetadata(library) {
   const metadata = {
-    name: `@aily-project/lib-${library.id.replaceAll('_', '-')}`,
+    name: `@aily-project-linux/lib-${library.id.replaceAll('_', '-')}`,
     nickname: library.title,
   };
   for (const locale of LOCALES) metadata[`nickname_${locale}`] = library.title;
@@ -475,7 +475,7 @@ function readmeEnglish(library, blocks) {
     ? '- Import: `gi.require_version("Gst", "1.0")`, then `from gi.repository import Gst`'
     : `- Import: \`import ${library.module} as _python_lib_${library.id}\``;
   return [
-    `# @aily-project/lib-${library.id.replaceAll('_', '-')}`,
+    `# @aily-project-linux/lib-${library.id.replaceAll('_', '-')}`,
     '',
     `Curated ${library.title} integration for the standalone CPython generator at \`globalThis.Python\`.`,
     '',

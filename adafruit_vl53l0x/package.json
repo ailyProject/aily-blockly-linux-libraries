@@ -1,5 +1,5 @@
 {
-  "name": "@aily-project/lib-adafruit-vl53l0x",
+  "name": "@aily-project-linux/lib-adafruit-vl53l0x",
   "nickname": "CircuitPython VL53L0X",
   "nickname_zh_cn": "CircuitPython VL53L0X",
   "nickname_en": "CircuitPython VL53L0X",

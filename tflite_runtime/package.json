@@ -1,5 +1,5 @@
 {
-  "name": "@aily-project/lib-tflite-runtime",
+  "name": "@aily-project-linux/lib-tflite-runtime",
   "nickname": "LiteRT / TFLite Runtime",
   "nickname_zh_cn": "LiteRT / TFLite Runtime",
   "nickname_en": "LiteRT / TFLite Runtime",

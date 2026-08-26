@@ -1,5 +1,5 @@
 {
-  "name": "@aily-project/lib-pyudev",
+  "name": "@aily-project-linux/lib-pyudev",
   "nickname": "pyudev",
   "nickname_zh_cn": "pyudev",
   "nickname_en": "pyudev",

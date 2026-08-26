@@ -1,5 +1,5 @@
 {
-  "name": "@aily-project/lib-aws-iot-device-sdk",
+  "name": "@aily-project-linux/lib-aws-iot-device-sdk",
   "nickname": "AWS IoT Device SDK v2",
   "nickname_zh_cn": "AWS IoT Device SDK v2",
   "nickname_en": "AWS IoT Device SDK v2",

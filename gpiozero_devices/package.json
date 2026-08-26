@@ -1,5 +1,5 @@
 {
-  "name": "@aily-project/lib-gpiozero-devices",
+  "name": "@aily-project-linux/lib-gpiozero-devices",
   "nickname": "GPIO Zero Devices",
   "nickname_zh_cn": "GPIO Zero 外围设备",
   "nickname_en": "GPIO Zero Devices",

@@ -252,7 +252,7 @@ function markdown(catalog) {
       ? 'Raspberry Pi'
       : library.compatibility === 'blinka' ? 'Raspberry Pi / WalnutPi (Blinka)'
       : library.compatibility === 'jetson' ? 'NVIDIA Jetson' : 'Linux CPython';
-    lines.push(`| \`${library.id}\` | \`@aily-project/lib-${library.id.replaceAll('_', '-')}\` | \`${library.module}\` | \`${library.install}\` | ${runtime} |`);
+    lines.push(`| \`${library.id}\` | \`@aily-project-linux/lib-${library.id.replaceAll('_', '-')}\` | \`${library.module}\` | \`${library.install}\` | ${runtime} |`);
   }
   lines.push('');
   return lines.join('\n');

@@ -1,5 +1,5 @@
 {
-  "name": "@aily-project/lib-speech-recognition",
+  "name": "@aily-project-linux/lib-speech-recognition",
   "nickname": "SpeechRecognition",
   "nickname_zh_cn": "SpeechRecognition",
   "nickname_en": "SpeechRecognition",

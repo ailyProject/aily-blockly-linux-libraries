@@ -1,5 +1,5 @@
 {
-  "name": "@aily-project/lib-adafruit-motorkit",
+  "name": "@aily-project-linux/lib-adafruit-motorkit",
   "nickname": "CircuitPython MotorKit",
   "nickname_zh_cn": "CircuitPython MotorKit",
   "nickname_en": "CircuitPython MotorKit",

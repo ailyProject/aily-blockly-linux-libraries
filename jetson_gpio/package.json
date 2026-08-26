@@ -1,5 +1,5 @@
 {
-  "name": "@aily-project/lib-jetson-gpio",
+  "name": "@aily-project-linux/lib-jetson-gpio",
   "nickname": "Jetson.GPIO",
   "nickname_ar": "Jetson.GPIO",
   "nickname_de": "Jetson.GPIO",

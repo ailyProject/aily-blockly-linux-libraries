@@ -1,5 +1,5 @@
 {
-  "name": "@aily-project/lib-adafruit-mlx90614",
+  "name": "@aily-project-linux/lib-adafruit-mlx90614",
   "nickname": "CircuitPython MLX90614",
   "nickname_zh_cn": "CircuitPython MLX90614",
   "nickname_en": "CircuitPython MLX90614",

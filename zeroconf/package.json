@@ -1,5 +1,5 @@
 {
-  "name": "@aily-project/lib-zeroconf",
+  "name": "@aily-project-linux/lib-zeroconf",
   "nickname": "python-zeroconf",
   "nickname_zh_cn": "python-zeroconf",
   "nickname_en": "python-zeroconf",

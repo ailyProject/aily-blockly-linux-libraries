@@ -1,5 +1,5 @@
 {
-  "name": "@aily-project/lib-pytesseract",
+  "name": "@aily-project-linux/lib-pytesseract",
   "nickname": "pytesseract",
   "nickname_zh_cn": "pytesseract",
   "nickname_en": "pytesseract",

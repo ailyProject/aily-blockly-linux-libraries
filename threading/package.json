@@ -1,5 +1,5 @@
 {
-  "name": "@aily-project/lib-threading",
+  "name": "@aily-project-linux/lib-threading",
   "nickname": "Threading",
   "nickname_zh_cn": "线程与队列",
   "nickname_en": "Threading",

@@ -1,5 +1,5 @@
 {
-  "name": "@aily-project/lib-hailo-platform",
+  "name": "@aily-project-linux/lib-hailo-platform",
   "nickname": "HailoRT Python",
   "nickname_zh_cn": "HailoRT Python",
   "nickname_en": "HailoRT Python",

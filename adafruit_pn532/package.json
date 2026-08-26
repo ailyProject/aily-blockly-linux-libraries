@@ -1,5 +1,5 @@
 {
-  "name": "@aily-project/lib-adafruit-pn532",
+  "name": "@aily-project-linux/lib-adafruit-pn532",
   "nickname": "CircuitPython PN532",
   "nickname_zh_cn": "CircuitPython PN532",
   "nickname_en": "CircuitPython PN532",

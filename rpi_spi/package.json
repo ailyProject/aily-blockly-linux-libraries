@@ -1,5 +1,5 @@
 {
-  "name": "@aily-project/lib-rpi-spi",
+  "name": "@aily-project-linux/lib-rpi-spi",
   "nickname": "SPI",
   "nickname_zh_cn": "SPI",
   "nickname_en": "SPI",

@@ -1,5 +1,5 @@
 {
-  "name": "@aily-project/lib-filesystem",
+  "name": "@aily-project-linux/lib-filesystem",
   "nickname": "System",
   "nickname_zh_cn": "系统",
   "nickname_en": "System",
@@ -13,9 +13,9 @@
   "nickname_ru": "Система",
   "nickname_ar": "نظام",
   "version": "0.0.1",
-  "description": "系统命令和 Linux CPU 温度兼容积木；标准文件操作已迁至 @aily-project/lib-file。",
-  "description_zh_cn": "系统命令和 Linux CPU 温度兼容积木；标准文件操作已迁至 @aily-project/lib-file。",
-  "description_en": "System-command and Linux CPU-temperature compatibility blocks; standard file operations moved to @aily-project/lib-file.",
+  "description": "系统命令和 Linux CPU 温度兼容积木；标准文件操作已迁至 @aily-project-linux/lib-file。",
+  "description_zh_cn": "系统命令和 Linux CPU 温度兼容积木；标准文件操作已迁至 @aily-project-linux/lib-file。",
+  "description_en": "System-command and Linux CPU-temperature compatibility blocks; standard file operations moved to @aily-project-linux/lib-file.",
   "spec": true,
   "compatibility": {
     "type": [

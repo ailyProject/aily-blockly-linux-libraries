@@ -1,5 +1,5 @@
 {
-  "name": "@aily-project/lib-pyaudio",
+  "name": "@aily-project-linux/lib-pyaudio",
   "nickname": "PyAudio",
   "nickname_zh_cn": "PyAudio",
   "nickname_en": "PyAudio",
