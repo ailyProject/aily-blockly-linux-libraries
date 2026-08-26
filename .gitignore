@@ -6,3 +6,8 @@ Thumbs.db
 .temp/
 .idea/
 .vscode/
+libraries-linux.json
+libraries-linux-ai.json
+libraries-linux-index.json
+package-folder-map-linux.json
+*/info.json
