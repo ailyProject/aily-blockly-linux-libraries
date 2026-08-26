@@ -4,7 +4,7 @@ const fs = require('node:fs');
 const path = require('node:path');
 
 const ROOT = path.resolve(__dirname, '..');
-const PACKAGE_PREFIX = '@aily-project/lib-';
+const PACKAGE_PREFIX = '@aily-project-linux/lib-';
 const OUTPUT_FILE = 'libraries-linux.json';
 const I18N_SUFFIXES = ['zh_cn', 'en', 'zh_hk', 'ja', 'ko', 'de', 'fr', 'es', 'pt', 'ru', 'ar'];
 const I18N_PREFIXES = ['nickname', 'description'];

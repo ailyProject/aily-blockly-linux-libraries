@@ -58,7 +58,7 @@ function writeJson(filePath, value) {
 
 function writePackage(rootDir, folderName, overrides = {}, toolboxIcon = `icon-${folderName}`) {
   const packageJson = {
-    name: `@aily-project/lib-${folderName.replaceAll('_', '-')}`,
+    name: `@aily-project-linux/lib-${folderName.replaceAll('_', '-')}`,
     nickname: folderName,
     version: '1.0.0',
     description: `${folderName} description`,
@@ -94,7 +94,7 @@ function createFixture() {
     tested: true,
   });
   writePackage(rootDir, 'alpha', {
-    name: '@aily-project/lib-alpha',
+    name: '@aily-project-linux/lib-alpha',
     nickname: 'Alpha',
     tags: ['communication'],
   });
@@ -210,13 +210,13 @@ test('Linux metadata scripts generate the complete, sorted release chain', (t) =
   assert.deepEqual(
     libraries.map((library) => library.name),
     [
-      '@aily-project/lib-zeta',
-      '@aily-project/lib-alpha',
-      '@aily-project/lib-core',
-      '@aily-project/lib-core-math',
+      '@aily-project-linux/lib-zeta',
+      '@aily-project-linux/lib-alpha',
+      '@aily-project-linux/lib-core',
+      '@aily-project-linux/lib-core-math',
     ],
   );
-  const alphaLibrary = libraries.find((library) => library.name === '@aily-project/lib-alpha');
+  const alphaLibrary = libraries.find((library) => library.name === '@aily-project-linux/lib-alpha');
   assert.equal(alphaLibrary.icon, 'icon-alpha');
   assert.equal(alphaLibrary.url, 'https://example.com/alpha');
   assert.equal(libraries[0].tested, true);
@@ -265,10 +265,10 @@ test('Linux metadata scripts generate the complete, sorted release chain', (t) =
     fs.readFileSync(path.join(rootDir, 'package-folder-map-linux.json'), 'utf8'),
   );
   assert.deepEqual(Object.keys(folderMap), [
-    '@aily-project/lib-alpha',
-    '@aily-project/lib-core',
-    '@aily-project/lib-core-math',
-    '@aily-project/lib-zeta',
+    '@aily-project-linux/lib-alpha',
+    '@aily-project-linux/lib-core',
+    '@aily-project-linux/lib-core-math',
+    '@aily-project-linux/lib-zeta',
   ]);
   assert.equal(new Set(Object.values(folderMap)).size, 4);
 });
@@ -288,13 +288,13 @@ test('metadata scripts fail with a non-zero status on malformed or duplicate pac
   fs.writeFileSync(path.join(malformedRoot, 'alpha', 'package.json'), '{', 'utf8');
   assert.notEqual(runScript(malformedRoot, 'genjson.js').status, 0);
 
-  writePackage(duplicateRoot, 'duplicate', { name: '@aily-project/lib-alpha' });
+  writePackage(duplicateRoot, 'duplicate', { name: '@aily-project-linux/lib-alpha' });
   assert.notEqual(runScript(duplicateRoot, 'generate-package-folder-map.js').status, 0);
 
   fs.rmSync(path.join(missingIconRoot, 'alpha', 'toolbox.json'));
   assert.notEqual(runScript(missingIconRoot, 'genjson-ai.js').status, 0);
 
-  writePackage(invalidNameRoot, 'invalid_name', { name: ['@aily-project/lib-invalid'] });
+  writePackage(invalidNameRoot, 'invalid_name', { name: ['@aily-project-linux/lib-invalid'] });
   const invalidNameResult = runScript(invalidNameRoot, 'genjson.js');
   assert.notEqual(invalidNameResult.status, 0);
   assert.match(invalidNameResult.stderr, /name 必须是字符串/);
@@ -318,7 +318,7 @@ test('the real 142-package metadata completes the full index and map chain', (t)
   const { getPublishablePackages } = require('../scripts/genjson');
   const packages = getPublishablePackages(ROOT);
   const expectedCores = new Map(packages.map(({ packageJson }) => [
-    packageJson.name.replace('@aily-project/', ''),
+    packageJson.name.replace('@aily-project-linux/', ''),
     packageJson.compatibility.type,
   ]));
   const libraries = JSON.parse(fs.readFileSync(path.join(rootDir, 'libraries-linux.json'), 'utf8'));
@@ -350,7 +350,7 @@ test('the real 142-package metadata completes the full index and map chain', (t)
   for (const library of index.libraries) {
     assertIndexLibrarySchema(library);
     assert.deepEqual(library.supportedCores, expectedCores.get(library.name));
-    const folderName = folderMap[`@aily-project/${library.name}`];
+    const folderName = folderMap[`@aily-project-linux/${library.name}`];
     assert.ok(folderName, library.name);
     const info = JSON.parse(fs.readFileSync(path.join(rootDir, folderName, 'info.json'), 'utf8'));
     assertInfoSchema(info);

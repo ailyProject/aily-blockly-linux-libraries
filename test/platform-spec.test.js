@@ -48,6 +48,6 @@ test('every single-platform library declares spec true', () => {
 
 test('platform spec audit lists every package and is current', () => {
   const audit = fs.readFileSync(path.join(ROOT, 'PLATFORM-SPEC-AUDIT.md'), 'utf8');
-  assert.equal((audit.match(/^\| `[^`]+` \| `@aily-project\/lib-/gm) || []).length, 142);
+  assert.equal((audit.match(/^\| `[^`]+` \| `@aily-project-linux\/lib-/gm) || []).length, 142);
   assert.match(audit, /专用库缺少 `spec: true`：0/);
 });
