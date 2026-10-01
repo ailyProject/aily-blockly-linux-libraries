@@ -26,7 +26,9 @@
       "canaan:k230:cybercam",
       "nvidia:tegra234:jetson_agx_orin",
       "nvidia:tegra234:jetson_orin_nano",
-      "nvidia:tegra234:jetson_orin_nx"
+      "nvidia:tegra234:jetson_orin_nx",
+      "rockchip:rk3566:microduck",
+      "rockchip:rk3566:radxa_zero_3w"
     ],
     "voltage": [
       3.3

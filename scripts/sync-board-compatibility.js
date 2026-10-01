@@ -12,6 +12,12 @@ const ALL_BOARD_LIBRARIES = new Set([
   'datetime', 'file', 'filesystem', 'json', 'network', 'paho_mqtt', 'requests',
   'serial', 'threading', 'vision',
 ]);
+// RK3566 packages currently expose only these audited template libraries.
+// Keep other software and hardware profiles unchanged until reviewed.
+const ROCKCHIP_LIBRARIES = new Set([
+  'core', 'core_logic', 'core_loop', 'core_math', 'core_text', 'core_variables',
+  'datetime', 'file', 'filesystem', 'json', 'network', 'serial',
+]);
 const CYBERCAM_LIBRARIES = new Set(['cybercam', 'cybercam_cv', 'cybercam_gpio']);
 const JETSON_LIBRARIES = new Set([
   'cuda_python', 'cupy', 'jetson_gpio', 'jetson_inference', 'jetson_stats',
@@ -42,10 +48,11 @@ function boardGroups(types) {
   const jetson = types.filter((type) => type.startsWith('nvidia:') && type.includes(':jetson_'));
   const cybercam = types.filter((type) => type === 'canaan:k230:cybercam');
   const walnutPi = types.filter((type) => type === 'allwinner:t527:walnutpi_2b');
+  const rockchip = types.filter((type) => type.startsWith('rockchip:'));
   const linuxSbc = types.filter((type) => !cybercam.includes(type));
   const blinka = types.filter((type) => raspberryPi.includes(type) || walnutPi.includes(type));
-  const expectedSizes = { raspberryPi: 3, raspberryPi5: 1, jetson: 3, cybercam: 1, walnutPi: 1, linuxSbc: 7, blinka: 4 };
-  const groups = { all: types, raspberryPi, raspberryPi5, jetson, cybercam, walnutPi, linuxSbc, blinka };
+  const expectedSizes = { raspberryPi: 3, raspberryPi5: 1, jetson: 3, cybercam: 1, walnutPi: 1, rockchip: 2, linuxSbc: 9, blinka: 4 };
+  const groups = { all: types, raspberryPi, raspberryPi5, jetson, cybercam, walnutPi, rockchip, linuxSbc, blinka };
   for (const [name, size] of Object.entries(expectedSizes)) {
     if (groups[name].length !== size) {
       throw new Error(`unexpected ${name} board count in LIST.md: expected ${size}, found ${groups[name].length}`);
@@ -65,6 +72,7 @@ function platformFamilyForType(type) {
     broadcom: 'Raspberry Pi',
     canaan: 'CyberCAM',
     nvidia: 'NVIDIA Jetson',
+    rockchip: 'Rockchip',
   };
   const family = families[vendor];
   if (!family) throw new Error(`unknown platform family for board type: ${type}`);
@@ -80,13 +88,17 @@ function isPlatformExclusive(types) {
 }
 
 function compatibilityFor(directory, groups) {
-  if (ALL_BOARD_LIBRARIES.has(directory)) return groups.all;
+  if (ALL_BOARD_LIBRARIES.has(directory)) {
+    return ROCKCHIP_LIBRARIES.has(directory)
+      ? groups.all
+      : groups.all.filter((type) => !groups.rockchip.includes(type));
+  }
   if (CYBERCAM_LIBRARIES.has(directory)) return groups.cybercam;
   if (JETSON_LIBRARIES.has(directory)) return groups.jetson;
   if (RASPBERRY_PI_5_LIBRARIES.has(directory)) return groups.raspberryPi5;
   if (RASPBERRY_PI_LIBRARIES.has(directory)) return groups.raspberryPi;
   if (isBlinkaHardwareLibrary(directory)) return groups.blinka;
-  return groups.linuxSbc;
+  return groups.linuxSbc.filter((type) => !groups.rockchip.includes(type));
 }
 
 function libraryDirectories() {

@@ -45,7 +45,7 @@ function markdown(records) {
   const lines = [
     '# 平台专用库 spec 审计',
     '',
-    '本清单依据 `catalog/board-types.json` 和每个库的 `package.json.compatibility.type` 逐包生成。平台家族按 SoC/厂商归并为 Raspberry Pi、NVIDIA Jetson、CyberCAM 和 WalnutPi；同一平台的多个板型仍视为单一平台。',
+    '本清单依据 `catalog/board-types.json` 和每个库的 `package.json.compatibility.type` 逐包生成。平台家族按 SoC/厂商归并为 Raspberry Pi、NVIDIA Jetson、CyberCAM、WalnutPi 和 Rockchip；同一平台的多个板型仍视为单一平台。',
     '',
     '`spec: true` 会让库管理器执行精确的 `compatibility.type` 过滤。平台专用库必须设置该字段；跨平台库若仍需要排除部分板卡，也保留现有字段，避免客户端绕过兼容性过滤。',
     '',
