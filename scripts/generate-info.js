@@ -231,8 +231,8 @@ function buildInfo(folderName, packageJson, catalogEntry) {
 
   return {
     $schema: 'library-info-schema',
-    name: packageJson.name.replace('@aily-project/', ''),
-    displayName: packageJson.nickname || packageJson.name.replace('@aily-project/', ''),
+    name: packageJson.name.replace('@aily-project-linux/', ''),
+    displayName: packageJson.nickname || packageJson.name.replace('@aily-project-linux/', ''),
     category: catalogEntry && catalogEntry.category
       ? catalogEntry.category
       : fallbackCategory(folderName, packageJson),
